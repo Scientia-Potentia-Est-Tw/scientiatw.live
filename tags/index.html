@@ -101,9 +101,12 @@
 
 
 
-
-
-
+<li>
+  <a class="group inline-flex items-center p-2 cursor-pointer" href="/search" title="搜索">
+    <ion-icon name="search"></ion-icon>
+    搜索
+  </a>
+</li>
 
 
 
@@ -164,7 +167,7 @@
 
 
 
-<div role="link" tabindex="0" class="text-sm font-semibold cursor-pointer hover:underline" @click="flip = !flip" title="關於">關於</div>
+<div role="link" tabindex="0" class="text-sm font-semibold cursor-pointer hover:underline" @click="flip = !flip" title="關於本站">關於本站</div>
 
 
 
@@ -172,9 +175,9 @@
 
       
       
-
-
-
+<a class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary" href="/search" title="搜索">
+  <ion-icon class="group-hover:text-primary-content" name="search"></ion-icon>
+</a>
 
 
       
@@ -423,10 +426,35 @@
       class="card card-compact bg-base-100 hover:bg-base-content/10 shadow-xl dark:border dark:border-base-content/30"
     >
       <div class="card-body">
-        <div class="card-title">Me</div>
+        <div class="card-title">關於我</div>
 
         <div class="prose dark:prose-invert">
-          <p>歡迎</p>
+          <p>我是站長Scientia</p>
+<p>任何合作或問題請寄到信箱內：scientia.infosec@gmail.com</p>
+
+        </div>
+      </div>
+    </article>
+  </div>
+  
+  <div class="w-full md:w-1/2 lg:w-1/3 xl:w-1/4 p-4 dream-column">
+    <article
+      class="card card-compact bg-base-100 hover:bg-base-content/10 shadow-xl dark:border dark:border-base-content/30"
+    >
+      <div class="card-body">
+        <div class="card-title">其他連結</div>
+
+        <div class="prose dark:prose-invert">
+          <ul>
+<li>
+<p><a href="https://scientia-potentia-est.com" target="_blank">技術部落格</a>
+</p>
+</li>
+<li>
+<p><a href="https://www.instagram.com/scientia_potentia_est_tw/" target="_blank">Instagram</a>
+</p>
+</li>
+</ul>
 
         </div>
       </div>
