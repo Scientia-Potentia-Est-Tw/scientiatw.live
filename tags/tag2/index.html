@@ -9,6 +9,10 @@
     <title>Tag2 | Scientia</title>
 
     
+  
+    <link href="/img/favicon.png" rel="icon" type="image/x-icon" />
+  
+
 
 <link rel="canonical" href="//localhost:1313/tags/tag2/" />
 
@@ -56,7 +60,10 @@
     <div id="dream-global-bg"></div>
 
     
-<nav class="mt-4 lg:mt-8 py-4">
+<nav x-data="{ isSticky: false }"
+  x-init="window.addEventListener('scroll', () => { isSticky = window.scrollY > 30 })"
+  class="sticky top-0 z-30 mt-4 lg:mt-8 py-4"
+  :class="{ 'bg-base-100 shadow-lg dark:border-b dark:border-base-content/30': isSticky }">
 
   
   <div class="container flex justify-between px-4">
@@ -64,7 +71,7 @@
     <section class="flex items-center gap-4">
       <div class="avatar cursor-pointer hover:online" @click="flip = !flip" title="翻轉一下！">
         <div class="h-10 rounded-full">
-          <img src="/" alt="Hugo Theme Dream" />
+          <img src="/img/Author.png" alt="Scientia&#39;s live" />
         </div>
       </div>
 
@@ -72,7 +79,7 @@
       <div>
         
         <a href="//localhost:1313/" class="text-lg font-semibold cursor-pointer">
-          Hugo Theme Dream
+          Scientia&#39;s live
         </a>
         
         
@@ -240,21 +247,21 @@
       <div class="dream-grid">
         
           <div class="w-full md:w-1/2 lg:w-1/3 p-4 dream-column">
-            <a class="card card-compact bg-base-100 hover:bg-base-content/10 shadow-xl cursor-pointer dark:border dark:border-base-content/30" href="/posts/first/">
+            <a class="card card-compact bg-base-100 hover:bg-base-content/10 shadow-xl cursor-pointer dark:border dark:border-base-content/30" href="/posts/perennial_seller/">
   
   <figure>
     
-    <img src="/img/cover.jpg" alt="First" />
+    <img src="/img/perennial_seller_cover.webp" alt="《長銷》讀後心得：內容、定位、行銷、平台，從個人創作到企業經營都要懂的打造經典之道" />
     
   </figure>
   
 
   <div class="card-body">
-    <h2 class="card-title">First</h2>
+    <h2 class="card-title">《長銷》讀後心得：內容、定位、行銷、平台，從個人創作到企業經營都要懂的打造經典之道</h2>
 
     <p class="date text-base-content/60">
     
-      星期六, 3月 15, 2025
+      星期四, 5月 25, 2023
     
     </p>
 
@@ -265,13 +272,17 @@
       
         <div class="flex items-center">
   
-  <span>@</span>
+  <div class="avatar mr-1">
+    <div class="w-8 rounded-full">
+      <img class="my-0" src="/img/Author.png" alt="Scientia" />
+    </div>
+  </div>
   
 
   <span itemprop="author" itemscope itemtype="https://schema.org/Person">
   
     
-      <span itemprop="name">Author Name</span>
+      <span itemprop="name">Scientia</span>
     
   
   </span>
@@ -308,14 +319,6 @@
   </p>
   
 
-  
-  <p class="text-sm">
-    🌱
-    <span class="text-base-content/60">
-      Powered by <a class="hover:underline" href="https://gohugo.io/" target="_blank">Hugo</a> with theme
-      <a class="hover:underline" href="https://github.com/g1eny0ung/hugo-theme-dream" target="_blank">Dream</a>.</span
-    >
-  </p>
   
 </div>
 
@@ -391,14 +394,6 @@
   </p>
   
 
-  
-  <p class="text-sm">
-    🌱
-    <span class="text-base-content/60">
-      Powered by <a class="hover:underline" href="https://gohugo.io/" target="_blank">Hugo</a> with theme
-      <a class="hover:underline" href="https://github.com/g1eny0ung/hugo-theme-dream" target="_blank">Dream</a>.</span
-    >
-  </p>
   
 </div>
 

@@ -3,7 +3,7 @@
   x-data
   :class="$store.darkMode.class()"
   :data-theme="$store.darkMode.theme()">
-  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>
@@ -12,8 +12,12 @@
 所有標籤 | Scientia</title>
 
     
+  
+    <link href="/Scientia-Potentia-Est-Tw.github.io/img/favicon.png" rel="icon" type="image/x-icon" />
+  
 
-<link rel="canonical" href="//localhost:1313/tags/" />
+
+<link rel="canonical" href="Scientia-Potentia-Est-Tw.github.io/tags/" />
 
 
 
@@ -25,7 +29,7 @@
 <meta name="generator" content="Hugo 0.145.0">
 
 
-<meta property="og:url" content="//localhost:1313/tags/">
+<meta property="og:url" content="Scientia-Potentia-Est-Tw.github.io/tags/">
   <meta property="og:site_name" content="Scientia">
   <meta property="og:title" content="Tags">
   <meta property="og:locale" content="zh">
@@ -40,7 +44,9 @@
 
 
 
-<link rel="stylesheet" href="/css/output.css" />
+  
+
+<link rel="stylesheet" href="Scientia-Potentia-Est-Tw.github.io/css/output.min.css" />
 
 
 
@@ -59,7 +65,10 @@
     <div id="dream-global-bg"></div>
 
     
-<nav class="mt-4 lg:mt-8 py-4">
+<nav x-data="{ isSticky: false }"
+  x-init="window.addEventListener('scroll', () => { isSticky = window.scrollY > 30 })"
+  class="sticky top-0 z-30 mt-4 lg:mt-8 py-4"
+  :class="{ 'bg-base-100 shadow-lg dark:border-b dark:border-base-content/30': isSticky }">
 
   
   <div class="container flex justify-between px-4">
@@ -67,15 +76,15 @@
     <section class="flex items-center gap-4">
       <div class="avatar cursor-pointer hover:online" @click="flip = !flip" title="翻轉一下！">
         <div class="h-10 rounded-full">
-          <img src="/" alt="Hugo Theme Dream" />
+          <img src="/Scientia-Potentia-Est-Tw.github.io/img/Author.png" alt="Scientia&#39;s live" />
         </div>
       </div>
 
       
       <div>
         
-        <a href="//localhost:1313/" class="text-lg font-semibold cursor-pointer">
-          Hugo Theme Dream
+        <a href="Scientia-Potentia-Est-Tw.github.io/" class="text-lg font-semibold cursor-pointer">
+          Scientia&#39;s live
         </a>
         
         
@@ -99,15 +108,18 @@
 
 
 
-
-
-
+<li>
+  <a class="inline-flex items-center p-2 cursor-pointer" href="/Scientia-Potentia-Est-Tw.github.io/index.xml" title="RSS">
+    <ion-icon name="logo-rss"></ion-icon>
+    RSS
+  </a>
+</li>
 
 
 
 
 <li>
-  <a class="inline-flex items-center p-2 cursor-pointer" href="/posts" title="文章列表">
+  <a class="inline-flex items-center p-2 cursor-pointer" href="/Scientia-Potentia-Est-Tw.github.io/posts" title="文章列表">
     <ion-icon name="archive"></ion-icon>
     文章列表
   </a>
@@ -117,7 +129,7 @@
 
 
 <li>
-  <a class="inline-flex items-center p-2 cursor-pointer" href="/categories" title="所有分類">
+  <a class="inline-flex items-center p-2 cursor-pointer" href="/Scientia-Potentia-Est-Tw.github.io/categories" title="所有分類">
     <ion-icon name="grid"></ion-icon>
     所有分類
   </a>
@@ -127,7 +139,7 @@
 
 
 <li>
-  <a class="inline-flex items-center p-2 cursor-pointer" href="/tags" title="所有標籤">
+  <a class="inline-flex items-center p-2 cursor-pointer" href="/Scientia-Potentia-Est-Tw.github.io/tags" title="所有標籤">
     <ion-icon name="pricetags"></ion-icon>
     所有標籤
   </a>
@@ -167,28 +179,28 @@
 
       
       
-
-
-
+<a class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary" href="/Scientia-Potentia-Est-Tw.github.io/index.xml" title="RSS">
+  <ion-icon class="group-hover:text-primary-content" name="logo-rss"></ion-icon>
+</a>
 
 
       
       
-<a class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary" href="/posts" title="文章列表">
+<a class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary" href="/Scientia-Potentia-Est-Tw.github.io/posts" title="文章列表">
   <ion-icon class="group-hover:text-primary-content" name="archive"></ion-icon>
 </a>
 
 
       
       
-<a class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary" href="/categories" title="所有分類">
+<a class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary" href="/Scientia-Potentia-Est-Tw.github.io/categories" title="所有分類">
   <ion-icon class="group-hover:text-primary-content" name="grid"></ion-icon>
 </a>
 
 
       
       
-<a class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary" href="/tags" title="所有標籤">
+<a class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary" href="/Scientia-Potentia-Est-Tw.github.io/tags" title="所有標籤">
   <ion-icon class="group-hover:text-primary-content" name="pricetags"></ion-icon>
 </a>
 
@@ -217,12 +229,12 @@
     <p class="text-sm">2標籤</p>
     <div class="flex flex-wrap gap-4 mt-6">
       
-      <a href="/tags/tag1/" class="badge h-6 no-underline hover:badge-primary">
-        Tag1
+      <a href="Scientia-Potentia-Est-Tw.github.io/tags/%E5%89%B5%E4%BD%9C/" class="badge h-6 no-underline hover:badge-primary">
+        創作
       </a>
       
-      <a href="/tags/tag2/" class="badge h-6 no-underline hover:badge-primary">
-        Tag2
+      <a href="Scientia-Potentia-Est-Tw.github.io/tags/%E5%95%86%E6%A5%AD/" class="badge h-6 no-underline hover:badge-primary">
+        商業
       </a>
       
     </div>
@@ -237,38 +249,42 @@
     <div class="dream-grid">
       
         <div class="w-full md:w-1/2 lg:w-1/3 p-4 dream-column">
-          <a class="card card-compact bg-base-100 hover:bg-base-content/10 shadow-xl cursor-pointer dark:border dark:border-base-content/30" href="/posts/first/">
+          <a class="card card-compact bg-base-100 hover:bg-base-content/10 shadow-xl cursor-pointer dark:border dark:border-base-content/30" href="Scientia-Potentia-Est-Tw.github.io/posts/perennial_seller/">
   
   <figure>
     
-    <img src="/img/cover.jpg" alt="First" />
+    <img src="/img/perennial_seller_cover.webp" alt="《長銷》讀後心讀：內容為王" />
     
   </figure>
   
 
   <div class="card-body">
-    <h2 class="card-title">First</h2>
+    <h2 class="card-title">《長銷》讀後心讀：內容為王</h2>
 
     <p class="date text-base-content/60">
     
-      星期六, 3月 15, 2025
+      星期四, 5月 25, 2023
     
     </p>
 
-    <p>Cut out summary from your post content here.</p>
+    <p>世界上眾多創作者通常對於產出經典長銷作品都抱有非常大的興趣，希望自己的作品能夠真正解決其他人的問題，而具體要如何做到，透過萊恩·霍利得(Ryan Holiday)寫的這本書，帶給我們一些能夠讓作品存活久一點的策略</p>
 
     
     <div class="card-actions justify-between items-center mt-4">
       
         <div class="flex items-center">
   
-  <span>@</span>
+  <div class="avatar mr-1">
+    <div class="w-8 rounded-full">
+      <img class="my-0" src="/img/Author.png" alt="Scientia" />
+    </div>
+  </div>
   
 
   <span itemprop="author" itemscope itemtype="https://schema.org/Person">
   
     
-      <span itemprop="name">Author Name</span>
+      <span itemprop="name">Scientia</span>
     
   
   </span>
@@ -306,13 +322,7 @@
   
 
   
-  <p class="text-sm">
-    🌱
-    <span class="text-base-content/60">
-      Powered by <a class="hover:underline" href="https://gohugo.io/" target="_blank">Hugo</a> with theme
-      <a class="hover:underline" href="https://github.com/g1eny0ung/hugo-theme-dream" target="_blank">Dream</a>.</span
-    >
-  </p>
+  <p>from Scientia Potentia Est</p>
   
 </div>
 
@@ -389,13 +399,7 @@
   
 
   
-  <p class="text-sm">
-    🌱
-    <span class="text-base-content/60">
-      Powered by <a class="hover:underline" href="https://gohugo.io/" target="_blank">Hugo</a> with theme
-      <a class="hover:underline" href="https://github.com/g1eny0ung/hugo-theme-dream" target="_blank">Dream</a>.</span
-    >
-  </p>
+  <p>from Scientia Potentia Est</p>
   
 </div>
 
@@ -444,12 +448,16 @@
 
   
   
-  <script src="/js/grid.js"></script>
+    
+  
+  <script src="Scientia-Potentia-Est-Tw.github.io/js/grid.min.js"></script>
 
 
 
 
-<script src="/js/main.js"></script>
+  
+
+<script src="Scientia-Potentia-Est-Tw.github.io/js/main.min.js"></script>
 
     
 
