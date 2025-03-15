@@ -1,0 +1,75 @@
+baseurl = "Scientia-Potentia-Est-Tw.github.io"
+defaultContentLanguage = "zh"
+languageCode = "zh"
+title = "Scientia"
+theme = "dream"
+
+# [services]
+# [services.disqus]
+# shortname = ""
+# [services.googleAnalytics]
+# ID = ""
+
+[params]
+# zenMode = true
+
+lightTheme = "emerald"
+darkTheme = "forest"
+
+# backgroundImage = "img/global-background.jpg"
+# backgroundImageDark = ""
+
+author = "Scientia"
+# description = ""
+avatar = "img/Author.png"
+headerTitle = "Scientia's live"
+#motto = "from Scientia Potentia Est"
+
+footerBottomText = "from Scientia Potentia Est"
+
+rss = true
+
+# utterancesRepo = ""
+
+# valine = true
+# LEANCLOUD_APP_ID = ""
+# LEANCLOUD_APP_KEY = ""
+
+# waline = true
+# walineServer = ""
+
+email = "scientia.infosec@gmail.com"
+
+siteStartYear = 2025
+
+favicon = "img/favicon.png"
+
+# Syntax highlighting
+#customSyntaxHighlighting = true
+
+# options
+stickyNav = true
+# reorderNavItems = ["about", "search", "rss", "posts", "categories", "tags"]
+# collapseNavItems = ["posts", "categories", "tags"]
+# noDefaultSummaryCover = true
+showTableOfContents = true
+showSummaryCoverInPost = true
+imageZoomableInPost = true
+showPrevNextPost = true
+# reorderShares = ["x", "facebook", "whatsapp"]
+
+# [params.navItems]
+
+# [params.twikoo]
+# enabled = true
+# envID = ""
+# region = ""
+# lang = ""
+
+# [params.advanced]
+# customCSS = ["css/custom.css"]
+# customJS = []
+
+# [params.experimental]
+# jsDate = true
+# jsDateFormat = "yyyy年MM月dd日"
