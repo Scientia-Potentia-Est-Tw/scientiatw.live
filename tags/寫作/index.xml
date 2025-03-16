@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Scientia</title>
-    <link>https://scientiatw.live/</link>
-    <description>Recent content on Scientia</description>
+    <title>寫作 on Scientia</title>
+    <link>https://scientiatw.live/tags/%E5%AF%AB%E4%BD%9C/</link>
+    <description>Recent content in 寫作 on Scientia</description>
     <generator>Hugo</generator>
     <language>zh</language>
     <lastBuildDate>Sun, 16 Mar 2025 20:50:00 +0800</lastBuildDate>
-    <atom:link href="https://scientiatw.live/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://scientiatw.live/tags/%E5%AF%AB%E4%BD%9C/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>《研究生完全求生手冊》讀後心得：Problematic</title>
       <link>https://scientiatw.live/posts/survival_handbook_for_graduate_student_problematic/</link>
@@ -42,34 +42,6 @@
       <pubDate>Tue, 06 Jun 2023 12:58:00 +0800</pubDate>
       <guid>https://scientiatw.live/posts/survival_handbook_for_graduate_student_read/</guid>
       <description>&lt;p&gt;在動手開始寫之前肯定得先閱讀大量的文獻，才能知道說領域內目前還有哪些問題值得探討，還有哪些題目還未解決&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>《長銷》讀後心讀：市場定位</title>
-      <link>https://scientiatw.live/posts/perennial_seller_positioning/</link>
-      <pubDate>Fri, 26 May 2023 08:00:00 +0800</pubDate>
-      <guid>https://scientiatw.live/posts/perennial_seller_positioning/</guid>
-      <description>&lt;p&gt;定位不到位，再多的行銷都無法彌補，再好的產品也只能報廢。&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>《長銷》讀後心讀：行銷給誰？</title>
-      <link>https://scientiatw.live/posts/perennial_seller_marketing/</link>
-      <pubDate>Fri, 26 May 2023 08:00:00 +0800</pubDate>
-      <guid>https://scientiatw.live/posts/perennial_seller_marketing/</guid>
-      <description>&lt;p&gt;除了砸大錢，還有很多高CP值的行銷工具可以用！&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>《長銷》讀後心讀：最後的戰場-平台</title>
-      <link>https://scientiatw.live/posts/perennial_seller_platform/</link>
-      <pubDate>Fri, 26 May 2023 08:00:00 +0800</pubDate>
-      <guid>https://scientiatw.live/posts/perennial_seller_platform/</guid>
-      <description>&lt;p&gt;創意人的創業家思維必須具備以下幾種想法&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>《長銷》讀後心讀：內容為王</title>
-      <link>https://scientiatw.live/posts/perennial_seller_content/</link>
-      <pubDate>Thu, 25 May 2023 11:59:00 +0800</pubDate>
-      <guid>https://scientiatw.live/posts/perennial_seller_content/</guid>
-      <description>&lt;p&gt;世界上眾多創作者通常對於產出經典長銷作品都抱有非常大的興趣，希望自己的作品能夠真正解決其他人的問題，而具體要如何做到，透過萊恩·霍利得(Ryan Holiday)寫的這本書，帶給我們一些能夠讓作品存活久一點的策略&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

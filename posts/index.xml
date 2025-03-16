@@ -6,8 +6,43 @@
     <description>Recent content in Posts on Scientia</description>
     <generator>Hugo</generator>
     <language>zh</language>
-    <lastBuildDate>Sun, 16 Mar 2025 20:07:00 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 16 Mar 2025 20:50:00 +0800</lastBuildDate>
     <atom:link href="https://scientiatw.live/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>《研究生完全求生手冊》讀後心得：Problematic</title>
+      <link>https://scientiatw.live/posts/survival_handbook_for_graduate_student_problematic/</link>
+      <pubDate>Tue, 06 Jun 2023 12:58:00 +0800</pubDate>
+      <guid>https://scientiatw.live/posts/survival_handbook_for_graduate_student_problematic/</guid>
+      <description>&lt;p&gt;學術界在開始研究一個實際問題之前，會先做problem formulation，將原本複雜的問題其core-problem抽取出來，進行簡化或者抽象化，這樣會有一些好處&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>《研究生完全求生手冊》讀後心得：創新要領？</title>
+      <link>https://scientiatw.live/posts/survival_handbook_for_graduate_student_innovation/</link>
+      <pubDate>Tue, 06 Jun 2023 12:58:00 +0800</pubDate>
+      <guid>https://scientiatw.live/posts/survival_handbook_for_graduate_student_innovation/</guid>
+      <description>&lt;p&gt;文獻回顧除了讓你清楚知道各研究流派的前因後果，更能培養出批判性思考的能力，避免沒必要的錯誤和研究上的弱點，並且從文獻回顧中找到創新的靈感與策略，為了達成這些目標，必須先回答三個問題&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>《研究生完全求生手冊》讀後心得：為了什麼而研究？</title>
+      <link>https://scientiatw.live/posts/survival_handbook_for_graduate_student_goal/</link>
+      <pubDate>Tue, 06 Jun 2023 12:58:00 +0800</pubDate>
+      <guid>https://scientiatw.live/posts/survival_handbook_for_graduate_student_goal/</guid>
+      <description>&lt;p&gt;研究的目的是找到正確的答案，你可以從網路上找到許多似是而非的答案，但要如何分辨這些資訊的可靠性與互補性，你需要進行一系列的搜尋與篩選，才能過濾掉無用的內容，當你整理出你需要的東西後，你該如何對這些資訊進行分析、比對才能拼湊出完整的正確答案？&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>《研究生完全求生手冊》讀後心得：寫作方向</title>
+      <link>https://scientiatw.live/posts/survival_handbook_for_graduate_student_write/</link>
+      <pubDate>Tue, 06 Jun 2023 12:58:00 +0800</pubDate>
+      <guid>https://scientiatw.live/posts/survival_handbook_for_graduate_student_write/</guid>
+      <description>&lt;p&gt;學術著作在撰寫時總需要滿足一些基本的特性&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>《研究生完全求生手冊》讀後心得：閱讀期刊論文方法</title>
+      <link>https://scientiatw.live/posts/survival_handbook_for_graduate_student_read/</link>
+      <pubDate>Tue, 06 Jun 2023 12:58:00 +0800</pubDate>
+      <guid>https://scientiatw.live/posts/survival_handbook_for_graduate_student_read/</guid>
+      <description>&lt;p&gt;在動手開始寫之前肯定得先閱讀大量的文獻，才能知道說領域內目前還有哪些問題值得探討，還有哪些題目還未解決&lt;/p&gt;</description>
+    </item>
     <item>
       <title>《長銷》讀後心讀：市場定位</title>
       <link>https://scientiatw.live/posts/perennial_seller_positioning/</link>
@@ -35,13 +70,6 @@
       <pubDate>Thu, 25 May 2023 11:59:00 +0800</pubDate>
       <guid>https://scientiatw.live/posts/perennial_seller_content/</guid>
       <description>&lt;p&gt;世界上眾多創作者通常對於產出經典長銷作品都抱有非常大的興趣，希望自己的作品能夠真正解決其他人的問題，而具體要如何做到，透過萊恩·霍利得(Ryan Holiday)寫的這本書，帶給我們一些能夠讓作品存活久一點的策略&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title></title>
-      <link>https://scientiatw.live/posts/survival_handbook_for_graduate_student_goal/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://scientiatw.live/posts/survival_handbook_for_graduate_student_goal/</guid>
-      <description></description>
     </item>
   </channel>
 </rss>
