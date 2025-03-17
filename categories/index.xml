@@ -6,8 +6,15 @@
     <description>Recent content in Categories on Scientia</description>
     <generator>Hugo</generator>
     <language>zh</language>
-    <lastBuildDate>Sun, 16 Mar 2025 21:18:00 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 17 Mar 2025 22:13:00 +0800</lastBuildDate>
     <atom:link href="https://scientiatw.live/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>閱讀</title>
+      <link>https://scientiatw.live/categories/%E9%96%B1%E8%AE%80/</link>
+      <pubDate>Mon, 17 Mar 2025 22:13:00 +0800</pubDate>
+      <guid>https://scientiatw.live/categories/%E9%96%B1%E8%AE%80/</guid>
+      <description></description>
+    </item>
     <item>
       <title>研究</title>
       <link>https://scientiatw.live/categories/%E7%A0%94%E7%A9%B6/</link>
@@ -20,13 +27,6 @@
       <link>https://scientiatw.live/categories/3c/</link>
       <pubDate>Wed, 13 Nov 2024 15:03:00 +0800</pubDate>
       <guid>https://scientiatw.live/categories/3c/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>閱讀</title>
-      <link>https://scientiatw.live/categories/%E9%96%B1%E8%AE%80/</link>
-      <pubDate>Tue, 06 Jun 2023 12:58:00 +0800</pubDate>
-      <guid>https://scientiatw.live/categories/%E9%96%B1%E8%AE%80/</guid>
       <description></description>
     </item>
   </channel>
