@@ -1,6 +1,6 @@
 [data-theme="emerald"] #disqus_thread {
   color-scheme: none;
-  background-color: #cbc9ca;
+  background-color: #fff;
 }
  
 [data-theme="emerald"] #disqus_thread a {
@@ -13,5 +13,5 @@
 }
  
 [data-theme="forest"] #disqus_thread a {
-  color: #fff;
+  color: #cbc9ca;
 }
