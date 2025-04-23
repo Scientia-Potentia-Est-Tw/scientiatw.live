@@ -1,0 +1,678 @@
+<!DOCTYPE html>
+<html lang="zh"
+  x-data
+  :class="$store.darkMode.class()"
+  :data-theme="$store.darkMode.theme()">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>《為什麼要睡覺？》：理性思考最後才成熟 | Scientia&#39;s live</title>
+
+    
+  
+    <link href="/img/favicon.png" rel="icon" type="image/x-icon" />
+  
+
+
+<link rel="canonical" href="https://scientiatw.live/posts/why-we-sleep-youth/" />
+
+
+
+<meta name="author" content="Scientia" />
+<meta name="description" content="你會不會覺得十六歲的青少年腦中總是少根筋？然而從腦神經科學中發現其實這是正常的
+" />
+
+
+<meta name="keywords" content="睡眠,健康">
+
+
+
+<meta name="generator" content="Hugo 0.145.0">
+
+
+<meta property="og:url" content="https://scientiatw.live/posts/why-we-sleep-youth/">
+  <meta property="og:site_name" content="Scientia&#39;s live">
+  <meta property="og:title" content="《為什麼要睡覺？》：理性思考最後才成熟">
+  <meta property="og:description" content="你會不會覺得十六歲的青少年腦中總是少根筋？然而從腦神經科學中發現其實這是正常的">
+  <meta property="og:locale" content="zh">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2025-03-29T10:42:00+08:00">
+    <meta property="article:modified_time" content="2025-03-29T10:42:00+08:00">
+    <meta property="article:tag" content="睡眠">
+    <meta property="article:tag" content="健康">
+
+
+
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="《為什麼要睡覺？》：理性思考最後才成熟">
+  <meta name="twitter:description" content="你會不會覺得十六歲的青少年腦中總是少根筋？然而從腦神經科學中發現其實這是正常的">
+
+
+
+
+  
+
+<link rel="stylesheet" href="/css/output.min.css" />
+
+
+
+
+    
+
+
+<style>
+  pre {
+    padding: 1em;
+    overflow: auto;
+  }
+</style>
+
+
+
+
+
+
+
+
+
+    
+    <link rel="stylesheet" href="/css/custom.css" />
+    
+
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+  </head>
+
+  <body x-data="{
+    flip: false,
+  }">
+    
+    <div id="dream-global-bg"></div>
+
+    
+<nav x-data="{ isSticky: false }"
+  x-init="window.addEventListener('scroll', () => { isSticky = window.scrollY > 30 })"
+  class="sticky top-0 z-30 mt-4 lg:mt-8 py-4"
+  :class="{ 'bg-base-100 shadow-lg dark:border-b dark:border-base-content/30': isSticky }">
+
+  
+  <div class="container flex justify-between px-4">
+  
+    <section class="flex items-center gap-4">
+      <div class="avatar cursor-pointer hover:online" @click="flip = !flip" title="翻轉一下！">
+        <div class="h-10 rounded-full">
+          <img src="/img/Author.png" alt="Scientia&#39;s live" />
+        </div>
+      </div>
+
+      
+      <div>
+        
+        <a href="https://scientiatw.live/" class="text-lg font-semibold cursor-pointer">
+          Scientia&#39;s live
+        </a>
+        
+        
+        <div class="text-base-content/60 text-sm">Social Blog</div>
+        
+      </div>
+      
+    </section>
+
+    <div class="dropdown dropdown-end sm:hidden">
+      <div tabindex="0" role="button" class="btn btn-ghost btn-square" aria-label="Select an option">
+        <ion-icon name="menu" class="text-2xl"></ion-icon>
+      </div>
+      <ul tabindex="0" class="dropdown-content menu w-36 bg-base-100 rounded-box z-[1] shadow-md">
+        
+
+
+
+<li>
+  <a class="group inline-flex items-center p-2 cursor-pointer" href="/search" title="搜尋">
+    <ion-icon name="search"></ion-icon>
+    搜尋
+  </a>
+</li>
+
+
+
+
+<li>
+  <a class="inline-flex items-center p-2 cursor-pointer" href="/index.xml" title="RSS">
+    <ion-icon name="logo-rss"></ion-icon>
+    RSS
+  </a>
+</li>
+
+
+
+
+<li>
+  <a class="inline-flex items-center p-2 cursor-pointer" href="/posts" title="文章列表">
+    <ion-icon name="archive"></ion-icon>
+    文章列表
+  </a>
+</li>
+
+
+
+
+<li>
+  <a class="inline-flex items-center p-2 cursor-pointer" href="/categories" title="所有分類">
+    <ion-icon name="grid"></ion-icon>
+    所有分類
+  </a>
+</li>
+
+
+
+
+<li>
+  <a class="inline-flex items-center p-2 cursor-pointer" href="/tags" title="所有標籤">
+    <ion-icon name="pricetags"></ion-icon>
+    所有標籤
+  </a>
+</li>
+
+
+
+
+
+
+      </ul>
+    </div>
+    <section class="hidden sm:flex sm:items-center sm:gap-2 md:gap-4">
+      
+      
+
+      
+
+      
+      
+      
+      
+
+
+
+
+<div role="link" tabindex="0" class="text-sm font-semibold cursor-pointer hover:underline" @click="flip = !flip" title="關於本站">關於本站</div>
+
+
+
+
+
+      
+      
+<a class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary" href="/search" title="搜尋">
+  <ion-icon class="group-hover:text-primary-content" name="search"></ion-icon>
+</a>
+
+
+      
+      
+<a class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary" href="/index.xml" title="RSS">
+  <ion-icon class="group-hover:text-primary-content" name="logo-rss"></ion-icon>
+</a>
+
+
+      
+
+      <div class="dropdown dropdown-end dropdown-hover">
+        <div tabindex="0" role="button" class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary" aria-label="Select an option">
+          <ion-icon class="group-hover:text-primary-content text-xl" name="menu"></ion-icon>
+        </div>
+        <ul tabindex="0" class="dropdown-content menu w-36 bg-base-100 rounded-box z-[1] shadow-xl">
+          
+          
+<li>
+  <a class="inline-flex items-center p-2 cursor-pointer" href="/posts" title="文章列表">
+    <ion-icon name="archive"></ion-icon>
+    文章列表
+  </a>
+</li>
+
+
+          
+          
+<li>
+  <a class="inline-flex items-center p-2 cursor-pointer" href="/categories" title="所有分類">
+    <ion-icon name="grid"></ion-icon>
+    所有分類
+  </a>
+</li>
+
+
+          
+          
+<li>
+  <a class="inline-flex items-center p-2 cursor-pointer" href="/tags" title="所有標籤">
+    <ion-icon name="pricetags"></ion-icon>
+    所有標籤
+  </a>
+</li>
+
+
+          
+
+          
+        </ul>
+      </div>
+      
+    </section>
+  </div>
+</nav>
+
+
+    <div class="flip-container" :class="{ 'flip-it': flip }">
+      <div class="flipper">
+        <div class="front">
+          <div class="container">
+            
+<div class="lg:grid lg:grid-cols-4 gap-4 mt-4 px-4">
+  <div class="hidden lg:block">
+    
+  </div>
+
+  <div class="lg:col-span-2">
+    <article class="mx-auto prose prose-quoteless dark:prose-invert" id="dream-single-post-main" itemscope itemtype="http://schema.org/Article">
+      
+  <meta itemprop="name" content="《為什麼要睡覺？》：理性思考最後才成熟">
+  <meta itemprop="description" content="你會不會覺得十六歲的青少年腦中總是少根筋？然而從腦神經科學中發現其實這是正常的">
+  <meta itemprop="datePublished" content="2025-03-29T10:42:00+08:00">
+  <meta itemprop="dateModified" content="2025-03-29T10:42:00+08:00">
+  <meta itemprop="wordCount" content="1068">
+  <meta itemprop="keywords" content="睡眠,健康">
+
+      <header>
+        <h1 itemprop="headline">《為什麼要睡覺？》：理性思考最後才成熟</h1>
+        <p class="text-sm">
+          
+            星期六, 3月 29, 2025
+          
+
+          | <span>3分鐘閱讀</span>
+
+          
+          | <span>更新於
+            
+              星期六, 3月 29, 2025
+            </span>
+          
+        </p>
+
+        
+        <div class="flex justify-between">
+          
+            <div class="flex items-center">
+  
+  <div class="avatar mr-1">
+    <div class="w-8 rounded-full">
+      <img class="my-0" src="/img/Author.png" alt="Scientia" />
+    </div>
+  </div>
+  
+
+  <span itemprop="author" itemscope itemtype="https://schema.org/Person">
+  
+    
+      <a itemprop="url" href="https://scientia-potentia-est.com/zh/hong-sheng-huang-zh/" target="_blank">
+        <span itemprop="name">Scientia</span>
+      </a>
+    
+  
+  </span>
+</div>
+
+          
+
+          <div class="flex items-center gap-2">
+  
+  
+
+  
+  
+  
+  
+  
+    <a class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary"
+      href="https://x.com/intent/post?text=%e3%80%8a%e7%82%ba%e4%bb%80%e9%ba%bc%e8%a6%81%e7%9d%a1%e8%a6%ba%ef%bc%9f%e3%80%8b%ef%bc%9a%e7%90%86%e6%80%a7%e6%80%9d%e8%80%83%e6%9c%80%e5%be%8c%e6%89%8d%e6%88%90%e7%86%9f&amp;url=https://scientiatw.live/posts/why-we-sleep-youth/" target="_blank" rel="noopener noreferrer"
+      title="Share on X">
+      <ion-icon class="group-hover:text-primary-content" name="logo-x"></ion-icon>
+    </a>
+  
+    <a class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary"
+      href="https://facebook.com/sharer/sharer.php?u=https://scientiatw.live/posts/why-we-sleep-youth/" target="_blank" rel="noopener noreferrer"
+      title="Share on Facebook">
+      <ion-icon class="group-hover:text-primary-content" name="logo-facebook"></ion-icon>
+    </a>
+  
+
+  
+  
+</div>
+
+        </div>
+      </header>
+
+      <section id="dream-single-post-content" itemprop="articleBody">
+        
+          <img class="w-full z-30" src="/img/why_we_sleep_cover.webp" alt="《為什麼要睡覺？》：理性思考最後才成熟" />
+        
+
+        <p>你會不會覺得十六歲的青少年腦中總是少根筋？然而從腦神經科學中發現其實這是正常的</p>
+<p>睡眠研究先鋒芬伯格(Irwin Feinberg)對於腦袋的修剪工程研究上有幾種值得關注的發現，找來六歲到八歲的兒童在實驗室裡把電極貼在頭上的前後左右紀錄整夜的睡眠，大概每隔六到十二個月再做一次，紀錄超過<strong>十年</strong>、超過<strong>三千五百份</strong>整夜睡眠，其總時數達<strong>三十二萬</strong>小時的數據，用其建立一系列快照描繪大腦從這些兒童成長到青春期一直到成年期的發育階段，探討深沈睡眠的強度如何隨不同階段改變</p>
+<p>你可以想像這份研究在做神經科學版的大自然縮時攝影，一棵樹籽在春天時的萌芽(嬰兒期)、在夏天長出綠葉(兒童晚期)、而後秋天時葉子成熟(青少年前期)，最後冬天葉片落盡(青少年晚期和成年前期)</p>
+<p>芬柏格檢查深沈睡眠強度改變之間看到腦中各個部位需要的時間表不盡相同，成熟過程總是從後腦開始，也就是負責視覺和空間知覺功能的區域，隨著青春期開始才慢慢朝向腦前方發展，而最後一站其實是額葉的前端，也就是負責理性思考和批判性思考決策的區塊</p>
+<p>當你走在路上看到的每一個青少年在青春期發育期間時<strong>後腦都比前方更像成人，然而前方都比後頭還更像兒童</strong>，這樣想來在新聞上看到國/高中校園內發生一些事件時你就會想到這些青少年其實<strong>同理心</strong>的腦區都還沒有發展成熟，所以導師在處理同學之間的互動關係時如果只有一方講<strong>在玩啦</strong>可能還是得有所警覺，沒有完整同理心的枷鎖有時候有些同學會玩過頭</p>
+<p>前額葉就屬於腦部最晚得到睡眠催熟處理的區域，雖然睡眠不是唯一讓腦部成熟的方法，但為了建立成熟理性思考能力睡眠還是非常重要的因素，腦神經的成熟需要深沈睡眠和發育時間，雖然你的小孩升上國/高中時叛逆期會對你大小聲無法體諒你的辛勞，值得慶幸的是成長到二十多歲終於可以體會到家長的付出</p>
+<p>另外科學家用青春期大鼠跟貓來測試剝奪這些動物的深沈睡眠，發現它們腦部的神經連結修整工程也停擺了，其證實深度非快速動眼睡眠推動了腦朝向健康成年期是必要的，另外如果給年幼大鼠咖啡因，也會干擾到它們的深度非快速動眼睡眠，因此延遲了腦部成熟，以及社會活動、自我理毛行為與探索環境的發展，所以最好也不要給青春期孩子喝過量的咖啡因，畢竟要完全戒除生活中的咖啡因太困難了，高中生跟同學去麥當勞喝個可樂就會攝取到</p>
+<p>有興趣的讀者可以透過我的讀墨或Kobo AP購買電子書版本</p>
+<p>Readmoo電子書版本：<a href="https://moo.im/a/1ijmnu" target="_blank">《為什麼要睡覺？》：睡出健康與學習力、夢出創意的新科學</a>
+</p>
+<p>Kobo電子書版本：<a href="https://r10.to/hkIrxm" target="_blank">《為什麼要睡覺？》：睡出健康與學習力、夢出創意的新科學</a>
+</p>
+<p>博客來實體平裝書：<a href="https://www.books.com.tw/exep/assp.php/scientia/products/0010959050?utm_source=scientia&amp;utm_medium=ap-books&amp;utm_content=recommend&amp;utm_campaign=ap-202504" target="_blank">《為什麼要睡覺？》：睡出健康與學習力、夢出創意的新科學</a>
+</p>
+
+        
+      </section>
+
+      
+      <div class="divider"></div>
+      <div class="flex flex-col md:flex-row justify-between gap-4 py-4">
+        
+        <a class="group btn btn-outline" href="/posts/hsinchu-lead-bus-a/" title="新竹先導公車">
+          <ion-icon name="chevron-back"></ion-icon>
+          <div class="inline-flex flex-col items-start">
+            <span class="text-base-content/60 group-hover:text-neutral-content/60 text-xs font-normal">上一頁</span>
+            <span class="max-w-48 truncate">新竹先導公車</span>
+          </div>
+        </a>
+        
+
+        
+        <a class="group btn btn-outline" href="/posts/why-we-sleep-type/" title="《為什麼要睡覺？》：你是早鳥還是夜貓子？">
+          <div class="inline-flex flex-col items-end">
+            <span class="text-base-content/60 group-hover:text-neutral-content/60 text-xs font-normal">下一頁</span>
+            <span class="max-w-48 truncate">《為什麼要睡覺？》：你是早鳥還是夜貓子？</span>
+          </div>
+          <ion-icon name="chevron-forward"></ion-icon>
+        </a>
+        
+      </div>
+      
+
+      
+      <div class="divider"></div>
+
+      <section class="space-y-4">
+        
+<article>
+  <div id="disqus_thread"></div>
+<script>
+    window.disqus_config = function () {
+        this.page.identifier = '\/posts\/why-we-sleep-youth\/';
+        this.page.title = '《為什麼要睡覺？》：理性思考最後才成熟';
+        this.page.url = 'https:\/\/scientiatw.live\/posts\/why-we-sleep-youth\/';
+
+        
+    };
+    function initDisqus() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "scientia-life" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    };
+    setTimeout(() => {
+        initDisqus();
+    }, 3000);
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</article>
+
+
+
+
+
+
+
+
+
+
+      </section>
+      
+    </article>
+  </div>
+
+  <div class="hidden lg:flex lg:flex-col lg:items-end">
+    
+      <nav id="TableOfContents"></nav>
+    
+  </div>
+</div>
+
+
+            
+<footer class="flex justify-between items-center gap-2 px-4 py-12">
+
+  <div>
+  
+  <p>
+    © 2025 Scientia&#39;s live
+  </p>
+  
+
+  
+  <p>from Scientia Potentia Est</p>
+  
+</div>
+
+  <div
+  x-data="{ icons: [
+    { name: 'sunny', status: 'n' },
+    { name: 'moon', status: 'y' },
+    { name: 'desktop', status: 'auto' }
+  ] }"
+  class="flex items-center gap-2 h-[32px] px-2 bg-base-100 border border-base-content/30 rounded-full"
+>
+  <template x-for="icon in icons">
+    <div
+      role="button"
+      tabindex="0"
+      :aria-label="'Select ' + icon.name + ' mode'"
+      class="group inline-flex justify-center items-center p-1 rounded-full cursor-pointer hover:bg-primary"
+      :class="$store.darkMode.icon() === icon.name && 'bg-primary'"
+      @click="$store.darkMode.toggle(icon.status)"
+    >
+      <ion-icon
+        :name="`${icon.name}-outline`"
+        class="group-hover:text-primary-content"
+        :class="$store.darkMode.icon() === icon.name && 'text-primary-content'"
+      >
+      </ion-icon>
+    </div>
+  </template>
+</div>
+
+</footer>
+
+          </div>
+        </div>
+        <div class="back">
+          <div class="container">
+            
+            <div class="dream-grid dream-grid-about">
+  
+  
+  
+  <div class="w-full md:w-1/2 lg:w-1/3 xl:w-1/4 p-4 dream-column">
+    <article
+      class="card card-compact bg-base-100 hover:bg-base-content/10 shadow-xl dark:border dark:border-base-content/30"
+    >
+      <div class="card-body">
+        <div class="card-title">關於我</div>
+
+        <div class="prose dark:prose-invert">
+          <p>我是站長<a href="https://scientia-potentia-est.com/zh/hong-sheng-huang-zh/" target="_blank">Scientia</a>
+</p>
+<p>本社群部落格主要撰寫有關「閱讀心得」、「生活分享」、「人文藝術」等主題</p>
+<p>任何合作或問題請寄到信箱內：scientia.polymath@gmail.com</p>
+
+        </div>
+      </div>
+    </article>
+  </div>
+  
+  <div class="w-full md:w-1/2 lg:w-1/3 xl:w-1/4 p-4 dream-column">
+    <article
+      class="card card-compact bg-base-100 hover:bg-base-content/10 shadow-xl dark:border dark:border-base-content/30"
+    >
+      <div class="card-body">
+        <div class="card-title">其他連結</div>
+
+        <div class="prose dark:prose-invert">
+          <ul>
+<li><a href="https://scientia-potentia-est.com/zh" target="_blank">技術部落格</a>
+</li>
+</ul>
+
+        </div>
+      </div>
+    </article>
+  </div>
+  
+  
+
+  
+
+  
+</div>
+
+            
+
+            
+<footer class="flex justify-between items-center gap-2 px-4 py-12">
+
+  <div>
+  
+  <p>
+    © 2025 Scientia&#39;s live
+  </p>
+  
+
+  
+  <p>from Scientia Potentia Est</p>
+  
+</div>
+
+  <div
+  x-data="{ icons: [
+    { name: 'sunny', status: 'n' },
+    { name: 'moon', status: 'y' },
+    { name: 'desktop', status: 'auto' }
+  ] }"
+  class="flex items-center gap-2 h-[32px] px-2 bg-base-100 border border-base-content/30 rounded-full"
+>
+  <template x-for="icon in icons">
+    <div
+      role="button"
+      tabindex="0"
+      :aria-label="'Select ' + icon.name + ' mode'"
+      class="group inline-flex justify-center items-center p-1 rounded-full cursor-pointer hover:bg-primary"
+      :class="$store.darkMode.icon() === icon.name && 'bg-primary'"
+      @click="$store.darkMode.toggle(icon.status)"
+    >
+      <ion-icon
+        :name="`${icon.name}-outline`"
+        class="group-hover:text-primary-content"
+        :class="$store.darkMode.icon() === icon.name && 'text-primary-content'"
+      >
+      </ion-icon>
+    </div>
+  </template>
+</div>
+
+</footer>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+  window.lightTheme = "emerald"
+  window.darkTheme = "forest"
+</script>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/imagesloaded@5.0.0/imagesloaded.pkgd.min.js" integrity="sha256-htrLFfZJ6v5udOG+3kNLINIKh2gvoKqwEhHYfTTMICc=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha256-Nn1q/fx0H7SNLZMQ5Hw5JLaTRZp0yILA/FRexe19VdI=" crossorigin="anonymous"></script>
+
+  
+  
+    
+  
+  <script src="/js/grid.min.js"></script>
+
+
+
+
+  
+
+<script src="/js/main.min.js"></script>
+
+    
+
+
+
+
+
+
+  
+    <script type="module">
+      import mediumZoom from 'https://cdn.jsdelivr.net/npm/medium-zoom@1.1.0/+esm';
+      mediumZoom('#dream-single-post-content img', {
+        background: 'oklch(var(--b1))',
+        margin: 24,
+      })
+    </script>
+  
+
+
+
+
+    
+
+    
+
+    
+
+    
+    
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-GC235QD2XY"></script>
+      <script>
+        var doNotTrack = false;
+        if ( false ) {
+          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+          var doNotTrack = (dnt == "1" || dnt == "yes");
+        }
+        if (!doNotTrack) {
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-GC235QD2XY');
+        }
+      </script>
+    
+
+    <script type="module" src="https://unpkg.com/ionicons@7.4.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.4.0/dist/ionicons/ionicons.js"></script>
+  </body>
+</html>

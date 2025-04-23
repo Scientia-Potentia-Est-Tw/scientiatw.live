@@ -1,0 +1,758 @@
+<!DOCTYPE html>
+<html lang="zh"
+  x-data
+  :class="$store.darkMode.class()"
+  :data-theme="$store.darkMode.theme()">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>《長銷》讀後心讀：市場定位 | Scientia&#39;s live</title>
+
+    
+  
+    <link href="/img/favicon.png" rel="icon" type="image/x-icon" />
+  
+
+
+<link rel="canonical" href="https://scientiatw.live/posts/perennial-seller-positioning/" />
+
+
+
+<meta name="author" content="Scientia" />
+<meta name="description" content="定位不到位，再多的行銷都無法彌補，再好的產品也只能報廢。
+" />
+
+
+<meta name="keywords" content="商業,創作">
+
+
+
+<meta name="generator" content="Hugo 0.145.0">
+
+
+<meta property="og:url" content="https://scientiatw.live/posts/perennial-seller-positioning/">
+  <meta property="og:site_name" content="Scientia&#39;s live">
+  <meta property="og:title" content="《長銷》讀後心讀：市場定位">
+  <meta property="og:description" content="定位不到位，再多的行銷都無法彌補，再好的產品也只能報廢。">
+  <meta property="og:locale" content="zh">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2023-05-26T08:00:00+08:00">
+    <meta property="article:modified_time" content="2025-03-15T13:00:00+08:00">
+    <meta property="article:tag" content="商業">
+    <meta property="article:tag" content="創作">
+
+
+
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="《長銷》讀後心讀：市場定位">
+  <meta name="twitter:description" content="定位不到位，再多的行銷都無法彌補，再好的產品也只能報廢。">
+
+
+
+
+  
+
+<link rel="stylesheet" href="/css/output.min.css" />
+
+
+
+
+    
+
+
+<style>
+  pre {
+    padding: 1em;
+    overflow: auto;
+  }
+</style>
+
+
+
+
+
+
+
+
+
+    
+    <link rel="stylesheet" href="/css/custom.css" />
+    
+
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+  </head>
+
+  <body x-data="{
+    flip: false,
+  }">
+    
+    <div id="dream-global-bg"></div>
+
+    
+<nav x-data="{ isSticky: false }"
+  x-init="window.addEventListener('scroll', () => { isSticky = window.scrollY > 30 })"
+  class="sticky top-0 z-30 mt-4 lg:mt-8 py-4"
+  :class="{ 'bg-base-100 shadow-lg dark:border-b dark:border-base-content/30': isSticky }">
+
+  
+  <div class="container flex justify-between px-4">
+  
+    <section class="flex items-center gap-4">
+      <div class="avatar cursor-pointer hover:online" @click="flip = !flip" title="翻轉一下！">
+        <div class="h-10 rounded-full">
+          <img src="/img/Author.png" alt="Scientia&#39;s live" />
+        </div>
+      </div>
+
+      
+      <div>
+        
+        <a href="https://scientiatw.live/" class="text-lg font-semibold cursor-pointer">
+          Scientia&#39;s live
+        </a>
+        
+        
+        <div class="text-base-content/60 text-sm">Social Blog</div>
+        
+      </div>
+      
+    </section>
+
+    <div class="dropdown dropdown-end sm:hidden">
+      <div tabindex="0" role="button" class="btn btn-ghost btn-square" aria-label="Select an option">
+        <ion-icon name="menu" class="text-2xl"></ion-icon>
+      </div>
+      <ul tabindex="0" class="dropdown-content menu w-36 bg-base-100 rounded-box z-[1] shadow-md">
+        
+
+
+
+<li>
+  <a class="group inline-flex items-center p-2 cursor-pointer" href="/search" title="搜尋">
+    <ion-icon name="search"></ion-icon>
+    搜尋
+  </a>
+</li>
+
+
+
+
+<li>
+  <a class="inline-flex items-center p-2 cursor-pointer" href="/index.xml" title="RSS">
+    <ion-icon name="logo-rss"></ion-icon>
+    RSS
+  </a>
+</li>
+
+
+
+
+<li>
+  <a class="inline-flex items-center p-2 cursor-pointer" href="/posts" title="文章列表">
+    <ion-icon name="archive"></ion-icon>
+    文章列表
+  </a>
+</li>
+
+
+
+
+<li>
+  <a class="inline-flex items-center p-2 cursor-pointer" href="/categories" title="所有分類">
+    <ion-icon name="grid"></ion-icon>
+    所有分類
+  </a>
+</li>
+
+
+
+
+<li>
+  <a class="inline-flex items-center p-2 cursor-pointer" href="/tags" title="所有標籤">
+    <ion-icon name="pricetags"></ion-icon>
+    所有標籤
+  </a>
+</li>
+
+
+
+
+
+
+      </ul>
+    </div>
+    <section class="hidden sm:flex sm:items-center sm:gap-2 md:gap-4">
+      
+      
+
+      
+
+      
+      
+      
+      
+
+
+
+
+<div role="link" tabindex="0" class="text-sm font-semibold cursor-pointer hover:underline" @click="flip = !flip" title="關於本站">關於本站</div>
+
+
+
+
+
+      
+      
+<a class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary" href="/search" title="搜尋">
+  <ion-icon class="group-hover:text-primary-content" name="search"></ion-icon>
+</a>
+
+
+      
+      
+<a class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary" href="/index.xml" title="RSS">
+  <ion-icon class="group-hover:text-primary-content" name="logo-rss"></ion-icon>
+</a>
+
+
+      
+
+      <div class="dropdown dropdown-end dropdown-hover">
+        <div tabindex="0" role="button" class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary" aria-label="Select an option">
+          <ion-icon class="group-hover:text-primary-content text-xl" name="menu"></ion-icon>
+        </div>
+        <ul tabindex="0" class="dropdown-content menu w-36 bg-base-100 rounded-box z-[1] shadow-xl">
+          
+          
+<li>
+  <a class="inline-flex items-center p-2 cursor-pointer" href="/posts" title="文章列表">
+    <ion-icon name="archive"></ion-icon>
+    文章列表
+  </a>
+</li>
+
+
+          
+          
+<li>
+  <a class="inline-flex items-center p-2 cursor-pointer" href="/categories" title="所有分類">
+    <ion-icon name="grid"></ion-icon>
+    所有分類
+  </a>
+</li>
+
+
+          
+          
+<li>
+  <a class="inline-flex items-center p-2 cursor-pointer" href="/tags" title="所有標籤">
+    <ion-icon name="pricetags"></ion-icon>
+    所有標籤
+  </a>
+</li>
+
+
+          
+
+          
+        </ul>
+      </div>
+      
+    </section>
+  </div>
+</nav>
+
+
+    <div class="flip-container" :class="{ 'flip-it': flip }">
+      <div class="flipper">
+        <div class="front">
+          <div class="container">
+            
+<div class="lg:grid lg:grid-cols-4 gap-4 mt-4 px-4">
+  <div class="hidden lg:block">
+    
+  </div>
+
+  <div class="lg:col-span-2">
+    <article class="mx-auto prose prose-quoteless dark:prose-invert" id="dream-single-post-main" itemscope itemtype="http://schema.org/Article">
+      
+  <meta itemprop="name" content="《長銷》讀後心讀：市場定位">
+  <meta itemprop="description" content="定位不到位，再多的行銷都無法彌補，再好的產品也只能報廢。">
+  <meta itemprop="datePublished" content="2023-05-26T08:00:00+08:00">
+  <meta itemprop="dateModified" content="2025-03-15T13:00:00+08:00">
+  <meta itemprop="wordCount" content="2790">
+  <meta itemprop="keywords" content="商業,創作">
+
+      <header>
+        <h1 itemprop="headline">《長銷》讀後心讀：市場定位</h1>
+        <p class="text-sm">
+          
+            星期五, 5月 26, 2023
+          
+
+          | <span>6分鐘閱讀</span>
+
+          
+          | <span>更新於
+            
+              星期六, 3月 15, 2025
+            </span>
+          
+        </p>
+
+        
+        <div class="flex justify-between">
+          
+            <div class="flex items-center">
+  
+  <div class="avatar mr-1">
+    <div class="w-8 rounded-full">
+      <img class="my-0" src="/img/Author.png" alt="Scientia" />
+    </div>
+  </div>
+  
+
+  <span itemprop="author" itemscope itemtype="https://schema.org/Person">
+  
+    
+      <a itemprop="url" href="https://scientia-potentia-est.com/zh/hong-sheng-huang-zh/" target="_blank">
+        <span itemprop="name">Scientia</span>
+      </a>
+    
+  
+  </span>
+</div>
+
+          
+
+          <div class="flex items-center gap-2">
+  
+  
+
+  
+  
+  
+  
+  
+    <a class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary"
+      href="https://x.com/intent/post?text=%e3%80%8a%e9%95%b7%e9%8a%b7%e3%80%8b%e8%ae%80%e5%be%8c%e5%bf%83%e8%ae%80%ef%bc%9a%e5%b8%82%e5%a0%b4%e5%ae%9a%e4%bd%8d&amp;url=https://scientiatw.live/posts/perennial-seller-positioning/" target="_blank" rel="noopener noreferrer"
+      title="Share on X">
+      <ion-icon class="group-hover:text-primary-content" name="logo-x"></ion-icon>
+    </a>
+  
+    <a class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary"
+      href="https://facebook.com/sharer/sharer.php?u=https://scientiatw.live/posts/perennial-seller-positioning/" target="_blank" rel="noopener noreferrer"
+      title="Share on Facebook">
+      <ion-icon class="group-hover:text-primary-content" name="logo-facebook"></ion-icon>
+    </a>
+  
+
+  
+  
+</div>
+
+        </div>
+      </header>
+
+      <section id="dream-single-post-content" itemprop="articleBody">
+        
+          <img class="w-full z-30" src="/img/perennial_seller_cover.webp" alt="《長銷》讀後心讀：市場定位" />
+        
+
+        <p>定位不到位，再多的行銷都無法彌補，再好的產品也只能報廢。</p>
+<p>創作要從自己感動到消費者心動，你必須：</p>
+<ul>
+<li>不斷突破
+<ul>
+<li>尋求客觀的外部意見，消除你的盲點。</li>
+</ul>
+</li>
+<li>不斷修改
+<ul>
+<li>沒有「完美的初稿」這種東西，完美是改出來的。</li>
+</ul>
+</li>
+<li>不斷檢驗
+<ul>
+<li>用一句話、一段文字、一頁紙說出誰應該關注你的產品，還有為什麼。</li>
+</ul>
+</li>
+</ul>
+<p>長銷經典的創作者必須體認的第一件事情就是沒有出版商、天使投資人或製作人會如奇蹟般出現來處理你不想處理的事，寄出作品並不是辛勞工作的結束，甚至連必要工作都還沒沾到，接下來，會有更多人來敲門，長銷作品是不屈不饒的藝術家創造出來的，他們不會把作品交給不存在的人去處理，而是把流程中的每個步驟，視為自己的責任，他們掌握自己的命運，他們不只是藝術家，還身兼製作人和經理人。</p>
+<h2 id="定位">定位</h2>
+<p>我們之前做的，是體現內在的經驗和靈感，現在，我們必須將內在的創作經驗琢磨、精煉，最終找出與世界溝通的最佳方法，複雜的個人作品，都必須經過層層檢驗與琢磨，再用能吸引觀眾的方法，呈現在世人面前，畢竟這些過程並不會自己完成，沒有樣品能自動變成商品的，何況觀眾不會神奇地知道這從未見過的東西是什麼，他們完全不知道這個東西能改變他們的人生，而你不能只是當個角落裡侷促不安的壁花，希望有人能看一眼看懂你，了解你的好，你必須站出來挑明的跟他們講。</p>
+<p>還沒談到如何促銷，那是之後的事，我們正在談的是作品問世之前，必須花很多時間與精力去琢磨、改善，還有最重要的為作品定位，當代流行的佳作與禁得起考驗的巨作兩者之間就差在這些決定，我們必須確保這對我們意義如此深刻的作品，對各種不同世代的人也同樣有意義，我們要讓它成為市場裡百家爭鳴中的亮點，使它展現最佳狀態，讓目標受眾不喜歡都不行，而這世上能勝任這項艱難任務的最佳人選是誰？是你！</p>
+<h3 id="你就是ceo">你就是CEO</h3>
+<p>首先你要先認知到一件事，沒有人會來拯救你，沒有人會從這裡接手，幫你一路做到底，第二件事就是了解，需要挺身而出的人就是你！</p>
+<p>很多創作者只想當個創作者，或者出點子，確實這樣也很吸引人，但恐怕是因為這些人害怕承擔一切責任，畢竟接下來還有許多事要做，很多都攸關作品的成敗，如果能讓其他人來負責的話，至少最後失敗時他們還能夠當作藉口，都是別人的錯！</p>
+<p>創作長銷經典是大人的事，大人會為自己負責，只有小孩才會期望機會是從天上掉下來的，落在他們手裡</p>
+
+
+
+  <blockquote>
+    <p>所謂「成熟」是了解到你必須主動出擊，讓事情成真。 Ryan Holiday</p>
+  </blockquote>
+
+<p>你必須自己打理所有攸關勝敗的一切事項，每分鐘有500小時的內容上傳到youtube，每年超過50萬本書在美國出版，沒有人該給你明星般的待遇，他們連你的內容是什麼都不知道，又為何要觀賞你的作品，你要如同自己打造一只鑽戒，自己琢磨、拋光、鑲嵌，而且尺寸要剛剛好，賽斯·高汀如此闡釋到：「出色只是第一步，為了贏得口碑，你還得讓你的產品安全、有趣，而且值得讓人克服社交障礙，幫你宣傳。」，能讓這一切發生的只有你自己，只有你自己最重視、在乎你的作品。</p>
+<h3 id="尋求外部觀點">尋求外部觀點</h3>
+<p>一旦你了解到成敗取決於你，接下來你必須接受一項矛盾而艱難的任務，找一個可以信任的外部聲音當作反饋(也可以好多位朋友之類的)，就像作家有編輯協助，音樂人有製作人，就算是「空中飛人」麥可·喬丹(Michael Jordan)也有教練，為什麼需要外部聲音？因為人對於自己創作或才華，往往當局者迷，無法保持客觀，創作者認為自己傾盡全力的作品有臻至完美，而事實是那只是侷限於當事人自己有限的認知觀點。</p>
+<p>書中提到初試啼聲的年輕小說家哈波·李(Harper Lee)將初稿交給編輯泰伊·何霍夫(Tay Hohoff)，而編輯認為內容「更像是一系列軼事，而不是完整的小說。」，試想哈波將初稿交出去應該是認為自己已經完成這本小說，然而她最信任的人告訴她可能已經失敗了，幸好，哈波理智的聽從編輯的建議不斷修改重寫，最終創作出美國文學的偉大作品之一《梅岡城故事》(To Kill a Mockingbird)，而之後哈波獨自出版《設立守望者》(Go Set a Watchman)雖然起初聲勢浩大，但銷售數字遠遠不及《梅岡城故事》的三千萬本，證明她的編輯是對的。</p>
+
+
+
+  <blockquote>
+    <p>初稿都是垃圾。 海明威</p>
+  </blockquote>
+
+<p>一出手就是完美的機率微乎其微，《大亨小傳》曾被退稿多次，WD-40的命名是40次才確認配方，當你尋求外部觀點時會不斷受到挑戰，你必定會氣憤、會沮喪(<strong>研究題目一直被老師打槍時人生真的會感覺跌到谷底裡</strong>)，但你終究還是得保持理性和公平對待自己的作品，尼爾·蓋曼(Neil Gaiman)説：「記住，別人說你有問題、説他們不能接受時，他們幾乎總是對的。但當他們具體告訴你問題何在、要怎麼改進時，他們就幾乎總是錯的。」，只有你對自己的作品最了解，每個創作都會歷經這種過程，你可以理解大多數人都害怕外部聲音，然而若是閉門造車，必定會讓你失去一些能使作品變得更好的機會，獲得反饋需要的是謙卑，你可以放下對作品的想法與熱愛，接受這個事實。</p>
+<h3 id="一句一段一頁">一句，一段，一頁</h3>
+
+
+
+  <blockquote>
+    <p>如果你不知道自己在找什麼，你怎麼知道找到了沒？</p>
+  </blockquote>
+
+<p>創作階段開始不斷的歷經編輯、改良和測試，也看到了成果，為的是什麼？當然不是為了好玩，而是真正要達成某些目標，你必須不斷自問：「我想做的是什麼？我達到目標了嗎？我還需要如何調整修改，才能達到目標？」，這些問題可能不太光靠思考就能完成，你可以嘗試寫下來，作者提供一種工具，叫做「一句，一段，一頁」。</p>
+
+
+
+  <blockquote>
+    <p>用一句話描述你的作品。 用一段文字描述你的作品。 用一頁紙的篇幅描述你的作品;</p>
+  </blockquote>
+
+
+
+
+  <blockquote>
+    <p>它是XXX，它可以用來XXXX，它能幫助人們XXX。</p>
+  </blockquote>
+
+<p>前面提到定位很重要，所以你在使用上面的工具描述你的作品時就是要標示出你的作品屬於哪種分類，試想如果你為潛在客戶提出的類別是「它就像(任何類別)和(任何類別)的混合，再加上一點(任何類別)。」，你覺得觀眾會感受如何？我只會感到困惑而已，賽斯·高汀談過：「每個商業成功之路清晰可辨的作品，都有其所屬的類別。」，所以即使只有模糊的直覺，創作者也必須了解自己到底在創作什麼，目標是什麼，知道這些後就可以此為基礎，倘若根本不知道這些，該如何知道自己達到目標了沒？你可能需要反覆推敲，才能漸漸掌握輪廓，但我想你並不希望產品簡介空洞無聊至極，因為沒有花時間思考，開始試著讓它聽起來振奮人心吧。</p>
+<h3 id="定位包裝和話術">定位，包裝和話術</h3>
+<p>在今天，要吸引注意力，你的創作必須和其他人一樣好，甚至更好，成功的三個關鍵變數為：定位，包裝，話術。</p>
+<p>定位：你的創作是什麼，為誰而做。</p>
+<p>包裝：作品的外觀，還有名稱。</p>
+<p>話術：你如何推銷，你如何形容你的作品，它能為受眾帶來什麼。</p>
+<p>作品給人最差的印象莫過於：「那是隨便哪個人隨便做出來的。」</p>
+<p>《長銷》已經重新再版成《滾動內容複利》：掌握長銷經營者的關鍵行動選擇，持續變現，穩定創收，有興趣的讀者可以透過我的讀墨或Kobo AP購買電子書版本</p>
+<p>Readmoo電子書版：<a href="https://moo.im/a/6dlJOY" target="_blank">《滾動內容複利》</a>
+</p>
+<p>Kobo電子書版：<a href="https://r10.to/hkeLR7" target="_blank">《滾動內容複利》</a>
+</p>
+<p>博客來實體平裝書：<a href="https://www.books.com.tw/exep/assp.php/scientia/products/0010928347?utm_source=scientia&amp;utm_medium=ap-books&amp;utm_content=recommend&amp;utm_campaign=ap-202504" target="_blank">《滾動內容複利》：掌握長銷經營者的關鍵行動選擇，持續變現，穩定創收</a>
+</p>
+
+        
+      </section>
+
+      
+      <div class="divider"></div>
+      <div class="flex flex-col md:flex-row justify-between gap-4 py-4">
+        
+        <a class="group btn btn-outline" href="/posts/survival-handbook-for-graduate-student-read/" title="《研究生完全求生手冊》讀後心得：閱讀期刊論文方法">
+          <ion-icon name="chevron-back"></ion-icon>
+          <div class="inline-flex flex-col items-start">
+            <span class="text-base-content/60 group-hover:text-neutral-content/60 text-xs font-normal">上一頁</span>
+            <span class="max-w-48 truncate">《研究生完全求生手冊》讀後心得：閱讀期刊論文方法</span>
+          </div>
+        </a>
+        
+
+        
+        <a class="group btn btn-outline" href="/posts/perennial-seller-marketing/" title="《長銷》讀後心讀：行銷給誰？">
+          <div class="inline-flex flex-col items-end">
+            <span class="text-base-content/60 group-hover:text-neutral-content/60 text-xs font-normal">下一頁</span>
+            <span class="max-w-48 truncate">《長銷》讀後心讀：行銷給誰？</span>
+          </div>
+          <ion-icon name="chevron-forward"></ion-icon>
+        </a>
+        
+      </div>
+      
+
+      
+      <div class="divider"></div>
+
+      <section class="space-y-4">
+        
+<article>
+  <div id="disqus_thread"></div>
+<script>
+    window.disqus_config = function () {
+        this.page.identifier = '\/posts\/perennial-seller-positioning\/';
+        this.page.title = '《長銷》讀後心讀：市場定位';
+        this.page.url = 'https:\/\/scientiatw.live\/posts\/perennial-seller-positioning\/';
+
+        
+    };
+    function initDisqus() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "scientia-life" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    };
+    setTimeout(() => {
+        initDisqus();
+    }, 3000);
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</article>
+
+
+
+
+
+
+
+
+
+
+      </section>
+      
+    </article>
+  </div>
+
+  <div class="hidden lg:flex lg:flex-col lg:items-end">
+    
+      <nav id="TableOfContents">
+  <ul>
+    <li><a href="#定位">定位</a>
+      <ul>
+        <li><a href="#你就是ceo">你就是CEO</a></li>
+        <li><a href="#尋求外部觀點">尋求外部觀點</a></li>
+        <li><a href="#一句一段一頁">一句，一段，一頁</a></li>
+        <li><a href="#定位包裝和話術">定位，包裝和話術</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+    
+  </div>
+</div>
+
+
+            
+<footer class="flex justify-between items-center gap-2 px-4 py-12">
+
+  <div>
+  
+  <p>
+    © 2025 Scientia&#39;s live
+  </p>
+  
+
+  
+  <p>from Scientia Potentia Est</p>
+  
+</div>
+
+  <div
+  x-data="{ icons: [
+    { name: 'sunny', status: 'n' },
+    { name: 'moon', status: 'y' },
+    { name: 'desktop', status: 'auto' }
+  ] }"
+  class="flex items-center gap-2 h-[32px] px-2 bg-base-100 border border-base-content/30 rounded-full"
+>
+  <template x-for="icon in icons">
+    <div
+      role="button"
+      tabindex="0"
+      :aria-label="'Select ' + icon.name + ' mode'"
+      class="group inline-flex justify-center items-center p-1 rounded-full cursor-pointer hover:bg-primary"
+      :class="$store.darkMode.icon() === icon.name && 'bg-primary'"
+      @click="$store.darkMode.toggle(icon.status)"
+    >
+      <ion-icon
+        :name="`${icon.name}-outline`"
+        class="group-hover:text-primary-content"
+        :class="$store.darkMode.icon() === icon.name && 'text-primary-content'"
+      >
+      </ion-icon>
+    </div>
+  </template>
+</div>
+
+</footer>
+
+          </div>
+        </div>
+        <div class="back">
+          <div class="container">
+            
+            <div class="dream-grid dream-grid-about">
+  
+  
+  
+  <div class="w-full md:w-1/2 lg:w-1/3 xl:w-1/4 p-4 dream-column">
+    <article
+      class="card card-compact bg-base-100 hover:bg-base-content/10 shadow-xl dark:border dark:border-base-content/30"
+    >
+      <div class="card-body">
+        <div class="card-title">關於我</div>
+
+        <div class="prose dark:prose-invert">
+          <p>我是站長<a href="https://scientia-potentia-est.com/zh/hong-sheng-huang-zh/" target="_blank">Scientia</a>
+</p>
+<p>本社群部落格主要撰寫有關「閱讀心得」、「生活分享」、「人文藝術」等主題</p>
+<p>任何合作或問題請寄到信箱內：scientia.polymath@gmail.com</p>
+
+        </div>
+      </div>
+    </article>
+  </div>
+  
+  <div class="w-full md:w-1/2 lg:w-1/3 xl:w-1/4 p-4 dream-column">
+    <article
+      class="card card-compact bg-base-100 hover:bg-base-content/10 shadow-xl dark:border dark:border-base-content/30"
+    >
+      <div class="card-body">
+        <div class="card-title">其他連結</div>
+
+        <div class="prose dark:prose-invert">
+          <ul>
+<li><a href="https://scientia-potentia-est.com/zh" target="_blank">技術部落格</a>
+</li>
+</ul>
+
+        </div>
+      </div>
+    </article>
+  </div>
+  
+  
+
+  
+
+  
+</div>
+
+            
+
+            
+<footer class="flex justify-between items-center gap-2 px-4 py-12">
+
+  <div>
+  
+  <p>
+    © 2025 Scientia&#39;s live
+  </p>
+  
+
+  
+  <p>from Scientia Potentia Est</p>
+  
+</div>
+
+  <div
+  x-data="{ icons: [
+    { name: 'sunny', status: 'n' },
+    { name: 'moon', status: 'y' },
+    { name: 'desktop', status: 'auto' }
+  ] }"
+  class="flex items-center gap-2 h-[32px] px-2 bg-base-100 border border-base-content/30 rounded-full"
+>
+  <template x-for="icon in icons">
+    <div
+      role="button"
+      tabindex="0"
+      :aria-label="'Select ' + icon.name + ' mode'"
+      class="group inline-flex justify-center items-center p-1 rounded-full cursor-pointer hover:bg-primary"
+      :class="$store.darkMode.icon() === icon.name && 'bg-primary'"
+      @click="$store.darkMode.toggle(icon.status)"
+    >
+      <ion-icon
+        :name="`${icon.name}-outline`"
+        class="group-hover:text-primary-content"
+        :class="$store.darkMode.icon() === icon.name && 'text-primary-content'"
+      >
+      </ion-icon>
+    </div>
+  </template>
+</div>
+
+</footer>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+  window.lightTheme = "emerald"
+  window.darkTheme = "forest"
+</script>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/imagesloaded@5.0.0/imagesloaded.pkgd.min.js" integrity="sha256-htrLFfZJ6v5udOG+3kNLINIKh2gvoKqwEhHYfTTMICc=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha256-Nn1q/fx0H7SNLZMQ5Hw5JLaTRZp0yILA/FRexe19VdI=" crossorigin="anonymous"></script>
+
+  
+  
+    
+  
+  <script src="/js/grid.min.js"></script>
+
+
+
+
+  
+
+<script src="/js/main.min.js"></script>
+
+    
+
+
+
+
+
+
+  
+    <script type="module">
+      import mediumZoom from 'https://cdn.jsdelivr.net/npm/medium-zoom@1.1.0/+esm';
+      mediumZoom('#dream-single-post-content img', {
+        background: 'oklch(var(--b1))',
+        margin: 24,
+      })
+    </script>
+  
+
+
+
+
+    
+
+    
+
+    
+
+    
+    
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-GC235QD2XY"></script>
+      <script>
+        var doNotTrack = false;
+        if ( false ) {
+          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+          var doNotTrack = (dnt == "1" || dnt == "yes");
+        }
+        if (!doNotTrack) {
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-GC235QD2XY');
+        }
+      </script>
+    
+
+    <script type="module" src="https://unpkg.com/ionicons@7.4.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.4.0/dist/ionicons/ionicons.js"></script>
+  </body>
+</html>
