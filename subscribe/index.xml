@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Subscribes on Scientia&#39;s live</title>
+    <link>http://localhost:1313/subscribe/</link>
+    <description>Recent content in Subscribes on Scientia&#39;s live</description>
+    <generator>Hugo</generator>
+    <language>zh</language>
+    <lastBuildDate>Sun, 11 May 2025 11:06:00 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/subscribe/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>電子報訂閱</title>
+      <link>http://localhost:1313/subscribe/subscribe/</link>
+      <pubDate>Sun, 11 May 2025 11:06:00 +0800</pubDate>
+      <guid>http://localhost:1313/subscribe/subscribe/</guid>
+      <description>&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://eepurl.com/jctdbA&#34; target=&#34;_blank&#34;&gt;訂閱電子報定期寄送額外消息&lt;/a&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+  </channel>
+</rss>
