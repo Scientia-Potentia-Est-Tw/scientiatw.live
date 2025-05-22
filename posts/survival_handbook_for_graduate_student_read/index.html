@@ -1,0 +1,715 @@
+<!DOCTYPE html>
+<html lang="zh"
+  x-data
+  :class="$store.darkMode.class()"
+  :data-theme="$store.darkMode.theme()">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>《研究生完全求生手冊》讀後心得：閱讀期刊論文方法 | Scientia&#39;s live</title>
+
+    
+  
+    <link href="/img/favicon.png" rel="icon" type="image/x-icon" />
+  
+
+
+<link rel="canonical" href="https://scientiatw.live/posts/survival_handbook_for_graduate_student_read/" />
+
+
+
+<meta name="author" content="Scientia" />
+<meta name="description" content="在動手開始寫之前肯定得先閱讀大量的文獻，才能知道說領域內目前還有哪些問題值得探討，還有哪些題目還未解決
+" />
+
+
+<meta name="keywords" content="研究,寫作">
+
+
+
+<meta name="generator" content="Hugo 0.145.0">
+
+
+<meta property="og:url" content="https://scientiatw.live/posts/survival_handbook_for_graduate_student_read/">
+  <meta property="og:site_name" content="Scientia&#39;s live">
+  <meta property="og:title" content="《研究生完全求生手冊》讀後心得：閱讀期刊論文方法">
+  <meta property="og:description" content="在動手開始寫之前肯定得先閱讀大量的文獻，才能知道說領域內目前還有哪些問題值得探討，還有哪些題目還未解決">
+  <meta property="og:locale" content="zh">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2023-06-06T12:58:00+08:00">
+    <meta property="article:modified_time" content="2025-03-16T20:50:00+08:00">
+    <meta property="article:tag" content="研究">
+    <meta property="article:tag" content="寫作">
+
+
+
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="《研究生完全求生手冊》讀後心得：閱讀期刊論文方法">
+  <meta name="twitter:description" content="在動手開始寫之前肯定得先閱讀大量的文獻，才能知道說領域內目前還有哪些問題值得探討，還有哪些題目還未解決">
+
+
+
+
+  
+
+<link rel="stylesheet" href="/css/output.min.css" />
+
+
+
+
+    
+
+
+<style>
+  pre {
+    padding: 1em;
+    overflow: auto;
+  }
+</style>
+
+
+
+
+
+
+
+
+
+    
+    <link rel="stylesheet" href="/css/custom.css" />
+    
+
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+  </head>
+
+  <body x-data="{
+    flip: false,
+  }">
+    
+    <div id="dream-global-bg"></div>
+
+    
+<nav x-data="{ isSticky: false }"
+  x-init="window.addEventListener('scroll', () => { isSticky = window.scrollY > 30 })"
+  class="sticky top-0 z-30 mt-4 lg:mt-8 py-4"
+  :class="{ 'bg-base-100 shadow-lg dark:border-b dark:border-base-content/30': isSticky }">
+
+  
+  <div class="container flex justify-between px-4">
+  
+    <section class="flex items-center gap-4">
+      <div class="avatar cursor-pointer hover:online" @click="flip = !flip" title="翻轉一下！">
+        <div class="h-10 rounded-full">
+          <img src="/img/Author.png" alt="Scientia&#39;s live" />
+        </div>
+      </div>
+
+      
+      <div>
+        
+        <a href="https://scientiatw.live/" class="text-lg font-semibold cursor-pointer">
+          Scientia&#39;s live
+        </a>
+        
+        
+        <div class="text-base-content/60 text-sm">Social Blog</div>
+        
+      </div>
+      
+    </section>
+
+    <div class="dropdown dropdown-end sm:hidden">
+      <div tabindex="0" role="button" class="btn btn-ghost btn-square" aria-label="Select an option">
+        <ion-icon name="menu" class="text-2xl"></ion-icon>
+      </div>
+      <ul tabindex="0" class="dropdown-content menu w-36 bg-base-100 rounded-box z-[1] shadow-md">
+        
+
+
+
+<li>
+  <a class="group inline-flex items-center p-2 cursor-pointer" href="/search" title="搜尋">
+    <ion-icon name="search"></ion-icon>
+    搜尋
+  </a>
+</li>
+
+
+
+
+<li>
+  <a class="inline-flex items-center p-2 cursor-pointer" href="/index.xml" title="RSS">
+    <ion-icon name="logo-rss"></ion-icon>
+    RSS
+  </a>
+</li>
+
+
+
+
+<li>
+  <a class="inline-flex items-center p-2 cursor-pointer" href="/posts" title="文章列表">
+    <ion-icon name="archive"></ion-icon>
+    文章列表
+  </a>
+</li>
+
+
+
+
+<li>
+  <a class="inline-flex items-center p-2 cursor-pointer" href="/categories" title="所有分類">
+    <ion-icon name="grid"></ion-icon>
+    所有分類
+  </a>
+</li>
+
+
+
+
+<li>
+  <a class="inline-flex items-center p-2 cursor-pointer" href="/tags" title="所有標籤">
+    <ion-icon name="pricetags"></ion-icon>
+    所有標籤
+  </a>
+</li>
+
+
+
+
+
+
+      </ul>
+    </div>
+    <section class="hidden sm:flex sm:items-center sm:gap-2 md:gap-4">
+      
+      
+
+      
+
+      
+      
+      
+      
+
+
+
+
+<div role="link" tabindex="0" class="text-sm font-semibold cursor-pointer hover:underline" @click="flip = !flip" title="關於本站">關於本站</div>
+
+
+
+
+
+      
+      
+<a class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary" href="/search" title="搜尋">
+  <ion-icon class="group-hover:text-primary-content" name="search"></ion-icon>
+</a>
+
+
+      
+      
+<a class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary" href="/index.xml" title="RSS">
+  <ion-icon class="group-hover:text-primary-content" name="logo-rss"></ion-icon>
+</a>
+
+
+      
+
+      <div class="dropdown dropdown-end dropdown-hover">
+        <div tabindex="0" role="button" class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary" aria-label="Select an option">
+          <ion-icon class="group-hover:text-primary-content text-xl" name="menu"></ion-icon>
+        </div>
+        <ul tabindex="0" class="dropdown-content menu w-36 bg-base-100 rounded-box z-[1] shadow-xl">
+          
+          
+<li>
+  <a class="inline-flex items-center p-2 cursor-pointer" href="/posts" title="文章列表">
+    <ion-icon name="archive"></ion-icon>
+    文章列表
+  </a>
+</li>
+
+
+          
+          
+<li>
+  <a class="inline-flex items-center p-2 cursor-pointer" href="/categories" title="所有分類">
+    <ion-icon name="grid"></ion-icon>
+    所有分類
+  </a>
+</li>
+
+
+          
+          
+<li>
+  <a class="inline-flex items-center p-2 cursor-pointer" href="/tags" title="所有標籤">
+    <ion-icon name="pricetags"></ion-icon>
+    所有標籤
+  </a>
+</li>
+
+
+          
+
+          
+        </ul>
+      </div>
+      
+    </section>
+  </div>
+</nav>
+
+
+    <div class="flip-container" :class="{ 'flip-it': flip }">
+      <div class="flipper">
+        <div class="front">
+          <div class="container">
+            
+<div class="lg:grid lg:grid-cols-4 gap-4 mt-4 px-4">
+  <div class="hidden lg:block">
+    
+  </div>
+
+  <div class="lg:col-span-2">
+    <article class="mx-auto prose prose-quoteless dark:prose-invert" id="dream-single-post-main" itemscope itemtype="http://schema.org/Article">
+      
+  <meta itemprop="name" content="《研究生完全求生手冊》讀後心得：閱讀期刊論文方法">
+  <meta itemprop="description" content="在動手開始寫之前肯定得先閱讀大量的文獻，才能知道說領域內目前還有哪些問題值得探討，還有哪些題目還未解決">
+  <meta itemprop="datePublished" content="2023-06-06T12:58:00+08:00">
+  <meta itemprop="dateModified" content="2025-03-16T20:50:00+08:00">
+  <meta itemprop="wordCount" content="1234">
+  <meta itemprop="keywords" content="研究,寫作">
+
+      <header>
+        <h1 itemprop="headline">《研究生完全求生手冊》讀後心得：閱讀期刊論文方法</h1>
+        <p class="text-sm">
+          
+            星期二, 6月 6, 2023
+          
+
+          | <span>3分鐘閱讀</span>
+
+          
+          | <span>更新於
+            
+              星期日, 3月 16, 2025
+            </span>
+          
+        </p>
+
+        
+        <div class="flex justify-between">
+          
+            <div class="flex items-center">
+  
+  <div class="avatar mr-1">
+    <div class="w-8 rounded-full">
+      <img class="my-0" src="/img/Author.png" alt="Scientia" />
+    </div>
+  </div>
+  
+
+  <span itemprop="author" itemscope itemtype="https://schema.org/Person">
+  
+    
+      <a itemprop="url" href="https://scientia-potentia-est.com/zh/hong-sheng-huang-zh/" target="_blank">
+        <span itemprop="name">Scientia</span>
+      </a>
+    
+  
+  </span>
+</div>
+
+          
+
+          <div class="flex items-center gap-2">
+  
+  
+
+  
+  
+  
+  
+  
+    <a class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary"
+      href="https://x.com/intent/post?text=%e3%80%8a%e7%a0%94%e7%a9%b6%e7%94%9f%e5%ae%8c%e5%85%a8%e6%b1%82%e7%94%9f%e6%89%8b%e5%86%8a%e3%80%8b%e8%ae%80%e5%be%8c%e5%bf%83%e5%be%97%ef%bc%9a%e9%96%b1%e8%ae%80%e6%9c%9f%e5%88%8a%e8%ab%96%e6%96%87%e6%96%b9%e6%b3%95&amp;url=https://scientiatw.live/posts/survival_handbook_for_graduate_student_read/" target="_blank" rel="noopener noreferrer"
+      title="Share on X">
+      <ion-icon class="group-hover:text-primary-content" name="logo-x"></ion-icon>
+    </a>
+  
+    <a class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary"
+      href="https://facebook.com/sharer/sharer.php?u=https://scientiatw.live/posts/survival_handbook_for_graduate_student_read/" target="_blank" rel="noopener noreferrer"
+      title="Share on Facebook">
+      <ion-icon class="group-hover:text-primary-content" name="logo-facebook"></ion-icon>
+    </a>
+  
+
+  
+  
+</div>
+
+        </div>
+      </header>
+
+      <section id="dream-single-post-content" itemprop="articleBody">
+        
+          <img class="w-full z-30" src="/img/survival_handbook_for_graduate_student_cover.webp" alt="《研究生完全求生手冊》讀後心得：閱讀期刊論文方法" />
+        
+
+        <p>在動手開始寫之前肯定得先閱讀大量的文獻，才能知道說領域內目前還有哪些問題值得探討，還有哪些題目還未解決</p>
+<ul>
+<li>拿到一篇論文後, 先粗略瀏覽一遍, 找出自己所欠缺的背景知識, 以及他們所屬的學術分支, 以便快速找出載有這些背景知識的各種文獻。</li>
+<li>從這些文獻當中找出與該論文密切相關的段落來讀, 不相關的就不用看了。</li>
+<li>將這些材料由淺入深的排出閱讀的順序, 以便用最省時省力的方法去掌握所需的背景知識。</li>
+<li>背景知識補足之後再回頭再看一次論文。</li>
+</ul>
+<p>大學時代學東西就像是去餐廳吃飯, 店家(出版社)都已經幫你處理好順序, 逐道菜依序端上來, 你只需要依序逐行念就行, 但研究所讀論文就像自己下廚, 從食材的採購到烹飪上桌都必須要自己打理。</p>
+<h2 id="螺旋式閱讀法">螺旋式閱讀法</h2>
+<p>只先瀏覽自己需要再去查看的背景知識, 看完後再回頭再看一次，在不懂的就在跳出去看缺少的知識，一次比一次多看懂一些到最後看懂整篇，第一次只需要聚焦在三個問題上：</p>
+<ul>
+<li>這篇論文解決了什麼問題, 最適合用來描述這問題的術語是什麼?</li>
+<li>這篇論文使用的方法叫什麼?學術界是如何稱呼的?</li>
+<li>問題與解決方法是屬於哪個學術領域的?</li>
+</ul>
+<h3 id="期刊論文的閱讀策略與要領">期刊論文的閱讀策略與要領</h3>
+<p>期刊論文不應該『以論文為中心』，企圖把整篇逐行逐段讀懂，而是要『以問題為中心』。</p>
+<p>通常可以找回顧型論文(review paper或survey paper)或專書</p>
+<h2 id="方法與問題特性的彙整-批判與彙整的要領">方法與問題特性的彙整-批判與彙整的要領</h2>
+<p>方法的特性(或優缺點)可以分成四大範疇：</p>
+<ul>
+<li>基礎假設與適用範圍</li>
+<li>應用上的難易程度與成本</li>
+<li>常態工作條件(亦即吻合基礎假設時)</li>
+<li>會影響性能表現的各種干擾因素和作用</li>
+</ul>
+<h2 id="十倍速文獻回顧要訣">十倍速文獻回顧要訣</h2>
+<p>要求一個人在陌生的領域內完成文獻回顧，包含彙整批判與創新所需的時間可能差距十倍以上，沒經驗的碩士生可能要花兩年的時間才能完成，精通要領的學者可能兩個月就完成，這樣的差異造就學術界第一守則不論你花多少時間完成研究，只要別人比你先發表相關內容，你研究中重複的內容就必須捨棄掉。</p>
+<p>要縮短文獻回顧的時間，關鍵在於「以最少的閱讀量獲得最豐富的啟發與創意」，並且不遺漏任何流派的關鍵文獻從上圖可以分類文獻回顧者的能力：</p>
+<ul>
+<li>外行級：許多人拿到論文就開始從頭到尾整篇讀完，等讀完才發現內容跟研究主題無關，重複這樣做最後只得到跟研究主題有關的一小部分文獻，如同上圖虛線。</li>
+<li>入門級：這個階段的人，只會含糊籠統地知道文獻搜尋與篩選的皮毛，並沒有掌握到其中精要，因此讀過許多論文中勉強看完所有跟研究題目有關的文獻，但也讀了一堆跟研究主題沒有關連的，如同上圖實線橢圓圈。</li>
+<li>精熟級：到了這個階段的人已精通文獻搜尋與篩選的要領，以及論文的種類和結構，只要粗略地讀過論文的篇名與摘要，就可以判斷該論文是否跟研究主題有相關，而且能夠快速找到對研究主題有用的內容快速瀏覽吸收，鮮少浪費時間閱讀沒有參考價值的內容。</li>
+</ul>
+<p>有興趣的讀者可以參考我的讀墨或Kobo AP</p>
+<p>Readmoo電子書版：<a href="https://moo.im/a/dhyDFU" target="_blank">《研究生完全求生手冊》：方法、秘訣、潛規則</a>
+</p>
+<p>Kobo電子書版：<a href="https://r10.to/hkrTRj" target="_blank">《研究生完全求生手冊》：方法、秘訣、潛規則</a>
+</p>
+<p>博客來實體平裝書：<a href="https://www.books.com.tw/exep/assp.php/scientia/products/0010762863?utm_source=scientia&amp;utm_medium=ap-books&amp;utm_content=recommend&amp;utm_campaign=ap-202504" target="_blank">《研究生完全求生手冊》：方法、秘訣、潛規則</a>
+</p>
+
+        
+      </section>
+
+      
+      <div class="divider"></div>
+      <div class="flex flex-col md:flex-row justify-between gap-4 py-4">
+        
+        <a class="group btn btn-outline" href="/posts/survival_handbook_for_graduate_student_write/" title="《研究生完全求生手冊》讀後心得：寫作方向">
+          <ion-icon name="chevron-back"></ion-icon>
+          <div class="inline-flex flex-col items-start">
+            <span class="text-base-content/60 group-hover:text-neutral-content/60 text-xs font-normal">上一頁</span>
+            <span class="max-w-48 truncate">《研究生完全求生手冊》讀後心得：寫作方向</span>
+          </div>
+        </a>
+        
+
+        
+        <a class="group btn btn-outline" href="/posts/perennial_seller_positioning/" title="《長銷》讀後心讀：市場定位">
+          <div class="inline-flex flex-col items-end">
+            <span class="text-base-content/60 group-hover:text-neutral-content/60 text-xs font-normal">下一頁</span>
+            <span class="max-w-48 truncate">《長銷》讀後心讀：市場定位</span>
+          </div>
+          <ion-icon name="chevron-forward"></ion-icon>
+        </a>
+        
+      </div>
+      
+
+      
+      <div class="divider"></div>
+
+      <section class="space-y-4">
+        
+<article>
+  <div id="disqus_thread"></div>
+<script>
+    window.disqus_config = function () {
+        this.page.identifier = '\/posts\/survival_handbook_for_graduate_student_read\/';
+        this.page.title = '《研究生完全求生手冊》讀後心得：閱讀期刊論文方法';
+        this.page.url = 'https:\/\/scientiatw.live\/posts\/survival_handbook_for_graduate_student_read\/';
+
+        
+    };
+    function initDisqus() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "scientia-life" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    };
+    setTimeout(() => {
+        initDisqus();
+    }, 3000);
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</article>
+
+
+
+
+
+
+
+
+
+
+      </section>
+      
+    </article>
+  </div>
+
+  <div class="hidden lg:flex lg:flex-col lg:items-end">
+    
+      <nav id="TableOfContents">
+  <ul>
+    <li><a href="#螺旋式閱讀法">螺旋式閱讀法</a>
+      <ul>
+        <li><a href="#期刊論文的閱讀策略與要領">期刊論文的閱讀策略與要領</a></li>
+      </ul>
+    </li>
+    <li><a href="#方法與問題特性的彙整-批判與彙整的要領">方法與問題特性的彙整-批判與彙整的要領</a></li>
+    <li><a href="#十倍速文獻回顧要訣">十倍速文獻回顧要訣</a></li>
+  </ul>
+</nav>
+    
+  </div>
+</div>
+
+
+            
+<footer class="flex justify-between items-center gap-2 px-4 py-12">
+
+  <div>
+  
+  <p>
+    © 2025 Scientia&#39;s live
+  </p>
+  
+
+  
+  <p>from Scientia Potentia Est</p>
+  
+</div>
+
+  <div
+  x-data="{ icons: [
+    { name: 'sunny', status: 'n' },
+    { name: 'moon', status: 'y' },
+    { name: 'desktop', status: 'auto' }
+  ] }"
+  class="flex items-center gap-2 h-[32px] px-2 bg-base-100 border border-base-content/30 rounded-full"
+>
+  <template x-for="icon in icons">
+    <div
+      role="button"
+      tabindex="0"
+      :aria-label="'Select ' + icon.name + ' mode'"
+      class="group inline-flex justify-center items-center p-1 rounded-full cursor-pointer hover:bg-primary"
+      :class="$store.darkMode.icon() === icon.name && 'bg-primary'"
+      @click="$store.darkMode.toggle(icon.status)"
+    >
+      <ion-icon
+        :name="`${icon.name}-outline`"
+        class="group-hover:text-primary-content"
+        :class="$store.darkMode.icon() === icon.name && 'text-primary-content'"
+      >
+      </ion-icon>
+    </div>
+  </template>
+</div>
+
+</footer>
+
+          </div>
+        </div>
+        <div class="back">
+          <div class="container">
+            
+            <div class="dream-grid dream-grid-about">
+  
+  
+  
+  <div class="w-full md:w-1/2 lg:w-1/3 xl:w-1/4 p-4 dream-column">
+    <article
+      class="card card-compact bg-base-100 hover:bg-base-content/10 shadow-xl dark:border dark:border-base-content/30"
+    >
+      <div class="card-body">
+        <div class="card-title">關於我</div>
+
+        <div class="prose dark:prose-invert">
+          <p>我是站長<a href="https://scientia-potentia-est.com/zh/hong-sheng-huang-zh/" target="_blank">Scientia</a>
+</p>
+<p>本社群部落格主要撰寫有關「閱讀心得」、「生活分享」、「人文藝術」等主題</p>
+<p>任何合作或問題請寄到信箱內：scientia.polymath@gmail.com</p>
+
+        </div>
+      </div>
+    </article>
+  </div>
+  
+  <div class="w-full md:w-1/2 lg:w-1/3 xl:w-1/4 p-4 dream-column">
+    <article
+      class="card card-compact bg-base-100 hover:bg-base-content/10 shadow-xl dark:border dark:border-base-content/30"
+    >
+      <div class="card-body">
+        <div class="card-title">其他連結</div>
+
+        <div class="prose dark:prose-invert">
+          <ul>
+<li><a href="https://scientia-potentia-est.com/zh" target="_blank">技術部落格</a>
+</li>
+</ul>
+
+        </div>
+      </div>
+    </article>
+  </div>
+  
+  
+
+  
+
+  
+</div>
+
+            
+
+            
+<footer class="flex justify-between items-center gap-2 px-4 py-12">
+
+  <div>
+  
+  <p>
+    © 2025 Scientia&#39;s live
+  </p>
+  
+
+  
+  <p>from Scientia Potentia Est</p>
+  
+</div>
+
+  <div
+  x-data="{ icons: [
+    { name: 'sunny', status: 'n' },
+    { name: 'moon', status: 'y' },
+    { name: 'desktop', status: 'auto' }
+  ] }"
+  class="flex items-center gap-2 h-[32px] px-2 bg-base-100 border border-base-content/30 rounded-full"
+>
+  <template x-for="icon in icons">
+    <div
+      role="button"
+      tabindex="0"
+      :aria-label="'Select ' + icon.name + ' mode'"
+      class="group inline-flex justify-center items-center p-1 rounded-full cursor-pointer hover:bg-primary"
+      :class="$store.darkMode.icon() === icon.name && 'bg-primary'"
+      @click="$store.darkMode.toggle(icon.status)"
+    >
+      <ion-icon
+        :name="`${icon.name}-outline`"
+        class="group-hover:text-primary-content"
+        :class="$store.darkMode.icon() === icon.name && 'text-primary-content'"
+      >
+      </ion-icon>
+    </div>
+  </template>
+</div>
+
+</footer>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+  window.lightTheme = "emerald"
+  window.darkTheme = "forest"
+</script>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/imagesloaded@5.0.0/imagesloaded.pkgd.min.js" integrity="sha256-htrLFfZJ6v5udOG+3kNLINIKh2gvoKqwEhHYfTTMICc=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha256-Nn1q/fx0H7SNLZMQ5Hw5JLaTRZp0yILA/FRexe19VdI=" crossorigin="anonymous"></script>
+
+  
+  
+    
+  
+  <script src="/js/grid.min.js"></script>
+
+
+
+
+  
+
+<script src="/js/main.min.js"></script>
+
+    
+
+
+
+
+
+
+  
+    <script type="module">
+      import mediumZoom from 'https://cdn.jsdelivr.net/npm/medium-zoom@1.1.0/+esm';
+      mediumZoom('#dream-single-post-content img', {
+        background: 'oklch(var(--b1))',
+        margin: 24,
+      })
+    </script>
+  
+
+
+
+
+    
+
+    
+
+    
+
+    
+    
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-GC235QD2XY"></script>
+      <script>
+        var doNotTrack = false;
+        if ( false ) {
+          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+          var doNotTrack = (dnt == "1" || dnt == "yes");
+        }
+        if (!doNotTrack) {
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-GC235QD2XY');
+        }
+      </script>
+    
+
+    <script type="module" src="https://unpkg.com/ionicons@7.4.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.4.0/dist/ionicons/ionicons.js"></script>
+  </body>
+</html>

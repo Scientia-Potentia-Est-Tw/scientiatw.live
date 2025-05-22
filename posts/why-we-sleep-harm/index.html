@@ -1,0 +1,701 @@
+<!DOCTYPE html>
+<html lang="zh"
+  x-data
+  :class="$store.darkMode.class()"
+  :data-theme="$store.darkMode.theme()">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>《為什麼要睡覺？》：睡眠不足對於身體的各種危害 | Scientia&#39;s live</title>
+
+    
+  
+    <link href="/img/favicon.png" rel="icon" type="image/x-icon" />
+  
+
+
+<link rel="canonical" href="https://scientiatw.live/posts/why-we-sleep-harm/" />
+
+
+
+<meta name="author" content="Scientia" />
+<meta name="description" content="人生中健康的三大支柱，有些人排序成「飲食」、「運動」，最後是「睡眠」，但從研究結果來看睡眠才是另外兩項條件的基底
+" />
+
+
+<meta name="keywords" content="睡眠,健康">
+
+
+
+<meta name="generator" content="Hugo 0.147.4">
+
+
+<meta property="og:url" content="https://scientiatw.live/posts/why-we-sleep-harm/">
+  <meta property="og:site_name" content="Scientia&#39;s live">
+  <meta property="og:title" content="《為什麼要睡覺？》：睡眠不足對於身體的各種危害">
+  <meta property="og:description" content="人生中健康的三大支柱，有些人排序成「飲食」、「運動」，最後是「睡眠」，但從研究結果來看睡眠才是另外兩項條件的基底">
+  <meta property="og:locale" content="zh">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2025-04-15T23:54:00+08:00">
+    <meta property="article:modified_time" content="2025-04-23T11:58:00+08:00">
+    <meta property="article:tag" content="睡眠">
+    <meta property="article:tag" content="健康">
+
+
+
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="《為什麼要睡覺？》：睡眠不足對於身體的各種危害">
+  <meta name="twitter:description" content="人生中健康的三大支柱，有些人排序成「飲食」、「運動」，最後是「睡眠」，但從研究結果來看睡眠才是另外兩項條件的基底">
+
+
+
+
+  
+
+<link rel="stylesheet" href="/css/output.min.css" />
+
+
+
+
+    
+
+
+<style>
+  pre {
+    padding: 1em;
+    overflow: auto;
+  }
+</style>
+
+
+
+
+
+
+
+
+
+    
+    <link rel="stylesheet" href="/css/custom.css" />
+    
+
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+  </head>
+
+  <body x-data="{
+    flip: false,
+  }">
+    
+    <div id="dream-global-bg"></div>
+
+    
+<nav x-data="{ isSticky: false }"
+  x-init="window.addEventListener('scroll', () => { isSticky = window.scrollY > 30 })"
+  class="sticky top-0 z-30 mt-4 lg:mt-8 py-4"
+  :class="{ 'bg-base-100 shadow-lg dark:border-b dark:border-base-content/30': isSticky }">
+
+  
+  <div class="container flex justify-between px-4">
+  
+    <section class="flex items-center gap-4">
+      <div class="avatar cursor-pointer hover:online" @click="flip = !flip" title="翻轉一下！">
+        <div class="h-10 rounded-full">
+          <img src="/img/Author.png" alt="Scientia&#39;s live" />
+        </div>
+      </div>
+
+      
+      <div>
+        
+        <a href="https://scientiatw.live/" class="text-lg font-semibold cursor-pointer">
+          Scientia&#39;s live
+        </a>
+        
+        
+        <div class="text-base-content/60 text-sm">Social Blog</div>
+        
+      </div>
+      
+    </section>
+
+    <div class="dropdown dropdown-end sm:hidden">
+      <div tabindex="0" role="button" class="btn btn-ghost btn-square" aria-label="Select an option">
+        <ion-icon name="menu" class="text-2xl"></ion-icon>
+      </div>
+      <ul tabindex="0" class="dropdown-content menu w-36 bg-base-100 rounded-box z-[1] shadow-md">
+        
+
+
+
+<li>
+  <a class="group inline-flex items-center p-2 cursor-pointer" href="/search" title="搜尋">
+    <ion-icon name="search"></ion-icon>
+    搜尋
+  </a>
+</li>
+
+
+
+
+<li>
+  <a class="inline-flex items-center p-2 cursor-pointer" href="/index.xml" title="RSS">
+    <ion-icon name="logo-rss"></ion-icon>
+    RSS
+  </a>
+</li>
+
+
+
+
+<li>
+  <a class="inline-flex items-center p-2 cursor-pointer" href="/posts" title="文章列表">
+    <ion-icon name="archive"></ion-icon>
+    文章列表
+  </a>
+</li>
+
+
+
+
+<li>
+  <a class="inline-flex items-center p-2 cursor-pointer" href="/categories" title="所有分類">
+    <ion-icon name="grid"></ion-icon>
+    所有分類
+  </a>
+</li>
+
+
+
+
+<li>
+  <a class="inline-flex items-center p-2 cursor-pointer" href="/tags" title="所有標籤">
+    <ion-icon name="pricetags"></ion-icon>
+    所有標籤
+  </a>
+</li>
+
+
+
+
+
+
+      </ul>
+    </div>
+    <section class="hidden sm:flex sm:items-center sm:gap-2 md:gap-4">
+      
+      
+
+      
+
+      
+      
+      
+      
+
+
+
+
+<div role="link" tabindex="0" class="text-sm font-semibold cursor-pointer hover:underline" @click="flip = !flip" title="關於本站">關於本站</div>
+
+
+
+
+
+      
+      
+<a class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary" href="/search" title="搜尋">
+  <ion-icon class="group-hover:text-primary-content" name="search"></ion-icon>
+</a>
+
+
+      
+      
+<a class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary" href="/index.xml" title="RSS">
+  <ion-icon class="group-hover:text-primary-content" name="logo-rss"></ion-icon>
+</a>
+
+
+      
+
+      <div class="dropdown dropdown-end dropdown-hover">
+        <div tabindex="0" role="button" class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary" aria-label="Select an option">
+          <ion-icon class="group-hover:text-primary-content text-xl" name="menu"></ion-icon>
+        </div>
+        <ul tabindex="0" class="dropdown-content menu w-36 bg-base-100 rounded-box z-[1] shadow-xl">
+          
+          
+<li>
+  <a class="inline-flex items-center p-2 cursor-pointer" href="/posts" title="文章列表">
+    <ion-icon name="archive"></ion-icon>
+    文章列表
+  </a>
+</li>
+
+
+          
+          
+<li>
+  <a class="inline-flex items-center p-2 cursor-pointer" href="/categories" title="所有分類">
+    <ion-icon name="grid"></ion-icon>
+    所有分類
+  </a>
+</li>
+
+
+          
+          
+<li>
+  <a class="inline-flex items-center p-2 cursor-pointer" href="/tags" title="所有標籤">
+    <ion-icon name="pricetags"></ion-icon>
+    所有標籤
+  </a>
+</li>
+
+
+          
+
+          
+        </ul>
+      </div>
+      
+    </section>
+  </div>
+</nav>
+
+
+    <div class="flip-container" :class="{ 'flip-it': flip }">
+      <div class="flipper">
+        <div class="front">
+          <div class="container">
+            
+<div class="lg:grid lg:grid-cols-4 gap-4 mt-4 px-4">
+  <div class="hidden lg:block">
+    
+  </div>
+
+  <div class="lg:col-span-2">
+    <article class="mx-auto prose prose-quoteless dark:prose-invert" id="dream-single-post-main" itemscope itemtype="http://schema.org/Article">
+      
+  <meta itemprop="name" content="《為什麼要睡覺？》：睡眠不足對於身體的各種危害">
+  <meta itemprop="description" content="人生中健康的三大支柱，有些人排序成「飲食」、「運動」，最後是「睡眠」，但從研究結果來看睡眠才是另外兩項條件的基底">
+  <meta itemprop="datePublished" content="2025-04-15T23:54:00+08:00">
+  <meta itemprop="dateModified" content="2025-04-23T11:58:00+08:00">
+  <meta itemprop="wordCount" content="825">
+  <meta itemprop="keywords" content="睡眠,健康">
+
+      <header>
+        <h1 itemprop="headline">《為什麼要睡覺？》：睡眠不足對於身體的各種危害</h1>
+        <p class="text-sm">
+          
+            星期二, 4月 15, 2025
+          
+
+          | <span>2分鐘閱讀</span>
+
+          
+          | <span>更新於
+            
+              星期三, 4月 23, 2025
+            </span>
+          
+        </p>
+
+        
+        <div class="flex justify-between">
+          
+            <div class="flex items-center">
+  
+  <div class="avatar mr-1">
+    <div class="w-8 rounded-full">
+      <img class="my-0" src="/img/Author.png" alt="Scientia" />
+    </div>
+  </div>
+  
+
+  <span itemprop="author" itemscope itemtype="https://schema.org/Person">
+  
+    
+      <a itemprop="url" href="https://scientia-potentia-est.com/zh/hong-sheng-huang-zh/" target="_blank">
+        <span itemprop="name">Scientia</span>
+      </a>
+    
+  
+  </span>
+</div>
+
+          
+
+          <div class="flex items-center gap-2">
+  
+  
+
+  
+  
+  
+  
+  
+    <a class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary"
+      href="https://x.com/intent/post?text=%e3%80%8a%e7%82%ba%e4%bb%80%e9%ba%bc%e8%a6%81%e7%9d%a1%e8%a6%ba%ef%bc%9f%e3%80%8b%ef%bc%9a%e7%9d%a1%e7%9c%a0%e4%b8%8d%e8%b6%b3%e5%b0%8d%e6%96%bc%e8%ba%ab%e9%ab%94%e7%9a%84%e5%90%84%e7%a8%ae%e5%8d%b1%e5%ae%b3&amp;url=https://scientiatw.live/posts/why-we-sleep-harm/" target="_blank" rel="noopener noreferrer"
+      title="Share on X">
+      <ion-icon class="group-hover:text-primary-content" name="logo-x"></ion-icon>
+    </a>
+  
+    <a class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary"
+      href="https://facebook.com/sharer/sharer.php?u=https://scientiatw.live/posts/why-we-sleep-harm/" target="_blank" rel="noopener noreferrer"
+      title="Share on Facebook">
+      <ion-icon class="group-hover:text-primary-content" name="logo-facebook"></ion-icon>
+    </a>
+  
+
+  
+  
+</div>
+
+        </div>
+      </header>
+
+      <section id="dream-single-post-content" itemprop="articleBody">
+        
+          <img class="w-full z-30" src="/img/why_we_sleep_cover.webp" alt="《為什麼要睡覺？》：睡眠不足對於身體的各種危害" />
+        
+
+        <p>人生中健康的三大支柱，有些人排序成「飲食」、「運動」，最後是「睡眠」，但從研究結果來看<strong>睡眠</strong>才是另外兩項條件的基底</p>
+<p>也許你嘗試把<strong>睡眠</strong>從一天當中剝奪後就會發現控制飲食或運動完的成效突然變得不彰，可以想像其實睡眠不足早就導致你身體裡的每個主要系統、組織與器官都正在受損，從而導致你的所有健康面向都會衰敗，就像家裡水管破裂最終讓整個環境難逃一劫，長期的睡眠剝奪影響滲入每一個細胞，甚至改變你的DNA</p>
+
+
+
+  <blockquote>
+    <p>流行病學到病理學研究也不難看出在數十年間裡收集的幾百萬人資料顯示：睡得越少，壽命越短</p>
+  </blockquote>
+
+<p>美國或日本這種已開發國家目前最常遇到的致病致死問題像是心臟病、肥胖、失智症、糖尿病及癌症等等也都與缺乏睡眠有著正相關的結果，<strong>睡得不健康，心就不健康</strong>我想現代人肯定能夠認同，一份2011年的研究追蹤八個國家超過五十萬名男性和女性，包含各個年齡層、種族與族群</p>
+<p>研究上發現第七年到第二十年間顯示睡得越少，發生或死於冠狀動脈心臟病的相關風險增加了<strong>45%</strong>，其中在日本對超過四千名男性上班族的研究觀察在在十四年間，睡眠時間在<strong>六小時以下</strong>的人，發生一次以上心跳停止的可能性是睡眠超過六小時的<strong>400%<strong>到</strong>500%</strong>，當然這數字還包含了一些危險習慣，然而就算排除了其他心臟病的因子像是時常抽菸、缺乏運動與體重過重後，睡眠短少與心臟衰竭的關聯性仍然很高，所以光是缺乏睡眠就足以對心臟造成許多傷害</p>
+<p>當你接近中年時身體修復能力就會開始退化，四十五歲以上如果睡眠時間在<strong>六小時</strong>以下的人發生心臟病或中風的機會是每晚至少睡<strong>七</strong>到<strong>八</strong>小時的人的<strong>200%</strong>，所以中年晚期的睡眠品質非常重要，然而這時期也是你我的家庭與事業狀況變得艱難的人生階段</p>
+<p>有興趣的讀者可以參考下列讀墨或Kobo電子書版本或者博客來平裝書</p>
+<p>Readmoo電子書版本：<a href="https://moo.im/a/1ijmnu" target="_blank">《為什麼要睡覺？》：睡出健康與學習力、夢出創意的新科學</a>
+</p>
+<p>Kobo電子書版本：<a href="https://r10.to/hkIrxm" target="_blank">《為什麼要睡覺？》：睡出健康與學習力、夢出創意的新科學</a>
+</p>
+<p>博客來實體平裝書：<a href="https://www.books.com.tw/exep/assp.php/scientia/products/0010959050?utm_source=scientia&amp;utm_medium=ap-books&amp;utm_content=recommend&amp;utm_campaign=ap-202504" target="_blank">《為什麼要睡覺？》：睡出健康與學習力、夢出創意的新科學</a>
+</p>
+
+        
+      </section>
+
+      
+      <div class="divider"></div>
+      <div class="flex flex-col md:flex-row justify-between gap-4 py-4">
+        
+        <a class="group btn btn-outline" href="/posts/the-bullet-journal-method-freedom-of-choose-is-privilege/" title="《子彈思考整理術》：選擇的自由是一種特權">
+          <ion-icon name="chevron-back"></ion-icon>
+          <div class="inline-flex flex-col items-start">
+            <span class="text-base-content/60 group-hover:text-neutral-content/60 text-xs font-normal">上一頁</span>
+            <span class="max-w-48 truncate">《子彈思考整理術》：選擇的自由是一種特權</span>
+          </div>
+        </a>
+        
+
+        
+        <a class="group btn btn-outline" href="/posts/pqcrypto-2025/" title="PQCrypto 2025">
+          <div class="inline-flex flex-col items-end">
+            <span class="text-base-content/60 group-hover:text-neutral-content/60 text-xs font-normal">下一頁</span>
+            <span class="max-w-48 truncate">PQCrypto 2025</span>
+          </div>
+          <ion-icon name="chevron-forward"></ion-icon>
+        </a>
+        
+      </div>
+      
+
+      
+      <div class="divider"></div>
+
+      <section class="space-y-4">
+        
+<article>
+  <div id="disqus_thread"></div>
+<script>
+    window.disqus_config = function () {
+        this.page.identifier = '\/posts\/why-we-sleep-harm\/';
+        this.page.title = '《為什麼要睡覺？》：睡眠不足對於身體的各種危害';
+        this.page.url = 'https:\/\/scientiatw.live\/posts\/why-we-sleep-harm\/';
+
+        
+    };
+    function initDisqus() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "scientia-life" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    };
+    setTimeout(() => {
+        initDisqus();
+    }, 3000);
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</article>
+
+
+
+
+
+
+
+
+
+
+      </section>
+      
+    </article>
+  </div>
+
+  <div class="hidden lg:flex lg:flex-col lg:items-end">
+    
+      <nav id="TableOfContents"></nav>
+    
+  </div>
+</div>
+
+
+            
+<footer class="flex justify-between items-center gap-2 px-4 py-12">
+
+  <div>
+  
+  <p>
+    © 2025 Scientia&#39;s live
+  </p>
+  
+
+  
+  <p>Posts Copyright Scientia from Scientia Potentia Est</p>
+  
+</div>
+
+  <div
+  x-data="{ icons: [
+    { name: 'sunny', status: 'n' },
+    { name: 'moon', status: 'y' },
+    { name: 'desktop', status: 'auto' }
+  ] }"
+  class="flex items-center gap-2 h-[32px] px-2 bg-base-100 border border-base-content/30 rounded-full"
+>
+  <template x-for="icon in icons">
+    <div
+      role="button"
+      tabindex="0"
+      :aria-label="'Select ' + icon.name + ' mode'"
+      class="group inline-flex justify-center items-center p-1 rounded-full cursor-pointer hover:bg-primary"
+      :class="$store.darkMode.icon() === icon.name && 'bg-primary'"
+      @click="$store.darkMode.toggle(icon.status)"
+    >
+      <ion-icon
+        :name="`${icon.name}-outline`"
+        class="group-hover:text-primary-content"
+        :class="$store.darkMode.icon() === icon.name && 'text-primary-content'"
+      >
+      </ion-icon>
+    </div>
+  </template>
+</div>
+
+</footer>
+
+          </div>
+        </div>
+        <div class="back">
+          <div class="container">
+            
+            <div class="dream-grid dream-grid-about">
+  
+  
+  
+  <div class="w-full md:w-1/2 lg:w-1/3 xl:w-1/4 p-4 dream-column">
+    <article
+      class="card card-compact bg-base-100 hover:bg-base-content/10 shadow-xl dark:border dark:border-base-content/30"
+    >
+      <div class="card-body">
+        <div class="card-title">關於我</div>
+
+        <div class="prose dark:prose-invert">
+          <p>我是站長<a href="https://scientia-potentia-est.com/zh/hong-sheng-huang-zh/" target="_blank">Scientia</a>
+</p>
+<p>本社群部落格主要撰寫有關「閱讀心得」、「生活分享」、「人文藝術」等主題</p>
+<p>任何合作或問題請寄到信箱內：scientia.polymath@gmail.com</p>
+
+        </div>
+      </div>
+    </article>
+  </div>
+  
+  <div class="w-full md:w-1/2 lg:w-1/3 xl:w-1/4 p-4 dream-column">
+    <article
+      class="card card-compact bg-base-100 hover:bg-base-content/10 shadow-xl dark:border dark:border-base-content/30"
+    >
+      <div class="card-body">
+        <div class="card-title">其他連結</div>
+
+        <div class="prose dark:prose-invert">
+          <ul>
+<li><a href="https://scientia-potentia-est.com/zh" target="_blank">技術部落格</a>
+</li>
+</ul>
+
+        </div>
+      </div>
+    </article>
+  </div>
+  
+  <div class="w-full md:w-1/2 lg:w-1/3 xl:w-1/4 p-4 dream-column">
+    <article
+      class="card card-compact bg-base-100 hover:bg-base-content/10 shadow-xl dark:border dark:border-base-content/30"
+    >
+      <div class="card-body">
+        <div class="card-title">電子報訂閱</div>
+
+        <div class="prose dark:prose-invert">
+          <ul>
+<li><a href="http://eepurl.com/jctdbA" target="_blank">免費接收額外消息</a>
+</li>
+</ul>
+
+        </div>
+      </div>
+    </article>
+  </div>
+  
+  
+
+  
+
+  
+</div>
+
+            
+
+            
+<footer class="flex justify-between items-center gap-2 px-4 py-12">
+
+  <div>
+  
+  <p>
+    © 2025 Scientia&#39;s live
+  </p>
+  
+
+  
+  <p>Posts Copyright Scientia from Scientia Potentia Est</p>
+  
+</div>
+
+  <div
+  x-data="{ icons: [
+    { name: 'sunny', status: 'n' },
+    { name: 'moon', status: 'y' },
+    { name: 'desktop', status: 'auto' }
+  ] }"
+  class="flex items-center gap-2 h-[32px] px-2 bg-base-100 border border-base-content/30 rounded-full"
+>
+  <template x-for="icon in icons">
+    <div
+      role="button"
+      tabindex="0"
+      :aria-label="'Select ' + icon.name + ' mode'"
+      class="group inline-flex justify-center items-center p-1 rounded-full cursor-pointer hover:bg-primary"
+      :class="$store.darkMode.icon() === icon.name && 'bg-primary'"
+      @click="$store.darkMode.toggle(icon.status)"
+    >
+      <ion-icon
+        :name="`${icon.name}-outline`"
+        class="group-hover:text-primary-content"
+        :class="$store.darkMode.icon() === icon.name && 'text-primary-content'"
+      >
+      </ion-icon>
+    </div>
+  </template>
+</div>
+
+</footer>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+  window.lightTheme = "emerald"
+  window.darkTheme = "forest"
+</script>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/imagesloaded@5.0.0/imagesloaded.pkgd.min.js" integrity="sha256-htrLFfZJ6v5udOG+3kNLINIKh2gvoKqwEhHYfTTMICc=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha256-Nn1q/fx0H7SNLZMQ5Hw5JLaTRZp0yILA/FRexe19VdI=" crossorigin="anonymous"></script>
+
+  
+  
+    
+  
+  <script src="/js/grid.min.js"></script>
+
+
+
+
+  
+
+<script src="/js/main.min.js"></script>
+
+    
+
+
+
+
+
+
+  
+    <script type="module">
+      import mediumZoom from 'https://cdn.jsdelivr.net/npm/medium-zoom@1.1.0/+esm';
+      mediumZoom('#dream-single-post-content img', {
+        background: 'oklch(var(--b1))',
+        margin: 24,
+      })
+    </script>
+  
+
+
+
+
+    
+
+    
+
+    
+
+    
+    
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-GC235QD2XY"></script>
+      <script>
+        var doNotTrack = false;
+        if ( false ) {
+          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+          var doNotTrack = (dnt == "1" || dnt == "yes");
+        }
+        if (!doNotTrack) {
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-GC235QD2XY');
+        }
+      </script>
+    
+
+    <script type="module" src="https://unpkg.com/ionicons@7.4.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.4.0/dist/ionicons/ionicons.js"></script>
+  </body>
+</html>

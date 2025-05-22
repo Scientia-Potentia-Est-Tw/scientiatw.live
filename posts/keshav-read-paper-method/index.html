@@ -1,0 +1,785 @@
+<!DOCTYPE html>
+<html lang="zh"
+  x-data
+  :class="$store.darkMode.class()"
+  :data-theme="$store.darkMode.theme()">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keshav教授的閱讀論文守則 | Scientia&#39;s live</title>
+
+    
+  
+    <link href="/img/favicon.png" rel="icon" type="image/x-icon" />
+  
+
+
+<link rel="canonical" href="https://scientiatw.live/posts/keshav-read-paper-method/" />
+
+
+
+<meta name="author" content="Scientia" />
+<meta name="description" content="由Canada University of Waterloo School of Computer Science professor S. Keshav帶給大家主要使用IEEE journal template的架構來做說明
+" />
+
+
+<meta name="keywords" content="論文閱讀">
+
+
+
+<meta name="generator" content="Hugo 0.147.4">
+
+
+<meta property="og:url" content="https://scientiatw.live/posts/keshav-read-paper-method/">
+  <meta property="og:site_name" content="Scientia&#39;s live">
+  <meta property="og:title" content="Keshav教授的閱讀論文守則">
+  <meta property="og:description" content="由Canada University of Waterloo School of Computer Science professor S. Keshav帶給大家主要使用IEEE journal template的架構來做說明">
+  <meta property="og:locale" content="zh">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2025-01-11T16:00:00+08:00">
+    <meta property="article:modified_time" content="2025-03-16T21:09:00+08:00">
+    <meta property="article:tag" content="論文閱讀">
+
+
+
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Keshav教授的閱讀論文守則">
+  <meta name="twitter:description" content="由Canada University of Waterloo School of Computer Science professor S. Keshav帶給大家主要使用IEEE journal template的架構來做說明">
+
+
+
+
+  
+
+<link rel="stylesheet" href="/css/output.min.css" />
+
+
+
+
+    
+
+
+<style>
+  pre {
+    padding: 1em;
+    overflow: auto;
+  }
+</style>
+
+
+
+
+
+
+
+
+
+    
+    <link rel="stylesheet" href="/css/custom.css" />
+    
+
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+  </head>
+
+  <body x-data="{
+    flip: false,
+  }">
+    
+    <div id="dream-global-bg"></div>
+
+    
+<nav x-data="{ isSticky: false }"
+  x-init="window.addEventListener('scroll', () => { isSticky = window.scrollY > 30 })"
+  class="sticky top-0 z-30 mt-4 lg:mt-8 py-4"
+  :class="{ 'bg-base-100 shadow-lg dark:border-b dark:border-base-content/30': isSticky }">
+
+  
+  <div class="container flex justify-between px-4">
+  
+    <section class="flex items-center gap-4">
+      <div class="avatar cursor-pointer hover:online" @click="flip = !flip" title="翻轉一下！">
+        <div class="h-10 rounded-full">
+          <img src="/img/Author.png" alt="Scientia&#39;s live" />
+        </div>
+      </div>
+
+      
+      <div>
+        
+        <a href="https://scientiatw.live/" class="text-lg font-semibold cursor-pointer">
+          Scientia&#39;s live
+        </a>
+        
+        
+        <div class="text-base-content/60 text-sm">Social Blog</div>
+        
+      </div>
+      
+    </section>
+
+    <div class="dropdown dropdown-end sm:hidden">
+      <div tabindex="0" role="button" class="btn btn-ghost btn-square" aria-label="Select an option">
+        <ion-icon name="menu" class="text-2xl"></ion-icon>
+      </div>
+      <ul tabindex="0" class="dropdown-content menu w-36 bg-base-100 rounded-box z-[1] shadow-md">
+        
+
+
+
+<li>
+  <a class="group inline-flex items-center p-2 cursor-pointer" href="/search" title="搜尋">
+    <ion-icon name="search"></ion-icon>
+    搜尋
+  </a>
+</li>
+
+
+
+
+<li>
+  <a class="inline-flex items-center p-2 cursor-pointer" href="/index.xml" title="RSS">
+    <ion-icon name="logo-rss"></ion-icon>
+    RSS
+  </a>
+</li>
+
+
+
+
+<li>
+  <a class="inline-flex items-center p-2 cursor-pointer" href="/posts" title="文章列表">
+    <ion-icon name="archive"></ion-icon>
+    文章列表
+  </a>
+</li>
+
+
+
+
+<li>
+  <a class="inline-flex items-center p-2 cursor-pointer" href="/categories" title="所有分類">
+    <ion-icon name="grid"></ion-icon>
+    所有分類
+  </a>
+</li>
+
+
+
+
+<li>
+  <a class="inline-flex items-center p-2 cursor-pointer" href="/tags" title="所有標籤">
+    <ion-icon name="pricetags"></ion-icon>
+    所有標籤
+  </a>
+</li>
+
+
+
+
+
+
+      </ul>
+    </div>
+    <section class="hidden sm:flex sm:items-center sm:gap-2 md:gap-4">
+      
+      
+
+      
+
+      
+      
+      
+      
+
+
+
+
+<div role="link" tabindex="0" class="text-sm font-semibold cursor-pointer hover:underline" @click="flip = !flip" title="關於本站">關於本站</div>
+
+
+
+
+
+      
+      
+<a class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary" href="/search" title="搜尋">
+  <ion-icon class="group-hover:text-primary-content" name="search"></ion-icon>
+</a>
+
+
+      
+      
+<a class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary" href="/index.xml" title="RSS">
+  <ion-icon class="group-hover:text-primary-content" name="logo-rss"></ion-icon>
+</a>
+
+
+      
+
+      <div class="dropdown dropdown-end dropdown-hover">
+        <div tabindex="0" role="button" class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary" aria-label="Select an option">
+          <ion-icon class="group-hover:text-primary-content text-xl" name="menu"></ion-icon>
+        </div>
+        <ul tabindex="0" class="dropdown-content menu w-36 bg-base-100 rounded-box z-[1] shadow-xl">
+          
+          
+<li>
+  <a class="inline-flex items-center p-2 cursor-pointer" href="/posts" title="文章列表">
+    <ion-icon name="archive"></ion-icon>
+    文章列表
+  </a>
+</li>
+
+
+          
+          
+<li>
+  <a class="inline-flex items-center p-2 cursor-pointer" href="/categories" title="所有分類">
+    <ion-icon name="grid"></ion-icon>
+    所有分類
+  </a>
+</li>
+
+
+          
+          
+<li>
+  <a class="inline-flex items-center p-2 cursor-pointer" href="/tags" title="所有標籤">
+    <ion-icon name="pricetags"></ion-icon>
+    所有標籤
+  </a>
+</li>
+
+
+          
+
+          
+        </ul>
+      </div>
+      
+    </section>
+  </div>
+</nav>
+
+
+    <div class="flip-container" :class="{ 'flip-it': flip }">
+      <div class="flipper">
+        <div class="front">
+          <div class="container">
+            
+<div class="lg:grid lg:grid-cols-4 gap-4 mt-4 px-4">
+  <div class="hidden lg:block">
+    
+  </div>
+
+  <div class="lg:col-span-2">
+    <article class="mx-auto prose prose-quoteless dark:prose-invert" id="dream-single-post-main" itemscope itemtype="http://schema.org/Article">
+      
+  <meta itemprop="name" content="Keshav教授的閱讀論文守則">
+  <meta itemprop="description" content="由Canada University of Waterloo School of Computer Science professor S. Keshav帶給大家主要使用IEEE journal template的架構來做說明">
+  <meta itemprop="datePublished" content="2025-01-11T16:00:00+08:00">
+  <meta itemprop="dateModified" content="2025-03-16T21:09:00+08:00">
+  <meta itemprop="wordCount" content="5811">
+  <meta itemprop="keywords" content="論文閱讀">
+
+      <header>
+        <h1 itemprop="headline">Keshav教授的閱讀論文守則</h1>
+        <p class="text-sm">
+          
+            星期六, 1月 11, 2025
+          
+
+          | <span>12分鐘閱讀</span>
+
+          
+          | <span>更新於
+            
+              星期日, 3月 16, 2025
+            </span>
+          
+        </p>
+
+        
+        <div class="flex justify-between">
+          
+            <div class="flex items-center">
+  
+  <div class="avatar mr-1">
+    <div class="w-8 rounded-full">
+      <img class="my-0" src="/img/Author.png" alt="Scientia" />
+    </div>
+  </div>
+  
+
+  <span itemprop="author" itemscope itemtype="https://schema.org/Person">
+  
+    
+      <a itemprop="url" href="https://scientia-potentia-est.com/zh/hong-sheng-huang-zh/" target="_blank">
+        <span itemprop="name">Scientia</span>
+      </a>
+    
+  
+  </span>
+</div>
+
+          
+
+          <div class="flex items-center gap-2">
+  
+  
+
+  
+  
+  
+  
+  
+    <a class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary"
+      href="https://x.com/intent/post?text=Keshav%e6%95%99%e6%8e%88%e7%9a%84%e9%96%b1%e8%ae%80%e8%ab%96%e6%96%87%e5%ae%88%e5%89%87&amp;url=https://scientiatw.live/posts/keshav-read-paper-method/" target="_blank" rel="noopener noreferrer"
+      title="Share on X">
+      <ion-icon class="group-hover:text-primary-content" name="logo-x"></ion-icon>
+    </a>
+  
+    <a class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary"
+      href="https://facebook.com/sharer/sharer.php?u=https://scientiatw.live/posts/keshav-read-paper-method/" target="_blank" rel="noopener noreferrer"
+      title="Share on Facebook">
+      <ion-icon class="group-hover:text-primary-content" name="logo-facebook"></ion-icon>
+    </a>
+  
+
+  
+  
+</div>
+
+        </div>
+      </header>
+
+      <section id="dream-single-post-content" itemprop="articleBody">
+        
+
+        <p>由Canada University of Waterloo School of Computer Science professor S. Keshav帶給大家主要使用IEEE journal template的架構來做說明</p>
+<p>採取以下的方法審核</p>
+<ul>
+<li>Abstract</li>
+<li>Introduction</li>
+<li>Literature Survey</li>
+<li>Related Work</li>
+<li>Methodology</li>
+<li>References</li>
+</ul>
+<p>主要目的是想建立讀者在建構自己的新想法時能夠有些路徑探索</p>
+<h2 id="abstract">Abstract</h2>
+<p>在abstract內提出自己想針對的問題，彙整研究最後產出的貢獻，也是給其他研究學者在翻到你這篇研究後可以快速的review，判斷需不需要繼續讀下去</p>
+<ol>
+<li>Categories and Subject Descriptions: 就單純提出自己研究的分類</li>
+<li>Keywords: 附上研究的問題、提出的方法、解決方法的技術等關鍵字提供給其他研究員快速判斷</li>
+</ol>
+<p>研究員花上大量的時間來閱讀paper，然後卻鮮少有人去教導，花較少的精力來review paper，本篇how to read a paper就是想帶給新入門的研究生一種快速閱讀paper的方法，作者稱作為”Three-pass method”，這種方法也能夠快速survey原文書</p>
+<h2 id="introduction">Introduction</h2>
+<p>比起abstract更加仔細的解釋你的問題來龍去脈，為什麼這個問題很重要？並且提到自己為了解決這個問題提出了哪種方法</p>
+<p>研究員必須閱讀paper有幾點原因：因為conference或者課程需要所以review paper，理解在研究員自身的領域內最新的發展，或者為了發展新的藍海題目而進行的paper survey，一個標準的研究員每年至少會花上數百個小時來閱讀paper，故有效率的閱讀一篇paper是非常重要的技能</p>
+<p>但卻很少有學校會專門開課教你，而指導教授通常也很忙無法完全督促你閱讀paper的方法是否正確，所以作為新手的研究生，必須靠自己在trial and error當中掌握最適合自己的閱讀方法，在這過程當中新手研究生會浪費許多的精力並且頻繁地遇到挫折，所以我們才要介紹多年來Keshav教授使用一種簡單又有效率的方法在閱讀paper，這種方法叫做’three-pass’方法，並且適合用來survey paper</p>
+<h2 id="methodology">Methodology</h2>
+<p>先提出你的方法架構，給其他研究員一個大方向，主要想法是一篇paper你抓個看三次要看完，並且不要拿到一篇paper就從頭abstract看到尾conclusion，每一次看的重點應該放在你想要在這篇paper上知道什麼事情，能夠突破你舊有的思想，以及參考上一次看到的東西，哪些地方不懂的，在你下一次回去看後應該要了解上次不懂的地方：</p>
+<ul>
+<li>第一次你要看到這篇paper想要表達的想法是什麼，想要解決的問題是什麼？</li>
+<li>第二次你抓出這篇paper的內容，使用哪種解決方法、技術，但還不需要知道太細節的部分</li>
+<li>第三次你應該要更深入的了解這篇paper了，知道作者提出的方法是如何解決遇到的問題</li>
+</ul>
+<h3 id="31-the-first-pass">3.1 The first pass</h3>
+<p>接著開始詳細描述你的方法每個階段步驟，像作者提出三步驟的閱讀paper法則，第一階段的細節該做哪些事情在這裡要描述清楚</p>
+<p>首先第一次閱讀要快速掃瞄整篇paper，用鳥瞰的方法看這篇paper，先見林再去見樹，你也可以在這個階段決定需不需要更多次的閱讀，這取決於你對於paper領域的熟悉度，如果裡面出現的術語有太多你不清楚的，那肯定需要花更多時間去查詢這些術語，通常這個掃描時間花5到10分鐘，並且可以根據以下的步驟來實行：</p>
+<ol>
+<li>仔細閱讀paper title, paper abstract, paper introduction</li>
+<li>閱讀每一個section以及sub-section標題，但先不去看每一個section的內容</li>
+<li>閱讀結論</li>
+<li>稍微瞄一下references，在心裡頭回憶一下references裡你已經看過的</li>
+</ol>
+<p>在你完成了第一次的快速掃瞄後，你應該要能夠回答出5個C：</p>
+<ul>
+<li>Category：這是篇什麼樣的paper?一篇測量的paper?針對已存在系統的分析？針對一個新的研究雛形的描述？</li>
+<li>Context：這篇paper跟其他篇有什麼樣的關聯性？在這篇paper當中使用了哪種基礎理論來分析提出的問題？</li>
+<li>Correctness：這篇paper提出的assumption是合理的嗎？</li>
+<li>Contributions：這篇paper主要的貢獻是什麼？</li>
+<li>Clarity：這篇paper讀起來文筆好嗎？架構清晰嗎？提出問題跟解決問題的描述清楚嗎？</li>
+</ul>
+<p>根據這5個C，你可以決定是否要繼續仔細讀這篇paper，這取決於你是否對於這個題目有興趣，或者你在這篇paper當中還有太多東西不了解導致於閱讀起來很吃力，亦或者作者提出的假設根本不合理，總之讀第一遍就能夠讓你知道閱讀這篇paper是否對於你現在的研究領域有幫助，但在未來可能有幫助，你就能判斷現在是否要先讀</p>
+<p>順帶一提，當你在寫paper時，你就可以先預期大部分的reviewers或者讀者就只會讀你的paper一遍，所以你要仔細的挑選每一個section, sub-section的title，以及簡潔有力且豐富的abstract，如果reviewer不能在第一次閱讀完你的paper時了解其中的意思，很高機率你的paper會被reject掉，而讀者如果無法在5分鐘後了解你這篇paper想要解決的問題是什麼，那很高機率他們就不會繼續讀下去了</p>
+<h3 id="32-the-second-pass">3.2 The Second pass</h3>
+<p>第二次閱讀時你因為第一次閱讀覺得這篇paper有價值時，你需要更仔細的往更深處挖掘，不過先忽略掉更細節的部分像是證明方法的章節，你可以在這個階段閱讀時記下paper裡面的關鍵點，或者在空白處就先寫一下自己的想法，這對於後續做整理會很有幫助：</p>
+<ol>
+<li>作者在paper裡面放的圖片、表格，或者用來解釋的圖形要很仔細的去看，畢竟不管是conference paper或者journal paper都有篇幅限制，作者深思熟慮後放的圖片絕對是很重要的內容，資料的標示是否正確？結果是否帶有誤差線條使得結論具有統計上的意義？像這些常見的錯誤會把倉促、粗劣的研究結果與真正優秀的研究結果做區別。</li>
+<li>要記得標示出相關聯但還沒提到的參考以供更進步的查找資料作參考(這會讓讀者更好的去找出本篇paper需要的background。</li>
+</ol>
+<p>第二次閱讀大概要花個一小時，閱讀完第二次後你應該要能夠抓出paper裡的內容，你能夠統整出paper想要解決的問題，以及如何解決的方法所提出的證據等等，這階段你還是因為對於這篇paper有興趣所以才去閱讀這些細節，但還不足以直接對你現在的研究有所幫助</p>
+<p>有時候你在閱讀完第二次你還是不完全了解整篇paper的細節，可能是這篇paper的領域你還不是很熟悉裡面的術語與縮寫等等，或者paper作者使用的證明或實驗方法是你未曾使用過的，導致於整篇paper雖然你讀完了但還是不了解內容，也有可能是paper的內容充斥的大量未經證實的想法以及大量參考前人的paper作法導致整篇架構不清晰，閱讀起來非常吃力，也有那麼一種可能是你已經閱讀很久的時間了而你感到非常疲累</p>
+<p>當你遇到上述這些狀況後你可以做幾個選擇</p>
+<ol>
+<li>把paper丟到旁邊，並且冀望之後完全不會用到那篇paper提到的方法，也能讓你之後的人生一帆風順。</li>
+<li>晚點再去看paper，先去把paper需要的background補齊</li>
+<li>無視這些問題直接跳到閱讀第三次</li>
+</ol>
+<h3 id="33-the-third-pass">3.3 The third pass</h3>
+<p>第三次閱讀時就是為了完整的了解整篇paper的內容，尤其你是個reviewer時就需要這麼做，第三次閱讀的重點是你需要嘗試虛擬重新實作paper提出的方法，意思是跟作者一樣使用同樣的assumption，重新創造一次實驗結果，這是為了用來比較你重新創造的實驗環境與作者提出來的結果，你可以站在作者的角度，簡單的發覺到paper作者創新的點，以及說不定能發現作者在實驗時的失敗與曾經的assumption，尤其在DL/ML的研究裡，還是比較希望作者可以把source code發表出來，讓其他讀者重新跑一次作者的實驗數據是否是正確的，不然每天都成千上萬篇ML/DL paper出現，有些實驗數據到底是不是真實的只有實際去跑過model才能驗證</p>
+<p>第三次閱讀需要你對於細節有更多的注意力，你必須對於paper裡面每一次提出的assumption都能夠證明合理性以及挑戰正確性，更進一步的是，透過你閱讀的這篇paper，來發想自己會如何做？你針對paper裡提出的問題你會提出什麼樣的解決方法？閱讀別人的paper應該是為了建構你自己的想法而去做的，你對於這篇作者提出的解決方法不滿意？那你可以提出一個能讓你自己更滿意的作法，如此比較虛擬想法與實際作法是為了雕塑出這個問題的知識邊界，透過paper裡證明以及展示技巧來建立你自己想法的劇本，同時在這階段，你應該要能構想出針對問題的future work，如果是你，你會如何加強這篇paper的方法？</p>
+<p>第三次閱讀對於研究新手來說可能需要花上4到5個小時，而經驗老道的研究員可能花個1小時就行，這取決於你對於這個研究領域的熟悉度，在閱讀完第三次後，你應該要能夠靠著記憶力重新建構出paper的完整架構，能夠意識到這篇paper的優勢以及劣勢，並且你應該要能夠準確的點出這篇paper裡面的隱性assumption，遺失掉哪些相關的研究沒提到以及實驗方法或者分析技巧的潛在問題</p>
+<h2 id="literature-survey">Literature Survey</h2>
+<p>在做文獻調查時你的paper閱讀技巧是最關鍵的，你在做文獻回顧時都會需要閱讀數十篇的paper，尤其在你不熟悉的領域時，哪些Paper是你應該要讀的？你可以使用三個階段來判斷哪些paper是你需要的
+第一步使用學術搜尋引擎像是Google Scholar或者CiteSeer以及一些你需要的keywords來搜尋3到5篇近期在你的領域內發表的paper，第一遍你要知道每一篇paper的problematic，接著閱讀你需要相關的章節，你就會發現條列式的總結這些近期paper，或者你很幸運的可以找到近期有人發表survey paper裡都有你想要知道的事情，那你就針對那篇survey paper就可以了</p>
+<p>第二步如果找不到別人有發表很新穎的survey paper，那你接下來得找引用數以及重複出現名字多次的作者，這些人是在你的領域內知名的主要發表人，下載他們的paper將這些paper放到一旁，然後到這些知名學者的網站裡看看他們近期發表哪些paper，這是為了讓你找出這個領域內的頂尖conferecne有哪些，畢竟這些學者最常投稿的就是top conference，尤其在computer science的領域，大部分conference比journal更有參考價值，原因是conference你投稿後3到4個月reviewer就會決定accpet或是reject掉你的paper，而journal快則6到8個月，慢則9到12個月，發表出來後你的方法早就不是最新的了，可能會有一堆conference paper有跟你很類似的方法，這樣你的研究根本無法算是最早投入的先驅，從研究貢獻原則來看，別人比你早個一天發表類似的研究你就得刪掉重疊的內容</p>
+<p>第三部就是到這些top conference的網站，尋找近期發表在上面的研究成果，快速審視一下認知何謂高水準的研究成果，在上面找到的優質paper也許你之前就已經下載了，在你第一次找survey paper時，接著review這些優秀的paper，如果這些paper也共同指向了某篇關鍵paper而你還沒看過，你需要將其找出來並且閱讀，如果你一直有發現這樣的關鍵paper，那就重複步驟，畢竟作為一個研究生你必須不斷地追問，不斷地提出問題，為什麼這些資深的學者認為這樣的問題很重要？而往往都會有一個根源是這些學者們已經知道且默認在心裡的，你有義務去了解，並且將這問題也深植自己的心中，你才有機會有朝一日達到跟這些研究員一樣的高度，這也是文獻回顧最關鍵的核心</p>
+<h2 id="related-work">Related Work</h2>
+<p>如果你讀paper是為了review領域內的發展，你也應該去閱讀Timothy Roscoe的paper “Writing reviews for system conferences”[2]，如果你計畫寫一篇技術paper，你應該參考Henning Schulzrinne的網站[3]以及George Whitesides的review方法[4]，而Simon Peyton Jones的網站提供了一個研究員應該具備哪些能力[5]</p>
+<h2 id="references">References</h2>
+<p>參考資料，所有本篇paper中提到的引用資訊皆會放進此單元中，讀者可以從這裡找到一些作者看過的思考路徑</p>
+<p>[1] S. Keshav. 2007. How to read a paper. SIGCOMM Comput. Commun. Rev. 37, 3 (July 2007), 83–84. <a href="https://doi.org/10.1145/1273445.1273458" target="_blank">https://doi.org/10.1145/1273445.1273458</a>
+</p>
+<p>[2] T. Roscoe, “Writing Reviews for Systems Conferences,” <a href="https://people.inf.ethz.ch/troscoe/pubs/review-writing.pdf" target="_blank">https://people.inf.ethz.ch/troscoe/pubs/review-writing.pdf</a>
+</p>
+<p>[3] H. Schulzrinne, “Writing Technical Articles,” <a href="https://www.cs.columbia.edu/~hgs/etc/writing-style.html" target="_blank">https://www.cs.columbia.edu/~hgs/etc/writing-style.html</a>
+</p>
+<p>[4] G.M. Whitesides, “Whitesides’ Group: Writing a Paper,&quot; <a href="https://onlinelibrary.wiley.com/doi/10.1002/adma.200400767" target="_blank">https://onlinelibrary.wiley.com/doi/10.1002/adma.200400767</a>
+</p>
+<p>[5] Simon Peyton Jones, &ldquo;Other great resources on research skills, &quot; <a href="https://simon.peytonjones.org/research-skills/" target="_blank">https://simon.peytonjones.org/research-skills/</a>
+</p>
+<h2 id="這方法實不實用">這方法實不實用？</h2>
+<p>Keshav教授已經使用這套方法15年了(這篇文章發表時間大概是2007年)，用來閱讀conference paper、寫review、研究時補齊background以及在參與討論之前快速review paper，這種嚴謹的方法讓教授先從鳥瞰的方法審視整個研究架構，從而避免了一開始就直接從頭看到尾，並且迷失在paper裡面細節的情形，用這方法可以先預估自己會花多少時間在成堆的paper上</p>
+<p>教授用這種方法可以根據自己想知道的內容來調整需要讀哪些段落以及根據所剩的時間來決定該看paper的哪些部分，不過各位也可以調整成自己比較舒適的方法，我認為目前在AI技術蓬勃發展的這個時代也有許多輔助我們閱讀paper的工具像是chatPDF的出現，或者chatGPT、Gemini等服務也都可以上傳PDF檔案，他們的OCR能力有一直在提升，讀者可以想像目前大多數是基於NLP/LLM的方法上透過辨識內文快速整理出一些亮點給使用者，以及使用者可以用提問的方法讓模型推測出要回應的資訊</p>
+<p>主要的問題是如果你對於一個領域才剛入門資歷還算很菜沒看過太多篇的話，這些工具通常只從單個paper當中擷取內文資訊給你，一些沒有在paper上詳述的事情就得透過引入其他篇paper來補齊知識，這麼做了之後你又會冒出更多的問題要引用更多篇進來，所以如果你才剛進入研究的門檻內還是建議先從基礎功力打穩，對於該領域有一些自己的理解跟看法之後就可以漸漸利用AI工具了，就像即便有了Midjourney、DALL-E這類圖像產生服務，還是有些人從素描慢慢學起讓自己對於光影、比例、結構等有更深入的了解，就能夠在prompting的時候有別於他人的觀點</p>
+<p>我想做研究也是一樣的，這些工具能夠彙整出許多的點，但要如何將每一個點連起來成線就必須依靠自己的思考框架，尤其在這個人們越來越依賴機器的時代，被AGI服務、短影片所奪走如此多的注意力，從學會閱讀長篇文獻的過程中找回專注力對於你我的幫助肯定很大。</p>
+
+        
+      </section>
+
+      
+      <div class="divider"></div>
+      <div class="flex flex-col md:flex-row justify-between gap-4 py-4">
+        
+        <a class="group btn btn-outline" href="/posts/why-we-sleep-type/" title="《為什麼要睡覺？》：你是早鳥還是夜貓子？">
+          <ion-icon name="chevron-back"></ion-icon>
+          <div class="inline-flex flex-col items-start">
+            <span class="text-base-content/60 group-hover:text-neutral-content/60 text-xs font-normal">上一頁</span>
+            <span class="max-w-48 truncate">《為什麼要睡覺？》：你是早鳥還是夜貓子？</span>
+          </div>
+        </a>
+        
+
+        
+        <a class="group btn btn-outline" href="/posts/readmoo-mooink-pro-2c/" title="讀墨 Readmoo mooInk Pro 2C 13.3吋 彩色電子書閱讀器 閱讀PDF檔案的應許之機">
+          <div class="inline-flex flex-col items-end">
+            <span class="text-base-content/60 group-hover:text-neutral-content/60 text-xs font-normal">下一頁</span>
+            <span class="max-w-48 truncate">讀墨 Readmoo mooInk Pro 2C 13.3吋 彩色電子書閱讀器 閱讀PDF檔案的應許之機</span>
+          </div>
+          <ion-icon name="chevron-forward"></ion-icon>
+        </a>
+        
+      </div>
+      
+
+      
+      <div class="divider"></div>
+
+      <section class="space-y-4">
+        
+<article>
+  <div id="disqus_thread"></div>
+<script>
+    window.disqus_config = function () {
+        this.page.identifier = '\/posts\/keshav-read-paper-method\/';
+        this.page.title = 'Keshav教授的閱讀論文守則';
+        this.page.url = 'https:\/\/scientiatw.live\/posts\/keshav-read-paper-method\/';
+
+        
+    };
+    function initDisqus() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "scientia-life" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    };
+    setTimeout(() => {
+        initDisqus();
+    }, 3000);
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</article>
+
+
+
+
+
+
+
+
+
+
+      </section>
+      
+    </article>
+  </div>
+
+  <div class="hidden lg:flex lg:flex-col lg:items-end">
+    
+      <nav id="TableOfContents">
+  <ul>
+    <li><a href="#abstract">Abstract</a></li>
+    <li><a href="#introduction">Introduction</a></li>
+    <li><a href="#methodology">Methodology</a>
+      <ul>
+        <li><a href="#31-the-first-pass">3.1 The first pass</a></li>
+        <li><a href="#32-the-second-pass">3.2 The Second pass</a></li>
+        <li><a href="#33-the-third-pass">3.3 The third pass</a></li>
+      </ul>
+    </li>
+    <li><a href="#literature-survey">Literature Survey</a></li>
+    <li><a href="#related-work">Related Work</a></li>
+    <li><a href="#references">References</a></li>
+    <li><a href="#這方法實不實用">這方法實不實用？</a></li>
+  </ul>
+</nav>
+    
+  </div>
+</div>
+
+
+            
+<footer class="flex justify-between items-center gap-2 px-4 py-12">
+
+  <div>
+  
+  <p>
+    © 2025 Scientia&#39;s live
+  </p>
+  
+
+  
+  <p>Posts Copyright Scientia from Scientia Potentia Est</p>
+  
+</div>
+
+  <div
+  x-data="{ icons: [
+    { name: 'sunny', status: 'n' },
+    { name: 'moon', status: 'y' },
+    { name: 'desktop', status: 'auto' }
+  ] }"
+  class="flex items-center gap-2 h-[32px] px-2 bg-base-100 border border-base-content/30 rounded-full"
+>
+  <template x-for="icon in icons">
+    <div
+      role="button"
+      tabindex="0"
+      :aria-label="'Select ' + icon.name + ' mode'"
+      class="group inline-flex justify-center items-center p-1 rounded-full cursor-pointer hover:bg-primary"
+      :class="$store.darkMode.icon() === icon.name && 'bg-primary'"
+      @click="$store.darkMode.toggle(icon.status)"
+    >
+      <ion-icon
+        :name="`${icon.name}-outline`"
+        class="group-hover:text-primary-content"
+        :class="$store.darkMode.icon() === icon.name && 'text-primary-content'"
+      >
+      </ion-icon>
+    </div>
+  </template>
+</div>
+
+</footer>
+
+          </div>
+        </div>
+        <div class="back">
+          <div class="container">
+            
+            <div class="dream-grid dream-grid-about">
+  
+  
+  
+  <div class="w-full md:w-1/2 lg:w-1/3 xl:w-1/4 p-4 dream-column">
+    <article
+      class="card card-compact bg-base-100 hover:bg-base-content/10 shadow-xl dark:border dark:border-base-content/30"
+    >
+      <div class="card-body">
+        <div class="card-title">關於我</div>
+
+        <div class="prose dark:prose-invert">
+          <p>我是站長<a href="https://scientia-potentia-est.com/zh/hong-sheng-huang-zh/" target="_blank">Scientia</a>
+</p>
+<p>本社群部落格主要撰寫有關「閱讀心得」、「生活分享」、「人文藝術」等主題</p>
+<p>任何合作或問題請寄到信箱內：scientia.polymath@gmail.com</p>
+
+        </div>
+      </div>
+    </article>
+  </div>
+  
+  <div class="w-full md:w-1/2 lg:w-1/3 xl:w-1/4 p-4 dream-column">
+    <article
+      class="card card-compact bg-base-100 hover:bg-base-content/10 shadow-xl dark:border dark:border-base-content/30"
+    >
+      <div class="card-body">
+        <div class="card-title">其他連結</div>
+
+        <div class="prose dark:prose-invert">
+          <ul>
+<li><a href="https://scientia-potentia-est.com/zh" target="_blank">技術部落格</a>
+</li>
+</ul>
+
+        </div>
+      </div>
+    </article>
+  </div>
+  
+  <div class="w-full md:w-1/2 lg:w-1/3 xl:w-1/4 p-4 dream-column">
+    <article
+      class="card card-compact bg-base-100 hover:bg-base-content/10 shadow-xl dark:border dark:border-base-content/30"
+    >
+      <div class="card-body">
+        <div class="card-title">電子報訂閱</div>
+
+        <div class="prose dark:prose-invert">
+          <ul>
+<li><a href="http://eepurl.com/jctdbA" target="_blank">免費接收額外消息</a>
+</li>
+</ul>
+
+        </div>
+      </div>
+    </article>
+  </div>
+  
+  
+
+  
+
+  
+</div>
+
+            
+
+            
+<footer class="flex justify-between items-center gap-2 px-4 py-12">
+
+  <div>
+  
+  <p>
+    © 2025 Scientia&#39;s live
+  </p>
+  
+
+  
+  <p>Posts Copyright Scientia from Scientia Potentia Est</p>
+  
+</div>
+
+  <div
+  x-data="{ icons: [
+    { name: 'sunny', status: 'n' },
+    { name: 'moon', status: 'y' },
+    { name: 'desktop', status: 'auto' }
+  ] }"
+  class="flex items-center gap-2 h-[32px] px-2 bg-base-100 border border-base-content/30 rounded-full"
+>
+  <template x-for="icon in icons">
+    <div
+      role="button"
+      tabindex="0"
+      :aria-label="'Select ' + icon.name + ' mode'"
+      class="group inline-flex justify-center items-center p-1 rounded-full cursor-pointer hover:bg-primary"
+      :class="$store.darkMode.icon() === icon.name && 'bg-primary'"
+      @click="$store.darkMode.toggle(icon.status)"
+    >
+      <ion-icon
+        :name="`${icon.name}-outline`"
+        class="group-hover:text-primary-content"
+        :class="$store.darkMode.icon() === icon.name && 'text-primary-content'"
+      >
+      </ion-icon>
+    </div>
+  </template>
+</div>
+
+</footer>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+  window.lightTheme = "emerald"
+  window.darkTheme = "forest"
+</script>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/imagesloaded@5.0.0/imagesloaded.pkgd.min.js" integrity="sha256-htrLFfZJ6v5udOG+3kNLINIKh2gvoKqwEhHYfTTMICc=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha256-Nn1q/fx0H7SNLZMQ5Hw5JLaTRZp0yILA/FRexe19VdI=" crossorigin="anonymous"></script>
+
+  
+  
+    
+  
+  <script src="/js/grid.min.js"></script>
+
+
+
+
+  
+
+<script src="/js/main.min.js"></script>
+
+    
+
+
+
+
+
+
+  
+    <script type="module">
+      import mediumZoom from 'https://cdn.jsdelivr.net/npm/medium-zoom@1.1.0/+esm';
+      mediumZoom('#dream-single-post-content img', {
+        background: 'oklch(var(--b1))',
+        margin: 24,
+      })
+    </script>
+  
+
+
+
+
+    
+
+    
+
+    
+
+    
+    
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-GC235QD2XY"></script>
+      <script>
+        var doNotTrack = false;
+        if ( false ) {
+          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+          var doNotTrack = (dnt == "1" || dnt == "yes");
+        }
+        if (!doNotTrack) {
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-GC235QD2XY');
+        }
+      </script>
+    
+
+    <script type="module" src="https://unpkg.com/ionicons@7.4.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.4.0/dist/ionicons/ionicons.js"></script>
+  </body>
+</html>
