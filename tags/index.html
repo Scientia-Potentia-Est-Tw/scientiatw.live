@@ -57,7 +57,7 @@
     <link rel="stylesheet" href="/css/custom.css" />
     
 
-    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3/dist/cdn.min.js" integrity="sha256-PtHu0lJIiSHfZeNj1nFd6wTX+Squ255SGZ/fc8seCtM=" crossorigin="anonymous"></script>
   </head>
 
   <body x-data="{
@@ -76,7 +76,7 @@
   <div class="container flex justify-between px-4">
   
     <section class="flex items-center gap-4">
-      <div class="avatar cursor-pointer hover:online" @click="flip = !flip" title="翻轉一下！">
+      <div class="avatar cursor-pointer hover:avatar-online" @click="flip = !flip" title="翻轉一下！">
         <div class="h-10 rounded-full">
           <img src="/img/Author.png" alt="Scientia&#39;s live" />
         </div>
@@ -96,12 +96,30 @@
       
     </section>
 
+    
+    
+
     <div class="dropdown dropdown-end sm:hidden">
       <div tabindex="0" role="button" class="btn btn-ghost btn-square" aria-label="Select an option">
         <ion-icon name="menu" class="text-2xl"></ion-icon>
       </div>
-      <ul tabindex="0" class="dropdown-content menu w-36 bg-base-100 rounded-box z-[1] shadow-md">
+      <ul tabindex="0" class="dropdown-content menu w-36 bg-base-100 rounded-box z-1 shadow-md">
         
+
+
+
+
+
+
+
+<li>
+  <div role="link" tabindex="0" class="inline-flex items-center p-2 cursor-pointer" @click="flip = !flip" title="關於本站">
+    <ion-icon name="information-circle"></ion-icon>關於本站</div>
+</li>
+
+
+
+
 
 
 
@@ -161,9 +179,6 @@
     </div>
     <section class="hidden sm:flex sm:items-center sm:gap-2 md:gap-4">
       
-      
-
-      
 
       
       
@@ -199,7 +214,7 @@
         <div tabindex="0" role="button" class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary" aria-label="Select an option">
           <ion-icon class="group-hover:text-primary-content text-xl" name="menu"></ion-icon>
         </div>
-        <ul tabindex="0" class="dropdown-content menu w-36 bg-base-100 rounded-box z-[1] shadow-xl">
+        <ul tabindex="0" class="dropdown-content menu w-36 bg-base-100 rounded-box z-1 shadow-xl">
           
           
 <li>
@@ -331,7 +346,7 @@
     <div class="dream-grid">
       
         <div class="w-full md:w-1/2 lg:w-1/3 p-4 dream-column">
-          <a class="card card-compact bg-base-100 hover:bg-base-content/10 shadow-xl cursor-pointer dark:border dark:border-base-content/30" href="/posts/the-bullet-journal-method-freedom-of-choose-is-privilege/">
+          <a class="card bg-base-100 hover:bg-base-content/10 shadow-xl cursor-pointer dark:border dark:border-base-content/30" href="/posts/the-bullet-journal-method-freedom-of-choose-is-privilege/">
   
   <figure>
     
@@ -358,7 +373,7 @@
   
   <div class="avatar mr-1">
     <div class="w-8 rounded-full">
-      <img class="my-0" src="/img/Author.png" alt="Scientia" />
+      <img class="my-0!" src="/img/Author.png" alt="Scientia" />
     </div>
   </div>
   
@@ -385,7 +400,7 @@
         </div>
       
         <div class="w-full md:w-1/2 lg:w-1/3 p-4 dream-column">
-          <a class="card card-compact bg-base-100 hover:bg-base-content/10 shadow-xl cursor-pointer dark:border dark:border-base-content/30" href="/posts/why-we-sleep-harm/">
+          <a class="card bg-base-100 hover:bg-base-content/10 shadow-xl cursor-pointer dark:border dark:border-base-content/30" href="/posts/why-we-sleep-harm/">
   
   <figure>
     
@@ -412,7 +427,7 @@
   
   <div class="avatar mr-1">
     <div class="w-8 rounded-full">
-      <img class="my-0" src="/img/Author.png" alt="Scientia" />
+      <img class="my-0!" src="/img/Author.png" alt="Scientia" />
     </div>
   </div>
   
@@ -439,7 +454,7 @@
         </div>
       
         <div class="w-full md:w-1/2 lg:w-1/3 p-4 dream-column">
-          <a class="card card-compact bg-base-100 hover:bg-base-content/10 shadow-xl cursor-pointer dark:border dark:border-base-content/30" href="/posts/pqcrypto-2025/">
+          <a class="card bg-base-100 hover:bg-base-content/10 shadow-xl cursor-pointer dark:border dark:border-base-content/30" href="/posts/pqcrypto-2025/">
   
   <figure>
     
@@ -466,7 +481,7 @@
   
   <div class="avatar mr-1">
     <div class="w-8 rounded-full">
-      <img class="my-0" src="/img/Author.png" alt="Scientia" />
+      <img class="my-0!" src="/img/Author.png" alt="Scientia" />
     </div>
   </div>
   
@@ -493,7 +508,7 @@
         </div>
       
         <div class="w-full md:w-1/2 lg:w-1/3 p-4 dream-column">
-          <a class="card card-compact bg-base-100 hover:bg-base-content/10 shadow-xl cursor-pointer dark:border dark:border-base-content/30" href="/posts/hsinchu-lead-bus-a/">
+          <a class="card bg-base-100 hover:bg-base-content/10 shadow-xl cursor-pointer dark:border dark:border-base-content/30" href="/posts/hsinchu-lead-bus-a/">
   
   <figure>
     
@@ -520,7 +535,7 @@
   
   <div class="avatar mr-1">
     <div class="w-8 rounded-full">
-      <img class="my-0" src="/img/Author.png" alt="Scientia" />
+      <img class="my-0!" src="/img/Author.png" alt="Scientia" />
     </div>
   </div>
   
@@ -547,7 +562,7 @@
         </div>
       
         <div class="w-full md:w-1/2 lg:w-1/3 p-4 dream-column">
-          <a class="card card-compact bg-base-100 hover:bg-base-content/10 shadow-xl cursor-pointer dark:border dark:border-base-content/30" href="/posts/why-we-sleep-youth/">
+          <a class="card bg-base-100 hover:bg-base-content/10 shadow-xl cursor-pointer dark:border dark:border-base-content/30" href="/posts/why-we-sleep-youth/">
   
   <figure>
     
@@ -574,7 +589,7 @@
   
   <div class="avatar mr-1">
     <div class="w-8 rounded-full">
-      <img class="my-0" src="/img/Author.png" alt="Scientia" />
+      <img class="my-0!" src="/img/Author.png" alt="Scientia" />
     </div>
   </div>
   
@@ -601,7 +616,7 @@
         </div>
       
         <div class="w-full md:w-1/2 lg:w-1/3 p-4 dream-column">
-          <a class="card card-compact bg-base-100 hover:bg-base-content/10 shadow-xl cursor-pointer dark:border dark:border-base-content/30" href="/posts/why-we-sleep-type/">
+          <a class="card bg-base-100 hover:bg-base-content/10 shadow-xl cursor-pointer dark:border dark:border-base-content/30" href="/posts/why-we-sleep-type/">
   
   <figure>
     
@@ -628,7 +643,7 @@
   
   <div class="avatar mr-1">
     <div class="w-8 rounded-full">
-      <img class="my-0" src="/img/Author.png" alt="Scientia" />
+      <img class="my-0!" src="/img/Author.png" alt="Scientia" />
     </div>
   </div>
   
@@ -655,14 +670,14 @@
         </div>
       
         <div class="w-full md:w-1/2 lg:w-1/3 p-4 dream-column">
-          <a class="card card-compact bg-base-100 hover:bg-base-content/10 shadow-xl cursor-pointer dark:border dark:border-base-content/30" href="/posts/keshav-read-paper-method/">
+          <a class="card bg-base-100 hover:bg-base-content/10 shadow-xl cursor-pointer dark:border dark:border-base-content/30" href="/posts/keshav-read-paper-method/">
   
   <figure>
     
     
     <picture>
-      <source srcset="/images/default4_hu_ae815e0f1649c253.webp" type="image/webp" />
-      <img src="/images/default4.jpg" alt="/images/default4.jpg" />
+      <source srcset="/images/default1_hu_33478ca164b4fce4.webp" type="image/webp" />
+      <img src="/images/default1.jpg" alt="/images/default1.jpg" />
     </picture>
     
   </figure>
@@ -686,7 +701,7 @@
   
   <div class="avatar mr-1">
     <div class="w-8 rounded-full">
-      <img class="my-0" src="/img/Author.png" alt="Scientia" />
+      <img class="my-0!" src="/img/Author.png" alt="Scientia" />
     </div>
   </div>
   
@@ -713,7 +728,7 @@
         </div>
       
         <div class="w-full md:w-1/2 lg:w-1/3 p-4 dream-column">
-          <a class="card card-compact bg-base-100 hover:bg-base-content/10 shadow-xl cursor-pointer dark:border dark:border-base-content/30" href="/posts/readmoo-mooink-pro-2c/">
+          <a class="card bg-base-100 hover:bg-base-content/10 shadow-xl cursor-pointer dark:border dark:border-base-content/30" href="/posts/readmoo-mooink-pro-2c/">
   
   <figure>
     
@@ -740,7 +755,7 @@
   
   <div class="avatar mr-1">
     <div class="w-8 rounded-full">
-      <img class="my-0" src="/img/Author.png" alt="Scientia" />
+      <img class="my-0!" src="/img/Author.png" alt="Scientia" />
     </div>
   </div>
   
@@ -767,7 +782,7 @@
         </div>
       
         <div class="w-full md:w-1/2 lg:w-1/3 p-4 dream-column">
-          <a class="card card-compact bg-base-100 hover:bg-base-content/10 shadow-xl cursor-pointer dark:border dark:border-base-content/30" href="/posts/survival-handbook-for-graduate-student-problematic/">
+          <a class="card bg-base-100 hover:bg-base-content/10 shadow-xl cursor-pointer dark:border dark:border-base-content/30" href="/posts/survival-handbook-for-graduate-student-problematic/">
   
   <figure>
     
@@ -794,7 +809,7 @@
   
   <div class="avatar mr-1">
     <div class="w-8 rounded-full">
-      <img class="my-0" src="/img/Author.png" alt="Scientia" />
+      <img class="my-0!" src="/img/Author.png" alt="Scientia" />
     </div>
   </div>
   
@@ -821,7 +836,7 @@
         </div>
       
         <div class="w-full md:w-1/2 lg:w-1/3 p-4 dream-column">
-          <a class="card card-compact bg-base-100 hover:bg-base-content/10 shadow-xl cursor-pointer dark:border dark:border-base-content/30" href="/posts/survival-handbook-for-graduate-student-innovation/">
+          <a class="card bg-base-100 hover:bg-base-content/10 shadow-xl cursor-pointer dark:border dark:border-base-content/30" href="/posts/survival-handbook-for-graduate-student-innovation/">
   
   <figure>
     
@@ -848,7 +863,7 @@
   
   <div class="avatar mr-1">
     <div class="w-8 rounded-full">
-      <img class="my-0" src="/img/Author.png" alt="Scientia" />
+      <img class="my-0!" src="/img/Author.png" alt="Scientia" />
     </div>
   </div>
   
@@ -954,7 +969,7 @@
   
   <div class="w-full md:w-1/2 lg:w-1/3 xl:w-1/4 p-4 dream-column">
     <article
-      class="card card-compact bg-base-100 hover:bg-base-content/10 shadow-xl dark:border dark:border-base-content/30"
+      class="card bg-base-100 hover:bg-base-content/10 shadow-xl dark:border dark:border-base-content/30"
     >
       <div class="card-body">
         <div class="card-title">關於我</div>
@@ -972,7 +987,7 @@
   
   <div class="w-full md:w-1/2 lg:w-1/3 xl:w-1/4 p-4 dream-column">
     <article
-      class="card card-compact bg-base-100 hover:bg-base-content/10 shadow-xl dark:border dark:border-base-content/30"
+      class="card bg-base-100 hover:bg-base-content/10 shadow-xl dark:border dark:border-base-content/30"
     >
       <div class="card-body">
         <div class="card-title">其他連結</div>
@@ -990,7 +1005,7 @@
   
   <div class="w-full md:w-1/2 lg:w-1/3 xl:w-1/4 p-4 dream-column">
     <article
-      class="card card-compact bg-base-100 hover:bg-base-content/10 shadow-xl dark:border dark:border-base-content/30"
+      class="card bg-base-100 hover:bg-base-content/10 shadow-xl dark:border dark:border-base-content/30"
     >
       <div class="card-body">
         <div class="card-title">電子報訂閱</div>
@@ -1116,7 +1131,7 @@
       </script>
     
 
-    <script type="module" src="https://unpkg.com/ionicons@7.4.0/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@7.4.0/dist/ionicons/ionicons.js"></script>
+    <script type="module" src="https://cdn.jsdelivr.net/npm/ionicons@7.4.0/dist/ionicons/ionicons.esm.js" integrity="sha256-/IFmi82bIhdYWctu0UddSlJqpnzWm7Vh2C4CM32wF/k=" crossorigin="anonymous"></script>
+    <script nomodule src="https://cdn.jsdelivr.net/npm/ionicons@7.4.0/dist/ionicons/ionicons.js" integrity="sha256-mr7eJMX3VC3F7G32mk4oWp1C6a2tlMYxUdptfT7uKI8=" crossorigin="anonymous"></script>
   </body>
 </html>
