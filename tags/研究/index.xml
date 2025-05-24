@@ -1,47 +1,187 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>研究 on Scientia&#39;s live</title>
-    <link>https://scientiatw.live/tags/%E7%A0%94%E7%A9%B6/</link>
-    <description>Recent content in 研究 on Scientia&#39;s live</description>
-    <generator>Hugo</generator>
-    <language>zh</language>
-    <lastBuildDate>Sun, 16 Mar 2025 20:50:00 +0800</lastBuildDate>
-    <atom:link href="https://scientiatw.live/tags/%E7%A0%94%E7%A9%B6/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>《研究生完全求生手冊》讀後心得：Problematic</title>
-      <link>https://scientiatw.live/posts/survival-handbook-for-graduate-student-problematic/</link>
-      <pubDate>Tue, 06 Jun 2023 12:58:00 +0800</pubDate>
-      <guid>https://scientiatw.live/posts/survival-handbook-for-graduate-student-problematic/</guid>
-      <description>&lt;p&gt;學術界在開始研究一個實際問題之前，會先做problem formulation，將原本複雜的問題其core-problem抽取出來，進行簡化或者抽象化，這樣會有一些好處&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>《研究生完全求生手冊》讀後心得：創新要領？</title>
-      <link>https://scientiatw.live/posts/survival-handbook-for-graduate-student-innovation/</link>
-      <pubDate>Tue, 06 Jun 2023 12:58:00 +0800</pubDate>
-      <guid>https://scientiatw.live/posts/survival-handbook-for-graduate-student-innovation/</guid>
-      <description>&lt;p&gt;文獻回顧除了讓你清楚知道各研究流派的前因後果，更能培養出批判性思考的能力，避免沒必要的錯誤和研究上的弱點，並且從文獻回顧中找到創新的靈感與策略，為了達成這些目標，必須先回答三個問題&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>《研究生完全求生手冊》讀後心得：為了什麼而研究？</title>
-      <link>https://scientiatw.live/posts/survival-handbook-for-graduate-student-goal/</link>
-      <pubDate>Tue, 06 Jun 2023 12:58:00 +0800</pubDate>
-      <guid>https://scientiatw.live/posts/survival-handbook-for-graduate-student-goal/</guid>
-      <description>&lt;p&gt;研究的目的是找到正確的答案，你可以從網路上找到許多似是而非的答案，但要如何分辨這些資訊的可靠性與互補性，你需要進行一系列的搜尋與篩選，才能過濾掉無用的內容，當你整理出你需要的東西後，你該如何對這些資訊進行分析、比對才能拼湊出完整的正確答案？&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>《研究生完全求生手冊》讀後心得：寫作方向</title>
-      <link>https://scientiatw.live/posts/survival-handbook-for-graduate-student-write/</link>
-      <pubDate>Tue, 06 Jun 2023 12:58:00 +0800</pubDate>
-      <guid>https://scientiatw.live/posts/survival-handbook-for-graduate-student-write/</guid>
-      <description>&lt;p&gt;學術著作在撰寫時總需要滿足一些基本的特性&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>《研究生完全求生手冊》讀後心得：閱讀期刊論文方法</title>
-      <link>https://scientiatw.live/posts/survival-handbook-for-graduate-student-read/</link>
-      <pubDate>Tue, 06 Jun 2023 12:58:00 +0800</pubDate>
-      <guid>https://scientiatw.live/posts/survival-handbook-for-graduate-student-read/</guid>
-      <description>&lt;p&gt;在動手開始寫之前肯定得先閱讀大量的文獻，才能知道說領域內目前還有哪些問題值得探討，還有哪些題目還未解決&lt;/p&gt;</description>
-    </item>
-  </channel>
+    <channel>
+        <title>研究 on Scientia&#39;s live</title>
+        <link>https://scientiatw.live/tags/%E7%A0%94%E7%A9%B6/</link>
+        <description>Recent content in 研究 on Scientia&#39;s live</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-tw</language>
+        <copyright>Scientia</copyright>
+        <lastBuildDate>Sun, 16 Mar 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://scientiatw.live/tags/%E7%A0%94%E7%A9%B6/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>《研究生完全求生手冊》讀後心得：Problematic</title>
+        <link>https://scientiatw.live/p/%E7%A0%94%E7%A9%B6%E7%94%9F%E5%AE%8C%E5%85%A8%E6%B1%82%E7%94%9F%E6%89%8B%E5%86%8A%E8%AE%80%E5%BE%8C%E5%BF%83%E5%BE%97problematic/</link>
+        <pubDate>Tue, 06 Jun 2023 00:00:00 +0000</pubDate>
+        
+        <guid>https://scientiatw.live/p/%E7%A0%94%E7%A9%B6%E7%94%9F%E5%AE%8C%E5%85%A8%E6%B1%82%E7%94%9F%E6%89%8B%E5%86%8A%E8%AE%80%E5%BE%8C%E5%BF%83%E5%BE%97problematic/</guid>
+        <description>&lt;img src="https://scientia-potentia-est.com/wp-content/uploads/2025/05/survival_handbook_for_graduate_student_cover.webp" alt="Featured image of post 《研究生完全求生手冊》讀後心得：Problematic" /&gt;&lt;p&gt;學術界在開始研究一個實際問題之前，會先做problem formulation，將原本複雜的問題其core-problem抽取出來，進行簡化或者抽象化，這樣會有一些好處&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;problem reduction, 將原本複雜的問題轉化成簡單的問題, 方便可以反覆的驗證, 因為複雜的問題要模擬一次都需要花許多時間&lt;/li&gt;
+&lt;li&gt;透過抽象化後, 可以直接使用學術文獻提出過的解決方法來分析該問題, 不需要自己重新閉門造車&lt;/li&gt;
+&lt;li&gt;與學術文獻接軌, 可以釐清原本研究裡存在的創新部分, 而後專心攻擊突破既有知識的邊界, 達到更近一步的創新&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;有興趣的讀者可以參考下列讀墨或Kobo電子書版本或者博客來平裝書&lt;/p&gt;
+&lt;p&gt;Readmoo電子書版：&lt;a class=&#34;link&#34; href=&#34;https://moo.im/a/dhyDFU&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;《研究生完全求生手冊》：方法、秘訣、潛規則&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Kobo電子書版：&lt;a class=&#34;link&#34; href=&#34;https://r10.to/hkrTRj&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;《研究生完全求生手冊》：方法、秘訣、潛規則&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;博客來實體平裝書：&lt;a class=&#34;link&#34; href=&#34;https://www.books.com.tw/exep/assp.php/scientia/products/0010762863?utm_source=scientia&amp;amp;utm_medium=ap-books&amp;amp;utm_content=recommend&amp;amp;utm_campaign=ap-202504&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;《研究生完全求生手冊》：方法、秘訣、潛規則&lt;/a&gt;&lt;/p&gt;</description>
+        </item>
+        <item>
+        <title>《研究生完全求生手冊》讀後心得：為了什麼而研究？</title>
+        <link>https://scientiatw.live/p/%E7%A0%94%E7%A9%B6%E7%94%9F%E5%AE%8C%E5%85%A8%E6%B1%82%E7%94%9F%E6%89%8B%E5%86%8A%E8%AE%80%E5%BE%8C%E5%BF%83%E5%BE%97%E7%82%BA%E4%BA%86%E4%BB%80%E9%BA%BC%E8%80%8C%E7%A0%94%E7%A9%B6/</link>
+        <pubDate>Tue, 06 Jun 2023 00:00:00 +0000</pubDate>
+        
+        <guid>https://scientiatw.live/p/%E7%A0%94%E7%A9%B6%E7%94%9F%E5%AE%8C%E5%85%A8%E6%B1%82%E7%94%9F%E6%89%8B%E5%86%8A%E8%AE%80%E5%BE%8C%E5%BF%83%E5%BE%97%E7%82%BA%E4%BA%86%E4%BB%80%E9%BA%BC%E8%80%8C%E7%A0%94%E7%A9%B6/</guid>
+        <description>&lt;img src="https://scientia-potentia-est.com/wp-content/uploads/2025/05/survival_handbook_for_graduate_student_cover.webp" alt="Featured image of post 《研究生完全求生手冊》讀後心得：為了什麼而研究？" /&gt;&lt;p&gt;研究的目的是找到正確的答案，你可以從網路上找到許多似是而非的答案，但要如何分辨這些資訊的可靠性與互補性，你需要進行一系列的搜尋與篩選，才能過濾掉無用的內容，當你整理出你需要的東西後，你該如何對這些資訊進行分析、比對才能拼湊出完整的正確答案？&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;要做到這些事需要嚴謹的訓練過程&lt;/p&gt;&lt;/blockquote&gt;
+&lt;h2 id=&#34;尋找答案-step-by-step&#34;&gt;尋找答案 Step-by-Step
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;搜尋相關文獻, 研判文獻的可靠度與品質並且迅速過濾品質較差的&lt;/li&gt;
+&lt;li&gt;分析優質文獻的觀點、論證與推論過程, 確認各自的得失與短長&lt;/li&gt;
+&lt;li&gt;比對不同文獻的見解與互相的批評, 找出所有文獻中仍有待釐清的疑點&lt;/li&gt;
+&lt;li&gt;彙整既有文獻中可靠的部分, 拼湊事實較完整的面貌, 盤點其中尚待釐清的疑點&lt;/li&gt;
+&lt;li&gt;對尚待釐清的部分進行第一手的調查與研究, 以獲得問題的完整答案&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;這五個步驟就是研究的方法與完整的程序，我們必須先去找到問題，嘗試去找出問題的答案，或者把問題切分成較小的問題一一去擊破，前四項是文獻回顧跟批判性思考能力，最後一項才屬於創新的部分。&lt;/p&gt;
+&lt;h2 id=&#34;大學部與研究所差異&#34;&gt;大學部與研究所差異？
+&lt;/h2&gt;&lt;p&gt;研究所的訓練模式與大學部截然不同，大學部主要訓練讓學生能夠運用學到的專業去解決問題，但研究所需要：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;主動取得並正確運用專業知識的能力&lt;/li&gt;
+&lt;li&gt;自我批判與辨別是非的能力&lt;/li&gt;
+&lt;li&gt;創新的能力&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;最省時省力的創新策略&#34;&gt;最省時省力的創新策略
+&lt;/h3&gt;&lt;p&gt;無論是學術界或企業界，研究的終極目標都是為了創新：學術界在尋找具有突破性、革命性的原創(original)答案，企業界在尋找破壞性創造(creative destruction)的新穎技術或方法，以便設計和生產出殺手級產品，壟斷市場以擴大利潤。&lt;/p&gt;
+&lt;p&gt;真正好的研究方法，先從批判性的文獻回顧，了解並且吸收前人們的失敗經驗與教訓，降低風險與所短研究所需要的時間與資源，避免自己閉門造車。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;牛頓說：『如果我看得比別人更遠，那是因為我站在巨人的肩膀上。』&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;牛頓指的巨人是伽利略(Galileo Galilei, 1564-1642)和克卜勒(Johannes Kepler, 1571-1639)&lt;/p&gt;
+&lt;p&gt;研究 = 站在巨人的肩膀上 + 創意&lt;/p&gt;
+&lt;p&gt;自己閉門造車的後果往往帶來的結果不如人意，初期最重要訓練的是批判式的閱讀文獻能力，學習前人的解決方法，避免前人遇到的困境，透過站在巨人的肩膀上加上自己一點點的巧思，就能夠實現用最少量的智慧與創新，在短時間內產出最佳的解決方案。&lt;/p&gt;
+&lt;p&gt;書中提到一個故事，當年美蘇冷戰兩國開始太空競賽，蘇聯晚美國兩年啟動太空計畫，卻先馳得點成功發射人造衛星並且正常軌道運作，而美國的火箭卻在萬眾矚目之下爆炸，而後蘇聯又在一九六一年完成軌道任務安全返航，創下人類史上第一個太空旅行紀錄。&lt;/p&gt;
+&lt;p&gt;當時甘迺迪總統不甘示弱，拿出比蘇聯多一倍的預算發展太空科技，結果就是著名的阿波羅十一號在一九六九年登陸月球，根據後續的評估是因為技術人員的文獻回顧能力大幅提升，功不可沒的是圖書館界對學術文獻的索引編撰有了突破發展，造就跨科系、跨領域的知識流通變的方便。&lt;/p&gt;
+&lt;p&gt;例如美蘇兩國科學家都想要解出最佳化控制的關鍵定理，以便計算出最省燃料的軌道飛行策略，蘇聯要求一群傑出的科學家去解最佳化理論，在一九五八年解決的問題，並且一九六一年集結成書，後來發現美國數學家麥克．夏恩(Edward J. McShane, 1904-1989)早在一九三九年就解決了這個問題，但是發表在跟太空計畫無關的純數學領域期刊內，一九六零年代以前的學術界像是一座又一座的孤島，不同領域的專家學者鮮少知道其他領域的研究以及成果。&lt;/p&gt;
+&lt;h2 id=&#34;研究成果與品質關鍵因素&#34;&gt;研究成果與品質關鍵因素
+&lt;/h2&gt;&lt;p&gt;任何研究越是革命性、原創性的成果越需要仰賴個人的才智與運氣，但失敗風險也高，反之應用導向的研究較為仰賴文獻回顧的能力，將前人已經解決的問題整合到自己的想法內，使得控制風險與成本。&lt;/p&gt;
+&lt;p&gt;有興趣的讀者可以參考下列讀墨或Kobo電子書版本或者博客來平裝書&lt;/p&gt;
+&lt;p&gt;Readmoo電子書版：&lt;a class=&#34;link&#34; href=&#34;https://moo.im/a/dhyDFU&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;《研究生完全求生手冊》：方法、秘訣、潛規則&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Kobo電子書版：&lt;a class=&#34;link&#34; href=&#34;https://r10.to/hkrTRj&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;《研究生完全求生手冊》：方法、秘訣、潛規則&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;博客來實體平裝書：&lt;a class=&#34;link&#34; href=&#34;https://www.books.com.tw/exep/assp.php/scientia/products/0010762863?utm_source=scientia&amp;amp;utm_medium=ap-books&amp;amp;utm_content=recommend&amp;amp;utm_campaign=ap-202504&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;《研究生完全求生手冊》：方法、秘訣、潛規則&lt;/a&gt;&lt;/p&gt;</description>
+        </item>
+        <item>
+        <title>《研究生完全求生手冊》讀後心得：創新要領？</title>
+        <link>https://scientiatw.live/p/%E7%A0%94%E7%A9%B6%E7%94%9F%E5%AE%8C%E5%85%A8%E6%B1%82%E7%94%9F%E6%89%8B%E5%86%8A%E8%AE%80%E5%BE%8C%E5%BF%83%E5%BE%97%E5%89%B5%E6%96%B0%E8%A6%81%E9%A0%98/</link>
+        <pubDate>Tue, 06 Jun 2023 00:00:00 +0000</pubDate>
+        
+        <guid>https://scientiatw.live/p/%E7%A0%94%E7%A9%B6%E7%94%9F%E5%AE%8C%E5%85%A8%E6%B1%82%E7%94%9F%E6%89%8B%E5%86%8A%E8%AE%80%E5%BE%8C%E5%BF%83%E5%BE%97%E5%89%B5%E6%96%B0%E8%A6%81%E9%A0%98/</guid>
+        <description>&lt;img src="https://scientia-potentia-est.com/wp-content/uploads/2025/05/survival_handbook_for_graduate_student_cover.webp" alt="Featured image of post 《研究生完全求生手冊》讀後心得：創新要領？" /&gt;&lt;p&gt;文獻回顧除了讓你清楚知道各研究流派的前因後果，更能培養出批判性思考的能力，避免沒必要的錯誤和研究上的弱點，並且從文獻回顧中找到創新的靈感與策略，為了達成這些目標，必須先回答三個問題&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;假如你對該問題有些腹案或預期的答案，既有文件中有哪些證據支持你的腹案或答案？有哪些證據不利於你的腹案或答案？你必須據此調整你原本對如何創新與突破的想像。&lt;/li&gt;
+&lt;li&gt;彙整學術界有過的共識與爭議，以及會影響到研究品質與可靠度的所有可能因素，作為你在發展研究構想與推進研究發展時的參考。&lt;/li&gt;
+&lt;li&gt;勾勒既有文獻中所有研究角度與觀點，研究的方法與流派，並且會整個流派的優缺點與得失，以及背後大致的原因與機制，作為近一步發展創新策略與研究構想的依據。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;舊瓶新酒&#34;&gt;舊瓶新酒
+&lt;/h2&gt;&lt;p&gt;以新的證據、觀點或較嚴謹的方法重新探討就的題目，而有新穎的發現，有時能對既有文獻中矛盾的內容進行分析，而找到化解矛盾的新穎方法，又或者在田野調查時偶然發現新證據，突顯出既有理論的重大瑕疵。&lt;/p&gt;
+&lt;h2 id=&#34;新瓶舊酒&#34;&gt;新瓶舊酒
+&lt;/h2&gt;&lt;p&gt;以既有的方法適度修改後，去探究新的研究領域、題目，而造成新的發現，要開創一個全新的學術領域，不見得要徹底否定過去所有的相關學理，在嚴謹的演繹體系裡，只要一個關鍵性的事實、證據或命題被改變，即使其他所有假設、定理、證據全部維持不變，結果也往往會演繹出一個革命性的全新學術藍海。&lt;/p&gt;
+&lt;p&gt;創新不是對過去的否定或漠視，連革命也不是對過去的否定或漠視，兩者都站在巨人的肩膀上，既承繼且創新，創意不需要多，只需要在刀口上一個關鍵的發現或創意。&lt;/p&gt;
+&lt;h3 id=&#34;基礎假設與適用範圍&#34;&gt;基礎假設與適用範圍
+&lt;/h3&gt;&lt;p&gt;方法的有效性要建立在根本的假設上，像是理工學院的很多方法都建立在「線性系統」的假設，很多統計方法都建立在「常態分佈」的假設上，而主流經濟學的理論常常假設市場的行為吻合「理性預期」、「資訊完全透明且取得的成本為零」和「完全競爭」&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;後進國家以廉價勞動力取代先進國家的製造業，是不變的法則，林毅夫稱之為後進國家的「後發優勢」&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;關鍵在於以最省力的方式取法先進國家，藉以減少錯誤嘗試的次數與時間，巨幅縮短學習曲線，從而在最短的時間和成本內追趕先進國家的技術。&lt;/p&gt;
+&lt;p&gt;有興趣的讀者可以參考下列讀墨或Kobo電子書版本或者博客來平裝書&lt;/p&gt;
+&lt;p&gt;Readmoo電子書版：&lt;a class=&#34;link&#34; href=&#34;https://moo.im/a/dhyDFU&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;《研究生完全求生手冊》：方法、秘訣、潛規則&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Kobo電子書版：&lt;a class=&#34;link&#34; href=&#34;https://r10.to/hkrTRj&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;《研究生完全求生手冊》：方法、秘訣、潛規則&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;博客來實體平裝書：&lt;a class=&#34;link&#34; href=&#34;https://www.books.com.tw/exep/assp.php/scientia/products/0010762863?utm_source=scientia&amp;amp;utm_medium=ap-books&amp;amp;utm_content=recommend&amp;amp;utm_campaign=ap-202504&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;《研究生完全求生手冊》：方法、秘訣、潛規則&lt;/a&gt;&lt;/p&gt;</description>
+        </item>
+        <item>
+        <title>《研究生完全求生手冊》讀後心得：寫作方向</title>
+        <link>https://scientiatw.live/p/%E7%A0%94%E7%A9%B6%E7%94%9F%E5%AE%8C%E5%85%A8%E6%B1%82%E7%94%9F%E6%89%8B%E5%86%8A%E8%AE%80%E5%BE%8C%E5%BF%83%E5%BE%97%E5%AF%AB%E4%BD%9C%E6%96%B9%E5%90%91/</link>
+        <pubDate>Tue, 06 Jun 2023 00:00:00 +0000</pubDate>
+        
+        <guid>https://scientiatw.live/p/%E7%A0%94%E7%A9%B6%E7%94%9F%E5%AE%8C%E5%85%A8%E6%B1%82%E7%94%9F%E6%89%8B%E5%86%8A%E8%AE%80%E5%BE%8C%E5%BF%83%E5%BE%97%E5%AF%AB%E4%BD%9C%E6%96%B9%E5%90%91/</guid>
+        <description>&lt;img src="https://scientia-potentia-est.com/wp-content/uploads/2025/05/survival_handbook_for_graduate_student_cover.webp" alt="Featured image of post 《研究生完全求生手冊》讀後心得：寫作方向" /&gt;&lt;p&gt;學術著作在撰寫時總需要滿足一些基本的特性&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;原創性與貢獻(originality)&lt;/li&gt;
+&lt;li&gt;可靠的證據(rigor evidences)&lt;/li&gt;
+&lt;li&gt;批判性的驗證(critically examination)&lt;/li&gt;
+&lt;li&gt;理論性、系統性與一致性(coherence)&lt;/li&gt;
+&lt;li&gt;客觀性與可重復性(objectivity)&lt;/li&gt;
+&lt;li&gt;與學術界的明確關係(relationship)&lt;/li&gt;
+&lt;li&gt;文體的清晰性(un-ambiguous)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;研究必要的養分&#34;&gt;研究必要的養分
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;盡責的指導教授&lt;/li&gt;
+&lt;li&gt;好的學習環境(優質而充裕的課程以及研究室的討論與學習風氣)&lt;/li&gt;
+&lt;li&gt;認真的學習歷程&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;透過這三種條件，才能讓你完整的學會文獻回顧的能力，批判性思考的能力以及最基本的創新能力。&lt;/p&gt;
+&lt;p&gt;有興趣的讀者可以參考下列讀墨或Kobo電子書版本或者博客來平裝書&lt;/p&gt;
+&lt;p&gt;Readmoo電子書版：&lt;a class=&#34;link&#34; href=&#34;https://moo.im/a/dhyDFU&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;《研究生完全求生手冊》：方法、秘訣、潛規則&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Kobo電子書版：&lt;a class=&#34;link&#34; href=&#34;https://r10.to/hkrTRj&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;《研究生完全求生手冊》：方法、秘訣、潛規則&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;博客來實體平裝書：&lt;a class=&#34;link&#34; href=&#34;https://www.books.com.tw/exep/assp.php/scientia/products/0010762863?utm_source=scientia&amp;amp;utm_medium=ap-books&amp;amp;utm_content=recommend&amp;amp;utm_campaign=ap-202504&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;《研究生完全求生手冊》：方法、秘訣、潛規則&lt;/a&gt;&lt;/p&gt;</description>
+        </item>
+        <item>
+        <title>《研究生完全求生手冊》讀後心得：閱讀期刊論文方法</title>
+        <link>https://scientiatw.live/p/%E7%A0%94%E7%A9%B6%E7%94%9F%E5%AE%8C%E5%85%A8%E6%B1%82%E7%94%9F%E6%89%8B%E5%86%8A%E8%AE%80%E5%BE%8C%E5%BF%83%E5%BE%97%E9%96%B1%E8%AE%80%E6%9C%9F%E5%88%8A%E8%AB%96%E6%96%87%E6%96%B9%E6%B3%95/</link>
+        <pubDate>Tue, 06 Jun 2023 00:00:00 +0000</pubDate>
+        
+        <guid>https://scientiatw.live/p/%E7%A0%94%E7%A9%B6%E7%94%9F%E5%AE%8C%E5%85%A8%E6%B1%82%E7%94%9F%E6%89%8B%E5%86%8A%E8%AE%80%E5%BE%8C%E5%BF%83%E5%BE%97%E9%96%B1%E8%AE%80%E6%9C%9F%E5%88%8A%E8%AB%96%E6%96%87%E6%96%B9%E6%B3%95/</guid>
+        <description>&lt;img src="https://scientia-potentia-est.com/wp-content/uploads/2025/05/survival_handbook_for_graduate_student_cover.webp" alt="Featured image of post 《研究生完全求生手冊》讀後心得：閱讀期刊論文方法" /&gt;&lt;p&gt;在動手開始寫之前肯定得先閱讀大量的文獻，才能知道說領域內目前還有哪些問題值得探討，還有哪些題目還未解決&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;拿到一篇論文後, 先粗略瀏覽一遍, 找出自己所欠缺的背景知識, 以及他們所屬的學術分支, 以便快速找出載有這些背景知識的各種文獻。&lt;/li&gt;
+&lt;li&gt;從這些文獻當中找出與該論文密切相關的段落來讀, 不相關的就不用看了。&lt;/li&gt;
+&lt;li&gt;將這些材料由淺入深的排出閱讀的順序, 以便用最省時省力的方法去掌握所需的背景知識。&lt;/li&gt;
+&lt;li&gt;背景知識補足之後再回頭再看一次論文。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;大學時代學東西就像是去餐廳吃飯, 店家(出版社)都已經幫你處理好順序, 逐道菜依序端上來, 你只需要依序逐行念就行, 但研究所讀論文就像自己下廚, 從食材的採購到烹飪上桌都必須要自己打理。&lt;/p&gt;
+&lt;h2 id=&#34;螺旋式閱讀法&#34;&gt;螺旋式閱讀法
+&lt;/h2&gt;&lt;p&gt;只先瀏覽自己需要再去查看的背景知識, 看完後再回頭再看一次，在不懂的就在跳出去看缺少的知識，一次比一次多看懂一些到最後看懂整篇，第一次只需要聚焦在三個問題上：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;這篇論文解決了什麼問題, 最適合用來描述這問題的術語是什麼?&lt;/li&gt;
+&lt;li&gt;這篇論文使用的方法叫什麼?學術界是如何稱呼的?&lt;/li&gt;
+&lt;li&gt;問題與解決方法是屬於哪個學術領域的?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;期刊論文的閱讀策略與要領&#34;&gt;期刊論文的閱讀策略與要領
+&lt;/h3&gt;&lt;p&gt;期刊論文不應該『以論文為中心』，企圖把整篇逐行逐段讀懂，而是要『以問題為中心』。&lt;/p&gt;
+&lt;p&gt;通常可以找回顧型論文(review paper或survey paper)或專書&lt;/p&gt;
+&lt;h2 id=&#34;方法與問題特性的彙整-批判與彙整的要領&#34;&gt;方法與問題特性的彙整-批判與彙整的要領
+&lt;/h2&gt;&lt;p&gt;方法的特性(或優缺點)可以分成四大範疇：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;基礎假設與適用範圍&lt;/li&gt;
+&lt;li&gt;應用上的難易程度與成本&lt;/li&gt;
+&lt;li&gt;常態工作條件(亦即吻合基礎假設時)&lt;/li&gt;
+&lt;li&gt;會影響性能表現的各種干擾因素和作用&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;十倍速文獻回顧要訣&#34;&gt;十倍速文獻回顧要訣
+&lt;/h2&gt;&lt;p&gt;要求一個人在陌生的領域內完成文獻回顧，包含彙整批判與創新所需的時間可能差距十倍以上，沒經驗的碩士生可能要花兩年的時間才能完成，精通要領的學者可能兩個月就完成，這樣的差異造就學術界第一守則不論你花多少時間完成研究，只要別人比你先發表相關內容，你研究中重複的內容就必須捨棄掉。&lt;/p&gt;
+&lt;p&gt;要縮短文獻回顧的時間，關鍵在於「以最少的閱讀量獲得最豐富的啟發與創意」，並且不遺漏任何流派的關鍵文獻從上圖可以分類文獻回顧者的能力：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;外行級：許多人拿到論文就開始從頭到尾整篇讀完，等讀完才發現內容跟研究主題無關，重複這樣做最後只得到跟研究主題有關的一小部分文獻，如同上圖虛線。&lt;/li&gt;
+&lt;li&gt;入門級：這個階段的人，只會含糊籠統地知道文獻搜尋與篩選的皮毛，並沒有掌握到其中精要，因此讀過許多論文中勉強看完所有跟研究題目有關的文獻，但也讀了一堆跟研究主題沒有關連的，如同上圖實線橢圓圈。&lt;/li&gt;
+&lt;li&gt;精熟級：到了這個階段的人已精通文獻搜尋與篩選的要領，以及論文的種類和結構，只要粗略地讀過論文的篇名與摘要，就可以判斷該論文是否跟研究主題有相關，而且能夠快速找到對研究主題有用的內容快速瀏覽吸收，鮮少浪費時間閱讀沒有參考價值的內容。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;有興趣的讀者可以參考下列讀墨或Kobo電子書版本或者博客來平裝書&lt;/p&gt;
+&lt;p&gt;Readmoo電子書版：&lt;a class=&#34;link&#34; href=&#34;https://moo.im/a/dhyDFU&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;《研究生完全求生手冊》：方法、秘訣、潛規則&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Kobo電子書版：&lt;a class=&#34;link&#34; href=&#34;https://r10.to/hkrTRj&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;《研究生完全求生手冊》：方法、秘訣、潛規則&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;博客來實體平裝書：&lt;a class=&#34;link&#34; href=&#34;https://www.books.com.tw/exep/assp.php/scientia/products/0010762863?utm_source=scientia&amp;amp;utm_medium=ap-books&amp;amp;utm_content=recommend&amp;amp;utm_campaign=ap-202504&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;《研究生完全求生手冊》：方法、秘訣、潛規則&lt;/a&gt;&lt;/p&gt;</description>
+        </item>
+        
+    </channel>
 </rss>

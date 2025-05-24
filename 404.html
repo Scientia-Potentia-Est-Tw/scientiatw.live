@@ -1,467 +1,20 @@
 <!DOCTYPE html>
-<html lang="zh"
-  x-data
-  :class="$store.darkMode.class()"
-  :data-theme="$store.darkMode.theme()">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>404 Not Found | Scientia&#39;s live</title>
+<html lang="zh-tw" dir="ltr">
+    <head><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="社群部落格">
+<title>404 Page not found</title>
+
+<link rel='canonical' href='https://scientiatw.live/404.html'>
+
+<link rel="stylesheet" href="/scss/style.min.663803bebe609202d5b39d848f2d7c2dc8b598a2d879efa079fa88893d29c49c.css"><meta property='og:title' content="404 Page not found">
+<meta property='og:description' content="社群部落格">
+<meta property='og:url' content='https://scientiatw.live/404.html'>
+<meta property='og:site_name' content='Scientia&#39;s live'>
+<meta property='og:type' content='website'><meta property='og:updated_time' content=' 2025-05-24T00:00:00&#43;00:00 '/>
+<meta name="twitter:title" content="404 Page not found">
+<meta name="twitter:description" content="社群部落格">
+    <link rel="shortcut icon" href="/favicon.png" />
 
-    
-  
-    <link href="/img/favicon.png" rel="icon" type="image/x-icon" />
-  
-
-
-<link rel="canonical" href="https://scientiatw.live/404.html" />
-
-
-
-<meta name="author" content="Scientia" />
-<meta name="description" content="" />
-
-
-
-<meta name="generator" content="Hugo 0.147.4">
-
-
-<meta property="og:url" content="https://scientiatw.live/404.html">
-  <meta property="og:site_name" content="Scientia&#39;s live">
-  <meta property="og:title" content="404 Page not found">
-  <meta property="og:locale" content="zh">
-  <meta property="og:type" content="website">
-
-
-
-
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="404 Page not found">
-
-
-
-
-  
-
-<link rel="stylesheet" href="/css/output.min.css" />
-
-
-
-
-     
-
-    
-    <link rel="stylesheet" href="/css/custom.css" />
-    
-
-    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3/dist/cdn.min.js" integrity="sha256-PtHu0lJIiSHfZeNj1nFd6wTX+Squ255SGZ/fc8seCtM=" crossorigin="anonymous"></script>
-  </head>
-
-  <body x-data="{
-    flip: false,
-  }">
-    
-    <div id="dream-global-bg"></div>
-
-    
-<nav x-data="{ isSticky: false }"
-  x-init="window.addEventListener('scroll', () => { isSticky = window.scrollY > 30 })"
-  class="sticky top-0 z-30 mt-4 lg:mt-8 py-4"
-  :class="{ 'bg-base-100 shadow-lg dark:border-b dark:border-base-content/30': isSticky }">
-
-  
-  <div class="container flex justify-between px-4">
-  
-    <section class="flex items-center gap-4">
-      <div class="avatar cursor-pointer hover:avatar-online" @click="flip = !flip" title="翻轉一下！">
-        <div class="h-10 rounded-full">
-          <img src="/img/Author.png" alt="Scientia&#39;s live" />
-        </div>
-      </div>
-
-      
-      <div>
-        
-        <a href="https://scientiatw.live/" class="text-lg font-semibold cursor-pointer">
-          Scientia&#39;s live
-        </a>
-        
-        
-        <div class="text-base-content/60 text-sm">Social Blog</div>
-        
-      </div>
-      
-    </section>
-
-    
-    
-
-    <div class="dropdown dropdown-end sm:hidden">
-      <div tabindex="0" role="button" class="btn btn-ghost btn-square" aria-label="Select an option">
-        <ion-icon name="menu" class="text-2xl"></ion-icon>
-      </div>
-      <ul tabindex="0" class="dropdown-content menu w-36 bg-base-100 rounded-box z-1 shadow-md">
-        
-
-
-
-
-
-
-
-<li>
-  <div role="link" tabindex="0" class="inline-flex items-center p-2 cursor-pointer" @click="flip = !flip" title="關於本站">
-    <ion-icon name="information-circle"></ion-icon>關於本站</div>
-</li>
-
-
-
-
-
-
-
-<li>
-  <a class="group inline-flex items-center p-2 cursor-pointer" href="/search" title="搜尋">
-    <ion-icon name="search"></ion-icon>
-    搜尋
-  </a>
-</li>
-
-
-
-
-<li>
-  <a class="inline-flex items-center p-2 cursor-pointer" href="/index.xml" title="RSS">
-    <ion-icon name="logo-rss"></ion-icon>
-    RSS
-  </a>
-</li>
-
-
-
-
-<li>
-  <a class="inline-flex items-center p-2 cursor-pointer" href="/posts" title="文章列表">
-    <ion-icon name="archive"></ion-icon>
-    文章列表
-  </a>
-</li>
-
-
-
-
-<li>
-  <a class="inline-flex items-center p-2 cursor-pointer" href="/categories" title="所有分類">
-    <ion-icon name="grid"></ion-icon>
-    所有分類
-  </a>
-</li>
-
-
-
-
-<li>
-  <a class="inline-flex items-center p-2 cursor-pointer" href="/tags" title="所有標籤">
-    <ion-icon name="pricetags"></ion-icon>
-    所有標籤
-  </a>
-</li>
-
-
-
-
-
-
-      </ul>
-    </div>
-    <section class="hidden sm:flex sm:items-center sm:gap-2 md:gap-4">
-      
-
-      
-      
-      
-      
-
-
-
-
-<div role="link" tabindex="0" class="text-sm font-semibold cursor-pointer hover:underline" @click="flip = !flip" title="關於本站">關於本站</div>
-
-
-
-
-
-      
-      
-<a class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary" href="/search" title="搜尋">
-  <ion-icon class="group-hover:text-primary-content" name="search"></ion-icon>
-</a>
-
-
-      
-      
-<a class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary" href="/index.xml" title="RSS">
-  <ion-icon class="group-hover:text-primary-content" name="logo-rss"></ion-icon>
-</a>
-
-
-      
-
-      <div class="dropdown dropdown-end dropdown-hover">
-        <div tabindex="0" role="button" class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary" aria-label="Select an option">
-          <ion-icon class="group-hover:text-primary-content text-xl" name="menu"></ion-icon>
-        </div>
-        <ul tabindex="0" class="dropdown-content menu w-36 bg-base-100 rounded-box z-1 shadow-xl">
-          
-          
-<li>
-  <a class="inline-flex items-center p-2 cursor-pointer" href="/posts" title="文章列表">
-    <ion-icon name="archive"></ion-icon>
-    文章列表
-  </a>
-</li>
-
-
-          
-          
-<li>
-  <a class="inline-flex items-center p-2 cursor-pointer" href="/categories" title="所有分類">
-    <ion-icon name="grid"></ion-icon>
-    所有分類
-  </a>
-</li>
-
-
-          
-          
-<li>
-  <a class="inline-flex items-center p-2 cursor-pointer" href="/tags" title="所有標籤">
-    <ion-icon name="pricetags"></ion-icon>
-    所有標籤
-  </a>
-</li>
-
-
-          
-
-          
-        </ul>
-      </div>
-      
-    </section>
-  </div>
-</nav>
-
-
-    <div class="flip-container" :class="{ 'flip-it': flip }">
-      <div class="flipper">
-        <div class="front">
-          <div class="container">
-            
-<div class="h-[60vh] mx-auto px-4 flex flex-col justify-center items-center prose dark:prose-invert">
-  <h1>Oops...You are lost in dream.</h1>
-  <p>Don't worry though, click the button below to wake up.</p>
-  <button class="btn my-5" @click="window.location.href = 'https://scientiatw.live/'">返回首頁</button>
-</div>
-
-
-            
-<footer class="flex justify-between items-center gap-2 px-4 py-12">
-
-  <div>
-  
-  <p>
-    © 2025 Scientia&#39;s live
-  </p>
-  
-
-  
-  <p>Posts Copyright Scientia from Scientia Potentia Est</p>
-  
-</div>
-
-  <div
-  x-data="{ icons: [
-    { name: 'sunny', status: 'n' },
-    { name: 'moon', status: 'y' },
-    { name: 'desktop', status: 'auto' }
-  ] }"
-  class="flex items-center gap-2 h-[32px] px-2 bg-base-100 border border-base-content/30 rounded-full"
->
-  <template x-for="icon in icons">
-    <div
-      role="button"
-      tabindex="0"
-      :aria-label="'Select ' + icon.name + ' mode'"
-      class="group inline-flex justify-center items-center p-1 rounded-full cursor-pointer hover:bg-primary"
-      :class="$store.darkMode.icon() === icon.name && 'bg-primary'"
-      @click="$store.darkMode.toggle(icon.status)"
-    >
-      <ion-icon
-        :name="`${icon.name}-outline`"
-        class="group-hover:text-primary-content"
-        :class="$store.darkMode.icon() === icon.name && 'text-primary-content'"
-      >
-      </ion-icon>
-    </div>
-  </template>
-</div>
-
-</footer>
-
-          </div>
-        </div>
-        <div class="back">
-          <div class="container">
-            
-            <div class="dream-grid dream-grid-about">
-  
-  
-  
-  <div class="w-full md:w-1/2 lg:w-1/3 xl:w-1/4 p-4 dream-column">
-    <article
-      class="card bg-base-100 hover:bg-base-content/10 shadow-xl dark:border dark:border-base-content/30"
-    >
-      <div class="card-body">
-        <div class="card-title">關於我</div>
-
-        <div class="prose dark:prose-invert">
-          <p>我是站長<a href="https://scientia-potentia-est.com/zh/hong-sheng-huang-zh/" target="_blank">Scientia</a>
-</p>
-<p>本社群部落格主要撰寫有關「閱讀心得」、「生活分享」、「人文藝術」等主題</p>
-<p>任何合作或問題請寄到信箱內：scientia.polymath@gmail.com</p>
-
-        </div>
-      </div>
-    </article>
-  </div>
-  
-  <div class="w-full md:w-1/2 lg:w-1/3 xl:w-1/4 p-4 dream-column">
-    <article
-      class="card bg-base-100 hover:bg-base-content/10 shadow-xl dark:border dark:border-base-content/30"
-    >
-      <div class="card-body">
-        <div class="card-title">其他連結</div>
-
-        <div class="prose dark:prose-invert">
-          <ul>
-<li><a href="https://scientia-potentia-est.com/zh" target="_blank">技術部落格</a>
-</li>
-</ul>
-
-        </div>
-      </div>
-    </article>
-  </div>
-  
-  <div class="w-full md:w-1/2 lg:w-1/3 xl:w-1/4 p-4 dream-column">
-    <article
-      class="card bg-base-100 hover:bg-base-content/10 shadow-xl dark:border dark:border-base-content/30"
-    >
-      <div class="card-body">
-        <div class="card-title">電子報訂閱</div>
-
-        <div class="prose dark:prose-invert">
-          <ul>
-<li><a href="http://eepurl.com/jctdbA" target="_blank">免費接收額外消息</a>
-</li>
-</ul>
-
-        </div>
-      </div>
-    </article>
-  </div>
-  
-  
-
-  
-
-  
-</div>
-
-            
-
-            
-<footer class="flex justify-between items-center gap-2 px-4 py-12">
-
-  <div>
-  
-  <p>
-    © 2025 Scientia&#39;s live
-  </p>
-  
-
-  
-  <p>Posts Copyright Scientia from Scientia Potentia Est</p>
-  
-</div>
-
-  <div
-  x-data="{ icons: [
-    { name: 'sunny', status: 'n' },
-    { name: 'moon', status: 'y' },
-    { name: 'desktop', status: 'auto' }
-  ] }"
-  class="flex items-center gap-2 h-[32px] px-2 bg-base-100 border border-base-content/30 rounded-full"
->
-  <template x-for="icon in icons">
-    <div
-      role="button"
-      tabindex="0"
-      :aria-label="'Select ' + icon.name + ' mode'"
-      class="group inline-flex justify-center items-center p-1 rounded-full cursor-pointer hover:bg-primary"
-      :class="$store.darkMode.icon() === icon.name && 'bg-primary'"
-      @click="$store.darkMode.toggle(icon.status)"
-    >
-      <ion-icon
-        :name="`${icon.name}-outline`"
-        class="group-hover:text-primary-content"
-        :class="$store.darkMode.icon() === icon.name && 'text-primary-content'"
-      >
-      </ion-icon>
-    </div>
-  </template>
-</div>
-
-</footer>
-
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <script>
-  window.lightTheme = "emerald"
-  window.darkTheme = "forest"
-</script>
-
-
-  <script src="https://cdn.jsdelivr.net/npm/imagesloaded@5.0.0/imagesloaded.pkgd.min.js" integrity="sha256-htrLFfZJ6v5udOG+3kNLINIKh2gvoKqwEhHYfTTMICc=" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha256-Nn1q/fx0H7SNLZMQ5Hw5JLaTRZp0yILA/FRexe19VdI=" crossorigin="anonymous"></script>
-
-  
-  
-    
-  
-  <script src="/js/grid.min.js"></script>
-
-
-
-
-  
-
-<script src="/js/main.min.js"></script>
-
-     
-
-    
-
-    
-
-    
-
-    
-    
       <script async src="https://www.googletagmanager.com/gtag/js?id=G-GC235QD2XY"></script>
       <script>
         var doNotTrack = false;
@@ -476,9 +29,268 @@
           gtag('config', 'G-GC235QD2XY');
         }
       </script>
-    
+    </head>
+    <body class="">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
 
-    <script type="module" src="https://cdn.jsdelivr.net/npm/ionicons@7.4.0/dist/ionicons/ionicons.esm.js" integrity="sha256-/IFmi82bIhdYWctu0UddSlJqpnzWm7Vh2C4CM32wF/k=" crossorigin="anonymous"></script>
-    <script nomodule src="https://cdn.jsdelivr.net/npm/ionicons@7.4.0/dist/ionicons/ionicons.js" integrity="sha256-mr7eJMX3VC3F7G32mk4oWp1C6a2tlMYxUdptfT7uKI8=" crossorigin="anonymous"></script>
-  </body>
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex on-phone--column extended"><aside class="sidebar left-sidebar sticky ">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="切換選單">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header>
+        
+            
+            <figure class="site-avatar">
+                <a href="/">
+                
+                    
+                    
+                    
+                        
+                        <img src="/Author_hu_68356baf17a2eb1d.png" width="300"
+                            height="300" class="site-logo" loading="lazy" alt="Avatar">
+                    
+                
+                </a>
+                
+                    <span class="emoji">🎹</span>
+                
+            </figure>
+            
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="/">Scientia&#39;s live</a></h1>
+            <h2 class="site-description">社群部落格</h2>
+        </div>
+    </header><ol class="menu" id="main-menu">
+        
+        
+        
+        <li >
+            <a href='/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="5 12 3 12 12 3 21 12 19 12" />
+  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+</svg>
+
+
+
+                
+                <span>首頁</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/%E9%97%9C%E6%96%BC%E6%9C%AC%E7%AB%99/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="7" r="4" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+</svg>
+
+
+
+                
+                <span>關於本站</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/archives/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>紀錄</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/search/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+                
+                <span>搜尋</span>
+            </a>
+        </li>
+        
+        <li class="menu-bottom-section">
+            <ol class="menu">
+                    
+                        <li id="i18n-switch">  
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-language" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M4 5h7" />
+  <path d="M9 3v2c0 4.418 -2.239 8 -5 8" />
+  <path d="M5 9c-.003 2.144 2.952 3.908 6.7 4" />
+  <path d="M12 20l4 -9l4 9" />
+  <path d="M19.1 18h-6.2" />
+</svg>
+
+
+
+                            <select name="language" title="language" onchange="window.location.href = this.selectedOptions[0].value">
+                                
+                                    <option value="https://scientiatw.live/" selected>繁體中文</option>
+                                
+                                    <option value="https://scientiatw.live/en/" >English</option>
+                                
+                            </select>
+                        </li>
+                    
+                
+
+                
+                    <li id="dark-mode-toggle">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <span>夜晚模式</span>
+                    </li>
+                
+            </ol>
+        </li>
+    </ol>
+</aside>
+
+            <main class="main full-width">
+    <div class="not-found-card">
+        <h1 class="article-title">404 錯誤</h1>
+        <h2 class="article-subtitle">頁面不存在</h2>
+    </div><form action="/search/" class="search-form widget" data-json="https://scientiatw.live/search/index.json">
+            <p>
+                <label>搜尋</label>
+                <input id="searchInput" name="keyword" required placeholder="輸入關鍵字..." />
+            
+                <button title="搜尋">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+                </button>
+            </p>
+        </form>
+
+        <div class="search-result">
+            <h3 class="search-result--title section-title"></h3>
+            <div class="search-result--list article-list--compact"></div>
+        </div>
+        
+        <script>
+            window.searchResultTitleTemplate = "#PAGES_COUNT 個結果 （用時 #TIME_SECONDS 秒）"
+        </script><script type="text/javascript" src="/ts/search.js" defer></script>
+
+        <script>
+            const wrongUrl = new URL(window.location.href);
+
+            
+            const searchKeyword = wrongUrl.pathname.split(/[/|-]/).join(' ').trim();
+
+            document.getElementById('searchInput').setAttribute('value', searchKeyword);
+        </script><footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+        2025 Scientia
+    </section>
+    
+    <section class="powerby">
+        
+            Posts Copyright Scientia from Scientia Potentia Est <br/>
+        
+        
+    </section>
+</footer>
+
+
+            </main>
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
+                
+                >
+            </script><script type="text/javascript" src="/ts/main.1e9a3bafd846ced4c345d084b355fb8c7bae75701c338f8a1f8a82c780137826.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+    </body>
 </html>

@@ -1,33 +1,81 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>健康 on Scientia&#39;s live</title>
-    <link>https://scientiatw.live/tags/%E5%81%A5%E5%BA%B7/</link>
-    <description>Recent content in 健康 on Scientia&#39;s live</description>
-    <generator>Hugo</generator>
-    <language>zh</language>
-    <lastBuildDate>Wed, 23 Apr 2025 11:58:00 +0800</lastBuildDate>
-    <atom:link href="https://scientiatw.live/tags/%E5%81%A5%E5%BA%B7/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>《為什麼要睡覺？》：睡眠不足對於身體的各種危害</title>
-      <link>https://scientiatw.live/posts/why-we-sleep-harm/</link>
-      <pubDate>Tue, 15 Apr 2025 23:54:00 +0800</pubDate>
-      <guid>https://scientiatw.live/posts/why-we-sleep-harm/</guid>
-      <description>&lt;p&gt;人生中健康的三大支柱，有些人排序成「飲食」、「運動」，最後是「睡眠」，但從研究結果來看&lt;strong&gt;睡眠&lt;/strong&gt;才是另外兩項條件的基底&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>《為什麼要睡覺？》：理性思考最後才成熟</title>
-      <link>https://scientiatw.live/posts/why-we-sleep-youth/</link>
-      <pubDate>Sat, 29 Mar 2025 10:42:00 +0800</pubDate>
-      <guid>https://scientiatw.live/posts/why-we-sleep-youth/</guid>
-      <description>&lt;p&gt;你會不會覺得十六歲的青少年腦中總是少根筋？然而從腦神經科學中發現其實這是正常的&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>《為什麼要睡覺？》：你是早鳥還是夜貓子？</title>
-      <link>https://scientiatw.live/posts/why-we-sleep-type/</link>
-      <pubDate>Mon, 17 Mar 2025 22:13:00 +0800</pubDate>
-      <guid>https://scientiatw.live/posts/why-we-sleep-type/</guid>
-      <description>&lt;p&gt;雖然你我的身體時鐘是運行二十四小時作息，但總會發現有些人早上精神較好，有些人則是晚上才會生龍活虎&lt;/p&gt;</description>
-    </item>
-  </channel>
+    <channel>
+        <title>健康 on Scientia&#39;s live</title>
+        <link>https://scientiatw.live/tags/%E5%81%A5%E5%BA%B7/</link>
+        <description>Recent content in 健康 on Scientia&#39;s live</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-tw</language>
+        <copyright>Scientia</copyright>
+        <lastBuildDate>Wed, 23 Apr 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://scientiatw.live/tags/%E5%81%A5%E5%BA%B7/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>《為什麼要睡覺？》：睡眠不足對於身體的各種危害</title>
+        <link>https://scientiatw.live/p/%E7%82%BA%E4%BB%80%E9%BA%BC%E8%A6%81%E7%9D%A1%E8%A6%BA%E7%9D%A1%E7%9C%A0%E4%B8%8D%E8%B6%B3%E5%B0%8D%E6%96%BC%E8%BA%AB%E9%AB%94%E7%9A%84%E5%90%84%E7%A8%AE%E5%8D%B1%E5%AE%B3/</link>
+        <pubDate>Tue, 15 Apr 2025 00:00:00 +0000</pubDate>
+        
+        <guid>https://scientiatw.live/p/%E7%82%BA%E4%BB%80%E9%BA%BC%E8%A6%81%E7%9D%A1%E8%A6%BA%E7%9D%A1%E7%9C%A0%E4%B8%8D%E8%B6%B3%E5%B0%8D%E6%96%BC%E8%BA%AB%E9%AB%94%E7%9A%84%E5%90%84%E7%A8%AE%E5%8D%B1%E5%AE%B3/</guid>
+        <description>&lt;img src="https://scientia-potentia-est.com/wp-content/uploads/2025/05/why_we_sleep_cover.webp" alt="Featured image of post 《為什麼要睡覺？》：睡眠不足對於身體的各種危害" /&gt;&lt;p&gt;人生中健康的三大支柱，有些人排序成「飲食」、「運動」，最後是「睡眠」，但從研究結果來看&lt;strong&gt;睡眠&lt;/strong&gt;才是另外兩項條件的基底&lt;/p&gt;
+&lt;p&gt;也許你嘗試把&lt;strong&gt;睡眠&lt;/strong&gt;從一天當中剝奪後就會發現控制飲食或運動完的成效突然變得不彰，可以想像其實睡眠不足早就導致你身體裡的每個主要系統、組織與器官都正在受損，從而導致你的所有健康面向都會衰敗，就像家裡水管破裂最終讓整個環境難逃一劫，長期的睡眠剝奪影響滲入每一個細胞，甚至改變你的DNA&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;流行病學到病理學研究也不難看出在數十年間裡收集的幾百萬人資料顯示：睡得越少，壽命越短&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;美國或日本這種已開發國家目前最常遇到的致病致死問題像是心臟病、肥胖、失智症、糖尿病及癌症等等也都與缺乏睡眠有著正相關的結果，&lt;strong&gt;睡得不健康，心就不健康&lt;/strong&gt;我想現代人肯定能夠認同，一份2011年的研究追蹤八個國家超過五十萬名男性和女性，包含各個年齡層、種族與族群&lt;/p&gt;
+&lt;p&gt;研究上發現第七年到第二十年間顯示睡得越少，發生或死於冠狀動脈心臟病的相關風險增加了&lt;strong&gt;45%&lt;/strong&gt;，其中在日本對超過四千名男性上班族的研究觀察在在十四年間，睡眠時間在&lt;strong&gt;六小時以下&lt;/strong&gt;的人，發生一次以上心跳停止的可能性是睡眠超過六小時的&lt;strong&gt;400%&lt;strong&gt;到&lt;/strong&gt;500%&lt;/strong&gt;，當然這數字還包含了一些危險習慣，然而就算排除了其他心臟病的因子像是時常抽菸、缺乏運動與體重過重後，睡眠短少與心臟衰竭的關聯性仍然很高，所以光是缺乏睡眠就足以對心臟造成許多傷害&lt;/p&gt;
+&lt;p&gt;當你接近中年時身體修復能力就會開始退化，四十五歲以上如果睡眠時間在&lt;strong&gt;六小時&lt;/strong&gt;以下的人發生心臟病或中風的機會是每晚至少睡&lt;strong&gt;七&lt;/strong&gt;到&lt;strong&gt;八&lt;/strong&gt;小時的人的&lt;strong&gt;200%&lt;/strong&gt;，所以中年晚期的睡眠品質非常重要，然而這時期也是你我的家庭與事業狀況變得艱難的人生階段&lt;/p&gt;
+&lt;p&gt;有興趣的讀者可以參考下列讀墨或Kobo電子書版本或者博客來平裝書&lt;/p&gt;
+&lt;p&gt;Readmoo電子書版本：&lt;a class=&#34;link&#34; href=&#34;https://moo.im/a/1ijmnu&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;《為什麼要睡覺？》：睡出健康與學習力、夢出創意的新科學&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Kobo電子書版本：&lt;a class=&#34;link&#34; href=&#34;https://r10.to/hkIrxm&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;《為什麼要睡覺？》：睡出健康與學習力、夢出創意的新科學&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;博客來實體平裝書：&lt;a class=&#34;link&#34; href=&#34;https://www.books.com.tw/exep/assp.php/scientia/products/0010959050?utm_source=scientia&amp;amp;utm_medium=ap-books&amp;amp;utm_content=recommend&amp;amp;utm_campaign=ap-202504&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;《為什麼要睡覺？》：睡出健康與學習力、夢出創意的新科學&lt;/a&gt;&lt;/p&gt;</description>
+        </item>
+        <item>
+        <title>《為什麼要睡覺？》：理性思考最後才成熟</title>
+        <link>https://scientiatw.live/p/%E7%82%BA%E4%BB%80%E9%BA%BC%E8%A6%81%E7%9D%A1%E8%A6%BA%E7%90%86%E6%80%A7%E6%80%9D%E8%80%83%E6%9C%80%E5%BE%8C%E6%89%8D%E6%88%90%E7%86%9F/</link>
+        <pubDate>Sat, 29 Mar 2025 00:00:00 +0000</pubDate>
+        
+        <guid>https://scientiatw.live/p/%E7%82%BA%E4%BB%80%E9%BA%BC%E8%A6%81%E7%9D%A1%E8%A6%BA%E7%90%86%E6%80%A7%E6%80%9D%E8%80%83%E6%9C%80%E5%BE%8C%E6%89%8D%E6%88%90%E7%86%9F/</guid>
+        <description>&lt;img src="https://scientia-potentia-est.com/wp-content/uploads/2025/05/why_we_sleep_cover.webp" alt="Featured image of post 《為什麼要睡覺？》：理性思考最後才成熟" /&gt;&lt;p&gt;你會不會覺得十六歲的青少年腦中總是少根筋？然而從腦神經科學中發現其實這是正常的&lt;/p&gt;
+&lt;p&gt;睡眠研究先鋒芬伯格(Irwin Feinberg)對於腦袋的修剪工程研究上有幾種值得關注的發現，找來六歲到八歲的兒童在實驗室裡把電極貼在頭上的前後左右紀錄整夜的睡眠，大概每隔六到十二個月再做一次，紀錄超過&lt;strong&gt;十年&lt;/strong&gt;、超過&lt;strong&gt;三千五百份&lt;/strong&gt;整夜睡眠，其總時數達&lt;strong&gt;三十二萬&lt;/strong&gt;小時的數據，用其建立一系列快照描繪大腦從這些兒童成長到青春期一直到成年期的發育階段，探討深沈睡眠的強度如何隨不同階段改變&lt;/p&gt;
+&lt;p&gt;你可以想像這份研究在做神經科學版的大自然縮時攝影，一棵樹籽在春天時的萌芽(嬰兒期)、在夏天長出綠葉(兒童晚期)、而後秋天時葉子成熟(青少年前期)，最後冬天葉片落盡(青少年晚期和成年前期)&lt;/p&gt;
+&lt;p&gt;芬柏格檢查深沈睡眠強度改變之間看到腦中各個部位需要的時間表不盡相同，成熟過程總是從後腦開始，也就是負責視覺和空間知覺功能的區域，隨著青春期開始才慢慢朝向腦前方發展，而最後一站其實是額葉的前端，也就是負責理性思考和批判性思考決策的區塊&lt;/p&gt;
+&lt;p&gt;當你走在路上看到的每一個青少年在青春期發育期間時&lt;strong&gt;後腦都比前方更像成人，然而前方都比後頭還更像兒童&lt;/strong&gt;，這樣想來在新聞上看到國/高中校園內發生一些事件時你就會想到這些青少年其實&lt;strong&gt;同理心&lt;/strong&gt;的腦區都還沒有發展成熟，所以導師在處理同學之間的互動關係時如果只有一方講&lt;strong&gt;在玩啦&lt;/strong&gt;可能還是得有所警覺，沒有完整同理心的枷鎖有時候有些同學會玩過頭&lt;/p&gt;
+&lt;p&gt;前額葉就屬於腦部最晚得到睡眠催熟處理的區域，雖然睡眠不是唯一讓腦部成熟的方法，但為了建立成熟理性思考能力睡眠還是非常重要的因素，腦神經的成熟需要深沈睡眠和發育時間，雖然你的小孩升上國/高中時叛逆期會對你大小聲無法體諒你的辛勞，值得慶幸的是成長到二十多歲終於可以體會到家長的付出&lt;/p&gt;
+&lt;p&gt;另外科學家用青春期大鼠跟貓來測試剝奪這些動物的深沈睡眠，發現它們腦部的神經連結修整工程也停擺了，其證實深度非快速動眼睡眠推動了腦朝向健康成年期是必要的，另外如果給年幼大鼠咖啡因，也會干擾到它們的深度非快速動眼睡眠，因此延遲了腦部成熟，以及社會活動、自我理毛行為與探索環境的發展，所以最好也不要給青春期孩子喝過量的咖啡因，畢竟要完全戒除生活中的咖啡因太困難了，高中生跟同學去麥當勞喝個可樂就會攝取到&lt;/p&gt;
+&lt;p&gt;有興趣的讀者可以參考下列讀墨或Kobo電子書版本或者博客來平裝書&lt;/p&gt;
+&lt;p&gt;Readmoo電子書版本：&lt;a class=&#34;link&#34; href=&#34;https://moo.im/a/1ijmnu&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;《為什麼要睡覺？》：睡出健康與學習力、夢出創意的新科學&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Kobo電子書版本：&lt;a class=&#34;link&#34; href=&#34;https://r10.to/hkIrxm&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;《為什麼要睡覺？》：睡出健康與學習力、夢出創意的新科學&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;博客來實體平裝書：&lt;a class=&#34;link&#34; href=&#34;https://www.books.com.tw/exep/assp.php/scientia/products/0010959050?utm_source=scientia&amp;amp;utm_medium=ap-books&amp;amp;utm_content=recommend&amp;amp;utm_campaign=ap-202504&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;《為什麼要睡覺？》：睡出健康與學習力、夢出創意的新科學&lt;/a&gt;&lt;/p&gt;</description>
+        </item>
+        <item>
+        <title>《為什麼要睡覺？》：你是早鳥還是夜貓子？</title>
+        <link>https://scientiatw.live/p/%E7%82%BA%E4%BB%80%E9%BA%BC%E8%A6%81%E7%9D%A1%E8%A6%BA%E4%BD%A0%E6%98%AF%E6%97%A9%E9%B3%A5%E9%82%84%E6%98%AF%E5%A4%9C%E8%B2%93%E5%AD%90/</link>
+        <pubDate>Mon, 17 Mar 2025 00:00:00 +0000</pubDate>
+        
+        <guid>https://scientiatw.live/p/%E7%82%BA%E4%BB%80%E9%BA%BC%E8%A6%81%E7%9D%A1%E8%A6%BA%E4%BD%A0%E6%98%AF%E6%97%A9%E9%B3%A5%E9%82%84%E6%98%AF%E5%A4%9C%E8%B2%93%E5%AD%90/</guid>
+        <description>&lt;img src="https://scientia-potentia-est.com/wp-content/uploads/2025/05/why_we_sleep_cover.webp" alt="Featured image of post 《為什麼要睡覺？》：你是早鳥還是夜貓子？" /&gt;&lt;p&gt;雖然你我的身體時鐘是運行二十四小時作息，但總會發現有些人早上精神較好，有些人則是晚上才會生龍活虎&lt;/p&gt;
+&lt;p&gt;也許你的身邊有那種早上時間非常清醒，但入夜之後就開始昏昏欲睡的人，稱作所謂的『晨型人』，大概佔人口比例約40%，他們通常喜歡清早就起床，沒有低血壓的困擾，也不被冬天的溫暖棉被所困，而另一種就是『夜型人』，大概佔30%，幾乎就跟晨型人相反作息，習慣晚睡跟晚起，剩下30%就介於這兩型之間的不同區段，可能有些人偏晨型一些雖然不是早上六點就能夠直接離開舒服的床但鬧鐘響到第二個、第三個大概七、八點就會慢慢醒來，而偏夜型可能就睡到九、十點之後才爬得起來&lt;/p&gt;
+&lt;p&gt;而我們常用『早鳥』跟『夜貓子』來形容這兩型的人，但事實是夜貓子的體質就是無法早睡，正常要凌晨過後才有睡意，連帶就是只能夠晚起床，即便讓他們早起看似醒著，大腦卻仍舊處於睡眠狀態，特別是前額葉皮質區域完全沒有觸發，這個管理高層次思考與邏輯推理的區域仍然處於「離線」模式當中，可以想像你的車子在清晨都要先熱車花一些時間才能讓引擎暖起來運作順利&lt;/p&gt;
+&lt;h2 id=&#34;社會對於夜貓子的偏頗&#34;&gt;社會對於夜貓子的偏頗
+&lt;/h2&gt;&lt;p&gt;事實上你會是晨型人或是夜型取決於遺傳，如果你雙親之一有人是夜貓子體質，那麼你很高的機率也會繼承到，但很遺憾，這個社會對於夜貓子可沒有什麼優惠，有些同事常常都是壓線時才抵達公司刷卡，主管可能會認為這是懶惰的表現，認為夜貓子下屬可以選擇早睡早起(&lt;strong&gt;畢竟你那位能夠升等上去的主管通常高機率是早鳥&lt;/strong&gt;)，但刻在DNA裡的設定就注定讓夜貓子無法照著社會期望的步調時程來走，何況工業革命之後國家就決定了整個社會運作的工作時間表，資本家跟政府可能認為一日之計在於晨，你各位都要早早起床進工廠開始上班，這確實讓早鳥受惠，但夜貓子就得受苦了，他們在早上無法穩定產出，到了傍晚或剛入夜時正是能力的高峰時期卻得下班了(&lt;strong&gt;好在這個時代下班後還可以搞副業，也許可以考慮把生產力都放在副業上？&lt;/strong&gt;)&lt;/p&gt;
+&lt;p&gt;更慘的是他們晚睡的同時又得跟早鳥同時起床去上班，睡眠長期受到剝奪，睡眠不足加上正常上班時間無法好好發揮實力，這樣的惡性循環之下讓壓力還有健康問題漸漸地出現在身上，常見的就會罹患憂鬱、焦慮、糖尿病、癌症、心臟病發以及中風比例較高(&lt;strong&gt;所以有些人剛出社會無法跟上步調也許不是適應不良，而是被遺傳基因所影響&lt;/strong&gt;)&lt;/p&gt;
+&lt;p&gt;科學上已經證實有這種情況的話，也許社會跟企業也得做出一些改變或妥協，如果我們有為身障或視障人士做出調整，那也許為夜貓子族群開些先例指日可待了？(&lt;strong&gt;至少我們在科技業要有穩定產出讓計畫如期進行讓員工有些選項還說得過去吧？&lt;a class=&#34;link&#34; href=&#34;https://www.facebook.com/story.php/?story_fbid=938214071643547&amp;amp;id=100063648890218&amp;amp;_rdr&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;DEVCORE&lt;/a&gt;調整週休三日值得參考&lt;/strong&gt;)&lt;/p&gt;
+&lt;h2 id=&#34;為何所有人不同步&#34;&gt;為何所有人不同步？
+&lt;/h2&gt;&lt;blockquote&gt;
+&lt;p&gt;所以為什麼我們在演化過程中沒有讓所有人一起同步？&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;我們身為社會性動物如果可以讓全體同步運作，同時醒來推進社會不是能夠最有效率嗎？原因在於我們的身體跟大腦其實跟祖先智人相去不遠，在狩獵採集時代我們的祖先是以家庭或乃至於整個部落為基礎而非現代個人主義，而在那個時代部落共同睡眠的弊大於利，畢竟讓一群人當中凌晨一、兩點沒有睡意時站崗警戒，到早上九、十點才會醒來，而讓另一群人早上五點就醒來接哨，不過晚上九點左右他們就開始睡意纏身，即便如此還是能讓整個部落都睡著的時間縮減到四小時而不是八個小時大家都不去戒備任何危機&lt;/p&gt;
+&lt;p&gt;這樣調整之下確保每個人都睡了八個小時，又提升了至少50%的生存機會，這種生物特徵(&lt;strong&gt;部落中每個人作息時間的多樣性&lt;/strong&gt;)讓我們的智人祖先有效加強了安全存活能力，從效率來比對說不定比起現代同步睡眠時間還來得有利，而大自然就決定保留這個特性，使得我們繼承了這從古至今的體質(&lt;strong&gt;你我在某一時段精神特別好是因為基因要我們站哨&lt;/strong&gt;)&lt;/p&gt;
+&lt;p&gt;有興趣的讀者可以參考下列讀墨或Kobo電子書版本或者博客來平裝書&lt;/p&gt;
+&lt;p&gt;Readmoo電子書版本：&lt;a class=&#34;link&#34; href=&#34;https://moo.im/a/1ijmnu&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;《為什麼要睡覺？》：睡出健康與學習力、夢出創意的新科學&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Kobo電子書版本：&lt;a class=&#34;link&#34; href=&#34;https://r10.to/hkIrxm&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;《為什麼要睡覺？》：睡出健康與學習力、夢出創意的新科學&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;博客來實體平裝書：&lt;a class=&#34;link&#34; href=&#34;https://www.books.com.tw/exep/assp.php/scientia/products/0010959050?utm_source=scientia&amp;amp;utm_medium=ap-books&amp;amp;utm_content=recommend&amp;amp;utm_campaign=ap-202504&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;《為什麼要睡覺？》：睡出健康與學習力、夢出創意的新科學&lt;/a&gt;&lt;/p&gt;</description>
+        </item>
+        
+    </channel>
 </rss>
