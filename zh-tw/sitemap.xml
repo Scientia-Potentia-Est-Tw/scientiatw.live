@@ -15,22 +15,6 @@
                 href="https://scientiatw.live/"
                 />
   </url><url>
-    <loc>https://scientiatw.live/p/%E6%88%91%E6%83%B3%E5%BF%B5%E6%88%91%E8%87%AA%E5%B7%B1%E8%AE%80%E5%BE%8C%E5%BF%83%E5%BE%97/</loc>
-    <lastmod>2025-05-29T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://scientiatw.live/categories/</loc>
-    <lastmod>2025-05-29T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://scientiatw.live/en/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-tw"
-                href="https://scientiatw.live/categories/"
-                />
-  </url><url>
     <loc>https://scientiatw.live/post/</loc>
     <lastmod>2025-05-29T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -43,28 +27,6 @@
                 hreflang="zh-tw"
                 href="https://scientiatw.live/post/"
                 />
-  </url><url>
-    <loc>https://scientiatw.live/tags/</loc>
-    <lastmod>2025-05-29T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://scientiatw.live/en/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-tw"
-                href="https://scientiatw.live/tags/"
-                />
-  </url><url>
-    <loc>https://scientiatw.live/tags/%E9%98%BF%E8%8C%B2%E6%B5%B7%E9%BB%98%E7%97%87/</loc>
-    <lastmod>2025-05-29T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://scientiatw.live/tags/%E5%81%A5%E5%BA%B7/</loc>
-    <lastmod>2025-05-29T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://scientiatw.live/categories/%E9%96%B1%E8%AE%80/</loc>
-    <lastmod>2025-05-29T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://scientiatw.live/page/</loc>
     <lastmod>2025-05-24T00:00:00+00:00</lastmod>
@@ -95,13 +57,45 @@
     <loc>https://scientiatw.live/p/the-bullet-journal-method-freedom-of-choose-is-privilege/</loc>
     <lastmod>2025-05-07T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://scientiatw.live/categories/</loc>
+    <lastmod>2025-05-07T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://scientiatw.live/en/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-tw"
+                href="https://scientiatw.live/categories/"
+                />
+  </url><url>
+    <loc>https://scientiatw.live/tags/</loc>
+    <lastmod>2025-05-07T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://scientiatw.live/en/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-tw"
+                href="https://scientiatw.live/tags/"
+                />
+  </url><url>
     <loc>https://scientiatw.live/tags/%E7%94%9F%E6%B4%BB%E5%88%86%E4%BA%AB/</loc>
     <lastmod>2025-05-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://scientiatw.live/tags/%E5%80%8B%E4%BA%BA%E6%88%90%E9%95%B7/</loc>
     <lastmod>2025-05-07T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://scientiatw.live/categories/%E9%96%B1%E8%AE%80/</loc>
+    <lastmod>2025-05-07T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://scientiatw.live/p/why-we-sleep-harm/</loc>
+    <lastmod>2025-04-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://scientiatw.live/tags/%E5%81%A5%E5%BA%B7/</loc>
     <lastmod>2025-04-23T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://scientiatw.live/tags/%E7%9D%A1%E7%9C%A0/</loc>
