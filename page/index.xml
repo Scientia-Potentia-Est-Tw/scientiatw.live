@@ -8,44 +8,7 @@
         <language>zh-tw</language>
         <copyright>Scientia</copyright>
         <lastBuildDate>Wed, 04 Jun 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://scientiatw.live/page/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>近況</title>
-        <link>https://scientiatw.live/now/</link>
-        <pubDate>Wed, 04 Jun 2025 00:00:00 +0000</pubDate>
-        
-        <guid>https://scientiatw.live/now/</guid>
-        <description>&lt;h2 id=&#34;-最近的狀態&#34;&gt;🏡 最近的狀態
-&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;🚎 新竹台北兩地跑：單趟坐車都要一個半小時多，坐個連續三天就感到有點麻煩，但兩邊都租屋經濟應該無法負荷，很敬佩每天通勤上班的人&lt;/li&gt;
-&lt;li&gt;🏃 盡可能每天運動：不管每天事情進度如何盡可能放下手邊事情直接去健身房慢跑，交叉比對還是覺得運動舒壓效果最佳，比起上網娛樂的成效來得好&lt;/li&gt;
-&lt;li&gt;🛏 睡眠：要求自己每天至少睡七到八小時，但Apple Watch電力不足測量睡眠狀態，所以還不太清楚自己躺在床上的非快速動眼/快速動眼時間是多少，嘗試早上漸漸不依賴咖啡因&lt;/li&gt;
-&lt;li&gt;⏳ 工作進度快燒起來：六月底要搞定碩士論文第一階段實驗，同時也要把工研院計劃主目標完成並交接&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;-最近網路上的狀態&#34;&gt;🌐 最近網路上的狀態
-&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;💻 &lt;a class=&#34;link&#34; href=&#34;https://scientia-potentia-est.com/zh/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;資通安全第一品牌&lt;/a&gt;：技術部落格目前針對OSCP撰寫一些筆記跟想法&lt;/li&gt;
-&lt;li&gt;🗓 社群部落格：看完一些書要來繼續寫書評&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;-最近吃的喝的&#34;&gt;🍳 最近吃的/喝的
-&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;🍱 最近自助餐的主菜都改成兩、三顆雞蛋或者一塊豆腐，發覺自己以前大部分都只能挑重鹹調味的豬、牛肉或者炸的冷凍食品當主菜，只要作息不正常體重就增長得極快，畢竟在台灣外食還是第一選項，只能盡可能地調整吞下口的東西了&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;-最近讀的聽的看的&#34;&gt;📚 最近讀的/聽的/看的
-&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;📃 &lt;a class=&#34;link&#34; href=&#34;https://dl.acm.org/doi/10.1145/3576915.3623131&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Efficient Set Membership Encryption and Applications&lt;/a&gt;：Oblivious Transfer可以優化到可實作其實蠻有創意的&lt;/li&gt;
-&lt;li&gt;📃 &lt;a class=&#34;link&#34; href=&#34;https://eprint.iacr.org/2024/381&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Quantum Circuits of AES with a Low-depth Linear Layer and a New Structure&lt;/a&gt;：看起來主流還是降低量子電路深度&lt;/li&gt;
-&lt;li&gt;📖 《&lt;a class=&#34;link&#34; href=&#34;https://r10.to/hkrdb9&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;哈佛大學的思辯溝通術&lt;/a&gt;》：作者韓國裔移民到澳洲從原本吱吱嗚嗚不太會講英文成長到可以跟英文母語者辯論自己的需求&lt;/li&gt;
-&lt;li&gt;🎧 &lt;a class=&#34;link&#34; href=&#34;https://www.sorryyouth.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;拍謝少年&lt;/a&gt;：從台通發現一個既獨立又主流的台語搖滾樂團，《&lt;a class=&#34;link&#34; href=&#34;https://open.spotify.com/track/3hJ2rjjLXCMJpNFw2Kuc8s&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;暗流&lt;/a&gt;》前奏一分四十六秒超級長&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        </item>
-        <item>
-        <title>愛用</title>
+        <title>使用</title>
         <link>https://scientiatw.live/use/</link>
         <pubDate>Wed, 04 Jun 2025 00:00:00 +0000</pubDate>
         
@@ -148,13 +111,13 @@
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://ocw.aca.ntu.edu.tw/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;台灣大學開放式課程&lt;/a&gt; - 台大建立的自家開放式課程平台&lt;/li&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://ocw.nycu.edu.tw/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;陽明交通大學開放式課程&lt;/a&gt; - 交大的開放式課程平台，但大多數還是以前單一學校錄製的影片較多，陽明的醫學課程影片還很少&lt;/li&gt;
+    &gt;陽明交通大學開放式課程&lt;/a&gt; - 交大的開放式課程平台，但大多數還是以前單一學校錄製的影片較多，陽明的醫學課程影片還很少，但電機資訊學院錄的很多&lt;/li&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://ocw.nthu.edu.tw/ocw/index.php&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;清華大學開放式課程&lt;/a&gt; - 清大建立的開放式課程平台&lt;/li&gt;
+    &gt;清華大學開放式課程&lt;/a&gt; - 清大建立的開放式課程平台，人文社會科學類的課程蠻豐富的&lt;/li&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.cybrary.it/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;CYBRARY&lt;/a&gt; - 免費的網路安全訓練平台，提供紅隊、藍隊兩方的教材&lt;/li&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://codered.eccouncil.org/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;EC-Council Learning&lt;/a&gt; - 由EC-Council建立的平台，就是Certified ethical hacker(CEH)主要的認證中心，提供許多紅隊訓練教材，但課程需要購買或訂閱&lt;/li&gt;
+    &gt;EC-Council Learning&lt;/a&gt; - 由EC-Council建立的平台，就是Certified ethical hacker(CEH)主要的認證中心，提供許多付費紅隊訓練教材&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;-電子書平台&#34;&gt;🗃 電子書平台
 &lt;/h3&gt;&lt;ul&gt;
@@ -171,6 +134,43 @@
     &gt;YAMAHA P-125a&lt;/a&gt; - 我主要練琴用的數位電剛琴&lt;/li&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://novationmusic.com/products/launchkey-61&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Novation Launchkey 61 MK4&lt;/a&gt; - 我的主要MIDI主控鍵盤&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        </item>
+        <item>
+        <title>近況</title>
+        <link>https://scientiatw.live/now/</link>
+        <pubDate>Wed, 04 Jun 2025 00:00:00 +0000</pubDate>
+        
+        <guid>https://scientiatw.live/now/</guid>
+        <description>&lt;h2 id=&#34;-最近的狀態&#34;&gt;🏡 最近的狀態
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;🚎 新竹台北兩地跑：單趟坐車都要一個半小時多，坐個連續三天就感到有點麻煩，但兩邊都租屋經濟應該無法負荷，很敬佩每天通勤上班的人&lt;/li&gt;
+&lt;li&gt;🏃 盡可能每天運動：不管每天事情進度如何盡可能放下手邊事情直接去健身房慢跑，交叉比對還是覺得運動舒壓效果最佳，比起上網娛樂的成效來得好&lt;/li&gt;
+&lt;li&gt;🛏 睡眠：要求自己每天至少睡七到八小時，但Apple Watch電力不足測量睡眠狀態，所以還不太清楚自己躺在床上的非快速動眼/快速動眼時間是多少，嘗試早上漸漸不依賴咖啡因&lt;/li&gt;
+&lt;li&gt;⏳ 工作進度快燒起來：六月底要搞定碩士論文第一階段實驗，同時也要把工研院計劃主目標完成並交接&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;-最近網路上的狀態&#34;&gt;🌐 最近網路上的狀態
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;💻 &lt;a class=&#34;link&#34; href=&#34;https://scientia-potentia-est.com/zh/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;資通安全第一品牌&lt;/a&gt;：技術部落格目前針對OSCP撰寫一些筆記跟想法&lt;/li&gt;
+&lt;li&gt;🗓 社群部落格：看完一些書要來繼續寫書評&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;-最近吃的喝的&#34;&gt;🍳 最近吃的/喝的
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;🍱 最近自助餐的主菜都改成兩、三顆雞蛋或者一塊豆腐，發覺自己以前大部分都只能挑重鹹調味的豬、牛肉或者炸的冷凍食品當主菜，只要作息不正常體重就增長得極快，畢竟在台灣外食還是第一選項，只能盡可能地調整吞下口的東西了&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;-最近讀的聽的看的&#34;&gt;📚 最近讀的/聽的/看的
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;📃 &lt;a class=&#34;link&#34; href=&#34;https://dl.acm.org/doi/10.1145/3576915.3623131&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Efficient Set Membership Encryption and Applications&lt;/a&gt;：Oblivious Transfer可以優化到可實作其實蠻有創意的&lt;/li&gt;
+&lt;li&gt;📃 &lt;a class=&#34;link&#34; href=&#34;https://eprint.iacr.org/2024/381&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Quantum Circuits of AES with a Low-depth Linear Layer and a New Structure&lt;/a&gt;：看起來主流還是降低量子電路深度&lt;/li&gt;
+&lt;li&gt;📖 《&lt;a class=&#34;link&#34; href=&#34;https://r10.to/hkrdb9&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;哈佛大學的思辯溝通術&lt;/a&gt;》：作者韓國裔移民到澳洲從原本吱吱嗚嗚不太會講英文成長到可以跟英文母語者辯論自己的需求&lt;/li&gt;
+&lt;li&gt;🎧 &lt;a class=&#34;link&#34; href=&#34;https://www.sorryyouth.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;拍謝少年&lt;/a&gt;：從台通發現一個既獨立又主流的台語搖滾樂團，《&lt;a class=&#34;link&#34; href=&#34;https://open.spotify.com/track/3hJ2rjjLXCMJpNFw2Kuc8s&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;暗流&lt;/a&gt;》前奏一分四十六秒超級長&lt;/li&gt;
 &lt;/ul&gt;
 </description>
         </item>
