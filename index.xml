@@ -7,7 +7,174 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-tw</language>
         <copyright>Scientia</copyright>
-        <lastBuildDate>Sat, 24 May 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://scientiatw.live/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Wed, 04 Jun 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://scientiatw.live/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>近況</title>
+        <link>https://scientiatw.live/now/</link>
+        <pubDate>Wed, 04 Jun 2025 00:00:00 +0000</pubDate>
+        
+        <guid>https://scientiatw.live/now/</guid>
+        <description>&lt;h2 id=&#34;-最近的狀態&#34;&gt;🏡 最近的狀態
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;🚎 新竹台北兩地跑：單趟坐車都要一個半小時多，坐個連續三天就感到有點麻煩，但兩邊都租屋經濟應該無法負荷，很敬佩每天通勤上班的人&lt;/li&gt;
+&lt;li&gt;🏃 盡可能每天運動：不管每天事情進度如何盡可能放下手邊事情直接去健身房慢跑，交叉比對還是覺得運動舒壓效果最佳，比起上網娛樂的成效來得好&lt;/li&gt;
+&lt;li&gt;🛏 睡眠：要求自己每天至少睡七到八小時，但Apple Watch電力不足測量睡眠狀態，所以還不太清楚自己躺在床上的非快速動眼/快速動眼時間是多少，嘗試早上漸漸不依賴咖啡因&lt;/li&gt;
+&lt;li&gt;⏳ 工作進度快燒起來：六月底要搞定碩士論文第一階段實驗，同時也要把工研院計劃主目標完成並交接&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;-最近網路上的狀態&#34;&gt;🌐 最近網路上的狀態
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;💻 &lt;a class=&#34;link&#34; href=&#34;https://scientia-potentia-est.com/zh/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;資通安全第一品牌&lt;/a&gt;：技術部落格目前針對OSCP撰寫一些筆記跟想法&lt;/li&gt;
+&lt;li&gt;🗓 社群部落格：看完一些書要來繼續寫書評&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;-最近吃的喝的&#34;&gt;🍳 最近吃的/喝的
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;🍱 最近自助餐的主菜都改成兩、三顆雞蛋或者一塊豆腐，發覺自己以前大部分都只能挑重鹹調味的豬、牛肉或者炸的冷凍食品當主菜，只要作息不正常體重就增長得極快，畢竟在台灣外食還是第一選項，只能盡可能地調整吞下口的東西了&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;-最近讀的聽的看的&#34;&gt;📚 最近讀的/聽的/看的
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;📃 &lt;a class=&#34;link&#34; href=&#34;https://dl.acm.org/doi/10.1145/3576915.3623131&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Efficient Set Membership Encryption and Applications&lt;/a&gt;：Oblivious Transfer可以優化到可實作其實蠻有創意的&lt;/li&gt;
+&lt;li&gt;📃 &lt;a class=&#34;link&#34; href=&#34;https://eprint.iacr.org/2024/381&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Quantum Circuits of AES with a Low-depth Linear Layer and a New Structure&lt;/a&gt;：看起來主流還是降低量子電路深度&lt;/li&gt;
+&lt;li&gt;📖 《&lt;a class=&#34;link&#34; href=&#34;https://r10.to/hkrdb9&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;哈佛大學的思辯溝通術&lt;/a&gt;》：作者韓國裔移民到澳洲從原本吱吱嗚嗚不太會講英文成長到可以跟英文母語者辯論自己的需求&lt;/li&gt;
+&lt;li&gt;🎧 &lt;a class=&#34;link&#34; href=&#34;https://www.sorryyouth.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;拍謝少年&lt;/a&gt;：從台通發現一個既獨立又主流的台語搖滾樂團，《&lt;a class=&#34;link&#34; href=&#34;https://open.spotify.com/track/3hJ2rjjLXCMJpNFw2Kuc8s&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;暗流&lt;/a&gt;》前奏一分四十六秒超級長&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        </item>
+        <item>
+        <title>愛用</title>
+        <link>https://scientiatw.live/use/</link>
+        <pubDate>Wed, 04 Jun 2025 00:00:00 +0000</pubDate>
+        
+        <guid>https://scientiatw.live/use/</guid>
+        <description>&lt;h2 id=&#34;-電腦軟體&#34;&gt;🖥️ 電腦軟體
+&lt;/h2&gt;&lt;h3 id=&#34;-作業系統&#34;&gt;💾 作業系統
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;macOS - 寫文章、學術論文用的系統&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://ubuntu.com/download/server&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Ubuntu Server 24.04 LTS&lt;/a&gt; - FPGA/SoC設計、系統專案開發、CTF Reverse/Pwn解題工具用的系統&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;-瀏覽器&#34;&gt;🌏 瀏覽器
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://brave.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Brave&lt;/a&gt; - 內建廣告封鎖、阻擋追蹤程式的瀏覽器，設定得當的話可以預防惡意網站的跳轉&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;-行程管理&#34;&gt;🗓️ 行程管理
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Apple Calendar - macOS內建的行事曆軟體，紀錄每月事項進度&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.notion.com/product/calendar&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Notion Calendar&lt;/a&gt; - Notion推出的行事曆插件，跟專案追蹤模板連動可以顯示每週該做的進度跟管控時間&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;-終端機相關工具&#34;&gt;📟 終端機相關、工具
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.vim.org/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Vim&lt;/a&gt; - 最強的終端機編輯器沒有之一，豐富的快捷鍵能讓你手指不離開鍵盤也能完成任何事&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://neovim.io/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Neovim&lt;/a&gt; - 在vim上提供漂亮的顏色支援，讓寫code時keyword跟function有顏色區別&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/tmux/tmux/wiki&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;tmux&lt;/a&gt; - 強大的終端機Session管理工具，遠端控制實驗通常要花很多時間常常實驗做一做就出去吃個飯，又害怕網路突然讓ssh斷線，有了session控管就可以把實驗結果叫回來，以及常常要開好幾個頁面調整code，tmux能夠開啟多組pane分別編輯不同的區塊&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;-簡報&#34;&gt;📊 簡報
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.overleaf.com/learn/latex/Beamer&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Overleaf Beamer&lt;/a&gt; - 常用於學術簡報中，原生支援各式各樣的數學公式，可以在&lt;a class=&#34;link&#34; href=&#34;https://www.overleaf.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Overleaf&lt;/a&gt;上使用或者在電腦上安裝Latex編譯器實作，對於熟悉Latex語法的使用者來說是快速完成簡報的利器，不需要花力氣管模板的排版&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;-筆記軟體--文字編輯器&#34;&gt;📝 筆記軟體 / 文字編輯器
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://obsidian.md/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Obsidian&lt;/a&gt; - 撰寫卡片盒筆記非常方便的免費軟體，主要使用Markdown語法&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.notion.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Notion&lt;/a&gt; - 強大的筆記軟體，擁有許多不同的免費/付費模板例如課程紀錄、商業管理、習慣追蹤等等，使用校園身份方案可以儲存大量的資訊&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://code.visualstudio.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Visual Studio Code&lt;/a&gt; - 或簡稱VSCode，微軟推出較為輕便的文字編輯器，不像Visual Studio IDE那樣笨重，很適合查看一些markdown檔案或json檔案&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;-文獻軟體&#34;&gt;🗂️ 文獻軟體
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://endnote.com/product-details/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;EndNote 21&lt;/a&gt; - 大學幾乎都會購買21版的授權，用來記載自己看過的paper，要插入到word或者overleaf裡都很方便&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.overleaf.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Overleaf&lt;/a&gt; - 知名Latex線上編輯器，如果使用校園信箱認證過可以取得Premium方案&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://pages.uoregon.edu/koch/texshop/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;TeXShop&lt;/a&gt; - 在macOS上搭配VSCode編輯Tex檔案，也可以在local端編譯，之前有一次晚上Overleaf網站掛掉時我正在趕報告，搞得我心急如焚所以才想到也必須有備援方案，建議把Overleaf上心儀的模板也備份一組到硬碟中&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;-通訊軟體&#34;&gt;💬 通訊軟體
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;LINE - 微服務架構越塞越多導致LINE佔容量越來越多，雖然很常用Line Pay但Line Today都發些毫無意義的新聞&lt;/li&gt;
+&lt;li&gt;Discord - 很多資安社群喜歡開Discord私人伺服器在裡面討論，受益良多&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;-數位音樂工作站daw&#34;&gt;🎹 數位音樂工作站（DAW）
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.apple.com/logic-pro/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Logic Pro&lt;/a&gt; - macOS上最受歡迎的DAW，搭配各式各樣的插件就可以模擬許多可能性，只靠MIDI鍵盤還是可以玩得很開心&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;-影片製作&#34;&gt;🎞️ 影片製作
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.apple.com/final-cut-pro/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Final Cut Pro&lt;/a&gt; - 也是macOS上最受歡迎的剪輯軟體&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://streamlabs.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Streamlabs&lt;/a&gt; - 底層用OBS開發的優化版，雖然OBS可以安裝各種插件輔助，但對於macOS使用上會有些卡頓，相較之下Streamlabs改良一些功能不會吃電腦太多資源，一樣可以用來實況跟錄影，尤其pane式錄影可以同時把螢幕畫面跟視訊鏡頭一起搭配麥克風音源一併錄下&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;-網站製作&#34;&gt;💻 網站製作
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://wordpress.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Wordpress&lt;/a&gt; - 動態網站建構系統，如果有表單或互動需求就只能依賴有資料庫的系統&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://gohugo.io/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Hugo&lt;/a&gt; - 靜態網頁生成套件，搭配Github Page就可以做出非常精美的網站了&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;-電子紙產品&#34;&gt;📜 電子紙產品
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://moo.im/a/luyzKS&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Readmoo Mooink Pro 2C&lt;/a&gt; - 市面上第一台13.3吋彩色電子書閱讀器由讀墨推出，柔性螢幕讓機器非常輕薄，讓我在看paper時可以手持走動，也可以在教課時一手握著另一手寫黑板，做研究時的好夥伴&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://gl.kobobooks.com/zh/products/kobo-libra-2&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Kobo Libra 2&lt;/a&gt; - 7吋黑白電子書閱讀器，黑白螢幕讓文字非常清楚，Kobo的系統一直以來都非常穩定，在室內使用很舒適，但新出的彩色版上市後就不再販售了&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://r10.to/hkkbYN&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Kobo Clara BW&lt;/a&gt; - Kobo最小尺寸6吋黑白機器，外出時非常好用，我的褲子口袋剛好可以完美裝進去&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;--線上服務&#34;&gt;☁️  線上服務
+&lt;/h2&gt;&lt;h3 id=&#34;-學習平台&#34;&gt;📝 學習平台
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.udemy.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Udemy&lt;/a&gt; - 付費平台中可以低價購買課程使用權而不是強制訂閱制的，常常會有幾千塊的課程降價為270、290、320台幣等等的優惠時段&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.coursera.org/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Coursera&lt;/a&gt; - 全球最多免費課程的平台，甚至Google或其他大公司還有提供免費認證&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.edx.org/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;edX&lt;/a&gt; - 收集MIT, Harvard, UC Berkeley, Cambridge, Columbia還有其他間美國大學等錄製的免費線上課程&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.futurelearn.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Future Learn&lt;/a&gt; - 一樣是蒐錄各大學的線上課程平台&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://ocw.aca.ntu.edu.tw/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;台灣大學開放式課程&lt;/a&gt; - 台大建立的自家開放式課程平台&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://ocw.nycu.edu.tw/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;陽明交通大學開放式課程&lt;/a&gt; - 交大的開放式課程平台，但大多數還是以前單一學校錄製的影片較多，陽明的醫學課程影片還很少&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://ocw.nthu.edu.tw/ocw/index.php&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;清華大學開放式課程&lt;/a&gt; - 清大建立的開放式課程平台&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.cybrary.it/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;CYBRARY&lt;/a&gt; - 免費的網路安全訓練平台，提供紅隊、藍隊兩方的教材&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://codered.eccouncil.org/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;EC-Council Learning&lt;/a&gt; - 由EC-Council建立的平台，就是Certified ethical hacker(CEH)主要的認證中心，提供許多紅隊訓練教材，但課程需要購買或訂閱&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;-電子書平台&#34;&gt;🗃 電子書平台
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.kobo.com/zh/tw&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Kobo&lt;/a&gt; - 全球非常活躍的多語言電子書平台，滿足我需要繁體中文書以及英文書的需求，每日都有99元優惠&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://readmoo.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;讀墨&lt;/a&gt; - 台灣最大繁體中文電子書平台，常常會有一些閱讀馬拉松活動，官方Facebook社團也很活躍討論，也有每日優惠但價格會跟出版社討論所以有時是99元但也可能99元以上&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://ebook.hyread.com.tw/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Hyread&lt;/a&gt; - 在台灣以圖書館借閱服務最為盛行，hyread跟眾多台灣的圖書館進行館藏合作，幾乎大學都可以使用他們的電子資源，甚至hyread還有蒐錄在台灣出版的期刊&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;-音樂相關&#34;&gt;🎶 音樂相關
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://tw.yamaha.com/zh/products/musical_instruments/pianos/p_series/p-125a/index.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;YAMAHA P-125a&lt;/a&gt; - 我主要練琴用的數位電剛琴&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://novationmusic.com/products/launchkey-61&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Novation Launchkey 61 MK4&lt;/a&gt; - 我的主要MIDI主控鍵盤&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        </item>
+        <item>
         <title>紀錄</title>
         <link>https://scientiatw.live/archives/</link>
         <pubDate>Sat, 24 May 2025 00:00:00 +0000</pubDate>
@@ -37,6 +204,32 @@
     &gt;《子彈思考整理術》：釐清超載思緒，化想法為行動，專注最重要的事，設計你想要的人生&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;博客來實體平裝書：&lt;a class=&#34;link&#34; href=&#34;https://www.books.com.tw/exep/assp.php/scientia/products/0010926376?utm_source=scientia&amp;amp;utm_medium=ap-books&amp;amp;utm_content=recommend&amp;amp;utm_campaign=ap-202505&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;《子彈思考整理術》：釐清超載思緒，化想法為行動，專注最重要的事，設計你想要的人&lt;/a&gt;&lt;/p&gt;</description>
+        </item>
+        <item>
+        <title>關於本站</title>
+        <link>https://scientiatw.live/about-site/</link>
+        <pubDate>Sat, 03 May 2025 00:00:00 +0000</pubDate>
+        
+        <guid>https://scientiatw.live/about-site/</guid>
+        <description>&lt;p&gt;我是站長&lt;a class=&#34;link&#34; href=&#34;https://scientia-potentia-est.com/zh/hong-sheng-huang-zh/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Scientia&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;本社群部落格主要撰寫有關「閱讀心得」、「生活分享」、「人文藝術」等主題&lt;/p&gt;
+&lt;p&gt;任何合作或問題請寄到信箱內：scientia.polymath@gmail.com&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://scientia-potentia-est.com/zh&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;技術部落格&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;http://eepurl.com/jctdbA&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;訂閱電子報免費接收額外消息&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://scientiatw.live/index.xml&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;RSS訂閱&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
         </item>
         <item>
         <title>《為什麼要睡覺？》：睡眠不足對於身體的各種危害</title>
@@ -976,32 +1169,6 @@
         
         <guid>https://scientiatw.live/search/</guid>
         <description></description>
-        </item>
-        <item>
-        <title>關於本站</title>
-        <link>https://scientiatw.live/%E9%97%9C%E6%96%BC%E6%9C%AC%E7%AB%99/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>https://scientiatw.live/%E9%97%9C%E6%96%BC%E6%9C%AC%E7%AB%99/</guid>
-        <description>&lt;p&gt;我是站長&lt;a class=&#34;link&#34; href=&#34;https://scientia-potentia-est.com/zh/hong-sheng-huang-zh/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Scientia&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;本社群部落格主要撰寫有關「閱讀心得」、「生活分享」、「人文藝術」等主題&lt;/p&gt;
-&lt;p&gt;任何合作或問題請寄到信箱內：scientia.polymath@gmail.com&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://scientia-potentia-est.com/zh&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;技術部落格&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;http://eepurl.com/jctdbA&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;訂閱電子報免費接收額外消息&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://scientiatw.live/index.xml&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;RSS訂閱&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-</description>
         </item>
         
     </channel>
