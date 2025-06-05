@@ -55,12 +55,10 @@
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://code.visualstudio.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Visual Studio Code&lt;/a&gt; - 或簡稱VSCode，微軟推出較為輕便的文字編輯器，不像Visual Studio IDE那樣笨重，很適合查看一些markdown檔案或json檔案&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&#34;-文獻軟體&#34;&gt;🗂️ 文獻軟體
+&lt;h3 id=&#34;-學術軟體&#34;&gt;🗂️ 學術軟體
 &lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://endnote.com/product-details/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;EndNote 21&lt;/a&gt; - 大學幾乎都會購買21版的授權，用來記載自己看過的paper，要插入到word或者overleaf裡都很方便&lt;/li&gt;
-&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.overleaf.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Overleaf&lt;/a&gt; - 知名Latex線上編輯器，如果使用校園信箱認證過可以取得Premium方案&lt;/li&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://pages.uoregon.edu/koch/texshop/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;TeXShop&lt;/a&gt; - 在macOS上搭配VSCode編輯Tex檔案，也可以在local端編譯，之前有一次晚上Overleaf網站掛掉時我正在趕報告，搞得我心急如焚所以才想到也必須有備援方案，建議把Overleaf上心儀的模板也備份一組到硬碟中&lt;/li&gt;
 &lt;/ul&gt;
