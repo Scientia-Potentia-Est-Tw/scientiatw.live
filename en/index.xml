@@ -7,7 +7,191 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
         <copyright>Scientia</copyright>
-        <lastBuildDate>Thu, 05 Jun 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://scientiatw.live/en/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Fri, 06 Jun 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://scientiatw.live/en/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Now</title>
+        <link>https://scientiatw.live/en/now/</link>
+        <pubDate>Fri, 06 Jun 2025 00:00:00 +0000</pubDate>
+        
+        <guid>https://scientiatw.live/en/now/</guid>
+        <description>&lt;h2 id=&#34;-recent-status&#34;&gt;🏡 Recent status
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;🚎 Commuting between Hsinchu and Taipei: Each one-way trip takes over an hour and a half. After doing it for three days in a row, it’s starting to feel a bit troublesome. But renting places in both cities would be too much financially. I really admire people who commute to work every day.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;🏃 Exercising daily as much as possible: No matter how things are going each day, I try to drop everything and go for a jog at the gym. Comparing different ways to unwind, I still find that exercise is the most effective stress relief—better than online entertainment.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;🛏 Sleep: I make sure to get at least 7–8 hours of sleep every night. But my Apple Watch doesn’t have enough battery to track my sleep properly, so I’m still unsure about how much time I spend in REM and non-REM sleep. I’m also trying to rely less on caffeine in the morning.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;⏳ Work is heating up: I need to wrap up the first phase of my master’s thesis experiments by the end of June, and at the same time, complete and hand over the main objectives of the ITRI project.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;-my-recent-online-activity&#34;&gt;🌐 My recent online activity
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;💻 &lt;a class=&#34;link&#34; href=&#34;https://scientia-potentia-est.com/en/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Scientia Potentia Est Taiwan&lt;/a&gt;: Planning to share some OSCP-related notes and thoughts on my tech blog.&lt;/li&gt;
+&lt;li&gt;🗓 Social Blog: Planning to share some life experience in Taiwan&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;-recent-meals-and-beverages&#34;&gt;🍳 Recent meals and beverages
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;🍱 Lately, I&amp;rsquo;ve been switching the main dish at lunchbox places to two or three eggs or a piece of tofu. I realized that in the past, I mostly picked heavily seasoned pork or beef, or deep-fried frozen foods as the main dish. As long as my routine gets even slightly off, my weight increases really quickly. After all, eating out is still the go-to option in Taiwan, so all I can do is adjust what I’m putting into my mouth as much as possible.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;-recent-reads-listens-and-watches&#34;&gt;📚 Recent reads, listens, and watches
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;📃 &lt;a class=&#34;link&#34; href=&#34;https://dl.acm.org/doi/10.1145/3576915.3623131&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Efficient Set Membership Encryption and Applications&lt;/a&gt;: Making Oblivious Transfer efficient enough for real-world implementation is actually quite an ingenious idea.&lt;/li&gt;
+&lt;li&gt;📃 &lt;a class=&#34;link&#34; href=&#34;https://eprint.iacr.org/2024/381&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Quantum Circuits of AES with a Low-depth Linear Layer and a New Structure&lt;/a&gt;: Reducing quantum circuit depth still appears to be the mainstream strategy.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        </item>
+        <item>
+        <title>Use</title>
+        <link>https://scientiatw.live/en/use/</link>
+        <pubDate>Fri, 06 Jun 2025 00:00:00 +0000</pubDate>
+        
+        <guid>https://scientiatw.live/en/use/</guid>
+        <description>&lt;h2 id=&#34;-computer-software&#34;&gt;🖥️ Computer Software
+&lt;/h2&gt;&lt;h3 id=&#34;-operating-system&#34;&gt;💾 Operating System
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;macOS - Systems for composing articles and research papers&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://ubuntu.com/download/desktop&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Ubuntu Desktop 24.04 LTS&lt;/a&gt; - Systems used in FPGA/SoC design, system project development, and CTF Reverse/Pwn problem-solving tools.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;-browser&#34;&gt;🌏 Browser
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://brave.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Brave&lt;/a&gt; - A browser with built-in ad blocking and tracker blocking features, which, when properly configured, can prevent redirects to malicious websites.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;-schedule-management&#34;&gt;🗓️ Schedule management
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Apple Calendar - The default calendar app in macOS, keeping track of monthly to-dos.&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.notion.com/product/calendar&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Notion Calendar&lt;/a&gt; - Notion’s calendar extension works with project tracking templates to display what needs to be done each week and help manage time.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;-terminal-related-tools&#34;&gt;📟 Terminal-related tools
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.vim.org/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Vim&lt;/a&gt; - The most powerful terminal editor, bar none; its rich set of shortcuts lets you accomplish anything without taking your fingers off the keyboard.&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://neovim.io/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Neovim&lt;/a&gt; - Offers nice color highlighting in Vim, so keywords and functions are visually distinct when writing code.&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/tmux/tmux/wiki&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;tmux&lt;/a&gt; - A powerful terminal session management tool. Remote-controlled experiments often take a lot of time, and it’s common to step away for a meal while the experiment is running, but there’s always the risk of SSH disconnects due to network issues. With session management, you can resume your experiment results. Also, since multiple windows are often needed to edit different parts of the code, tmux allows you to open multiple panes to edit separate sections simultaneously.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;-presentation-slide&#34;&gt;📊 Presentation Slide
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.overleaf.com/learn/latex/Beamer&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Overleaf Beamer&lt;/a&gt; - Commonly used in academic presentations, it natively supports various mathematical formulas. You can use it on &lt;a class=&#34;link&#34; href=&#34;https://www.overleaf.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Overleaf&lt;/a&gt; or install a LaTeX compiler on your computer to create presentations. For users familiar with LaTeX syntax, it’s a powerful tool to quickly finish presentations without the hassle of managing template layouts&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;-note-taking-software--text-editor&#34;&gt;📝 Note-taking software / Text editor
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://obsidian.md/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Obsidian&lt;/a&gt; - A free software that makes writing Zettelkasten notes very convenient, primarily using Markdown syntax.&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.notion.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Notion&lt;/a&gt; - A powerful note-taking app with many free and paid templates, such as course notes, business management, habit tracking, and more. Using the university mail account upgrade to Education Plus plan allows you to store a large amount of information.&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://code.visualstudio.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Visual Studio Code&lt;/a&gt; - Also known as VSCode, it’s a lightweight text editor released by Microsoft. Unlike the heavier Visual Studio IDE, it’s well-suited for viewing markdown or JSON files.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;-academic-software&#34;&gt;🗂️ Academic Software
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://endnote.com/product-details/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;EndNote 21&lt;/a&gt; - Universities in Taiwan almost always purchase the 2021 license, which is used to record the papers I&amp;rsquo;ve read. It’s very convenient to insert references into Microsoft Word or Overleaf&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://pages.uoregon.edu/koch/texshop/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;TeXShop&lt;/a&gt; - On macOS, I use VSCode to edit TeX files and can also compile them locally. Once, when the Overleaf website went down at night while I was rushing to finish a report, I was really anxious. That’s when I realized the importance of having a backup plan. I recommend saving a copy of your favorite Overleaf templates to your hard drive as a backup&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;-communication-software&#34;&gt;💬 Communication Software
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Discord - Many cybersecurity communities like to create private Discord servers for discussions, which have been very beneficial.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;-digital-audio-workstation&#34;&gt;🎹 Digital Audio Workstation
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.apple.com/logic-pro/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Logic Pro&lt;/a&gt; - The most popular DAW on macOS, which, combined with a variety of plugins, can simulate many possibilities. You can still have a lot of fun using just a MIDI keyboard.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;-video-editing-software&#34;&gt;🎞️ Video Editing Software
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.apple.com/final-cut-pro/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Final Cut Pro&lt;/a&gt; - The most popular editing software on macOS, and also the reason I can’t leave macOS.&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://streamlabs.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Streamlabs&lt;/a&gt; - An optimized version developed on top of OBS. Although OBS supports various plugins for assistance, it can sometimes lag on macOS. In comparison, Streamlabs improves some features without using too much computer resources. It can still be used for streaming and recording, especially with pane-style recording that allows capturing the screen, webcam, and microphone audio simultaneously.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;-website-building-tool&#34;&gt;💻 Website Building Tool
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://wordpress.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Wordpress&lt;/a&gt; - A dynamic website building system; if there are form or interaction requirements, it can only rely on systems with a database.&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://gohugo.io/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Hugo&lt;/a&gt; - A static site generator that, when combined with GitHub Pages, can create very beautiful websites.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;-e-ink-product&#34;&gt;📜 E-Ink Product
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://moo.im/a/luyzKS&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Readmoo Mooink Pro 2C&lt;/a&gt; - The first 13.3-inch colour e-paper reader on the Taiwanese market was launched by Readmoo. Its flexible screen makes the device very lightweight and thin, allowing me to hold it while walking when reading papers. I can also hold it in one hand and write on the blackboard with the other during lectures—truly a great companion for research.&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://gl.kobobooks.com/zh/products/kobo-libra-2&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Kobo Libra 2&lt;/a&gt; - A 7-inch black-and-white e-paper reader with a screen that makes text very clear. Kobo’s system has always been very stable and comfortable to use indoors. However, it is no longer sold after the new color version was released.&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://r10.to/hkkbYN&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Kobo Clara BW&lt;/a&gt; - Kobo’s smallest 6-inch black-and-white device is very handy when going out. It fits perfectly in my pants pocket.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;--online-services&#34;&gt;☁️  Online Services
+&lt;/h2&gt;&lt;h3 id=&#34;-writing-platform&#34;&gt;🖌 Writing Platform
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.overleaf.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Overleaf&lt;/a&gt; - An online academic writing editor with various templates provided by many universities. Registering with a university email can upgrade to a Premium plan. It’s very useful for collaborative editing.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;-learning-platform&#34;&gt;📝 Learning Platform
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.udemy.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Udemy&lt;/a&gt; - Among paid platforms, there are those where you can purchase course access at a low price instead of a mandatory subscription. There are often promotional periods.&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.coursera.org/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Coursera&lt;/a&gt; - The platform with the most free courses worldwide, where even Google and other big companies offer free certifications.&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.edx.org/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;edX&lt;/a&gt; - Collects free online courses recorded by MIT, Harvard, UC Berkeley, Cambridge, Columbia, and other American universities.&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.futurelearn.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Future Learn&lt;/a&gt; - Also a platform that collects online courses from various universities.&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.cybrary.it/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;CYBRARY&lt;/a&gt; - A free cybersecurity training platform that offers materials for both red team and blue team.&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://codered.eccouncil.org/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;EC-Council Learning&lt;/a&gt; - A platform established by EC-Council, which is the main certification center for Certified Ethical Hacker (CEH), offering many paid but valuable red team training materials&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;-e-book-platform&#34;&gt;🗃 E-Book Platform
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.kobo.com/zh/tw&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Kobo&lt;/a&gt; - A globally active multilingual e-book platform that meets my needs for Mandarin Chinese and English books, with daily discounts at 3.99 USD.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;-music-related&#34;&gt;🎶 Music-Related
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://tw.yamaha.com/zh/products/musical_instruments/pianos/p_series/p-125a/index.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;YAMAHA P-125a&lt;/a&gt; - The digital electric piano I mainly use for practice.&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://novationmusic.com/products/launchkey-61&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Novation Launchkey 61 MK4&lt;/a&gt; - My main MIDI controller keyboard.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        </item>
+        <item>
+        <title>About</title>
+        <link>https://scientiatw.live/en/about/</link>
+        <pubDate>Thu, 05 Jun 2025 00:00:00 +0000</pubDate>
+        
+        <guid>https://scientiatw.live/en/about/</guid>
+        <description>&lt;p&gt;I am the site owner, &lt;a class=&#34;link&#34; href=&#34;https://scientia-potentia-est.com/en/hong-sheng-huang/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Scientia&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;This social blog mainly features content on topics such as &amp;ldquo;reading reflections,&amp;rdquo; &amp;ldquo;life sharing,&amp;rdquo; and &amp;ldquo;humanities and arts.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;For any collaborations or inquiries, please email: &lt;a class=&#34;link&#34; href=&#34;mailto:scientia.polymath@gmail.com&#34; &gt;scientia.polymath@gmail.com&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://scientia-potentia-est.com/en&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Technique Blog&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://scientiatw.live/en/index.xml&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;RSS&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        </item>
+        <item>
         <title>PQCrypto 2025</title>
         <link>https://scientiatw.live/en/p/pqcrypto-2025/</link>
         <pubDate>Thu, 05 Jun 2025 00:00:00 +0000</pubDate>
@@ -48,34 +232,6 @@
         
         <guid>https://scientiatw.live/en/archives/</guid>
         <description></description>
-        </item>
-        <item>
-        <title>About</title>
-        <link>https://scientiatw.live/en/about/</link>
-        <pubDate>Thu, 28 Feb 2019 00:00:00 +0000</pubDate>
-        
-        <guid>https://scientiatw.live/en/about/</guid>
-        <description>&lt;p&gt;Written in Go, Hugo is an open source static site generator available under the &lt;a class=&#34;link&#34; href=&#34;https://github.com/gohugoio/hugo/blob/master/LICENSE&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Apache License 2.0.&lt;/a&gt; Hugo supports TOML, YAML and JSON data file types, Markdown and HTML content files and uses shortcodes to add rich content. Other notable features are taxonomies, multilingual mode, image processing, custom output formats, HTML/CSS/JS minification and support for Sass SCSS workflows.&lt;/p&gt;
-&lt;p&gt;Hugo makes use of a variety of open source projects including:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/yuin/goldmark&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;https://github.com/yuin/goldmark&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/alecthomas/chroma&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;https://github.com/alecthomas/chroma&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/muesli/smartcrop&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;https://github.com/muesli/smartcrop&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/spf13/cobra&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;https://github.com/spf13/cobra&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/spf13/viper&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;https://github.com/spf13/viper&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Hugo is ideal for blogs, corporate websites, creative portfolios, online magazines, single page applications or even a website with thousands of pages.&lt;/p&gt;
-&lt;p&gt;Hugo is for people who want to hand code their own website without worrying about setting up complicated runtimes, dependencies and databases.&lt;/p&gt;
-&lt;p&gt;Websites built with Hugo are extremely fast, secure and can be deployed anywhere including, AWS, GitHub Pages, Heroku, Netlify and any other hosting provider.&lt;/p&gt;
-&lt;p&gt;Learn more and contribute on &lt;a class=&#34;link&#34; href=&#34;https://github.com/gohugoio&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;GitHub&lt;/a&gt;.&lt;/p&gt;
-</description>
         </item>
         <item>
         <title>Search</title>
