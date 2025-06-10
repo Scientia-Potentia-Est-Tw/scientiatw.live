@@ -7,7 +7,7 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-tw</language>
         <copyright>Scientia</copyright>
-        <lastBuildDate>Fri, 06 Jun 2025 16:35:00 +0000</lastBuildDate><atom:link href="https://scientiatw.live/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Tue, 10 Jun 2025 10:10:00 +0000</lastBuildDate><atom:link href="https://scientiatw.live/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>使用</title>
         <link>https://scientiatw.live/use/</link>
         <pubDate>Wed, 04 Jun 2025 00:00:00 +0000</pubDate>
@@ -64,7 +64,7 @@
 &lt;/ul&gt;
 &lt;h3 id=&#34;-通訊軟體&#34;&gt;💬 通訊軟體
 &lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;LINE - 微服務架構越塞越多導致LINE佔容量越來越多，雖然很常用Line Pay但Line Today都發些毫無意義的新聞&lt;/li&gt;
+&lt;li&gt;LINE - 微服務架構越塞越多導致LINE佔容量越來越多，雖然很常用Line Pay不過Line Today都推播一些毫無意義的新聞&lt;/li&gt;
 &lt;li&gt;Discord - 很多資安社群喜歡開Discord私人伺服器在裡面討論，受益良多&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;-數位音樂工作站daw&#34;&gt;🎹 數位音樂工作站（DAW）
@@ -162,11 +162,10 @@
 &lt;h2 id=&#34;-最近吃的喝的&#34;&gt;🍳 最近吃的/喝的
 &lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;🍱 最近自助餐的主菜都改成兩、三顆雞蛋或者一塊豆腐，發覺自己以前大部分都只能挑重鹹調味的豬、牛肉或者炸的冷凍食品當主菜，只要作息不正常體重就增長得極快，畢竟在台灣外食還是第一選項，只能盡可能地調整吞下口的東西了&lt;/li&gt;
+&lt;li&gt;🥛 自從學校裡的百貨店收掉之後即期乳品都送到校內書局了，所以我也改成吃完飯後散步時會順便去書局看有沒有進貨，小罐10塊錢300毫升的鮮奶可遇不可求，而且通常有效期限也只剩一天左右，後來都喜歡拿大罐20塊錢936毫升的，至少還有兩、三天的有效期限，放在實驗室冰箱裡配我的抹茶或者美式咖啡都很方便&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;-最近讀的聽的看的&#34;&gt;📚 最近讀的/聽的/看的
 &lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;📃 &lt;a class=&#34;link&#34; href=&#34;https://dl.acm.org/doi/10.1145/3576915.3623131&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Efficient Set Membership Encryption and Applications&lt;/a&gt;：Oblivious Transfer可以優化到可實作其實蠻有創意的&lt;/li&gt;
 &lt;li&gt;📃 &lt;a class=&#34;link&#34; href=&#34;https://eprint.iacr.org/2024/381&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Quantum Circuits of AES with a Low-depth Linear Layer and a New Structure&lt;/a&gt;：看起來主流還是降低量子電路深度&lt;/li&gt;
 &lt;li&gt;📖 《&lt;a class=&#34;link&#34; href=&#34;https://r10.to/hkrdb9&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
