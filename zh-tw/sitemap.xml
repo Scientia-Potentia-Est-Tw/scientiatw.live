@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://scientiatw.live/</loc>
-    <lastmod>2025-06-10T10:10:00+00:00</lastmod>
+    <lastmod>2025-06-18T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -14,6 +14,60 @@
                 hreflang="zh-tw"
                 href="https://scientiatw.live/"
                 />
+  </url><url>
+    <loc>https://scientiatw.live/p/vincent-van-gogh/</loc>
+    <lastmod>2025-06-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://scientiatw.live/categories/</loc>
+    <lastmod>2025-06-18T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://scientiatw.live/en/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-tw"
+                href="https://scientiatw.live/categories/"
+                />
+  </url><url>
+    <loc>https://scientiatw.live/post/</loc>
+    <lastmod>2025-06-18T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://scientiatw.live/en/post/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-tw"
+                href="https://scientiatw.live/post/"
+                />
+  </url><url>
+    <loc>https://scientiatw.live/tags/</loc>
+    <lastmod>2025-06-18T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://scientiatw.live/en/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-tw"
+                href="https://scientiatw.live/tags/"
+                />
+  </url><url>
+    <loc>https://scientiatw.live/tags/%E5%BE%8C%E5%8D%B0%E8%B1%A1%E6%B4%BE/</loc>
+    <lastmod>2025-06-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://scientiatw.live/tags/%E7%BE%8E%E8%A1%93/</loc>
+    <lastmod>2025-06-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://scientiatw.live/tags/%E6%A2%B5%E8%B0%B7/</loc>
+    <lastmod>2025-06-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://scientiatw.live/categories/%E8%97%9D%E8%A1%93/</loc>
+    <lastmod>2025-06-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://scientiatw.live/page/</loc>
     <lastmod>2025-06-10T10:10:00+00:00</lastmod>
@@ -54,19 +108,6 @@
                 href="https://scientiatw.live/now/"
                 />
   </url><url>
-    <loc>https://scientiatw.live/post/</loc>
-    <lastmod>2025-05-29T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://scientiatw.live/en/post/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-tw"
-                href="https://scientiatw.live/post/"
-                />
-  </url><url>
     <loc>https://scientiatw.live/archives/</loc>
     <lastmod>2025-05-24T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -82,32 +123,6 @@
   </url><url>
     <loc>https://scientiatw.live/p/the-bullet-journal-method-freedom-of-choose-is-privilege/</loc>
     <lastmod>2025-05-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://scientiatw.live/categories/</loc>
-    <lastmod>2025-05-07T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://scientiatw.live/en/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-tw"
-                href="https://scientiatw.live/categories/"
-                />
-  </url><url>
-    <loc>https://scientiatw.live/tags/</loc>
-    <lastmod>2025-05-07T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://scientiatw.live/en/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-tw"
-                href="https://scientiatw.live/tags/"
-                />
   </url><url>
     <loc>https://scientiatw.live/tags/%E7%94%9F%E6%B4%BB%E5%88%86%E4%BA%AB/</loc>
     <lastmod>2025-05-07T00:00:00+00:00</lastmod>
