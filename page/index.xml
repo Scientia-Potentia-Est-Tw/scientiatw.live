@@ -7,7 +7,7 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-tw</language>
         <copyright>Scientia</copyright>
-        <lastBuildDate>Tue, 15 Jul 2025 13:27:00 +0000</lastBuildDate><atom:link href="https://scientiatw.live/page/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Wed, 16 Jul 2025 23:46:00 +0000</lastBuildDate><atom:link href="https://scientiatw.live/page/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>使用</title>
         <link>https://scientiatw.live/use/</link>
         <pubDate>Wed, 04 Jun 2025 00:00:00 +0000</pubDate>
@@ -66,11 +66,6 @@
 &lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;LINE - 微服務架構越塞越多導致LINE佔容量越來越多，雖然很常用Line Pay不過Line Today都推播一些毫無意義的新聞&lt;/li&gt;
 &lt;li&gt;Discord - 很多資安社群喜歡開Discord私人伺服器在裡面討論，受益良多&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;-數位音樂工作站daw&#34;&gt;🎹 數位音樂工作站（DAW）
-&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.apple.com/logic-pro/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Logic Pro&lt;/a&gt; - macOS上最受歡迎的DAW，搭配各式各樣的插件就可以模擬許多可能性，只靠MIDI鍵盤還是可以玩得很開心&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;-影片製作&#34;&gt;🎞️ 影片製作
 &lt;/h3&gt;&lt;ul&gt;
@@ -137,6 +132,10 @@
     &gt;YAMAHA P-125a&lt;/a&gt; - 我主要練琴用的數位電剛琴&lt;/li&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://novationmusic.com/products/launchkey-61&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Novation Launchkey 61 MK4&lt;/a&gt; - 我的主要MIDI主控鍵盤&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.apple.com/logic-pro/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Logic Pro&lt;/a&gt; - macOS上最受歡迎的DAW，搭配各式各樣的插件就可以模擬許多可能性，只靠MIDI鍵盤還是可以玩得很開心&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://evo.audio/products/audio-interfaces/evo-4/overview/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Audient Evo 4&lt;/a&gt; - 數位鋼琴輸出TRS插一組line孔開立體聲監聽對於初學者來說就很夠用&lt;/li&gt;
 &lt;/ul&gt;
 </description>
         </item>
