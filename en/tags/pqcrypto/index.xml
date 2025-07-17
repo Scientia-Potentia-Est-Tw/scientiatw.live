@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>PQCrypto on Scientia&#39;s live</title>
+        <link>https://scientiatw.live/en/tags/pqcrypto/</link>
+        <description>Recent content in PQCrypto on Scientia&#39;s live</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en</language>
+        <copyright>Scientia</copyright>
+        <lastBuildDate>Thu, 05 Jun 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://scientiatw.live/en/tags/pqcrypto/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>PQCrypto 2025</title>
+        <link>https://scientiatw.live/en/p/pqcrypto-2025/</link>
+        <pubDate>Thu, 05 Jun 2025 00:00:00 +0000</pubDate>
+        
+        <guid>https://scientiatw.live/en/p/pqcrypto-2025/</guid>
+        <description>&lt;img src="https://scientia-potentia-est.com/wp-content/uploads/2025/05/pqcrypto2025_cover-scaled.webp" alt="Featured image of post PQCrypto 2025" /&gt;&lt;p&gt;The 2025 PQCrypto conference is being held in Taiwan, and it just so happens that PIs from the Institute of Information Science at Academia Sinica are serving as co-chairs to organize it. Since I have the opportunity, I decided to attend.&lt;/p&gt;
+&lt;p&gt;This conference is actually the first international conference I’ve attended in my career; in the past, I had only participated in small-scale domestic ones.&lt;/p&gt;
+&lt;p&gt;The refreshments during break times were quite exquisite, and the banquet was even held at &amp;lsquo;Eatogether&amp;rsquo; in the Xinyi District (also my first time dining there). Truly worthy of being a conference organized by the IACR. Of course, offering such a level of service means that the registration fee is noticeably different from that of local conferences that I&amp;rsquo;ve attended.&lt;/p&gt;
+&lt;p&gt;Aside from the services provided, this year’s paper presentation and invited talks also featured some quite interesting topics, including exploring fundamental problems in post-quantum computation to construct new cryptographic systems.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Lattice-based&lt;/li&gt;
+&lt;li&gt;Code-based&lt;/li&gt;
+&lt;li&gt;Multivariate-based&lt;/li&gt;
+&lt;li&gt;Isogeny-based&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;There were also discussions analyzing existing problems, introducing new attacker models to explore how to prove stronger security, and even beginning to consider hardware security topics such as how side-channel attacks might be used to compromise computation results in these systems.&lt;/p&gt;
+&lt;p&gt;In addition to the majority of academic researchers presenting their work, personnel from NIST involved in reviewing the FIPS standards were also invited to share. They mentioned that, so far, only the standard protocol specifications have been released, but in practice, there is still a lot of work to be done for global system migration[1].&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://scientia-potentia-est.com/wp-content/uploads/2025/04/NIST_PQC_Much_Work_Remains.webp&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;NIST_PQC_Much_Work_Remains&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;We still need to work a bit harder!!&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;[1] Daniel Smith-Tone, &amp;ldquo;The End of the Beginning: NIST PQC Standardization Moving Forward,&amp;rdquo; National Institute of Standards and Technology, PQCrypto, April, 2025, &lt;a class=&#34;link&#34; href=&#34;https://pqcrypto2025.iis.sinica.edu.tw/slides/Invited1.pdf&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://pqcrypto2025.iis.sinica.edu.tw/slides/Invited1.pdf&lt;/a&gt;&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>
