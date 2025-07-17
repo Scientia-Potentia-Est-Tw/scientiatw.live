@@ -7,7 +7,7 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
         <copyright>Scientia</copyright>
-        <lastBuildDate>Tue, 10 Jun 2025 09:52:00 +0000</lastBuildDate><atom:link href="https://scientiatw.live/en/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Thu, 17 Jul 2025 10:56:00 +0000</lastBuildDate><atom:link href="https://scientiatw.live/en/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Now</title>
         <link>https://scientiatw.live/en/now/</link>
         <pubDate>Fri, 06 Jun 2025 00:00:00 +0000</pubDate>
@@ -56,9 +56,10 @@
         <description>&lt;h2 id=&#34;-computer-software&#34;&gt;🖥️ Computer Software
 &lt;/h2&gt;&lt;h3 id=&#34;-operating-system&#34;&gt;💾 Operating System
 &lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;macOS - Systems for composing articles and research papers&lt;/li&gt;
+&lt;li&gt;macOS - MacBook Pro M1 Max 16&amp;quot; for composing articles and research papers&lt;/li&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://ubuntu.com/download/desktop&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Ubuntu Desktop 24.04 LTS&lt;/a&gt; - Systems used in FPGA/SoC design, system project development, and CTF Reverse/Pwn problem-solving tools.&lt;/li&gt;
+    &gt;Ubuntu Desktop 24.04 LTS&lt;/a&gt; - &lt;a class=&#34;link&#34; href=&#34;https://frame.work/products/laptop16-diy-amd-7040&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Framework Laptop 16&amp;quot;&lt;/a&gt; that used in FPGA/SoC design, system project development, and CTF Reverse/Pwn problem-solving tools.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;-browser&#34;&gt;🌏 Browser
 &lt;/h3&gt;&lt;ul&gt;
@@ -105,11 +106,6 @@
 &lt;h3 id=&#34;-communication-software&#34;&gt;💬 Communication Software
 &lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;Discord - Many cybersecurity communities like to create private Discord servers for discussions, which have been very beneficial.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;-digital-audio-workstation&#34;&gt;🎹 Digital Audio Workstation
-&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.apple.com/logic-pro/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Logic Pro&lt;/a&gt; - The most popular DAW on macOS, which, combined with a variety of plugins, can simulate many possibilities. You can still have a lot of fun using just a MIDI keyboard.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;-video-editing-software&#34;&gt;🎞️ Video Editing Software
 &lt;/h3&gt;&lt;ul&gt;
@@ -166,6 +162,10 @@
     &gt;YAMAHA P-125a&lt;/a&gt; - The digital electric piano I mainly use for practice.&lt;/li&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://novationmusic.com/products/launchkey-61&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Novation Launchkey 61 MK4&lt;/a&gt; - My main MIDI controller keyboard.&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.apple.com/logic-pro/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Logic Pro&lt;/a&gt; - The most popular DAW on macOS, which, combined with a variety of plugins, can simulate many possibilities. You can still have a lot of fun using just a MIDI keyboard.&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://evo.audio/products/audio-interfaces/evo-4/overview/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Audient Evo 4&lt;/a&gt; - An entry-level audio interface, I use my YAMAHA P-125a with TRS output connected to a pair of line-in jacks for stereo monitoring, which is more than enough for a beginner.&lt;/li&gt;
 &lt;/ul&gt;
 </description>
         </item>

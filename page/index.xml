@@ -7,7 +7,7 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-tw</language>
         <copyright>Scientia</copyright>
-        <lastBuildDate>Wed, 16 Jul 2025 23:46:00 +0000</lastBuildDate><atom:link href="https://scientiatw.live/page/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Thu, 17 Jul 2025 09:34:00 +0000</lastBuildDate><atom:link href="https://scientiatw.live/page/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>使用</title>
         <link>https://scientiatw.live/use/</link>
         <pubDate>Wed, 04 Jun 2025 00:00:00 +0000</pubDate>
@@ -16,9 +16,10 @@
         <description>&lt;h2 id=&#34;-電腦軟體&#34;&gt;🖥️ 電腦軟體
 &lt;/h2&gt;&lt;h3 id=&#34;-作業系統&#34;&gt;💾 作業系統
 &lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;macOS - 寫文章、學術論文用的系統&lt;/li&gt;
+&lt;li&gt;macOS - MacBook Pro M1 Max 16&amp;quot;用來寫文章、學術論文用&lt;/li&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://ubuntu.com/download/desktop&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Ubuntu Desktop 24.04 LTS&lt;/a&gt; - FPGA/SoC設計、系統專案開發、CTF Reverse/Pwn解題工具用的系統&lt;/li&gt;
+    &gt;Ubuntu Desktop 24.04 LTS&lt;/a&gt; - &lt;a class=&#34;link&#34; href=&#34;https://frame.work/tw/en/products/laptop16-diy-amd-7040&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Framework Laptop 16&amp;quot;&lt;/a&gt;用來FPGA/SoC設計、系統專案開發、CTF Reverse/Pwn解題工具用的系統&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;-瀏覽器&#34;&gt;🌏 瀏覽器
 &lt;/h3&gt;&lt;ul&gt;
@@ -135,7 +136,7 @@
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.apple.com/logic-pro/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Logic Pro&lt;/a&gt; - macOS上最受歡迎的DAW，搭配各式各樣的插件就可以模擬許多可能性，只靠MIDI鍵盤還是可以玩得很開心&lt;/li&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://evo.audio/products/audio-interfaces/evo-4/overview/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Audient Evo 4&lt;/a&gt; - 數位鋼琴輸出TRS插一組line孔開立體聲監聽對於初學者來說就很夠用&lt;/li&gt;
+    &gt;Audient Evo 4&lt;/a&gt; - 入門級錄音介面，我用數位鋼琴輸出TRS插一組line孔開立體聲監聽對於初學者來說就很夠用了&lt;/li&gt;
 &lt;/ul&gt;
 </description>
         </item>
