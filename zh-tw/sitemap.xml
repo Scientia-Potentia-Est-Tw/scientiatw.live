@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://scientiatw.live/</loc>
-    <lastmod>2025-07-21T00:00:00+00:00</lastmod>
+    <lastmod>2025-07-22T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -13,6 +13,19 @@
                 rel="alternate"
                 hreflang="zh-tw"
                 href="https://scientiatw.live/"
+                />
+  </url><url>
+    <loc>https://scientiatw.live/post/</loc>
+    <lastmod>2025-07-22T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://scientiatw.live/en/post/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-tw"
+                href="https://scientiatw.live/post/"
                 />
   </url><url>
     <loc>https://scientiatw.live/p/ten-ways-to-activate-your-brain/</loc>
@@ -29,19 +42,6 @@
                 rel="alternate"
                 hreflang="zh-tw"
                 href="https://scientiatw.live/categories/"
-                />
-  </url><url>
-    <loc>https://scientiatw.live/post/</loc>
-    <lastmod>2025-07-21T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://scientiatw.live/en/post/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-tw"
-                href="https://scientiatw.live/post/"
                 />
   </url><url>
     <loc>https://scientiatw.live/tags/</loc>
