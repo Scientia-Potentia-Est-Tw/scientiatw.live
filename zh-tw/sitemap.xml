@@ -28,6 +28,19 @@
                 href="https://scientiatw.live/categories/"
                 />
   </url><url>
+    <loc>https://scientiatw.live/page/</loc>
+    <lastmod>2025-08-01T22:40:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://scientiatw.live/en/page/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-tw"
+                href="https://scientiatw.live/page/"
+                />
+  </url><url>
     <loc>https://scientiatw.live/post/</loc>
     <lastmod>2025-08-01T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -63,6 +76,9 @@
     <loc>https://scientiatw.live/p/you-should-use-rss/</loc>
     <lastmod>2025-08-01T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://scientiatw.live/timeline/</loc>
+    <lastmod>2025-08-01T22:40:00+00:00</lastmod>
+  </url><url>
     <loc>https://scientiatw.live/tags/%E8%B3%87%E8%A8%8A/</loc>
     <lastmod>2025-08-01T00:00:00+00:00</lastmod>
   </url><url>
@@ -72,27 +88,11 @@
     <loc>https://scientiatw.live/tags/david-a.-patterson/</loc>
     <lastmod>2025-07-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://scientiatw.live/page/</loc>
-    <lastmod>2025-08-01T22:40:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://scientiatw.live/en/page/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-tw"
-                href="https://scientiatw.live/page/"
-                />
-  </url><url>
     <loc>https://scientiatw.live/categories/%E7%94%9F%E6%B4%BB/</loc>
     <lastmod>2025-07-30T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://scientiatw.live/tags/%E5%BB%BA%E8%AD%B0/</loc>
     <lastmod>2025-07-30T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://scientiatw.live/timeline/</loc>
-    <lastmod>2025-08-01T22:40:00+00:00</lastmod>
   </url><url>
     <loc>https://scientiatw.live/p/life-lessons-from-the-first-half-century-of-my-career-focused-2/</loc>
     <lastmod>2025-07-30T00:00:00+00:00</lastmod>
