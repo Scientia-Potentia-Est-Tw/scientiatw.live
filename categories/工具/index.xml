@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>工具 on Scientia&#39;s live</title>
+        <link>https://scientiatw.live/categories/%E5%B7%A5%E5%85%B7/</link>
+        <description>Recent content in 工具 on Scientia&#39;s live</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-tw</language>
+        <copyright>Scientia</copyright>
+        <lastBuildDate>Fri, 01 Aug 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://scientiatw.live/categories/%E5%B7%A5%E5%85%B7/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>自主選擇乾淨的資訊，回歸RSS的懷抱吧！</title>
+        <link>https://scientiatw.live/p/you-should-use-rss/</link>
+        <pubDate>Fri, 01 Aug 2025 00:00:00 +0000</pubDate>
+        
+        <guid>https://scientiatw.live/p/you-should-use-rss/</guid>
+        <description>&lt;img src="https://scientia-potentia-est.com/wp-content/uploads/2025/08/rss-cover-scaled.webp" alt="Featured image of post 自主選擇乾淨的資訊，回歸RSS的懷抱吧！" /&gt;&lt;p&gt;上班一整天身心已經俱疲，下班回到家吃晚餐打開手機裡的社群媒體APP左滑右刷，這邊看了朋友的限動那邊又換去幫另一個朋友點愛心，你不經意間就吃完飯了繼續坐著滑滑河道(文字型社群媒體如Facebook、Plurk、X及Threads等首頁頁面用語，因需要一直往下滑載入資訊故有時稱作河道)跟看看短影音&lt;/p&gt;
+&lt;p&gt;回過神來一看時間驚覺已經快晚上十點了，你匆匆忙忙地拿衣服去洗澡，洗完澡後你覺得這樣子今天就會浪費過去了，你打開那本已經看了三個月的書，然而看不到五分鐘你就開始分心默默的拿起手機看看有沒有漏掉任何訊息&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;你是否覺得這樣的生活樣態很熟悉呢？&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;這些社群媒體的開發公司高層花了大把的錢聘請心理學家利用你那想要無時無刻看到所有事情的心態來讓你高度黏著在他們的產品上，透過APP或網頁版追蹤器時時刻刻地分析著你的行為，以此來改變演算法的策略使你的注意力完全放在上面，甚至最大的競爭對手是你的睡眠時間&lt;/p&gt;
+&lt;p&gt;當你在河道裡一直往下滑你通常只會看到其他公司投放的廣告跟一堆毫無相關的貼文資訊，這類演算法的設計本意是想讓你看到你只想知道的事情，如果你追蹤越多同性質的粉絲專頁或個人帳號的確會讓其關鍵字權重變高，然而如果只是讓你看那些你自己想看的，那社群媒體公司要怎麼賺錢？&lt;/p&gt;
+&lt;p&gt;十年前的Facebook也許是你跟你的小夥伴們談天說地的好去處，然而時至今日上面只有一堆損害你大腦的言論、瘋狂毫無相關的廣告以及中國幹片(&lt;strong&gt;霸道總裁回農村跟村霸尬上什麼怪力亂神的劇情都有&lt;/strong&gt;)，所以人們決定逃到新的地方，到Instagram想著這裡就是桃源鄉，結果還是沒逃過Meta的魔掌，現在逃到Threads上但我最終應該還是會變成Instagram跟Facebook的形狀，畢竟經營一個平台總不可能不賺錢一直燒資金吧&lt;/p&gt;
+&lt;p&gt;那如果已經厭煩了社群媒體的人們有什麼辦法嗎？&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;你需要的是民族救星&lt;strong&gt;RSS&lt;/strong&gt;！！&lt;/p&gt;&lt;/blockquote&gt;
+&lt;h2 id=&#34;rss是什麼東東&#34;&gt;RSS是什麼東東？
+&lt;/h2&gt;&lt;p&gt;1999年網路上發布了一套叫做RDF Site Summary或者Really Simple Syndication(非常簡單的聚合器))簡稱&lt;strong&gt;RSS&lt;/strong&gt;的工具，讀者可以想像這是一個會在網路上幫你把資訊整理起來自動寄送給你的服務，它免費且輕巧而且你可以選擇你想要收到的資訊，它其實就是把其他網站的文字資料壓縮打包成一種叫做XML的格式然後像信件一樣寄送給你&lt;/p&gt;
+&lt;p&gt;所以網路上不論是各大部落格網站、新聞網站、Youtube甚至Podcast(現在各Podcast平台也都是把影音檔做成RSS讓用戶下載罷了)只要網站一進行更新，這個XML檔就會新增資訊而你可以自動抓下來，所以這個工具不依賴任何演算法隨機跳出一些你不想要的內容給你，它只會把你訂閱的網站上所有資訊文章用時間順序排列呈現給你看&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;那為什麼我們在社群媒體網站上似乎沒看到這個東西？&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;因為如果使用者可以自己決定只看自己想看的，那這些大公司要怎麼跟蹤你的網路足跡？要怎麼根據你看的內容投放超爛商品的廣告給你？要怎麼偷偷地收集你的資料賣給其他廠商呢？&lt;/p&gt;
+&lt;p&gt;十年前的Facebook還有提供這個工具但今天蜥蜴人老闆肯定要讓使用者一直花時間在他的產品底下瀏覽，Instagram跟Threads也同樣得一直抓著你，怎麼可以提供RSS讓平台無法控制你呢？&lt;/p&gt;
+&lt;h2 id=&#34;為什麼我喜歡rss&#34;&gt;為什麼我喜歡RSS？
+&lt;/h2&gt;&lt;h3 id=&#34;我可以只看我想看的資訊&#34;&gt;我可以只看我想看的資訊
+&lt;/h3&gt;&lt;p&gt;透過RSS工具訂閱任何我真正關注的事物，而不讓科技公司決定我該看些什麼，尤其他們都不把演算法開源出來我們根本無法得知推播在河道上的資訊究竟是從哪裡來的，所以常常就有一堆我根本不感興趣且毫無相關的資訊出現在我面前，甚至中間穿插了個短影音還給我自動播放我越用越火大&lt;/p&gt;
+&lt;p&gt;只要該網站有提供RSS(任何一個為讀者著想的平台都應該要有這功能)訂閱者就不會錯過任何內容，你就不用再浪費時間刷些你之後根本不會記得的文章，在RSS裡出現你想知道的事情再點進去看即可，像我就訂閱了：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://wiwi.blog/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Wiwi.Blog&lt;/a&gt;：好和弦網站的站長Wiwi Kuan分享他自己的生活跟見解，他的RSS：&lt;a class=&#34;link&#34; href=&#34;https://wiwi.blog/blog/rss.xml&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://wiwi.blog/blog/rss.xml&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://sheracaolity.ghost.io/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Sheracaolity&lt;/a&gt;：&lt;a class=&#34;link&#34; href=&#34;https://heptabase.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Heptabase&lt;/a&gt;卡片盒筆記軟體創辦人詹雨安的網站，他會分享一些關於自己的經歷跟創業心得給讀者，他的RSS：&lt;a class=&#34;link&#34; href=&#34;https://sheracaolity.ghost.io/rss/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://sheracaolity.ghost.io/rss/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://life.huli.tw/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Huli&amp;rsquo;s blog&lt;/a&gt;：前端開發者兼網頁安全研究員Huli的生活型部落格，分享一些他自己教課或人生見解，他的RSS：&lt;a class=&#34;link&#34; href=&#34;https://life.huli.tw/atom.xml&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://life.huli.tw/atom.xml&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://igouist.github.io/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;伊果的沒人看筆記本&lt;/a&gt;：Windows開發者伊果平時會分享一些套件工具文章以及生活分享，他的RSS：&lt;a class=&#34;link&#34; href=&#34;https://igouist.github.io/index.xml&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://igouist.github.io/index.xml&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://blog.giveanornot.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;資工小廢物 - JN&lt;/a&gt;：JN會分享一些生活見解，他的RSS：&lt;a class=&#34;link&#34; href=&#34;https://blog.giveanornot.com/index.xml&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://blog.giveanornot.com/index.xml&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://skyhong.tw/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Skychopath&lt;/a&gt;：Sky有時候寫些資料科學的長文可以期待，他的RSS：&lt;a class=&#34;link&#34; href=&#34;https://skyhong.tw/rss/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://skyhong.tw/rss/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://alexhsu.com/zh&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;駉&lt;/a&gt;：獨立APP開發者駉寫一些關於職涯上或人生上的想法，他的RSS：&lt;a class=&#34;link&#34; href=&#34;https://alexhsu.com/zh/rss.xml&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://alexhsu.com/zh/rss.xml&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://news.ycombinator.com/news&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Hacker News&lt;/a&gt;：Y Combinator的Hacker News，每天都有一堆文章，RSS：&lt;a class=&#34;link&#34; href=&#34;https://news.ycombinator.com/rss&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://news.ycombinator.com/rss&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://lobste.rs&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Lobsters&lt;/a&gt;：跟Hacker News很類似的網站，不過文章只有關於電腦相關的，RSS：&lt;a class=&#34;link&#34; href=&#34;https://lobste.rs/rss&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://lobste.rs/rss&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.twreporter.org/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;報導者&lt;/a&gt;：台灣少數幾個還能看的新聞網站，RSS：&lt;a class=&#34;link&#34; href=&#34;https://public.twreporter.org/rss/twreporter-rss.xml&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://public.twreporter.org/rss/twreporter-rss.xml&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.thenewslens.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;關鍵評論網&lt;/a&gt;：找書籍時它的書摘分享有些參考價值，RSS：&lt;a class=&#34;link&#34; href=&#34;https://feeds.feedburner.com/TheNewsLens&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://feeds.feedburner.com/TheNewsLens&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://crossing.cw.com.tw/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;換日線&lt;/a&gt;：雖然有些文章有點染上政治色彩，不過留學資訊或國際觀的讀者投書文章還算有些價值，RSS：&lt;a class=&#34;link&#34; href=&#34;https://crossing.cw.com.tw/rss&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://crossing.cw.com.tw/rss&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;限制資訊來源只看那些有品質保障的文章，而不是刷那些毫無前後脈絡的社群媒體貼文，讓自己可以真正保留看過的印象&lt;/p&gt;
+&lt;h3 id=&#34;不會資訊焦慮&#34;&gt;不會資訊焦慮
+&lt;/h3&gt;&lt;p&gt;資訊爆炸的現代讓我們一份報紙上的資訊早就超過十七世紀人們一生所需要的資訊量[4] (雖然我只會買報紙來包食物😏)，但社群媒體更是加劇了這一現象，當你追蹤的人跟粉絲專頁越來越多，就會導致你每天有成千上萬個貼文需要去看，尤其還會有一堆不相關的、詐騙的、損害你智商的貼文出現&lt;/p&gt;
+&lt;p&gt;我在大學時follow國內外所有能查到的資安公司及社群粉專，這些公司跟社群每天都會po一堆活動資訊或網路技術文章，這造成我的分頁永遠都超過20幾個，我感覺我永遠都看不完文章且追不上他們的進度，尤其剛升上大學得適應課業環境&lt;/p&gt;
+&lt;p&gt;每天都有繁重的事項要做，一整天忙完之後回宿舍都很晚了沒動力做什麼事情，只好刷刷社群媒體，沒想到社群媒體帶給我的是更大的負擔，當下我覺得不能再這樣了就決定刪掉這些平台的帳號，反正我國中註冊完這些帳號後根本沒有加任何同學的好友(&lt;strong&gt;我根本是絕緣體&lt;/strong&gt;)，也不曾在平台上發文，所以我離開這些地方完全無痛&lt;/p&gt;
+&lt;p&gt;當我選擇離開Meta的陷阱之後感覺人生變得也比較輕鬆了，我不再去追求無時無刻都要看到最新消息，我連舊的都還沒看完點開新文章又有何意義？不過有些二手商品只有Facebook的Marketplace上才有人po(萬惡的蜥蜴人陰謀😡)所以只能留著小帳，以及校內的二手社團要買賣比較方便所以只留Facebook的帳號，但平時幾乎不會開來看&lt;/p&gt;
+&lt;h2 id=&#34;rss閱讀器工具&#34;&gt;RSS閱讀器工具
+&lt;/h2&gt;&lt;p&gt;我使用macOS所以找了一套免費且開源叫做Vienna的工具&lt;a class=&#34;link&#34; href=&#34;https://www.vienna-rss.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://www.vienna-rss.com/&lt;/a&gt;，如果你是其他平台使用&amp;quot;RSS&amp;quot;、&amp;ldquo;Feed&amp;quot;跟&amp;quot;Reader&amp;quot;等之類的關鍵字去搜尋應該可以找到其他一樣免費且開源的工具&lt;/p&gt;
+&lt;p&gt;如果您找到了適合自己的閱讀器，也可以考慮訂閱我的RSS：&lt;a class=&#34;link&#34; href=&#34;https://scientiatw.live/index.xml&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://scientiatw.live/index.xml&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;參考資料&#34;&gt;參考資料
+&lt;/h2&gt;&lt;p&gt;[1] 你需要用 RSS，不要再拖了 - &lt;a class=&#34;link&#34; href=&#34;https://wiwi.blog/blog/you-should-use-rss&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://wiwi.blog/blog/you-should-use-rss&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;[2] 拒絕演算法洗腦！RSS 讓你奪回閱讀的「自主權」- &lt;a class=&#34;link&#34; href=&#34;https://blog.giveanornot.com/%E6%8B%92%E7%B5%95%E6%BC%94%E7%AE%97%E6%B3%95%E6%B4%97%E8%85%A6rss-%E8%AE%93%E4%BD%A0%E5%A5%AA%E5%9B%9E%E9%96%B1%E8%AE%80%E7%9A%84%E8%87%AA%E4%B8%BB%E6%AC%8A/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://blog.giveanornot.com/%E6%8B%92%E7%B5%95%E6%BC%94%E7%AE%97%E6%B3%95%E6%B4%97%E8%85%A6rss-%E8%AE%93%E4%BD%A0%E5%A5%AA%E5%9B%9E%E9%96%B1%E8%AE%80%E7%9A%84%E8%87%AA%E4%B8%BB%E6%AC%8A/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;[3] RSS - &lt;a class=&#34;link&#34; href=&#34;https://zh.wikipedia.org/zh-tw/RSS&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://zh.wikipedia.org/zh-tw/RSS&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;[4] 初探網路趨勢：速食化的利與弊 - &lt;a class=&#34;link&#34; href=&#34;https://pansci.asia/archives/357929&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://pansci.asia/archives/357929&lt;/a&gt;&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>
