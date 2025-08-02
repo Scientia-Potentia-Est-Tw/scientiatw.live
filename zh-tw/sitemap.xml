@@ -41,9 +41,6 @@
                 href="https://scientiatw.live/now/"
                 />
   </url><url>
-    <loc>https://scientiatw.live/timeline/</loc>
-    <lastmod>2025-08-01T22:40:00+00:00</lastmod>
-  </url><url>
     <loc>https://scientiatw.live/categories/</loc>
     <lastmod>2025-08-01T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -92,6 +89,9 @@
     <loc>https://scientiatw.live/p/you-should-use-rss/</loc>
     <lastmod>2025-08-01T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://scientiatw.live/timeline/</loc>
+    <lastmod>2025-08-01T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://scientiatw.live/tags/%E8%B3%87%E8%A8%8A/</loc>
     <lastmod>2025-08-01T00:00:00+00:00</lastmod>
   </url><url>
@@ -128,8 +128,11 @@
     <loc>https://scientiatw.live/p/life-lessons-from-the-first-half-century-of-my-career-people-focused-2/</loc>
     <lastmod>2025-07-23T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://scientiatw.live/p/life-lessons-from-the-first-half-century-of-my-career-people-focused-1/</loc>
+    <lastmod>2025-07-22T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://scientiatw.live/about-site/</loc>
-    <lastmod>2025-07-22T09:55:00+00:00</lastmod>
+    <lastmod>2025-07-22T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -140,9 +143,6 @@
                 hreflang="zh-tw"
                 href="https://scientiatw.live/about-site/"
                 />
-  </url><url>
-    <loc>https://scientiatw.live/p/life-lessons-from-the-first-half-century-of-my-career-people-focused-1/</loc>
-    <lastmod>2025-07-22T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://scientiatw.live/p/ten-ways-to-activate-your-brain/</loc>
     <lastmod>2025-07-30T00:00:00+00:00</lastmod>
@@ -162,8 +162,11 @@
     <loc>https://scientiatw.live/tags/%E7%87%9F%E9%A4%8A%E8%88%87%E9%A3%B2%E9%A3%9F/</loc>
     <lastmod>2025-07-30T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://scientiatw.live/tags/%E7%94%9F%E6%B4%BB%E8%A8%AD%E8%A8%88/</loc>
+    <lastmod>2025-07-17T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://scientiatw.live/use/</loc>
-    <lastmod>2025-07-17T09:34:00+00:00</lastmod>
+    <lastmod>2025-07-17T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -174,9 +177,6 @@
                 hreflang="zh-tw"
                 href="https://scientiatw.live/use/"
                 />
-  </url><url>
-    <loc>https://scientiatw.live/tags/%E7%94%9F%E6%B4%BB%E8%A8%AD%E8%A8%88/</loc>
-    <lastmod>2025-07-17T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://scientiatw.live/tags/%E7%82%BA%E4%BB%80%E9%BA%BC%E6%88%91%E6%83%B3%E5%AF%AB%E9%83%A8%E8%90%BD%E6%A0%BC/</loc>
     <lastmod>2025-07-17T00:00:00+00:00</lastmod>
