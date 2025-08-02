@@ -10,7 +10,7 @@
         <lastBuildDate>Fri, 01 Aug 2025 22:40:00 +0000</lastBuildDate><atom:link href="https://scientiatw.live/page/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>動態牆</title>
         <link>https://scientiatw.live/timeline/</link>
-        <pubDate>Fri, 01 Aug 2025 00:00:00 +0000</pubDate>
+        <pubDate>Fri, 01 Aug 2025 22:40:00 +0000</pubDate>
         
         <guid>https://scientiatw.live/timeline/</guid>
         <description>&lt;h2 id=&#34;2025-08-01&#34;&gt;2025-08-01
@@ -39,9 +39,29 @@
 </description>
         </item>
         <item>
+        <title>關於本站</title>
+        <link>https://scientiatw.live/about-site/</link>
+        <pubDate>Tue, 22 Jul 2025 09:55:00 +0000</pubDate>
+        
+        <guid>https://scientiatw.live/about-site/</guid>
+        <description>&lt;script&gt;var ConverlyCustomData = {channelId: null};&lt;/script&gt;
+&lt;script async defer src=&#34;https://cdn.affiliates.one/production/adlinks/9632d86e82ddae2c6327eb55c530875fb8f852063ff7075dd96c7f802672af39.js&#34;&gt;&lt;/script&gt;
+&lt;p&gt;我是站長&lt;a class=&#34;link&#34; href=&#34;https://scientia-potentia-est.com/zh/hong-sheng-huang-zh/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Scientia&lt;/a&gt;，臺東人&lt;/p&gt;
+&lt;p&gt;本社群部落格主要撰寫有關我生活中所見所聞&lt;/p&gt;
+&lt;p&gt;任何合作或問題請寄到信箱內：scientia.polymath@gmail.com&lt;/p&gt;
+&lt;p&gt;想看技術部落格的話請前往：&lt;a class=&#34;link&#34; href=&#34;https://scientia-potentia-est.com/zh&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;資通安全第一品牌&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;想免費接收額外消息的話請訂閱我的電子報：&lt;a class=&#34;link&#34; href=&#34;http://eepurl.com/jctdbA&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;電子報&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;想要訂閱RSS的話請用這個連結：&lt;a class=&#34;link&#34; href=&#34;https://scientiatw.live/index.xml&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;RSS&lt;/a&gt;&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>使用</title>
         <link>https://scientiatw.live/use/</link>
-        <pubDate>Wed, 04 Jun 2025 00:00:00 +0000</pubDate>
+        <pubDate>Thu, 17 Jul 2025 09:34:00 +0000</pubDate>
         
         <guid>https://scientiatw.live/use/</guid>
         <description>&lt;h2 id=&#34;-電腦軟體&#34;&gt;🖥️ 電腦軟體
@@ -178,26 +198,6 @@
         
         <guid>https://scientiatw.live/archives/</guid>
         <description></description>
-        </item>
-        <item>
-        <title>關於本站</title>
-        <link>https://scientiatw.live/about-site/</link>
-        <pubDate>Sat, 03 May 2025 00:00:00 +0000</pubDate>
-        
-        <guid>https://scientiatw.live/about-site/</guid>
-        <description>&lt;script&gt;var ConverlyCustomData = {channelId: null};&lt;/script&gt;
-&lt;script async defer src=&#34;https://cdn.affiliates.one/production/adlinks/9632d86e82ddae2c6327eb55c530875fb8f852063ff7075dd96c7f802672af39.js&#34;&gt;&lt;/script&gt;
-&lt;p&gt;我是站長&lt;a class=&#34;link&#34; href=&#34;https://scientia-potentia-est.com/zh/hong-sheng-huang-zh/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Scientia&lt;/a&gt;，臺東人&lt;/p&gt;
-&lt;p&gt;本社群部落格主要撰寫有關我生活中所見所聞&lt;/p&gt;
-&lt;p&gt;任何合作或問題請寄到信箱內：scientia.polymath@gmail.com&lt;/p&gt;
-&lt;p&gt;想看技術部落格的話請前往：&lt;a class=&#34;link&#34; href=&#34;https://scientia-potentia-est.com/zh&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;資通安全第一品牌&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;想免費接收額外消息的話請訂閱我的電子報：&lt;a class=&#34;link&#34; href=&#34;http://eepurl.com/jctdbA&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;電子報&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;想要訂閱RSS的話請用這個連結：&lt;a class=&#34;link&#34; href=&#34;https://scientiatw.live/index.xml&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;RSS&lt;/a&gt;&lt;/p&gt;
-</description>
         </item>
         <item>
         <title>搜尋</title>
