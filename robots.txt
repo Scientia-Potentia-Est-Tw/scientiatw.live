@@ -7,6 +7,8 @@ Allow: /page/
   
 Allow: /now/
   
+Allow: /timeline/
+  
 Allow: /categories/
   
 Allow: /post/
@@ -18,8 +20,6 @@ Allow: /tags/
 Allow: /categories/%E5%B7%A5%E5%85%B7/
   
 Allow: /p/you-should-use-rss/
-  
-Allow: /timeline/
   
 Allow: /tags/%E8%B3%87%E8%A8%8A/
   
