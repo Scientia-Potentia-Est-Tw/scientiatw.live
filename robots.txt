@@ -5,9 +5,9 @@ Allow: /
   
 Allow: /page/
   
-Allow: /now/
-  
 Allow: /timeline/
+  
+Allow: /now/
   
 Allow: /categories/
   
