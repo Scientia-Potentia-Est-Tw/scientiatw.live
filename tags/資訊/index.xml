@@ -7,7 +7,7 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-tw</language>
         <copyright>Scientia</copyright>
-        <lastBuildDate>Fri, 01 Aug 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://scientiatw.live/tags/%E8%B3%87%E8%A8%8A/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sun, 03 Aug 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://scientiatw.live/tags/%E8%B3%87%E8%A8%8A/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>自主選擇乾淨的資訊，回歸RSS的懷抱吧！</title>
         <link>https://scientiatw.live/p/you-should-use-rss/</link>
         <pubDate>Fri, 01 Aug 2025 00:00:00 +0000</pubDate>
@@ -72,6 +72,15 @@
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://crossing.cw.com.tw/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;換日線&lt;/a&gt;：雖然有些文章有點染上政治色彩，不過留學資訊或國際觀的讀者投書文章還算有些價值，RSS：&lt;a class=&#34;link&#34; href=&#34;https://crossing.cw.com.tw/rss&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;https://crossing.cw.com.tw/rss&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://seths.blog/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Seth&amp;rsquo;s blog&lt;/a&gt;：暢銷管理學作家Seth Godin的部落格，常常會分享一些他自己生活中的見解，RSS：&lt;a class=&#34;link&#34; href=&#34;https://feeds.feedblitz.com/sethsblog&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://feeds.feedblitz.com/sethsblog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://kagi.com/smallweb&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Kagi Small Web&lt;/a&gt;：一個蒐錄了網路上許多小型個人網站或blog的地方，有時候可以找到有趣的部落客，RSS：&lt;a class=&#34;link&#34; href=&#34;https://kagi.com/api/v1/smallweb/feed/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://kagi.com/api/v1/smallweb/feed/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://slashdot.org/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Slashdot&lt;/a&gt;：一個老牌科技新聞論壇，每天都有蠻多討論的，RSS：&lt;a class=&#34;link&#34; href=&#34;https://rss.slashdot.org/Slashdot/slashdotMain&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://rss.slashdot.org/Slashdot/slashdotMain&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;限制資訊來源只看那些有品質保障的文章，而不是刷那些毫無前後脈絡的社群媒體貼文，讓自己可以真正保留看過的印象&lt;/p&gt;
 &lt;h3 id=&#34;不會資訊焦慮&#34;&gt;不會資訊焦慮
