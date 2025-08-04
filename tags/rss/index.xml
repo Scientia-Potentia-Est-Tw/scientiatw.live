@@ -7,7 +7,7 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-tw</language>
         <copyright>Scientia</copyright>
-        <lastBuildDate>Sun, 03 Aug 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://scientiatw.live/tags/rss/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Mon, 04 Aug 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://scientiatw.live/tags/rss/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>自主選擇乾淨的資訊，回歸RSS的懷抱吧！</title>
         <link>https://scientiatw.live/p/you-should-use-rss/</link>
         <pubDate>Fri, 01 Aug 2025 00:00:00 +0000</pubDate>
@@ -45,6 +45,9 @@
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://life.huli.tw/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Huli&amp;rsquo;s blog&lt;/a&gt;：前端開發者兼網頁安全研究員Huli的生活型部落格，分享一些他自己教課或人生見解，他的RSS：&lt;a class=&#34;link&#34; href=&#34;https://life.huli.tw/atom.xml&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;https://life.huli.tw/atom.xml&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.playpcesor.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;電腦玩物&lt;/a&gt;：異塵行者Esor站長在電腦玩物分享數位工具軟體與服務，分享他使用者些數位工具的心得，他的RSS：&lt;a class=&#34;link&#34; href=&#34;https://feeds.feedburner.com/playpc&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://feeds.feedburner.com/playpc&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://igouist.github.io/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;伊果的沒人看筆記本&lt;/a&gt;：Windows開發者伊果平時會分享一些套件工具文章以及生活分享，他的RSS：&lt;a class=&#34;link&#34; href=&#34;https://igouist.github.io/index.xml&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;https://igouist.github.io/index.xml&lt;/a&gt;&lt;/li&gt;
