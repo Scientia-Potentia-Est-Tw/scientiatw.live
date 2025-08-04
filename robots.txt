@@ -139,7 +139,7 @@ Allow: /tags/mooink-pro-2c/
   
 Allow: /tags/readmoo/
   
-Allow: /categories/%E7%A7%91%E6%8A%80%E7%94%A2%E5%93%81/
+Allow: /categories/%E7%A7%91%E6%8A%80/
   
 Allow: /tags/%E9%9B%BB%E5%AD%90%E6%9B%B8%E9%96%B1%E8%AE%80%E5%99%A8/
   
