@@ -9,9 +9,9 @@ Allow: /post/
   
 Allow: /use/
   
-Allow: /now/
-  
 Allow: /timeline/
+  
+Allow: /now/
   
 Allow: /categories/
   
