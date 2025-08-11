@@ -7,9 +7,9 @@ Allow: /page/
   
 Allow: /now/
   
-Allow: /post/
-  
 Allow: /timeline/
+  
+Allow: /post/
   
 Allow: /use/
   
