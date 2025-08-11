@@ -5,13 +5,13 @@ Allow: /
   
 Allow: /page/
   
+Allow: /now/
+  
 Allow: /post/
   
 Allow: /timeline/
   
 Allow: /use/
-  
-Allow: /now/
   
 Allow: /categories/
   
