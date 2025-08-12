@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>搜尋引擎 on Scientia&#39;s live</title>
+        <link>https://scientiatw.live/tags/%E6%90%9C%E5%B0%8B%E5%BC%95%E6%93%8E/</link>
+        <description>Recent content in 搜尋引擎 on Scientia&#39;s live</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-tw</language>
+        <copyright>Scientia</copyright>
+        <lastBuildDate>Tue, 12 Aug 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://scientiatw.live/tags/%E6%90%9C%E5%B0%8B%E5%BC%95%E6%93%8E/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Robots.txt與AI爬蟲的愛恨情仇</title>
+        <link>https://scientiatw.live/p/ai-vs-robots-txt/</link>
+        <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
+        
+        <guid>https://scientiatw.live/p/ai-vs-robots-txt/</guid>
+        <description>&lt;p&gt;各大網站基本上靠一個叫做&amp;quot;robots.txt&amp;quot;的檔案對網路爬蟲[1]說明哪些頁面可以爬取而哪些頁面禁止爬取，過去我們透過這個設定讓Google Search, Bing Webmaster等搜尋引擎的spider來逛我們的個人網站，時至今日這些公司為了讓他們自己的大型語言模型系統更完善，利用RAG強化AI爬蟲花更多力氣想把整個網際網路都爬下來，以便更精確的回應使用者的提問，以及能訓練生成更多種類的內容&lt;/p&gt;
+&lt;p&gt;一些網路新聞公司及出版社的執行長都跳出來説這些AI公司只顧自己的利益一直爬創作者辛苦創造出來的內容，卻沒有給任何報酬來回饋，甚至讓一些平台的&lt;strong&gt;點擊率下降&lt;/strong&gt;[2]，因為現在Google的AI Overview真的挺好用的，雖然Overview最後都會附上參考資料連結，但如果解法已經呈現出來的話我通常就不花時間點進文章裡看前因後果了&lt;/p&gt;
+&lt;p&gt;不過這情形應該也勢不可擋，雖然robots.txt可以設定一些守則告知爬蟲，但也得那間AI公司遵守我們設定的條款，如果不管的話照樣可以直接爬取我們所創作的內容，我想新技術出來一定有一段時間的陣痛期，未來內容創作者也許有一些方法可以跟AI公司進行&lt;strong&gt;協同合作&lt;/strong&gt;[3]&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;[1] 關於網路爬蟲：&lt;a class=&#34;link&#34; href=&#34;https://steam.oxxostudio.tw/category/python/spider/about-spider.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://steam.oxxostudio.tw/category/python/spider/about-spider.html&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;[2] Google AI總覽功能掀「零點擊」潮，新聞產業已陷入流量與版權危機：&lt;a class=&#34;link&#34; href=&#34;https://www.thenewslens.com/article/256565&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://www.thenewslens.com/article/256565&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;[3] AI橫行，30年前寫給「君子」的robots.txt擋得住今日的爬蟲巨獸嗎？：&lt;a class=&#34;link&#34; href=&#34;https://dq.yam.com/post/16602&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://dq.yam.com/post/16602&lt;/a&gt;&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>
