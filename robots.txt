@@ -3,21 +3,31 @@ User-agent: *
   
 Allow: /
   
+Allow: /categories/
+  
+Allow: /post/
+  
+Allow: /tags/
+  
+Allow: /p/research-literature-keypoints/
+  
+Allow: /tags/%E7%A0%94%E8%AE%80/
+  
+Allow: /tags/%E8%AB%96%E6%96%87/
+  
+Allow: /categories/%E5%AD%B8%E8%A1%93/
+  
+Allow: /tags/%E9%97%9C%E9%8D%B5/
+  
 Allow: /page/
   
 Allow: /now/
   
 Allow: /timeline/
   
-Allow: /post/
-  
 Allow: /use/
   
-Allow: /categories/
-  
 Allow: /tags/rss/
-  
-Allow: /tags/
   
 Allow: /categories/%E5%B7%A5%E5%85%B7/
   
@@ -110,8 +120,6 @@ Allow: /p/pqcrypto-2025/
 Allow: /tags/%E5%BE%8C%E9%87%8F%E5%AD%90%E5%AF%86%E7%A2%BC/
   
 Allow: /tags/%E7%A0%94%E8%A8%8E%E6%9C%83/
-  
-Allow: /categories/%E5%AD%B8%E8%A1%93/
   
 Allow: /tags/%E5%85%AC%E5%85%B1%E9%81%8B%E8%BC%B8/
   
