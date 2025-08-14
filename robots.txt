@@ -7,6 +7,8 @@ Allow: /page/
   
 Allow: /now/
   
+Allow: /books/
+  
 Allow: /timeline/
   
 Allow: /categories/
