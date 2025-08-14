@@ -3,17 +3,19 @@ User-agent: *
   
 Allow: /
   
-Allow: /categories/
-  
 Allow: /page/
+  
+Allow: /now/
+  
+Allow: /timeline/
+  
+Allow: /categories/
   
 Allow: /post/
   
 Allow: /tags/
   
 Allow: /p/research-literature-keypoints/
-  
-Allow: /now/
   
 Allow: /tags/%E7%A0%94%E8%AE%80/
   

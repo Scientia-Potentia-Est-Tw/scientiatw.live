@@ -7,10 +7,10 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-tw</language>
         <copyright>Scientia</copyright>
-        <lastBuildDate>Tue, 12 Aug 2025 15:59:00 +0000</lastBuildDate><atom:link href="https://scientiatw.live/page/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Thu, 14 Aug 2025 17:46:00 +0000</lastBuildDate><atom:link href="https://scientiatw.live/page/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>近況</title>
         <link>https://scientiatw.live/now/</link>
-        <pubDate>Tue, 12 Aug 2025 00:00:00 +0000</pubDate>
+        <pubDate>Thu, 14 Aug 2025 00:00:00 +0000</pubDate>
         
         <guid>https://scientiatw.live/now/</guid>
         <description>&lt;h2 id=&#34;-最近的狀態&#34;&gt;🏡 最近的狀態
@@ -26,7 +26,8 @@
     &gt;資通安全第一品牌&lt;/a&gt;：新增&lt;a class=&#34;link&#34; href=&#34;https://scientia-potentia-est.com/zh/information-cybersecurity-timeline-zh/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;資安動態&lt;/a&gt;頁面，首頁或各分類長篇文章主要整理想法跟研究的前因後果，但動態就分享近期漏洞新聞或推薦的文章給讀者，訂閱&lt;a class=&#34;link&#34; href=&#34;https://scientia-potentia-est.com/zh/subscribe-newletter-zh/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;電子報&lt;/a&gt;可以接收我的動態精選跟額外的消息追蹤&lt;/li&gt;
-&lt;li&gt;🗓 社群部落格：把動態牆裡的內容移到首頁變成一篇篇短文章，因為發現目前使用的Hugo Theme沒辦法搜尋到Page裡的內容，這對想要在我網站上搜尋過去紀錄的讀者很不友善，不過我看Seth Godin有些文章也蠻短的，對RSS訂閱者來說直接看完一整篇比起動態一直往下滑也比較方便&lt;/li&gt;
+&lt;li&gt;🗓 社群部落格：把之前動態牆裡的內容移到首頁變成一篇篇短文章，重新規劃&lt;a class=&#34;link&#34; href=&#34;https://scientiatw.live/timeline/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;動態牆&lt;/a&gt;，盡可能地只寫些靈光一現的想法&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;-最近的專案&#34;&gt;🎯 最近的專案
 &lt;/h2&gt;&lt;ul&gt;
@@ -49,6 +50,14 @@
     &gt;茫DAY不錄&lt;/a&gt;：最近開始聽的Podcast，把諧音梗用到極致也是一種韻味&lt;/li&gt;
 &lt;/ul&gt;
 </description>
+        </item>
+        <item>
+        <title>動態牆</title>
+        <link>https://scientiatw.live/timeline/</link>
+        <pubDate>Thu, 14 Aug 2025 00:00:00 +0000</pubDate>
+        
+        <guid>https://scientiatw.live/timeline/</guid>
+        <description></description>
         </item>
         <item>
         <title>使用</title>
