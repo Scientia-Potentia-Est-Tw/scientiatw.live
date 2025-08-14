@@ -121,8 +121,6 @@ Allow: /tags/%E7%B6%B2%E8%B7%AF%E7%88%AC%E8%9F%B2/
   
 Allow: /tags/rss/
   
-Allow: /categories/%E5%B7%A5%E5%85%B7/
-  
 Allow: /tags/%E5%8F%AF%E8%A6%8B%E5%BA%A6/
   
 Allow: /p/you-should-use-rss/
