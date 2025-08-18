@@ -5,6 +5,8 @@ Allow: /
   
 Allow: /page/
   
+Allow: /use/
+  
 Allow: /now/
   
 Allow: /books/
@@ -66,8 +68,6 @@ Allow: /tags/%E8%87%AA%E6%88%91%E6%87%B7%E7%96%91/
 Allow: /tags/%E8%87%AA%E7%A7%81%E7%9A%84%E8%97%9D%E8%A1%93/
   
 Allow: /tags/%E8%87%AA%E8%B2%AC/
-  
-Allow: /use/
   
 Allow: /tags/%E7%BE%A9%E5%8B%99/
   
