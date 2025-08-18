@@ -7,7 +7,7 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-tw</language>
         <copyright>Scientia</copyright>
-        <lastBuildDate>Mon, 18 Aug 2025 19:40:00 +0000</lastBuildDate><atom:link href="https://scientiatw.live/page/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Mon, 18 Aug 2025 23:47:00 +0000</lastBuildDate><atom:link href="https://scientiatw.live/page/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>使用</title>
         <link>https://scientiatw.live/use/</link>
         <pubDate>Mon, 18 Aug 2025 00:00:00 +0000</pubDate>
@@ -29,8 +29,6 @@
 &lt;h3 id=&#34;-行程管理&#34;&gt;🗓️ 行程管理
 &lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;Apple Calendar - macOS內建的行事曆軟體，紀錄每月事項進度&lt;/li&gt;
-&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.notion.com/product/calendar&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Notion Calendar&lt;/a&gt; - Notion推出的行事曆插件，跟專案追蹤模板連動可以顯示每週該做的進度跟管控時間&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;-終端機相關工具&#34;&gt;📟 終端機相關、工具
 &lt;/h3&gt;&lt;ul&gt;
@@ -141,7 +139,7 @@
         <item>
         <title>近況</title>
         <link>https://scientiatw.live/now/</link>
-        <pubDate>Thu, 14 Aug 2025 00:00:00 +0000</pubDate>
+        <pubDate>Mon, 18 Aug 2025 00:00:00 +0000</pubDate>
         
         <guid>https://scientiatw.live/now/</guid>
         <description>&lt;h2 id=&#34;-最近的狀態&#34;&gt;🏡 最近的狀態
@@ -158,7 +156,7 @@
     &gt;資安動態&lt;/a&gt;頁面，首頁或各分類長篇文章主要整理想法跟研究的前因後果，但動態就分享近期漏洞新聞或推薦的文章給讀者，訂閱&lt;a class=&#34;link&#34; href=&#34;https://scientia-potentia-est.com/zh/subscribe-newletter-zh/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;電子報&lt;/a&gt;可以接收我的動態精選跟額外的消息追蹤&lt;/li&gt;
 &lt;li&gt;🗓 社群部落格：把之前動態牆裡的內容移到首頁變成一篇篇短文章，重新規劃&lt;a class=&#34;link&#34; href=&#34;https://scientiatw.live/timeline/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;動態牆&lt;/a&gt;，盡可能地只寫些靈光一現的想法&lt;/li&gt;
+    &gt;動態牆&lt;/a&gt;，分享每天看到的文章&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;-最近的專案&#34;&gt;🎯 最近的專案
 &lt;/h2&gt;&lt;ul&gt;
