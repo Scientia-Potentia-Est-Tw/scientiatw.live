@@ -5,9 +5,9 @@ Allow: /
   
 Allow: /page/
   
-Allow: /use/
-  
 Allow: /now/
+  
+Allow: /use/
   
 Allow: /books/
   
