@@ -3,21 +3,31 @@ User-agent: *
   
 Allow: /
   
+Allow: /p/sitopia-meaning-of-wonderful-life/
+  
+Allow: /categories/
+  
 Allow: /page/
   
+Allow: /post/
+  
+Allow: /tags/
+  
+Allow: /tags/%E4%BA%BA%E7%94%9F/
+  
 Allow: /use/
+  
+Allow: /tags/%E5%93%B2%E5%AD%B8/
+  
+Allow: /tags/%E9%A3%B2%E9%A3%9F/
+  
+Allow: /categories/%E9%96%B1%E8%AE%80/
   
 Allow: /now/
   
 Allow: /books/
   
 Allow: /timeline/
-  
-Allow: /categories/
-  
-Allow: /post/
-  
-Allow: /tags/
   
 Allow: /p/research-literature-keypoints/
   
@@ -42,8 +52,6 @@ Allow: /tags/%E6%85%A2%E8%80%812.0/
 Allow: /tags/%E8%AA%8D%E7%9F%A5%E6%B4%BB%E5%8B%95/
   
 Allow: /tags/%E8%AA%8D%E7%9F%A5%E5%84%B2%E5%82%99/
-  
-Allow: /categories/%E9%96%B1%E8%AE%80/
   
 Allow: /tags/%E8%AE%80%E5%BE%8C%E5%BF%83%E5%BE%97/
   
@@ -172,8 +180,6 @@ Allow: /tags/%E9%96%B1%E8%AE%80%E5%BF%83%E5%BE%97/
 Allow: /tags/%E8%81%B7%E6%B6%AF/
   
 Allow: /p/life-lessons-from-the-first-half-century-of-my-career-focused-1/
-  
-Allow: /tags/%E4%BA%BA%E7%94%9F/
   
 Allow: /categories/%E7%94%9F%E6%B4%BB/
   
