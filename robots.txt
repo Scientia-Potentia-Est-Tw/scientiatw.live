@@ -3,11 +3,13 @@ User-agent: *
   
 Allow: /
   
+Allow: /page/
+  
+Allow: /links/
+  
 Allow: /p/sitopia-meaning-of-wonderful-life/
   
 Allow: /categories/
-  
-Allow: /page/
   
 Allow: /post/
   
