@@ -7,7 +7,51 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-tw</language>
         <copyright>Scientia</copyright>
-        <lastBuildDate>Mon, 25 Aug 2025 10:25:00 +0000</lastBuildDate><atom:link href="https://scientiatw.live/page/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Tue, 26 Aug 2025 17:12:00 +0000</lastBuildDate><atom:link href="https://scientiatw.live/page/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>近況</title>
+        <link>https://scientiatw.live/now/</link>
+        <pubDate>Tue, 26 Aug 2025 00:00:00 +0000</pubDate>
+        
+        <guid>https://scientiatw.live/now/</guid>
+        <description>&lt;h2 id=&#34;-最近的狀態&#34;&gt;🏡 最近的狀態
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;🚎 新竹台北兩地跑：台鐵票價漲價讓我平常北新竹到南港從125元漲到178元，寒暑假期間少了學校裡的學術專車這通勤開銷變得好高，只好一週三天變成一週一天進辦公室，說真的每次通勤單趟都要3個小時真的好累，有時候區間車剛上車還沒位置得一直站著我的腳會很酸&lt;/li&gt;
+&lt;li&gt;🏃 盡可能每天運動：下午學校健身房準時報到，但如果事情得先趕完，就改晚上去交大操場跑步&lt;/li&gt;
+&lt;li&gt;🛏 睡眠：晚上儘量不做太多休閒活動，十一點準時收東西回宿舍洗澡，十二點睡覺不讓生活節奏亂掉&lt;/li&gt;
+&lt;li&gt;⏳ 工作近況：趕碩論第一階段實驗&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;-最近網路上的狀態&#34;&gt;🌐 最近網路上的狀態
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;💻 &lt;a class=&#34;link&#34; href=&#34;https://scientia-potentia-est.com/zh/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;資通安全第一品牌&lt;/a&gt;：新增&lt;a class=&#34;link&#34; href=&#34;https://scientia-potentia-est.com/zh/information-cybersecurity-timeline-zh/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;資安動態&lt;/a&gt;頁面，首頁或各分類長篇文章主要整理想法跟研究的前因後果，但動態就分享近期漏洞新聞或推薦的文章給讀者，訂閱&lt;a class=&#34;link&#34; href=&#34;https://scientia-potentia-est.com/zh/subscribe-newletter-zh/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;電子報&lt;/a&gt;可以接收我的動態精選跟額外的消息追蹤&lt;/li&gt;
+&lt;li&gt;🗓 社群部落格：新增&lt;a class=&#34;link&#34; href=&#34;https://scientiatw.live/books/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;書單&lt;/a&gt;以及&lt;a class=&#34;link&#34; href=&#34;https://scientiatw.live/links/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;推薦&lt;/a&gt;頁面，書單記錄我看的書以及相關統整文章，推薦是之前看到Wiwi的&lt;a class=&#34;link&#34; href=&#34;https://wiwi.blog/blog/slash-pages&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Slash Pages&lt;/a&gt;除了/now、/use之外也可以分享一些喜歡的部落格、podcast或文章，統整起來就是/links&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;-最近的專案&#34;&gt;🎯 最近的專案
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;🖥️ &lt;a class=&#34;link&#34; href=&#34;https://github.com/Scientia-Potentia-Est-Tw/Optimal-Depth-of-Quantum-Gate&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Optimal Depth of Quantum Gate&lt;/a&gt;：優化生成CNOT gate的演算法&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;-最近吃的喝的&#34;&gt;🍳 最近吃的/喝的
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;🌰 現在學校自助餐裡的魚類只有蒸的水晶魚不然就是炸的，這種通常都便宜但omega-3脂肪酸含量超低，也還沒到鮭魚的季節，所以好市多柯克蘭的核桃跟胡桃就成了我取得優質油類保養大腦不可或缺的來源了&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;-最近讀的聽的看的&#34;&gt;📚 最近讀的/聽的/看的
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;📃 &lt;a class=&#34;link&#34; href=&#34;https://eprint.iacr.org/2024/381&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Quantum Circuits of AES with a Low-depth Linear Layer and a New Structure&lt;/a&gt;：看來Greedy Algorithm還有改善空間&lt;/li&gt;
+&lt;li&gt;📕 &lt;a class=&#34;link&#34; href=&#34;https://www.books.com.tw/exep/assp.php/scientia/products/0010999829?utm_source=scientia&amp;amp;utm_medium=ap-books&amp;amp;utm_content=recommend&amp;amp;utm_campaign=ap-202508&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;《你該殺死那個胖子嗎？》：為了多數人幸福而犧牲少數人權益是對的嗎？我們今日該如何看待道德哲學的經典難題？&lt;/a&gt;：電車難題延伸出許多的變形題目，但最終都是在探討人在極限選擇下會有哪些考量，甚至還有「電車學」這一學門領域&lt;/li&gt;
+&lt;li&gt;🎧 &lt;a class=&#34;link&#34; href=&#34;https://mondayblueeee.firstory.io/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;茫DAY不錄&lt;/a&gt;：最近開始聽的Podcast，把諧音梗用到極致也是一種韻味&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        </item>
+        <item>
         <title>推薦</title>
         <link>https://scientiatw.live/links/</link>
         <pubDate>Mon, 25 Aug 2025 00:00:00 +0000</pubDate>
@@ -298,50 +342,6 @@
     &gt;Logic Pro&lt;/a&gt; - macOS上最受歡迎的DAW，搭配各式各樣的插件就可以模擬許多可能性，只靠MIDI鍵盤還是可以玩得很開心&lt;/li&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://evo.audio/products/audio-interfaces/evo-4/overview/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Audient Evo 4&lt;/a&gt; - 入門級錄音介面，我用數位鋼琴輸出TRS插一組line孔開立體聲監聽對於初學者來說就很夠用了&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        </item>
-        <item>
-        <title>近況</title>
-        <link>https://scientiatw.live/now/</link>
-        <pubDate>Tue, 19 Aug 2025 00:00:00 +0000</pubDate>
-        
-        <guid>https://scientiatw.live/now/</guid>
-        <description>&lt;h2 id=&#34;-最近的狀態&#34;&gt;🏡 最近的狀態
-&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;🚎 新竹台北兩地跑：台鐵票價漲價讓我平常北新竹到南港從125元漲到178元，寒暑假期間少了學校裡的學術專車這通勤開銷變得好高，只好一週三天變成一週一天進辦公室，說真的每次通勤單趟都要3個小時真的好累，有時候區間車剛上車還沒位置得一直站著我的腳會很酸&lt;/li&gt;
-&lt;li&gt;🏃 盡可能每天運動：下午學校健身房準時報到，但如果事情得先趕完，就改晚上去交大操場跑步&lt;/li&gt;
-&lt;li&gt;🛏 睡眠：晚上儘量不做太多休閒活動，十一點準時收東西回宿舍洗澡，十二點睡覺不讓生活節奏亂掉&lt;/li&gt;
-&lt;li&gt;⏳ 工作近況：趕碩論第一階段實驗&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;-最近網路上的狀態&#34;&gt;🌐 最近網路上的狀態
-&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;💻 &lt;a class=&#34;link&#34; href=&#34;https://scientia-potentia-est.com/zh/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;資通安全第一品牌&lt;/a&gt;：新增&lt;a class=&#34;link&#34; href=&#34;https://scientia-potentia-est.com/zh/information-cybersecurity-timeline-zh/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;資安動態&lt;/a&gt;頁面，首頁或各分類長篇文章主要整理想法跟研究的前因後果，但動態就分享近期漏洞新聞或推薦的文章給讀者，訂閱&lt;a class=&#34;link&#34; href=&#34;https://scientia-potentia-est.com/zh/subscribe-newletter-zh/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;電子報&lt;/a&gt;可以接收我的動態精選跟額外的消息追蹤&lt;/li&gt;
-&lt;li&gt;🗓 社群部落格：把之前動態牆裡的內容移到首頁變成一篇篇短文章，重新規劃&lt;a class=&#34;link&#34; href=&#34;https://scientiatw.live/timeline/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;動態牆&lt;/a&gt;，分享每天看到的文章&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;-最近的專案&#34;&gt;🎯 最近的專案
-&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;🖥️ &lt;a class=&#34;link&#34; href=&#34;https://github.com/Scientia-Potentia-Est-Tw/Optimal-Depth-of-Quantum-Gate&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Optimal Depth of Quantum Gate&lt;/a&gt;：優化生成CNOT gate的演算法&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;-最近吃的喝的&#34;&gt;🍳 最近吃的/喝的
-&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;🌰 現在學校自助餐裡的魚類只有蒸的水晶魚不然就是炸的，這種通常都便宜但omega-3脂肪酸含量超低，也還沒到鮭魚的季節，所以好市多柯克蘭的核桃跟胡桃就成了我取得優質油類保養大腦不可或缺的來源了&lt;/li&gt;
-&lt;li&gt;🥛 書局裡的即期乳品可遇不可求，相對便宜的乳製品找來找去先試試MARS的&lt;a class=&#34;link&#34; href=&#34;https://www.marstw.com/categories/%E7%89%9B%E5%A5%B6%E8%9B%8B%E7%99%BD&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;牛奶蛋白&lt;/a&gt;粉&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;-最近讀的聽的看的&#34;&gt;📚 最近讀的/聽的/看的
-&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;📃 &lt;a class=&#34;link&#34; href=&#34;https://eprint.iacr.org/2024/381&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Quantum Circuits of AES with a Low-depth Linear Layer and a New Structure&lt;/a&gt;：看來Greedy Algorithm還有改善空間&lt;/li&gt;
-&lt;li&gt;📖 &lt;a class=&#34;link&#34; href=&#34;https://www.books.com.tw/exep/assp.php/scientia/products/0010973322?utm_source=scientia&amp;amp;utm_medium=ap-books&amp;amp;utm_content=recommend&amp;amp;utm_campaign=ap-202508&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;《自私的藝術》:快樂有理，自私無罪！別再讓「過度妥協」控制你的餘生，美國心理學權威給無私好人的50個自救箴言&lt;/a&gt;：亞洲人普遍對於無私的奉獻有著異常的讚賞，但也造成了許多社會頭條版面上的事件發生，如何調整也許我想從這本書裡找到答案&lt;/li&gt;
-&lt;li&gt;🎧 &lt;a class=&#34;link&#34; href=&#34;https://mondayblueeee.firstory.io/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;茫DAY不錄&lt;/a&gt;：最近開始聽的Podcast，把諧音梗用到極致也是一種韻味&lt;/li&gt;
 &lt;/ul&gt;
 </description>
         </item>

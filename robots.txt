@@ -5,6 +5,8 @@ Allow: /
   
 Allow: /page/
   
+Allow: /now/
+  
 Allow: /links/
   
 Allow: /p/sitopia-meaning-of-wonderful-life/
@@ -24,8 +26,6 @@ Allow: /tags/%E5%93%B2%E5%AD%B8/
 Allow: /tags/%E9%A3%B2%E9%A3%9F/
   
 Allow: /categories/%E9%96%B1%E8%AE%80/
-  
-Allow: /now/
   
 Allow: /books/
   
