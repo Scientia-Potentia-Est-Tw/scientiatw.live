@@ -5,6 +5,8 @@ Allow: /
   
 Allow: /page/
   
+Allow: /about/
+  
 Allow: /now/
   
 Allow: /links/
@@ -189,8 +191,6 @@ Allow: /p/life-lessons-from-the-first-half-century-of-my-career-people-focused-2
   
 Allow: /p/life-lessons-from-the-first-half-century-of-my-career-people-focused-1/
   
-Allow: /about/
-  
 Allow: /p/slow-aging-ten-ways-to-activate-your-brain/
   
 Allow: /tags/%E7%87%9F%E9%A4%8A%E8%88%87%E9%A3%B2%E9%A3%9F/
@@ -309,13 +309,13 @@ Allow: /search/
   
 Allow: /en/
   
-Allow: /en/now/
+Allow: /en/about/
   
 Allow: /en/page/
   
-Allow: /en/use/
+Allow: /en/now/
   
-Allow: /en/about/
+Allow: /en/use/
   
 Allow: /en/categories/academic/
   
