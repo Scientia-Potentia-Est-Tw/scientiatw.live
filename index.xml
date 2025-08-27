@@ -7,7 +7,39 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-tw</language>
         <copyright>Scientia</copyright>
-        <lastBuildDate>Tue, 26 Aug 2025 17:30:00 +0000</lastBuildDate><atom:link href="https://scientiatw.live/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Wed, 27 Aug 2025 14:03:00 +0000</lastBuildDate><atom:link href="https://scientiatw.live/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>會員訂閱/贊助</title>
+        <link>https://scientiatw.live/membership-donation/</link>
+        <pubDate>Wed, 27 Aug 2025 00:00:00 +0000</pubDate>
+        
+        <guid>https://scientiatw.live/membership-donation/</guid>
+        <description>&lt;p&gt;本網站「Scientia&amp;rsquo;s live」無任何Google Adsense自動廣告，因為我不太喜歡廣告佔據版面影響觀看方式，但網域維運成本還是存在&lt;/p&gt;
+&lt;p&gt;如果讀者覺得本站文章有幫助到您，且您有能力可以支持我的話，希望您考慮訂閱本網站會員或贊助本站，如此我們才能提供給您更優質的內容&lt;/p&gt;
+&lt;h2 id=&#34;臺灣地區讀者&#34;&gt;臺灣地區讀者
+&lt;/h2&gt;&lt;p&gt;如果您是臺灣地區讀者的話可以考慮以下會員訂閱及贊助項目，本站主要提供綠界科技處理您的支持&lt;/p&gt;
+&lt;h3 id=&#34;綠界科技會員訂閱&#34;&gt;綠界科技會員訂閱
+&lt;/h3&gt;&lt;p&gt;訂閱網址：&lt;a class=&#34;link&#34; href=&#34;https://p.ecpay.com.tw/D9679CB&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://p.ecpay.com.tw/D9679CB&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;綠界科技贊助&#34;&gt;綠界科技贊助
+&lt;/h3&gt;&lt;p&gt;贊助網址：&lt;a class=&#34;link&#34; href=&#34;https://p.ecpay.com.tw/8C51FE2&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://p.ecpay.com.tw/8C51FE2&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;不在臺灣地區讀者&#34;&gt;不在臺灣地區讀者
+&lt;/h2&gt;&lt;p&gt;如果您是目前不住在臺灣地區的讀者可以考慮以下會員訂閱及贊助項目，本站主要提供Buy Me a Coffee以及Paypal處理您的支持，如果您較常使用Stripe電子錢包，歡迎考慮Buy Me a Coffee&lt;/p&gt;
+&lt;h3 id=&#34;buy-me-a-coffee-會員訂閱&#34;&gt;Buy Me a Coffee 會員訂閱
+&lt;/h3&gt;&lt;p&gt;訂閱網址：&lt;a class=&#34;link&#34; href=&#34;https://buymeacoffee.com/scientia/membership&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://buymeacoffee.com/scientia/membership&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;buy-me-a-coffee-贊助&#34;&gt;Buy Me a Coffee 贊助
+&lt;/h3&gt;&lt;p&gt;贊助網址：&lt;a class=&#34;link&#34; href=&#34;https://buymeacoffee.com/scientia&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://buymeacoffee.com/scientia&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;paypal-會員訂閱&#34;&gt;Paypal 會員訂閱
+&lt;/h3&gt;&lt;p&gt;訂閱網址：&lt;a class=&#34;link&#34; href=&#34;https://www.paypal.com/webapps/billing/plans/subscribe?plan_id=P-2H052852KJ795702NNCI2FVY&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://www.paypal.com/webapps/billing/plans/subscribe?plan_id=P-2H052852KJ795702NNCI2FVY&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;paypal-贊助&#34;&gt;Paypal 贊助
+&lt;/h3&gt;&lt;p&gt;贊助網址：&lt;a class=&#34;link&#34; href=&#34;https://www.paypal.com/paypalme/ScientiaTW&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://www.paypal.com/paypalme/ScientiaTW&lt;/a&gt;&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>近況</title>
         <link>https://scientiatw.live/now/</link>
         <pubDate>Tue, 26 Aug 2025 00:00:00 +0000</pubDate>
@@ -765,7 +797,7 @@ ntate gyrus)連結變得更強，而這造就海馬迴的通道更加緊密，�
         <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
         
         <guid>https://scientiatw.live/p/ai-vs-robots-txt/</guid>
-        <description>&lt;p&gt;各大網站基本上靠一個叫做&amp;quot;robots.txt&amp;quot;的檔案對網路爬蟲[1]說明哪些頁面可以爬取而哪些頁面禁止爬取，過去我們透過這個設定讓Google Search, Bing Webmaster等搜尋引擎的spider來逛我們的個人網站，時至今日這些公司為了讓他們自己的大型語言模型系統更完善，利用RAG強化AI爬蟲花更多力氣想把整個網際網路都爬下來，以便更精確的回應使用者的提問，以及能訓練生成更多種類的內容&lt;/p&gt;
+        <description>&lt;img src="https://scientia-potentia-est.com/wp-content/uploads/2025/08/AI-vs-robots-cover-e1756260099688.webp" alt="Featured image of post Robots.txt與AI爬蟲的愛恨情仇" /&gt;&lt;p&gt;各大網站基本上靠一個叫做&amp;quot;robots.txt&amp;quot;的檔案對網路爬蟲[1]說明哪些頁面可以爬取而哪些頁面禁止爬取，過去我們透過這個設定讓Google Search, Bing Webmaster等搜尋引擎的spider來逛我們的個人網站，時至今日這些公司為了讓他們自己的大型語言模型系統更完善，利用RAG強化AI爬蟲花更多力氣想把整個網際網路都爬下來，以便更精確的回應使用者的提問，以及能訓練生成更多種類的內容&lt;/p&gt;
 &lt;p&gt;一些網路新聞公司及出版社的執行長都跳出來説這些AI公司只顧自己的利益一直爬創作者辛苦創造出來的內容，卻沒有給任何報酬來回饋，甚至讓一些平台的&lt;strong&gt;點擊率下降&lt;/strong&gt;[2]，因為現在Google的AI Overview真的挺好用的，雖然Overview最後都會附上參考資料連結，但如果解法已經呈現出來的話我通常就不花時間點進文章裡看前因後果了&lt;/p&gt;
 &lt;p&gt;不過這情形應該也勢不可擋，雖然robots.txt可以設定一些守則告知爬蟲，但也得那間AI公司遵守我們設定的條款，如果不管的話照樣可以直接爬取我們所創作的內容，我想新技術出來一定有一段時間的陣痛期，未來內容創作者也許有一些方法可以跟AI公司進行&lt;strong&gt;協同合作&lt;/strong&gt;[3]&lt;/p&gt;
 &lt;hr&gt;
@@ -1116,10 +1148,10 @@ ntate gyrus)連結變得更強，而這造就海馬迴的通道更加緊密，�
         </item>
         <item>
         <title>關於本站</title>
-        <link>https://scientiatw.live/about-site/</link>
+        <link>https://scientiatw.live/about/</link>
         <pubDate>Tue, 22 Jul 2025 00:00:00 +0000</pubDate>
         
-        <guid>https://scientiatw.live/about-site/</guid>
+        <guid>https://scientiatw.live/about/</guid>
         <description>&lt;script&gt;var ConverlyCustomData = {channelId: null};&lt;/script&gt;
 &lt;script async defer src=&#34;https://cdn.affiliates.one/production/adlinks/9632d86e82ddae2c6327eb55c530875fb8f852063ff7075dd96c7f802672af39.js&#34;&gt;&lt;/script&gt;
 &lt;p&gt;我是站長&lt;a class=&#34;link&#34; href=&#34;https://scientia-potentia-est.com/zh/hong-sheng-huang-zh/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
@@ -2279,6 +2311,15 @@ ntate gyrus)連結變得更強，而這造就海馬迴的通道更加緊密，�
     &gt;《滾動內容複利》&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;博客來實體平裝書：&lt;a class=&#34;link&#34; href=&#34;https://www.books.com.tw/exep/assp.php/scientia/products/0010928347?utm_source=scientia&amp;amp;utm_medium=ap-books&amp;amp;utm_content=recommend&amp;amp;utm_campaign=ap-202504&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;《滾動內容複利》：掌握長銷經營者的關鍵行動選擇，持續變現，穩定創收&lt;/a&gt;&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>《你該殺死那個胖子嗎？》：邱吉爾的兩難</title>
+        <link>https://scientiatw.live/p/%E4%BD%A0%E8%A9%B2%E6%AE%BA%E6%AD%BB%E9%82%A3%E5%80%8B%E8%83%96%E5%AD%90%E5%97%8E%E9%82%B1%E5%90%89%E7%88%BE%E7%9A%84%E5%85%A9%E9%9B%A3/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://scientiatw.live/p/%E4%BD%A0%E8%A9%B2%E6%AE%BA%E6%AD%BB%E9%82%A3%E5%80%8B%E8%83%96%E5%AD%90%E5%97%8E%E9%82%B1%E5%90%89%E7%88%BE%E7%9A%84%E5%85%A9%E9%9B%A3/</guid>
+        <description>&lt;p&gt;The remaining content of your post.&lt;/p&gt;
 </description>
         </item>
         <item>

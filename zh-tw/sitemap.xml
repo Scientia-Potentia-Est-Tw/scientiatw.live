@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://scientiatw.live/</loc>
-    <lastmod>2025-08-26T17:30:00+00:00</lastmod>
+    <lastmod>2025-08-27T14:03:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -16,7 +16,7 @@
                 />
   </url><url>
     <loc>https://scientiatw.live/page/</loc>
-    <lastmod>2025-08-26T17:30:00+00:00</lastmod>
+    <lastmod>2025-08-27T14:03:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -27,6 +27,9 @@
                 hreflang="zh-tw"
                 href="https://scientiatw.live/page/"
                 />
+  </url><url>
+    <loc>https://scientiatw.live/membership-donation/</loc>
+    <lastmod>2025-08-27T14:03:00+00:00</lastmod>
   </url><url>
     <loc>https://scientiatw.live/now/</loc>
     <lastmod>2025-08-26T17:30:00+00:00</lastmod>
@@ -354,7 +357,7 @@
     <loc>https://scientiatw.live/p/life-lessons-from-the-first-half-century-of-my-career-people-focused-1/</loc>
     <lastmod>2025-07-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://scientiatw.live/about-site/</loc>
+    <loc>https://scientiatw.live/about/</loc>
     <lastmod>2025-07-22T09:55:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
@@ -364,7 +367,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-tw"
-                href="https://scientiatw.live/about-site/"
+                href="https://scientiatw.live/about/"
                 />
   </url><url>
     <loc>https://scientiatw.live/p/slow-aging-ten-ways-to-activate-your-brain/</loc>
@@ -564,6 +567,8 @@
   </url><url>
     <loc>https://scientiatw.live/p/perennial-seller-content/</loc>
     <lastmod>2025-03-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://scientiatw.live/p/%E4%BD%A0%E8%A9%B2%E6%AE%BA%E6%AD%BB%E9%82%A3%E5%80%8B%E8%83%96%E5%AD%90%E5%97%8E%E9%82%B1%E5%90%89%E7%88%BE%E7%9A%84%E5%85%A9%E9%9B%A3/</loc>
   </url><url>
     <loc>https://scientiatw.live/search/</loc>
     <xhtml:link
