@@ -305,8 +305,6 @@ Allow: /tags/%E5%89%B5%E4%BD%9C/
   
 Allow: /p/perennial-seller-content/
   
-Allow: /p/%E4%BD%A0%E8%A9%B2%E6%AE%BA%E6%AD%BB%E9%82%A3%E5%80%8B%E8%83%96%E5%AD%90%E5%97%8E%E9%82%B1%E5%90%89%E7%88%BE%E7%9A%84%E5%85%A9%E9%9B%A3/
-  
 Allow: /search/
   
 
