@@ -5,17 +5,17 @@ Allow: /
   
 Allow: /page/
   
-Allow: /about/
+Allow: /post/
   
 Allow: /now/
+  
+Allow: /about/
   
 Allow: /links/
   
 Allow: /p/sitopia-meaning-of-wonderful-life/
   
 Allow: /categories/
-  
-Allow: /post/
   
 Allow: /tags/
   
