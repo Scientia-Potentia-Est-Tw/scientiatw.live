@@ -5,9 +5,9 @@ Allow: /
   
 Allow: /page/
   
-Allow: /post/
-  
 Allow: /now/
+  
+Allow: /post/
   
 Allow: /about/
   
