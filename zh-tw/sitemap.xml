@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://scientiatw.live/</loc>
-    <lastmod>2025-08-31T11:09:00+00:00</lastmod>
+    <lastmod>2025-09-02T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -15,8 +15,68 @@
                 href="https://scientiatw.live/"
                 />
   </url><url>
+    <loc>https://scientiatw.live/categories/</loc>
+    <lastmod>2025-09-02T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://scientiatw.live/en/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-tw"
+                href="https://scientiatw.live/categories/"
+                />
+  </url><url>
+    <loc>https://scientiatw.live/tags/cuda/</loc>
+    <lastmod>2025-09-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://scientiatw.live/tags/egpu/</loc>
+    <lastmod>2025-09-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://scientiatw.live/tags/framework/</loc>
+    <lastmod>2025-09-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://scientiatw.live/p/oculink-egpu-for-cuda/</loc>
+    <lastmod>2025-09-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://scientiatw.live/tags/oculink/</loc>
+    <lastmod>2025-09-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://scientiatw.live/post/</loc>
+    <lastmod>2025-09-02T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://scientiatw.live/en/post/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-tw"
+                href="https://scientiatw.live/post/"
+                />
+  </url><url>
+    <loc>https://scientiatw.live/tags/</loc>
+    <lastmod>2025-09-02T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://scientiatw.live/en/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-tw"
+                href="https://scientiatw.live/tags/"
+                />
+  </url><url>
+    <loc>https://scientiatw.live/tags/%E5%A4%96%E6%8E%A5%E5%BC%8F%E9%A1%AF%E7%A4%BA%E5%8D%A1/</loc>
+    <lastmod>2025-09-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://scientiatw.live/categories/%E7%A7%91%E6%8A%80/</loc>
+    <lastmod>2025-09-02T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://scientiatw.live/page/</loc>
-    <lastmod>2025-08-31T11:09:00+00:00</lastmod>
+    <lastmod>2025-08-31T14:02:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -26,6 +86,19 @@
                 rel="alternate"
                 hreflang="zh-tw"
                 href="https://scientiatw.live/page/"
+                />
+  </url><url>
+    <loc>https://scientiatw.live/use/</loc>
+    <lastmod>2025-08-31T14:02:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://scientiatw.live/en/use/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-tw"
+                href="https://scientiatw.live/use/"
                 />
   </url><url>
     <loc>https://scientiatw.live/now/</loc>
@@ -39,19 +112,6 @@
                 rel="alternate"
                 hreflang="zh-tw"
                 href="https://scientiatw.live/now/"
-                />
-  </url><url>
-    <loc>https://scientiatw.live/post/</loc>
-    <lastmod>2025-08-30T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://scientiatw.live/en/post/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-tw"
-                href="https://scientiatw.live/post/"
                 />
   </url><url>
     <loc>https://scientiatw.live/about/</loc>
@@ -73,47 +133,8 @@
     <loc>https://scientiatw.live/p/sitopia-meaning-of-wonderful-life/</loc>
     <lastmod>2025-08-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://scientiatw.live/categories/</loc>
-    <lastmod>2025-08-21T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://scientiatw.live/en/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-tw"
-                href="https://scientiatw.live/categories/"
-                />
-  </url><url>
-    <loc>https://scientiatw.live/tags/</loc>
-    <lastmod>2025-08-21T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://scientiatw.live/en/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-tw"
-                href="https://scientiatw.live/tags/"
-                />
-  </url><url>
     <loc>https://scientiatw.live/tags/%E4%BA%BA%E7%94%9F/</loc>
     <lastmod>2025-08-21T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://scientiatw.live/use/</loc>
-    <lastmod>2025-08-21T14:20:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://scientiatw.live/en/use/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-tw"
-                href="https://scientiatw.live/use/"
-                />
   </url><url>
     <loc>https://scientiatw.live/tags/%E5%93%B2%E5%AD%B8/</loc>
     <lastmod>2025-08-21T00:00:00+00:00</lastmod>
@@ -273,9 +294,6 @@
   </url><url>
     <loc>https://scientiatw.live/p/ai-vs-robots-txt/</loc>
     <lastmod>2025-08-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://scientiatw.live/categories/%E7%A7%91%E6%8A%80/</loc>
-    <lastmod>2025-08-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://scientiatw.live/tags/%E6%90%9C%E5%B0%8B%E5%BC%95%E6%93%8E/</loc>
     <lastmod>2025-08-12T00:00:00+00:00</lastmod>

@@ -3,11 +3,31 @@ User-agent: *
   
 Allow: /
   
-Allow: /page/
+Allow: /categories/
   
-Allow: /now/
+Allow: /tags/cuda/
+  
+Allow: /tags/egpu/
+  
+Allow: /tags/framework/
+  
+Allow: /p/oculink-egpu-for-cuda/
+  
+Allow: /tags/oculink/
   
 Allow: /post/
+  
+Allow: /tags/
+  
+Allow: /tags/%E5%A4%96%E6%8E%A5%E5%BC%8F%E9%A1%AF%E7%A4%BA%E5%8D%A1/
+  
+Allow: /categories/%E7%A7%91%E6%8A%80/
+  
+Allow: /page/
+  
+Allow: /use/
+  
+Allow: /now/
   
 Allow: /about/
   
@@ -15,13 +35,7 @@ Allow: /links/
   
 Allow: /p/sitopia-meaning-of-wonderful-life/
   
-Allow: /categories/
-  
-Allow: /tags/
-  
 Allow: /tags/%E4%BA%BA%E7%94%9F/
-  
-Allow: /use/
   
 Allow: /tags/%E5%93%B2%E5%AD%B8/
   
@@ -128,8 +142,6 @@ Allow: /tags/ai%E7%88%AC%E8%9F%B2/
 Allow: /tags/robots.txt/
   
 Allow: /p/ai-vs-robots-txt/
-  
-Allow: /categories/%E7%A7%91%E6%8A%80/
   
 Allow: /tags/%E6%90%9C%E5%B0%8B%E5%BC%95%E6%93%8E/
   
