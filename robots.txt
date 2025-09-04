@@ -5,6 +5,24 @@ Allow: /
   
 Allow: /categories/
   
+Allow: /post/
+  
+Allow: /tags/
+  
+Allow: /tags/%E5%BF%83%E8%A1%80%E7%AE%A1%E7%96%BE%E7%97%85/
+  
+Allow: /tags/%E4%BB%A3%E8%AC%9D/
+  
+Allow: /p/metabolic-power-is-key-of-health/
+  
+Allow: /categories/%E7%94%9F%E6%B4%BB/
+  
+Allow: /tags/%E5%81%A5%E5%BA%B7/
+  
+Allow: /tags/%E8%B6%85%E5%8A%A0%E5%B7%A5%E9%A3%9F%E5%93%81/
+  
+Allow: /tags/%E7%B3%96%E5%B0%BF%E7%97%85/
+  
 Allow: /tags/cuda/
   
 Allow: /tags/egpu/
@@ -16,10 +34,6 @@ Allow: /p/oculink-egpu-for-cuda/
 Allow: /tags/oculink/
   
 Allow: /page/
-  
-Allow: /post/
-  
-Allow: /tags/
   
 Allow: /tags/%E5%A4%96%E6%8E%A5%E5%BC%8F%E9%A1%AF%E7%A4%BA%E5%8D%A1/
   
@@ -60,8 +74,6 @@ Allow: /tags/%E9%97%9C%E9%8D%B5/
 Allow: /p/slow-aging-cognitive-reserve/
   
 Allow: /tags/%E5%A4%B1%E6%99%BA%E7%97%87/
-  
-Allow: /tags/%E5%81%A5%E5%BA%B7/
   
 Allow: /tags/%E8%85%A6%E6%9C%AC/
   
@@ -196,8 +208,6 @@ Allow: /tags/%E9%96%B1%E8%AE%80%E5%BF%83%E5%BE%97/
 Allow: /tags/%E8%81%B7%E6%B6%AF/
   
 Allow: /p/life-lessons-from-the-first-half-century-of-my-career-focused-1/
-  
-Allow: /categories/%E7%94%9F%E6%B4%BB/
   
 Allow: /p/life-lessons-from-the-first-half-century-of-my-career-people-focused-2/
   
