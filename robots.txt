@@ -9,15 +9,29 @@ Allow: /post/
   
 Allow: /tags/
   
+Allow: /tags/%E5%8A%A0%E5%B7%A5%E9%A3%9F%E5%93%81/
+  
+Allow: /categories/%E7%94%9F%E6%B4%BB/
+  
+Allow: /tags/%E5%8E%9F%E5%9E%8B%E9%A3%9F%E7%89%A9/
+  
+Allow: /tags/%E5%81%A5%E5%BA%B7/
+  
+Allow: /p/more-eat-more-tired/
+  
+Allow: /tags/%E9%A3%B2%E9%A3%9F/
+  
+Allow: /tags/%E6%85%A2%E6%80%A7%E7%99%BC%E7%82%8E/
+  
+Allow: /page/
+  
+Allow: /whois/
+  
 Allow: /tags/%E5%BF%83%E8%A1%80%E7%AE%A1%E7%96%BE%E7%97%85/
   
 Allow: /tags/%E4%BB%A3%E8%AC%9D/
   
 Allow: /p/metabolic-power-is-key-of-health/
-  
-Allow: /categories/%E7%94%9F%E6%B4%BB/
-  
-Allow: /tags/%E5%81%A5%E5%BA%B7/
   
 Allow: /tags/%E8%B6%85%E5%8A%A0%E5%B7%A5%E9%A3%9F%E5%93%81/
   
@@ -33,13 +47,9 @@ Allow: /p/oculink-egpu-for-cuda/
   
 Allow: /tags/oculink/
   
-Allow: /page/
-  
 Allow: /tags/%E5%A4%96%E6%8E%A5%E5%BC%8F%E9%A1%AF%E7%A4%BA%E5%8D%A1/
   
 Allow: /categories/%E7%A7%91%E6%8A%80/
-  
-Allow: /whois/
   
 Allow: /use/
   
@@ -52,8 +62,6 @@ Allow: /p/sitopia-meaning-of-wonderful-life/
 Allow: /tags/%E4%BA%BA%E7%94%9F/
   
 Allow: /tags/%E5%93%B2%E5%AD%B8/
-  
-Allow: /tags/%E9%A3%B2%E9%A3%9F/
   
 Allow: /categories/%E9%96%B1%E8%AE%80/
   
