@@ -3,9 +3,13 @@ User-agent: *
   
 Allow: /
   
-Allow: /categories/
+Allow: /page/
   
 Allow: /post/
+  
+Allow: /links/
+  
+Allow: /categories/
   
 Allow: /tags/
   
@@ -22,8 +26,6 @@ Allow: /p/more-eat-more-tired/
 Allow: /tags/%E9%A3%B2%E9%A3%9F/
   
 Allow: /tags/%E6%85%A2%E6%80%A7%E7%99%BC%E7%82%8E/
-  
-Allow: /page/
   
 Allow: /whois/
   
@@ -54,8 +56,6 @@ Allow: /categories/%E7%A7%91%E6%8A%80/
 Allow: /use/
   
 Allow: /now/
-  
-Allow: /links/
   
 Allow: /p/sitopia-meaning-of-wonderful-life/
   
