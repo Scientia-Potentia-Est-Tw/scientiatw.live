@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://scientiatw.live/</loc>
-    <lastmod>2025-09-10T23:00:00+00:00</lastmod>
+    <lastmod>2025-09-11T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -14,6 +14,69 @@
                 hreflang="zh-tw"
                 href="https://scientiatw.live/"
                 />
+  </url><url>
+    <loc>https://scientiatw.live/categories/</loc>
+    <lastmod>2025-09-11T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://scientiatw.live/en/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-tw"
+                href="https://scientiatw.live/categories/"
+                />
+  </url><url>
+    <loc>https://scientiatw.live/tags/fomo/</loc>
+    <lastmod>2025-09-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://scientiatw.live/post/</loc>
+    <lastmod>2025-09-11T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://scientiatw.live/en/post/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-tw"
+                href="https://scientiatw.live/post/"
+                />
+  </url><url>
+    <loc>https://scientiatw.live/tags/</loc>
+    <lastmod>2025-09-11T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://scientiatw.live/en/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-tw"
+                href="https://scientiatw.live/tags/"
+                />
+  </url><url>
+    <loc>https://scientiatw.live/categories/%E7%94%9F%E6%B4%BB/</loc>
+    <lastmod>2025-09-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://scientiatw.live/tags/%E8%87%AA%E6%88%91%E5%83%B9%E5%80%BC/</loc>
+    <lastmod>2025-09-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://scientiatw.live/p/fear-of-missing-out-and-me/</loc>
+    <lastmod>2025-09-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://scientiatw.live/tags/%E7%A4%BE%E7%BE%A4%E5%AA%92%E9%AB%94/</loc>
+    <lastmod>2025-09-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://scientiatw.live/tags/%E7%84%A6%E6%85%AE/</loc>
+    <lastmod>2025-09-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://scientiatw.live/tags/%E9%8C%AF%E5%A4%B1%E6%81%90%E6%87%BC/</loc>
+    <lastmod>2025-09-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://scientiatw.live/tags/%E9%8C%AF%E5%A4%B1%E7%84%A6%E6%85%AE/</loc>
+    <lastmod>2025-09-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://scientiatw.live/page/</loc>
     <lastmod>2025-09-10T23:00:00+00:00</lastmod>
@@ -28,52 +91,10 @@
                 href="https://scientiatw.live/page/"
                 />
   </url><url>
-    <loc>https://scientiatw.live/post/</loc>
-    <lastmod>2025-09-10T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://scientiatw.live/en/post/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-tw"
-                href="https://scientiatw.live/post/"
-                />
-  </url><url>
     <loc>https://scientiatw.live/links/</loc>
     <lastmod>2025-09-10T23:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://scientiatw.live/categories/</loc>
-    <lastmod>2025-09-10T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://scientiatw.live/en/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-tw"
-                href="https://scientiatw.live/categories/"
-                />
-  </url><url>
-    <loc>https://scientiatw.live/tags/</loc>
-    <lastmod>2025-09-10T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://scientiatw.live/en/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-tw"
-                href="https://scientiatw.live/tags/"
-                />
-  </url><url>
     <loc>https://scientiatw.live/tags/%E5%8A%A0%E5%B7%A5%E9%A3%9F%E5%93%81/</loc>
-    <lastmod>2025-09-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://scientiatw.live/categories/%E7%94%9F%E6%B4%BB/</loc>
     <lastmod>2025-09-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://scientiatw.live/tags/%E5%8E%9F%E5%9E%8B%E9%A3%9F%E7%89%A9/</loc>
@@ -371,9 +392,6 @@
     <lastmod>2025-08-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://scientiatw.live/tags/%E4%BD%83%E8%BE%B2/</loc>
-    <lastmod>2025-08-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://scientiatw.live/tags/%E7%A4%BE%E7%BE%A4%E5%AA%92%E9%AB%94/</loc>
     <lastmod>2025-08-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://scientiatw.live/tags/%E5%BB%BA%E8%AD%B0/</loc>

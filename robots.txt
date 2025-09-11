@@ -3,19 +3,33 @@ User-agent: *
   
 Allow: /
   
-Allow: /page/
+Allow: /categories/
+  
+Allow: /tags/fomo/
   
 Allow: /post/
   
-Allow: /links/
-  
-Allow: /categories/
-  
 Allow: /tags/
   
-Allow: /tags/%E5%8A%A0%E5%B7%A5%E9%A3%9F%E5%93%81/
-  
 Allow: /categories/%E7%94%9F%E6%B4%BB/
+  
+Allow: /tags/%E8%87%AA%E6%88%91%E5%83%B9%E5%80%BC/
+  
+Allow: /p/fear-of-missing-out-and-me/
+  
+Allow: /tags/%E7%A4%BE%E7%BE%A4%E5%AA%92%E9%AB%94/
+  
+Allow: /tags/%E7%84%A6%E6%85%AE/
+  
+Allow: /tags/%E9%8C%AF%E5%A4%B1%E6%81%90%E6%87%BC/
+  
+Allow: /tags/%E9%8C%AF%E5%A4%B1%E7%84%A6%E6%85%AE/
+  
+Allow: /page/
+  
+Allow: /links/
+  
+Allow: /tags/%E5%8A%A0%E5%B7%A5%E9%A3%9F%E5%93%81/
   
 Allow: /tags/%E5%8E%9F%E5%9E%8B%E9%A3%9F%E7%89%A9/
   
@@ -194,8 +208,6 @@ Allow: /p/workplace-visibility/
 Allow: /tags/david-a.-patterson/
   
 Allow: /tags/%E4%BD%83%E8%BE%B2/
-  
-Allow: /tags/%E7%A4%BE%E7%BE%A4%E5%AA%92%E9%AB%94/
   
 Allow: /tags/%E5%BB%BA%E8%AD%B0/
   
