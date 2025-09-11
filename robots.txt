@@ -7,6 +7,8 @@ Allow: /categories/
   
 Allow: /tags/fomo/
   
+Allow: /page/
+  
 Allow: /post/
   
 Allow: /tags/
@@ -19,13 +21,13 @@ Allow: /p/fear-of-missing-out-and-me/
   
 Allow: /tags/%E7%A4%BE%E7%BE%A4%E5%AA%92%E9%AB%94/
   
+Allow: /now/
+  
 Allow: /tags/%E7%84%A6%E6%85%AE/
   
 Allow: /tags/%E9%8C%AF%E5%A4%B1%E6%81%90%E6%87%BC/
   
 Allow: /tags/%E9%8C%AF%E5%A4%B1%E7%84%A6%E6%85%AE/
-  
-Allow: /page/
   
 Allow: /links/
   
@@ -68,8 +70,6 @@ Allow: /tags/%E5%A4%96%E6%8E%A5%E5%BC%8F%E9%A1%AF%E7%A4%BA%E5%8D%A1/
 Allow: /categories/%E7%A7%91%E6%8A%80/
   
 Allow: /use/
-  
-Allow: /now/
   
 Allow: /p/sitopia-meaning-of-wonderful-life/
   
