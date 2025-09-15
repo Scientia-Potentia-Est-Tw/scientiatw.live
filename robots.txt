@@ -7,13 +7,23 @@ Allow: /categories/
   
 Allow: /tags/fomo/
   
-Allow: /page/
+Allow: /tags/jomo/
   
 Allow: /post/
   
 Allow: /tags/
   
 Allow: /categories/%E7%94%9F%E6%B4%BB/
+  
+Allow: /p/from-fomo-to-jomo/
+  
+Allow: /tags/%E5%B0%8D%E7%AD%96/
+  
+Allow: /tags/%E9%8C%AF%E5%A4%B1%E5%BF%AB%E6%A8%82/
+  
+Allow: /tags/%E9%8C%AF%E5%A4%B1%E7%84%A6%E6%85%AE/
+  
+Allow: /page/
   
 Allow: /tags/%E8%87%AA%E6%88%91%E5%83%B9%E5%80%BC/
   
@@ -26,8 +36,6 @@ Allow: /now/
 Allow: /tags/%E7%84%A6%E6%85%AE/
   
 Allow: /tags/%E9%8C%AF%E5%A4%B1%E6%81%90%E6%87%BC/
-  
-Allow: /tags/%E9%8C%AF%E5%A4%B1%E7%84%A6%E6%85%AE/
   
 Allow: /links/
   
