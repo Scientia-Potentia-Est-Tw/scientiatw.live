@@ -3,6 +3,10 @@ User-agent: *
   
 Allow: /
   
+Allow: /page/
+  
+Allow: /whois/
+  
 Allow: /categories/
   
 Allow: /tags/fomo/
@@ -22,8 +26,6 @@ Allow: /tags/%E5%B0%8D%E7%AD%96/
 Allow: /tags/%E9%8C%AF%E5%A4%B1%E5%BF%AB%E6%A8%82/
   
 Allow: /tags/%E9%8C%AF%E5%A4%B1%E7%84%A6%E6%85%AE/
-  
-Allow: /page/
   
 Allow: /tags/%E8%87%AA%E6%88%91%E5%83%B9%E5%80%BC/
   
@@ -50,8 +52,6 @@ Allow: /p/more-eat-more-tired/
 Allow: /tags/%E9%A3%B2%E9%A3%9F/
   
 Allow: /tags/%E6%85%A2%E6%80%A7%E7%99%BC%E7%82%8E/
-  
-Allow: /whois/
   
 Allow: /tags/%E5%BF%83%E8%A1%80%E7%AE%A1%E7%96%BE%E7%97%85/
   
