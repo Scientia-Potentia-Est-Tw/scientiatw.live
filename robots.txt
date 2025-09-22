@@ -5,6 +5,8 @@ Allow: /
   
 Allow: /page/
   
+Allow: /now/
+  
 Allow: /whois/
   
 Allow: /categories/
@@ -32,8 +34,6 @@ Allow: /tags/%E8%87%AA%E6%88%91%E5%83%B9%E5%80%BC/
 Allow: /p/fear-of-missing-out-and-me/
   
 Allow: /tags/%E7%A4%BE%E7%BE%A4%E5%AA%92%E9%AB%94/
-  
-Allow: /now/
   
 Allow: /tags/%E7%84%A6%E6%85%AE/
   

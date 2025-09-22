@@ -7,28 +7,10 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-tw</language>
         <copyright>Scientia</copyright>
-        <lastBuildDate>Sat, 20 Sep 2025 14:32:00 +0000</lastBuildDate><atom:link href="https://scientiatw.live/page/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>關於我</title>
-        <link>https://scientiatw.live/whois/</link>
-        <pubDate>Sat, 20 Sep 2025 00:00:00 +0000</pubDate>
-        
-        <guid>https://scientiatw.live/whois/</guid>
-        <description>&lt;script&gt;var ConverlyCustomData = {channelId: null};&lt;/script&gt;
-&lt;script async defer src=&#34;https://cdn.affiliates.one/production/adlinks/9632d86e82ddae2c6327eb55c530875fb8f852063ff7075dd96c7f802672af39.js&#34;&gt;&lt;/script&gt;
-&lt;p&gt;我是站長Scientia，本名&lt;a class=&#34;link&#34; href=&#34;https://scientia-potentia-est.com/zh/hong-sheng-huang-zh/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;黃宏勝&lt;/a&gt;，臺東人&lt;/p&gt;
-&lt;p&gt;本社群部落格主要撰寫有關我生活中所見所聞&lt;/p&gt;
-&lt;p&gt;任何問題請寄到信箱內：scientia.polymath@gmail.com&lt;/p&gt;
-&lt;p&gt;想看技術部落格的話請前往：&lt;a class=&#34;link&#34; href=&#34;https://scientia-potentia-est.com/zh&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;資通安全第一品牌&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;想要訂閱RSS的話請用這個連結：&lt;a class=&#34;link&#34; href=&#34;https://scientiatw.live/index.xml&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;RSS&lt;/a&gt;&lt;/p&gt;
-</description>
-        </item>
-        <item>
+        <lastBuildDate>Mon, 22 Sep 2025 15:17:00 +0000</lastBuildDate><atom:link href="https://scientiatw.live/page/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>近況</title>
         <link>https://scientiatw.live/now/</link>
-        <pubDate>Thu, 11 Sep 2025 00:00:00 +0000</pubDate>
+        <pubDate>Mon, 22 Sep 2025 00:00:00 +0000</pubDate>
         
         <guid>https://scientiatw.live/now/</guid>
         <description>&lt;h2 id=&#34;-最近的狀態&#34;&gt;🏡 最近的狀態
@@ -59,11 +41,29 @@
     &gt;Reducing Quantum Error Correction Overhead with Versatile Flag-Sharing Syndrome Extraction Circuits&lt;/a&gt;：嘗試看看賴教授的CSS-code能不能推廣到其他種Linear Block code上&lt;/li&gt;
 &lt;li&gt;📃 &lt;a class=&#34;link&#34; href=&#34;https://arxiv.org/abs/2201.05215&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Depth optimization of CZ, CNOT, and Clifford circuits&lt;/a&gt;：看一下其他人針對CZ、CNOT以及Clifford電路的複雜度降低手法&lt;/li&gt;
-&lt;li&gt;📖 &lt;a class=&#34;link&#34; href=&#34;https://www.books.com.tw/exep/assp.php/scientia/products/0010969080?utm_source=scientia&amp;amp;utm_medium=ap-books&amp;amp;utm_content=recommend&amp;amp;utm_campaign=ap-202509&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;《奇幻熊在網路釣魚》：為何網際網路如此脆弱？駭客如何利用人性竊取機密，以及我們如何更安全&lt;/a&gt;：通俗的網路安全書籍，適合對資安有一定程度的讀者看&lt;/li&gt;
+&lt;li&gt;📖 &lt;a class=&#34;link&#34; href=&#34;https://www.books.com.tw/exep/assp.php/scientia/products/0010775530?utm_source=scientia&amp;amp;utm_medium=ap-books&amp;amp;utm_content=recommend&amp;amp;utm_campaign=ap-202509&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;《奇蹟》&lt;/a&gt;: 楊定一博士的全部生命系列，我好像似懂非懂他想講的感受&lt;/li&gt;
 &lt;li&gt;🎧 &lt;a class=&#34;link&#34; href=&#34;https://mondayblueeee.firstory.io/episodes&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;茫DAY不錄&lt;/a&gt;：最近開始聽的Podcast，把諧音梗用到極致也是一種韻味&lt;/li&gt;
 &lt;/ul&gt;
+</description>
+        </item>
+        <item>
+        <title>關於我</title>
+        <link>https://scientiatw.live/whois/</link>
+        <pubDate>Sat, 20 Sep 2025 00:00:00 +0000</pubDate>
+        
+        <guid>https://scientiatw.live/whois/</guid>
+        <description>&lt;script&gt;var ConverlyCustomData = {channelId: null};&lt;/script&gt;
+&lt;script async defer src=&#34;https://cdn.affiliates.one/production/adlinks/9632d86e82ddae2c6327eb55c530875fb8f852063ff7075dd96c7f802672af39.js&#34;&gt;&lt;/script&gt;
+&lt;p&gt;我是站長Scientia，本名&lt;a class=&#34;link&#34; href=&#34;https://scientia-potentia-est.com/zh/hong-sheng-huang-zh/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;黃宏勝&lt;/a&gt;，臺東人&lt;/p&gt;
+&lt;p&gt;本社群部落格主要撰寫有關我生活中所見所聞&lt;/p&gt;
+&lt;p&gt;任何問題請寄到信箱內：scientia.polymath@gmail.com&lt;/p&gt;
+&lt;p&gt;想看技術部落格的話請前往：&lt;a class=&#34;link&#34; href=&#34;https://scientia-potentia-est.com/zh&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;資通安全第一品牌&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;想要訂閱RSS的話請用這個連結：&lt;a class=&#34;link&#34; href=&#34;https://scientiatw.live/index.xml&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;RSS&lt;/a&gt;&lt;/p&gt;
 </description>
         </item>
         <item>
@@ -310,7 +310,7 @@
 &lt;h2 id=&#34;-電子紙產品&#34;&gt;📜 電子紙產品
 &lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://moo.im/a/luyzKS&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Readmoo Mooink Pro 2C&lt;/a&gt; - 市面上第一台13.3吋彩色電子書閱讀器由讀墨推出，柔性螢幕讓機器非常輕薄，讓我在看paper時可以手持走動，也可以在教課時一手握著另一手寫黑板，做研究時的好夥伴&lt;/li&gt;
+    &gt;Readmoo Mooink Pro 2C&lt;/a&gt; - Readmoo讀墨推出的13.3吋彩色電子書閱讀器，柔性螢幕讓機器非常輕薄，讓我在看paper時可以手持走動，也可以在教課時一手握著另一手寫黑板，做研究時的好夥伴&lt;/li&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://gl.kobobooks.com/zh/products/kobo-libra-2&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Kobo Libra 2&lt;/a&gt; - 7吋黑白電子書閱讀器，黑白螢幕讓文字非常清楚，Kobo的系統一直以來都非常穩定，在室內使用很舒適，但新出的彩色版上市後就不再販售了&lt;/li&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://r10.to/hkkbYN&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
