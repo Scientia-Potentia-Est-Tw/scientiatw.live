@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>EGPU on Scientia&#39;s live</title>
+        <title>EGPU on Hong-Sheng Huang&#39;s live</title>
         <link>https://scientiatw.live/tags/egpu/</link>
-        <description>Recent content in EGPU on Scientia&#39;s live</description>
+        <description>Recent content in EGPU on Hong-Sheng Huang&#39;s live</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-tw</language>
-        <copyright>Scientia</copyright>
+        <copyright>Hong-Sheng Huang</copyright>
         <lastBuildDate>Tue, 02 Sep 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://scientiatw.live/tags/egpu/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Framework工作機裝設Oculink</title>
         <link>https://scientiatw.live/p/oculink-egpu-for-cuda/</link>
