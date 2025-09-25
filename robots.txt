@@ -3,23 +3,35 @@ User-agent: *
   
 Allow: /
   
+Allow: /categories/
+  
+Allow: /post/
+  
+Allow: /tags/ptsd/
+  
+Allow: /tags/
+  
+Allow: /categories/%E7%94%9F%E6%B4%BB/
+  
+Allow: /tags/%E4%BF%AE%E5%BE%A9/
+  
+Allow: /p/fix-grief/
+  
+Allow: /tags/%E7%97%85%E8%AD%98%E6%84%9F/
+  
+Allow: /tags/%E5%89%B5%E5%82%B7%E5%BE%8C%E5%A3%93%E5%8A%9B%E7%97%87%E5%80%99%E7%BE%A4/
+  
+Allow: /tags/%E6%82%B2%E5%82%B7/
+  
 Allow: /page/
   
 Allow: /now/
   
 Allow: /whois/
   
-Allow: /categories/
-  
 Allow: /tags/fomo/
   
 Allow: /tags/jomo/
-  
-Allow: /post/
-  
-Allow: /tags/
-  
-Allow: /categories/%E7%94%9F%E6%B4%BB/
   
 Allow: /p/from-fomo-to-jomo/
   
