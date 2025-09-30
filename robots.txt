@@ -3,6 +3,12 @@ User-agent: *
   
 Allow: /
   
+Allow: /page/
+  
+Allow: /use/
+  
+Allow: /whois/
+  
 Allow: /categories/
   
 Allow: /post/
@@ -23,11 +29,7 @@ Allow: /tags/%E5%89%B5%E5%82%B7%E5%BE%8C%E5%A3%93%E5%8A%9B%E7%97%87%E5%80%99%E7%
   
 Allow: /tags/%E6%82%B2%E5%82%B7/
   
-Allow: /page/
-  
 Allow: /now/
-  
-Allow: /whois/
   
 Allow: /tags/fomo/
   
@@ -88,8 +90,6 @@ Allow: /tags/oculink/
 Allow: /tags/%E5%A4%96%E6%8E%A5%E5%BC%8F%E9%A1%AF%E7%A4%BA%E5%8D%A1/
   
 Allow: /categories/%E7%A7%91%E6%8A%80/
-  
-Allow: /use/
   
 Allow: /p/sitopia-meaning-of-wonderful-life/
   
