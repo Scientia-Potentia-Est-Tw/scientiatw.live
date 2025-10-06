@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://scientiatw.live/en/</loc>
-    <lastmod>2025-09-30T11:41:00+00:00</lastmod>
+    <lastmod>2025-10-06T10:40:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-tw"
@@ -16,7 +16,7 @@
                 />
   </url><url>
     <loc>https://scientiatw.live/en/page/</loc>
-    <lastmod>2025-09-30T11:41:00+00:00</lastmod>
+    <lastmod>2025-10-06T10:40:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-tw"
@@ -26,6 +26,19 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://scientiatw.live/en/page/"
+                />
+  </url><url>
+    <loc>https://scientiatw.live/en/whois/</loc>
+    <lastmod>2025-10-06T10:40:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-tw"
+                href="https://scientiatw.live/whois/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://scientiatw.live/en/whois/"
                 />
   </url><url>
     <loc>https://scientiatw.live/en/use/</loc>
@@ -39,19 +52,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://scientiatw.live/en/use/"
-                />
-  </url><url>
-    <loc>https://scientiatw.live/en/whois/</loc>
-    <lastmod>2025-09-20T14:32:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-tw"
-                href="https://scientiatw.live/whois/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://scientiatw.live/en/whois/"
                 />
   </url><url>
     <loc>https://scientiatw.live/en/now/</loc>
