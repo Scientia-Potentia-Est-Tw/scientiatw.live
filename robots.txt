@@ -5,7 +5,7 @@ Allow: /
   
 Allow: /page/
   
-Allow: /whois/
+Allow: /about/
   
 Allow: /use/
   
@@ -371,7 +371,7 @@ Allow: /en/
   
 Allow: /en/page/
   
-Allow: /en/whois/
+Allow: /en/about/
   
 Allow: /en/use/
   
