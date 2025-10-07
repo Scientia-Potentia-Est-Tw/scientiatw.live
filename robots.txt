@@ -5,9 +5,9 @@ Allow: /
   
 Allow: /page/
   
-Allow: /about/
-  
 Allow: /use/
+  
+Allow: /about/
   
 Allow: /categories/
   
@@ -371,9 +371,9 @@ Allow: /en/
   
 Allow: /en/page/
   
-Allow: /en/about/
-  
 Allow: /en/use/
+  
+Allow: /en/about/
   
 Allow: /en/now/
   

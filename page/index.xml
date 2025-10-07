@@ -7,28 +7,10 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-tw</language>
         <copyright>Hong-Sheng Huang</copyright>
-        <lastBuildDate>Mon, 06 Oct 2025 10:40:00 +0000</lastBuildDate><atom:link href="https://scientiatw.live/page/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>關於我</title>
-        <link>https://scientiatw.live/about/</link>
-        <pubDate>Mon, 06 Oct 2025 00:00:00 +0000</pubDate>
-        
-        <guid>https://scientiatw.live/about/</guid>
-        <description>&lt;script&gt;var ConverlyCustomData = {channelId: null};&lt;/script&gt;
-&lt;script async defer src=&#34;https://cdn.affiliates.one/production/adlinks/9632d86e82ddae2c6327eb55c530875fb8f852063ff7075dd96c7f802672af39.js&#34;&gt;&lt;/script&gt;
-&lt;p&gt;我是&lt;a class=&#34;link&#34; href=&#34;https://scientia-potentia-est.com/zh/hong-sheng-huang-zh/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;黃宏勝&lt;/a&gt;，臺東人&lt;/p&gt;
-&lt;p&gt;本社群部落格主要撰寫有關我生活中所見所聞&lt;/p&gt;
-&lt;p&gt;任何問題請寄到信箱內：hongshenghuang@proton.me&lt;/p&gt;
-&lt;p&gt;技術部落格的話請前往：&lt;a class=&#34;link&#34; href=&#34;https://scientia-potentia-est.com/zh&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;資通安全第一品牌&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;訂閱RSS的話請用這個連結：&lt;a class=&#34;link&#34; href=&#34;https://scientiatw.live/index.xml&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;RSS&lt;/a&gt;&lt;/p&gt;
-</description>
-        </item>
-        <item>
+        <lastBuildDate>Tue, 07 Oct 2025 15:09:00 +0000</lastBuildDate><atom:link href="https://scientiatw.live/page/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>使用</title>
         <link>https://scientiatw.live/use/</link>
-        <pubDate>Tue, 30 Sep 2025 00:00:00 +0000</pubDate>
+        <pubDate>Tue, 07 Oct 2025 00:00:00 +0000</pubDate>
         
         <guid>https://scientiatw.live/use/</guid>
         <description>&lt;h2 id=&#34;-電腦軟體&#34;&gt;🖥️ 電腦軟體
@@ -67,8 +49,8 @@
 &lt;/ul&gt;
 &lt;h3 id=&#34;-筆記軟體編輯器&#34;&gt;📝 筆記軟體/編輯器
 &lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://join.heptabase.com?invite-acc-id=561b8d74-f959-4387-be87-ccbb19514d75&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Heptabase&lt;/a&gt; - 強大的白板功能，用來撰寫卡片盒筆記，整合各種資料以及AI Chat功能超級方便&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://obsidian.md/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Obsidian&lt;/a&gt; - 免費且開源的筆記軟體，用來撰寫卡片盒筆記很方便，Canvas功能雖與Heptabase的白板相比之下稍嫌不足，但也夠用了&lt;/li&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.notion.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Notion&lt;/a&gt; - 用免費模板紀錄專案進度、設備管理，以及學習語言時Notion的Database是強項，但沒有E2EE所以不建議寫非常隱私的東西在裡面&lt;/li&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://code.visualstudio.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
@@ -157,6 +139,24 @@
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://evo.audio/products/audio-interfaces/evo-4/overview/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Audient Evo 4&lt;/a&gt; - 入門級錄音介面，我用數位鋼琴輸出TRS插一組line孔開立體聲監聽對於初學者來說就很夠用了&lt;/li&gt;
 &lt;/ul&gt;
+</description>
+        </item>
+        <item>
+        <title>關於我</title>
+        <link>https://scientiatw.live/about/</link>
+        <pubDate>Mon, 06 Oct 2025 00:00:00 +0000</pubDate>
+        
+        <guid>https://scientiatw.live/about/</guid>
+        <description>&lt;script&gt;var ConverlyCustomData = {channelId: null};&lt;/script&gt;
+&lt;script async defer src=&#34;https://cdn.affiliates.one/production/adlinks/9632d86e82ddae2c6327eb55c530875fb8f852063ff7075dd96c7f802672af39.js&#34;&gt;&lt;/script&gt;
+&lt;p&gt;我是&lt;a class=&#34;link&#34; href=&#34;https://scientia-potentia-est.com/zh/hong-sheng-huang-zh/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;黃宏勝&lt;/a&gt;，臺東人&lt;/p&gt;
+&lt;p&gt;本社群部落格主要撰寫有關我生活中所見所聞&lt;/p&gt;
+&lt;p&gt;任何問題請寄到信箱內：hongshenghuang@proton.me&lt;/p&gt;
+&lt;p&gt;技術部落格的話請前往：&lt;a class=&#34;link&#34; href=&#34;https://scientia-potentia-est.com/zh&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;資通安全第一品牌&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;訂閱RSS的話請用這個連結：&lt;a class=&#34;link&#34; href=&#34;https://scientiatw.live/index.xml&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;RSS&lt;/a&gt;&lt;/p&gt;
 </description>
         </item>
         <item>
