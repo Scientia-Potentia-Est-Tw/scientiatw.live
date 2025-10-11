@@ -3,19 +3,33 @@ User-agent: *
   
 Allow: /
   
+Allow: /categories/
+  
+Allow: /post/
+  
+Allow: /tags/
+  
+Allow: /tags/%E5%B7%A5%E4%BD%9C%E6%95%88%E7%8E%87/
+  
+Allow: /tags/%E4%BC%91%E6%81%AF/
+  
+Allow: /tags/%E5%A5%BD%E5%A5%BD%E4%BC%91%E6%81%AF/
+  
+Allow: /tags/%E8%BA%AB%E5%BF%83%E5%81%A5%E5%BA%B7/
+  
+Allow: /tags/%E7%9D%A1%E7%9C%A0/
+  
+Allow: /categories/%E9%96%B1%E8%AE%80/
+  
+Allow: /p/well-rest-ignore-rest/
+  
 Allow: /page/
   
 Allow: /use/
   
 Allow: /about/
   
-Allow: /categories/
-  
-Allow: /post/
-  
 Allow: /tags/ptsd/
-  
-Allow: /tags/
   
 Allow: /categories/%E7%94%9F%E6%B4%BB/
   
@@ -96,8 +110,6 @@ Allow: /p/sitopia-meaning-of-wonderful-life/
 Allow: /tags/%E4%BA%BA%E7%94%9F/
   
 Allow: /tags/%E5%93%B2%E5%AD%B8/
-  
-Allow: /categories/%E9%96%B1%E8%AE%80/
   
 Allow: /books/
   
@@ -290,8 +302,6 @@ Allow: /tags/%E5%80%8B%E4%BA%BA%E6%88%90%E9%95%B7/
 Allow: /p/why-we-sleep-harm/
   
 Allow: /tags/%E7%82%BA%E4%BB%80%E9%BA%BC%E8%A6%81%E7%9D%A1%E8%A6%BA/
-  
-Allow: /tags/%E7%9D%A1%E7%9C%A0/
   
 Allow: /tags/pqcrypto/
   
