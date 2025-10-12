@@ -3,6 +3,12 @@ User-agent: *
   
 Allow: /
   
+Allow: /page/
+  
+Allow: /now/
+  
+Allow: /books/
+  
 Allow: /categories/
   
 Allow: /post/
@@ -23,8 +29,6 @@ Allow: /categories/%E9%96%B1%E8%AE%80/
   
 Allow: /p/well-rest-ignore-rest/
   
-Allow: /page/
-  
 Allow: /use/
   
 Allow: /about/
@@ -42,8 +46,6 @@ Allow: /tags/%E7%97%85%E8%AD%98%E6%84%9F/
 Allow: /tags/%E5%89%B5%E5%82%B7%E5%BE%8C%E5%A3%93%E5%8A%9B%E7%97%87%E5%80%99%E7%BE%A4/
   
 Allow: /tags/%E6%82%B2%E5%82%B7/
-  
-Allow: /now/
   
 Allow: /tags/fomo/
   
@@ -110,8 +112,6 @@ Allow: /p/sitopia-meaning-of-wonderful-life/
 Allow: /tags/%E4%BA%BA%E7%94%9F/
   
 Allow: /tags/%E5%93%B2%E5%AD%B8/
-  
-Allow: /books/
   
 Allow: /p/research-literature-keypoints/
   

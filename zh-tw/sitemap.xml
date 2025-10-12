@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://scientiatw.live/</loc>
-    <lastmod>2025-10-11T00:00:00+00:00</lastmod>
+    <lastmod>2025-10-12T11:41:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -14,6 +14,35 @@
                 hreflang="zh-tw"
                 href="https://scientiatw.live/"
                 />
+  </url><url>
+    <loc>https://scientiatw.live/page/</loc>
+    <lastmod>2025-10-12T11:41:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://scientiatw.live/en/page/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-tw"
+                href="https://scientiatw.live/page/"
+                />
+  </url><url>
+    <loc>https://scientiatw.live/now/</loc>
+    <lastmod>2025-10-12T11:28:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://scientiatw.live/en/now/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-tw"
+                href="https://scientiatw.live/now/"
+                />
+  </url><url>
+    <loc>https://scientiatw.live/books/</loc>
+    <lastmod>2025-10-12T11:41:00+00:00</lastmod>
   </url><url>
     <loc>https://scientiatw.live/categories/</loc>
     <lastmod>2025-10-11T00:00:00+00:00</lastmod>
@@ -75,19 +104,6 @@
     <loc>https://scientiatw.live/p/well-rest-ignore-rest/</loc>
     <lastmod>2025-10-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://scientiatw.live/page/</loc>
-    <lastmod>2025-10-07T15:09:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://scientiatw.live/en/page/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-tw"
-                href="https://scientiatw.live/page/"
-                />
-  </url><url>
     <loc>https://scientiatw.live/use/</loc>
     <lastmod>2025-10-07T15:09:00+00:00</lastmod>
     <xhtml:link
@@ -134,19 +150,6 @@
   </url><url>
     <loc>https://scientiatw.live/tags/%E6%82%B2%E5%82%B7/</loc>
     <lastmod>2025-09-25T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://scientiatw.live/now/</loc>
-    <lastmod>2025-09-22T15:17:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://scientiatw.live/en/now/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-tw"
-                href="https://scientiatw.live/now/"
-                />
   </url><url>
     <loc>https://scientiatw.live/tags/fomo/</loc>
     <lastmod>2025-09-24T00:00:00+00:00</lastmod>
@@ -246,9 +249,6 @@
   </url><url>
     <loc>https://scientiatw.live/tags/%E5%93%B2%E5%AD%B8/</loc>
     <lastmod>2025-08-21T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://scientiatw.live/books/</loc>
-    <lastmod>2025-08-14T22:29:00+00:00</lastmod>
   </url><url>
     <loc>https://scientiatw.live/p/research-literature-keypoints/</loc>
     <lastmod>2025-08-12T00:00:00+00:00</lastmod>
