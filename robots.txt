@@ -9,6 +9,8 @@ Allow: /now/
   
 Allow: /books/
   
+Allow: /links/
+  
 Allow: /categories/
   
 Allow: /post/
@@ -68,8 +70,6 @@ Allow: /tags/%E7%A4%BE%E7%BE%A4%E5%AA%92%E9%AB%94/
 Allow: /tags/%E7%84%A6%E6%85%AE/
   
 Allow: /tags/%E9%8C%AF%E5%A4%B1%E6%81%90%E6%87%BC/
-  
-Allow: /links/
   
 Allow: /tags/%E5%8A%A0%E5%B7%A5%E9%A3%9F%E5%93%81/
   
