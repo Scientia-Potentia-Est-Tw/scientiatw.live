@@ -7,10 +7,10 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-tw</language>
         <copyright>Hong-Sheng Huang</copyright>
-        <lastBuildDate>Sun, 12 Oct 2025 16:35:00 +0000</lastBuildDate><atom:link href="https://scientiatw.live/page/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Wed, 15 Oct 2025 14:52:00 +0000</lastBuildDate><atom:link href="https://scientiatw.live/page/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>近況</title>
         <link>https://scientiatw.live/now/</link>
-        <pubDate>Sun, 12 Oct 2025 00:00:00 +0000</pubDate>
+        <pubDate>Wed, 15 Oct 2025 00:00:00 +0000</pubDate>
         
         <guid>https://scientiatw.live/now/</guid>
         <description>&lt;h2 id=&#34;-最近的狀態&#34;&gt;🏡 最近的狀態
@@ -23,8 +23,8 @@
 &lt;h2 id=&#34;-最近網路上的狀態&#34;&gt;🌐 最近網路上的狀態
 &lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;💻 &lt;a class=&#34;link&#34; href=&#34;https://scientia-potentia-est.com/zh/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;資通安全第一品牌&lt;/a&gt;：更新一些最近看錯誤更正碼的內容&lt;/li&gt;
-&lt;li&gt;🗓 社群部落格：更新閱讀心得，找了所有能提升SEO的文章來看來改，但不太感覺到改變，可能還得再等等，但未來有打算更換網域名稱，慢慢來吧&lt;/li&gt;
+    &gt;資通安全第一品牌&lt;/a&gt;：電子報服務持續開放中，每月寄送近期需要特別關注的漏洞資訊以及新技術給讀者&lt;/li&gt;
+&lt;li&gt;🗓 社群部落格：又看了一些個人網站，決定新增電子報訂閱服務，彙整當月心得日記、生活雜記、所思所想以及特別資訊給讀者&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;-最近的專案&#34;&gt;🎯 最近的專案
 &lt;/h2&gt;&lt;ul&gt;
@@ -47,6 +47,569 @@
 &lt;li&gt;🎧 &lt;a class=&#34;link&#34; href=&#34;https://mondayblueeee.firstory.io/episodes&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;茫DAY不錄&lt;/a&gt;：最近開始聽的Podcast，把諧音梗用到極致也是一種韻味&lt;/li&gt;
 &lt;/ul&gt;
+</description>
+        </item>
+        <item>
+        <title>訂閱電子報</title>
+        <link>https://scientiatw.live/newsletter/</link>
+        <pubDate>Wed, 15 Oct 2025 00:00:00 +0000</pubDate>
+        
+        <guid>https://scientiatw.live/newsletter/</guid>
+        <description>&lt;div id=&#34;mc_embed_shell&#34;&gt;
+      &lt;link href=&#34;//cdn-images.mailchimp.com/embedcode/classic-061523.css&#34; rel=&#34;stylesheet&#34; type=&#34;text/css&#34;&gt;
+  &lt;style type=&#34;text/css&#34;&gt;
+        /* #mc_embed_signup{background:#fff; false;clear:left; font:14px Helvetica,Arial,sans-serif; width: 600px;} */
+	#mc_embed_signup {
+      	background: #ffffff;
+      	color: #333333;
+      	clear: left;
+      	font: 14px Helvetica, Arial, sans-serif;
+      	width: 600px;
+      	max-width: 100%;
+      	border-radius: 8px;
+     	padding: 20px;
+    	}
+        /* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
+           We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+	/* Dark mode support */
+    @media (prefers-color-scheme: dark) {
+      #mc_embed_signup {
+        background: #2d2d2d;
+        color: #e0e0e0;
+      }
+&lt;pre&gt;&lt;code&gt;  #mc_embed_signup h2 {
+    color: #ffffff;
+  }
+
+  #mc_embed_signup input[type=&amp;quot;email&amp;quot;],
+  #mc_embed_signup input[type=&amp;quot;text&amp;quot;] {
+    background-color: #3a3a3a;
+    color: #ffffff;
+    border: 1px solid #555;
+  }
+
+  #mc_embed_signup input[type=&amp;quot;email&amp;quot;]:focus,
+  #mc_embed_signup input[type=&amp;quot;text&amp;quot;]:focus {
+    border-color: #777;
+    background-color: #404040;
+  }
+
+  #mc_embed_signup label {
+    color: #e0e0e0;
+  }
+
+  #mc_embed_signup .asterisk {
+    color: #ff6b6b;
+  }
+
+  #mc_embed_signup .button {
+    background-color: #0066cc;
+    color: #ffffff;
+  }
+
+  #mc_embed_signup .button:hover {
+    background-color: #0052a3;
+  }
+
+  #mc_embed_signup a {
+    color: #66b3ff;
+  }
+}
+
+/* Force dark mode class (if your blog uses a class-based dark mode) */
+.dark-mode #mc_embed_signup,
+[data-theme=&amp;quot;dark&amp;quot;] #mc_embed_signup {
+  background: #2d2d2d;
+  color: #e0e0e0;
+}
+
+.dark-mode #mc_embed_signup h2,
+[data-theme=&amp;quot;dark&amp;quot;] #mc_embed_signup h2 {
+  color: #ffffff;
+}
+
+.dark-mode #mc_embed_signup input[type=&amp;quot;email&amp;quot;],
+.dark-mode #mc_embed_signup input[type=&amp;quot;text&amp;quot;],
+[data-theme=&amp;quot;dark&amp;quot;] #mc_embed_signup input[type=&amp;quot;email&amp;quot;],
+[data-theme=&amp;quot;dark&amp;quot;] #mc_embed_signup input[type=&amp;quot;text&amp;quot;] {
+  background-color: #3a3a3a;
+  color: #ffffff;
+  border: 1px solid #555;
+}
+
+.dark-mode #mc_embed_signup input[type=&amp;quot;email&amp;quot;]:focus,
+.dark-mode #mc_embed_signup input[type=&amp;quot;text&amp;quot;]:focus,
+[data-theme=&amp;quot;dark&amp;quot;] #mc_embed_signup input[type=&amp;quot;email&amp;quot;]:focus,
+[data-theme=&amp;quot;dark&amp;quot;] #mc_embed_signup input[type=&amp;quot;text&amp;quot;]:focus {
+  border-color: #777;
+  background-color: #404040;
+}
+
+.dark-mode #mc_embed_signup label,
+[data-theme=&amp;quot;dark&amp;quot;] #mc_embed_signup label {
+  color: #e0e0e0;
+}
+
+.dark-mode #mc_embed_signup .asterisk,
+[data-theme=&amp;quot;dark&amp;quot;] #mc_embed_signup .asterisk {
+  color: #ff6b6b;
+}
+
+.dark-mode #mc_embed_signup .button,
+[data-theme=&amp;quot;dark&amp;quot;] #mc_embed_signup .button {
+  background-color: #0066cc;
+  color: #ffffff;
+}
+
+.dark-mode #mc_embed_signup .button:hover,
+[data-theme=&amp;quot;dark&amp;quot;] #mc_embed_signup .button:hover {
+  background-color: #0052a3;
+}
+
+.dark-mode #mc_embed_signup a,
+[data-theme=&amp;quot;dark&amp;quot;] #mc_embed_signup a {
+  color: #66b3ff;
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;/style&gt;&lt;/p&gt;
+&lt;div id=&#34;mc_embed_signup&#34;&gt;
+    &lt;form action=&#34;https://live.us12.list-manage.com/subscribe/post?u=1cb9611c999051fe721263138&amp;amp;id=4574579802&amp;amp;f_id=00f29fe0f0&#34; method=&#34;post&#34; id=&#34;mc-embedded-subscribe-form&#34; name=&#34;mc-embedded-subscribe-form&#34; class=&#34;validate&#34; target=&#34;_blank&#34;&gt;
+        &lt;div id=&#34;mc_embed_signup_scroll&#34;&gt;
+            &lt;div class=&#34;indicates-required&#34;&gt;&lt;span class=&#34;asterisk&#34;&gt;*&lt;/span&gt; 必填 &lt;/div&gt;
+            &lt;div class=&#34;mc-field-group&#34;&gt;&lt;label for=&#34;mce-EMAIL&#34;&gt; 電子郵件 &lt;span class=&#34;asterisk&#34;&gt;*&lt;/span&gt;&lt;/label&gt;&lt;input type=&#34;email&#34; name=&#34;EMAIL&#34; class=&#34;required email&#34; id=&#34;mce-EMAIL&#34; required=&#34;&#34; value=&#34;&#34;&gt;&lt;/div&gt;
+        &lt;div id=&#34;mce-responses&#34; class=&#34;clear foot&#34;&gt;
+            &lt;div class=&#34;response&#34; id=&#34;mce-error-response&#34; style=&#34;display: none;&#34;&gt;&lt;/div&gt;
+            &lt;div class=&#34;response&#34; id=&#34;mce-success-response&#34; style=&#34;display: none;&#34;&gt;&lt;/div&gt;
+        &lt;/div&gt;
+    &lt;div aria-hidden=&#34;true&#34; style=&#34;position: absolute; left: -5000px;&#34;&gt;
+        /* real people should not fill this in and expect good things - do not remove this or risk form bot signups */
+        &lt;input type=&#34;text&#34; name=&#34;b_1cb9611c999051fe721263138_4574579802&#34; tabindex=&#34;-1&#34; value=&#34;&#34;&gt;
+    &lt;/div&gt;
+        &lt;div class=&#34;optionalParent&#34;&gt;
+            &lt;div class=&#34;clear foot&#34;&gt;
+                &lt;input type=&#34;submit&#34; name=&#34;subscribe&#34; id=&#34;mc-embedded-subscribe&#34; class=&#34;button&#34; value=&#34;訂閱&#34;&gt;
+                &lt;p style=&#34;margin: 0px auto;&#34;&gt;&lt;a href=&#34;http://eepurl.com/jpAXKs&#34; title=&#34;Mailchimp - email marketing made easy and fun&#34;&gt;&lt;span style=&#34;display: inline-block; background-color: black; border-radius: 4px;&#34;&gt;&lt;img class=&#34;refferal_badge&#34; src=&#34;https://digitalasset.intuit.com/render/content/dam/intuit/mc-fe/en_us/images/intuit-mc-rewards-text-light.svg&#34; alt=&#34;Intuit Mailchimp&#34; style=&#34;width: 220px; height: 40px; display: flex; padding: 2px 0px; justify-content: center; align-items: center;&#34;&gt;&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/form&gt;
+&lt;/div&gt;
+&lt;script type=&#34;text/javascript&#34; src=&#34;//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js&#34;&gt;&lt;/script&gt;&lt;script type=&#34;text/javascript&#34;&gt;(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]=&#39;EMAIL&#39;;ftypes[0]=&#39;email&#39;;fnames[1]=&#39;FNAME&#39;;ftypes[1]=&#39;text&#39;;fnames[2]=&#39;LNAME&#39;;ftypes[2]=&#39;text&#39;;fnames[3]=&#39;ADDRESS&#39;;ftypes[3]=&#39;address&#39;;fnames[4]=&#39;PHONE&#39;;ftypes[4]=&#39;phone&#39;;fnames[5]=&#39;BIRTHDAY&#39;;ftypes[5]=&#39;birthday&#39;;fnames[6]=&#39;COMPANY&#39;;ftypes[6]=&#39;text&#39;;}(jQuery));var $mcj = jQuery.noConflict(true);
+    // SMS Phone Multi-Country Functionality
+    if(!window.MC) {
+      window.MC = {};
+    }
+    window.MC.smsPhoneData = {
+      defaultCountryCode: &#39;TW&#39;,
+      programs: [],
+      smsProgramDataCountryNames: []
+    };
+&lt;pre&gt;&lt;code&gt;function getCountryUnicodeFlag(countryCode) {
+   return countryCode.toUpperCase().replace(/./g, (char) =&amp;gt; String.fromCodePoint(char.charCodeAt(0) + 127397))
+};
+
+// HTML sanitization function to prevent XSS
+function sanitizeHtml(str) {
+  if (typeof str !== &#39;string&#39;) return &#39;&#39;;
+  return str
+    .replace(/&amp;amp;/g, &#39;&amp;amp;amp;&#39;)
+    .replace(/&amp;lt;/g, &#39;&amp;amp;lt;&#39;)
+    .replace(/&amp;gt;/g, &#39;&amp;amp;gt;&#39;)
+    .replace(/&amp;quot;/g, &#39;&amp;amp;quot;&#39;)
+    .replace(/&#39;/g, &#39;&amp;amp;#x27;&#39;)
+    .replace(/\//g, &#39;&amp;amp;#x2F;&#39;);
+}
+
+// URL sanitization function to prevent javascript: and data: URLs
+function sanitizeUrl(url) {
+  if (typeof url !== &#39;string&#39;) return &#39;&#39;;
+  const trimmedUrl = url.trim().toLowerCase();
+  if (trimmedUrl.startsWith(&#39;javascript:&#39;) || trimmedUrl.startsWith(&#39;data:&#39;) || trimmedUrl.startsWith(&#39;vbscript:&#39;)) {
+    return &#39;#&#39;;
+  }
+  return url;
+}
+
+const getBrowserLanguage = () =&amp;gt; {
+  if (!window?.navigator?.language?.split(&#39;-&#39;)[1]) {
+    return window?.navigator?.language?.toUpperCase();
+  }
+  return window?.navigator?.language?.split(&#39;-&#39;)[1];
+};
+
+function getDefaultCountryProgram(defaultCountryCode, smsProgramData) {
+  if (!smsProgramData || smsProgramData.length === 0) {
+    return null;
+  }
+
+  const browserLanguage = getBrowserLanguage();
+
+  if (browserLanguage) {
+    const foundProgram = smsProgramData.find(
+      (program) =&amp;gt; program?.countryCode === browserLanguage,
+    );
+    if (foundProgram) {
+      return foundProgram;
+    }
+  }
+
+  if (defaultCountryCode) {
+    const foundProgram = smsProgramData.find(
+      (program) =&amp;gt; program?.countryCode === defaultCountryCode,
+    );
+    if (foundProgram) {
+      return foundProgram;
+    }
+  }
+
+  return smsProgramData[0];
+}
+
+function updateSmsLegalText(countryCode, fieldName) {
+  if (!countryCode || !fieldName) {
+    return;
+  }
+  
+  const programs = window?.MC?.smsPhoneData?.programs;
+  if (!programs || !Array.isArray(programs)) {
+    return;
+  }
+  
+  const program = programs.find(program =&amp;gt; program?.countryCode === countryCode);
+  if (!program || !program.requiredTemplate) {
+    return;
+  }
+  
+  const legalTextElement = document.querySelector(&#39;#legal-text-&#39; + fieldName);
+  if (!legalTextElement) {
+    return;
+  }
+  
+  // Remove HTML tags and clean up the text
+  const divRegex = new RegExp(&#39;&amp;lt;/?[div][^&amp;gt;]*&amp;gt;&#39;, &#39;gi&#39;);
+  const fullAnchorRegex = new RegExp(&#39;&amp;lt;a.*?&amp;lt;/a&amp;gt;&#39;, &#39;g&#39;);
+  const anchorRegex = new RegExp(&#39;&amp;lt;a href=&amp;quot;(.*?)&amp;quot; target=&amp;quot;(.*?)&amp;quot;&amp;gt;(.*?)&amp;lt;/a&amp;gt;&#39;);
+  
+  const requiredLegalText = program.requiredTemplate
+    .replace(divRegex, &#39;&#39;)
+    .replace(fullAnchorRegex, &#39;&#39;)
+    .slice(0, -1);
+  
+  const anchorMatches = program.requiredTemplate.match(anchorRegex);
+  
+  if (anchorMatches &amp;amp;&amp;amp; anchorMatches.length &amp;gt;= 4) {
+    // Create link element safely using DOM methods instead of innerHTML
+    const linkElement = document.createElement(&#39;a&#39;);
+    linkElement.href = sanitizeUrl(anchorMatches[1]);
+    linkElement.target = sanitizeHtml(anchorMatches[2]);
+    linkElement.textContent = sanitizeHtml(anchorMatches[3]);
+    
+    legalTextElement.textContent = requiredLegalText + &#39; &#39;;
+    legalTextElement.appendChild(linkElement);
+    legalTextElement.appendChild(document.createTextNode(&#39;.&#39;));
+  } else {
+    legalTextElement.textContent = requiredLegalText + &#39;.&#39;;
+  }
+}
+
+function generateDropdownOptions(smsProgramData) {
+  if (!smsProgramData || smsProgramData.length === 0) {
+    return &#39;&#39;;
+  }
+  
+  return smsProgramData.map(program =&amp;gt; {
+    const flag = getCountryUnicodeFlag(program.countryCode);
+    const countryName = getCountryName(program.countryCode);
+    const callingCode = program.countryCallingCode || &#39;&#39;;
+    // Sanitize all values to prevent XSS
+    const sanitizedCountryCode = sanitizeHtml(program.countryCode || &#39;&#39;);
+    const sanitizedCountryName = sanitizeHtml(countryName || &#39;&#39;);
+    const sanitizedCallingCode = sanitizeHtml(callingCode || &#39;&#39;);
+    return &#39;&amp;lt;option value=&amp;quot;&#39; + sanitizedCountryCode + &#39;&amp;quot;&amp;gt;&#39; + sanitizedCountryName + &#39; &#39; + sanitizedCallingCode + &#39;&amp;lt;/option&amp;gt;&#39;;
+  }).join(&#39;&#39;);
+}
+
+function getCountryName(countryCode) {
+  if (window.MC?.smsPhoneData?.smsProgramDataCountryNames &amp;amp;&amp;amp; Array.isArray(window.MC.smsPhoneData.smsProgramDataCountryNames)) {
+    for (let i = 0; i &amp;lt; window.MC.smsPhoneData.smsProgramDataCountryNames.length; i++) {
+      if (window.MC.smsPhoneData.smsProgramDataCountryNames[i].code === countryCode) {
+        return window.MC.smsPhoneData.smsProgramDataCountryNames[i].name;
+      }
+    }
+  }
+  return countryCode;
+}
+
+function getDefaultPlaceholder(countryCode) {
+  if (!countryCode || typeof countryCode !== &#39;string&#39;) {
+    return &#39;+1 000 000 0000&#39;; // Default US placeholder
+  }
+  
+  const mockPlaceholders = [
+    {
+  countryCode: &#39;US&#39;,
+  placeholder: &#39;+1 000 000 0000&#39;,
+  helpText: &#39;Include the US country code +1 before the phone number&#39;,
+},
+{
+  countryCode: &#39;GB&#39;,
+  placeholder: &#39;+44 0000 000000&#39;,
+  helpText: &#39;Include the GB country code +44 before the phone number&#39;,
+},
+{
+  countryCode: &#39;CA&#39;,
+  placeholder: &#39;+1 000 000 0000&#39;,
+  helpText: &#39;Include the CA country code +1 before the phone number&#39;,
+},
+{
+  countryCode: &#39;AU&#39;,
+  placeholder: &#39;+61 000 000 000&#39;,
+  helpText: &#39;Include the AU country code +61 before the phone number&#39;,
+},
+{
+  countryCode: &#39;DE&#39;,
+  placeholder: &#39;+49 000 0000000&#39;,
+  helpText: &#39;Fügen Sie vor der Telefonnummer die DE-Ländervorwahl +49 ein&#39;,
+},
+{
+  countryCode: &#39;FR&#39;,
+  placeholder: &#39;+33 0 00 00 00 00&#39;,
+  helpText: &#39;Incluez le code pays FR +33 avant le numéro de téléphone&#39;,
+},
+{
+  countryCode: &#39;ES&#39;,
+  placeholder: &#39;+34 000 000 000&#39;,
+  helpText: &#39;Incluya el código de país ES +34 antes del número de teléfono&#39;,
+},
+{
+  countryCode: &#39;NL&#39;,
+  placeholder: &#39;+31 0 00000000&#39;,
+  helpText: &#39;Voeg de NL-landcode +31 toe vóór het telefoonnummer&#39;,
+},
+{
+  countryCode: &#39;BE&#39;,
+  placeholder: &#39;+32 000 00 00 00&#39;,
+  helpText: &#39;Incluez le code pays BE +32 avant le numéro de téléphone&#39;,
+},
+{
+  countryCode: &#39;CH&#39;,
+  placeholder: &#39;+41 00 000 00 00&#39;,
+  helpText: &#39;Fügen Sie vor der Telefonnummer die CH-Ländervorwahl +41 ein&#39;,
+},
+{
+  countryCode: &#39;AT&#39;,
+  placeholder: &#39;+43 000 000 0000&#39;,
+  helpText: &#39;Fügen Sie vor der Telefonnummer die AT-Ländervorwahl +43 ein&#39;,
+},
+{
+  countryCode: &#39;IE&#39;,
+  placeholder: &#39;+353 00 000 0000&#39;,
+  helpText: &#39;Include the IE country code +353 before the phone number&#39;,
+},
+{
+  countryCode: &#39;IT&#39;,
+  placeholder: &#39;+39 000 000 0000&#39;,
+  helpText:
+    &#39;Includere il prefisso internazionale IT +39 prima del numero di telefono&#39;,
+},
+  ];
+
+  const selectedPlaceholder = mockPlaceholders.find(function(item) {
+    return item &amp;amp;&amp;amp; item.countryCode === countryCode;
+  });
+  
+  return selectedPlaceholder ? selectedPlaceholder.placeholder : mockPlaceholders[0].placeholder;
+}
+
+function updatePlaceholder(countryCode, fieldName) {
+  if (!countryCode || !fieldName) {
+    return;
+  }
+  
+  const phoneInput = document.querySelector(&#39;#mce-&#39; + fieldName);
+  if (!phoneInput) {
+    return;
+  }
+  
+  const placeholder = getDefaultPlaceholder(countryCode);
+  if (placeholder) {
+    phoneInput.placeholder = placeholder;
+  }
+}
+
+function updateCountryCodeInstruction(countryCode, fieldName) {
+  updatePlaceholder(countryCode, fieldName);
+  updateHelpTextCountryCode(countryCode, fieldName);
+}
+
+function getDefaultHelpText(countryCode) {
+  const mockPlaceholders = [
+    {
+      countryCode: &#39;US&#39;,
+      placeholder: &#39;+1 000 000 0000&#39;,
+      helpText: &#39;Include the US country code +1 before the phone number&#39;,
+    },
+    {
+      countryCode: &#39;GB&#39;,
+      placeholder: &#39;+44 0000 000000&#39;,
+      helpText: &#39;Include the GB country code +44 before the phone number&#39;,
+    },
+    {
+      countryCode: &#39;CA&#39;,
+      placeholder: &#39;+1 000 000 0000&#39;,
+      helpText: &#39;Include the CA country code +1 before the phone number&#39;,
+    },
+    {
+      countryCode: &#39;AU&#39;,
+      placeholder: &#39;+61 000 000 000&#39;,
+      helpText: &#39;Include the AU country code +61 before the phone number&#39;,
+    },
+    {
+      countryCode: &#39;DE&#39;,
+      placeholder: &#39;+49 000 0000000&#39;,
+      helpText: &#39;Fügen Sie vor der Telefonnummer die DE-Ländervorwahl +49 ein&#39;,
+    },
+    {
+      countryCode: &#39;FR&#39;,
+      placeholder: &#39;+33 0 00 00 00 00&#39;,
+      helpText: &#39;Incluez le code pays FR +33 avant le numéro de téléphone&#39;,
+    },
+    {
+      countryCode: &#39;ES&#39;,
+      placeholder: &#39;+34 000 000 000&#39;,
+      helpText: &#39;Incluya el código de país ES +34 antes del número de teléfono&#39;,
+    },
+    {
+      countryCode: &#39;NL&#39;,
+      placeholder: &#39;+31 0 00000000&#39;,
+      helpText: &#39;Voeg de NL-landcode +31 toe vóór het telefoonnummer&#39;,
+    },
+    {
+      countryCode: &#39;BE&#39;,
+      placeholder: &#39;+32 000 00 00 00&#39;,
+      helpText: &#39;Incluez le code pays BE +32 avant le numéro de téléphone&#39;,
+    },
+    {
+      countryCode: &#39;CH&#39;,
+      placeholder: &#39;+41 00 000 00 00&#39;,
+      helpText: &#39;Fügen Sie vor der Telefonnummer die CH-Ländervorwahl +41 ein&#39;,
+    },
+    {
+      countryCode: &#39;AT&#39;,
+      placeholder: &#39;+43 000 000 0000&#39;,
+      helpText: &#39;Fügen Sie vor der Telefonnummer die AT-Ländervorwahl +43 ein&#39;,
+    },
+    {
+      countryCode: &#39;IE&#39;,
+      placeholder: &#39;+353 00 000 0000&#39;,
+      helpText: &#39;Include the IE country code +353 before the phone number&#39;,
+    },
+    {
+      countryCode: &#39;IT&#39;,
+      placeholder: &#39;+39 000 000 0000&#39;,
+      helpText: &#39;Includere il prefisso internazionale IT +39 prima del numero di telefono&#39;,
+    },
+  ];
+  
+  if (!countryCode || typeof countryCode !== &#39;string&#39;) {
+    return mockPlaceholders[0].helpText;
+  }
+  
+  const selectedHelpText = mockPlaceholders.find(function(item) {
+      return item &amp;amp;&amp;amp; item.countryCode === countryCode;
+    });
+    
+    return selectedHelpText ? selectedHelpText.helpText : mockPlaceholders[0].helpText;
+}
+
+function setDefaultHelpText(countryCode) {
+  const helpTextSpan = document.querySelector(&#39;#help-text&#39;);
+  if (!helpTextSpan) {
+    return;
+  }
+
+    const helpText = getDefaultHelpText(countryCode); helpTextSpan.textContent = helpText;
+}
+
+function updateHelpTextCountryCode(countryCode, fieldName) {
+  if (!countryCode || !fieldName) {
+    return;
+  }
+  
+  setDefaultHelpText(countryCode);
+}
+
+function initializeSmsPhoneDropdown(fieldName) {
+  if (!fieldName || typeof fieldName !== &#39;string&#39;) {
+    return;
+  }
+  
+  const dropdown = document.querySelector(&#39;#country-select-&#39; + fieldName);
+  const displayFlag = document.querySelector(&#39;#flag-display-&#39; + fieldName);
+  
+  if (!dropdown || !displayFlag) {
+    return;
+  }
+
+  const smsPhoneData = window.MC?.smsPhoneData;
+  if (smsPhoneData &amp;amp;&amp;amp; smsPhoneData.programs &amp;amp;&amp;amp; Array.isArray(smsPhoneData.programs)) {
+    dropdown.innerHTML = generateDropdownOptions(smsPhoneData.programs);
+  }
+
+  const defaultProgram = getDefaultCountryProgram(smsPhoneData?.defaultCountryCode, smsPhoneData?.programs);
+  if (defaultProgram &amp;amp;&amp;amp; defaultProgram.countryCode) {
+    dropdown.value = defaultProgram.countryCode;
+    
+    const flagSpan = displayFlag?.querySelector(&#39;#flag-emoji-&#39; + fieldName);
+    if (flagSpan) {
+      flagSpan.textContent = getCountryUnicodeFlag(defaultProgram.countryCode);
+      flagSpan.setAttribute(&#39;aria-label&#39;, sanitizeHtml(defaultProgram.countryCode) + &#39; flag&#39;);
+    }
+    
+    updateSmsLegalText(defaultProgram.countryCode, fieldName);
+    updatePlaceholder(defaultProgram.countryCode, fieldName);
+    updateCountryCodeInstruction(defaultProgram.countryCode, fieldName);
+  }
+
+ 
+
+
+  displayFlag?.addEventListener(&#39;click&#39;, function(e) {
+    dropdown.focus();
+  });
+
+
+  dropdown?.addEventListener(&#39;change&#39;, function() {
+    const selectedCountry = this.value;
+    
+    if (!selectedCountry || typeof selectedCountry !== &#39;string&#39;) {
+      return;
+    }
+    
+    const flagSpan = displayFlag?.querySelector(&#39;#flag-emoji-&#39; + fieldName);
+    if (flagSpan) {
+      flagSpan.textContent = getCountryUnicodeFlag(selectedCountry);
+      flagSpan.setAttribute(&#39;aria-label&#39;, sanitizeHtml(selectedCountry) + &#39; flag&#39;);
+    }
+
+     
+    
+    updateSmsLegalText(selectedCountry, fieldName);
+    updatePlaceholder(selectedCountry, fieldName);
+    updateCountryCodeInstruction(selectedCountry, fieldName);
+  });
+}
+
+document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
+  const smsPhoneFields = document.querySelectorAll(&#39;[id^=&amp;quot;country-select-&amp;quot;]&#39;);
+  
+  smsPhoneFields.forEach(function(dropdown) {
+    const fieldName = dropdown?.id.replace(&#39;country-select-&#39;, &#39;&#39;);
+    initializeSmsPhoneDropdown(fieldName);
+  });
+});
+&amp;lt;/script&amp;gt;&amp;lt;/div&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
 </description>
         </item>
         <item>

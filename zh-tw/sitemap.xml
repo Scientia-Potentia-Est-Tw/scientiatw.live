@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://scientiatw.live/</loc>
-    <lastmod>2025-10-12T16:35:00+00:00</lastmod>
+    <lastmod>2025-10-15T14:52:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -16,7 +16,7 @@
                 />
   </url><url>
     <loc>https://scientiatw.live/page/</loc>
-    <lastmod>2025-10-12T16:35:00+00:00</lastmod>
+    <lastmod>2025-10-15T14:52:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -29,7 +29,7 @@
                 />
   </url><url>
     <loc>https://scientiatw.live/now/</loc>
-    <lastmod>2025-10-12T11:28:00+00:00</lastmod>
+    <lastmod>2025-10-15T14:52:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -40,6 +40,9 @@
                 hreflang="zh-tw"
                 href="https://scientiatw.live/now/"
                 />
+  </url><url>
+    <loc>https://scientiatw.live/newsletter/</loc>
+    <lastmod>2025-10-15T14:21:00+00:00</lastmod>
   </url><url>
     <loc>https://scientiatw.live/books/</loc>
     <lastmod>2025-10-12T11:41:00+00:00</lastmod>

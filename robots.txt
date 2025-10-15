@@ -7,6 +7,8 @@ Allow: /page/
   
 Allow: /now/
   
+Allow: /newsletter/
+  
 Allow: /books/
   
 Allow: /links/
