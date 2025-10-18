@@ -1,11 +1,11 @@
 ---
 title: 推薦
 description: 此頁面收錄有趣的部落格、Podcast頻道、歌曲以及好文章
-date: '2025-10-12'
+date: '2025-10-18'
 aliases:
   - links
 slug: links
-lastmod: '2025-10-12T16:35:00'
+lastmod: '2025-10-18T17:09:00'
 menu:
     main: 
         weight: -50
@@ -20,6 +20,7 @@ menu:
 | [Sheracaolity](https://sheracaolity.ghost.io/)    | [Heptabase](https://heptabase.com/)卡片盒軟體工具創辦人詹雨安的個人部落格，紀錄自己人生的旅程    |
 | [Gea-Suan Lin's BLOG](https://blog.gslin.org/)    | 關注許多技術文章的部落格    |
 | [Huli's blog](https://life.huli.tw/)    | 前端開發者兼網頁安全研究員[Huli](https://blog.huli.tw/)的生活型部落格，分享他自己的生活見解    |
+| [一些走過的路](https://ericntuncu.blogspot.com/) | 只恨老天沒眼睛，讀書沒有贏 |
 
 ## 📻 Podcast
 | Podcast名稱    | 內容 |

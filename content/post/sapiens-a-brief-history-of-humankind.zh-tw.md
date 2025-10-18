@@ -2,7 +2,7 @@
 title = "《人類大歷史》讀後心得"
 date = "2025-07-22"
 #lastmod = ""
-author = "Scientia"
+author = "黃宏勝"
 categories = [
   "閱讀",
 ]

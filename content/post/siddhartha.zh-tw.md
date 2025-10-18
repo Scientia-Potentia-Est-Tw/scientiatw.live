@@ -2,7 +2,7 @@
 title = "《流浪者之歌／悉達多》讀後心得：人生早已圓滿，我們又總是在追求什麼？"
 date = "2025-06-26"
 #lastmod = ""
-author = "Scientia"
+author = "黃宏勝"
 categories = [
   "閱讀",
 ]

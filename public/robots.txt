@@ -9,6 +9,8 @@ Allow: /tags/blog-questions-challenge/
   
 Allow: /categories/
   
+Allow: /page/
+  
 Allow: /post/
   
 Allow: /tags/
@@ -19,19 +21,19 @@ Allow: /tags/%E6%8C%91%E6%88%B0/
   
 Allow: /tags/%E6%95%85%E4%BA%8B/
   
+Allow: /links/
+  
 Allow: /tags/%E9%83%A8%E8%90%BD%E6%A0%BC/
   
 Allow: /p/blog-questions-challenge/
   
-Allow: /page/
+Allow: /about/
   
 Allow: /now/
   
 Allow: /newsletter/
   
 Allow: /books/
-  
-Allow: /links/
   
 Allow: /tags/%E5%B7%A5%E4%BD%9C%E6%95%88%E7%8E%87/
   
@@ -48,8 +50,6 @@ Allow: /categories/%E9%96%B1%E8%AE%80/
 Allow: /p/well-rest-ignore-rest/
   
 Allow: /use/
-  
-Allow: /about/
   
 Allow: /tags/ptsd/
   
