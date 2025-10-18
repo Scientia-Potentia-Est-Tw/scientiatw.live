@@ -1,3 +1,3 @@
-This is an example site used for solely for testing purposes. **It is not meant to be used as a template for your site**. 
+This repo is my social blog.
 
-To create a new site, please use the starter template: [CaiJimmy/hugo-theme-stack-starter](https://github.com/CaiJimmy/hugo-theme-stack-starter/)
+If you are interesting you can visit: [www.scientiatw.live](www.scientiatw.live/)
