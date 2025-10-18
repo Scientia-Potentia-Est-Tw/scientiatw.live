@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Pages on Hong-Sheng Huang&#39;s Blog</title>
-        <link>http://localhost:1313/en/page/</link>
+        <link>https://scientiatw.live/en/page/</link>
         <description>Recent content in Pages on Hong-Sheng Huang&#39;s Blog</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
         <copyright>Hong-Sheng Huang</copyright>
-        <lastBuildDate>Tue, 07 Oct 2025 15:13:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/en/page/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Tue, 07 Oct 2025 15:13:00 +0000</lastBuildDate><atom:link href="https://scientiatw.live/en/page/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Use</title>
-        <link>http://localhost:1313/en/use/</link>
+        <link>https://scientiatw.live/en/use/</link>
         <pubDate>Tue, 07 Oct 2025 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/en/use/</guid>
+        <guid>https://scientiatw.live/en/use/</guid>
         <description>&lt;h2 id=&#34;-computer-software&#34;&gt;🖥️ Computer Software
 &lt;/h2&gt;&lt;h3 id=&#34;-operating-system&#34;&gt;💾 Operating System
 &lt;/h3&gt;&lt;ul&gt;
@@ -131,10 +131,10 @@
         </item>
         <item>
         <title>Whois</title>
-        <link>http://localhost:1313/en/about/</link>
+        <link>https://scientiatw.live/en/about/</link>
         <pubDate>Mon, 06 Oct 2025 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/en/about/</guid>
+        <guid>https://scientiatw.live/en/about/</guid>
         <description>&lt;p&gt;I am &lt;a class=&#34;link&#34; href=&#34;https://scientia-potentia-est.com/en/hong-sheng-huang/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Hong-Sheng Huang&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;This social blog mainly features content on topics such as &amp;ldquo;reading reflections,&amp;rdquo; &amp;ldquo;life sharing,&amp;rdquo; and &amp;ldquo;humanities and arts.&amp;rdquo;&lt;/p&gt;
@@ -147,10 +147,10 @@
         </item>
         <item>
         <title>Now</title>
-        <link>http://localhost:1313/en/now/</link>
+        <link>https://scientiatw.live/en/now/</link>
         <pubDate>Fri, 06 Jun 2025 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/en/now/</guid>
+        <guid>https://scientiatw.live/en/now/</guid>
         <description>&lt;h2 id=&#34;-recent-status&#34;&gt;🏡 Recent status
 &lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;
@@ -187,18 +187,18 @@
         </item>
         <item>
         <title>Archives</title>
-        <link>http://localhost:1313/en/archives/</link>
+        <link>https://scientiatw.live/en/archives/</link>
         <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/en/archives/</guid>
+        <guid>https://scientiatw.live/en/archives/</guid>
         <description></description>
         </item>
         <item>
         <title>Search</title>
-        <link>http://localhost:1313/en/search/</link>
+        <link>https://scientiatw.live/en/search/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/en/search/</guid>
+        <guid>https://scientiatw.live/en/search/</guid>
         <description></description>
         </item>
         

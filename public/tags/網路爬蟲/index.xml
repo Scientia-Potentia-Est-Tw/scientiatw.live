@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>網路爬蟲 on Hong-Sheng Huang&#39;s Blog</title>
-        <link>http://localhost:1313/tags/%E7%B6%B2%E8%B7%AF%E7%88%AC%E8%9F%B2/</link>
+        <link>https://scientiatw.live/tags/%E7%B6%B2%E8%B7%AF%E7%88%AC%E8%9F%B2/</link>
         <description>Recent content in 網路爬蟲 on Hong-Sheng Huang&#39;s Blog</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-tw</language>
         <copyright>Hong-Sheng Huang</copyright>
-        <lastBuildDate>Tue, 12 Aug 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/%E7%B6%B2%E8%B7%AF%E7%88%AC%E8%9F%B2/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Tue, 12 Aug 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://scientiatw.live/tags/%E7%B6%B2%E8%B7%AF%E7%88%AC%E8%9F%B2/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Robots.txt與AI爬蟲的愛恨情仇</title>
-        <link>http://localhost:1313/p/ai-vs-robots-txt/</link>
+        <link>https://scientiatw.live/p/ai-vs-robots-txt/</link>
         <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/p/ai-vs-robots-txt/</guid>
+        <guid>https://scientiatw.live/p/ai-vs-robots-txt/</guid>
         <description>&lt;img src="https://scientia-potentia-est.com/wp-content/uploads/2025/08/AI-vs-robots-cover-e1756260099688.webp" alt="Featured image of post Robots.txt與AI爬蟲的愛恨情仇" /&gt;&lt;p&gt;各大網站基本上靠一個叫做&amp;quot;robots.txt&amp;quot;的檔案對網路爬蟲[1]說明哪些頁面可以爬取而哪些頁面禁止爬取，過去我們透過這個設定讓Google Search, Bing Webmaster等搜尋引擎的spider來逛我們的個人網站，時至今日這些公司為了讓他們自己的大型語言模型系統更完善，利用RAG強化AI爬蟲花更多力氣想把整個網際網路都爬下來，以便更精確的回應使用者的提問，以及能訓練生成更多種類的內容&lt;/p&gt;
 &lt;p&gt;一些網路新聞公司及出版社的執行長都跳出來説這些AI公司只顧自己的利益一直爬創作者辛苦創造出來的內容，卻沒有給任何報酬來回饋，甚至讓一些平台的&lt;strong&gt;點擊率下降&lt;/strong&gt;[2]，因為現在Google的AI Overview真的挺好用的，雖然Overview最後都會附上參考資料連結，但如果解法已經呈現出來的話我通常就不花時間點進文章裡看前因後果了&lt;/p&gt;
 &lt;p&gt;不過這情形應該也勢不可擋，雖然robots.txt可以設定一些守則告知爬蟲，但也得那間AI公司遵守我們設定的條款，如果不管的話照樣可以直接爬取我們所創作的內容，我想新技術出來一定有一段時間的陣痛期，未來內容創作者也許有一些方法可以跟AI公司進行&lt;strong&gt;協同合作&lt;/strong&gt;[3]&lt;/p&gt;
