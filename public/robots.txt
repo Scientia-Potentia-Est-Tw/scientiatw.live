@@ -357,6 +357,12 @@ Allow: /p/readmoo-mooink-pro-2c/
   
 Allow: /p/survival-handbook-for-graduate-student-problematic/
   
+Allow: /tags/%E7%A0%94%E7%A9%B6/
+  
+Allow: /tags/%E7%A0%94%E7%A9%B6%E7%94%9F%E5%AE%8C%E5%85%A8%E6%B1%82%E7%94%9F%E6%89%8B%E5%86%8A/
+  
+Allow: /tags/%E5%AF%AB%E4%BD%9C/
+  
 Allow: /p/survival-handbook-for-graduate-student-goal/
   
 Allow: /p/survival-handbook-for-graduate-student-innovation/
@@ -365,23 +371,17 @@ Allow: /p/survival-handbook-for-graduate-student-write/
   
 Allow: /p/survival-handbook-for-graduate-student-read/
   
-Allow: /tags/%E7%A0%94%E7%A9%B6/
-  
-Allow: /tags/%E7%A0%94%E7%A9%B6%E7%94%9F%E5%AE%8C%E5%85%A8%E6%B1%82%E7%94%9F%E6%89%8B%E5%86%8A/
-  
-Allow: /tags/%E5%AF%AB%E4%BD%9C/
-  
 Allow: /p/perennial-seller-positioning/
-  
-Allow: /p/perennial-seller-marketing/
-  
-Allow: /p/perennial-seller-platform/
   
 Allow: /tags/%E9%95%B7%E9%8A%B7/
   
 Allow: /tags/%E5%95%86%E6%A5%AD/
   
 Allow: /tags/%E5%89%B5%E4%BD%9C/
+  
+Allow: /p/perennial-seller-marketing/
+  
+Allow: /p/perennial-seller-platform/
   
 Allow: /p/perennial-seller-content/
   
