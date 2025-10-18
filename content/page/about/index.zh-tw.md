@@ -29,7 +29,7 @@ menu:
 任何問題請寄到信箱內：hongshenghuang@proton.me
 
 ## 關於我
-我是[黃宏勝](https://scientia-potentia-est.com/zh/hong-sheng-huang-zh/)，台灣臺東人，但不騎山豬
+我是[黃宏勝](https://scientia-potentia-est.com/zh/hong-sheng-huang-zh/)，臺東人，但不騎山豬
 
 - Z世代
 - 北漂青年
