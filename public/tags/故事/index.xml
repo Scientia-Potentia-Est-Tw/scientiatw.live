@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>故事 on Hong-Sheng Huang&#39;s Blog</title>
+        <link>https://scientiatw.live/tags/%E6%95%85%E4%BA%8B/</link>
+        <description>Recent content in 故事 on Hong-Sheng Huang&#39;s Blog</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-tw</language>
+        <copyright>Hong-Sheng Huang</copyright>
+        <lastBuildDate>Sat, 18 Oct 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://scientiatw.live/tags/%E6%95%85%E4%BA%8B/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>部落格問題挑戰</title>
+        <link>https://scientiatw.live/p/blog-questions-challenge/</link>
+        <pubDate>Sat, 18 Oct 2025 00:00:00 +0000</pubDate>
+        
+        <guid>https://scientiatw.live/p/blog-questions-challenge/</guid>
+        <description>&lt;img src="https://scientia-potentia-est.com/wp-content/uploads/2025/10/blog-questions-challenges-cover-scaled.webp" alt="Featured image of post 部落格問題挑戰" /&gt;&lt;p&gt;在廢文小天地RSS看到部落格挑戰&lt;a class=&#34;link&#34; href=&#34;https://trashposts.com/blog/blog-questions-challenge/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://trashposts.com/blog/blog-questions-challenge&lt;/a&gt;，源自Kev Quirk的&lt;a class=&#34;link&#34; href=&#34;https://kevquirk.com/blog/blog-questions-challenge/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Blog Questions Challenge&lt;/a&gt;，看到題目蠻有興趣的，所以決定也寫一篇來回應各項問題&lt;/p&gt;
+&lt;p&gt;主要的問題有8題，總共是：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;你當初為什麼開始寫部落格？&lt;/li&gt;
+&lt;li&gt;你使用什麼平台來管理你的部落格？為什麼選擇它？&lt;/li&gt;
+&lt;li&gt;你之前有在其他平台上寫過部落格文章嗎？&lt;/li&gt;
+&lt;li&gt;你如何撰寫文章？例如，使用本地編輯工具，還是在部落格的後台／控制面板中編寫？&lt;/li&gt;
+&lt;li&gt;你什麼時候最有寫作靈感？&lt;/li&gt;
+&lt;li&gt;你會在寫完後立即發布，還是會先存成草稿醞釀一下？&lt;/li&gt;
+&lt;li&gt;你部落格上最喜歡的文章是哪一篇？&lt;/li&gt;
+&lt;li&gt;你對部落格有什麼未來計畫嗎？例如重新設計、搬到另一個平台，或是加入新功能？&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;你當初為什麼開始寫部落格&#34;&gt;你當初為什麼開始寫部落格？
+&lt;/h2&gt;&lt;p&gt;大學時期為了紀錄課程筆記，以及需要一個展示空間給轉學考的委員可以看我的作品，所以架了一個Github Page網站po一些學習上的心得，後來去實習後覺得可以經營自己的品牌，所以開始寫一些工作上的學習筆記&lt;/p&gt;
+&lt;p&gt;一開始的打算是把電腦科學裡學到的，跟平時生活心得與閱讀心得等等都在同一個網站中呈現，但隨著文章越來越多，整個網站內含所有主題越看越混淆，所以決定讓VPS主要展示技術型的文章，而這個部落格則是主要分享生活型的文章&lt;/p&gt;
+&lt;h2 id=&#34;你使用什麼平台來管理你的部落格為什麼選擇它&#34;&gt;你使用什麼平台來管理你的部落格？為什麼選擇它？
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://docs.github.com/en/pages&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Github Pages&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Wordpress&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://pages.cloudflare.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Cloudflare Pages&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;大學時期沒有收入時只能選擇免費的Github Pages當作網頁空間，開始實習後有些工讀的薪水，在網路上看來看去要經營自媒體應該要架設自己的網站與網域，所以開始買了VPS安裝Wordpress&lt;/p&gt;
+&lt;p&gt;由於我之後有打算啟動訂閱服務以及線上課程的規劃，就一定需要有資料庫管理讀者的資訊，而Wordpress自然就成為我的第一選項，而且wordpress除了免費的模板就夠用之外，LaTex、多語言切換以及SEO套件都有免費版的可以安裝&lt;/p&gt;
+&lt;p&gt;近期將Github Pages改到Cloudflare Pages上，雖然原本的Github Pages就挺夠用的了，但SEO就是唯一也是我最煩惱的問題，由於Github的CDN只有在美國地區比較完善，相較之下亞洲地區還不夠好，不巧我的文章大部分都是中文的&lt;/p&gt;
+&lt;p&gt;我架設個人部落格已經一段時間了，但不是每一篇文章在Google搜尋引擎上可以有好的排名，所以決定換成CloudFlare Pages使用CloudFlare的DNS服務，原因光是免費方案就不限流量了，甚至防範DDoS、惡意爬蟲以及防火牆服務都是免費的&lt;/p&gt;
+&lt;p&gt;而且從Github Pages換到Cloudflare Pages很方便，只需要把原本放在Github上的repo連接到Cloudflare上就可以了，Cloudflare就會根據專案裡面的檔案自動部署出同樣的網站，而只要把網域指向Cloudflare就可以把整個網站換到Cloudflare Pages上&lt;/p&gt;
+&lt;p&gt;原先我每一篇文章在vim裡寫完markdown檔案後還要用Hugo compiler重新編譯，再到/public將輸出的檔案push到github repo裡讓Action部署，但我現在直接在repo裡修改就可以讓Cloudflare自動部署更新&lt;/p&gt;
+&lt;h2 id=&#34;你之前有在其他平台上寫過部落格文章嗎&#34;&gt;你之前有在其他平台上寫過部落格文章嗎？
+&lt;/h2&gt;&lt;p&gt;高職時期上科技應用課時，老師有教我們開Google Blogger網誌，但寫完一篇關於高一生活的文章，之後就沒有再開過了，那個Google帳號我也不確定還有沒有在用，後來就只在自己架設的地方寫文章&lt;/p&gt;
+&lt;h2 id=&#34;你如何撰寫文章例如使用本地編輯工具還是在部落格的後台控制面板中編寫&#34;&gt;你如何撰寫文章？例如，使用本地編輯工具，還是在部落格的後台／控制面板中編寫？
+&lt;/h2&gt;&lt;p&gt;在Wordpress上就用它的編輯區塊，還挺不錯的，不管是純文字或者HTML模式都可以寫，而在Cloudflare Pages上的文章都是我透過Vim編輯Markdown檔案產出的&lt;/p&gt;
+&lt;p&gt;把每一篇文章的範例儲存在一個txt檔案裡，每次開新的一篇都從裡面複製出來貼到vim上，再開始寫完整篇&lt;/p&gt;
+&lt;h2 id=&#34;你什麼時候最有寫作靈感&#34;&gt;你什麼時候最有寫作靈感？
+&lt;/h2&gt;&lt;p&gt;每天晚上吃完晚餐後的休息時間，由於晚餐過後注意力也下降許多，所以會開始審視當日白天新增的卡片盒筆記資料庫，整理今天寫的卡片並且更新Obsidian Canvas時就會想到有哪些素材是可以寫成文章的&lt;/p&gt;
+&lt;p&gt;另外看RSS閱讀器時，看到有些部落格更新了新文章，覺得有趣的內容就決定延伸寫一篇我自己的想法&lt;/p&gt;
+&lt;h2 id=&#34;你會在寫完後立即發布還是會先存成草稿醞釀一下&#34;&gt;你會在寫完後立即發布，還是會先存成草稿醞釀一下？
+&lt;/h2&gt;&lt;p&gt;我自己習慣寫完就馬上發出去，畢竟在Wordpress上有些題目是當初想寫的，但由於素材還沒整理好，所以就一直拖到現在也還躺在草稿區裡，但一直拖著也不是辦法，最近也把那些只有標題的草稿刪掉了&lt;/p&gt;
+&lt;p&gt;未來規劃要養成Obsidian裡有足夠的素材時才開始寫文章，不然東缺西缺一直放在資料夾裡我看了也心煩&lt;/p&gt;
+&lt;h2 id=&#34;你部落格上最喜歡的文章是哪一篇&#34;&gt;你部落格上最喜歡的文章是哪一篇？
+&lt;/h2&gt;&lt;p&gt;在我的技術部落格裡，我最喜歡的是《&lt;a class=&#34;link&#34; href=&#34;https://scientia-potentia-est.com/zh/physical-unclonable-function/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;PUF 晶片上的物理不可複製功能&lt;/a&gt;》這文章，當初修硬體安全這門課時體驗很好，學到很多東西&lt;/p&gt;
+&lt;p&gt;也是讓我不後悔延畢後所遇到的一門課，讓我認識除了做純密碼研究之外還有更廣泛應用的領域，而裡面談保護晶片最重要的方法之一就是使用PUF，所以我認為這篇作為晶片安全的入門很適合&lt;/p&gt;
+&lt;p&gt;而個人部落格裡則是《&lt;a class=&#34;link&#34; href=&#34;https://scientiatw.live/p/you-should-use-rss/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;自主選擇乾淨的資訊，回歸RSS的懷抱吧！&lt;/a&gt;》了吧，脫離了社群媒體之後，RSS閱讀器真的為我的人生帶來了不一樣的感受，感覺腦袋裡雲裡霧裡的感覺都消失了&lt;/p&gt;
+&lt;p&gt;也遇到了許多優秀的個人部落格，每天透過閱讀RSS新文章，就能夠為我每天的生活注入新的火焰&lt;/p&gt;
+&lt;h2 id=&#34;你對部落格有什麼未來計畫嗎例如重新設計搬到另一個平台或是加入新功能&#34;&gt;你對部落格有什麼未來計畫嗎？例如重新設計、搬到另一個平台，或是加入新功能？
+&lt;/h2&gt;&lt;p&gt;技術部落格如我冀望它的名字，《&lt;a class=&#34;link&#34; href=&#34;https://scientia-potentia-est.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;資通安全第一品牌&lt;/a&gt;》，成為台灣地區學習資安技術的指標之一，另外就是多補充詳細的數學文章彌補讀者的底層知識，讓網站成為自給自足(self-contained)的平台&lt;/p&gt;
+&lt;p&gt;以及目前開放免費的電子報註冊&lt;a class=&#34;link&#34; href=&#34;https://scientia-potentia-est.com/zh/newsletter-zh/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://scientia-potentia-est.com/zh/newsletter-zh/&lt;/a&gt;，未來打算推出訂閱制的電子報，還有推出一些線上課程，模板換了好幾次目前這個消耗的計算資源最少，應該不用再換了&lt;/p&gt;
+&lt;p&gt;而個人部落格未來如果Cloudflare Pages開始收費的話可能又要換平台了，但我對目前的模板很滿意，之前換過好幾次Hugo模板只有這一次的滿足卡片式、關鍵字搜尋、目錄支援且最重要有meta tag的SEO優化，所以未來應該不會考慮換模板&lt;/p&gt;
+&lt;p&gt;未來素描作品比較能讓人看的話，考慮做一個類似雷歐的&lt;a class=&#34;link&#34; href=&#34;https://revolc.blog/gallery/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;圖文版面&lt;/a&gt;介面呈現圖片，可以展示出我每一張作品&lt;/p&gt;
+&lt;p&gt;除此之外就是把目前的文章翻譯成英文的版本了吧，以及預計未來學其他種新語言後可以把舊文章翻譯成該語言，除了練習該語言的語法之外，也希望讓母語人士了解我的心情&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>
