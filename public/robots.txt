@@ -3,13 +3,15 @@ User-agent: *
   
 Allow: /
   
+Allow: /page/
+  
+Allow: /use/
+  
 Allow: /tags/bear-blog-question-challenge/
   
 Allow: /tags/blog-questions-challenge/
   
 Allow: /categories/
-  
-Allow: /page/
   
 Allow: /post/
   
@@ -48,8 +50,6 @@ Allow: /tags/%E7%9D%A1%E7%9C%A0/
 Allow: /categories/%E9%96%B1%E8%AE%80/
   
 Allow: /p/well-rest-ignore-rest/
-  
-Allow: /use/
   
 Allow: /tags/ptsd/
   

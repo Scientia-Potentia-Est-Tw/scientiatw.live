@@ -1,11 +1,11 @@
 ---
 title: 使用
 description: 目前常用的物品
-date: '2025-10-07'
+date: '2025-10-19'
 aliases:
   - use
 slug: use
-lastmod: '2025-10-07T15:09:00'
+lastmod: '2025-10-19T15:37:00'
 menu:
     main: 
         weight: -60
@@ -16,7 +16,7 @@ menu:
 
 ### 💾 作業系統
 - macOS - MacBook Pro M1 Max 16"用來寫文章、學術論文、音樂製作、剪片、錄音
-- [Ubuntu Desktop 24.04 LTS](https://ubuntu.com/download/desktop) - [Framework Laptop 16"](https://frame.work/tw/en/)用來FPGA/SoC設計、網路安全防禦系統專案開發、CTF Reverse/Pwn解題工具、7B-13B Small Language Model/ML/DL訓練
+- [Ubuntu Desktop 24.04 LTS](https://ubuntu.com/download/desktop) - [Framework Laptop 16"](https://frame.work/tw/en/)用來FPGA/SoC設計、網路安全防禦系統專案開發、CTF Reverse/Pwn解題工具、7B-13B Small Language Model跟一些ML/DL訓練
 
 ### 🌏 瀏覽器
 - [Brave](https://brave.com/) - 內建廣告封鎖、阻擋追蹤程式的瀏覽器，設定得當的話可以預防惡意網站的跳轉
@@ -34,8 +34,8 @@ menu:
 - [Overleaf Beamer](https://www.overleaf.com/learn/latex/Beamer) - 常用於學術簡報中，原生支援各式各樣的數學公式，可以在[Overleaf](https://www.overleaf.com/)上使用或者在電腦上安裝Latex編譯器實作，對於熟悉Latex語法的使用者來說是快速完成簡報的利器，不需要花力氣管模板的排版
 
 ### 📝 筆記軟體/編輯器
-- [Obsidian](https://obsidian.md/) - 免費且開源的筆記軟體，用來撰寫卡片盒筆記很方便，Canvas功能雖與Heptabase的白板相比之下稍嫌不足，但也夠用了
-- [Notion](https://www.notion.com/) - 用免費模板紀錄專案進度、設備管理，以及學習語言時Notion的Database是強項，但沒有E2EE所以不建議寫非常隱私的東西在裡面
+- [Obsidian](https://obsidian.md/) - 免費且開源的筆記軟體，用來撰寫卡片盒筆記很方便，Canvas功能雖與Heptabase的白板相比之下稍嫌不足，但搭配眾多開發者的套件我覺得Obsidian很好用
+- [Notion](https://www.notion.com/) - 用免費模板紀錄專案進度、設備管理，以及學習語言時Notion的Database是強項，但Notion沒有支援E2EE所以不建議寫非常隱私的東西在裡面
 - [VSCode](https://code.visualstudio.com/) - 用來做Latex Beamer簡報，設計網頁時也比較方便
 
 ### 🗂️ 學術軟體
@@ -43,8 +43,7 @@ menu:
 - [TeXShop](https://pages.uoregon.edu/koch/texshop/) - 在macOS上搭配VSCode編輯Tex檔案，也可以在local端編譯，之前有一次晚上Overleaf網站掛掉時我正在趕報告，搞得我心急如焚所以才想到也必須有備援方案，建議把Overleaf上心儀的模板也備份一組到硬碟中
 
 ### 💬 通訊軟體
-- LINE - 微服務架構越塞越多導致LINE佔容量越來越多，雖然Line Today每天發些污辱我智商的新聞，但很常用Line Pay所以脫離不了
-- Discord - 很多資安社群喜歡開Discord私人伺服器在裡面討論
+- LINE - 微服務架構越塞越多導致LINE佔容量越來越多，在我手機裡這應該是耗費最多儲存空間的APP，但很常用Line Pay所以還脫離不了
 
 ### 🎞️ 影片製作
 - [Final Cut Pro](https://www.apple.com/final-cut-pro/) - macOS上最受歡迎的剪輯軟體，也是我被綁在MacBook上的原因之一
