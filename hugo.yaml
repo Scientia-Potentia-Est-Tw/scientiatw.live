@@ -59,8 +59,8 @@ params:
         lastUpdated: Jan 02, 2006 15:04 MST
 
     sidebar:
-        emoji: 🇹🇼
-        subtitle: Just try it.
+        emoji: 🇹
+        subtitle: Stay Curious and Take Action.
         avatar:
             enabled: true
             local: true
