@@ -1,0 +1,29 @@
+{{/* Only proceed if this page is a regular page */}}
+{{ if .IsPage }}
+
+  {{/* Get only posts in same language and same section as current page */}}
+  {{ $pages := where (where .Site.RegularPages "Lang" .Lang) "Section" .Section }}
+
+  {{/* Next (newer) */}}
+  {{ $next := first 1 (sort (where $pages "Date" ">" .Date) "Date" "asc") }}
+
+  {{/* Previous (older) */}}
+  {{ $prev := first 1 (sort (where $pages "Date" "<" .Date) "Date" "desc") }}
+
+  <nav class="post-navigation">
+    {{ with index $next 0 }}
+      <a class="next-post" href="{{ .RelPermalink }}">
+          <span class = "nav-label">{{ i18n "article.navigation.newer" }}</span>
+          <span class = "nav-title">&larr; {{ .Title }}</span>
+      </a>
+    {{ end }}
+
+    {{ with index $prev 0 }}
+      <a class="prev-post" href="{{ .RelPermalink }}">
+          <span class = "nav-label">{{ i18n "article.navigation.older" }}</span>
+          <span class = "nav-title">{{ .Title }} &rarr;</span>
+      </a>
+    {{ end }}
+  </nav>
+
+{{ end }}

@@ -1,0 +1,9 @@
+User-agent: *
+{{ range .Sites }}
+  {{ range .Pages}}
+Allow: {{ .RelPermalink }}
+  {{ end}}
+{{ end }}
+Sitemap: https://scientiatw.live/sitemap.xml
+Sitemap: https://scientiatw.live/zh-tw/sitemap.xml
+Sitemap: https://scientiatw.live/en/sitemap.xml
