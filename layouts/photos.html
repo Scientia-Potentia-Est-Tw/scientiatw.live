@@ -1,0 +1,169 @@
+{{ define "main" }}
+
+<div class="gallery-photos page combined-gallery">
+  <!-- External images from Markdown (hidden initially) -->
+  <div id="external-images-placeholder">
+    {{ if .Content }}{{ .Content }}{{ end }}
+  </div>
+
+  <!-- Local images from /static/photos -->
+  {{ range (sort (readDir "./static/photos") "Name" "desc") }}
+    {{ if ( .Name | findRE "\\.(gif|jpg|jpeg|tiff|png|bmp|webp|avif|jxl)") }}
+    <div class="gallery-photo">
+      <img class="photo-img" loading="lazy" decoding="async" src="/photos/{{ .Name }}" alt="{{ .Name }}" />
+      <span class="photo-title">{{ .Name | replaceRE "^[0-9 -]+(.*)[.].*" "$1"}}</span>
+      <span class="photo-time">{{ .Name | replaceRE "^([0-9-]+).*[.].*" "$1" }}</span>
+    </div>
+    {{ end }}
+  {{ end }}
+</div>
+
+<style>
+/* ---- Gallery styling ---- */
+.gallery-photos{width:100%;margin-bottom:20px;}
+.gallery-photo{width:24.9%;position:relative;visibility:hidden;overflow:hidden;padding:8px;}
+.gallery-photo.visible{visibility:visible;animation:fadeIn 2s;}
+.gallery-photo img{display:block;width:100%;border-radius:12px;cursor:pointer;transition:all .4s ease-in-out;}
+.gallery-photo span.photo-title,.gallery-photo span.photo-time{
+  background:rgba(0,0,0,0.3);padding:0 8px;font-size:0.9rem;color:#fff;display:none;border-radius:4px;}
+.gallery-photo span.photo-title{position:absolute;bottom:12px;left:12px;}
+.gallery-photo span.photo-time{position:absolute;top:12px;left:12px;font-size:0.8rem;}
+.gallery-photo:hover span.photo-title{display:block;}
+.gallery-photo:hover img{transform:scale(1.05);}
+@media screen and (max-width:1280px){.gallery-photo{width:33.3%;}}
+@media screen and (max-width:860px){.gallery-photo{width:49.9%;}}
+@media (max-width:683px){.photo-time{display:none;}}
+@keyframes fadeIn{0%{opacity:0;}100%{opacity:1;}}
+
+/* ---- Hide original <gallery> content to prevent duplicates ---- */
+#external-images-placeholder,
+#external-images-placeholder gallery {
+  display:none !important;
+}
+</style>
+
+<script src="https://immmmm.com/waterfall.min.js"></script>
+<script src="https://immmmm.com/imgStatus.min.js"></script>
+
+<script>
+// ---- Step 1: merge external <gallery> images into combined gallery ----
+(function() {
+  const placeholder = document.getElementById('external-images-placeholder');
+  if (!placeholder) return;
+
+  const galleries = placeholder.getElementsByTagName('gallery');
+  const combined = document.querySelector('.combined-gallery');
+
+  if (galleries && galleries.length && combined) {
+    for (let i = 0; i < galleries.length; i++) {
+      const imgs = galleries[i].getElementsByTagName('img');
+      for (let j = 0; j < imgs.length; j++) {
+        const srcImg = imgs[j];
+        const div = document.createElement('div');
+        div.className = 'gallery-photo';
+        const clone = srcImg.cloneNode(true);
+        clone.classList.add('photo-img');
+        clone.loading = 'lazy';
+        clone.decoding = 'async';
+        div.appendChild(clone);
+
+        // Extract title
+        let title = srcImg.alt || srcImg.title || '';
+        if (!title) {
+          const parts = (srcImg.src || '').split('/');
+          title = parts[parts.length - 1].replace(/\.(jpg|jpeg|png|gif|webp|avif|jxl|bmp|tiff)$/i,'');
+        }
+        if (title) {
+          const span = document.createElement('span');
+          span.className = 'photo-title';
+          span.textContent = title;
+          div.appendChild(span);
+        }
+
+        const link = srcImg.getAttribute('data-link') || srcImg.getAttribute('data-url');
+        if (link) {
+          clone.dataset.link = link;
+          div.dataset.link = link;
+        }
+
+        combined.insertBefore(div, combined.firstChild);
+      }
+    }
+  }
+})();
+</script>
+
+<script src="https://immmmm.com/view-image.js"></script>
+<script src="https://immmmm.com/lately.min.js"></script>
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  const gallery = document.querySelector('.combined-gallery');
+
+  imgStatus.watch('.photo-img', imgs => {
+    if (imgs.isDone()) {
+      waterfall(gallery);
+      gallery.querySelectorAll('.gallery-photo').forEach(el => el.classList.add('visible'));
+    }
+  });
+  window.addEventListener('resize', () => waterfall(gallery));
+  window.Lately && Lately.init({ target: '.photo-time' });
+
+  if (window.ViewImage) {
+    ViewImage.init('.gallery-photo img');
+
+    let currentPostLink = null;
+
+    // Track which thumbnail was clicked
+    document.addEventListener('click', e => {
+      const t = e.target.closest('.photo-img');
+      if (t) currentPostLink = t.dataset.link || t.closest('.gallery-photo')?.dataset.link || null;
+    }, true);
+
+    // Delegated click: open viewer image link
+    document.addEventListener('click', e => {
+      const img = e.target.closest('img[data-post-link]');
+      if (img && img.dataset.postLink) {
+        e.preventDefault(); e.stopPropagation();
+        window.open(img.dataset.postLink, '_blank', 'noopener,noreferrer');
+      }
+    }, true);
+
+    // Mutation observer — find highest z-index visible image and tag it
+    const observer = new MutationObserver(() => {
+      if (!currentPostLink) return;
+      const imgs = Array.from(document.querySelectorAll('img')).filter(
+        img => !img.classList.contains('photo-img')
+      );
+      let topImg = null, maxZ = -1;
+      imgs.forEach(img => {
+        const rect = img.getBoundingClientRect();
+        const style = getComputedStyle(img);
+        const z = parseInt(style.zIndex || '0', 10);
+        if (rect.width > 300 && rect.height > 200 && style.display !== 'none' && style.visibility !== 'hidden' && z >= maxZ) {
+          maxZ = z; topImg = img;
+        }
+      });
+      if (topImg) {
+        topImg.dataset.postLink = currentPostLink;
+        topImg.style.cursor = 'pointer';
+        topImg.title = 'Click to view post';
+      }
+    });
+    observer.observe(document.body, {
+      childList: true,
+      subtree: true,
+      attributes: true,
+      attributeFilter: ['src', 'class', 'style']
+    });
+
+    // Reset link when viewer closes
+    document.addEventListener('keydown', e => {
+      if (e.key === 'Escape') currentPostLink = null;
+    });
+  }
+});
+</script>
+
+{{ end }}
+
