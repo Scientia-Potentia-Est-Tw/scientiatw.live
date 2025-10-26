@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Categories on Hong-Sheng Huang&#39;s Blog</title>
-        <link>http://localhost:1313/en/categories/</link>
+        <link>https://scientiatw.live/en/categories/</link>
         <description>Recent content in Categories on Hong-Sheng Huang&#39;s Blog</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
         <copyright>Hong-Sheng Huang</copyright>
-        <lastBuildDate>Thu, 05 Jun 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/en/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Thu, 05 Jun 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://scientiatw.live/en/categories/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Academic</title>
-        <link>http://localhost:1313/en/categories/academic/</link>
+        <link>https://scientiatw.live/en/categories/academic/</link>
         <pubDate>Thu, 05 Jun 2025 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/en/categories/academic/</guid>
+        <guid>https://scientiatw.live/en/categories/academic/</guid>
         <description>&lt;img src="https://scientia-potentia-est.com/wp-content/uploads/2025/05/academic-category.webp" alt="Featured image of post Academic" /&gt;</description>
         </item>
         

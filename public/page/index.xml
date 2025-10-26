@@ -2,17 +2,28 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Pages on Hong-Sheng Huang&#39;s Blog</title>
-        <link>http://localhost:1313/page/</link>
+        <link>https://scientiatw.live/page/</link>
         <description>Recent content in Pages on Hong-Sheng Huang&#39;s Blog</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-tw</language>
         <copyright>Hong-Sheng Huang</copyright>
-        <lastBuildDate>Sun, 19 Oct 2025 15:37:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/page/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sun, 26 Oct 2025 14:14:00 +0000</lastBuildDate><atom:link href="https://scientiatw.live/page/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>圖文</title>
+        <link>https://scientiatw.live/gallery/</link>
+        <pubDate>Sun, 26 Oct 2025 00:00:00 +0000</pubDate>
+        
+        <guid>https://scientiatw.live/gallery/</guid>
+        <description>&lt;gallery&gt;
+&lt;!-- Example &lt;img src=&#34;&#34; alt=&#34;&#34; data-link=&#34;&#34; /&gt; --&gt;
+&lt;/gallery&gt;
+</description>
+        </item>
+        <item>
         <title>使用</title>
-        <link>http://localhost:1313/use/</link>
+        <link>https://scientiatw.live/use/</link>
         <pubDate>Sun, 19 Oct 2025 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/use/</guid>
+        <guid>https://scientiatw.live/use/</guid>
         <description>&lt;h2 id=&#34;-電腦軟體&#34;&gt;🖥️ 電腦軟體
 &lt;/h2&gt;&lt;h3 id=&#34;-作業系統&#34;&gt;💾 作業系統
 &lt;/h3&gt;&lt;ul&gt;
@@ -142,10 +153,10 @@
         </item>
         <item>
         <title>推薦</title>
-        <link>http://localhost:1313/links/</link>
+        <link>https://scientiatw.live/links/</link>
         <pubDate>Sat, 18 Oct 2025 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/links/</guid>
+        <guid>https://scientiatw.live/links/</guid>
         <description>&lt;h2 id=&#34;-部落格&#34;&gt;🎰 部落格
 &lt;/h2&gt;&lt;table&gt;
   &lt;thead&gt;
@@ -313,10 +324,10 @@
         </item>
         <item>
         <title>關於</title>
-        <link>http://localhost:1313/about/</link>
+        <link>https://scientiatw.live/about/</link>
         <pubDate>Sat, 18 Oct 2025 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/about/</guid>
+        <guid>https://scientiatw.live/about/</guid>
         <description>&lt;script&gt;var ConverlyCustomData = {channelId: null};&lt;/script&gt;
 &lt;script async defer src=&#34;https://cdn.affiliates.one/production/adlinks/9632d86e82ddae2c6327eb55c530875fb8f852063ff7075dd96c7f802672af39.js&#34;&gt;&lt;/script&gt;
 &lt;h2 id=&#34;關於本站&#34;&gt;關於本站
@@ -346,10 +357,10 @@
         </item>
         <item>
         <title>近況</title>
-        <link>http://localhost:1313/now/</link>
+        <link>https://scientiatw.live/now/</link>
         <pubDate>Wed, 15 Oct 2025 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/now/</guid>
+        <guid>https://scientiatw.live/now/</guid>
         <description>&lt;h2 id=&#34;-最近的狀態&#34;&gt;🏡 最近的狀態
 &lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;🚎 新竹台北兩地跑：花更多時間坐在南港的辦公室裡&lt;/li&gt;
@@ -388,10 +399,10 @@
         </item>
         <item>
         <title>訂閱電子報</title>
-        <link>http://localhost:1313/newsletter/</link>
+        <link>https://scientiatw.live/newsletter/</link>
         <pubDate>Wed, 15 Oct 2025 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/newsletter/</guid>
+        <guid>https://scientiatw.live/newsletter/</guid>
         <description>&lt;div id=&#34;mc_embed_shell&#34;&gt;
       &lt;link href=&#34;//cdn-images.mailchimp.com/embedcode/classic-061523.css&#34; rel=&#34;stylesheet&#34; type=&#34;text/css&#34;&gt;
   &lt;style type=&#34;text/css&#34;&gt;
@@ -952,10 +963,10 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
         </item>
         <item>
         <title>書單</title>
-        <link>http://localhost:1313/books/</link>
+        <link>https://scientiatw.live/books/</link>
         <pubDate>Sun, 12 Oct 2025 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/books/</guid>
+        <guid>https://scientiatw.live/books/</guid>
         <description>&lt;table&gt;
   &lt;thead&gt;
       &lt;tr&gt;
@@ -1037,18 +1048,18 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
         </item>
         <item>
         <title>紀錄</title>
-        <link>http://localhost:1313/archives/</link>
+        <link>https://scientiatw.live/archives/</link>
         <pubDate>Sat, 24 May 2025 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/archives/</guid>
+        <guid>https://scientiatw.live/archives/</guid>
         <description></description>
         </item>
         <item>
         <title>搜尋</title>
-        <link>http://localhost:1313/search/</link>
+        <link>https://scientiatw.live/search/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/search/</guid>
+        <guid>https://scientiatw.live/search/</guid>
         <description></description>
         </item>
         

@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Post-Quantum Cryptography on Hong-Sheng Huang&#39;s Blog</title>
-        <link>http://localhost:1313/en/tags/post-quantum-cryptography/</link>
+        <link>https://scientiatw.live/en/tags/post-quantum-cryptography/</link>
         <description>Recent content in Post-Quantum Cryptography on Hong-Sheng Huang&#39;s Blog</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
         <copyright>Hong-Sheng Huang</copyright>
-        <lastBuildDate>Thu, 05 Jun 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/en/tags/post-quantum-cryptography/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Thu, 05 Jun 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://scientiatw.live/en/tags/post-quantum-cryptography/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>PQCrypto 2025</title>
-        <link>http://localhost:1313/en/p/pqcrypto-2025/</link>
+        <link>https://scientiatw.live/en/p/pqcrypto-2025/</link>
         <pubDate>Thu, 05 Jun 2025 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/en/p/pqcrypto-2025/</guid>
+        <guid>https://scientiatw.live/en/p/pqcrypto-2025/</guid>
         <description>&lt;img src="https://scientia-potentia-est.com/wp-content/uploads/2025/05/pqcrypto2025_cover-scaled.webp" alt="Featured image of post PQCrypto 2025" /&gt;&lt;p&gt;The 2025 PQCrypto conference is being held in Taiwan, and it just so happens that PIs from the Institute of Information Science at Academia Sinica are serving as co-chairs to organize it. Since I have the opportunity, I decided to attend.&lt;/p&gt;
 &lt;p&gt;This conference is actually the first international conference I’ve attended in my career; in the past, I had only participated in small-scale domestic ones.&lt;/p&gt;
 &lt;p&gt;The refreshments during break times were quite exquisite, and the banquet was even held at &amp;lsquo;Eatogether&amp;rsquo; in the Xinyi District (also my first time dining there). Truly worthy of being a conference organized by the IACR. Of course, offering such a level of service means that the registration fee is noticeably different from that of local conferences that I&amp;rsquo;ve attended.&lt;/p&gt;

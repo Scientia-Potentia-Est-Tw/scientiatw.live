@@ -2,168 +2,168 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/en/</loc>
+    <loc>https://scientiatw.live/en/</loc>
     <lastmod>2025-10-07T15:13:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-tw"
-                href="http://localhost:1313/"
+                href="https://scientiatw.live/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/"
+                href="https://scientiatw.live/en/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/page/</loc>
+    <loc>https://scientiatw.live/en/page/</loc>
     <lastmod>2025-10-07T15:13:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-tw"
-                href="http://localhost:1313/page/"
+                href="https://scientiatw.live/page/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/page/"
+                href="https://scientiatw.live/en/page/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/use/</loc>
+    <loc>https://scientiatw.live/en/use/</loc>
     <lastmod>2025-10-07T15:13:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-tw"
-                href="http://localhost:1313/use/"
+                href="https://scientiatw.live/use/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/use/"
+                href="https://scientiatw.live/en/use/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/about/</loc>
+    <loc>https://scientiatw.live/en/about/</loc>
     <lastmod>2025-10-06T10:40:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-tw"
-                href="http://localhost:1313/about/"
+                href="https://scientiatw.live/about/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/about/"
+                href="https://scientiatw.live/en/about/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/now/</loc>
+    <loc>https://scientiatw.live/en/now/</loc>
     <lastmod>2025-06-06T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-tw"
-                href="http://localhost:1313/now/"
+                href="https://scientiatw.live/now/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/now/"
+                href="https://scientiatw.live/en/now/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/categories/academic/</loc>
+    <loc>https://scientiatw.live/en/categories/academic/</loc>
     <lastmod>2025-06-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/en/categories/</loc>
+    <loc>https://scientiatw.live/en/categories/</loc>
     <lastmod>2025-06-05T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-tw"
-                href="http://localhost:1313/categories/"
+                href="https://scientiatw.live/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/categories/"
+                href="https://scientiatw.live/en/categories/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/tags/conference/</loc>
+    <loc>https://scientiatw.live/en/tags/conference/</loc>
     <lastmod>2025-06-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/en/tags/post-quantum-cryptography/</loc>
+    <loc>https://scientiatw.live/en/tags/post-quantum-cryptography/</loc>
     <lastmod>2025-06-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/en/post/</loc>
+    <loc>https://scientiatw.live/en/post/</loc>
     <lastmod>2025-06-05T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-tw"
-                href="http://localhost:1313/post/"
+                href="https://scientiatw.live/post/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/post/"
+                href="https://scientiatw.live/en/post/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/tags/pqcrypto/</loc>
+    <loc>https://scientiatw.live/en/tags/pqcrypto/</loc>
     <lastmod>2025-06-05T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-tw"
-                href="http://localhost:1313/tags/pqcrypto/"
+                href="https://scientiatw.live/tags/pqcrypto/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/tags/pqcrypto/"
+                href="https://scientiatw.live/en/tags/pqcrypto/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/p/pqcrypto-2025/</loc>
+    <loc>https://scientiatw.live/en/p/pqcrypto-2025/</loc>
     <lastmod>2025-06-05T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-tw"
-                href="http://localhost:1313/p/pqcrypto-2025/"
+                href="https://scientiatw.live/p/pqcrypto-2025/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/p/pqcrypto-2025/"
+                href="https://scientiatw.live/en/p/pqcrypto-2025/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/tags/</loc>
+    <loc>https://scientiatw.live/en/tags/</loc>
     <lastmod>2025-06-05T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-tw"
-                href="http://localhost:1313/tags/"
+                href="https://scientiatw.live/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/tags/"
+                href="https://scientiatw.live/en/tags/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/archives/</loc>
+    <loc>https://scientiatw.live/en/archives/</loc>
     <lastmod>2019-05-28T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-tw"
-                href="http://localhost:1313/archives/"
+                href="https://scientiatw.live/archives/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/archives/"
+                href="https://scientiatw.live/en/archives/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/search/</loc>
+    <loc>https://scientiatw.live/en/search/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-tw"
-                href="http://localhost:1313/search/"
+                href="https://scientiatw.live/search/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/search/"
+                href="https://scientiatw.live/en/search/"
                 />
   </url>
 </urlset>
