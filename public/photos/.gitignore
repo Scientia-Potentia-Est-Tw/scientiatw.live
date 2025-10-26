@@ -1,0 +1,17 @@
+# Ignore all files ending with .log
+*.log
+
+# Ignore the 'node_modules' directory
+node_modules/
+
+# Ignore a specific file
+config.local.js
+
+# Ignore all files in the 'temp' directory
+temp/
+
+# Ignore everything in the 'build' directory, but not the directory itself
+build/*
+
+# Exclude a specific file from being ignored, even if its pattern is matched
+!README.md
