@@ -5,6 +5,8 @@ Allow: /
   
 Allow: /page/
   
+Allow: /now/
+  
 Allow: /gallery/
   
 Allow: /use/
@@ -32,8 +34,6 @@ Allow: /tags/%E9%83%A8%E8%90%BD%E6%A0%BC/
 Allow: /p/blog-questions-challenge/
   
 Allow: /about/
-  
-Allow: /now/
   
 Allow: /newsletter/
   

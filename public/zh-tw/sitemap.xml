@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://scientiatw.live/</loc>
-    <lastmod>2025-10-26T14:14:00+00:00</lastmod>
+    <lastmod>2025-10-27T14:03:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -16,7 +16,7 @@
                 />
   </url><url>
     <loc>https://scientiatw.live/page/</loc>
-    <lastmod>2025-10-26T14:14:00+00:00</lastmod>
+    <lastmod>2025-10-27T14:03:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -28,8 +28,21 @@
                 href="https://scientiatw.live/page/"
                 />
   </url><url>
+    <loc>https://scientiatw.live/now/</loc>
+    <lastmod>2025-10-27T14:03:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://scientiatw.live/en/now/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-tw"
+                href="https://scientiatw.live/now/"
+                />
+  </url><url>
     <loc>https://scientiatw.live/gallery/</loc>
-    <lastmod>2025-10-26T14:14:00+00:00</lastmod>
+    <lastmod>2025-10-27T13:52:00+00:00</lastmod>
   </url><url>
     <loc>https://scientiatw.live/use/</loc>
     <lastmod>2025-10-19T15:37:00+00:00</lastmod>
@@ -118,19 +131,6 @@
                 rel="alternate"
                 hreflang="zh-tw"
                 href="https://scientiatw.live/about/"
-                />
-  </url><url>
-    <loc>https://scientiatw.live/now/</loc>
-    <lastmod>2025-10-15T14:52:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://scientiatw.live/en/now/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-tw"
-                href="https://scientiatw.live/now/"
                 />
   </url><url>
     <loc>https://scientiatw.live/newsletter/</loc>

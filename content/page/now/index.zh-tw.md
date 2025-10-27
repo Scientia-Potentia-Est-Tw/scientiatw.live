@@ -1,11 +1,11 @@
 ---
 title: 近況
 description: 最近在做些什麼
-date: '2025-10-15'
+date: '2025-10-27'
 aliases:
   - now
 slug: now
-lastmod: '2025-10-15T14:52:00'
+lastmod: '2025-10-27T14:03:00'
 menu:
     main: 
         weight: -80
@@ -15,22 +15,21 @@ menu:
 
 ## 🏡 最近的狀態
 - 🚎 新竹台北兩地跑：花更多時間坐在南港的辦公室裡
-- 🏃 盡可能每天有氧運動：目前階段要花最多時間專注，每次重訓完肌肉痠痛導致睡眠狀況不佳，白天做實驗手也撐不太起來，現階段只好先放棄重訓
+- 🏃 盡可能每天跑步：回到學校操場跑步
 - 🛏 睡眠：晚上十一點收東西回宿舍洗澡，十二點睡覺早上八點起床固定作息，不然有時實驗做太晚延遲上床時間，即便睡滿八小時也算是熬夜
 - ⏳ 工作近況：趕第一階段實驗
 
 ## 🌐 最近網路上的狀態
-- 💻 [資通安全第一品牌](https://scientia-potentia-est.com/zh/)：電子報服務持續開放中，每月寄送近期需要特別關注的漏洞資訊以及新技術給讀者
-- 🗓 社群部落格：又看了一些個人網站，決定新增電子報訂閱服務，彙整當月心得日記、生活雜記、所思所想以及特別資訊給讀者
+- 💻 [資通安全第一品牌](https://scientia-potentia-est.com/zh/)：[電子報服務](https://scientia-potentia-est.com/zh/newsletter-zh/)持續開放中，每月寄送近期需要特別關注的漏洞資訊以及新技術給讀者
+- 🗓 社群部落格：新增[圖文頁面](https://scientiatw.live/gallery/)，利用瀑布式套件顯示所有圖冊，而圖片如果有相對應的文章也可以直接點選進入觀看
 
 ## 🎯 最近的專案
 - 🖥️ [Modified Improved Greedy Algorithm](https://github.com/Scientia-Potentia-Est-Tw/Modified-Improved-Greedy-Algorithm)：針對2024/381優化他們的貪婪演算法，提出更多的策略以及加速他們在挑選時的步驟
 
 ## 🍳 最近吃的/喝的
-- 🫛 在學校書局裡看到一瓶[紫米芋頭毛豆奶](https://www.yeshpp.com.tw/product.php?action=detail&pid=HPP09)，嚐鮮所以買來喝喝看，但就跟燕麥奶的狀況一樣，奶在哪？ 
+- 🍦 在校內書局看到即期優格，也是我人生中第一次吃希臘式優格，第一次感受這種酸味，起初不太適應，但越吃越上癮
 
 ## 📚 最近讀的/聽的/看的
-- 📄 [Reducing Quantum Error Correction Overhead with Versatile Flag-Sharing Syndrome Extraction Circuits](https://arxiv.org/abs/2407.00607)：嘗試看看賴教授的CSS-code能不能推廣到其他種Linear Block code上
-- 📃 [Depth optimization of CZ, CNOT, and Clifford circuits](https://arxiv.org/abs/2201.05215)：看一下其他人針對CZ、CNOT以及Clifford電路的複雜度降低手法
-- 📖 [《好好休息》：心不累、身體不疲憊、大腦不報廢的好眠人生實踐法](https://www.books.com.tw/exep/assp.php/scientia/products/0010983296?utm_source=scientia&utm_medium=ap-books&utm_content=recommend&utm_campaign=ap-202510)：前陣子報復性熬夜的狀況很嚴重，所以找了這本蔡宇哲博士的書來看，也讓我自己的作息漸漸回到步調上了，不管事情有多麼急迫人還是要休息才行啊
+- 📄 [A Framework for Efficient Quantum Implementations of Linear Layers](https://eprint.iacr.org/2025/1915)：他們的相依有向圖跟隨機性的排序我覺得有很大的啟發
+- 📖 [《藝術顧問寫給職場工作者的「邏輯式藝術鑑賞法」》：運用五種思考架構，看懂藝術，以理性鍛鍊感性](https://www.books.com.tw/exep/assp.php/scientia/products/0010894082?utm_source=scientia&utm_medium=ap-books&utm_content=recommend&utm_campaign=ap-202510)：對於我們這種沒有受過訓練的人來說，有個框架可以快速進入藝術的世界我覺得挺有趣的
 - 🎧 [茫DAY不錄](https://mondayblueeee.firstory.io/episodes)：最近開始聽的Podcast，把諧音梗用到極致也是一種韻味

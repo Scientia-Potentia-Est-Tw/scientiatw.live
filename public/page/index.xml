@@ -7,14 +7,56 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-tw</language>
         <copyright>Hong-Sheng Huang</copyright>
-        <lastBuildDate>Sun, 26 Oct 2025 14:14:00 +0000</lastBuildDate><atom:link href="https://scientiatw.live/page/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Mon, 27 Oct 2025 14:03:00 +0000</lastBuildDate><atom:link href="https://scientiatw.live/page/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>近況</title>
+        <link>https://scientiatw.live/now/</link>
+        <pubDate>Mon, 27 Oct 2025 00:00:00 +0000</pubDate>
+        
+        <guid>https://scientiatw.live/now/</guid>
+        <description>&lt;h2 id=&#34;-最近的狀態&#34;&gt;🏡 最近的狀態
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;🚎 新竹台北兩地跑：花更多時間坐在南港的辦公室裡&lt;/li&gt;
+&lt;li&gt;🏃 盡可能每天跑步：回到學校操場跑步&lt;/li&gt;
+&lt;li&gt;🛏 睡眠：晚上十一點收東西回宿舍洗澡，十二點睡覺早上八點起床固定作息，不然有時實驗做太晚延遲上床時間，即便睡滿八小時也算是熬夜&lt;/li&gt;
+&lt;li&gt;⏳ 工作近況：趕第一階段實驗&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;-最近網路上的狀態&#34;&gt;🌐 最近網路上的狀態
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;💻 &lt;a class=&#34;link&#34; href=&#34;https://scientia-potentia-est.com/zh/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;資通安全第一品牌&lt;/a&gt;：&lt;a class=&#34;link&#34; href=&#34;https://scientia-potentia-est.com/zh/newsletter-zh/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;電子報服務&lt;/a&gt;持續開放中，每月寄送近期需要特別關注的漏洞資訊以及新技術給讀者&lt;/li&gt;
+&lt;li&gt;🗓 社群部落格：新增&lt;a class=&#34;link&#34; href=&#34;https://scientiatw.live/gallery/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;圖文頁面&lt;/a&gt;，利用瀑布式套件顯示所有圖冊，而圖片如果有相對應的文章也可以直接點選進入觀看&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;-最近的專案&#34;&gt;🎯 最近的專案
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;🖥️ &lt;a class=&#34;link&#34; href=&#34;https://github.com/Scientia-Potentia-Est-Tw/Modified-Improved-Greedy-Algorithm&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Modified Improved Greedy Algorithm&lt;/a&gt;：針對2024/381優化他們的貪婪演算法，提出更多的策略以及加速他們在挑選時的步驟&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;-最近吃的喝的&#34;&gt;🍳 最近吃的/喝的
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;🍦 在校內書局看到即期優格，也是我人生中第一次吃希臘式優格，第一次感受這種酸味，起初不太適應，但越吃越上癮&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;-最近讀的聽的看的&#34;&gt;📚 最近讀的/聽的/看的
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;📄 &lt;a class=&#34;link&#34; href=&#34;https://eprint.iacr.org/2025/1915&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;A Framework for Efficient Quantum Implementations of Linear Layers&lt;/a&gt;：他們的相依有向圖跟隨機性的排序我覺得有很大的啟發&lt;/li&gt;
+&lt;li&gt;📖 &lt;a class=&#34;link&#34; href=&#34;https://www.books.com.tw/exep/assp.php/scientia/products/0010894082?utm_source=scientia&amp;amp;utm_medium=ap-books&amp;amp;utm_content=recommend&amp;amp;utm_campaign=ap-202510&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;《藝術顧問寫給職場工作者的「邏輯式藝術鑑賞法」》：運用五種思考架構，看懂藝術，以理性鍛鍊感性&lt;/a&gt;：對於我們這種沒有受過訓練的人來說，有個框架可以快速進入藝術的世界我覺得挺有趣的&lt;/li&gt;
+&lt;li&gt;🎧 &lt;a class=&#34;link&#34; href=&#34;https://mondayblueeee.firstory.io/episodes&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;茫DAY不錄&lt;/a&gt;：最近開始聽的Podcast，把諧音梗用到極致也是一種韻味&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        </item>
+        <item>
         <title>圖文</title>
         <link>https://scientiatw.live/gallery/</link>
-        <pubDate>Sun, 26 Oct 2025 00:00:00 +0000</pubDate>
+        <pubDate>Mon, 27 Oct 2025 00:00:00 +0000</pubDate>
         
         <guid>https://scientiatw.live/gallery/</guid>
         <description>&lt;gallery&gt;
-&lt;!-- Example &lt;img src=&#34;&#34; alt=&#34;&#34; data-link=&#34;&#34; /&gt; --&gt;
+&lt;!--&lt;img src=&#34;&#34; alt=&#34;&#34; data-link=&#34;&#34; /&gt; --&gt;
+&lt;img src=&#34;https://scientia-potentia-est.com/wp-content/uploads/2025/10/20251025-希臘式優酪-scaled.webp&#34; alt=&#34;希臘式優格&#34; data-link=&#34;&#34; /&gt;
 &lt;/gallery&gt;
 </description>
         </item>
@@ -352,48 +394,6 @@
 &lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;Q：翁山蘇姬的大哥是做什麼行業的？&lt;/li&gt;
 &lt;li&gt;A：開計程車的，因為別人都叫他蘇姬大哥&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        </item>
-        <item>
-        <title>近況</title>
-        <link>https://scientiatw.live/now/</link>
-        <pubDate>Wed, 15 Oct 2025 00:00:00 +0000</pubDate>
-        
-        <guid>https://scientiatw.live/now/</guid>
-        <description>&lt;h2 id=&#34;-最近的狀態&#34;&gt;🏡 最近的狀態
-&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;🚎 新竹台北兩地跑：花更多時間坐在南港的辦公室裡&lt;/li&gt;
-&lt;li&gt;🏃 盡可能每天有氧運動：目前階段要花最多時間專注，每次重訓完肌肉痠痛導致睡眠狀況不佳，白天做實驗手也撐不太起來，現階段只好先放棄重訓&lt;/li&gt;
-&lt;li&gt;🛏 睡眠：晚上十一點收東西回宿舍洗澡，十二點睡覺早上八點起床固定作息，不然有時實驗做太晚延遲上床時間，即便睡滿八小時也算是熬夜&lt;/li&gt;
-&lt;li&gt;⏳ 工作近況：趕第一階段實驗&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;-最近網路上的狀態&#34;&gt;🌐 最近網路上的狀態
-&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;💻 &lt;a class=&#34;link&#34; href=&#34;https://scientia-potentia-est.com/zh/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;資通安全第一品牌&lt;/a&gt;：電子報服務持續開放中，每月寄送近期需要特別關注的漏洞資訊以及新技術給讀者&lt;/li&gt;
-&lt;li&gt;🗓 社群部落格：又看了一些個人網站，決定新增電子報訂閱服務，彙整當月心得日記、生活雜記、所思所想以及特別資訊給讀者&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;-最近的專案&#34;&gt;🎯 最近的專案
-&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;🖥️ &lt;a class=&#34;link&#34; href=&#34;https://github.com/Scientia-Potentia-Est-Tw/Modified-Improved-Greedy-Algorithm&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Modified Improved Greedy Algorithm&lt;/a&gt;：針對2024/381優化他們的貪婪演算法，提出更多的策略以及加速他們在挑選時的步驟&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;-最近吃的喝的&#34;&gt;🍳 最近吃的/喝的
-&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;🫛 在學校書局裡看到一瓶&lt;a class=&#34;link&#34; href=&#34;https://www.yeshpp.com.tw/product.php?action=detail&amp;amp;pid=HPP09&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;紫米芋頭毛豆奶&lt;/a&gt;，嚐鮮所以買來喝喝看，但就跟燕麥奶的狀況一樣，奶在哪？&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;-最近讀的聽的看的&#34;&gt;📚 最近讀的/聽的/看的
-&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;📄 &lt;a class=&#34;link&#34; href=&#34;https://arxiv.org/abs/2407.00607&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Reducing Quantum Error Correction Overhead with Versatile Flag-Sharing Syndrome Extraction Circuits&lt;/a&gt;：嘗試看看賴教授的CSS-code能不能推廣到其他種Linear Block code上&lt;/li&gt;
-&lt;li&gt;📃 &lt;a class=&#34;link&#34; href=&#34;https://arxiv.org/abs/2201.05215&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Depth optimization of CZ, CNOT, and Clifford circuits&lt;/a&gt;：看一下其他人針對CZ、CNOT以及Clifford電路的複雜度降低手法&lt;/li&gt;
-&lt;li&gt;📖 &lt;a class=&#34;link&#34; href=&#34;https://www.books.com.tw/exep/assp.php/scientia/products/0010983296?utm_source=scientia&amp;amp;utm_medium=ap-books&amp;amp;utm_content=recommend&amp;amp;utm_campaign=ap-202510&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;《好好休息》：心不累、身體不疲憊、大腦不報廢的好眠人生實踐法&lt;/a&gt;：前陣子報復性熬夜的狀況很嚴重，所以找了這本蔡宇哲博士的書來看，也讓我自己的作息漸漸回到步調上了，不管事情有多麼急迫人還是要休息才行啊&lt;/li&gt;
-&lt;li&gt;🎧 &lt;a class=&#34;link&#34; href=&#34;https://mondayblueeee.firstory.io/episodes&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;茫DAY不錄&lt;/a&gt;：最近開始聽的Podcast，把諧音梗用到極致也是一種韻味&lt;/li&gt;
 &lt;/ul&gt;
 </description>
         </item>
