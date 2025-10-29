@@ -57,9 +57,10 @@
     &gt;Cloudflare Pages&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;大學時期沒有收入時只能選擇免費的Github Pages當作網頁空間，開始實習後有些工讀的薪水，在網路上看來看去要經營自媒體應該要架設自己的網站與網域，所以開始買了VPS安裝Wordpress&lt;/p&gt;
-&lt;p&gt;由於我之後有打算啟動訂閱服務以及線上課程的規劃，就一定需要有資料庫管理讀者的資訊，而Wordpress自然就成為我的第一選項，而且wordpress除了免費的模板就夠用之外，LaTex、多語言切換以及SEO套件都有免費版的可以安裝&lt;/p&gt;
-&lt;p&gt;近期將Github Pages改到Cloudflare Pages上，雖然原本的Github Pages就挺夠用的了，但SEO就是唯一也是我最煩惱的問題，由於Github的CDN只有在美國地區比較完善，相較之下亞洲地區還不夠好，不巧我的文章大部分都是中文的&lt;/p&gt;
-&lt;p&gt;我架設個人部落格已經一段時間了，但不是每一篇文章在Google搜尋引擎上可以有好的排名，所以決定換成CloudFlare Pages使用CloudFlare的DNS服務，原因光是免費方案就不限流量了，甚至防範DDoS、惡意爬蟲以及防火牆服務都是免費的&lt;/p&gt;
+&lt;p&gt;由於我之後有打算啟動訂閱服務以及線上課程的規劃，並且讀者的個人資料我想要自己全權掌控減少風險，就一定需要有資料庫管理讀者的資訊，Wordpress自然就成為我的第一選項，而且wordpress除了免費的模板功能就夠用之外，支援LaTex、多語言切換以及SEO等套件都有免費版的可以安裝&lt;/p&gt;
+&lt;p&gt;另一個考量的點是Github Repository建議只儲存5GB以下的內容在上面，光把Hugo模板上傳上去就花了一些空間，而隨著文章增加就會越需要引用更多張圖片，如果把圖片全部上傳在Github上會讓部署時間越來越久，所以Wordpress的媒體空間也提供一個網路圖庫空間給我的社群部落格儲存所有圖片&lt;/p&gt;
+&lt;p&gt;近期將Github Pages改到Cloudflare Pages上，雖然原本的Github Pages就挺夠用的了，但SEO就是唯一也是我最煩惱的問題，由於Github的CDN只有在美國地區比較完善，相較之下亞洲地區還不夠好，而不巧我的文章大部分都是中文的，目前TA都是亞太地區&lt;/p&gt;
+&lt;p&gt;我架設社群部落格已經一段時間了，但不是每一篇文章在Google搜尋引擎上可以有好的排名，所以決定換成CloudFlare Pages使用CloudFlare的DNS服務，原因光是免費方案就不限流量了，甚至防範DDoS、惡意爬蟲以及防火牆服務都是免費的&lt;/p&gt;
 &lt;p&gt;而且從Github Pages換到Cloudflare Pages很方便，只需要把原本放在Github上的repo連接到Cloudflare上就可以了，Cloudflare就會根據專案裡面的檔案自動部署出同樣的網站，而只要把網域指向Cloudflare就可以把整個網站換到Cloudflare Pages上&lt;/p&gt;
 &lt;p&gt;原先我每一篇文章在vim裡寫完markdown檔案後還要用Hugo compiler重新編譯，再到/public將輸出的檔案push到github repo裡讓Action部署，但我現在直接在repo裡修改就可以讓Cloudflare自動部署更新&lt;/p&gt;
 &lt;h2 id=&#34;你之前有在其他平台上寫過部落格文章嗎&#34;&gt;你之前有在其他平台上寫過部落格文章嗎？
