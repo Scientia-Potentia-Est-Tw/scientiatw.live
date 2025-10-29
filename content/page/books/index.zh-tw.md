@@ -1,11 +1,11 @@
 ---
 title: 書單
 description: 本頁記錄讀過的每本書及心得分享
-date: '2025-10-12'
+date: '2025-10-29'
 aliases:
   - books
 slug: books
-lastmod: '2025-10-12T11:41:00'
+lastmod: '2025-10-29T16:52:00'
 menu:
     main: 
         weight: -70
@@ -14,6 +14,7 @@ menu:
 ---
 | 書名      | 相關文章 | 類型     |
 | :---        |    :----   |          :--- |
+| 我想念我自己（經典愛藏版）| [《我想念我自己》讀後心得](https://scientiatw.live/p/still-alice/) | 文學小說 |
 | [《好好休息》：心不累、身體不疲憊、大腦不報廢的好眠人生實踐法](https://www.books.com.tw/exep/assp.php/scientia/products/0010983296?utm_source=scientia&utm_medium=ap-books&utm_content=recommend&utm_campaign=ap-202510) | [職場上忽略了休息，我們最終會面臨什麼？](https://scientiatw.live/p/well-rest-ignore-rest/) | 健康 |
 | [《自私的藝術》：快樂有理，自私無罪！別再讓「過度妥協」控制你的餘生，美國心理學權威給無私好人的50個自救箴言](https://www.books.com.tw/exep/assp.php/scientia/products/0010973322?utm_source=scientia&utm_medium=ap-books&utm_content=recommend&utm_campaign=ap-202508)      | [《自私的藝術》：了解自己的想法](https://scientiatw.live/p/the-art-of-selfishness-understand-your-thoughts/)<br>[《自私的藝術》：何處才是通往快樂的道路？](https://scientiatw.live/p/the-art-of-selfishness-where-the-way-lead-to-hapiness/)<br>[《自私的藝術》：永遠不要委屈求全](https://scientiatw.live/p/the-art-of-selfishness-never-compromise/)<br>[《自私的藝術》：自身問題的根源](https://scientiatw.live/p/the-art-of-selfishness-root-of-my-problems/)<br>[《自私的藝術》：生活的壓力](https://scientiatw.live/p/the-art-of-selfishness-stress-of-life/)<br>[《自私的藝術》：偷懶的藝術](https://scientiatw.live/p/the-art-of-selfishness-art-of-shirk/)       | 人生   |
 | [《慢老2.0》：不是活得更老，而是延長健康中年！ 全面升級健腦、強肌、抗衰的日常習慣](https://www.books.com.tw/exep/assp.php/scientia/products/0010982682?utm_source=scientia&utm_medium=ap-books&utm_content=recommend&utm_campaign=ap-202507)   | [《慢老2.0》：閱讀、寫信、玩遊戲將失智症延後五年](https://scientiatw.live/p/slow-aging-cognitive-reserve/)<br>[《慢老2.0》：運動35天逆轉大腦老化](https://scientiatw.live/p/slow-aging-reverse-brain-aging/)<br>[《慢老2.0》：久坐摧毀你的記憶力！](https://scientiatw.live/p/slow-aging-sedentary-destroy-your-memory/)<br>[《慢老2.0》讀後心得：活化大腦的十種方法](https://scientiatw.live/p/slow-aging-ten-ways-to-activate-your-brain/)        | 健康      |

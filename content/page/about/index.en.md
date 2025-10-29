@@ -1,13 +1,14 @@
 ---
-title: Whois
-description: The introduction about me
-date: '2025-10-06'
+title: About
+description: The introduction about site and me
+date: '2025-10-29'
 aliases:
   - about
+  - about-site
   - contact
   - about-me
 slug: about
-lastmod: '2025-10-06T10:40:00'
+lastmod: '2025-10-29T16:54:00'
 menu:
     main: 
         weight: -80

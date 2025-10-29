@@ -3,9 +3,31 @@ User-agent: *
   
 Allow: /
   
+Allow: /p/still-alice/
+  
+Allow: /categories/
+  
 Allow: /page/
   
+Allow: /post/
+  
+Allow: /tags/
+  
+Allow: /tags/%E5%A4%B1%E6%99%BA%E7%97%87/
+  
+Allow: /tags/%E6%88%91%E6%83%B3%E5%BF%B5%E6%88%91%E8%87%AA%E5%B7%B1/
+  
 Allow: /now/
+  
+Allow: /tags/%E9%98%BF%E8%8C%B2%E6%B5%B7%E9%BB%98%E7%97%87/
+  
+Allow: /books/
+  
+Allow: /tags/%E5%81%A5%E5%BA%B7/
+  
+Allow: /categories/%E9%96%B1%E8%AE%80/
+  
+Allow: /tags/%E8%AE%80%E5%BE%8C%E5%BF%83%E5%BE%97/
   
 Allow: /gallery/
   
@@ -14,12 +36,6 @@ Allow: /use/
 Allow: /tags/bear-blog-question-challenge/
   
 Allow: /tags/blog-questions-challenge/
-  
-Allow: /categories/
-  
-Allow: /post/
-  
-Allow: /tags/
   
 Allow: /categories/%E7%94%9F%E6%B4%BB/
   
@@ -37,8 +53,6 @@ Allow: /about/
   
 Allow: /newsletter/
   
-Allow: /books/
-  
 Allow: /tags/%E5%B7%A5%E4%BD%9C%E6%95%88%E7%8E%87/
   
 Allow: /tags/%E4%BC%91%E6%81%AF/
@@ -48,8 +62,6 @@ Allow: /tags/%E5%A5%BD%E5%A5%BD%E4%BC%91%E6%81%AF/
 Allow: /tags/%E8%BA%AB%E5%BF%83%E5%81%A5%E5%BA%B7/
   
 Allow: /tags/%E7%9D%A1%E7%9C%A0/
-  
-Allow: /categories/%E9%96%B1%E8%AE%80/
   
 Allow: /p/well-rest-ignore-rest/
   
@@ -90,8 +102,6 @@ Allow: /tags/%E9%8C%AF%E5%A4%B1%E6%81%90%E6%87%BC/
 Allow: /tags/%E5%8A%A0%E5%B7%A5%E9%A3%9F%E5%93%81/
   
 Allow: /tags/%E5%8E%9F%E5%9E%8B%E9%A3%9F%E7%89%A9/
-  
-Allow: /tags/%E5%81%A5%E5%BA%B7/
   
 Allow: /p/more-eat-more-tired/
   
@@ -141,8 +151,6 @@ Allow: /tags/%E9%97%9C%E9%8D%B5/
   
 Allow: /p/slow-aging-cognitive-reserve/
   
-Allow: /tags/%E5%A4%B1%E6%99%BA%E7%97%87/
-  
 Allow: /tags/%E8%85%A6%E6%9C%AC/
   
 Allow: /tags/%E6%85%A2%E8%80%812.0/
@@ -150,8 +158,6 @@ Allow: /tags/%E6%85%A2%E8%80%812.0/
 Allow: /tags/%E8%AA%8D%E7%9F%A5%E6%B4%BB%E5%8B%95/
   
 Allow: /tags/%E8%AA%8D%E7%9F%A5%E5%84%B2%E5%82%99/
-  
-Allow: /tags/%E8%AE%80%E5%BE%8C%E5%BF%83%E5%BE%97/
   
 Allow: /p/slow-aging-reverse-brain-aging/
   
@@ -162,8 +168,6 @@ Allow: /tags/%E9%81%8B%E5%8B%95/
 Allow: /p/slow-aging-sedentary-destroy-your-memory/
   
 Allow: /tags/%E4%B9%85%E5%9D%90/
-  
-Allow: /tags/%E9%98%BF%E8%8C%B2%E6%B5%B7%E9%BB%98%E7%97%87/
   
 Allow: /tags/%E6%B5%B7%E9%A6%AC%E8%BF%B4/
   
@@ -393,11 +397,11 @@ Allow: /search/
   
 Allow: /en/
   
+Allow: /en/about/
+  
 Allow: /en/page/
   
 Allow: /en/use/
-  
-Allow: /en/about/
   
 Allow: /en/now/
   
