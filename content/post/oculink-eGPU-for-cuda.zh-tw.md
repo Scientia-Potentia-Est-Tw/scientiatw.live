@@ -1,7 +1,7 @@
 +++
 title = "Framework工作機裝設Oculink"
 date = "2025-09-02"
-#lastmod = ""
+lastmod = "2025-10-30"
 author = "黃宏勝"
 categories = [
   "科技",
@@ -39,8 +39,11 @@ slug = "oculink-egpu-for-cuda"
 
 接到轉接器後用電源供應器供電給板子跟GPU，透過Oculink的線材把計算結果回傳給筆電，雖然這方法還是會讓GPU效能降低一些，但網路上評測下來大概只降5\%\~10\%，比起用TB 4的轉接盒降得還少，TB 4基本上就把顯示卡的效能砍一半，越高階的顯示卡效能砍越兇
 
-另外我選擇Oculink的原因還有近期Framework幫16吋的機型更新顯卡出了[GeForce RTX 5070 Laptop GPU](https://frame.work/tw/en/laptop16?tab=whats-new)套件，但NVIDIA通常為了做在筆電上可以使用會把許多效能拿掉，才能夠讓筆電的供電推動顯示卡，所以這筆電版的RTX 5070 VRAM只有8GB
+另外我選擇Oculink的原因還有近期Framework幫16吋的機型更新顯卡出了GeForce RTX 5070 Laptop GPU套件[1]，但NVIDIA通常為了做在筆電上可以使用會把許多效能拿掉，才能夠讓筆電的供電推動顯示卡，所以這筆電版的RTX 5070 VRAM只有8GB
 
 如果採用Oculink的方法才可以裝桌機版的顯示卡，由於我還打算讓工作機做一些異常檢測模型的訓練以及網路安全小型語言模型的訓練，所以VRAM的數量優先順序比效能還高，7B的模型至少要16GB VRAM，一般研究上也都採購24GB以上的GPU
 
 何況筆電對我來說可以帶著跑比起組ATX主機也來得方便，Framework的模組化讓升級也不是大問題，但要注意的是Oculink不像TB 4那樣可以熱插拔，所以要換掉顯示卡都必須先關機才可以拔，有需求的讀者可以查查看Oculink是否符合您的需求
+
+# Reference
+[1] Framework, "Framework Laptop 16. Upgraded!," [https://frame.work/tw/en/laptop16?tab=whats-new](https://frame.work/tw/en/laptop16?tab=whats-new)

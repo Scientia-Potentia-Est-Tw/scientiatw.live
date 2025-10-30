@@ -1,7 +1,7 @@
 +++
 title = "新竹先導公車"
 date = "2025-04-05"
-lastmod = "2025-04-12"
+lastmod = "2025-10-30"
 author = "黃宏勝"
 categories = [
   "生活"
@@ -47,4 +47,7 @@ slug = "Hsinchu-lead-bus-A"
 
 平常還是比較常搭2號、藍1區及5608公車出遊，只有在上下班時段才會選擇共享單車，畢竟行經園區的路段肯定車水馬龍，不過這種共享慢車(YouBike, oloo:校內一種共享電動滑板車)都沒有附安全帽，騎在路上說來還挺危險的
 
-回去聽完台通的EP78講滑雪運動([https://podcasts.apple.com/tw/podcast/ep78-welcome-to-japan-ft-chen-yi-chen/id1510554676?i=1000506475895](https://podcasts.apple.com/tw/podcast/ep78-welcome-to-japan-ft-chen-yi-chen/id1510554676?i=1000506475895))聽到一位客人滑雪沒戴安全帽，頭部摔倒在雪上就腦部受傷躺了半年真的有點害怕，而微笑單車基於租用價格跟衛生考量來看我也只能騎慢一些隨時注意車況自求多福了
+回去聽完台通的EP78講滑雪運動[1]聽到一位客人滑雪沒戴安全帽，頭部摔倒在雪上就腦部受傷躺了半年真的有點害怕，而微笑單車基於租用價格跟衛生考量來看我也只能騎慢一些隨時注意車況自求多福了
+
+# Reference
+[1] 台灣通勤第一品牌, "EP78 Welcome To Japan ft.Chen YI Chen," [https://podcasts.apple.com/tw/podcast/ep78-welcome-to-japan-ft-chen-yi-chen/id1510554676?i=1000506475895](https://podcasts.apple.com/tw/podcast/ep78-welcome-to-japan-ft-chen-yi-chen/id1510554676?i=1000506475895), Apple Podcasts

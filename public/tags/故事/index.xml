@@ -7,15 +7,13 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-tw</language>
         <copyright>Hong-Sheng Huang</copyright>
-        <lastBuildDate>Wed, 29 Oct 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://scientiatw.live/tags/%E6%95%85%E4%BA%8B/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Thu, 30 Oct 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://scientiatw.live/tags/%E6%95%85%E4%BA%8B/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>部落格問題挑戰</title>
         <link>https://scientiatw.live/p/blog-questions-challenge/</link>
         <pubDate>Sat, 18 Oct 2025 00:00:00 +0000</pubDate>
         
         <guid>https://scientiatw.live/p/blog-questions-challenge/</guid>
-        <description>&lt;img src="https://scientia-potentia-est.com/wp-content/uploads/2025/10/blog-questions-challenges-cover-scaled.webp" alt="Featured image of post 部落格問題挑戰" /&gt;&lt;p&gt;在廢文小天地RSS看到部落格挑戰&lt;a class=&#34;link&#34; href=&#34;https://trashposts.com/blog/blog-questions-challenge/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;https://trashposts.com/blog/blog-questions-challenge&lt;/a&gt;，源自Kev Quirk的&lt;a class=&#34;link&#34; href=&#34;https://kevquirk.com/blog/blog-questions-challenge/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Blog Questions Challenge&lt;/a&gt;，看到題目蠻有興趣的，所以決定也寫一篇來回應各項問題&lt;/p&gt;
+        <description>&lt;img src="https://scientia-potentia-est.com/wp-content/uploads/2025/10/blog-questions-challenges-cover-scaled.webp" alt="Featured image of post 部落格問題挑戰" /&gt;&lt;p&gt;在廢文小天地RSS看到部落格挑戰[1]，源自Kev Quirk的Blog Questions Challenge[2]，看到題目蠻有興趣的，所以決定也寫一篇來回應各項問題&lt;/p&gt;
 &lt;p&gt;主要的問題有8題，總共是：&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;你當初為什麼開始寫部落格？&lt;/li&gt;
@@ -69,9 +67,17 @@
 &lt;p&gt;以及目前開放免費的電子報註冊&lt;a class=&#34;link&#34; href=&#34;https://scientia-potentia-est.com/zh/newsletter-zh/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;https://scientia-potentia-est.com/zh/newsletter-zh/&lt;/a&gt;，未來打算推出訂閱制的電子報，還有推出一些線上課程，模板換了好幾次目前這個消耗的計算資源最少，應該不用再換了&lt;/p&gt;
 &lt;p&gt;而個人部落格未來如果Cloudflare Pages開始收費的話可能又要換平台了，但我對目前的模板很滿意，之前換過好幾次Hugo模板只有這一次的滿足卡片式、關鍵字搜尋、目錄支援且最重要有meta tag的SEO優化，所以未來應該不會考慮換模板&lt;/p&gt;
-&lt;p&gt;未來素描作品比較能讓人看的話，考慮做一個類似雷歐的&lt;a class=&#34;link&#34; href=&#34;https://revolc.blog/gallery/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;圖文版面&lt;/a&gt;介面呈現圖片，可以展示出我每一張作品，應該會換網域名字，由於個人部落格主要就是推廣我自己，所以之後網域想要換成hshuang&lt;/p&gt;
+&lt;p&gt;未來素描作品比較能讓人看的話，考慮做一個類似雷歐的圖文版面[3]介面或者是Yelle的瀑布式相冊[4]來呈現圖片，可以展示出我每一張作品，應該會換網域名字，由於個人部落格主要就是推廣我自己，所以之後網域想要換成hshuang&lt;/p&gt;
 &lt;p&gt;除此之外就是把目前的文章翻譯成英文的版本了吧，以及預計未來學其他種新語言後可以把舊文章翻譯成該語言，除了練習該語言的語法之外，也希望讓母語人士了解我的心情&lt;/p&gt;
+&lt;h2 id=&#34;reference&#34;&gt;Reference
+&lt;/h2&gt;&lt;p&gt;[1] 皮皮, &amp;ldquo;部落格挑戰,&amp;rdquo; &lt;a class=&#34;link&#34; href=&#34;https://trashposts.com/blog/blog-questions-challenge/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://trashposts.com/blog/blog-questions-challenge&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;[2] Kev Quirk, &amp;ldquo;Blog Questions Challenge,&amp;rdquo; &lt;a class=&#34;link&#34; href=&#34;https://kevquirk.com/blog/blog-questions-challenge/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://kevquirk.com/blog/blog-questions-challenge/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;[3] 朱智宇, &amp;ldquo;圖文,&amp;rdquo; &lt;a class=&#34;link&#34; href=&#34;https://revolc.blog/gallery/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://revolc.blog/gallery/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;[4] Yelle, &amp;ldquo;相冊,&amp;rdquo; &lt;a class=&#34;link&#34; href=&#34;https://yelleis.top/gallery/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://yelleis.top/gallery/&lt;/a&gt;&lt;/p&gt;
 </description>
         </item>
         

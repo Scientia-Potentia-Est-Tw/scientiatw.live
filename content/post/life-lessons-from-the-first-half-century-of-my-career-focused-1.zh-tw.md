@@ -1,7 +1,7 @@
 +++
 title = "從50年職涯中學到的事業課題-上"
 date = "2025-07-28"
-lastmod = "2025-08-12"
+lastmod = "2025-10-30"
 author = "黃宏勝"
 categories = [
   "職涯",
@@ -44,7 +44,7 @@ slug = "life-lessons-from-the-first-half-century-of-my-career-focused-1"
 熱情與熱忱能幫助你找到適合的隊友、確保資金以及跨越那些重重困難抵達終點，David在Berkeley裡合作的五年專案中每次都會挑選這種人，而這些人都相信著整個團隊的研究可以改變世界
 
 ## 贏的隊伍中沒有輸家，反之輸的隊伍中沒有贏家
-作者提到這句[Frederick Phillips Brooks Jr.](https://en.wikipedia.org/wiki/Fred_Brooks)從他的大學籃球教練那學會這件事情，如果你的團隊獲勝了那麼每一個團員都是勝者，David在高中跟大學裡都熱衷於摔角運動，雖然這是一項個人的運動，但他的教練相信如果大家組成一個團隊，就能夠贏下更多場比賽
+作者提到這句Frederick Phillips Brooks Jr.[1]從他的大學籃球教練那學會這件事情，如果你的團隊獲勝了那麼每一個團員都是勝者，David在高中跟大學裡都熱衷於摔角運動，雖然這是一項個人的運動，但他的教練相信如果大家組成一個團隊，就能夠贏下更多場比賽
 
 David從骨子裡相信，一個人能走得快，但只有一群人才走得遠，即便對手再有天份跟大量的資源，團結一心的團隊還是能打敗那些不團結的隊伍，所以David也很喜歡跟其他善於團隊合作的人共事
 
@@ -56,3 +56,6 @@ David從骨子裡相信，一個人能走得快，但只有一群人才走得遠
 如果你希望團隊登峰造極，那麼你就得拿出一樣的態度，你必須以身作則，如果你總是第一個衝鋒陷陣並且總是堅持到最後，才有辦法啟發隊友們向你看齊
 
 同時在隊長的位置上信任隊友的能力也很重要，如果團員們相信著你跟你的動機那麼他們就會與你共進退，你塑造出何種形象給團隊看，他們就會表現出何種態度給其他人看
+
+## Reference
+[1] Fred Brooks, "Frederick Phillips Brooks Jr.," [https://en.wikipedia.org/wiki/Fred_Brooks](https://en.wikipedia.org/wiki/Fred_Brooks), Wikipedia.

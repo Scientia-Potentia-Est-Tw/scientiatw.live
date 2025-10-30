@@ -1,7 +1,7 @@
 +++
 title = "部落格問題挑戰"
 date = "2025-10-18"
-lastmod = "2025-10-29"
+lastmod = "2025-10-30"
 author = "黃宏勝"
 categories = [
   "生活",
@@ -25,7 +25,7 @@ description = "在廢文小天地看到的Blog Questions Challenge"
 image = "https://scientia-potentia-est.com/wp-content/uploads/2025/10/blog-questions-challenges-cover-scaled.webp"
 slug = "blog-questions-challenge"
 +++
-在廢文小天地RSS看到部落格挑戰[https://trashposts.com/blog/blog-questions-challenge](https://trashposts.com/blog/blog-questions-challenge/)，源自Kev Quirk的[Blog Questions Challenge](https://kevquirk.com/blog/blog-questions-challenge/)，看到題目蠻有興趣的，所以決定也寫一篇來回應各項問題
+在廢文小天地RSS看到部落格挑戰[1]，源自Kev Quirk的Blog Questions Challenge[2]，看到題目蠻有興趣的，所以決定也寫一篇來回應各項問題
 
 主要的問題有8題，總共是：
 1. 你當初為什麼開始寫部落格？
@@ -95,6 +95,15 @@ slug = "blog-questions-challenge"
 
 而個人部落格未來如果Cloudflare Pages開始收費的話可能又要換平台了，但我對目前的模板很滿意，之前換過好幾次Hugo模板只有這一次的滿足卡片式、關鍵字搜尋、目錄支援且最重要有meta tag的SEO優化，所以未來應該不會考慮換模板
 
-未來素描作品比較能讓人看的話，考慮做一個類似雷歐的[圖文版面](https://revolc.blog/gallery/)介面呈現圖片，可以展示出我每一張作品，應該會換網域名字，由於個人部落格主要就是推廣我自己，所以之後網域想要換成hshuang
+未來素描作品比較能讓人看的話，考慮做一個類似雷歐的圖文版面[3]介面或者是Yelle的瀑布式相冊[4]來呈現圖片，可以展示出我每一張作品，應該會換網域名字，由於個人部落格主要就是推廣我自己，所以之後網域想要換成hshuang
 
 除此之外就是把目前的文章翻譯成英文的版本了吧，以及預計未來學其他種新語言後可以把舊文章翻譯成該語言，除了練習該語言的語法之外，也希望讓母語人士了解我的心情
+
+## Reference
+[1] 皮皮, "部落格挑戰," [https://trashposts.com/blog/blog-questions-challenge](https://trashposts.com/blog/blog-questions-challenge/)
+
+[2] Kev Quirk, "Blog Questions Challenge," [https://kevquirk.com/blog/blog-questions-challenge/](https://kevquirk.com/blog/blog-questions-challenge/)
+
+[3] 朱智宇, "圖文," [https://revolc.blog/gallery/](https://revolc.blog/gallery/)
+
+[4] Yelle, "相冊," [https://yelleis.top/gallery/](https://yelleis.top/gallery/)
