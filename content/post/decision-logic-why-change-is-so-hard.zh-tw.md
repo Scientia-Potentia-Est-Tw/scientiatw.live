@@ -82,6 +82,9 @@ slug = "decision-logic-why-change-is-so-hard"
 
 思考關鍵習慣並入手對於改變自己，或影響他人都不失為一個好方法
 
+## Reference
+[1] 山口飛翔, "藍色時期 (15)," [https://moo.im/a/agtuHX](https://moo.im/a/agtuHX), 東立出版社, Readmoo讀墨
+
 ---
 有興趣的讀者可以參考下列讀墨或Kobo電子書版本或者博客來平裝書版本
 
