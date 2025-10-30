@@ -7,7 +7,21 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-tw</language>
         <copyright>Hong-Sheng Huang</copyright>
-        <lastBuildDate>Wed, 29 Oct 2025 17:01:00 +0000</lastBuildDate><atom:link href="https://scientiatw.live/page/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Thu, 30 Oct 2025 16:39:00 +0000</lastBuildDate><atom:link href="https://scientiatw.live/page/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>圖冊</title>
+        <link>https://scientiatw.live/gallery/</link>
+        <pubDate>Thu, 30 Oct 2025 00:00:00 +0000</pubDate>
+        
+        <guid>https://scientiatw.live/gallery/</guid>
+        <description>&lt;gallery&gt;
+&lt;!--&lt;img src=&#34;&#34; alt=&#34;&#34; data-link=&#34;&#34; /&gt; --&gt;
+&lt;img src=&#34;https://scientia-potentia-est.com/wp-content/uploads/2025/10/20251025-希臘式優酪-scaled.webp&#34; alt=&#34;希臘式優格&#34; data-link=&#34;&#34; /&gt;
+&lt;img src=&#34;https://scientia-potentia-est.com/wp-content/uploads/2025/08/IMG_0400-scaled.webp&#34; alt=&#34;讀墨mooInk Pro 2C 13.3吋電子書閱讀器&#34; data-link=&#34;https://scientiatw.live/p/readmoo-mooink-pro-2c/&#34; /&gt;
+&lt;img src=&#34;https://scientia-potentia-est.com/wp-content/uploads/2025/10/20251030-和德昌大麥克貴賓券-scaled.webp&#34; alt=&#34;和德昌大麥克貴賓券&#34; data-link=&#34;&#34; /&gt;
+&lt;/gallery&gt;
+</description>
+        </item>
+        <item>
         <title>近況</title>
         <link>https://scientiatw.live/now/</link>
         <pubDate>Wed, 29 Oct 2025 00:00:00 +0000</pubDate>
@@ -139,19 +153,6 @@
       &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
-</description>
-        </item>
-        <item>
-        <title>圖冊</title>
-        <link>https://scientiatw.live/gallery/</link>
-        <pubDate>Mon, 27 Oct 2025 00:00:00 +0000</pubDate>
-        
-        <guid>https://scientiatw.live/gallery/</guid>
-        <description>&lt;gallery&gt;
-&lt;!--&lt;img src=&#34;&#34; alt=&#34;&#34; data-link=&#34;&#34; /&gt; --&gt;
-&lt;img src=&#34;https://scientia-potentia-est.com/wp-content/uploads/2025/10/20251025-希臘式優酪-scaled.webp&#34; alt=&#34;希臘式優格&#34; data-link=&#34;&#34; /&gt;
-&lt;img src=&#34;https://scientia-potentia-est.com/wp-content/uploads/2025/08/IMG_0400-scaled.webp&#34; alt=&#34;讀墨mooInk Pro 2C 13.3吋電子書閱讀器&#34; data-link=&#34;https://scientiatw.live/p/readmoo-mooink-pro-2c/&#34; /&gt;
-&lt;/gallery&gt;
 </description>
         </item>
         <item>

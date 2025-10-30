@@ -3,7 +3,7 @@ User-agent: *
   
 Allow: /
   
-Allow: /p/still-alice/
+Allow: /p/decision-logic-why-change-is-so-hard/
   
 Allow: /categories/
   
@@ -12,6 +12,22 @@ Allow: /page/
 Allow: /post/
   
 Allow: /tags/
+  
+Allow: /tags/%E5%BF%83%E7%90%86%E5%AD%B8/
+  
+Allow: /tags/%E6%B1%BA%E7%AD%96%E5%88%B6%E5%AE%9A/
+  
+Allow: /tags/%E9%98%BB%E5%8A%9B/
+  
+Allow: /tags/%E7%8F%BE%E7%8B%80%E5%81%8F%E5%B7%AE/
+  
+Allow: /gallery/
+  
+Allow: /tags/%E8%AA%8D%E7%9F%A5%E5%BF%83%E7%90%86%E5%AD%B8/
+  
+Allow: /categories/%E9%96%B1%E8%AE%80/
+  
+Allow: /p/still-alice/
   
 Allow: /tags/%E5%A4%B1%E6%99%BA%E7%97%87/
   
@@ -25,11 +41,7 @@ Allow: /books/
   
 Allow: /tags/%E5%81%A5%E5%BA%B7/
   
-Allow: /categories/%E9%96%B1%E8%AE%80/
-  
 Allow: /tags/%E8%AE%80%E5%BE%8C%E5%BF%83%E5%BE%97/
-  
-Allow: /gallery/
   
 Allow: /use/
   
