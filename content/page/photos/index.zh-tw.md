@@ -1,5 +1,5 @@
 ---
-title: 圖文
+title: 圖冊
 description: 本頁顯示所有圖文創作以及相關的文章
 date: '2025-10-27'
 aliases:
