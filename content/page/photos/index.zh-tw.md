@@ -20,4 +20,5 @@ comments: False
 <img src="https://scientia-potentia-est.com/wp-content/uploads/2025/08/IMG_0400-scaled.webp" alt="讀墨mooInk Pro 2C 13.3吋電子書閱讀器" data-link="https://scientiatw.live/p/readmoo-mooink-pro-2c/" />
 <img src="https://scientia-potentia-est.com/wp-content/uploads/2025/10/20251030-和德昌大麥克貴賓券-scaled.webp" alt="和德昌大麥克貴賓券" data-link="" />
 <img src="https://scientia-potentia-est.com/wp-content/uploads/2025/11/成功湖大白鵝-scaled.webp" alt="成功湖大白鵝" data-link="" />
+<img src="https://scientia-potentia-est.com/wp-content/uploads/2025/11/路漫漫其修遠兮，吾將上下而求索——屈原-scaled.webp" alt="路漫漫其修遠兮，吾將上下而求索——屈原" data-link="" />
 </gallery>
