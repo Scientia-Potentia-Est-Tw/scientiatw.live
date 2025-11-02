@@ -20,13 +20,39 @@ languages:
         params:
             sidebar:
                 subtitle: 保持好奇心並付諸行動
+        menu:
+            social:
+                - identifier: website
+                  name: 資通安全第一品牌
+                  url: https://scientia-potentia-est.com/zh/
+                  params:
+                      icon: brand-wordpress
+
+                - identifier: github
+                  name: Github
+                  url: https://github.com/Scientia-Potentia-Est-Tw
+                  params:
+                      icon: brand-github
     en:
         languageName: English
         title: Hong-Sheng Huang's Blog
         weight: 2
         params:
             sidebar:
-                subtitle: Stay Curious and Take Action 
+                subtitle: Stay Curious and Take Action
+        menu:
+            social:
+                - identifier: github
+                  name: Github
+                  url: https://github.com/Scientia-Potentia-Est-Tw
+                  params:
+                      icon: brand-github
+
+                - identifier: website
+                  name: Scientia Potentia Est Taiwan
+                  url: https://scientia-potentia-est.com/en/
+                  params:
+                      icon: brand-wordpress
 
 services:
     # Change it to your Disqus shortname before using
@@ -209,15 +235,15 @@ menu:
     #social:
     #    - identifier: github
     #      name: GitHub
-    #      url: https://github.com/CaiJimmy/hugo-theme-stack
+    #      url: https://github.com/Scientia-Potentia-Est-Tw
     #      params:
     #          icon: brand-github
 
-    #    - identifier: twitter
-    #      name: Twitter
-    #      url: https://twitter.com
+    #    - identifier: website
+    #      name: Website
+    #      url: https://scientia-potentia-est.com
     #      params:
-    #          icon: brand-twitter
+    #          icon: brand-wordpress
 
 related:
     includeNewer: true
