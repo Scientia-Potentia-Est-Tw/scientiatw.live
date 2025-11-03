@@ -5,6 +5,8 @@ Allow: /
   
 Allow: /page/
   
+Allow: /about/
+  
 Allow: /gallery/
   
 Allow: /p/decision-logic-why-change-is-so-hard/
@@ -60,8 +62,6 @@ Allow: /links/
 Allow: /tags/%E9%83%A8%E8%90%BD%E6%A0%BC/
   
 Allow: /p/blog-questions-challenge/
-  
-Allow: /about/
   
 Allow: /newsletter/
   
