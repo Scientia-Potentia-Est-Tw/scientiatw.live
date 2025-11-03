@@ -1,6 +1,6 @@
 +++
 title = "思維可見度"
-date = "2025-08-01"
+date = "2025-07-31"
 lastmod = "2025-08-12"
 author = "黃宏勝"
 categories = [
