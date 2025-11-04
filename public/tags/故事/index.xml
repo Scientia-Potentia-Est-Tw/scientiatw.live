@@ -7,7 +7,7 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-tw</language>
         <copyright>Hong-Sheng Huang</copyright>
-        <lastBuildDate>Thu, 30 Oct 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://scientiatw.live/tags/%E6%95%85%E4%BA%8B/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Tue, 04 Nov 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://scientiatw.live/tags/%E6%95%85%E4%BA%8B/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>部落格問題挑戰</title>
         <link>https://scientiatw.live/p/blog-questions-challenge/</link>
         <pubDate>Sat, 18 Oct 2025 00:00:00 +0000</pubDate>
@@ -46,8 +46,9 @@
 &lt;h2 id=&#34;你之前有在其他平台上寫過部落格文章嗎&#34;&gt;你之前有在其他平台上寫過部落格文章嗎？
 &lt;/h2&gt;&lt;p&gt;高職時期上科技應用課時，老師有教我們開Google Blogger網誌，但寫完一篇關於高一生活的文章，之後就沒有再開過了，那個Google帳號我也不確定還有沒有在用，後來就只在自己架設的地方寫文章&lt;/p&gt;
 &lt;h2 id=&#34;你如何撰寫文章例如使用本地編輯工具還是在部落格的後台控制面板中編寫&#34;&gt;你如何撰寫文章？例如，使用本地編輯工具，還是在部落格的後台／控制面板中編寫？
-&lt;/h2&gt;&lt;p&gt;在Wordpress上就用它的編輯區塊，還挺不錯的，不管是純文字或者HTML模式都可以寫，而在Cloudflare Pages上的文章都是我透過Vim編輯Markdown檔案產出的&lt;/p&gt;
-&lt;p&gt;把每一篇文章的範例儲存在一個txt檔案裡，每次開新的一篇都從裡面複製出來貼到vim上，再開始寫完整篇&lt;/p&gt;
+&lt;/h2&gt;&lt;p&gt;不管是技術文章或是閱讀心得，我總會先在Obsidian上做許多卡片盒筆記，搜集好一定份量的素材後才決定開始寫文章&lt;/p&gt;
+&lt;p&gt;之後再貼到Wordpress上的撰寫區塊，調整字型，比較麻煩的就是Obsidian裡原生Latex是用錢字號($)，但換到Wordpress上的模板inline mode是用[latex]來標記&lt;/p&gt;
+&lt;p&gt;而Cloudflare Pages上的文章都是我從素材裡貼到Vim編輯器裡的Markdown檔案產出的，把文章範例模板儲存在一個txt檔案裡，每次開新的一篇都從裡面複製出來貼到vim上，再開始寫完整篇&lt;/p&gt;
 &lt;h2 id=&#34;你什麼時候最有寫作靈感&#34;&gt;你什麼時候最有寫作靈感？
 &lt;/h2&gt;&lt;p&gt;每天晚上吃完晚餐後的休息時間，由於晚餐過後注意力也下降許多，所以會開始審視當日白天新增的卡片盒筆記資料庫，整理今天寫的卡片並且更新Obsidian Canvas時就會想到有哪些素材是可以寫成文章的&lt;/p&gt;
 &lt;p&gt;另外看RSS閱讀器時，看到有些部落格更新了新文章，覺得有趣的內容就決定延伸寫一篇我自己的想法&lt;/p&gt;
@@ -65,8 +66,8 @@
 &lt;/h2&gt;&lt;p&gt;技術部落格如我冀望它的名字，《&lt;a class=&#34;link&#34; href=&#34;https://scientia-potentia-est.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;資通安全第一品牌&lt;/a&gt;》，成為台灣地區學習資安技術的指標之一，另外就是多補充詳細的數學文章彌補讀者的底層知識，讓網站成為自給自足(self-contained)的平台&lt;/p&gt;
 &lt;p&gt;以及目前開放免費的電子報註冊&lt;a class=&#34;link&#34; href=&#34;https://scientia-potentia-est.com/zh/newsletter-zh/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;https://scientia-potentia-est.com/zh/newsletter-zh/&lt;/a&gt;，未來打算推出訂閱制的電子報，還有推出一些線上課程，模板換了好幾次目前這個消耗的計算資源最少，應該不用再換了&lt;/p&gt;
-&lt;p&gt;而個人部落格未來如果Cloudflare Pages開始收費的話可能又要換平台了，但我對目前的模板很滿意，之前換過好幾次Hugo模板只有這一次的滿足卡片式、關鍵字搜尋、目錄支援且最重要有meta tag的SEO優化，所以未來應該不會考慮換模板&lt;/p&gt;
+    &gt;https://scientia-potentia-est.com/zh/newsletter-zh/&lt;/a&gt;，未來打算推出訂閱制的電子報，還有推出一些線上課程，Wordpress模板換了好幾次，目前這個消耗的計算資源最少，應該不會再換了&lt;/p&gt;
+&lt;p&gt;而個人部落格未來如果Cloudflare Pages開始收費的話可能又要換平台了，但我對目前的Hugo模板很滿意，之前換過好幾次模板只有這一次的滿足卡片式、關鍵字搜尋、目錄支援且最重要有meta tag的SEO優化，所以未來應該不會考慮換模板&lt;/p&gt;
 &lt;p&gt;未來素描作品比較能讓人看的話，考慮做一個類似雷歐的圖文版面[3]介面或者是Yelle的瀑布式相冊[4]來呈現圖片，可以展示出我每一張作品，應該會換網域名字，由於個人部落格主要就是推廣我自己，所以之後網域想要換成hshuang&lt;/p&gt;
 &lt;p&gt;除此之外就是把目前的文章翻譯成英文的版本了吧，以及預計未來學其他種新語言後可以把舊文章翻譯成該語言，除了練習該語言的語法之外，也希望讓母語人士了解我的心情&lt;/p&gt;
 &lt;h2 id=&#34;reference&#34;&gt;Reference

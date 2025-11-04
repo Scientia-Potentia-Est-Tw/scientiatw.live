@@ -1,7 +1,7 @@
 +++
 title = "部落格問題挑戰"
 date = "2025-10-18"
-lastmod = "2025-10-30"
+lastmod = "2025-11-04"
 author = "黃宏勝"
 categories = [
   "生活",
@@ -65,9 +65,11 @@ slug = "blog-questions-challenge"
 高職時期上科技應用課時，老師有教我們開Google Blogger網誌，但寫完一篇關於高一生活的文章，之後就沒有再開過了，那個Google帳號我也不確定還有沒有在用，後來就只在自己架設的地方寫文章
 
 ## 你如何撰寫文章？例如，使用本地編輯工具，還是在部落格的後台／控制面板中編寫？
-在Wordpress上就用它的編輯區塊，還挺不錯的，不管是純文字或者HTML模式都可以寫，而在Cloudflare Pages上的文章都是我透過Vim編輯Markdown檔案產出的
+不管是技術文章或是閱讀心得，我總會先在Obsidian上做許多卡片盒筆記，搜集好一定份量的素材後才決定開始寫文章
 
-把每一篇文章的範例儲存在一個txt檔案裡，每次開新的一篇都從裡面複製出來貼到vim上，再開始寫完整篇
+之後再貼到Wordpress上的撰寫區塊，調整字型，比較麻煩的就是Obsidian裡原生Latex是用錢字號(\$)，但換到Wordpress上的模板inline mode是用[latex]來標記
+
+而Cloudflare Pages上的文章都是我從素材裡貼到Vim編輯器裡的Markdown檔案產出的，把文章範例模板儲存在一個txt檔案裡，每次開新的一篇都從裡面複製出來貼到vim上，再開始寫完整篇
 
 ## 你什麼時候最有寫作靈感？
 每天晚上吃完晚餐後的休息時間，由於晚餐過後注意力也下降許多，所以會開始審視當日白天新增的卡片盒筆記資料庫，整理今天寫的卡片並且更新Obsidian Canvas時就會想到有哪些素材是可以寫成文章的
@@ -91,9 +93,9 @@ slug = "blog-questions-challenge"
 ## 你對部落格有什麼未來計畫嗎？例如重新設計、搬到另一個平台，或是加入新功能？
 技術部落格如我冀望它的名字，《[資通安全第一品牌](https://scientia-potentia-est.com/)》，成為台灣地區學習資安技術的指標之一，另外就是多補充詳細的數學文章彌補讀者的底層知識，讓網站成為自給自足(self-contained)的平台
 
-以及目前開放免費的電子報註冊[https://scientia-potentia-est.com/zh/newsletter-zh/](https://scientia-potentia-est.com/zh/newsletter-zh/)，未來打算推出訂閱制的電子報，還有推出一些線上課程，模板換了好幾次目前這個消耗的計算資源最少，應該不用再換了
+以及目前開放免費的電子報註冊[https://scientia-potentia-est.com/zh/newsletter-zh/](https://scientia-potentia-est.com/zh/newsletter-zh/)，未來打算推出訂閱制的電子報，還有推出一些線上課程，Wordpress模板換了好幾次，目前這個消耗的計算資源最少，應該不會再換了
 
-而個人部落格未來如果Cloudflare Pages開始收費的話可能又要換平台了，但我對目前的模板很滿意，之前換過好幾次Hugo模板只有這一次的滿足卡片式、關鍵字搜尋、目錄支援且最重要有meta tag的SEO優化，所以未來應該不會考慮換模板
+而個人部落格未來如果Cloudflare Pages開始收費的話可能又要換平台了，但我對目前的Hugo模板很滿意，之前換過好幾次模板只有這一次的滿足卡片式、關鍵字搜尋、目錄支援且最重要有meta tag的SEO優化，所以未來應該不會考慮換模板
 
 未來素描作品比較能讓人看的話，考慮做一個類似雷歐的圖文版面[3]介面或者是Yelle的瀑布式相冊[4]來呈現圖片，可以展示出我每一張作品，應該會換網域名字，由於個人部落格主要就是推廣我自己，所以之後網域想要換成hshuang
 
