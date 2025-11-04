@@ -3,19 +3,33 @@ User-agent: *
   
 Allow: /
   
+Allow: /categories/
+  
 Allow: /page/
+  
+Allow: /post/
+  
+Allow: /tags/
+  
+Allow: /categories/%E7%94%9F%E6%B4%BB/
+  
+Allow: /tags/%E8%A1%80%E7%B3%96/
+  
+Allow: /tags/%E6%94%BE%E9%AC%86%E5%BF%83%E6%83%85/
+  
+Allow: /tags/%E8%83%B0%E5%B3%B6%E7%B4%A0/
+  
+Allow: /p/control-blood-glucose-ten-ways/
+  
+Allow: /tags/%E9%81%8B%E5%8B%95/
+  
+Allow: /tags/%E7%B3%96%E5%B0%BF%E7%97%85/
   
 Allow: /about/
   
 Allow: /gallery/
   
 Allow: /p/decision-logic-why-change-is-so-hard/
-  
-Allow: /categories/
-  
-Allow: /post/
-  
-Allow: /tags/
   
 Allow: /tags/%E8%A1%8C%E7%82%BA%E7%A7%91%E5%AD%B8/
   
@@ -50,8 +64,6 @@ Allow: /use/
 Allow: /tags/bear-blog-question-challenge/
   
 Allow: /tags/blog-questions-challenge/
-  
-Allow: /categories/%E7%94%9F%E6%B4%BB/
   
 Allow: /tags/%E6%8C%91%E6%88%B0/
   
@@ -129,8 +141,6 @@ Allow: /p/metabolic-power-is-key-of-health/
   
 Allow: /tags/%E8%B6%85%E5%8A%A0%E5%B7%A5%E9%A3%9F%E5%93%81/
   
-Allow: /tags/%E7%B3%96%E5%B0%BF%E7%97%85/
-  
 Allow: /tags/cuda/
   
 Allow: /tags/egpu/
@@ -174,8 +184,6 @@ Allow: /tags/%E8%AA%8D%E7%9F%A5%E5%84%B2%E5%82%99/
 Allow: /p/slow-aging-reverse-brain-aging/
   
 Allow: /tags/%E9%80%86%E8%BD%89/
-  
-Allow: /tags/%E9%81%8B%E5%8B%95/
   
 Allow: /p/slow-aging-sedentary-destroy-your-memory/
   

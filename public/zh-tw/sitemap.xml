@@ -15,38 +15,6 @@
                 href="https://scientiatw.live/"
                 />
   </url><url>
-    <loc>https://scientiatw.live/page/</loc>
-    <lastmod>2025-11-04T10:14:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://scientiatw.live/en/page/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-tw"
-                href="https://scientiatw.live/page/"
-                />
-  </url><url>
-    <loc>https://scientiatw.live/about/</loc>
-    <lastmod>2025-11-04T10:14:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://scientiatw.live/en/about/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-tw"
-                href="https://scientiatw.live/about/"
-                />
-  </url><url>
-    <loc>https://scientiatw.live/gallery/</loc>
-    <lastmod>2025-11-02T13:47:00+00:00</lastmod>
-  </url><url>
-    <loc>https://scientiatw.live/p/decision-logic-why-change-is-so-hard/</loc>
-    <lastmod>2025-10-31T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://scientiatw.live/categories/</loc>
     <lastmod>2025-11-04T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -58,6 +26,19 @@
                 rel="alternate"
                 hreflang="zh-tw"
                 href="https://scientiatw.live/categories/"
+                />
+  </url><url>
+    <loc>https://scientiatw.live/page/</loc>
+    <lastmod>2025-11-04T10:14:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://scientiatw.live/en/page/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-tw"
+                href="https://scientiatw.live/page/"
                 />
   </url><url>
     <loc>https://scientiatw.live/post/</loc>
@@ -85,6 +66,46 @@
                 hreflang="zh-tw"
                 href="https://scientiatw.live/tags/"
                 />
+  </url><url>
+    <loc>https://scientiatw.live/categories/%E7%94%9F%E6%B4%BB/</loc>
+    <lastmod>2025-11-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://scientiatw.live/tags/%E8%A1%80%E7%B3%96/</loc>
+    <lastmod>2025-11-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://scientiatw.live/tags/%E6%94%BE%E9%AC%86%E5%BF%83%E6%83%85/</loc>
+    <lastmod>2025-11-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://scientiatw.live/tags/%E8%83%B0%E5%B3%B6%E7%B4%A0/</loc>
+    <lastmod>2025-11-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://scientiatw.live/p/control-blood-glucose-ten-ways/</loc>
+    <lastmod>2025-11-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://scientiatw.live/tags/%E9%81%8B%E5%8B%95/</loc>
+    <lastmod>2025-11-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://scientiatw.live/tags/%E7%B3%96%E5%B0%BF%E7%97%85/</loc>
+    <lastmod>2025-11-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://scientiatw.live/about/</loc>
+    <lastmod>2025-11-04T10:14:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://scientiatw.live/en/about/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-tw"
+                href="https://scientiatw.live/about/"
+                />
+  </url><url>
+    <loc>https://scientiatw.live/gallery/</loc>
+    <lastmod>2025-11-02T13:47:00+00:00</lastmod>
+  </url><url>
+    <loc>https://scientiatw.live/p/decision-logic-why-change-is-so-hard/</loc>
+    <lastmod>2025-10-31T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://scientiatw.live/tags/%E8%A1%8C%E7%82%BA%E7%A7%91%E5%AD%B8/</loc>
     <lastmod>2025-10-31T00:00:00+00:00</lastmod>
@@ -155,9 +176,6 @@
     <lastmod>2025-11-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://scientiatw.live/tags/blog-questions-challenge/</loc>
-    <lastmod>2025-11-04T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://scientiatw.live/categories/%E7%94%9F%E6%B4%BB/</loc>
     <lastmod>2025-11-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://scientiatw.live/tags/%E6%8C%91%E6%88%B0/</loc>
@@ -274,9 +292,6 @@
     <loc>https://scientiatw.live/tags/%E8%B6%85%E5%8A%A0%E5%B7%A5%E9%A3%9F%E5%93%81/</loc>
     <lastmod>2025-09-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://scientiatw.live/tags/%E7%B3%96%E5%B0%BF%E7%97%85/</loc>
-    <lastmod>2025-09-04T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://scientiatw.live/tags/cuda/</loc>
     <lastmod>2025-10-30T00:00:00+00:00</lastmod>
   </url><url>
@@ -341,9 +356,6 @@
     <lastmod>2025-08-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://scientiatw.live/tags/%E9%80%86%E8%BD%89/</loc>
-    <lastmod>2025-08-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://scientiatw.live/tags/%E9%81%8B%E5%8B%95/</loc>
     <lastmod>2025-08-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://scientiatw.live/p/slow-aging-sedentary-destroy-your-memory/</loc>
