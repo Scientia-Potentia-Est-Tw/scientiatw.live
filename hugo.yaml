@@ -78,7 +78,7 @@ params:
 
     footer:
         since: 2025
-        customText: Posts Copyright Hong-Sheng Huang from Scientia Potentia Est Taiwan
+        customText: Posts Copyright Hong-Sheng Huang
 
     dateFormat:
         published: Jan 02, 2006
