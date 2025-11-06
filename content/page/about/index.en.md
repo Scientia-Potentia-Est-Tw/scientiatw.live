@@ -2,6 +2,7 @@
 title: About
 description: The introduction about site and me
 date: '2025-11-06'
+author: "Hong-Sheng Huang"
 aliases:
   - about
   - about-site

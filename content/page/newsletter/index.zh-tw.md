@@ -2,6 +2,7 @@
 title: 訂閱電子報
 description: 每月寄送一至兩封當月彙整資訊
 date: '2025-10-15'
+author: "黃宏勝"
 aliases:
   - newsletter
 slug: newsletter

@@ -2,6 +2,7 @@
 title: 圖冊
 description: 本頁顯示所有圖文創作以及相關的文章
 date: '2025-11-05'
+author: "黃宏勝"
 aliases:
   - gallery
 slug: gallery

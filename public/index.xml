@@ -11,7 +11,7 @@
         <title>圖冊</title>
         <link>https://scientiatw.live/gallery/</link>
         <pubDate>Wed, 05 Nov 2025 00:00:00 +0000</pubDate>
-        
+        <author>黃宏勝</author>
         <guid>https://scientiatw.live/gallery/</guid>
         <description>&lt;gallery&gt;
 &lt;!--&lt;img src=&#34;&#34; alt=&#34;&#34; data-link=&#34;&#34; /&gt; --&gt;
@@ -106,7 +106,7 @@
         <title>關於</title>
         <link>https://scientiatw.live/about/</link>
         <pubDate>Tue, 04 Nov 2025 00:00:00 +0000</pubDate>
-        
+        <author>黃宏勝</author>
         <guid>https://scientiatw.live/about/</guid>
         <description>&lt;script&gt;var ConverlyCustomData = {channelId: null};&lt;/script&gt;
 &lt;script async defer src=&#34;https://cdn.affiliates.one/production/adlinks/9632d86e82ddae2c6327eb55c530875fb8f852063ff7075dd96c7f802672af39.js&#34;&gt;&lt;/script&gt;
@@ -213,7 +213,7 @@
         <title>書單</title>
         <link>https://scientiatw.live/books/</link>
         <pubDate>Thu, 30 Oct 2025 00:00:00 +0000</pubDate>
-        
+        <author>黃宏勝</author>
         <guid>https://scientiatw.live/books/</guid>
         <description>&lt;table&gt;
   &lt;thead&gt;
@@ -329,7 +329,7 @@
         <title>近況</title>
         <link>https://scientiatw.live/now/</link>
         <pubDate>Wed, 29 Oct 2025 00:00:00 +0000</pubDate>
-        
+        <author>黃宏勝</author>
         <guid>https://scientiatw.live/now/</guid>
         <description>&lt;h2 id=&#34;-最近的狀態&#34;&gt;🏡 最近的狀態
 &lt;/h2&gt;&lt;ul&gt;
@@ -372,7 +372,7 @@
         <title>使用</title>
         <link>https://scientiatw.live/use/</link>
         <pubDate>Sun, 19 Oct 2025 00:00:00 +0000</pubDate>
-        
+        <author>黃宏勝</author>
         <guid>https://scientiatw.live/use/</guid>
         <description>&lt;h2 id=&#34;-電腦軟體&#34;&gt;🖥️ 電腦軟體
 &lt;/h2&gt;&lt;h3 id=&#34;-作業系統&#34;&gt;💾 作業系統
@@ -505,7 +505,7 @@
         <title>推薦</title>
         <link>https://scientiatw.live/links/</link>
         <pubDate>Sat, 18 Oct 2025 00:00:00 +0000</pubDate>
-        
+        <author>黃宏勝</author>
         <guid>https://scientiatw.live/links/</guid>
         <description>&lt;h2 id=&#34;-部落格&#34;&gt;🎰 部落格
 &lt;/h2&gt;&lt;table&gt;
@@ -750,7 +750,7 @@
         <title>訂閱電子報</title>
         <link>https://scientiatw.live/newsletter/</link>
         <pubDate>Wed, 15 Oct 2025 00:00:00 +0000</pubDate>
-        
+        <author>黃宏勝</author>
         <guid>https://scientiatw.live/newsletter/</guid>
         <description>&lt;div id=&#34;mc_embed_shell&#34;&gt;
       &lt;link href=&#34;//cdn-images.mailchimp.com/embedcode/classic-061523.css&#34; rel=&#34;stylesheet&#34; type=&#34;text/css&#34;&gt;

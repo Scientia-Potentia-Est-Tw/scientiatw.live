@@ -2,6 +2,7 @@
 title: 關於
 description: 介紹本站與我
 date: '2025-11-04'
+author: "黃宏勝"
 aliases:
   - about
   - contact

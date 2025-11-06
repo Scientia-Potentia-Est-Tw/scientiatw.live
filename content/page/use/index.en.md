@@ -2,6 +2,7 @@
 title: Use
 description: Items I use regularly
 date: '2025-10-07'
+author: "Hong-Sheng Huang"
 aliases:
   - use
 slug: use

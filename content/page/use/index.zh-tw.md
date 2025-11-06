@@ -2,6 +2,7 @@
 title: 使用
 description: 目前常用的物品
 date: '2025-10-19'
+author: "黃宏勝"
 aliases:
   - use
 slug: use

@@ -2,6 +2,7 @@
 title: 書單
 description: 本頁記錄讀過的每本書及心得分享
 date: '2025-10-30'
+author: "黃宏勝"
 aliases:
   - books
 slug: books

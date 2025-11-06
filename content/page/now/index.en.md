@@ -2,6 +2,7 @@
 title: Now
 description: What have I been doing recently
 date: '2025-11-06'
+author: "Hong-Sheng Huang"
 aliases:
   - now
 slug: now
