@@ -10,7 +10,7 @@
         <lastBuildDate>Tue, 12 Aug 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://scientiatw.live/tags/%E7%B6%B2%E8%B7%AF%E7%88%AC%E8%9F%B2/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Robots.txt與AI爬蟲的愛恨情仇</title>
         <link>https://scientiatw.live/p/ai-vs-robots-txt/</link>
-        <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
+        <pubDate>Sat, 02 Aug 2025 00:00:00 &#43;0000</pubDate>
         <author>黃宏勝</author>
         <guid>https://scientiatw.live/p/ai-vs-robots-txt/</guid>
         <description>&lt;img src="https://scientia-potentia-est.com/wp-content/uploads/2025/08/AI-vs-robots-cover-e1756260099688.webp" alt="Featured image of post Robots.txt與AI爬蟲的愛恨情仇" /&gt;&lt;p&gt;各大網站基本上靠一個叫做&amp;quot;robots.txt&amp;quot;的檔案對網路爬蟲[1]說明哪些頁面可以爬取而哪些頁面禁止爬取，過去我們透過這個設定讓Google Search, Bing Webmaster等搜尋引擎的spider來逛我們的個人網站，時至今日這些公司為了讓他們自己的大型語言模型系統更完善，利用RAG強化AI爬蟲花更多力氣想把整個網際網路都爬下來，以便更精確的回應使用者的提問，以及能訓練生成更多種類的內容&lt;/p&gt;

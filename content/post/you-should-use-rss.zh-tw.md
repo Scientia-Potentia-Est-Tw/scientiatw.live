@@ -1,26 +1,23 @@
-+++
-title = "自主選擇乾淨的資訊，回歸RSS的懷抱吧！"
-date = "2025-08-01"
-lastmod = "2025-08-14"
-author = "黃宏勝"
-categories = [
-  "科技",
-]
-tags = [
-  "RSS",
-  "資訊",
-  "壟斷",
-]
-keywords = [
-  "科技",
-  "RSS",
-  "資訊",
-  "壟斷",
-]
-description = "在這個注意力被各種事物搶奪的時代，你是否感覺自己在資訊海洋中溺水了？"
-image = "https://scientia-potentia-est.com/wp-content/uploads/2025/08/rss-cover-scaled.webp"
-slug = "you-should-use-rss"
-+++
+---
+title: "自主選擇乾淨的資訊，回歸RSS的懷抱吧！"
+date: 2025-08-01T14:23:00+08:00
+lastmod: 2025-11-06T20:15:00+08:00
+author: "黃宏勝"
+categories:
+  - 科技
+tags: 
+  - RSS
+  - 資訊 
+  - 壟斷
+keywords:
+  - 科技
+  - RSS 
+  - 資訊 
+  - 壟斷
+description: "在這個注意力被各種事物搶奪的時代，你是否感覺自己在資訊海洋中溺水了？"
+image: "https://scientia-potentia-est.com/wp-content/uploads/2025/08/rss-cover-scaled.webp"
+slug: "you-should-use-rss"
+---
  
 上班一整天身心已經俱疲，下班回到家吃晚餐打開手機裡的社群媒體APP左滑右刷，這邊看了朋友的限動那邊又換去幫另一個朋友點愛心，你不經意間就吃完飯了繼續坐著滑滑河道(文字型社群媒體如Facebook、Plurk、X及Threads等首頁頁面用語，因需要一直往下滑載入資訊故有時稱作河道)跟看看短影音
 

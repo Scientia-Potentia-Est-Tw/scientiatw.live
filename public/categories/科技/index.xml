@@ -7,10 +7,10 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-tw</language>
         <copyright>Hong-Sheng Huang</copyright>
-        <lastBuildDate>Thu, 30 Oct 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://scientiatw.live/categories/%E7%A7%91%E6%8A%80/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Thu, 06 Nov 2025 20:15:00 +0800</lastBuildDate><atom:link href="https://scientiatw.live/categories/%E7%A7%91%E6%8A%80/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Framework工作機裝設Oculink</title>
         <link>https://scientiatw.live/p/oculink-egpu-for-cuda/</link>
-        <pubDate>Tue, 02 Sep 2025 00:00:00 +0000</pubDate>
+        <pubDate>Tue, 02 Sep 2025 00:00:00 &#43;0000</pubDate>
         <author>黃宏勝</author>
         <guid>https://scientiatw.live/p/oculink-egpu-for-cuda/</guid>
         <description>&lt;img src="https://scientia-potentia-est.com/wp-content/uploads/2025/09/Oculink-1-scaled.webp" alt="Featured image of post Framework工作機裝設Oculink" /&gt;&lt;p&gt;由於近期研究上需要弄NVIDIA CUDA平行程式做實驗，但我手上只有筆電，市面上針對筆電的外接式顯示卡除了利用Thunderbolt 4(TB 4)的USB介面外接之外，剩下的選擇只有伺服器在用的Oculink技術，不過目前TB 4的轉接盒都接近一萬元，何況只是轉接盒而已，還得撥一些預算給顯示卡跟電源供應器&lt;/p&gt;
@@ -49,7 +49,7 @@
         <item>
         <title>Robots.txt與AI爬蟲的愛恨情仇</title>
         <link>https://scientiatw.live/p/ai-vs-robots-txt/</link>
-        <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
+        <pubDate>Sat, 02 Aug 2025 00:00:00 &#43;0000</pubDate>
         <author>黃宏勝</author>
         <guid>https://scientiatw.live/p/ai-vs-robots-txt/</guid>
         <description>&lt;img src="https://scientia-potentia-est.com/wp-content/uploads/2025/08/AI-vs-robots-cover-e1756260099688.webp" alt="Featured image of post Robots.txt與AI爬蟲的愛恨情仇" /&gt;&lt;p&gt;各大網站基本上靠一個叫做&amp;quot;robots.txt&amp;quot;的檔案對網路爬蟲[1]說明哪些頁面可以爬取而哪些頁面禁止爬取，過去我們透過這個設定讓Google Search, Bing Webmaster等搜尋引擎的spider來逛我們的個人網站，時至今日這些公司為了讓他們自己的大型語言模型系統更完善，利用RAG強化AI爬蟲花更多力氣想把整個網際網路都爬下來，以便更精確的回應使用者的提問，以及能訓練生成更多種類的內容&lt;/p&gt;
@@ -67,7 +67,7 @@
         <item>
         <title>自主選擇乾淨的資訊，回歸RSS的懷抱吧！</title>
         <link>https://scientiatw.live/p/you-should-use-rss/</link>
-        <pubDate>Fri, 01 Aug 2025 00:00:00 +0000</pubDate>
+        <pubDate>Fri, 01 Aug 2025 14:23:00 &#43;0800</pubDate>
         <author>黃宏勝</author>
         <guid>https://scientiatw.live/p/you-should-use-rss/</guid>
         <description>&lt;img src="https://scientia-potentia-est.com/wp-content/uploads/2025/08/rss-cover-scaled.webp" alt="Featured image of post 自主選擇乾淨的資訊，回歸RSS的懷抱吧！" /&gt;&lt;p&gt;上班一整天身心已經俱疲，下班回到家吃晚餐打開手機裡的社群媒體APP左滑右刷，這邊看了朋友的限動那邊又換去幫另一個朋友點愛心，你不經意間就吃完飯了繼續坐著滑滑河道(文字型社群媒體如Facebook、Plurk、X及Threads等首頁頁面用語，因需要一直往下滑載入資訊故有時稱作河道)跟看看短影音&lt;/p&gt;
@@ -169,7 +169,7 @@
         <item>
         <title>讀墨 Readmoo mooInk Pro 2C 13.3吋 彩色電子書閱讀器 閱讀PDF檔案的應許之機</title>
         <link>https://scientiatw.live/p/readmoo-mooink-pro-2c/</link>
-        <pubDate>Wed, 13 Nov 2024 00:00:00 +0000</pubDate>
+        <pubDate>Wed, 13 Nov 2024 00:00:00 &#43;0000</pubDate>
         <author>黃宏勝</author>
         <guid>https://scientiatw.live/p/readmoo-mooink-pro-2c/</guid>
         <description>&lt;img src="https://scientia-potentia-est.com/wp-content/uploads/2025/05/Readmoo_mooInk_Pro_2C.webp" alt="Featured image of post 讀墨 Readmoo mooInk Pro 2C 13.3吋 彩色電子書閱讀器 閱讀PDF檔案的應許之機" /&gt;&lt;p&gt;在大學時期上課都是使用ipad pro來看上課用的簡報或者相關文獻pdf檔案，但每次看久了眼睛都有些受不了，大三時有一天上Seminar課程過程中突然看見老師在使用一台不會發光的平板，湊近過去一看老師告訴我說這是一種叫做電子書閱讀器的產品&lt;/p&gt;

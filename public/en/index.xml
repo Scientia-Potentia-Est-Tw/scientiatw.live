@@ -10,7 +10,7 @@
         <lastBuildDate>Thu, 06 Nov 2025 14:01:00 +0000</lastBuildDate><atom:link href="https://scientiatw.live/en/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>About</title>
         <link>https://scientiatw.live/en/about/</link>
-        <pubDate>Thu, 06 Nov 2025 00:00:00 +0000</pubDate>
+        <pubDate>Thu, 06 Nov 2025 00:00:00 &#43;0000</pubDate>
         <author>Hong-Sheng Huang</author>
         <guid>https://scientiatw.live/en/about/</guid>
         <description>&lt;p&gt;I am &lt;a class=&#34;link&#34; href=&#34;https://scientia-potentia-est.com/en/hong-sheng-huang/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
@@ -26,7 +26,7 @@
         <item>
         <title>Now</title>
         <link>https://scientiatw.live/en/now/</link>
-        <pubDate>Thu, 06 Nov 2025 00:00:00 +0000</pubDate>
+        <pubDate>Thu, 06 Nov 2025 00:00:00 &#43;0000</pubDate>
         <author>Hong-Sheng Huang</author>
         <guid>https://scientiatw.live/en/now/</guid>
         <description>&lt;h2 id=&#34;-recent-status&#34;&gt;🏡 Recent status
@@ -66,7 +66,7 @@
         <item>
         <title>Use</title>
         <link>https://scientiatw.live/en/use/</link>
-        <pubDate>Tue, 07 Oct 2025 00:00:00 +0000</pubDate>
+        <pubDate>Tue, 07 Oct 2025 00:00:00 &#43;0000</pubDate>
         <author>Hong-Sheng Huang</author>
         <guid>https://scientiatw.live/en/use/</guid>
         <description>&lt;h2 id=&#34;-computer-software&#34;&gt;🖥️ Computer Software
@@ -188,7 +188,7 @@
         <item>
         <title>PQCrypto 2025</title>
         <link>https://scientiatw.live/en/p/pqcrypto-2025/</link>
-        <pubDate>Thu, 05 Jun 2025 00:00:00 +0000</pubDate>
+        <pubDate>Thu, 05 Jun 2025 00:00:00 &#43;0000</pubDate>
         <author>Hong-Sheng Huang</author>
         <guid>https://scientiatw.live/en/p/pqcrypto-2025/</guid>
         <description>&lt;img src="https://scientia-potentia-est.com/wp-content/uploads/2025/05/pqcrypto2025_cover-scaled.webp" alt="Featured image of post PQCrypto 2025" /&gt;&lt;p&gt;The 2025 PQCrypto conference is being held in Taiwan, and it just so happens that PIs from the Institute of Information Science at Academia Sinica are serving as co-chairs to organize it. Since I have the opportunity, I decided to attend.&lt;/p&gt;
@@ -222,7 +222,7 @@
         <item>
         <title>Archives</title>
         <link>https://scientiatw.live/en/archives/</link>
-        <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
+        <pubDate>Tue, 28 May 2019 00:00:00 &#43;0000</pubDate>
         
         <guid>https://scientiatw.live/en/archives/</guid>
         <description></description>
@@ -230,7 +230,7 @@
         <item>
         <title>Search</title>
         <link>https://scientiatw.live/en/search/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 &#43;0000</pubDate>
         
         <guid>https://scientiatw.live/en/search/</guid>
         <description></description>

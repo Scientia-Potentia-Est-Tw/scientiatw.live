@@ -1,7 +1,7 @@
 ---
 title: 近況
 description: 最近在做些什麼
-date: '2025-10-29'
+date: '2025-10-29T17:01:00'
 author: "黃宏勝"
 aliases:
   - now

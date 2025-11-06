@@ -10,7 +10,7 @@
         <lastBuildDate>Wed, 05 Nov 2025 14:50:00 +0000</lastBuildDate><atom:link href="https://scientiatw.live/page/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>圖冊</title>
         <link>https://scientiatw.live/gallery/</link>
-        <pubDate>Wed, 05 Nov 2025 00:00:00 +0000</pubDate>
+        <pubDate>Wed, 05 Nov 2025 00:00:00 &#43;0000</pubDate>
         <author>黃宏勝</author>
         <guid>https://scientiatw.live/gallery/</guid>
         <description>&lt;gallery&gt;
@@ -32,7 +32,7 @@
         <item>
         <title>關於</title>
         <link>https://scientiatw.live/about/</link>
-        <pubDate>Tue, 04 Nov 2025 00:00:00 +0000</pubDate>
+        <pubDate>Tue, 04 Nov 2025 00:00:00 &#43;0000</pubDate>
         <author>黃宏勝</author>
         <guid>https://scientiatw.live/about/</guid>
         <description>&lt;script&gt;var ConverlyCustomData = {channelId: null};&lt;/script&gt;
@@ -83,7 +83,7 @@
         <item>
         <title>書單</title>
         <link>https://scientiatw.live/books/</link>
-        <pubDate>Thu, 30 Oct 2025 00:00:00 +0000</pubDate>
+        <pubDate>Thu, 30 Oct 2025 00:00:00 &#43;0000</pubDate>
         <author>黃宏勝</author>
         <guid>https://scientiatw.live/books/</guid>
         <description>&lt;table&gt;
@@ -181,7 +181,7 @@
         <item>
         <title>近況</title>
         <link>https://scientiatw.live/now/</link>
-        <pubDate>Wed, 29 Oct 2025 00:00:00 +0000</pubDate>
+        <pubDate>Wed, 29 Oct 2025 17:01:00 &#43;0000</pubDate>
         <author>黃宏勝</author>
         <guid>https://scientiatw.live/now/</guid>
         <description>&lt;h2 id=&#34;-最近的狀態&#34;&gt;🏡 最近的狀態
@@ -224,7 +224,7 @@
         <item>
         <title>使用</title>
         <link>https://scientiatw.live/use/</link>
-        <pubDate>Sun, 19 Oct 2025 00:00:00 +0000</pubDate>
+        <pubDate>Sun, 19 Oct 2025 00:00:00 &#43;0000</pubDate>
         <author>黃宏勝</author>
         <guid>https://scientiatw.live/use/</guid>
         <description>&lt;h2 id=&#34;-電腦軟體&#34;&gt;🖥️ 電腦軟體
@@ -357,7 +357,7 @@
         <item>
         <title>推薦</title>
         <link>https://scientiatw.live/links/</link>
-        <pubDate>Sat, 18 Oct 2025 00:00:00 +0000</pubDate>
+        <pubDate>Sat, 18 Oct 2025 00:00:00 &#43;0000</pubDate>
         <author>黃宏勝</author>
         <guid>https://scientiatw.live/links/</guid>
         <description>&lt;h2 id=&#34;-部落格&#34;&gt;🎰 部落格
@@ -528,7 +528,7 @@
         <item>
         <title>訂閱電子報</title>
         <link>https://scientiatw.live/newsletter/</link>
-        <pubDate>Wed, 15 Oct 2025 00:00:00 +0000</pubDate>
+        <pubDate>Wed, 15 Oct 2025 00:00:00 &#43;0000</pubDate>
         <author>黃宏勝</author>
         <guid>https://scientiatw.live/newsletter/</guid>
         <description>&lt;div id=&#34;mc_embed_shell&#34;&gt;
@@ -1092,7 +1092,7 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
         <item>
         <title>紀錄</title>
         <link>https://scientiatw.live/archives/</link>
-        <pubDate>Sat, 24 May 2025 00:00:00 +0000</pubDate>
+        <pubDate>Sat, 24 May 2025 00:00:00 &#43;0000</pubDate>
         
         <guid>https://scientiatw.live/archives/</guid>
         <description></description>
@@ -1100,7 +1100,7 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
         <item>
         <title>搜尋</title>
         <link>https://scientiatw.live/search/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 &#43;0000</pubDate>
         
         <guid>https://scientiatw.live/search/</guid>
         <description></description>

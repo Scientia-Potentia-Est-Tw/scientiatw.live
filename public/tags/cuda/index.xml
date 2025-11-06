@@ -10,7 +10,7 @@
         <lastBuildDate>Thu, 30 Oct 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://scientiatw.live/tags/cuda/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Framework工作機裝設Oculink</title>
         <link>https://scientiatw.live/p/oculink-egpu-for-cuda/</link>
-        <pubDate>Tue, 02 Sep 2025 00:00:00 +0000</pubDate>
+        <pubDate>Tue, 02 Sep 2025 00:00:00 &#43;0000</pubDate>
         <author>黃宏勝</author>
         <guid>https://scientiatw.live/p/oculink-egpu-for-cuda/</guid>
         <description>&lt;img src="https://scientia-potentia-est.com/wp-content/uploads/2025/09/Oculink-1-scaled.webp" alt="Featured image of post Framework工作機裝設Oculink" /&gt;&lt;p&gt;由於近期研究上需要弄NVIDIA CUDA平行程式做實驗，但我手上只有筆電，市面上針對筆電的外接式顯示卡除了利用Thunderbolt 4(TB 4)的USB介面外接之外，剩下的選擇只有伺服器在用的Oculink技術，不過目前TB 4的轉接盒都接近一萬元，何況只是轉接盒而已，還得撥一些預算給顯示卡跟電源供應器&lt;/p&gt;
