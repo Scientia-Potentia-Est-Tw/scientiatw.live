@@ -419,11 +419,11 @@ Allow: /en/
   
 Allow: /en/about/
   
+Allow: /en/now/
+  
 Allow: /en/page/
   
 Allow: /en/use/
-  
-Allow: /en/now/
   
 Allow: /en/categories/academic/
   

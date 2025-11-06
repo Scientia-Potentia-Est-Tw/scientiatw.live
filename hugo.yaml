@@ -49,7 +49,7 @@ languages:
                       icon: brand-github
 
                 - identifier: website
-                  name: Scientia Potentia Est Taiwan
+                  name: Atoms of Cybersecurity
                   url: https://scientia-potentia-est.com/en/
                   params:
                       icon: brand-wordpress

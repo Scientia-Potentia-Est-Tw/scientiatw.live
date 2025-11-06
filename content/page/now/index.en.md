@@ -1,11 +1,11 @@
 ---
 title: Now
 description: What have I been doing recently
-date: '2025-06-06'
+date: '2025-11-06'
 aliases:
   - now
 slug: now
-#lastmod: '2025-06-06T11:11:00'
+#lastmod: '2025-11-06T14:33:00'
 menu:
     main: 
         weight: -70
@@ -23,7 +23,7 @@ menu:
 - ⏳ Work is heating up: I need to wrap up the first phase of my master’s thesis experiments by the end of June, and at the same time, complete and hand over the main objectives of the ITRI project.
 
 ## 🌐 Recent online activity
-- 💻 [Scientia Potentia Est Taiwan](https://scientia-potentia-est.com/en/): Planning to share some OSCP-related notes and thoughts on my tech blog.
+- 💻 [Atoms of Cybersecurity](https://scientia-potentia-est.com/en/): Planning to share some OSCP-related notes and thoughts on my tech blog.
 - 🗓 Social Blog: Planning to share some life experience in Taiwan
 
 ## 🍳 Recent meals and beverages
