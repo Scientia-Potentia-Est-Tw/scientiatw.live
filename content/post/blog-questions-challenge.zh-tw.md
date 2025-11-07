@@ -1,30 +1,27 @@
-+++
-title = "部落格問題挑戰"
-date = "2025-10-18"
-lastmod = "2025-11-04"
-author = "黃宏勝"
-categories = [
-  "生活",
-]
-tags = [
-  "bear blog question challenge",
-  "Blog Questions Challenge",
-  "挑戰",
-  "部落格",
-  "故事",
-]
-keywords = [
-  "生活",
-  "bear blog question challenge",
-  "Blog Questions Challenge",
-  "挑戰",
-  "部落格",
-  "故事",
-]
-description = "在廢文小天地看到的Blog Questions Challenge"
-image = "https://scientia-potentia-est.com/wp-content/uploads/2025/10/blog-questions-challenges-cover-scaled.webp"
-slug = "blog-questions-challenge"
-+++
+---
+title: "部落格問題挑戰"
+date: "2025-10-18T14:19:00+08:00"
+lastmod: "2025-11-04T10:10:00+08:00"
+author: "黃宏勝"
+categories:
+  - 生活
+tags:
+  - bear blog question challenge
+  - Blog Questions Challenge
+  - 挑戰
+  - 部落格
+  - 故事
+keywords:
+  - 生活
+  - bear blog question challenge
+  - Blog Questions Challenge
+  - 挑戰
+  - 部落格
+  - 故事
+description: "在廢文小天地看到的Blog Questions Challenge"
+image: "https://scientia-potentia-est.com/wp-content/uploads/2025/10/blog-questions-challenges-cover-scaled.webp"
+slug: "blog-questions-challenge"
+---
 在廢文小天地RSS看到部落格挑戰[1]，源自Kev Quirk的Blog Questions Challenge[2]，看到題目蠻有興趣的，所以決定也寫一篇來回應各項問題
 
 主要的問題有8題，總共是：

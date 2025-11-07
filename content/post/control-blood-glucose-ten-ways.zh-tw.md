@@ -1,30 +1,27 @@
-+++
-title = "控制血糖的十招"
-date = "2025-11-04"
-lastmod = "2025-11-05"
-author = "黃宏勝"
-categories = [
-  "生活",
-]
-tags = [
-  "糖尿病",
-  "血糖",
-  "胰島素",
-  "運動",
-  "放鬆心情",
-]
-keywords = [
-  "生活",
-  "糖尿病",
-  "血糖",
-  "胰島素",
-  "運動",
-  "放鬆心情",
-]
-description = "您有過血糖波動的經驗嗎？是否會在飯後頭昏腦脹呢？而我們又該如何預防這種情況呢？"
-image = "https://scientia-potentia-est.com/wp-content/uploads/2025/11/control-blood-glucose-ten-ways-cover-scaled.webp"
-slug = "control-blood-glucose-ten-ways"
-+++
+---
+title: "控制血糖的十招"
+date: "2025-11-04T09:46:00+08:00"
+lastmod: "2025-11-05T17:32:00+08:00"
+author: "黃宏勝"
+categories:
+  - 生活
+tags:
+  - 糖尿病
+  - 血糖
+  - 胰島素
+  - 運動
+  - 放鬆心情
+keywords:
+  - 生活
+  - 糖尿病
+  - 血糖
+  - 胰島素
+  - 運動
+  - 放鬆心情
+description: "您有過血糖波動的經驗嗎？是否會在飯後頭昏腦脹呢？而我們又該如何預防這種情況呢？"
+image: "https://scientia-potentia-est.com/wp-content/uploads/2025/11/control-blood-glucose-ten-ways-cover-scaled.webp"
+slug: "control-blood-glucose-ten-ways"
+---
 當我們被診斷出罹患糖尿病時，並不等於要立刻馬上進行藥物治療，治療糖尿病的第一步，也是最核心的一步，是要改變原先的「生活型態」，其實整個療程不只有吃藥而已，事實上，藥物只是輔助工具
 
 許多後天老年的第二型糖尿病，更大的原因在於長期的不健康飲食、缺乏運動、體重過重等高風險生活習慣，所以我們必須從根本上解決，才能真的控制住這個文明病，否則只會不斷的惡化自己的身體狀況
