@@ -1,12 +1,12 @@
 ---
 title: Use
 description: Items I use regularly
-date: '2025-10-07'
+date: '2025-11-08T10:10:00+08:00'
 author: "Hong-Sheng Huang"
 aliases:
   - use
 slug: use
-lastmod: '2025-10-07T15:13:00'
+lastmod: '2025-11-08T10:12:00+08:00'
 menu:
     main: 
         weight: -60
@@ -25,7 +25,6 @@ menu:
 
 ### 🗓️ Schedule management
 - Apple Calendar - The default calendar app in macOS, keeping track of monthly to-dos.
-- [Notion Calendar](https://www.notion.com/product/calendar) - Notion’s calendar extension works with project tracking templates to display what needs to be done each week and help manage time.
 
 ### 📟 Terminal-related tools
 - [Vim](https://www.vim.org/) - The most powerful terminal editor, bar none; its rich set of shortcuts lets you accomplish anything without taking your fingers off the keyboard.
@@ -37,7 +36,6 @@ menu:
 
 ### 📝 Note-taking software / Text editor
 - [Obsidian](https://obsidian.md/) - A note-taking software that supports writing the Zettelkasten notes. Compared to Heptabase, whose whiteboard feature is more complete, its canvas feature is still sufficient.
-- [Notion](https://www.notion.com/) - A powerful note-taking app with many free and paid templates, such as course notes, business management, habit tracking, and more. Using the university mail account upgrade to Education Plus plan allows you to store a large amount of information.
 - [Visual Studio Code](https://code.visualstudio.com/) - Also known as VSCode, it’s a lightweight text editor released by Microsoft. Unlike the heavier Visual Studio IDE, it’s well-suited for viewing markdown or JSON files.
 
 ### 🗂️ Academic Software

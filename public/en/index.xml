@@ -7,66 +7,10 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
         <copyright>Hong-Sheng Huang</copyright>
-        <lastBuildDate>Thu, 06 Nov 2025 14:01:00 +0000</lastBuildDate><atom:link href="https://scientiatw.live/en/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>About</title>
-        <link>https://scientiatw.live/en/about/</link>
-        <pubDate>Thu, 06 Nov 2025 00:00:00 &#43;0000</pubDate>
-        <author>Hong-Sheng Huang</author>
-        <guid>https://scientiatw.live/en/about/</guid>
-        <description>&lt;p&gt;I am &lt;a class=&#34;link&#34; href=&#34;https://scientia-potentia-est.com/en/hong-sheng-huang/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Hong-Sheng Huang&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;This social blog mainly features content on topics such as &amp;ldquo;reading reflections,&amp;rdquo; &amp;ldquo;life sharing,&amp;rdquo; and &amp;ldquo;humanities and arts.&amp;rdquo;&lt;/p&gt;
-&lt;p&gt;For any collaborations or inquiries, please email: hongshenghuang[at]proton[dot]me&lt;/p&gt;
-&lt;p&gt;If you want to read the technical blog, please visit：&lt;a class=&#34;link&#34; href=&#34;https://scientia-potentia-est.com/en&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Atoms of Cybersecurity&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;If you want to subscribe to the RSS feed, please use this link：&lt;a class=&#34;link&#34; href=&#34;https://scientiatw.live/en/index.xml&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;RSS&lt;/a&gt;&lt;/p&gt;
-</description>
-        </item>
-        <item>
-        <title>Now</title>
-        <link>https://scientiatw.live/en/now/</link>
-        <pubDate>Thu, 06 Nov 2025 00:00:00 &#43;0000</pubDate>
-        <author>Hong-Sheng Huang</author>
-        <guid>https://scientiatw.live/en/now/</guid>
-        <description>&lt;h2 id=&#34;-recent-status&#34;&gt;🏡 Recent status
-&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;🚎 Commuting between Hsinchu and Taipei: Each one-way trip takes over an hour and a half. After doing it for three days in a row, it’s starting to feel a bit troublesome. But renting places in both cities would be too much financially. I really admire people who commute to work every day.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;🏃 Exercising daily as much as possible: No matter how things are going each day, I try to drop everything and go for a jog at the gym. Comparing different ways to unwind, I still find that exercise is the most effective stress relief—better than online entertainment.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;🛏 Sleep: I make sure to get at least 7–8 hours of sleep every night. But my Apple Watch doesn’t have enough battery to track my sleep properly, so I’m still unsure about how much time I spend in REM and non-REM sleep. I’m also trying to rely less on caffeine in the morning.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;⏳ Work is heating up: I need to wrap up the first phase of my master’s thesis experiments by the end of June, and at the same time, complete and hand over the main objectives of the ITRI project.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;-recent-online-activity&#34;&gt;🌐 Recent online activity
-&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;💻 &lt;a class=&#34;link&#34; href=&#34;https://scientia-potentia-est.com/en/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Atoms of Cybersecurity&lt;/a&gt;: Planning to share some OSCP-related notes and thoughts on my tech blog.&lt;/li&gt;
-&lt;li&gt;🗓 Social Blog: Planning to share some life experience in Taiwan&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;-recent-meals-and-beverages&#34;&gt;🍳 Recent meals and beverages
-&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;🍱 Lately, I&amp;rsquo;ve been switching the main dish at lunchbox places to two or three eggs or a piece of tofu. I realized that in the past, I mostly picked heavily seasoned pork or beef, or deep-fried frozen foods as the main dish. As long as my routine gets even slightly off, my weight increases really quickly. After all, eating out is still the go-to option in Taiwan, so all I can do is adjust what I’m putting into my mouth as much as possible.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;-recent-reads-listens-and-watches&#34;&gt;📚 Recent reads, listens, and watches
-&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;📃 &lt;a class=&#34;link&#34; href=&#34;https://dl.acm.org/doi/10.1145/3576915.3623131&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Efficient Set Membership Encryption and Applications&lt;/a&gt;: Making Oblivious Transfer efficient enough for real-world implementation is actually quite an ingenious idea.&lt;/li&gt;
-&lt;li&gt;📃 &lt;a class=&#34;link&#34; href=&#34;https://eprint.iacr.org/2024/381&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Quantum Circuits of AES with a Low-depth Linear Layer and a New Structure&lt;/a&gt;: Reducing quantum circuit depth still appears to be the mainstream strategy.&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        </item>
-        <item>
+        <lastBuildDate>Sat, 08 Nov 2025 10:12:00 +0800</lastBuildDate><atom:link href="https://scientiatw.live/en/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Use</title>
         <link>https://scientiatw.live/en/use/</link>
-        <pubDate>Tue, 07 Oct 2025 00:00:00 &#43;0000</pubDate>
+        <pubDate>Sat, 08 Nov 2025 10:10:00 &#43;0800</pubDate>
         <author>Hong-Sheng Huang</author>
         <guid>https://scientiatw.live/en/use/</guid>
         <description>&lt;h2 id=&#34;-computer-software&#34;&gt;🖥️ Computer Software
@@ -85,8 +29,6 @@
 &lt;h3 id=&#34;-schedule-management&#34;&gt;🗓️ Schedule management
 &lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;Apple Calendar - The default calendar app in macOS, keeping track of monthly to-dos.&lt;/li&gt;
-&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.notion.com/product/calendar&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Notion Calendar&lt;/a&gt; - Notion’s calendar extension works with project tracking templates to display what needs to be done each week and help manage time.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;-terminal-related-tools&#34;&gt;📟 Terminal-related tools
 &lt;/h3&gt;&lt;ul&gt;
@@ -107,8 +49,6 @@
 &lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://obsidian.md/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Obsidian&lt;/a&gt; - A note-taking software that supports writing the Zettelkasten notes. Compared to Heptabase, whose whiteboard feature is more complete, its canvas feature is still sufficient.&lt;/li&gt;
-&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.notion.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Notion&lt;/a&gt; - A powerful note-taking app with many free and paid templates, such as course notes, business management, habit tracking, and more. Using the university mail account upgrade to Education Plus plan allows you to store a large amount of information.&lt;/li&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://code.visualstudio.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Visual Studio Code&lt;/a&gt; - Also known as VSCode, it’s a lightweight text editor released by Microsoft. Unlike the heavier Visual Studio IDE, it’s well-suited for viewing markdown or JSON files.&lt;/li&gt;
 &lt;/ul&gt;
@@ -182,6 +122,62 @@
     &gt;Logic Pro&lt;/a&gt; - The most popular DAW on macOS, which, combined with a variety of plugins, can simulate many possibilities. You can still have a lot of fun using just a MIDI keyboard.&lt;/li&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://evo.audio/products/audio-interfaces/evo-4/overview/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Audient Evo 4&lt;/a&gt; - An entry-level audio interface, I use my YAMAHA P-125a with TRS output connected to a pair of line-in jacks for stereo monitoring, which is more than enough for a beginner.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        </item>
+        <item>
+        <title>About</title>
+        <link>https://scientiatw.live/en/about/</link>
+        <pubDate>Thu, 06 Nov 2025 00:00:00 &#43;0000</pubDate>
+        <author>Hong-Sheng Huang</author>
+        <guid>https://scientiatw.live/en/about/</guid>
+        <description>&lt;p&gt;I am &lt;a class=&#34;link&#34; href=&#34;https://scientia-potentia-est.com/en/hong-sheng-huang/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Hong-Sheng Huang&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;This social blog mainly features content on topics such as &amp;ldquo;reading reflections,&amp;rdquo; &amp;ldquo;life sharing,&amp;rdquo; and &amp;ldquo;humanities and arts.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;For any collaborations or inquiries, please email: hongshenghuang[at]proton[dot]me&lt;/p&gt;
+&lt;p&gt;If you want to read the technical blog, please visit：&lt;a class=&#34;link&#34; href=&#34;https://scientia-potentia-est.com/en&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Atoms of Cybersecurity&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;If you want to subscribe to the RSS feed, please use this link：&lt;a class=&#34;link&#34; href=&#34;https://scientiatw.live/en/index.xml&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;RSS&lt;/a&gt;&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Now</title>
+        <link>https://scientiatw.live/en/now/</link>
+        <pubDate>Thu, 06 Nov 2025 00:00:00 &#43;0000</pubDate>
+        <author>Hong-Sheng Huang</author>
+        <guid>https://scientiatw.live/en/now/</guid>
+        <description>&lt;h2 id=&#34;-recent-status&#34;&gt;🏡 Recent status
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;🚎 Commuting between Hsinchu and Taipei: Each one-way trip takes over an hour and a half. After doing it for three days in a row, it’s starting to feel a bit troublesome. But renting places in both cities would be too much financially. I really admire people who commute to work every day.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;🏃 Exercising daily as much as possible: No matter how things are going each day, I try to drop everything and go for a jog at the gym. Comparing different ways to unwind, I still find that exercise is the most effective stress relief—better than online entertainment.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;🛏 Sleep: I make sure to get at least 7–8 hours of sleep every night. But my Apple Watch doesn’t have enough battery to track my sleep properly, so I’m still unsure about how much time I spend in REM and non-REM sleep. I’m also trying to rely less on caffeine in the morning.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;⏳ Work is heating up: I need to wrap up the first phase of my master’s thesis experiments by the end of June, and at the same time, complete and hand over the main objectives of the ITRI project.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;-recent-online-activity&#34;&gt;🌐 Recent online activity
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;💻 &lt;a class=&#34;link&#34; href=&#34;https://scientia-potentia-est.com/en/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Atoms of Cybersecurity&lt;/a&gt;: Planning to share some OSCP-related notes and thoughts on my tech blog.&lt;/li&gt;
+&lt;li&gt;🗓 Social Blog: Planning to share some life experience in Taiwan&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;-recent-meals-and-beverages&#34;&gt;🍳 Recent meals and beverages
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;🍱 Lately, I&amp;rsquo;ve been switching the main dish at lunchbox places to two or three eggs or a piece of tofu. I realized that in the past, I mostly picked heavily seasoned pork or beef, or deep-fried frozen foods as the main dish. As long as my routine gets even slightly off, my weight increases really quickly. After all, eating out is still the go-to option in Taiwan, so all I can do is adjust what I’m putting into my mouth as much as possible.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;-recent-reads-listens-and-watches&#34;&gt;📚 Recent reads, listens, and watches
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;📃 &lt;a class=&#34;link&#34; href=&#34;https://dl.acm.org/doi/10.1145/3576915.3623131&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Efficient Set Membership Encryption and Applications&lt;/a&gt;: Making Oblivious Transfer efficient enough for real-world implementation is actually quite an ingenious idea.&lt;/li&gt;
+&lt;li&gt;📃 &lt;a class=&#34;link&#34; href=&#34;https://eprint.iacr.org/2024/381&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Quantum Circuits of AES with a Low-depth Linear Layer and a New Structure&lt;/a&gt;: Reducing quantum circuit depth still appears to be the mainstream strategy.&lt;/li&gt;
 &lt;/ul&gt;
 </description>
         </item>
