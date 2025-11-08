@@ -22,7 +22,7 @@ menu:
 
 ## 🌐 最近網路上的狀態
 - 💻 [資通安全第一品牌](https://scientia-potentia-est.com/zh/)：[電子報服務](https://scientia-potentia-est.com/zh/newsletter-zh/)持續開放中，每月寄送近期需要特別關注的漏洞資訊以及新技術給讀者
-- 🗓 社群部落格：新增[微短文](https://scientiatw.live/micro/)：前身是動態頁面，但單一頁面如果太多篇要一直滑，用年份分類改善之後重新上架了
+- 🗓 社群部落格：新增[微短文](https://scientiatw.live/micro/)頁面，前身是動態頁面，但單一頁面如果太多篇要一直滑，用年份分類改善之後重新上架了
 
 ## 🎯 最近的專案
 - 🖥️ [Modified Improved Greedy Algorithm](https://github.com/Scientia-Potentia-Est-Tw/Modified-Improved-Greedy-Algorithm)：針對2024/381優化他們的貪婪演算法，提出更多的策略以及加速他們在挑選時的步驟
