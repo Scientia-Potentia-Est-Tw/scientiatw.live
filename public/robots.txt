@@ -5,6 +5,8 @@ Allow: /
   
 Allow: /page/
   
+Allow: /about/
+  
 Allow: /links/
   
 Allow: /use/
@@ -30,8 +32,6 @@ Allow: /p/control-blood-glucose-ten-ways/
 Allow: /tags/%E9%81%8B%E5%8B%95/
   
 Allow: /tags/%E7%B3%96%E5%B0%BF%E7%97%85/
-  
-Allow: /about/
   
 Allow: /p/decision-logic-why-change-is-so-hard/
   

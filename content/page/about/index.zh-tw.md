@@ -1,7 +1,7 @@
 ---
 title: 關於
 description: 介紹本站與我
-date: '2025-11-04'
+date: '2025-11-08T13:00:00+08:00'
 author: "黃宏勝"
 aliases:
   - about
@@ -9,7 +9,7 @@ aliases:
   - about-me
   - about-site
 slug: about
-lastmod: '2025-11-04T10:14:00'
+lastmod: '2025-11-08T13:34:00+08:00'
 menu:
     main: 
         weight: -90
@@ -21,7 +21,7 @@ menu:
 <script async defer src="https://cdn.affiliates.one/production/adlinks/9632d86e82ddae2c6327eb55c530875fb8f852063ff7075dd96c7f802672af39.js"></script>
 
 ## 關於本站
-本社群部落格主要撰寫有關我生活中所見所聞
+此部落格主要記錄我所有好奇跟想做的事情
 
 訂閱本站RSS的話請用這個連結：[RSS](https://scientiatw.live/index.xml)
 
