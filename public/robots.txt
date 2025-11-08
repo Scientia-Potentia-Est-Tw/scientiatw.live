@@ -3,6 +3,18 @@ User-agent: *
   
 Allow: /
   
+Allow: /micro/2025-11-08/
+  
+Allow: /micro/
+  
+Allow: /tags/
+  
+Allow: /tags/%E5%8F%8D%E6%80%9D/
+  
+Allow: /tags/%E6%84%9F%E6%81%A9/
+  
+Allow: /tags/%E9%81%8B%E6%B0%A3/
+  
 Allow: /page/
   
 Allow: /about/
@@ -16,8 +28,6 @@ Allow: /gallery/
 Allow: /categories/
   
 Allow: /post/
-  
-Allow: /tags/
   
 Allow: /categories/%E7%94%9F%E6%B4%BB/
   
@@ -410,6 +420,8 @@ Allow: /p/perennial-seller-marketing/
 Allow: /p/perennial-seller-platform/
   
 Allow: /p/perennial-seller-content/
+  
+Allow: /micro-posts/
   
 Allow: /search/
   

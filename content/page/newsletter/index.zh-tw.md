@@ -9,7 +9,7 @@ slug: newsletter
 lastmod: '2025-10-15T14:21:00'
 menu:
     main: 
-        weight: -40
+        weight: -30
         params:
             icon: mail-bolt
 comments: False

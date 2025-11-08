@@ -1,0 +1,127 @@
+{{ define "main" }}
+    <article class="main-article">
+        <header class="article-header">
+            <h1 class="article-title">{{ .Title }}</h1>
+            {{ if .Params.description }}
+                <p class="article-subtitle">{{ .Params.description }}</p>
+            {{ end }}
+        </header>
+
+        {{ .Content }}
+
+        <section class="micro-posts-container">
+            {{ range (where .Site.RegularPages "Section" "micro").GroupByDate "2006" }}
+                <div class="year-section">
+                    <h2 class="year-header">{{ .Key }}</h2>
+                    {{ range .Pages }}
+                        <article class="micro-post">
+                            <div class="micro-post-header">
+                                <time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">
+                                    {{ .Date.Format (.Site.Params.dateFormat.published | default "Jan 02, 2006") }}
+                                </time>
+                            </div>
+                            <div class="micro-post-content">
+                                {{ .Content }}
+                            </div>
+                            {{ if .Params.tags }}
+                                <div class="micro-post-tags">
+                                    {{ range .Params.tags }}
+                                        <a href="{{ "tags/" | relURL }}{{ . | urlize }}" class="micro-post-tag">#{{ . }}</a>
+                                    {{ end }}
+                                </div>
+                            {{ end }}
+                        </article>
+                    {{ end }}
+                </div>
+            {{ end }}
+        </section>
+
+        {{ if and .Site.Params.comments.enabled (eq .Site.Params.comments.provider "disqus") }}
+            <section class="page-comments">
+                {{ template "_internal/disqus.html" . }}
+            </section>
+        {{ end }}
+    </article>
+
+    <style>
+        .micro-posts-container {
+            margin-top: 2rem;
+        }
+
+        .year-section {
+            margin-bottom: 3rem;
+        }
+
+        .year-header {
+            font-size: 2rem;
+            font-weight: 700;
+            color: var(--card-text-color-main);
+            margin-bottom: 1.5rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 2px solid var(--accent-color);
+        }
+
+        .micro-post {
+            background: var(--card-background);
+            border-radius: 8px;
+            padding: 1.5rem;
+            margin-bottom: 1.5rem;
+            border: 1px solid var(--card-separator-color);
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .micro-post:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+
+        .micro-post-header {
+            margin-bottom: 0.75rem;
+        }
+
+        .micro-post-header time {
+            font-size: 1.3rem;
+            font-weight: 500;
+            color: var(--card-text-color-tertiary);
+        }
+
+        .micro-post-content {
+            line-height: 1.6;
+            color: var(--card-text-color-main);
+        }
+
+        .micro-post-content p:last-child {
+            margin-bottom: 0;
+        }
+
+        .micro-post-tags {
+            margin-top: 1rem;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+        }
+
+        .micro-post-tag {
+            display: inline-block;
+            padding: 0.4rem 1rem;
+            background: var(--tag-background);
+            color: var(--accent-color);
+            border-radius: 4px;
+            font-size: 1.1rem;
+            font-weight: 500;
+            text-decoration: none;
+            transition: background 0.2s;
+        }
+
+        .micro-post-tag:hover {
+            background: var(--accent-color);
+            color: var(--accent-color-text);
+        }
+
+        .page-comments {
+            margin-top: 3rem;
+            padding-top: 2rem;
+            border-top: 2px solid var(--card-separator-color);
+        }
+    </style>
+{{ end }}

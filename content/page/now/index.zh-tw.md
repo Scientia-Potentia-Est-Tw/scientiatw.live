@@ -9,7 +9,7 @@ slug: now
 lastmod: '2025-10-29T17:01:00+08:00'
 menu:
     main: 
-        weight: -80
+        weight: -70
         params:
             icon: date
 ---

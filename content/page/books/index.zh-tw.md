@@ -9,7 +9,7 @@ slug: books
 lastmod: '2025-10-30T23:53:00'
 menu:
     main: 
-        weight: -70
+        weight: -60
         params:
             icon: books
 ---

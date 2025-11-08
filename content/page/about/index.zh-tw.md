@@ -12,7 +12,7 @@ slug: about
 lastmod: '2025-11-08T13:34:00+08:00'
 menu:
     main: 
-        weight: -90
+        weight: -80
         params:
             icon: user
 ---

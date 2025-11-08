@@ -10,7 +10,7 @@ lastmod: '2025-11-05T14:50:00'
 layout: "photos"
 menu:
     main:
-        weight: -30
+        weight: -20
         params:
             icon: photo-edit
 comments: False
