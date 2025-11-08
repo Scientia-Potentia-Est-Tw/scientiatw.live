@@ -1,4 +1,5 @@
-{{- $pages := where .Site.RegularPages "Type" "in" .Site.Params.mainSections -}}
+{{- $searchTypes := .Site.Params.mainSections | default (slice) | append "micro" -}}
+{{- $pages := where .Site.RegularPages "Type" "in" $searchTypes -}}
 {{- $notHidden := where .Site.RegularPages "Params.hidden" "!=" true -}}
 {{- $filtered := ($pages | intersect $notHidden) -}}
 

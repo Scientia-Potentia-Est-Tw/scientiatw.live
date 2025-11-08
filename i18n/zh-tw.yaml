@@ -77,3 +77,6 @@ footer:
 
     designedBy:
         other: 主題 {{ .Theme }} 由 {{ .DesignedBy }} 設計
+
+year_nav_title:
+    other: "年份"

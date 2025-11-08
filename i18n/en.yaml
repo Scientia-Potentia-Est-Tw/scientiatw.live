@@ -77,3 +77,6 @@ footer:
 
     designedBy:
         other: Theme {{ .Theme }} designed by {{ .DesignedBy }}
+
+year_nav_title:
+    other: "Years"

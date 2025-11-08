@@ -3,9 +3,9 @@ User-agent: *
   
 Allow: /
   
-Allow: /micro/2025-11-08/
-  
 Allow: /micro/
+  
+Allow: /micro/2025-11-08/
   
 Allow: /tags/
   
@@ -420,8 +420,6 @@ Allow: /p/perennial-seller-marketing/
 Allow: /p/perennial-seller-platform/
   
 Allow: /p/perennial-seller-content/
-  
-Allow: /micro-posts/
   
 Allow: /search/
   

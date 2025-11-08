@@ -1,0 +1,377 @@
+{{ define "main" }}
+    <article class="main-article">
+        <header class="article-header">
+            <h1 class="article-title">{{ .Title }}</h1>
+            {{ if .Params.description }}
+                <p class="article-subtitle">{{ .Params.description }}</p>
+            {{ end }}
+        </header>
+
+        {{ .Content }}
+
+        <!-- Year Archive Navigation -->
+        <nav class="year-archive-nav">
+            <div class="year-nav-title">{{ i18n "year_nav_title" | default "Years"  }}</div>
+            <div class="year-nav-links">
+                {{ range (where .Site.RegularPages "Section" "micro").GroupByDate "2006" }}
+                    <a href="#year-{{ .Key }}" class="year-nav-link">{{ .Key }}</a>
+                {{ end }}
+            </div>
+        </nav>
+
+        <!-- Paginated Micro Posts -->
+        {{ $paginator := .Paginate (where .Site.RegularPages "Section" "micro") }}
+        
+        <section class="micro-posts-container">
+            {{ range $paginator.Pages.GroupByDate "2006" }}
+                <div class="year-section" id="year-{{ .Key }}">
+                    <h2 class="year-header">{{ .Key }}</h2>
+                    {{ range .Pages }}
+                        <article class="micro-post">
+                            <div class="micro-post-header">
+                                <time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">
+                                    {{ .Date.Format ($.Site.Params.dateFormat.published | default "Jan 02, 2006") }}
+                                </time>
+                            </div>
+                            <div class="micro-post-content">
+                                {{ .Content }}
+                            </div>
+                            {{ if .Params.tags }}
+                                <div class="micro-post-tags">
+                                    {{ range .Params.tags }}
+                                        <a href="{{ "tags/" | relURL }}{{ . | urlize }}" class="micro-post-tag">#{{ . }}</a>
+                                    {{ end }}
+                                </div>
+                            {{ end }}
+                        </article>
+                    {{ end }}
+                </div>
+            {{ end }}
+        </section>
+
+        <!-- Pagination Controls -->
+        {{ if gt $paginator.TotalPages 1 }}
+        <nav class="pagination">
+            <div class="pagination-info">
+                第 {{ $paginator.PageNumber }} 頁 / 共 {{ $paginator.TotalPages }} 頁
+                <span class="separator">|</span>
+                Page {{ $paginator.PageNumber }} of {{ $paginator.TotalPages }}
+            </div>
+            <div class="pagination-controls">
+                {{ if $paginator.HasPrev }}
+                    <a href="{{ $paginator.Prev.URL }}" class="pagination-link pagination-prev">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="15 18 9 12 15 6"></polyline>
+                        </svg>
+                        <span>上一頁 / Previous</span>
+                    </a>
+                {{ else }}
+                    <span class="pagination-link pagination-disabled">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="15 18 9 12 15 6"></polyline>
+                        </svg>
+                        <span>上一頁 / Previous</span>
+                    </span>
+                {{ end }}
+
+                <div class="pagination-numbers">
+                    {{ $current := $paginator.PageNumber }}
+                    {{ $total := $paginator.TotalPages }}
+                    
+                    {{ if gt $total 1 }}
+                        {{ if gt $current 3 }}
+                            <a href="{{ $paginator.First.URL }}" class="page-number">1</a>
+                            {{ if gt $current 4 }}
+                                <span class="pagination-ellipsis">...</span>
+                            {{ end }}
+                        {{ end }}
+                        
+                        {{ range $paginator.Pagers }}
+                            {{ $delta := sub $current .PageNumber }}
+                            {{ if and (ge $delta -2) (le $delta 2) }}
+                                {{ if eq .PageNumber $current }}
+                                    <span class="page-number active">{{ .PageNumber }}</span>
+                                {{ else }}
+                                    <a href="{{ .URL }}" class="page-number">{{ .PageNumber }}</a>
+                                {{ end }}
+                            {{ end }}
+                        {{ end }}
+                        
+                        {{ if lt $current (sub $total 2) }}
+                            {{ if lt $current (sub $total 3) }}
+                                <span class="pagination-ellipsis">...</span>
+                            {{ end }}
+                            <a href="{{ $paginator.Last.URL }}" class="page-number">{{ $total }}</a>
+                        {{ end }}
+                    {{ end }}
+                </div>
+
+                {{ if $paginator.HasNext }}
+                    <a href="{{ $paginator.Next.URL }}" class="pagination-link pagination-next">
+                        <span>下一頁 / Next</span>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="9 18 15 12 9 6"></polyline>
+                        </svg>
+                    </a>
+                {{ else }}
+                    <span class="pagination-link pagination-disabled">
+                        <span>下一頁 / Next</span>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="9 18 15 12 9 6"></polyline>
+                        </svg>
+                    </span>
+                {{ end }}
+            </div>
+        </nav>
+        {{ end }}
+
+        {{ if and .Site.Params.comments.enabled (eq .Site.Params.comments.provider "disqus") }}
+            <section class="page-comments">
+                {{ template "_internal/disqus.html" . }}
+            </section>
+        {{ end }}
+    </article>
+
+    <style>
+	.article-header {
+            margin-bottom: 1rem; /* adds space under Title */
+        }
+
+        .micro-posts-container {
+            margin-top: 2rem;
+        }
+
+        .year-archive-nav {
+            background: var(--card-background);
+            border-radius: 8px;
+            padding: 1.25rem 1.5rem;
+            margin-bottom: 3rem;
+            border: 1px solid var(--card-separator-color);
+        }
+
+        .year-nav-title {
+            font-size: 1.4rem;
+            font-weight: 600;
+            color: var(--card-text-color-secondary);
+            margin-bottom: 0.75rem;
+        }
+
+        .year-nav-links {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+        }
+
+        .year-nav-link {
+            padding: 0.4rem 1rem;
+            background: var(--tag-background);
+            color: var(--accent-color);
+            border-radius: 4px;
+            text-decoration: none;
+            font-size: 1.5rem;
+            font-weight: 500;
+            transition: all 0.2s;
+        }
+
+        .year-nav-link:hover {
+            background: var(--accent-color);
+            color: var(--accent-color-text);
+            transform: translateY(-1px);
+        }
+
+        .year-section {
+            margin-bottom: 3rem;
+            scroll-margin-top: 2rem;
+        }
+
+        .year-header {
+            font-size: 2rem;
+            font-weight: 700;
+            color: var(--card-text-color-main);
+            margin-bottom: 1.5rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 2px solid var(--accent-color);
+        }
+
+        .micro-post {
+            background: var(--card-background);
+            border-radius: 8px;
+            padding: 1.5rem;
+            margin-bottom: 1.5rem;
+            border: 1px solid var(--card-separator-color);
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .micro-post:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+
+        .micro-post-header {
+            margin-bottom: 0.75rem;
+        }
+
+        .micro-post-header time {
+            font-size: 1.3rem;
+            font-weight: 500;
+            color: var(--card-text-color-tertiary);
+        }
+
+        .micro-post-content {
+            line-height: 1.6;
+            color: var(--card-text-color-main);
+        }
+
+        .micro-post-content p:last-child {
+            margin-bottom: 0;
+        }
+
+        .micro-post-tags {
+            margin-top: 1rem;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+        }
+
+        .micro-post-tag {
+            display: inline-block;
+            padding: 0.4rem 1rem;
+            background: var(--tag-background);
+            color: var(--accent-color);
+            border-radius: 4px;
+            font-size: 1.1rem;
+            font-weight: 500;
+            text-decoration: none;
+            transition: background 0.2s;
+        }
+
+        .micro-post-tag:hover {
+            background: var(--accent-color);
+            color: var(--accent-color-text);
+        }
+
+        .micro-posts-container {
+            margin-top: 3rem; /* extra breathing room */
+        }
+
+        .pagination {
+            margin-top: 4rem;
+            padding: 2rem;
+            background: var(--card-background);
+            border-radius: 8px;
+            border: 1px solid var(--card-separator-color);
+        }
+
+        .pagination-info {
+            text-align: center;
+            color: var(--card-text-color-secondary);
+            font-size: 1.1rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .pagination-info .separator {
+            margin: 0 0.5rem;
+            opacity: 0.5;
+        }
+
+        .pagination-controls {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 1rem;
+        }
+
+        .pagination-link {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 0.75rem 1.25rem;
+            background: var(--accent-color);
+            color: var(--accent-color-text);
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: 500;
+            transition: all 0.2s;
+        }
+
+        .pagination-link:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+        }
+
+        .pagination-disabled {
+            background: var(--card-separator-color);
+            color: var(--card-text-color-tertiary);
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+
+        .pagination-disabled:hover {
+            transform: none;
+            box-shadow: none;
+        }
+
+        .pagination-numbers {
+            display: flex;
+            gap: 0.5rem;
+            align-items: center;
+        }
+
+        .page-number {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            min-width: 2.5rem;
+            height: 2.5rem;
+            padding: 0 0.75rem;
+            background: var(--card-background);
+            color: var(--card-text-color-secondary);
+            border: 1px solid var(--card-separator-color);
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: 500;
+            transition: all 0.2s;
+        }
+
+        .page-number:hover {
+            background: var(--accent-color);
+            color: var(--accent-color-text);
+            border-color: var(--accent-color);
+        }
+
+        .page-number.active {
+            background: var(--accent-color);
+            color: var(--accent-color-text);
+            border-color: var(--accent-color);
+        }
+
+        .pagination-ellipsis {
+            color: var(--card-text-color-tertiary);
+            padding: 0 0.25rem;
+        }
+
+        .page-comments {
+            margin-top: 3rem;
+            padding-top: 2rem;
+            border-top: 2px solid var(--card-separator-color);
+        }
+
+        @media (max-width: 768px) {
+            .pagination-controls {
+                flex-direction: column;
+            }
+
+            .pagination-link span {
+                display: none;
+            }
+
+            .pagination-numbers {
+                order: -1;
+            }
+
+            .year-nav-links {
+                justify-content: center;
+            }
+        }
+    </style>
+{{ end }}
