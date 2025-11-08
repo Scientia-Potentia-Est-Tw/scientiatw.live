@@ -7,7 +7,49 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-tw</language>
         <copyright>Hong-Sheng Huang</copyright>
-        <lastBuildDate>Sat, 08 Nov 2025 19:49:00 +0800</lastBuildDate><atom:link href="https://scientiatw.live/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sat, 08 Nov 2025 21:51:00 +0800</lastBuildDate><atom:link href="https://scientiatw.live/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>近況</title>
+        <link>https://scientiatw.live/now/</link>
+        <pubDate>Sat, 08 Nov 2025 21:50:00 &#43;0800</pubDate>
+        <author>黃宏勝</author>
+        <guid>https://scientiatw.live/now/</guid>
+        <description>&lt;h2 id=&#34;-最近的狀態&#34;&gt;🏡 最近的狀態
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;🚎 新竹台北兩地跑：花更多時間坐在南港的辦公室裡&lt;/li&gt;
+&lt;li&gt;🏃 盡可能每天運動：回歸健身，但練腿時總是高估自己，每次都痛的快走不了路&lt;/li&gt;
+&lt;li&gt;🛏 睡眠：晚上十一點收東西回宿舍洗澡，十二點睡覺早上八點起床固定作息，不然有時實驗做太晚延遲上床時間，即便睡滿八小時也算是熬夜&lt;/li&gt;
+&lt;li&gt;⏳ 工作近況：趕第一階段實驗&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;-最近網路上的狀態&#34;&gt;🌐 最近網路上的狀態
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;💻 &lt;a class=&#34;link&#34; href=&#34;https://scientia-potentia-est.com/zh/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;資通安全第一品牌&lt;/a&gt;：&lt;a class=&#34;link&#34; href=&#34;https://scientia-potentia-est.com/zh/newsletter-zh/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;電子報服務&lt;/a&gt;持續開放中，每月寄送近期需要特別關注的漏洞資訊以及新技術給讀者&lt;/li&gt;
+&lt;li&gt;🗓 社群部落格：新增&lt;a class=&#34;link&#34; href=&#34;https://scientiatw.live/micro/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;微短文&lt;/a&gt;：前身是動態頁面，但單一頁面如果太多篇要一直滑，用年份分類改善之後重新上架了&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;-最近的專案&#34;&gt;🎯 最近的專案
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;🖥️ &lt;a class=&#34;link&#34; href=&#34;https://github.com/Scientia-Potentia-Est-Tw/Modified-Improved-Greedy-Algorithm&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Modified Improved Greedy Algorithm&lt;/a&gt;：針對2024/381優化他們的貪婪演算法，提出更多的策略以及加速他們在挑選時的步驟&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;-最近吃的喝的&#34;&gt;🍳 最近吃的/喝的
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;🥡 最近主菜都是一整塊豆腐配半勺的蒸蛋，比肉類更容易消化，蛋白質含量也夠&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;-最近讀的聽的看的&#34;&gt;📚 最近讀的/聽的/看的
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;📝 &lt;a class=&#34;link&#34; href=&#34;https://www.researchgate.net/publication/371033665_Branch-Assisted_Sign-Flipping_Belief_Propagation_Decoding_for_Topological_Quantum_Codes_Based_On_Hypergraph-Product_Structure&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Branch-Assisted Sign-Flipping Belief Propagation Decoding for Topological Quantum Codes Based on Hypergraph&lt;/a&gt;：錯誤更正碼課程期末專案開搞
+Product Structure&lt;/li&gt;
+&lt;li&gt;🧾 &lt;a class=&#34;link&#34; href=&#34;https://www.books.com.tw/exep/assp.php/scientia/products/0010887563?utm_source=scientia&amp;amp;utm_medium=ap-books&amp;amp;utm_content=recommend&amp;amp;utm_campaign=ap-202511&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;《星期天被遺忘的人》&lt;/a&gt;：我很喜歡海倫跟呂西恩的故事&lt;/li&gt;
+&lt;li&gt;🎧 &lt;a class=&#34;link&#34; href=&#34;https://mondayblueeee.firstory.io/episodes&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;茫DAY不錄&lt;/a&gt;：最近開始聽的Podcast，把諧音梗用到極致也是一種韻味&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        </item>
+        <item>
         <title>2025-11-08</title>
         <link>https://scientiatw.live/micro/2025-11-08/</link>
         <pubDate>Sat, 08 Nov 2025 19:49:00 &#43;0800</pubDate>
@@ -610,49 +652,6 @@
       &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
-</description>
-        </item>
-        <item>
-        <title>近況</title>
-        <link>https://scientiatw.live/now/</link>
-        <pubDate>Wed, 29 Oct 2025 17:01:00 &#43;0800</pubDate>
-        <author>黃宏勝</author>
-        <guid>https://scientiatw.live/now/</guid>
-        <description>&lt;h2 id=&#34;-最近的狀態&#34;&gt;🏡 最近的狀態
-&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;🚎 新竹台北兩地跑：花更多時間坐在南港的辦公室裡&lt;/li&gt;
-&lt;li&gt;🏃 盡可能每天跑步：健身房的使用證審核好久&lt;/li&gt;
-&lt;li&gt;🛏 睡眠：晚上十一點收東西回宿舍洗澡，十二點睡覺早上八點起床固定作息，不然有時實驗做太晚延遲上床時間，即便睡滿八小時也算是熬夜&lt;/li&gt;
-&lt;li&gt;⏳ 工作近況：趕第一階段實驗&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;-最近網路上的狀態&#34;&gt;🌐 最近網路上的狀態
-&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;💻 &lt;a class=&#34;link&#34; href=&#34;https://scientia-potentia-est.com/zh/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;資通安全第一品牌&lt;/a&gt;：&lt;a class=&#34;link&#34; href=&#34;https://scientia-potentia-est.com/zh/newsletter-zh/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;電子報服務&lt;/a&gt;持續開放中，每月寄送近期需要特別關注的漏洞資訊以及新技術給讀者&lt;/li&gt;
-&lt;li&gt;🗓 社群部落格：新增&lt;a class=&#34;link&#34; href=&#34;https://scientiatw.live/gallery/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;圖冊頁面&lt;/a&gt;，利用瀑布式套件顯示所有相冊，而圖片如果有相對應的文章也可以直接點選進入觀看&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;-最近的專案&#34;&gt;🎯 最近的專案
-&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;🖥️ &lt;a class=&#34;link&#34; href=&#34;https://github.com/Scientia-Potentia-Est-Tw/Modified-Improved-Greedy-Algorithm&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Modified Improved Greedy Algorithm&lt;/a&gt;：針對2024/381優化他們的貪婪演算法，提出更多的策略以及加速他們在挑選時的步驟&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;-最近吃的喝的&#34;&gt;🍳 最近吃的/喝的
-&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;🍦 在校內書局看到即期優格，也是我人生中第一次吃希臘式優格，第一次感受這種酸味，起初不太適應，但越吃越上癮&lt;/li&gt;
-&lt;li&gt;🍶 現在只買優酪乳，我自己的牛奶蛋白都還沒泡完就不需要一直買了，反正平時買的即期牛奶也是沖泡蛋白粉加上一些膠跟安定劑做出脂肪的口感&lt;/li&gt;
-&lt;li&gt;🍳 現在自助餐還會多夾蒸蛋，偶爾早餐錯過茶葉蛋一直在想要怎麼補蛋白質，都忘記有這個小時候超級喜歡的蒜頭蒸蛋了&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;-最近讀的聽的看的&#34;&gt;📚 最近讀的/聽的/看的
-&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;📄 &lt;a class=&#34;link&#34; href=&#34;https://eprint.iacr.org/2025/1915&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;A Framework for Efficient Quantum Implementations of Linear Layers&lt;/a&gt;：他們的相依有向圖跟隨機性的排序我覺得有很大的啟發&lt;/li&gt;
-&lt;li&gt;📖 &lt;a class=&#34;link&#34; href=&#34;https://www.books.com.tw/exep/assp.php/scientia/products/0010894082?utm_source=scientia&amp;amp;utm_medium=ap-books&amp;amp;utm_content=recommend&amp;amp;utm_campaign=ap-202510&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;《藝術顧問寫給職場工作者的「邏輯式藝術鑑賞法」》：運用五種思考架構，看懂藝術，以理性鍛鍊感性&lt;/a&gt;：對於我們這種沒有受過訓練的人來說，有個框架可以快速進入藝術的世界我覺得挺有趣的&lt;/li&gt;
-&lt;li&gt;🎧 &lt;a class=&#34;link&#34; href=&#34;https://mondayblueeee.firstory.io/episodes&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;茫DAY不錄&lt;/a&gt;：最近開始聽的Podcast，把諧音梗用到極致也是一種韻味&lt;/li&gt;
-&lt;/ul&gt;
 </description>
         </item>
         <item>

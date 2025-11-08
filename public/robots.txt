@@ -3,6 +3,10 @@ User-agent: *
   
 Allow: /
   
+Allow: /page/
+  
+Allow: /now/
+  
 Allow: /micro/
   
 Allow: /micro/2025-11-08/
@@ -14,8 +18,6 @@ Allow: /tags/%E5%8F%8D%E6%80%9D/
 Allow: /tags/%E6%84%9F%E6%81%A9/
   
 Allow: /tags/%E9%81%8B%E6%B0%A3/
-  
-Allow: /page/
   
 Allow: /about/
   
@@ -58,8 +60,6 @@ Allow: /tags/%E7%8F%BE%E7%8B%80%E5%81%8F%E5%B7%AE/
 Allow: /tags/%E8%AA%8D%E7%9F%A5%E5%BF%83%E7%90%86%E5%AD%B8/
   
 Allow: /categories/%E9%96%B1%E8%AE%80/
-  
-Allow: /now/
   
 Allow: /p/still-alice/
   
