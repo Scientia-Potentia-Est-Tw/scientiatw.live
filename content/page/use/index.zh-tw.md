@@ -1,12 +1,12 @@
 ---
 title: 使用
 description: 目前常用的物品
-date: '2025-11-08T09:50:00+08:00'
+date: 2025-11-08T09:50:00+08:00
 author: "黃宏勝"
 aliases:
   - use
 slug: use
-lastmod: '2025-11-08T09:50:00+08:00'
+lastmod: 2025-11-08T09:50:00+08:00
 menu:
     main: 
         weight: -60
