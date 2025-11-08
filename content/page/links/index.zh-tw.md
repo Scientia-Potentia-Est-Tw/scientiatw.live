@@ -1,12 +1,12 @@
 ---
 title: 推薦
 description: 此頁面收錄有趣的部落格、Podcast頻道、歌曲以及好文章
-date: '2025-10-18'
+date: 2025-11-08T09:59:00+08:00
 author: "黃宏勝"
 aliases:
   - links
 slug: links
-lastmod: '2025-10-18T17:09:00'
+lastmod: 2025-11-08T09:59:00+08:00
 menu:
     main: 
         weight: -50
@@ -17,9 +17,8 @@ menu:
 | 網站名稱    | 內容 |
 | -------- | ------- |
 | [Wiwi.Blog](https://wiwi.blog/)  | [好和弦](https://nicechord.com/)創辦人Wiwi Kuan的個人部落格，寫些生活見解    |
-| [電腦玩物](https://www.playpcesor.com/) | 站長異塵行者Esor分享多年來的數位工作思維及工具、方法     |
+| [Alex Hsu 徐小翔](https://alexhsu.com/) | 獨立iOS開發者的生活型部落格，他最近在寫遊戲心法相關的文章  |
 | [Sheracaolity](https://sheracaolity.ghost.io/)    | [Heptabase](https://heptabase.com/)卡片盒軟體工具創辦人詹雨安的個人部落格，紀錄自己人生的旅程    |
-| [Gea-Suan Lin's BLOG](https://blog.gslin.org/)    | 關注許多技術文章的部落格    |
 | [Huli's blog](https://life.huli.tw/)    | 前端開發者兼網頁安全研究員[Huli](https://blog.huli.tw/)的生活型部落格，分享他自己的生活見解    |
 | [一些走過的路](https://ericntuncu.blogspot.com/) | 只恨老天沒眼睛，讀書沒有贏 |
 
