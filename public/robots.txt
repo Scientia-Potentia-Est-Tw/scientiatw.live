@@ -5,6 +5,8 @@ Allow: /
   
 Allow: /page/
   
+Allow: /gallery/
+  
 Allow: /now/
   
 Allow: /micro/
@@ -24,8 +26,6 @@ Allow: /about/
 Allow: /links/
   
 Allow: /use/
-  
-Allow: /gallery/
   
 Allow: /categories/
   
