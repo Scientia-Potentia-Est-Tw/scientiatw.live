@@ -1,30 +1,27 @@
-+++
-title = "從50年職涯中學到的事業課題-下"
-date = "2025-07-29"
-lastmod = "2025-08-12"
-author = "黃宏勝"
-categories = [
-  "職涯",
-]
-tags = [
-  "職涯",
-  "建議",
-  "David A. Patterson",
-  "電腦科學家",
-  "圖靈獎",
-]
-keywords = [
-  "生活",
-  "職涯",
-  "建議",
-  "David A. Patterson",
-  "電腦科學家",
-  "圖靈獎",
-]
-description = "2017年圖靈獎得主的電腦科學家David A. Patterson分享了他這50年來從人生中學到一些關於職涯上應該要在乎的事"
-image = "https://scientia-potentia-est.com/wp-content/uploads/2025/07/career-lessons-2-cover-scaled.webp"
-slug = "life-lessons-from-the-first-half-century-of-my-career-focused-2"
-+++
+---
+title: "從50年職涯中學到的事業課題-下"
+date: "2025-07-29T10:05:00+08:00"
+lastmod: "2025-11-09T11:04:00+08:00"
+author: "黃宏勝"
+categories:
+  - 職涯
+tags:
+  - 職涯
+  - 建議
+  - David A. Patterson
+  - 電腦科學家
+  - 圖靈獎
+keywords:
+  - 生活
+  - 職涯
+  - 建議
+  - David A. Patterson
+  - 電腦科學家
+  - 圖靈獎
+description: "2017年圖靈獎得主的電腦科學家David A. Patterson分享了他這50年來從人生中學到一些關於職涯上應該要在乎的事"
+image: "https://scientia-potentia-est.com/wp-content/uploads/2025/07/career-lessons-2-cover-scaled.webp"
+slug: "life-lessons-from-the-first-half-century-of-my-career-focused-2"
+---
  
 在[從50年職涯中學到的事業課題-上](https://scientiatw.live/p/life-lessons-from-the-first-half-century-of-my-career-focused-1/)我們提到了前四件人們在事業上應該關注的事物，本篇我們介紹後面四件
 
@@ -51,7 +48,7 @@ David某天頓悟了這句話，至此他每次同一時間只專注於做一份
 在進行一項專案時有著無數的可能會發生錯誤，所以保持正向的態度是你唯一能做的，否則我想碰到兩、三次問題時你就會想放棄了，David在他16歲時跟一個同齡女生有過幾次約會，就直接問那個女生能不能在一起，但那女孩卻說：哇，我覺得Dave你真的是一個不錯的人，我不知道要怎麼跟你說"不要"，作者樂觀的天性以及稍微邏輯思考一下(說不出"不要"就是"要"😧)就直接抱住她了，事後女生才說其實當下覺得David有點可憐，所以想著之後再拒絕，但都結婚57年了，這位女性還是沒說出口
 
 作者結婚這麼久了期間還是會有一些爭執，其中比較常吵的是她希望遇到問題時可以跟作者一起共感，但David作為一個工程師就想著要幫她解決問題(拜託，她有說在尋求你的解決方案嗎？😩)，最後兩人達成的協議還是靠九字真言
-> 我錯了;你是對的;我愛你
+> 我錯了;你是對;我愛你
 
 不可否認說出我錯了對人生有很大的幫助，在職場上也常常可以化干戈為玉帛，總不可能說完我的想法是錯的，最後說句也許你是對的但你很機八吧(還是其實這有可能發生？🥴)，通常這時候大家氣氛都不會太好，所以說完這句就暫時不用接"**但是**"來解釋些什麼，讓雙方都冷靜一些後再進行積極正向討論才能讓事情往前推進
 
