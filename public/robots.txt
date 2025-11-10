@@ -3,6 +3,16 @@ User-agent: *
   
 Allow: /
   
+Allow: /micro/2025-11-10/
+  
+Allow: /tags/
+  
+Allow: /tags/%E5%85%AC%E5%BC%8F/
+  
+Allow: /tags/%E5%A2%93%E8%AA%8C%E9%8A%98/
+  
+Allow: /tags/%E6%95%B8%E5%AD%B8/
+  
 Allow: /page/
   
 Allow: /gallery/
@@ -12,8 +22,6 @@ Allow: /now/
 Allow: /micro/
   
 Allow: /micro/2025-11-08/
-  
-Allow: /tags/
   
 Allow: /tags/%E5%8F%8D%E6%80%9D/
   
