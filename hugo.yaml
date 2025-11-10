@@ -28,11 +28,6 @@ languages:
                   params:
                       icon: brand-wordpress
 
-                - identifier: github
-                  name: Github
-                  url: https://github.com/Scientia-Potentia-Est-Tw
-                  params:
-                      icon: brand-github
     en:
         languageName: English
         title: Hong-Sheng Huang's Blog
@@ -42,12 +37,6 @@ languages:
                 subtitle: Stay Curious and Take Action
         menu:
             social:
-                - identifier: github
-                  name: Github
-                  url: https://github.com/Scientia-Potentia-Est-Tw
-                  params:
-                      icon: brand-github
-
                 - identifier: website
                   name: Atoms of Cybersecurity
                   url: https://scientia-potentia-est.com/en/
