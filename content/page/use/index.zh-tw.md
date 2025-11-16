@@ -9,7 +9,7 @@ aliases:
 slug: use
 menu:
     main: 
-        weight: -50
+        weight: -40
         params:
             icon: shopping-bag-heart
 ---

@@ -9,7 +9,7 @@ aliases:
 slug: links
 menu:
     main: 
-        weight: -40
+        weight: -30
         params:
             icon: link-plus
 ---
