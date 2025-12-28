@@ -5,6 +5,8 @@ Allow: /
   
 Allow: /page/
   
+Allow: /bucket-list/
+  
 Allow: /links/
   
 Allow: /now/
@@ -50,8 +52,6 @@ Allow: /tags/%E8%84%AB%E9%9B%A2/
 Allow: /tags/%E6%BC%94%E7%AE%97%E6%B3%95/
   
 Allow: /support/
-  
-Allow: /bucket-list/
   
 Allow: /micro/2025-12-13/
   
