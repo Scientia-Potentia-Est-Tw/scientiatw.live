@@ -1,8 +1,8 @@
 ---
 title: 推薦
-description: 此頁面收錄有趣的部落格、Podcast頻道、歌曲以及好文章
-date: 2025-12-26T21:44:00+08:00
-lastmod: 2025-12-26T21:45:00+08:00
+description: 此頁面收錄有趣的文章、Podcast頻道、單曲或專輯
+date: 2025-12-31T18:46:00+08:00
+lastmod: 2025-12-31T18:47:00+08:00
 author: "黃宏勝"
 aliases:
   - links
@@ -13,13 +13,12 @@ menu:
         params:
             icon: link-plus
 ---
-## 🎰 部落格
-| 網站名稱    | 內容 |
-| -------- | ------- |
-| [Alex Hsu 徐小翔](https://alexhsu.com/) | 獨立iOS開發者的生活型部落格，他最近在寫遊戲心法相關的文章  |
-| [Wiwi.Blog](https://wiwi.blog/)  | [好和弦](https://nicechord.com/)創辦人Wiwi Kuan的個人部落格，寫些生活見解    |
-| [一些走過的路](https://ericntuncu.blogspot.com/) | 只恨老天沒眼睛，讀書沒有贏 |
-| [Secologies](https://secologies.com/zh) | 自己的資安部落格，當然要推廣一下 |
+## 📰 文章
+| 文章標題 | 註解 |
+| -------- | -------- |
+| [閱讀是如何塑造我](https://yaxuanhe.me/post/reading/) | 光是一本書就濃縮了作者十幾、二十年的經驗，這個注意力缺乏的世代人們更應該重拾閱讀的時光 |
+| [刻意無聊的力量：也許我們都是被數位時代的眾多娛樂給埋沒的天才？](https://alexhsu.com/zh/boredom/) | 我嘗試不再時時刻刻地用娛樂滿足自己，而是有意識的清空自己的腦袋暫存區 |
+| [世界是內心感受的投射](https://yaxuanhe.me/post/reflection/) | 也許就是我老想著要讓自己快樂，才導致自己總是不快樂，快樂究竟是什麼 |
 
 ## 📻 Podcast
 | Podcast名稱    | 內容 |
@@ -40,9 +39,3 @@ menu:
 | [toe](https://www.toe.st/) | [《The Book About My Idle Plot on a Vague Anxiety》](https://toe-music.bandcamp.com/album/the-book-about-my-idle-plot-on-a-vague-anxiety) |
 | [先知瑪莉Mary See the Future](https://zh.wikipedia.org/zh-tw/%E5%85%88%E7%9F%A5%E7%91%AA%E8%8E%89) | [《陸橋》](https://www.kkbox.com/tw/tc/song/Om6bR7YdTsIBftbjKk)，懷念過往的台語專輯 |
 
-## 📰 文章
-| 文章標題 | 註解 |
-| -------- | -------- |
-| [閱讀是如何塑造我](https://yaxuanhe.me/post/reading/) | 光是一本書就濃縮了作者十幾、二十年的經驗，這個注意力缺乏的世代人們更應該重拾閱讀的時光 |
-| [刻意無聊的力量：也許我們都是被數位時代的眾多娛樂給埋沒的天才？](https://alexhsu.com/zh/boredom/) | 我嘗試不再時時刻刻地用娛樂滿足自己，而是有意識的清空自己的腦袋暫存區 |
-| [世界是內心感受的投射](https://yaxuanhe.me/post/reflection/) | 也許就是我老想著要讓自己快樂，才導致自己總是不快樂，快樂究竟是什麼 |

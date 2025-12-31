@@ -3,6 +3,10 @@ User-agent: *
   
 Allow: /
   
+Allow: /page/
+  
+Allow: /links/
+  
 Allow: /micro/2025-12-31/
   
 Allow: /tags/
@@ -11,13 +15,9 @@ Allow: /tags/%E8%B6%85%E8%83%BD%E8%9B%8B%E7%99%BD/
   
 Allow: /tags/%E5%84%AA%E9%85%AA/
   
-Allow: /page/
-  
 Allow: /use/
   
 Allow: /bucket-list/
-  
-Allow: /links/
   
 Allow: /now/
   
