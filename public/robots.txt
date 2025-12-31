@@ -5,6 +5,8 @@ Allow: /
   
 Allow: /page/
   
+Allow: /use/
+  
 Allow: /bucket-list/
   
 Allow: /links/
@@ -34,8 +36,6 @@ Allow: /categories/%E7%A7%91%E6%8A%80/
 Allow: /tags/%E5%80%8B%E4%BA%BA%E7%B6%B2%E5%9F%9F/
   
 Allow: /gallery/
-  
-Allow: /use/
   
 Allow: /tags/fomo/
   

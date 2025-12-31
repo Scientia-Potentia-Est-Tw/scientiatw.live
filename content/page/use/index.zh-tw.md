@@ -1,8 +1,8 @@
 ---
 title: 使用
 description: 目前常用的物品
-date: 2025-12-20T13:30:00+08:00
-lastmod: 2025-12-20T17:00:00+08:00
+date: 2025-12-31T10:48:00+08:00
+lastmod: 2025-12-31T10:50:00+08:00
 author: "黃宏勝"
 aliases:
   - use
@@ -43,6 +43,7 @@ menu:
 
 ### 🗂️ 學術軟體
 - [EndNote](https://endnote.com/) - 幾乎每間大學都有購買EndNote的校園授權，除了給校內教師使用，研究生用來記載自己看過的paper，要插入到word或者overleaf裡都很方便
+- [Zotero](https://www.zotero.org/) - Open Source版本的文獻管理工具，如果未來離開了大學或學術單位後也必須有個備份方案，其中zotero是最多人使用的
 - [TeXShop](https://pages.uoregon.edu/koch/texshop/) - 在macOS上搭配VSCode編輯Tex檔案，也可以在local端編譯，之前有一次晚上Overleaf網站掛掉時我正在趕報告，搞得我心急如焚所以才想到也必須有備援方案，建議把Overleaf上心儀的模板也備份一組到硬碟中
 
 ### 💬 通訊軟體
