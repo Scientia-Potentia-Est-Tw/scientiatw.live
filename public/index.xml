@@ -7,7 +7,7 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-tw</language>
         <copyright>Hong-Sheng Huang</copyright>
-        <lastBuildDate>Wed, 31 Dec 2025 18:47:00 +0800</lastBuildDate><atom:link href="https://hshuang.blog/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sat, 03 Jan 2026 11:22:00 +0800</lastBuildDate><atom:link href="https://hshuang.blog/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>推薦</title>
         <link>https://hshuang.blog/links/</link>
         <pubDate>Wed, 31 Dec 2025 18:46:00 &#43;0800</pubDate>
@@ -484,7 +484,7 @@ Product Structure&lt;/li&gt;
   &lt;img src=&#34;https://secologies.com/wp-content/uploads/2025/12/add-another-email-address-3-scaled.webp&#34; alt=&#34;add-another-email-address-scaled&#34; width=&#34;800&#34;&gt;
   &lt;figcaption&gt;Gmail帳號及匯入功能&lt;/figcaption&gt;
 &lt;/figure&gt;
-&lt;p&gt;此時跳出一個新增信箱的視窗，電子郵件信箱就填寫在Cloudflare Email Routing上的位址，把視為別名的選項&lt;strong&gt;取消&lt;/strong&gt;掉，我們需要保留原本的電子郵件地址，再回覆信件時才能夠選擇要用哪個地址來回覆，下方可以指定不一樣的位址，此時該帳號一樣填客製化的信箱，確認完之後點選下一步&lt;/p&gt;
+&lt;p&gt;此時跳出一個新增信箱的視窗，電子郵件信箱就填寫在Cloudflare Email Routing上的位址，把視為別名的選項&lt;strong&gt;取消&lt;/strong&gt;掉，我們需要保留原本的電子郵件地址，再回覆信件時才能夠選擇要用哪個地址來回覆，下方可以指定用來回覆的電子信箱，此時該帳號一樣填客製化的信箱，確認完之後點選下一步&lt;/p&gt;
 &lt;figure&gt;
   &lt;img src=&#34;https://secologies.com/wp-content/uploads/2025/12/adding-another-address.webp&#34; alt=&#34;adding-another-address&#34; width=&#34;800&#34;&gt;
   &lt;figcaption&gt;設定客製化信箱&lt;/figcaption&gt;

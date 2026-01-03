@@ -1,7 +1,7 @@
 ---
 title: "利用Cloudflare Domain搭配Gmail建立私人電子信箱"
 date: 2025-12-26T15:59:00+08:00
-lastmod: 2025-12-26T16:00:00+08:00
+lastmod: 2026-01-03T11:22:00+08:00
 author: "黃宏勝"
 categories:
   - 科技
@@ -100,7 +100,7 @@ Cloudflare就會寄送一封確認信到你想要轉寄的信箱裡，直接點�
   <figcaption>Gmail帳號及匯入功能</figcaption>
 </figure>
 
-此時跳出一個新增信箱的視窗，電子郵件信箱就填寫在Cloudflare Email Routing上的位址，把視為別名的選項**取消**掉，我們需要保留原本的電子郵件地址，再回覆信件時才能夠選擇要用哪個地址來回覆，下方可以指定不一樣的位址，此時該帳號一樣填客製化的信箱，確認完之後點選下一步
+此時跳出一個新增信箱的視窗，電子郵件信箱就填寫在Cloudflare Email Routing上的位址，把視為別名的選項**取消**掉，我們需要保留原本的電子郵件地址，再回覆信件時才能夠選擇要用哪個地址來回覆，下方可以指定用來回覆的電子信箱，此時該帳號一樣填客製化的信箱，確認完之後點選下一步
 
 <figure>
   <img src="https://secologies.com/wp-content/uploads/2025/12/adding-another-address.webp" alt="adding-another-address" width="800">
