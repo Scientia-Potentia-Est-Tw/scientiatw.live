@@ -18,10 +18,12 @@ enableEmoji = true
 
 googleAnalytics = "G-GC235QD2XY"
 
-disqusShortname = "hong-sheng-huang"
-
 [params]
   logo = "static/favicon.ico"
+
+[services]
+  [services.disqus]
+    shortname = "hong-sheng-huang"
 
 [pagination]
   pagerSize = 100
