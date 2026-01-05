@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Abouts on Hong-Sheng Huang&#39;s Blog</title>
+    <link>http://localhost:1313/en/about/</link>
+    <description>Recent content in Abouts on Hong-Sheng Huang&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2026 </copyright>
+    <lastBuildDate>Fri, 26 Dec 2025 16:04:00 +0800</lastBuildDate><atom:link href="http://localhost:1313/en/about/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>About</title>
+      <link>http://localhost:1313/en/about/about/</link>
+      <pubDate>Fri, 26 Dec 2025 16:03:00 +0800</pubDate>
+      
+      <guid>http://localhost:1313/en/about/about/</guid>
+      <description>&lt;p&gt;I am &lt;a href=&#34;https://secologies.com/en/hong-sheng-huang/&#34;  target=&#34;_blank&#34;&gt;Hong-Sheng Huang&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;This social blog mainly features content on topics such as &amp;ldquo;reading reflections,&amp;rdquo; &amp;ldquo;life sharing,&amp;rdquo; and &amp;ldquo;humanities and arts.&amp;rdquo;&lt;/p&gt;&#xA;&lt;p&gt;For any collaborations or inquiries, please email: hshuang[at]hshuang[dot]blog&lt;/p&gt;&#xA;&lt;p&gt;If you want to read the technical blog, please visit：&lt;a href=&#34;https://secologies.com/en&#34;  target=&#34;_blank&#34;&gt;Secologies&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;If you want to subscribe to the RSS feed, please use this link：&lt;a href=&#34;https://hshuang.blog/en/index.xml&#34;  target=&#34;_blank&#34;&gt;RSS&lt;/a&gt;&lt;/p&gt;</description>
+      
+    </item>
+    
+  </channel>
+</rss>

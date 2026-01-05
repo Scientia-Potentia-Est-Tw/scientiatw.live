@@ -1,116 +1,33 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-    <channel>
-        <title>部落格 on Hong-Sheng Huang&#39;s Blog</title>
-        <link>https://hshuang.blog/tags/%E9%83%A8%E8%90%BD%E6%A0%BC/</link>
-        <description>Recent content in 部落格 on Hong-Sheng Huang&#39;s Blog</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>zh-tw</language>
-        <copyright>Hong-Sheng Huang</copyright>
-        <lastBuildDate>Mon, 22 Dec 2025 13:53:00 +0800</lastBuildDate><atom:link href="https://hshuang.blog/tags/%E9%83%A8%E8%90%BD%E6%A0%BC/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>部落格問題挑戰</title>
-        <link>https://hshuang.blog/p/blog-questions-challenge/</link>
-        <pubDate>Sat, 18 Oct 2025 14:19:00 &#43;0800</pubDate>
-        <author>黃宏勝</author>
-        <guid>https://hshuang.blog/p/blog-questions-challenge/</guid>
-        <description>&lt;img src="https://secologies.com/wp-content/uploads/2025/10/blog-questions-challenges-cover-scaled.webp" alt="Featured image of post 部落格問題挑戰" /&gt;&lt;p&gt;在廢文小天地RSS看到部落格挑戰[1]，源自Kev Quirk的Blog Questions Challenge[2]，看到題目蠻有興趣的，所以決定也寫一篇來回應各項問題&lt;/p&gt;
-&lt;p&gt;主要的問題有8題，總共是：&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;你當初為什麼開始寫部落格？&lt;/li&gt;
-&lt;li&gt;你使用什麼平台來管理你的部落格？為什麼選擇它？&lt;/li&gt;
-&lt;li&gt;你之前有在其他平台上寫過部落格文章嗎？&lt;/li&gt;
-&lt;li&gt;你如何撰寫文章？例如，使用本地編輯工具，還是在部落格的後台／控制面板中編寫？&lt;/li&gt;
-&lt;li&gt;你什麼時候最有寫作靈感？&lt;/li&gt;
-&lt;li&gt;你會在寫完後立即發布，還是會先存成草稿醞釀一下？&lt;/li&gt;
-&lt;li&gt;你部落格上最喜歡的文章是哪一篇？&lt;/li&gt;
-&lt;li&gt;你對部落格有什麼未來計畫嗎？例如重新設計、搬到另一個平台，或是加入新功能？&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h2 id=&#34;你當初為什麼開始寫部落格&#34;&gt;你當初為什麼開始寫部落格？
-&lt;/h2&gt;&lt;p&gt;大學時期為了紀錄課程筆記，以及需要一個展示空間給轉學考的委員可以看我的作品，所以架了一個Github Page網站po一些學習上的心得，後來去實習後覺得可以經營自己的品牌，所以開始寫一些工作上的學習筆記&lt;/p&gt;
-&lt;p&gt;一開始的打算是把電腦科學裡學到的，跟平時生活心得與閱讀心得等等都在同一個網站中呈現，但隨著文章越來越多，整個網站內含所有主題越看越混淆，所以決定讓VPS主要展示技術型的文章，而這個部落格則是主要分享生活型的文章&lt;/p&gt;
-&lt;h2 id=&#34;你使用什麼平台來管理你的部落格為什麼選擇它&#34;&gt;你使用什麼平台來管理你的部落格？為什麼選擇它？
-&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://docs.github.com/en/pages&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Github Pages&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Wordpress&lt;/li&gt;
-&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://pages.cloudflare.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Cloudflare Pages&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;大學時期沒有收入時只能選擇免費的Github Pages當作網頁空間，開始實習後有些工讀的薪水，在網路上看來看去要經營自媒體應該要架設自己的網站與網域，所以開始買了VPS安裝Wordpress&lt;/p&gt;
-&lt;p&gt;由於我之後有打算啟動訂閱服務以及線上課程的規劃，並且讀者的個人資料我想要自己全權掌控減少風險，就一定需要有資料庫管理讀者的資訊，Wordpress自然就成為我的第一選項，而且wordpress除了免費的模板功能就夠用之外，支援LaTex、多語言切換以及SEO等套件都有免費版的可以安裝&lt;/p&gt;
-&lt;p&gt;另一個考量的點是Github Repository建議只儲存5GB以下的內容在上面，光把Hugo模板上傳上去就花了一些空間，而隨著文章增加就會越需要引用更多張圖片，如果把圖片全部上傳在Github上會讓部署時間越來越久，所以Wordpress的媒體空間也提供一個網路圖庫空間給我的社群部落格儲存所有圖片&lt;/p&gt;
-&lt;p&gt;近期將Github Pages改到Cloudflare Pages上，雖然原本的Github Pages就挺夠用的了，但SEO就是唯一也是我最煩惱的問題，由於Github的CDN只有在美國地區比較完善，相較之下亞洲地區還不夠好，而不巧我的文章大部分都是中文的，目前TA都是亞太地區&lt;/p&gt;
-&lt;p&gt;我架設社群部落格已經一段時間了，但不是每一篇文章在Google搜尋引擎上可以有好的排名，所以決定換成CloudFlare Pages使用CloudFlare的DNS服務，原因光是免費方案就不限流量了，甚至防範DDoS、惡意爬蟲以及防火牆服務都是免費的&lt;/p&gt;
-&lt;p&gt;而且從Github Pages換到Cloudflare Pages很方便，只需要把原本放在Github上的repo連接到Cloudflare上就可以了，Cloudflare就會根據專案裡面的檔案自動部署出同樣的網站，而只要把網域指向Cloudflare就可以把整個網站換到Cloudflare Pages上&lt;/p&gt;
-&lt;p&gt;原先我每一篇文章在vim裡寫完markdown檔案後還要用Hugo compiler重新編譯，再到/public將輸出的檔案push到github repo裡讓Action部署，但我現在直接在repo裡修改就可以讓Cloudflare自動部署更新&lt;/p&gt;
-&lt;h2 id=&#34;你之前有在其他平台上寫過部落格文章嗎&#34;&gt;你之前有在其他平台上寫過部落格文章嗎？
-&lt;/h2&gt;&lt;p&gt;高職時期上科技應用課時，老師有教我們開Google Blogger網誌，但寫完一篇關於高一生活的文章，之後就沒有再開過了，那個Google帳號我也不確定還有沒有在用，後來就只在自己架設的地方寫文章&lt;/p&gt;
-&lt;h2 id=&#34;你如何撰寫文章例如使用本地編輯工具還是在部落格的後台控制面板中編寫&#34;&gt;你如何撰寫文章？例如，使用本地編輯工具，還是在部落格的後台／控制面板中編寫？
-&lt;/h2&gt;&lt;p&gt;不管是技術文章或是閱讀心得，我總會先在Obsidian上做許多卡片盒筆記，搜集好一定份量的素材後才決定開始寫文章&lt;/p&gt;
-&lt;p&gt;之後再貼到Wordpress上的撰寫區塊，調整字型，比較麻煩的就是Obsidian裡原生Latex是用錢字號($)，但換到Wordpress上的模板inline mode是用[latex]來標記&lt;/p&gt;
-&lt;p&gt;而Cloudflare Pages上的文章都是我從素材裡貼到Vim編輯器裡的Markdown檔案產出的，把文章範例模板儲存在一個txt檔案裡，每次開新的一篇都從裡面複製出來貼到vim上，再開始寫完整篇&lt;/p&gt;
-&lt;h2 id=&#34;你什麼時候最有寫作靈感&#34;&gt;你什麼時候最有寫作靈感？
-&lt;/h2&gt;&lt;p&gt;每天晚上吃完晚餐後的休息時間，由於晚餐過後注意力也下降許多，所以會開始審視當日白天新增的卡片盒筆記資料庫，整理今天寫的卡片並且更新Obsidian Canvas時就會想到有哪些素材是可以寫成文章的&lt;/p&gt;
-&lt;p&gt;另外看RSS閱讀器時，看到有些部落格更新了新文章，覺得有趣的內容就決定延伸寫一篇我自己的想法&lt;/p&gt;
-&lt;h2 id=&#34;你會在寫完後立即發布還是會先存成草稿醞釀一下&#34;&gt;你會在寫完後立即發布，還是會先存成草稿醞釀一下？
-&lt;/h2&gt;&lt;p&gt;我自己習慣寫完就馬上發出去，畢竟在Wordpress上有些題目是當初想寫的，但由於素材還沒整理好，所以就一直拖到現在也還躺在草稿區裡，但一直拖著也不是辦法，最近也把那些只有標題的草稿刪掉了&lt;/p&gt;
-&lt;p&gt;未來規劃要養成Obsidian裡有足夠的素材時才開始寫文章，不然東缺西缺一直放在資料夾裡我看了也心煩&lt;/p&gt;
-&lt;h2 id=&#34;你部落格上最喜歡的文章是哪一篇&#34;&gt;你部落格上最喜歡的文章是哪一篇？
-&lt;/h2&gt;&lt;p&gt;在我的技術部落格裡，我最喜歡的是《&lt;a class=&#34;link&#34; href=&#34;https://secologies.com/zh/physical-unclonable-function/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;PUF 晶片上的物理不可複製功能&lt;/a&gt;》這文章，當初修硬體安全這門課時體驗很好，學到很多東西&lt;/p&gt;
-&lt;p&gt;也是讓我不後悔延畢後所遇到的一門課，讓我認識除了做純密碼研究之外還有更廣泛應用的領域，而裡面談保護晶片最重要的方法之一就是使用PUF，所以我認為這篇作為晶片安全的入門很適合&lt;/p&gt;
-&lt;p&gt;而個人部落格裡則是《&lt;a class=&#34;link&#34; href=&#34;https://hshuang.blog/p/you-should-use-rss/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;自主選擇乾淨的資訊，回歸RSS的懷抱吧！&lt;/a&gt;》了吧，脫離了社群媒體之後，RSS閱讀器真的為我的人生帶來了不一樣的感受，感覺腦袋裡雲裡霧裡的感覺都消失了&lt;/p&gt;
-&lt;p&gt;也遇到了許多優秀的個人部落格，每天透過閱讀RSS新文章，就能夠為我每天的生活注入新的火焰&lt;/p&gt;
-&lt;h2 id=&#34;你對部落格有什麼未來計畫嗎例如重新設計搬到另一個平台或是加入新功能&#34;&gt;你對部落格有什麼未來計畫嗎？例如重新設計、搬到另一個平台，或是加入新功能？
-&lt;/h2&gt;&lt;p&gt;技術部落格如我冀望它的名字，《&lt;a class=&#34;link&#34; href=&#34;https://secologies.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Secologies&lt;/a&gt;》，希望從數學、硬體到軟體的多維度視角來建構完整的資安生態圈，所以我需要開始多補充詳細的數學文章彌補讀者的底層知識，讓網站成為自給自足(self-contained)的平台&lt;/p&gt;
-&lt;p&gt;以及目前開放免費的電子報註冊&lt;a class=&#34;link&#34; href=&#34;https://secologies.com/zh/newsletter-zh/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;https://secologies.com/zh/newsletter-zh/&lt;/a&gt;，未來打算推出訂閱制的電子報，還有推出一些線上課程，Wordpress模板換了好幾次，目前這個消耗的計算資源最少，應該不會再換了&lt;/p&gt;
-&lt;p&gt;而個人部落格未來如果Cloudflare Pages開始收費的話可能又要換平台了，但我對目前的Hugo模板很滿意，之前換過好幾次模板只有這一次的滿足卡片式、關鍵字搜尋、目錄支援且最重要有meta tag的SEO優化，所以未來應該不會考慮換模板&lt;/p&gt;
-&lt;p&gt;未來素描作品比較能讓人看的話，考慮做一個類似雷歐的圖文版面[3]介面或者是Yelle的瀑布式相冊[4]來呈現圖片，可以展示出我每一張作品&lt;/p&gt;
-&lt;p&gt;除此之外就是把目前的文章翻譯成英文的版本了吧，以及預計未來學其他種新語言後可以把舊文章翻譯成該語言，除了練習該語言的語法之外，也希望讓母語人士了解我的心情&lt;/p&gt;
-&lt;h2 id=&#34;reference&#34;&gt;Reference
-&lt;/h2&gt;&lt;p&gt;[1] 皮皮, &amp;ldquo;部落格挑戰,&amp;rdquo; &lt;a class=&#34;link&#34; href=&#34;https://trashposts.com/blog/blog-questions-challenge/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;https://trashposts.com/blog/blog-questions-challenge&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;[2] Kev Quirk, &amp;ldquo;Blog Questions Challenge,&amp;rdquo; &lt;a class=&#34;link&#34; href=&#34;https://kevquirk.com/blog/blog-questions-challenge/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;https://kevquirk.com/blog/blog-questions-challenge/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;[3] 朱智宇, &amp;ldquo;圖文,&amp;rdquo; &lt;a class=&#34;link&#34; href=&#34;https://revolc.blog/gallery/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;https://revolc.blog/gallery/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;[4] Yelle, &amp;ldquo;相冊,&amp;rdquo; &lt;a class=&#34;link&#34; href=&#34;https://yelleis.top/gallery/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;https://yelleis.top/gallery/&lt;/a&gt;&lt;/p&gt;
-</description>
-        </item>
-        <item>
-        <title>為什麼我想寫部落格？</title>
-        <link>https://hshuang.blog/p/why-i-build-a-blog/</link>
-        <pubDate>Thu, 17 Jul 2025 00:00:00 &#43;0000</pubDate>
-        <author>黃宏勝</author>
-        <guid>https://hshuang.blog/p/why-i-build-a-blog/</guid>
-        <description>&lt;img src="https://secologies.com/wp-content/uploads/2025/07/why-I-build-a-blog-cover-scaled.webp" alt="Featured image of post 為什麼我想寫部落格？" /&gt;&lt;p&gt;所以我想在網路上有個空間紀錄我的所見所聞，至少比起我的大腦還來的可信吧，當我在進行寫作的過程會回憶起當時的情境，雛形寫完後潤飾文章看看我有沒有對我自己的記憶動了手腳，其次透過寫作可以慢慢地梳理我的生活，所以我想透過部落格培養我的寫作技能&lt;/p&gt;
-&lt;p&gt;比起GenAI生成出那種非常直接的邏輯思考敘述，我們人類不知為何就是能讓文字變得有血有肉(尤其臺灣人特別愛用諧音梗，拜託我超愛的😎，希望讀者們也都很喜歡諧音梗，畢竟每次聊天時我不尷尬就無敵了)&lt;/p&gt;
-&lt;h2 id=&#34;起源&#34;&gt;起源
-&lt;/h2&gt;&lt;p&gt;最初的印象是我大概小學三、四年級時待在安親班有個大我一、兩歲的姊姊很喜歡寫文章，她常常會分享她寫完的內容給輔導老師及我們這些小孩子看，雖然當時的我有時無法理解文章的某些篇幅，但我感受的出來那姊姊在寫作上感到非常快樂，這讓我心生羨慕&lt;/p&gt;
-&lt;p&gt;我升上國中之後蠻喜歡國文課的，每次寫作文都可以寫到第二面甚至跟老師要第二張作文紙，雖然常常寫了冗長的描述(沒錯，我也很喜歡在作文裡寫廢文😏)，但那算是我在國中裡比較擅長做的事情(畢竟國中生的主要任務就是看漫畫跟小說，每週三我上學前都會在7-11買一本寶島少年進學校)，不過我現在卻是選擇資工這條路，我想我心中那股想寫些東西的幼苗還未凋零&lt;/p&gt;
-&lt;h2 id=&#34;路途&#34;&gt;路途
-&lt;/h2&gt;&lt;p&gt;另一方面我覺得我活了二十幾年卻沒有為這世界貢獻任何東西有些愧疚，高中電腦課雖然老師會教建立Google blogger網誌但我們根本沒有寫部落格的習慣(上課就夠累了，放學後就得去打工，沒排班就必須跟同學瘋狂玩線上遊戲活絡我們的感情)&lt;/p&gt;
-&lt;p&gt;後來升上大學突然有了大把時間才想到要寫部落格，用Github Page架了網站想說整理平常修課的內容，但也更新不到幾篇，除了修太多課(真的很不建議一學期超過20+學分甚至30學分)整理自己的筆記就來不及了，我的拖延症加上完美主義心態一直作祟，導致我上完課遲遲沒有動作&lt;/p&gt;
-&lt;p&gt;又拖了很久到我去實習時才想著可以把Github Page當作筆記網站寫些工作上碰到的問題及解法才又繼續更新，但實習結束後也沒有更新其他的內容了，我終於意識到了，我只是，懶惰🤡&lt;/p&gt;
-&lt;h2 id=&#34;just-try-it&#34;&gt;Just try it
-&lt;/h2&gt;&lt;p&gt;升上了碩士班後，時間又變得更多了，在這階段我更應該去思考我到底想為這世界做點什麼事，我刪掉手機裡的社群媒體APP後我更加去關注我自身的想法，花更多時間關注一些部落格文章e.g. &lt;a class=&#34;link&#34; href=&#34;https://wiwi.blog/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Wiwi&lt;/a&gt;、&lt;a class=&#34;link&#34; href=&#34;https://life.huli.tw/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Huli&lt;/a&gt;、&lt;a class=&#34;link&#34; href=&#34;https://alexhsu.com/zh&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;駉&lt;/a&gt;等人讓我注意到也許我應該分享一些我自己的所思所想&lt;/p&gt;
-&lt;p&gt;回到我的起點不再去要求一步到位的內容，我想要寫些什麼就寫，分享書的讀後心得、分享我從網路上看到的文章而引發我那些省思、分享我去哪裡怎麼去怎麼玩以及分享我的品味給讀者等等，人本來就有各式各樣的興趣而這些內容用社群媒體很難整理(畢竟誰會想要往下滑一年前的貼文？)，所以我想部落格是最好的歸屬&lt;/p&gt;
-&lt;p&gt;在這裡我可以自由設計我自己想要的版面、格式以及甚至放點Katex公式[1]🧐
-&lt;/p&gt;
-\[ H_{b}(X) = -\sum_{x \in \mathbb{X}} P(x) \cdot log_{b}P(x) = \mathbb{E}[-log_{b}P(X)] = \mathbb{E}{p} [log_{b}\frac{1}{P(x)}] \]&lt;p&gt;並且透過部落格練習寫作可以同時為我的職業生涯帶來好處，畢竟研究工作花了七成時間在進行研究，三成時間把研究內容整理完寫成paper才算得上完成工作，優化任何一塊環節都能夠超越自我此乃美德，而練習直接寫才是王道，難道我讓想法在腦中盤旋就可以完成一篇文章？&lt;/p&gt;
-&lt;p&gt;共勉之&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;[1] 消息理論中的熵定義 - &lt;a class=&#34;link&#34; href=&#34;https://secologies.com/zh/entropy-information-theory/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;https://secologies.com/zh/entropy-information-theory/&lt;/a&gt;&lt;/p&gt;
-</description>
-        </item>
-        
-    </channel>
+  <channel>
+    <title>部落格 on Hong-Sheng Huang&#39;s Blog</title>
+    <link>http://localhost:1313/tags/%E9%83%A8%E8%90%BD%E6%A0%BC/</link>
+    <description>Recent content in 部落格 on Hong-Sheng Huang&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-tw</language>
+    <copyright>© 2026 Hong-Sheng Huang</copyright>
+    <lastBuildDate>Mon, 22 Dec 2025 13:53:00 +0800</lastBuildDate><atom:link href="http://localhost:1313/tags/%E9%83%A8%E8%90%BD%E6%A0%BC/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>部落格問題挑戰</title>
+      <link>http://localhost:1313/posts/blog-questions-challenge/</link>
+      <pubDate>Sat, 18 Oct 2025 14:19:00 +0800</pubDate>
+      
+      <guid>http://localhost:1313/posts/blog-questions-challenge/</guid>
+      <description>在廢文小天地看到的Blog Questions Challenge</description>
+      
+    </item>
+    
+    <item>
+      <title>為什麼我想寫部落格？</title>
+      <link>http://localhost:1313/posts/why-i-build-a-blog/</link>
+      <pubDate>Thu, 17 Jul 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/why-i-build-a-blog/</guid>
+      <description>人的記憶非常奇妙，只有那些刻骨銘心的事情才會讓你記得長長久久，尤其每晚在我睡著前那些死去的記憶突然開始攻擊我，而那些快樂的記憶倏忽即逝不留痕跡的離開了我</description>
+      
+    </item>
+    
+  </channel>
 </rss>

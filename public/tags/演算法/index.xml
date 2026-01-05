@@ -1,101 +1,23 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-    <channel>
-        <title>演算法 on Hong-Sheng Huang&#39;s Blog</title>
-        <link>https://hshuang.blog/tags/%E6%BC%94%E7%AE%97%E6%B3%95/</link>
-        <description>Recent content in 演算法 on Hong-Sheng Huang&#39;s Blog</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>zh-tw</language>
-        <copyright>Hong-Sheng Huang</copyright>
-        <lastBuildDate>Sun, 21 Dec 2025 10:35:00 +0800</lastBuildDate><atom:link href="https://hshuang.blog/tags/%E6%BC%94%E7%AE%97%E6%B3%95/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>再見祖克柏</title>
-        <link>https://hshuang.blog/p/sayonara-zuckerberg/</link>
-        <pubDate>Sat, 20 Dec 2025 00:01:00 &#43;0800</pubDate>
-        <author>黃宏勝</author>
-        <guid>https://hshuang.blog/p/sayonara-zuckerberg/</guid>
-        <description>&lt;img src="https://secologies.com/wp-content/uploads/2025/12/祖克柏梗圖-3.webp" alt="Featured image of post 再見祖克柏" /&gt;&lt;p&gt;過去我們活在需要100%心力過活的生命中，可能花了80%的力氣在處理一些煩心的雜事，而剩下20%的時間裡是我們可以進入心流狀態，完成某種成就的深層體驗，可能是完整的看完一本書或一部電影、創作一篇文章或畫一張圖、與你的伴侶一起細心品味你們之間的日常相處，也可以是單純放空的在公園裡散步&lt;/p&gt;
-&lt;p&gt;在ML(Machine Learning, 機器學習)/DL(Deep Learning, 深度學習)/RL(Reinforcement Learning, 強化學習)技術如此盛行的時代，Agent、MCP(Model Context Protocol, 模型上下文協定)已經可以代勞現實中許多事情，這代表，原先繁瑣的80%工作其實可以交代給這些LLM，甚至不同的應用模型做得比我們自己還要好&lt;/p&gt;
-&lt;p&gt;也正是如此，我們有了將過往耗損全部投注在只有人類能做到的事情上的機會，我們將能夠更深入的探索現實世界缺失的東西，最美好的時代看似要來臨了，但我們目前的生活中是否存在隱憂呢？&lt;/p&gt;
-&lt;p&gt;人類作為社會性動物，加上從眾心理的因素導致我們非常在乎有沒有新資訊，可以說，我們非常渴求與他人、與社會進行無時無刻的連結，隨著網際網路的發展，從web1到目前web3的出現，讓我們每天充斥在大量資訊中，2000年後，祖克柏(Mark Zuckerberg)推出社群媒體到大眾的眼前&lt;/p&gt;
-&lt;p&gt;起初人們對於這個可以用來跟親朋好友保持聯繫的產品非常興奮，幾乎當時我們的舒適圈中大家都有註冊帳號，2010年後，許多企業注意到數位商機開始有前途，紛紛嘗試在社群媒體平台上賣產品或服務&lt;/p&gt;
-&lt;p&gt;而雅馬遜(Amazon)、Facebook(現為Meta)、Google跟Twitter(現為X)則注意到可以跟廣告商收錢投放內容給平台上的使用者觀看(洗腦)，甚至開始有一堆自願幫忙的打工人在上面免費創作，將自己所有的心血讓一間公司的執行長掌控一切&lt;/p&gt;
-&lt;p&gt;注意力的戰爭就這樣開打了，我一開始註冊Facebook目的是追蹤許多資安公司的粉絲專頁，以及許多知名大佬都會在Facebook或Twitter上分享自己的看法，然而，這才是悲劇的起源，每天都有新的技術文章出現，但由於生活中還有其他事情要做，導致這些資訊越積越多沒看完，不是躺在瀏覽器分頁上就是加入長灰塵的書籤裡等著我有時間才去打開&lt;/p&gt;
-&lt;p&gt;更慘的是不公開的演算法控制我的頁面會出現哪些東西，我以為是我自己在控制想要看的內容，實則不然，遊戲規則早就變成社群平台的管理員在控制我的大腦，支配我的腦內啡跟多巴胺，平台要我焦慮，我不得不焦慮，所以我得想想一些理由來拯救我自己&lt;/p&gt;
-&lt;h2 id=&#34;讓專注力提升&#34;&gt;讓專注力提升
-&lt;/h2&gt;&lt;p&gt;TikTok吹響了短影音的號角，雖說各家科技公司可以決定自己的平台上應該要走什麼樣的風格，但看到這新玩意兒的流量，似乎讓他們覺得不能不跟上，繼而開發出了Reels、Shorts等介面&lt;/p&gt;
-&lt;p&gt;但說實話一則60秒的影片有辦法帶給我的生命一些新東西嗎？我在一小時裡連續看完好幾部後有辦法記住第一部在講什麼嗎？&lt;/p&gt;
-&lt;p&gt;誠如我在前面所提，我們從農業社會轉變為知識社會，許多工作越來越需要複雜的知識與操作，如果說LLM可以處理現有人類發展出來的知識，那麼想要從製造導向的產業切換進專利導向的時代，人們就必須花更多時間，將知識邊界向外擴張，探索未知的領域與技術&lt;/p&gt;
-&lt;p&gt;要做到這點，必然需要強健的專注力，潛入至更深的境界，這也是我一直以來渴望的能力，而社群媒體將資訊給碎片化後，漸漸的也導致人們的注意力下降&lt;/p&gt;
-&lt;p&gt;畢竟專注度也是有一個容量的限制，每天就只有一定份量可以使用，隨著一天繁忙工作下來，幾乎能量都被消耗見底，失去掌控能力後我們開始漫遊在社群中，更甚者，睡不著覺又拿起手機滑，卻又導致更晚睡，身體狀況不佳的惡性循環稱得上是現代人的通病之一&lt;/p&gt;
-&lt;p&gt;但專注力就像肌肉一樣可以訓練，即便下班後回到家也可以選擇看電影或書籍，強迫自己吞下精心製作的內容，而不是陷入空泛的幹片旋渦之中&lt;/p&gt;
-&lt;p&gt;有可能到了晚上能量不夠所以無法好好的做出選擇，我目前會在白天時就決定好晚上休息時要做些什麼，又或者嘗試自我抽離，用第三人稱的觀眾視角來看我這個傢伙怎麼會做這種內耗又無法好好休息的事&lt;/p&gt;
-&lt;h2 id=&#34;拒絕隱密的演算法&#34;&gt;拒絕隱密的演算法
-&lt;/h2&gt;&lt;p&gt;現今社群平台的作用不再像過往連結人與人，已經變調成只為廣告商服務，我在頁面上根本看不到幾個有用的貼文，大多是被演算法推播給我平時沒在看的，甚至是穿插Reels在中間給我自動播放(聲音一出來我整個人就燥起來了)&lt;/p&gt;
-&lt;p&gt;似乎我的注意力變成了祖克柏的商品，將我的所有資訊販賣給其他科技公司做分析，兩、三則後就出現葉佩雯，我無法再根據自己的需求找到真正需要的資訊或商品，搞得好像廠商下的廣告錢越多，那個商品就越讚&lt;/p&gt;
-&lt;p&gt;何況Meta、Google他們也不公開演算法內容，所以我根本不知道自己到底會看到哪些內容，FB、IG、小紅書之類的也許追蹤更多相關的帳號，就會讓該類別的權重提高，使得你看到的東西越來越相似，同溫層越來越厚最後只能看到自爽文&lt;/p&gt;
-&lt;p&gt;而threads比較誇張的是我們完全無法猜測它的演算法到底怎麼寫的，就算追蹤許多同性質的帳號，還是會跑出一堆奇怪的貼文，當看到不符合價值觀的貼文時，直接拉到底下留言區現場約架&lt;/p&gt;
-&lt;p&gt;這造就你我就會越黏著在平台上，因為我要看對方又回覆了什麼毀我三觀的想法，這到底是什麼煉蠱的設計&lt;/p&gt;
-&lt;h2 id=&#34;擺脫fomo&#34;&gt;擺脫FOMO
-&lt;/h2&gt;&lt;p&gt;我在&lt;a class=&#34;link&#34; href=&#34;https://hshuang.blog/p/fear-of-missing-out-and-me/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;《你今天FOMO了嗎？》&lt;/a&gt;提到害怕錯過些什麼的症狀會讓我們生活無法自理，甚至可以說當我們看到其他人在社群平台上po又達成了哪些成就，就會讓我自己感到更焦慮&lt;/p&gt;
-&lt;p&gt;也許他們po文的原意只是想記錄一下現況，但似乎也有些人的意圖就是想讓別人焦慮，這我分不清楚，我只知道，當下我的自卑感情節又會出來跟我說hello&lt;/p&gt;
-&lt;p&gt;逃離這一切似乎才是最佳解，劃清自己的界線，他們是他們，而我，只想專注過好我自己的生活&lt;/p&gt;
-&lt;h2 id=&#34;不要在別人的王國裡蓋城堡&#34;&gt;不要在別人的王國裡蓋城堡
-&lt;/h2&gt;&lt;p&gt;當我用時間與精力灌溉一個小小的產品，我冀望它終有一天成長為直聳天際的巨木(Q：過老的樹叫什麼A：&lt;style&gt;
-
-.spoiler { 
-  color: black; 
-  background-color:black;
-}
-.spoiler:hover{
-  color: white;
-}
-&lt;/style&gt;
-
-&lt;span class=&#34;spoiler&#34; &gt; 超齡老木 &lt;/span&gt;
-)&lt;/p&gt;
-&lt;p&gt;而現實就是如果我將我所有內容都只放在社群平台上，就是為自己套上了枷鎖，自願成為平台的佃農，Meta爸爸說今天要改貼文的格式就直接不用經過我的同意就變更，甚至一個不高興直接把我的帳號封鎖掉，只因為祖克柏老闆不喜歡我的諧音梗笑話&lt;/p&gt;
-&lt;p&gt;借鑑動物農莊[1]裡老少校的話，「那麼，同志們，我們此生的本質是什麼？面對現實吧，我們這一生悲慘而短暫，終日勞碌奔波。我們誕生之後，每天靠著那一點吃不飽、餓不死的流量苟活，凡是叫得出名號的，都會被迫當作商品消費到力竭為止；只要一失去利用價值，就會立刻被觀眾無情遺忘。在社群媒體上，沒有一個創作者是自由的，創作者的生活等同於痛苦和奴役，這就是刺裸裸的現實」&lt;/p&gt;
-&lt;p&gt;畢竟科技公司只在乎錢，而不在乎讀者的感受，那麼&lt;/p&gt;
-&lt;p&gt;「同志們，這難道還不夠清楚嗎？我們生命中的一切不幸都源自於平台的暴政。只有擺脫平台，我們的勞動產物才會歸我們所有。幾乎是一夜之間，心靈就能變得富足又自由。那麼我們該當如何？是的，我們要夜以繼日投入全副身心，合力推翻平台！」&lt;/p&gt;
-&lt;p&gt;在網路上擁有自己的一塊淨土，帶來的好處不證自明，用我們所剩不多的生命用心看著，直到勝利來臨&lt;/p&gt;
-&lt;h2 id=&#34;對鮮蝦挺說不&#34;&gt;對鮮蝦挺說不
-&lt;/h2&gt;&lt;p&gt;在平台上假設如果你看到另一個網紅B對你欣賞的網紅A做人身攻擊，而你定睛一看底下的留言區宛如讓你拿到槍，使你不理智的開始對網紅B瘋狂開噴，只因你將你最愛的那位神格化成唯一的真理，而罔顧也許網紅B說的也有幾分道理&lt;/p&gt;
-&lt;p&gt;再者網紅B的粉絲也到你們的地盤叫囂(誒誒，xxx，羅傑說你是2486)的話，這不是你我的錯，這是社群媒體平台刻意製造的現象，將介面的呈現把所有訊息二分化，堅信我是對的你是錯的，彷彿世上只有「我們」跟「他們」&lt;/p&gt;
-&lt;p&gt;雖然在網紅A的同溫層裡感受到非常暖的歸屬感，但也讓我開始失心瘋，這樣我跟yahoo新聞底下留言區只會罵的中年網友差在哪裡？&lt;/p&gt;
-&lt;h2 id=&#34;反擊你怎麼可以不知道xxx&#34;&gt;反擊「你怎麼可以不知道xxx」
-&lt;/h2&gt;&lt;p&gt;如果身邊有活網仔(指在網路上非常活躍、重度使用社群媒體，能快速掌握最新網路迷因和流行語的族群)的朋友，他/她可能三句不離最近在社群平台上看到的時事，然後問我的意見，不是，我根本不知道你/妳在說誰&lt;/p&gt;
-&lt;p&gt;為什麼你/妳一直預設我得清楚知道哪個網紅又跟哪位網紅拳上、某某某藝人離婚了、哪個政黨的政治人物好像做出了傷天害理的事情似的，我有我自己的生活要過，為什麼我應該要跟「大家」看一樣的東西&lt;/p&gt;
-&lt;p&gt;如果是真正重要的事，那除了這位朋友之外應該會有其他人提到，使我不得不找些可信的來源來了解詳細情形，例如報導者網站、The New York Times、The Wall Street Journal以及哈佛商業評論&lt;/p&gt;
-&lt;p&gt;有沒有另一種可能是，朋友，你/妳從社群媒體上看到所謂的「主流」資訊也只是演算法推給你/妳來擾動情緒的內容？只因為平台認為這可以讓你花更多時間在上面&lt;/p&gt;
-&lt;p&gt;世界如此之大，關注自己有興趣、更在乎的事情，比知道朱立倫買了什麼當早餐還來得有意義吧？而這點， 理查．費曼博士就是最好的楷模&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&amp;ldquo;What Do You Care What Other People Think?&amp;rdquo; (你管別人怎麼想) by the Nobel Prize-winning physicist Richard Feynman&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;所以，再見，祖克柏&lt;/p&gt;
-&lt;figure&gt;
-  &lt;img src=&#34;https://secologies.com/wp-content/uploads/2025/12/Sayonara-Zuckerberg.webp&#34; alt=&#34;再見祖克柏&#34; width=&#34;500&#34;&gt;
-  &lt;figcaption&gt;再見祖克柏，原圖是藤本樹老師的《再見繪梨》[2]，吸血鬼換成蜥蜴人感覺無違和&lt;/figcaption&gt;
-&lt;/figure&gt;
-&lt;h2 id=&#34;reference&#34;&gt;Reference
-&lt;/h2&gt;&lt;p&gt;[1] 喬治．歐威爾, &amp;ldquo;動物農莊 Animal Farm,&amp;rdquo; 讀墨, 2025, &lt;a class=&#34;link&#34; href=&#34;https://moo.im/a/018esT&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;https://moo.im/a/018esT&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;[2] 藤本樹, &amp;ldquo;再見繪梨 (全),&amp;rdquo; 讀墨, &lt;a class=&#34;link&#34; href=&#34;https://moo.im/a/5aezHR&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;https://moo.im/a/5aezHR&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;[3] Wiwi 官大為, &amp;ldquo;為什麼我不用社群媒體了？,&amp;rdquo; 2024年7月6日, &lt;a class=&#34;link&#34; href=&#34;https://wiwi.blog/blog/why-i-dont-use-social-media&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;https://wiwi.blog/blog/why-i-dont-use-social-media&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;[4] Wiwi 官大為, &amp;ldquo;又五個離開社群媒體的理由,&amp;rdquo; 2025年11月19日, &lt;a class=&#34;link&#34; href=&#34;https://wiwi.blog/blog/five-more-reasons&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;https://wiwi.blog/blog/five-more-reasons&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;[5] Alex Hsu 徐小翔, &amp;ldquo;不要在別人的王國裡蓋城堡,&amp;rdquo; 2025年10月30日, &lt;a class=&#34;link&#34; href=&#34;https://alexhsu.com/castle&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;https://alexhsu.com/castle&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;[6] Alex Hsu 徐小翔, &amp;ldquo;遊戲心法：用第三人稱視角做決定,&amp;rdquo; 2025年12月19日, &lt;a class=&#34;link&#34; href=&#34;https://alexhsu.com/third-person&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;https://alexhsu.com/third-person&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;[7] Eddie 阿全, &amp;ldquo;社群平臺不社群了，創作者該如何看待？,&amp;rdquo; 2025/10/15, &lt;a class=&#34;link&#34; href=&#34;https://blog.gtisland.com/articles/social-media2025/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;https://blog.gtisland.com/articles/social-media2025/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;[8] Alice, &amp;ldquo;刪掉 FB 與 IG 的我，發生了什麼變化?,&amp;rdquo; 2025 年 9 月 28 日, &lt;a class=&#34;link&#34; href=&#34;https://alicehsu.blog/zh-tw/posts/2025/09/%E5%88%AA%E6%8E%89-fb-%E8%88%87-ig-%E7%9A%84%E6%88%91%E7%99%BC%E7%94%9F%E4%BA%86%E4%BB%80%E9%BA%BC%E8%AE%8A%E5%8C%96/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;https://alicehsu.blog/zh-tw/posts/2025/09/%E5%88%AA%E6%8E%89-fb-%E8%88%87-ig-%E7%9A%84%E6%88%91%E7%99%BC%E7%94%9F%E4%BA%86%E4%BB%80%E9%BA%BC%E8%AE%8A%E5%8C%96/&lt;/a&gt;&lt;/p&gt;
-</description>
-        </item>
-        
-    </channel>
+  <channel>
+    <title>演算法 on Hong-Sheng Huang&#39;s Blog</title>
+    <link>http://localhost:1313/tags/%E6%BC%94%E7%AE%97%E6%B3%95/</link>
+    <description>Recent content in 演算法 on Hong-Sheng Huang&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-tw</language>
+    <copyright>© 2026 Hong-Sheng Huang</copyright>
+    <lastBuildDate>Sun, 21 Dec 2025 10:35:00 +0800</lastBuildDate><atom:link href="http://localhost:1313/tags/%E6%BC%94%E7%AE%97%E6%B3%95/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>再見祖克柏</title>
+      <link>http://localhost:1313/posts/sayonara-zuckerberg/</link>
+      <pubDate>Sat, 20 Dec 2025 00:01:00 +0800</pubDate>
+      
+      <guid>http://localhost:1313/posts/sayonara-zuckerberg/</guid>
+      <description>我生命中最美好的事物從沒有在社群平台上出現，如果繼續讓祖克柏控制我的大腦，也許有一天我會支離破碎吧</description>
+      
+    </item>
+    
+  </channel>
 </rss>

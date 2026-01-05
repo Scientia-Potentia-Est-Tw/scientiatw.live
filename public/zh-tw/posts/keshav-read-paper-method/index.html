@@ -1,0 +1,1033 @@
+<!doctype html>
+<html
+  lang="zh-tw"
+  dir="ltr"
+  class="scroll-smooth"
+  data-default-appearance="dark"
+  data-auto-appearance="true"><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8">
+  
+    <meta http-equiv="content-language" content="zh-tw">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="theme-color">
+
+  
+  
+    <title>Keshav教授的閱讀論文守則 &middot; Hong-Sheng Huang&#39;s Blog</title>
+    <meta name="title" content="Keshav教授的閱讀論文守則 &middot; Hong-Sheng Huang&#39;s Blog">
+  
+
+  
+  
+    <meta name="description" content="由Canada University of Waterloo School of Computer Science professor S. Keshav帶給大家主要使用IEEE journal template的架構來做說明">
+  
+  
+    <meta name="keywords" content="論文閱讀,How to read a paper,如何閱讀paper,">
+  
+  
+  
+  <link rel="canonical" href="http://localhost:1313/zh-tw/posts/keshav-read-paper-method/">
+  
+
+  
+  
+    <meta name="author" content="黃宏勝">
+  
+  
+    
+      
+        
+          <link href="https://twitter.com/username" rel="me">
+        
+      
+    
+  
+
+  
+  <meta property="og:url" content="http://localhost:1313/zh-tw/posts/keshav-read-paper-method/">
+  <meta property="og:site_name" content="Hong-Sheng Huang&#39;s Blog">
+  <meta property="og:title" content="Keshav教授的閱讀論文守則">
+  <meta property="og:description" content="由Canada University of Waterloo School of Computer Science professor S. Keshav帶給大家主要使用IEEE journal template的架構來做說明">
+  <meta property="og:locale" content="zh_tw">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2025-01-11T00:00:00+00:00">
+    <meta property="article:modified_time" content="2025-03-16T00:00:00+00:00">
+    <meta property="article:tag" content="論文閱讀">
+    <meta property="article:tag" content="How to Read a Paper">
+    <meta property="article:tag" content="如何閱讀paper">
+
+  
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Keshav教授的閱讀論文守則">
+  <meta name="twitter:description" content="由Canada University of Waterloo School of Computer Science professor S. Keshav帶給大家主要使用IEEE journal template的架構來做說明">
+
+  
+  
+  
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+  
+    
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+    
+  
+  
+  <link
+    type="text/css"
+    rel="stylesheet"
+    href="/css/main.bundle.min.dd4ba68ad74427b730750179edf15862b3db17a724ced16d7c48c838123853596630c4ef3102c2b73b751a1a839bcc1a52ecc46ab82d35b142877804dd6d98a7.css"
+    integrity="sha512-3UumitdEJ7cwdQF57fFYYrPbF6ckztFtfEjIOBI4U1lmMMTvMQLCtzt1GhqDm8waUuzEargtNbFCh3gE3W2Ypw==">
+
+  
+  
+  <script
+    type="text/javascript"
+    src="/js/appearance.min.6f41174b3a05b680820fe08cadbfa5fb7a7ca347b76a0955cdc68b9d8aca1ce24f0547e138cea33bcc7904d551a90afcb1cc7f2d9fe8557075d501419046c08c.js"
+    integrity="sha512-b0EXSzoFtoCCD&#43;CMrb&#43;l&#43;3p8o0e3aglVzcaLnYrKHOJPBUfhOM6jO8x5BNVRqQr8scx/LZ/oVXB11QFBkEbAjA=="></script>
+  
+  
+  
+  
+  
+  
+    
+    <script src="/lib/zoom/zoom.min.umd.a527109b68c082a70f3697716dd72a9d5aa8b545cf800cecbbc7399f2ca6f6e0ce3e431f2062b48bbfa47c9ea42822714060bef309be073f49b9c0e30d318d7b.js" integrity="sha512-pScQm2jAgqcPNpdxbdcqnVqotUXPgAzsu8c5nyym9uDOPkMfIGK0i7&#43;kfJ6kKCJxQGC&#43;8wm&#43;Bz9JucDjDTGNew=="></script>
+  
+
+  
+  
+  
+    
+  
+  
+    
+  
+  
+  
+  
+  
+  
+  
+    
+    <script
+      defer
+      type="text/javascript"
+      id="script-bundle"
+      src="/js/main.bundle.min.712c423dd585dfd031bf75a70aad3af4b3de24c6eec1fef682d92724b4026b842cf843c8535587e5096039348125c57ff1bea2d46b2b4af8124673ca085880c4.js"
+      integrity="sha512-cSxCPdWF39Axv3WnCq069LPeJMbuwf72gtknJLQCa4Qs&#43;EPIU1WH5QlgOTSBJcV/8b6i1GsrSvgSRnPKCFiAxA=="
+      data-copy="複製"
+      data-copied="已複製"></script>
+  
+
+  
+  
+
+<script src="/lib/jquery/jquery.slim.min.b0dca576e87d7eaa5850ae4e61759c065786cdb6489d68fcc82240539eebd5da522bdb4fda085ffd245808c8fe2acb2516408eb774ef26b5f6015fc6737c0ea8.js" integrity="sha512-sNylduh9fqpYUK5OYXWcBleGzbZInWj8yCJAU57r1dpSK9tP2ghf/SRYCMj&#43;KsslFkCOt3TvJrX2AV/Gc3wOqA=="></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+
+
+
+
+
+
+  
+  
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+  
+
+  
+  <script type="application/ld+json">
+  [{
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "articleSection": "Posts",
+    "name": "Keshav教授的閱讀論文守則",
+    "headline": "Keshav教授的閱讀論文守則",
+    "description": "由Canada University of Waterloo School of Computer Science professor S. Keshav帶給大家主要使用IEEE journal template的架構來做說明",
+    "inLanguage": "zh-tw",
+    "url" : "http://localhost:1313/zh-tw/posts/keshav-read-paper-method/",
+    "author" : {
+      "@type": "Person",
+      "name": "黃宏勝"
+    },
+    "copyrightYear": "2025",
+    "dateCreated": "2025-01-11T00:00:00\u002b00:00",
+    "datePublished": "2025-01-11T00:00:00\u002b00:00",
+    
+    "dateModified": "2025-03-16T00:00:00\u002b00:00",
+    
+    "keywords": ["學術","論文閱讀","How to read a paper","如何閱讀paper"],
+    
+    "mainEntityOfPage": "true",
+    "wordCount": "5821"
+  }]
+  </script>
+
+
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+</head>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  <body class="flex flex-col h-screen m-auto leading-7 max-w-7xl px-6 sm:px-14 md:px-24 lg:px-32 text-lg bg-neutral text-neutral-900 dark:bg-neutral-800 dark:text-neutral bf-scrollbar">
+    <div id="the-top" class="absolute flex self-center">
+      <a
+        class="px-3 py-1 text-sm -translate-y-8 rounded-b-lg bg-primary-200 focus:translate-y-0 dark:bg-neutral-600"
+        href="#main-content">
+        <span class="font-bold text-primary-600 pe-2 dark:text-primary-400">&darr;</span>
+        快轉到主要內容
+      </a>
+    </div>
+    
+    
+      <div class="main-menu flex items-center w-full gap-2 p-1 pl-0">
+  
+  
+    <a href="/zh-tw/" class="text-base font-medium truncate min-w-0 shrink">
+      Hong-Sheng Huang&rsquo;s Blog
+    </a>
+  
+  <div class="flex items-center ms-auto">
+    <div class="hidden md:flex">
+      <nav class="flex items-center gap-x-5 h-12">
+  
+    
+      
+  
+    <a
+      href="/zh-tw/posts/"
+      
+      class="flex items-center bf-icon-color-hover"
+      aria-label="文章"
+      title="Posts">
+      
+      
+        <span class="text-base font-medium break-normal">
+          文章
+        </span>
+      
+    </a>
+  
+
+    
+      
+  
+    <a
+      href="/zh-tw/micro/"
+      
+      class="flex items-center bf-icon-color-hover"
+      aria-label="貼文"
+      title="Microes">
+      
+      
+        <span class="text-base font-medium break-normal">
+          貼文
+        </span>
+      
+    </a>
+  
+
+    
+  
+
+  
+
+  
+
+  
+    <button
+      id="search-button"
+      aria-label="Search"
+      class="text-base bf-icon-color-hover"
+      title="搜尋 (/)">
+      <span class="relative block icon"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="search" class="svg-inline--fa fa-search fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"/></svg>
+</span>
+    </button>
+  
+
+  
+    <div class="flex items-center">
+      <button
+        id="appearance-switcher"
+        aria-label="Dark mode switcher"
+        type="button"
+        class="text-base bf-icon-color-hover">
+        <div class="flex items-center justify-center dark:hidden">
+          <span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M32 256c0-123.8 100.3-224 223.8-224c11.36 0 29.7 1.668 40.9 3.746c9.616 1.777 11.75 14.63 3.279 19.44C245 86.5 211.2 144.6 211.2 207.8c0 109.7 99.71 193 208.3 172.3c9.561-1.805 16.28 9.324 10.11 16.95C387.9 448.6 324.8 480 255.8 480C132.1 480 32 379.6 32 256z"/></svg>
+</span>
+        </div>
+        <div class="items-center justify-center hidden dark:flex">
+          <span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M256 159.1c-53.02 0-95.1 42.98-95.1 95.1S202.1 351.1 256 351.1s95.1-42.98 95.1-95.1S309 159.1 256 159.1zM509.3 347L446.1 255.1l63.15-91.01c6.332-9.125 1.104-21.74-9.826-23.72l-109-19.7l-19.7-109c-1.975-10.93-14.59-16.16-23.72-9.824L256 65.89L164.1 2.736c-9.125-6.332-21.74-1.107-23.72 9.824L121.6 121.6L12.56 141.3C1.633 143.2-3.596 155.9 2.736 164.1L65.89 256l-63.15 91.01c-6.332 9.125-1.105 21.74 9.824 23.72l109 19.7l19.7 109c1.975 10.93 14.59 16.16 23.72 9.824L256 446.1l91.01 63.15c9.127 6.334 21.75 1.107 23.72-9.822l19.7-109l109-19.7C510.4 368.8 515.6 356.1 509.3 347zM256 383.1c-70.69 0-127.1-57.31-127.1-127.1c0-70.69 57.31-127.1 127.1-127.1s127.1 57.3 127.1 127.1C383.1 326.7 326.7 383.1 256 383.1z"/></svg>
+</span>
+        </div>
+      </button>
+    </div>
+  
+</nav>
+
+
+
+    </div>
+    <div class="flex md:hidden">
+      <div class="flex items-center h-14 gap-4">
+  
+    <button
+      id="search-button-mobile"
+      aria-label="Search"
+      class="flex items-center justify-center bf-icon-color-hover"
+      title="搜尋 (/)">
+      <span class="relative block icon"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="search" class="svg-inline--fa fa-search fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"/></svg>
+</span>
+    </button>
+  
+
+  
+    <button
+      id="appearance-switcher-mobile"
+      type="button"
+      aria-label="Dark mode switcher"
+      class="flex items-center justify-center text-neutral-900 hover:text-primary-600 dark:text-neutral-200 dark:hover:text-primary-400">
+      <div class="dark:hidden">
+        <span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M32 256c0-123.8 100.3-224 223.8-224c11.36 0 29.7 1.668 40.9 3.746c9.616 1.777 11.75 14.63 3.279 19.44C245 86.5 211.2 144.6 211.2 207.8c0 109.7 99.71 193 208.3 172.3c9.561-1.805 16.28 9.324 10.11 16.95C387.9 448.6 324.8 480 255.8 480C132.1 480 32 379.6 32 256z"/></svg>
+</span>
+      </div>
+      <div class="hidden dark:block">
+        <span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M256 159.1c-53.02 0-95.1 42.98-95.1 95.1S202.1 351.1 256 351.1s95.1-42.98 95.1-95.1S309 159.1 256 159.1zM509.3 347L446.1 255.1l63.15-91.01c6.332-9.125 1.104-21.74-9.826-23.72l-109-19.7l-19.7-109c-1.975-10.93-14.59-16.16-23.72-9.824L256 65.89L164.1 2.736c-9.125-6.332-21.74-1.107-23.72 9.824L121.6 121.6L12.56 141.3C1.633 143.2-3.596 155.9 2.736 164.1L65.89 256l-63.15 91.01c-6.332 9.125-1.105 21.74 9.824 23.72l109 19.7l19.7 109c1.975 10.93 14.59 16.16 23.72 9.824L256 446.1l91.01 63.15c9.127 6.334 21.75 1.107 23.72-9.822l19.7-109l109-19.7C510.4 368.8 515.6 356.1 509.3 347zM256 383.1c-70.69 0-127.1-57.31-127.1-127.1c0-70.69 57.31-127.1 127.1-127.1s127.1 57.3 127.1 127.1C383.1 326.7 326.7 383.1 256 383.1z"/></svg>
+</span>
+      </div>
+    </button>
+  
+
+  
+    <input type="checkbox" id="mobile-menu-toggle" autocomplete="off" class="hidden peer">
+    <label for="mobile-menu-toggle" class="flex items-center justify-center cursor-pointer bf-icon-color-hover">
+      <span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M0 96C0 78.33 14.33 64 32 64H416C433.7 64 448 78.33 448 96C448 113.7 433.7 128 416 128H32C14.33 128 0 113.7 0 96zM0 256C0 238.3 14.33 224 32 224H416C433.7 224 448 238.3 448 256C448 273.7 433.7 288 416 288H32C14.33 288 0 273.7 0 256zM416 448H32C14.33 448 0 433.7 0 416C0 398.3 14.33 384 32 384H416C433.7 384 448 398.3 448 416C448 433.7 433.7 448 416 448z"/></svg>
+</span>
+    </label>
+
+    <div
+      role="dialog"
+      aria-modal="true"
+      style="scrollbar-gutter: stable;"
+      class="fixed inset-0 z-50 invisible overflow-y-auto px-6 py-20 opacity-0 transition-[opacity,visibility] duration-300 peer-checked:visible peer-checked:opacity-100 bg-neutral-50/97 dark:bg-neutral-900/99
+      bf-scrollbar">
+      <label
+        for="mobile-menu-toggle"
+        class="fixed end-8 top-5 flex items-center justify-center z-50 h-12 w-12 cursor-pointer select-none rounded-full bf-icon-color-hover border bf-border-color bf-border-color-hover bg-neutral-50 dark:bg-neutral-900">
+        <span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M310.6 361.4c12.5 12.5 12.5 32.75 0 45.25C304.4 412.9 296.2 416 288 416s-16.38-3.125-22.62-9.375L160 301.3L54.63 406.6C48.38 412.9 40.19 416 32 416S15.63 412.9 9.375 406.6c-12.5-12.5-12.5-32.75 0-45.25l105.4-105.4L9.375 150.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L160 210.8l105.4-105.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-105.4 105.4L310.6 361.4z"/></svg>
+</span>
+      </label>
+      <nav class="mx-auto max-w-md space-y-6">
+        
+  
+    
+    <div class="px-2">
+      <a
+        href="/zh-tw/posts/"
+        aria-label="文章"
+        
+        class="flex items-center gap-4 group bf-icon-color-hover text-neutral-700 dark:text-neutral-200">
+        
+        <span title="Posts" class="text-2xl font-bold tracking-tight">
+          文章
+        </span>
+        
+      </a>
+
+      
+    </div>
+  
+    
+    <div class="px-2">
+      <a
+        href="/zh-tw/micro/"
+        aria-label="貼文"
+        
+        class="flex items-center gap-4 group bf-icon-color-hover text-neutral-700 dark:text-neutral-200">
+        
+        <span title="Microes" class="text-2xl font-bold tracking-tight">
+          貼文
+        </span>
+        
+      </a>
+
+      
+    </div>
+  
+
+        
+  
+
+        
+  
+    <div
+      class="flex flex-wrap items-center [&_span]:text-2xl [&_.translation_button_.icon]:text-4xl! [&_.translation_button_span]:text-base! [&_.translation_.menuhide_span]:text-sm! gap-x-6 ps-2 mt-8 pt-8 border-t bf-border-color">
+      
+
+
+      
+    </div>
+  
+
+      </nav>
+    </div>
+  
+</div>
+
+
+
+
+
+
+
+    </div>
+  </div>
+</div>
+
+
+
+
+
+    
+    <div class="relative flex flex-col grow">
+      <main id="main-content" class="grow">
+        
+  
+  <article>
+    
+    
+
+    
+    <header id="single_header" class="mt-5 max-w-prose">
+      
+      <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
+        Keshav教授的閱讀論文守則
+      </h1>
+      <div class="mt-1 mb-6 text-base text-neutral-500 dark:text-neutral-400 print:hidden">
+        
+
+
+
+
+
+  
+  
+
+
+
+  
+
+  
+  
+  
+    
+  
+
+  
+
+  
+    
+  
+
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  <div class="flex flex-row flex-wrap items-center">
+    
+    
+      <time datetime="2025-01-11T00:00:00&#43;00:00">11 January 2025</time><span class="px-2 text-primary-500">&middot;</span><span>5821 字</span><span class="px-2 text-primary-500">&middot;</span><span title="預計閱讀時間">12 分鐘</span>
+    
+
+    
+    
+  </div>
+
+  
+
+  
+  
+
+  
+  
+
+
+
+      </div>
+      
+    </header>
+
+    
+    <section class="flex flex-col max-w-full mt-0 prose dark:prose-invert lg:flex-row">
+      
+      
+      
+      
+      
+
+
+      <div class="min-w-0 min-h-0 max-w-fit">
+        
+
+        <div class="article-content max-w-prose mb-20">
+          <p>由Canada University of Waterloo School of Computer Science professor S. Keshav帶給大家主要使用IEEE journal template的架構來做說明</p>
+<p>採取以下的方法審核</p>
+<ul>
+<li>Abstract</li>
+<li>Introduction</li>
+<li>Literature Survey</li>
+<li>Related Work</li>
+<li>Methodology</li>
+<li>References</li>
+</ul>
+<p>主要目的是想建立讀者在建構自己的新想法時能夠有些路徑探索</p>
+
+<h2 class="relative group">Abstract
+    <div id="abstract" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#abstract" aria-label="定位點">#</a>
+    </span>
+    
+</h2>
+<p>在abstract內提出自己想針對的問題，彙整研究最後產出的貢獻，也是給其他研究學者在翻到你這篇研究後可以快速的review，判斷需不需要繼續讀下去</p>
+<ol>
+<li>Categories and Subject Descriptions: 就單純提出自己研究的分類</li>
+<li>Keywords: 附上研究的問題、提出的方法、解決方法的技術等關鍵字提供給其他研究員快速判斷</li>
+</ol>
+<p>研究員花上大量的時間來閱讀paper，然後卻鮮少有人去教導，花較少的精力來review paper，本篇how to read a paper就是想帶給新入門的研究生一種快速閱讀paper的方法，作者稱作為”Three-pass method”，這種方法也能夠快速survey原文書</p>
+
+<h2 class="relative group">Introduction
+    <div id="introduction" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#introduction" aria-label="定位點">#</a>
+    </span>
+    
+</h2>
+<p>比起abstract更加仔細的解釋你的問題來龍去脈，為什麼這個問題很重要？並且提到自己為了解決這個問題提出了哪種方法</p>
+<p>研究員必須閱讀paper有幾點原因：因為conference或者課程需要所以review paper，理解在研究員自身的領域內最新的發展，或者為了發展新的藍海題目而進行的paper survey，一個標準的研究員每年至少會花上數百個小時來閱讀paper，故有效率的閱讀一篇paper是非常重要的技能</p>
+<p>但卻很少有學校會專門開課教你，而指導教授通常也很忙無法完全督促你閱讀paper的方法是否正確，所以作為新手的研究生，必須靠自己在trial and error當中掌握最適合自己的閱讀方法，在這過程當中新手研究生會浪費許多的精力並且頻繁地遇到挫折，所以我們才要介紹多年來Keshav教授使用一種簡單又有效率的方法在閱讀paper，這種方法叫做’three-pass’方法，並且適合用來survey paper</p>
+
+<h2 class="relative group">Methodology
+    <div id="methodology" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#methodology" aria-label="定位點">#</a>
+    </span>
+    
+</h2>
+<p>先提出你的方法架構，給其他研究員一個大方向，主要想法是一篇paper你抓個看三次要看完，並且不要拿到一篇paper就從頭abstract看到尾conclusion，每一次看的重點應該放在你想要在這篇paper上知道什麼事情，能夠突破你舊有的思想，以及參考上一次看到的東西，哪些地方不懂的，在你下一次回去看後應該要了解上次不懂的地方：</p>
+<ul>
+<li>第一次你要看到這篇paper想要表達的想法是什麼，想要解決的問題是什麼？</li>
+<li>第二次你抓出這篇paper的內容，使用哪種解決方法、技術，但還不需要知道太細節的部分</li>
+<li>第三次你應該要更深入的了解這篇paper了，知道作者提出的方法是如何解決遇到的問題</li>
+</ul>
+
+<h3 class="relative group">3.1 The first pass
+    <div id="31-the-first-pass" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#31-the-first-pass" aria-label="定位點">#</a>
+    </span>
+    
+</h3>
+<p>接著開始詳細描述你的方法每個階段步驟，像作者提出三步驟的閱讀paper法則，第一階段的細節該做哪些事情在這裡要描述清楚</p>
+<p>首先第一次閱讀要快速掃瞄整篇paper，用鳥瞰的方法看這篇paper，先見林再去見樹，你也可以在這個階段決定需不需要更多次的閱讀，這取決於你對於paper領域的熟悉度，如果裡面出現的術語有太多你不清楚的，那肯定需要花更多時間去查詢這些術語，通常這個掃描時間花5到10分鐘，並且可以根據以下的步驟來實行：</p>
+<ol>
+<li>仔細閱讀paper title, paper abstract, paper introduction</li>
+<li>閱讀每一個section以及sub-section標題，但先不去看每一個section的內容</li>
+<li>閱讀結論</li>
+<li>稍微瞄一下references，在心裡頭回憶一下references裡你已經看過的</li>
+</ol>
+<p>在你完成了第一次的快速掃瞄後，你應該要能夠回答出5個C：</p>
+<ul>
+<li>Category：這是篇什麼樣的paper?一篇測量的paper?針對已存在系統的分析？針對一個新的研究雛形的描述？</li>
+<li>Context：這篇paper跟其他篇有什麼樣的關聯性？在這篇paper當中使用了哪種基礎理論來分析提出的問題？</li>
+<li>Correctness：這篇paper提出的assumption是合理的嗎？</li>
+<li>Contributions：這篇paper主要的貢獻是什麼？</li>
+<li>Clarity：這篇paper讀起來文筆好嗎？架構清晰嗎？提出問題跟解決問題的描述清楚嗎？</li>
+</ul>
+<p>根據這5個C，你可以決定是否要繼續仔細讀這篇paper，這取決於你是否對於這個題目有興趣，或者你在這篇paper當中還有太多東西不了解導致於閱讀起來很吃力，亦或者作者提出的假設根本不合理，總之讀第一遍就能夠讓你知道閱讀這篇paper是否對於你現在的研究領域有幫助，但在未來可能有幫助，你就能判斷現在是否要先讀</p>
+<p>順帶一提，當你在寫paper時，你就可以先預期大部分的reviewers或者讀者就只會讀你的paper一遍，所以你要仔細的挑選每一個section, sub-section的title，以及簡潔有力且豐富的abstract，如果reviewer不能在第一次閱讀完你的paper時了解其中的意思，很高機率你的paper會被reject掉，而讀者如果無法在5分鐘後了解你這篇paper想要解決的問題是什麼，那很高機率他們就不會繼續讀下去了</p>
+
+<h3 class="relative group">3.2 The Second pass
+    <div id="32-the-second-pass" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#32-the-second-pass" aria-label="定位點">#</a>
+    </span>
+    
+</h3>
+<p>第二次閱讀時你因為第一次閱讀覺得這篇paper有價值時，你需要更仔細的往更深處挖掘，不過先忽略掉更細節的部分像是證明方法的章節，你可以在這個階段閱讀時記下paper裡面的關鍵點，或者在空白處就先寫一下自己的想法，這對於後續做整理會很有幫助：</p>
+<ol>
+<li>作者在paper裡面放的圖片、表格，或者用來解釋的圖形要很仔細的去看，畢竟不管是conference paper或者journal paper都有篇幅限制，作者深思熟慮後放的圖片絕對是很重要的內容，資料的標示是否正確？結果是否帶有誤差線條使得結論具有統計上的意義？像這些常見的錯誤會把倉促、粗劣的研究結果與真正優秀的研究結果做區別。</li>
+<li>要記得標示出相關聯但還沒提到的參考以供更進步的查找資料作參考(這會讓讀者更好的去找出本篇paper需要的background。</li>
+</ol>
+<p>第二次閱讀大概要花個一小時，閱讀完第二次後你應該要能夠抓出paper裡的內容，你能夠統整出paper想要解決的問題，以及如何解決的方法所提出的證據等等，這階段你還是因為對於這篇paper有興趣所以才去閱讀這些細節，但還不足以直接對你現在的研究有所幫助</p>
+<p>有時候你在閱讀完第二次你還是不完全了解整篇paper的細節，可能是這篇paper的領域你還不是很熟悉裡面的術語與縮寫等等，或者paper作者使用的證明或實驗方法是你未曾使用過的，導致於整篇paper雖然你讀完了但還是不了解內容，也有可能是paper的內容充斥的大量未經證實的想法以及大量參考前人的paper作法導致整篇架構不清晰，閱讀起來非常吃力，也有那麼一種可能是你已經閱讀很久的時間了而你感到非常疲累</p>
+<p>當你遇到上述這些狀況後你可以做幾個選擇</p>
+<ol>
+<li>把paper丟到旁邊，並且冀望之後完全不會用到那篇paper提到的方法，也能讓你之後的人生一帆風順。</li>
+<li>晚點再去看paper，先去把paper需要的background補齊</li>
+<li>無視這些問題直接跳到閱讀第三次</li>
+</ol>
+
+<h3 class="relative group">3.3 The third pass
+    <div id="33-the-third-pass" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#33-the-third-pass" aria-label="定位點">#</a>
+    </span>
+    
+</h3>
+<p>第三次閱讀時就是為了完整的了解整篇paper的內容，尤其你是個reviewer時就需要這麼做，第三次閱讀的重點是你需要嘗試虛擬重新實作paper提出的方法，意思是跟作者一樣使用同樣的assumption，重新創造一次實驗結果，這是為了用來比較你重新創造的實驗環境與作者提出來的結果，你可以站在作者的角度，簡單的發覺到paper作者創新的點，以及說不定能發現作者在實驗時的失敗與曾經的assumption，尤其在DL/ML的研究裡，還是比較希望作者可以把source code發表出來，讓其他讀者重新跑一次作者的實驗數據是否是正確的，不然每天都成千上萬篇ML/DL paper出現，有些實驗數據到底是不是真實的只有實際去跑過model才能驗證</p>
+<p>第三次閱讀需要你對於細節有更多的注意力，你必須對於paper裡面每一次提出的assumption都能夠證明合理性以及挑戰正確性，更進一步的是，透過你閱讀的這篇paper，來發想自己會如何做？你針對paper裡提出的問題你會提出什麼樣的解決方法？閱讀別人的paper應該是為了建構你自己的想法而去做的，你對於這篇作者提出的解決方法不滿意？那你可以提出一個能讓你自己更滿意的作法，如此比較虛擬想法與實際作法是為了雕塑出這個問題的知識邊界，透過paper裡證明以及展示技巧來建立你自己想法的劇本，同時在這階段，你應該要能構想出針對問題的future work，如果是你，你會如何加強這篇paper的方法？</p>
+<p>第三次閱讀對於研究新手來說可能需要花上4到5個小時，而經驗老道的研究員可能花個1小時就行，這取決於你對於這個研究領域的熟悉度，在閱讀完第三次後，你應該要能夠靠著記憶力重新建構出paper的完整架構，能夠意識到這篇paper的優勢以及劣勢，並且你應該要能夠準確的點出這篇paper裡面的隱性assumption，遺失掉哪些相關的研究沒提到以及實驗方法或者分析技巧的潛在問題</p>
+
+<h2 class="relative group">Literature Survey
+    <div id="literature-survey" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#literature-survey" aria-label="定位點">#</a>
+    </span>
+    
+</h2>
+<p>在做文獻調查時你的paper閱讀技巧是最關鍵的，你在做文獻回顧時都會需要閱讀數十篇的paper，尤其在你不熟悉的領域時，哪些Paper是你應該要讀的？你可以使用三個階段來判斷哪些paper是你需要的
+第一步使用學術搜尋引擎像是Google Scholar或者CiteSeer以及一些你需要的keywords來搜尋3到5篇近期在你的領域內發表的paper，第一遍你要知道每一篇paper的problematic，接著閱讀你需要相關的章節，你就會發現條列式的總結這些近期paper，或者你很幸運的可以找到近期有人發表survey paper裡都有你想要知道的事情，那你就針對那篇survey paper就可以了</p>
+<p>第二步如果找不到別人有發表很新穎的survey paper，那你接下來得找引用數以及重複出現名字多次的作者，這些人是在你的領域內知名的主要發表人，下載他們的paper將這些paper放到一旁，然後到這些知名學者的網站裡看看他們近期發表哪些paper，這是為了讓你找出這個領域內的頂尖conferecne有哪些，畢竟這些學者最常投稿的就是top conference，尤其在computer science的領域，大部分conference比journal更有參考價值，原因是conference你投稿後3到4個月reviewer就會決定accpet或是reject掉你的paper，而journal快則6到8個月，慢則9到12個月，發表出來後你的方法早就不是最新的了，可能會有一堆conference paper有跟你很類似的方法，這樣你的研究根本無法算是最早投入的先驅，從研究貢獻原則來看，別人比你早個一天發表類似的研究你就得刪掉重疊的內容</p>
+<p>第三部就是到這些top conference的網站，尋找近期發表在上面的研究成果，快速審視一下認知何謂高水準的研究成果，在上面找到的優質paper也許你之前就已經下載了，在你第一次找survey paper時，接著review這些優秀的paper，如果這些paper也共同指向了某篇關鍵paper而你還沒看過，你需要將其找出來並且閱讀，如果你一直有發現這樣的關鍵paper，那就重複步驟，畢竟作為一個研究生你必須不斷地追問，不斷地提出問題，為什麼這些資深的學者認為這樣的問題很重要？而往往都會有一個根源是這些學者們已經知道且默認在心裡的，你有義務去了解，並且將這問題也深植自己的心中，你才有機會有朝一日達到跟這些研究員一樣的高度，這也是文獻回顧最關鍵的核心</p>
+
+<h2 class="relative group">Related Work
+    <div id="related-work" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#related-work" aria-label="定位點">#</a>
+    </span>
+    
+</h2>
+<p>如果你讀paper是為了review領域內的發展，你也應該去閱讀Timothy Roscoe的paper “Writing reviews for system conferences”[2]，如果你計畫寫一篇技術paper，你應該參考Henning Schulzrinne的網站[3]以及George Whitesides的review方法[4]，而Simon Peyton Jones的網站提供了一個研究員應該具備哪些能力[5]</p>
+
+<h2 class="relative group">References
+    <div id="references" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#references" aria-label="定位點">#</a>
+    </span>
+    
+</h2>
+<p>參考資料，所有本篇paper中提到的引用資訊皆會放進此單元中，讀者可以從這裡找到一些作者看過的思考路徑</p>
+<p>[1] S. Keshav. 2007. How to read a paper. SIGCOMM Comput. Commun. Rev. 37, 3 (July 2007), 83–84. <a href="https://doi.org/10.1145/1273445.1273458"  target="_blank">https://doi.org/10.1145/1273445.1273458</a></p>
+<p>[2] T. Roscoe, “Writing Reviews for Systems Conferences,” <a href="https://people.inf.ethz.ch/troscoe/pubs/review-writing.pdf"  target="_blank">https://people.inf.ethz.ch/troscoe/pubs/review-writing.pdf</a></p>
+<p>[3] H. Schulzrinne, “Writing Technical Articles,” <a href="https://www.cs.columbia.edu/~hgs/etc/writing-style.html"  target="_blank">https://www.cs.columbia.edu/~hgs/etc/writing-style.html</a></p>
+<p>[4] G.M. Whitesides, “Whitesides’ Group: Writing a Paper,&quot; <a href="https://onlinelibrary.wiley.com/doi/10.1002/adma.200400767"  target="_blank">https://onlinelibrary.wiley.com/doi/10.1002/adma.200400767</a></p>
+<p>[5] Simon Peyton Jones, &ldquo;Other great resources on research skills, &quot; <a href="https://simon.peytonjones.org/research-skills/"  target="_blank">https://simon.peytonjones.org/research-skills/</a></p>
+
+<h2 class="relative group">這方法實不實用？
+    <div id="這方法實不實用" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#%e9%80%99%e6%96%b9%e6%b3%95%e5%af%a6%e4%b8%8d%e5%af%a6%e7%94%a8" aria-label="定位點">#</a>
+    </span>
+    
+</h2>
+<p>Keshav教授已經使用這套方法15年了(這篇文章發表時間大概是2007年)，用來閱讀conference paper、寫review、研究時補齊background以及在參與討論之前快速review paper，這種嚴謹的方法讓教授先從鳥瞰的方法審視整個研究架構，從而避免了一開始就直接從頭看到尾，並且迷失在paper裡面細節的情形，用這方法可以先預估自己會花多少時間在成堆的paper上</p>
+<p>教授用這種方法可以根據自己想知道的內容來調整需要讀哪些段落以及根據所剩的時間來決定該看paper的哪些部分，不過各位也可以調整成自己比較舒適的方法，我認為目前在AI技術蓬勃發展的這個時代也有許多輔助我們閱讀paper的工具像是chatPDF的出現，或者chatGPT、Gemini等服務也都可以上傳PDF檔案，他們的OCR能力有一直在提升，讀者可以想像目前大多數是基於NLP/LLM的方法上透過辨識內文快速整理出一些亮點給使用者，以及使用者可以用提問的方法讓模型推測出要回應的資訊</p>
+<p>主要的問題是如果你對於一個領域才剛入門資歷還算很菜沒看過太多篇的話，這些工具通常只從單個paper當中擷取內文資訊給你，一些沒有在paper上詳述的事情就得透過引入其他篇paper來補齊知識，這麼做了之後你又會冒出更多的問題要引用更多篇進來，所以如果你才剛進入研究的門檻內還是建議先從基礎功力打穩，對於該領域有一些自己的理解跟看法之後就可以漸漸利用AI工具了，就像即便有了Midjourney、DALL-E這類圖像產生服務，還是有些人從素描慢慢學起讓自己對於光影、比例、結構等有更深入的了解，就能夠在prompting的時候有別於他人的觀點</p>
+<p>我想做研究也是一樣的，這些工具能夠彙整出許多的點，但要如何將每一個點連起來成線就必須依靠自己的思考框架，尤其在這個人們越來越依賴機器的時代，被AGI服務、短影片所奪走如此多的注意力，從學會閱讀長篇文獻的過程中找回專注力對於你我的幫助肯定很大。</p>
+
+          
+          
+          
+        </div>
+        
+          
+  
+  
+  
+  
+  
+  
+
+  
+
+  
+    
+    
+<div class="flex author">
+  
+    
+    
+      
+    
+    
+      
+      
+      
+        
+        
+        
+      
+      <img
+        class="!mt-0 !mb-0 h-24 w-24 rounded-full me-4"
+        width="96"
+        height="96"
+        alt="黃宏勝"
+        src="/img/Author_hu_11dafe9f87277193.webp"
+        data-zoom-src="/img/Author_hu_f176b45651c8726e.webp">
+    
+  
+  <div class="place-self-center">
+    
+      <div class="text-[0.6rem] uppercase leading-3 text-neutral-500 dark:text-neutral-400">
+        作者
+      </div>
+      <div class="font-semibold leading-6 text-neutral-800 dark:text-neutral-300">
+        黃宏勝
+      </div>
+    
+    
+      <div class="text-sm text-neutral-700 dark:text-neutral-400">A little bit about me</div>
+    
+    <div class="text-2xl sm:text-lg">
+  <div class="flex flex-wrap text-neutral-400 dark:text-neutral-500">
+    
+      
+        <a
+          class="px-1 hover:text-primary-700 dark:hover:text-primary-400"
+          href="https://twitter.com/username"
+          target="_blank"
+          aria-label="Twitter"
+          title="Twitter"
+          rel="me noopener noreferrer"
+          ><span class="inline-block align-text-bottom"><span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"/></svg>
+</span></span></a
+        >
+      
+    
+  </div>
+
+</div>
+  </div>
+</div>
+
+  
+
+  
+
+  
+    <div class="mb-10"></div>
+  
+
+        
+        
+
+        
+
+        
+
+      </div>
+
+      
+      
+        
+        
+          
+          
+        
+        
+        
+        <script
+          type="text/javascript"
+          src="/js/page.min.54b6f4371722649edbe871e431d8670d670878c22be8f36e229fe53cc9b786fe25a834def5e6de621f7a3e37b72bc8cd73839aa5ed907ed6cbd45cd3e1b0fa20.js"
+          integrity="sha512-VLb0NxciZJ7b6HHkMdhnDWcIeMIr6PNuIp/lPMm3hv4lqDTe9ebeYh96Pje3K8jNc4Oape2QftbL1FzT4bD6IA=="
+          data-oid="views_posts/Keshav-read-paper-method.md"
+          data-oid-likes="likes_posts/Keshav-read-paper-method.md"></script>
+      
+    </section>
+
+    
+    <footer class="pt-8 max-w-prose print:hidden">
+      
+  
+    
+    
+    
+    <div class="pt-8">
+      <hr class="border-dotted border-neutral-300 dark:border-neutral-600">
+      <div class="flex justify-between pt-3">
+        <span class="flex flex-col">
+          
+            <a
+              class="flex text-neutral-700 hover:text-primary-600 dark:text-neutral dark:hover:text-primary-400"
+              href="/zh-tw/posts/readmoo-mooink-pro-2c/">
+              <span class="leading-6">
+                <span class="inline-block rtl:rotate-180">&larr;</span>&ensp;讀墨 Readmoo mooInk Pro 2C 13.3吋 彩色電子書閱讀器 閱讀PDF檔案的應許之機
+              </span>
+            </a>
+            
+              <span class="ms-6 mt-1 text-xs text-neutral-500 dark:text-neutral-400">
+                <time datetime="2024-11-13T00:00:00&#43;00:00">13 November 2024</time>
+              </span>
+            
+          
+        </span>
+        <span class="flex flex-col items-end">
+          
+            <a
+              class="flex text-right text-neutral-700 hover:text-primary-600 dark:text-neutral dark:hover:text-primary-400"
+              href="/zh-tw/posts/why-we-sleep-type/">
+              <span class="leading-6">
+                《為什麼要睡覺？》讀後心得：你是早鳥還是夜貓子？&ensp;<span class="inline-block rtl:rotate-180">&rarr;</span>
+              </span>
+            </a>
+            
+              <span class="me-6 mt-1 text-xs text-neutral-500 dark:text-neutral-400">
+                <time datetime="2025-03-17T00:00:00&#43;00:00">17 March 2025</time>
+              </span>
+            
+          
+        </span>
+      </div>
+    </div>
+  
+
+
+      
+    </footer>
+  </article>
+
+        
+
+
+  
+
+
+
+
+
+
+<div
+  id="scroll-to-top"
+  class="fixed bottom-6 end-6 z-50 transform translate-y-4 opacity-0 duration-200">
+  <a
+    href="#the-top"
+    class="pointer-events-auto flex h-12 w-12 items-center justify-center rounded-full bg-neutral/50 text-xl text-neutral-700 hover:text-primary-600 dark:bg-neutral-800/50 dark:text-neutral dark:hover:text-primary-400"
+    aria-label="捲動到頁頂"
+    title="捲動到頁頂">
+    &uarr;
+  </a>
+</div>
+
+      </main><footer id="site-footer" class="py-10 print:hidden">
+  
+  
+    
+  
+  <div class="flex items-center justify-between">
+    
+    
+      <p class="text-sm text-neutral-500 dark:text-neutral-400">
+          &copy;
+          2026
+          黃宏勝
+      </p>
+    
+
+    
+    
+      <p class="text-xs text-neutral-500 dark:text-neutral-400">
+        
+        
+        以 <a class="hover:underline hover:decoration-primary-400 hover:text-primary-500"
+          href="https://gohugo.io/" target="_blank" rel="noopener noreferrer">Hugo</a> &amp; <a class="hover:underline hover:decoration-primary-400 hover:text-primary-500"
+          href="https://blowfish.page/" target="_blank" rel="noopener noreferrer">Blowfish</a> 製作
+      </p>
+    
+  </div>
+  
+    <script>
+      mediumZoom(document.querySelectorAll("img:not(.nozoom)"), {
+        margin: 24,
+        background: "rgba(0,0,0,0.5)",
+        scrollOffset: 0,
+      });
+    </script>
+  
+  
+  
+  <script
+    type="text/javascript"
+    src="/js/process.min.ee03488f19c93c2efb199e2e3014ea5f3cb2ce7d45154adb3399a158cac27ca52831db249ede5bb602700ef87eb02434139de0858af1818ab0fb4182472204a4.js"
+    integrity="sha512-7gNIjxnJPC77GZ4uMBTqXzyyzn1FFUrbM5mhWMrCfKUoMdsknt5btgJwDvh&#43;sCQ0E53ghYrxgYqw&#43;0GCRyIEpA=="></script>
+  
+  
+</footer>
+<div
+  id="search-wrapper"
+  class="invisible fixed inset-0 flex h-screen w-screen cursor-default flex-col bg-neutral-500/50 p-4 backdrop-blur-sm dark:bg-neutral-900/50 sm:p-6 md:p-[10vh] lg:p-[12vh] z-500"
+  data-url="http://localhost:1313/zh-tw/">
+  <div
+    id="search-modal"
+    class="flex flex-col w-full max-w-3xl min-h-0 mx-auto border rounded-md shadow-lg top-20 border-neutral-200 bg-neutral dark:border-neutral-700 dark:bg-neutral-800">
+    <header class="relative z-10 flex items-center justify-between flex-none px-2">
+      <form class="flex items-center flex-auto min-w-0">
+        <div class="flex items-center justify-center w-8 h-8 text-neutral-400">
+          <span class="relative block icon"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="search" class="svg-inline--fa fa-search fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"/></svg>
+</span>
+        </div>
+        <input
+          type="search"
+          id="search-query"
+          class="flex flex-auto h-12 mx-1 bg-transparent appearance-none focus:outline-dotted focus:outline-2 focus:outline-transparent"
+          placeholder="搜尋"
+          tabindex="0">
+      </form>
+      <button
+        id="close-search-button"
+        class="flex items-center justify-center w-8 h-8 text-neutral-700 hover:text-primary-600 dark:text-neutral dark:hover:text-primary-400"
+        title="關閉 (Esc)">
+        <span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M310.6 361.4c12.5 12.5 12.5 32.75 0 45.25C304.4 412.9 296.2 416 288 416s-16.38-3.125-22.62-9.375L160 301.3L54.63 406.6C48.38 412.9 40.19 416 32 416S15.63 412.9 9.375 406.6c-12.5-12.5-12.5-32.75 0-45.25l105.4-105.4L9.375 150.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L160 210.8l105.4-105.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-105.4 105.4L310.6 361.4z"/></svg>
+</span>
+      </button>
+    </header>
+    <section class="flex-auto px-2 overflow-auto">
+      <ul id="search-results">
+        
+      </ul>
+    </section>
+  </div>
+</div>
+
+    </div>
+  </body>
+  
+</html>

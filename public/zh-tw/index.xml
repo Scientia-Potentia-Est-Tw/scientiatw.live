@@ -1,0 +1,603 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hong-Sheng Huang&#39;s Blog</title>
+    <link>http://localhost:1313/zh-tw/</link>
+    <description>Recent content on Hong-Sheng Huang&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-tw</language>
+    <copyright>© 2026 黃宏勝</copyright>
+    <lastBuildDate>Sat, 03 Jan 2026 11:22:00 +0800</lastBuildDate><atom:link href="http://localhost:1313/zh-tw/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>2025-12-31</title>
+      <link>http://localhost:1313/zh-tw/micro/2025-12-31/</link>
+      <pubDate>Wed, 31 Dec 2025 13:35:00 +0800</pubDate>
+      
+      <guid>http://localhost:1313/zh-tw/micro/2025-12-31/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>利用Cloudflare Domain搭配Gmail建立私人電子信箱</title>
+      <link>http://localhost:1313/zh-tw/posts/cloudflare-domain-create-free-private-email-using-gmail/</link>
+      <pubDate>Fri, 26 Dec 2025 15:59:00 +0800</pubDate>
+      
+      <guid>http://localhost:1313/zh-tw/posts/cloudflare-domain-create-free-private-email-using-gmail/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>再見祖克柏</title>
+      <link>http://localhost:1313/zh-tw/posts/sayonara-zuckerberg/</link>
+      <pubDate>Sat, 20 Dec 2025 00:01:00 +0800</pubDate>
+      
+      <guid>http://localhost:1313/zh-tw/posts/sayonara-zuckerberg/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>2025-12-13</title>
+      <link>http://localhost:1313/zh-tw/micro/2025-12-13/</link>
+      <pubDate>Sat, 13 Dec 2025 18:45:00 +0800</pubDate>
+      
+      <guid>http://localhost:1313/zh-tw/micro/2025-12-13/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>電子書閱讀器改變了我的人生</title>
+      <link>http://localhost:1313/zh-tw/posts/ebook-ereader-changes-me/</link>
+      <pubDate>Thu, 27 Nov 2025 16:28:00 +0800</pubDate>
+      
+      <guid>http://localhost:1313/zh-tw/posts/ebook-ereader-changes-me/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>2025-11-20</title>
+      <link>http://localhost:1313/zh-tw/micro/2025-11-20/</link>
+      <pubDate>Thu, 20 Nov 2025 22:41:00 +0800</pubDate>
+      
+      <guid>http://localhost:1313/zh-tw/micro/2025-11-20/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>2025-11-17</title>
+      <link>http://localhost:1313/zh-tw/micro/2025-11-17/</link>
+      <pubDate>Mon, 17 Nov 2025 11:42:00 +0800</pubDate>
+      
+      <guid>http://localhost:1313/zh-tw/micro/2025-11-17/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>2025-11-10</title>
+      <link>http://localhost:1313/zh-tw/micro/2025-11-10/</link>
+      <pubDate>Mon, 10 Nov 2025 22:30:00 +0800</pubDate>
+      
+      <guid>http://localhost:1313/zh-tw/micro/2025-11-10/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>2025-11-08</title>
+      <link>http://localhost:1313/zh-tw/micro/2025-11-08/</link>
+      <pubDate>Sat, 08 Nov 2025 19:49:00 +0800</pubDate>
+      
+      <guid>http://localhost:1313/zh-tw/micro/2025-11-08/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>控制血糖的十招</title>
+      <link>http://localhost:1313/zh-tw/posts/control-blood-glucose-ten-ways/</link>
+      <pubDate>Tue, 04 Nov 2025 09:46:00 +0800</pubDate>
+      
+      <guid>http://localhost:1313/zh-tw/posts/control-blood-glucose-ten-ways/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>《決策的邏輯》：為什麼改變會如此困難？</title>
+      <link>http://localhost:1313/zh-tw/posts/decision-logic-why-change-is-so-hard/</link>
+      <pubDate>Thu, 30 Oct 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/zh-tw/posts/decision-logic-why-change-is-so-hard/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>《我想念我自己》讀後心得</title>
+      <link>http://localhost:1313/zh-tw/posts/still-alice/</link>
+      <pubDate>Wed, 29 Oct 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/zh-tw/posts/still-alice/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>部落格問題挑戰</title>
+      <link>http://localhost:1313/zh-tw/posts/blog-questions-challenge/</link>
+      <pubDate>Sat, 18 Oct 2025 14:19:00 +0800</pubDate>
+      
+      <guid>http://localhost:1313/zh-tw/posts/blog-questions-challenge/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>《好好休息》：職場上忽略了休息，我們最終會面臨什麼？</title>
+      <link>http://localhost:1313/zh-tw/posts/well-rest-ignore-rest/</link>
+      <pubDate>Sat, 11 Oct 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/zh-tw/posts/well-rest-ignore-rest/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>修復悲傷</title>
+      <link>http://localhost:1313/zh-tw/posts/fix-grief/</link>
+      <pubDate>Thu, 25 Sep 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/zh-tw/posts/fix-grief/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>從被動到主動：脫離FOMO邁向JOMO</title>
+      <link>http://localhost:1313/zh-tw/posts/from-fomo-to-jomo/</link>
+      <pubDate>Mon, 15 Sep 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/zh-tw/posts/from-fomo-to-jomo/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>你今天FOMO了嗎？</title>
+      <link>http://localhost:1313/zh-tw/posts/fear-of-missing-out-and-me/</link>
+      <pubDate>Thu, 11 Sep 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/zh-tw/posts/fear-of-missing-out-and-me/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>越吃越累，是吃錯了！</title>
+      <link>http://localhost:1313/zh-tw/posts/more-eat-more-tired/</link>
+      <pubDate>Sun, 07 Sep 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/zh-tw/posts/more-eat-more-tired/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>代謝力才是你的生命力</title>
+      <link>http://localhost:1313/zh-tw/posts/metabolic-power-is-key-of-health/</link>
+      <pubDate>Thu, 04 Sep 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/zh-tw/posts/metabolic-power-is-key-of-health/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Framework工作機裝設Oculink</title>
+      <link>http://localhost:1313/zh-tw/posts/oculink-egpu-for-cuda/</link>
+      <pubDate>Tue, 02 Sep 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/zh-tw/posts/oculink-egpu-for-cuda/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>《食托邦Sitopia》：美好生活的意義</title>
+      <link>http://localhost:1313/zh-tw/posts/sitopia-meaning-of-wonderful-life/</link>
+      <pubDate>Thu, 21 Aug 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/zh-tw/posts/sitopia-meaning-of-wonderful-life/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>用研究審稿員的視角閱讀文獻</title>
+      <link>http://localhost:1313/zh-tw/posts/research-literature-keypoints/</link>
+      <pubDate>Tue, 12 Aug 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/zh-tw/posts/research-literature-keypoints/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>《慢老2.0》：閱讀、寫信、玩遊戲將失智症延後五年</title>
+      <link>http://localhost:1313/zh-tw/posts/slow-aging-cognitive-reserve/</link>
+      <pubDate>Mon, 11 Aug 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/zh-tw/posts/slow-aging-cognitive-reserve/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>《慢老2.0》：運動35天逆轉大腦老化</title>
+      <link>http://localhost:1313/zh-tw/posts/slow-aging-reverse-brain-aging/</link>
+      <pubDate>Sun, 10 Aug 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/zh-tw/posts/slow-aging-reverse-brain-aging/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>《慢老2.0》：久坐摧毀你的記憶力！</title>
+      <link>http://localhost:1313/zh-tw/posts/slow-aging-sedentary-destroy-your-memory/</link>
+      <pubDate>Sat, 09 Aug 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/zh-tw/posts/slow-aging-sedentary-destroy-your-memory/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>《自私的藝術》：了解自己的想法</title>
+      <link>http://localhost:1313/zh-tw/posts/the-art-of-selfishness-understand-your-thoughts/</link>
+      <pubDate>Fri, 08 Aug 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/zh-tw/posts/the-art-of-selfishness-understand-your-thoughts/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>《自私的藝術》：何處才是通往快樂的道路？</title>
+      <link>http://localhost:1313/zh-tw/posts/the-art-of-selfishness-where-the-way-lead-to-hapiness/</link>
+      <pubDate>Thu, 07 Aug 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/zh-tw/posts/the-art-of-selfishness-where-the-way-lead-to-hapiness/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>《自私的藝術》：永遠不要委屈求全</title>
+      <link>http://localhost:1313/zh-tw/posts/the-art-of-selfishness-never-compromise/</link>
+      <pubDate>Wed, 06 Aug 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/zh-tw/posts/the-art-of-selfishness-never-compromise/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>《自私的藝術》：自身問題的根源</title>
+      <link>http://localhost:1313/zh-tw/posts/the-art-of-selfishness-root-of-my-problems/</link>
+      <pubDate>Tue, 05 Aug 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/zh-tw/posts/the-art-of-selfishness-root-of-my-problems/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>《自私的藝術》：生活的壓力</title>
+      <link>http://localhost:1313/zh-tw/posts/the-art-of-selfishness-stress-of-life/</link>
+      <pubDate>Mon, 04 Aug 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/zh-tw/posts/the-art-of-selfishness-stress-of-life/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>《自私的藝術》：偷懶的藝術</title>
+      <link>http://localhost:1313/zh-tw/posts/the-art-of-selfishness-art-of-shirk/</link>
+      <pubDate>Sun, 03 Aug 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/zh-tw/posts/the-art-of-selfishness-art-of-shirk/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Robots.txt與AI爬蟲的愛恨情仇</title>
+      <link>http://localhost:1313/zh-tw/posts/ai-vs-robots-txt/</link>
+      <pubDate>Sat, 02 Aug 2025 10:15:00 +0800</pubDate>
+      
+      <guid>http://localhost:1313/zh-tw/posts/ai-vs-robots-txt/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>自主選擇乾淨的資訊，回歸RSS的懷抱吧！</title>
+      <link>http://localhost:1313/zh-tw/posts/you-should-use-rss/</link>
+      <pubDate>Fri, 01 Aug 2025 14:23:00 +0800</pubDate>
+      
+      <guid>http://localhost:1313/zh-tw/posts/you-should-use-rss/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>思維可見度</title>
+      <link>http://localhost:1313/zh-tw/posts/thought-visibility/</link>
+      <pubDate>Thu, 31 Jul 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/zh-tw/posts/thought-visibility/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>職場能見度</title>
+      <link>http://localhost:1313/zh-tw/posts/workplace-visibility/</link>
+      <pubDate>Wed, 30 Jul 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/zh-tw/posts/workplace-visibility/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>從50年職涯中學到的事業課題-下</title>
+      <link>http://localhost:1313/zh-tw/posts/life-lessons-from-the-first-half-century-of-my-career-focused-2/</link>
+      <pubDate>Tue, 29 Jul 2025 10:05:00 +0800</pubDate>
+      
+      <guid>http://localhost:1313/zh-tw/posts/life-lessons-from-the-first-half-century-of-my-career-focused-2/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>數位佃農</title>
+      <link>http://localhost:1313/zh-tw/posts/digital-tenant-farmer/</link>
+      <pubDate>Mon, 28 Jul 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/zh-tw/posts/digital-tenant-farmer/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>從50年職涯中學到的事業課題-上</title>
+      <link>http://localhost:1313/zh-tw/posts/life-lessons-from-the-first-half-century-of-my-career-focused-1/</link>
+      <pubDate>Sun, 27 Jul 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/zh-tw/posts/life-lessons-from-the-first-half-century-of-my-career-focused-1/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>從50年職涯中學到的人生課題-下</title>
+      <link>http://localhost:1313/zh-tw/posts/life-lessons-from-the-first-half-century-of-my-career-people-focused-2/</link>
+      <pubDate>Wed, 23 Jul 2025 19:30:00 +0800</pubDate>
+      
+      <guid>http://localhost:1313/zh-tw/posts/life-lessons-from-the-first-half-century-of-my-career-people-focused-2/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>從50年職涯中學到的人生課題-上</title>
+      <link>http://localhost:1313/zh-tw/posts/life-lessons-from-the-first-half-century-of-my-career-people-focused-1/</link>
+      <pubDate>Tue, 22 Jul 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/zh-tw/posts/life-lessons-from-the-first-half-century-of-my-career-people-focused-1/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>《慢老2.0》讀後心得：活化大腦的十種方法</title>
+      <link>http://localhost:1313/zh-tw/posts/slow-aging-ten-ways-to-activate-your-brain/</link>
+      <pubDate>Mon, 21 Jul 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/zh-tw/posts/slow-aging-ten-ways-to-activate-your-brain/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>為什麼我想寫部落格？</title>
+      <link>http://localhost:1313/zh-tw/posts/why-i-build-a-blog/</link>
+      <pubDate>Thu, 17 Jul 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/zh-tw/posts/why-i-build-a-blog/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>「我們只能透過繪畫表達自我」 - 文森・梵谷</title>
+      <link>http://localhost:1313/zh-tw/posts/vincent-van-gogh/</link>
+      <pubDate>Wed, 18 Jun 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/zh-tw/posts/vincent-van-gogh/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>《子彈思考整理術》讀後心得：選擇的自由是一種特權</title>
+      <link>http://localhost:1313/zh-tw/posts/the-bullet-journal-method-freedom-of-choose-is-privilege/</link>
+      <pubDate>Sun, 04 May 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/zh-tw/posts/the-bullet-journal-method-freedom-of-choose-is-privilege/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>《為什麼要睡覺？》讀後心得：睡眠不足對於身體的各種危害</title>
+      <link>http://localhost:1313/zh-tw/posts/why-we-sleep-harm/</link>
+      <pubDate>Tue, 15 Apr 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/zh-tw/posts/why-we-sleep-harm/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>新竹先導公車</title>
+      <link>http://localhost:1313/zh-tw/posts/hsinchu-lead-bus-a/</link>
+      <pubDate>Sat, 05 Apr 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/zh-tw/posts/hsinchu-lead-bus-a/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>《為什麼要睡覺？》讀後心得：理性思考最後才成熟</title>
+      <link>http://localhost:1313/zh-tw/posts/why-we-sleep-youth/</link>
+      <pubDate>Sat, 29 Mar 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/zh-tw/posts/why-we-sleep-youth/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>《為什麼要睡覺？》讀後心得：你是早鳥還是夜貓子？</title>
+      <link>http://localhost:1313/zh-tw/posts/why-we-sleep-type/</link>
+      <pubDate>Mon, 17 Mar 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/zh-tw/posts/why-we-sleep-type/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Keshav教授的閱讀論文守則</title>
+      <link>http://localhost:1313/zh-tw/posts/keshav-read-paper-method/</link>
+      <pubDate>Sat, 11 Jan 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/zh-tw/posts/keshav-read-paper-method/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>讀墨 Readmoo mooInk Pro 2C 13.3吋 彩色電子書閱讀器 閱讀PDF檔案的應許之機</title>
+      <link>http://localhost:1313/zh-tw/posts/readmoo-mooink-pro-2c/</link>
+      <pubDate>Wed, 13 Nov 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/zh-tw/posts/readmoo-mooink-pro-2c/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>《研究生完全求生手冊》讀後心得：Problematic</title>
+      <link>http://localhost:1313/zh-tw/posts/survival-handbook-for-graduate-student-problematic/</link>
+      <pubDate>Sat, 10 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/zh-tw/posts/survival-handbook-for-graduate-student-problematic/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>《研究生完全求生手冊》讀後心得：為了什麼而研究？</title>
+      <link>http://localhost:1313/zh-tw/posts/survival-handbook-for-graduate-student-goal/</link>
+      <pubDate>Fri, 09 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/zh-tw/posts/survival-handbook-for-graduate-student-goal/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>《研究生完全求生手冊》讀後心得：創新要領？</title>
+      <link>http://localhost:1313/zh-tw/posts/survival-handbook-for-graduate-student-innovation/</link>
+      <pubDate>Thu, 08 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/zh-tw/posts/survival-handbook-for-graduate-student-innovation/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>《研究生完全求生手冊》讀後心得：寫作方向</title>
+      <link>http://localhost:1313/zh-tw/posts/survival-handbook-for-graduate-student-write/</link>
+      <pubDate>Wed, 07 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/zh-tw/posts/survival-handbook-for-graduate-student-write/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>《研究生完全求生手冊》讀後心得：閱讀期刊論文方法</title>
+      <link>http://localhost:1313/zh-tw/posts/survival-handbook-for-graduate-student-read/</link>
+      <pubDate>Tue, 06 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/zh-tw/posts/survival-handbook-for-graduate-student-read/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>《長銷》讀後心讀：市場定位</title>
+      <link>http://localhost:1313/zh-tw/posts/perennial-seller-positioning/</link>
+      <pubDate>Sun, 28 May 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/zh-tw/posts/perennial-seller-positioning/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>《長銷》讀後心讀：行銷給誰？</title>
+      <link>http://localhost:1313/zh-tw/posts/perennial-seller-marketing/</link>
+      <pubDate>Sat, 27 May 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/zh-tw/posts/perennial-seller-marketing/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>《長銷》讀後心讀：最後的戰場-平台</title>
+      <link>http://localhost:1313/zh-tw/posts/perennial-seller-platform/</link>
+      <pubDate>Fri, 26 May 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/zh-tw/posts/perennial-seller-platform/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>《長銷》讀後心讀：內容為王</title>
+      <link>http://localhost:1313/zh-tw/posts/perennial-seller-content/</link>
+      <pubDate>Thu, 25 May 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/zh-tw/posts/perennial-seller-content/</guid>
+      <description></description>
+      
+    </item>
+    
+  </channel>
+</rss>

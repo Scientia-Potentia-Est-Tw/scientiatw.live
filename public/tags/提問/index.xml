@@ -1,25 +1,23 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-    <channel>
-        <title>提問 on Hong-Sheng Huang&#39;s Blog</title>
-        <link>https://hshuang.blog/tags/%E6%8F%90%E5%95%8F/</link>
-        <description>Recent content in 提問 on Hong-Sheng Huang&#39;s Blog</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>zh-tw</language>
-        <copyright>Hong-Sheng Huang</copyright>
-        <lastBuildDate>Thu, 20 Nov 2025 22:41:00 +0800</lastBuildDate><atom:link href="https://hshuang.blog/tags/%E6%8F%90%E5%95%8F/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>2025-11-20</title>
-        <link>https://hshuang.blog/micro/2025-11-20/</link>
-        <pubDate>Thu, 20 Nov 2025 22:41:00 &#43;0800</pubDate>
-        <author>黃宏勝</author>
-        <guid>https://hshuang.blog/micro/2025-11-20/</guid>
-        <description>&lt;p&gt;所謂提問，指的是如何表現裁剪後的現實&lt;/p&gt;
-&lt;p&gt;講求銳利的裁剪角度和鮮明的切入點&lt;/p&gt;
-&lt;p&gt;高明的提問需要品味和技術，技術可以不斷地磨練&lt;/p&gt;
-&lt;p&gt;但品味，品味可以看出一個人對於現實保持何種距離&lt;/p&gt;
-&lt;p&gt;保持何種態度，更甚者可以看出這個人如何活著&lt;/p&gt;
-</description>
-        </item>
-        
-    </channel>
+  <channel>
+    <title>提問 on Hong-Sheng Huang&#39;s Blog</title>
+    <link>http://localhost:1313/tags/%E6%8F%90%E5%95%8F/</link>
+    <description>Recent content in 提問 on Hong-Sheng Huang&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-tw</language>
+    <copyright>© 2026 Hong-Sheng Huang</copyright>
+    <lastBuildDate>Thu, 20 Nov 2025 22:41:00 +0800</lastBuildDate><atom:link href="http://localhost:1313/tags/%E6%8F%90%E5%95%8F/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>2025-11-20</title>
+      <link>http://localhost:1313/micro/2025-11-20/</link>
+      <pubDate>Thu, 20 Nov 2025 22:41:00 +0800</pubDate>
+      
+      <guid>http://localhost:1313/micro/2025-11-20/</guid>
+      <description>&lt;p&gt;所謂提問，指的是如何表現裁剪後的現實&lt;/p&gt;&#xA;&lt;p&gt;講求銳利的裁剪角度和鮮明的切入點&lt;/p&gt;&#xA;&lt;p&gt;高明的提問需要品味和技術，技術可以不斷地磨練&lt;/p&gt;&#xA;&lt;p&gt;但品味，品味可以看出一個人對於現實保持何種距離&lt;/p&gt;&#xA;&lt;p&gt;保持何種態度，更甚者可以看出這個人如何活著&lt;/p&gt;</description>
+      
+    </item>
+    
+  </channel>
 </rss>

@@ -1,161 +1,33 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-    <channel>
-        <title>學術 on Hong-Sheng Huang&#39;s Blog</title>
-        <link>https://hshuang.blog/categories/%E5%AD%B8%E8%A1%93/</link>
-        <description>Recent content in 學術 on Hong-Sheng Huang&#39;s Blog</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>zh-tw</language>
-        <copyright>Hong-Sheng Huang</copyright>
-        <lastBuildDate>Tue, 12 Aug 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://hshuang.blog/categories/%E5%AD%B8%E8%A1%93/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>用研究審稿員的視角閱讀文獻</title>
-        <link>https://hshuang.blog/p/research-literature-keypoints/</link>
-        <pubDate>Tue, 12 Aug 2025 00:00:00 &#43;0000</pubDate>
-        <author>黃宏勝</author>
-        <guid>https://hshuang.blog/p/research-literature-keypoints/</guid>
-        <description>&lt;img src="https://secologies.com/wp-content/uploads/2025/08/research-keypoints-cover-scaled.webp" alt="Featured image of post 用研究審稿員的視角閱讀文獻" /&gt;&lt;p&gt;近期有幸收到一份CS期刊的Review邀請，也是我職涯中第一次進行審稿，而有一些關鍵是我們在看paper時應該要特別注意的，以及當讀者在撰寫論文時也需要在乎的，以下我會從基本撰寫內容、實驗設計及研究結果來探討&lt;/p&gt;
-&lt;h2 id=&#34;基本撰寫內容&#34;&gt;基本撰寫內容
-&lt;/h2&gt;&lt;h3 id=&#34;內容要清楚不可讓人誤解且專業的使用英文陳述研究想法&#34;&gt;內容要清楚、不可讓人誤解且專業的使用英文陳述研究想法
-&lt;/h3&gt;&lt;p&gt;在台灣的碩、博士研究所清一色都要求使用英文撰寫研究報告及論文，雖然英文並非我們的母語，但對於學術內容來說使用英文表達清楚且正確無誤的內容是必要的，同時還要禮貌性的表述自己的看法，而不對某種研究或理論過於偏激的超譯&lt;/p&gt;
-&lt;p&gt;要具備這種能力只能靠大量的練習，不過現今LLM非常方便可以利用目前市面上成熟的模型來進行修改及學習，讀者可以參考Wiwi的方法[1]先自己寫一遍，然後倒進大型語言模型內請它幫忙重構、潤飾以及更改錯誤字，參考模型改出來的結果進行編輯&lt;/p&gt;
-&lt;p&gt;要注意的是，不要直接複製貼到你的編輯器內，而是參考AI給的來編輯自己的內容，因為學術寫作時非常在乎前後文結構，如果讀者在撰寫上已經有框架的話就照著自己的想法走，同時學習AI為什麼這樣寫才是你真正帶著走的技能，也不會讓審稿人員看到一半就迷路&lt;/p&gt;
-&lt;h3 id=&#34;提供足夠的領域背景知識跟情境給讀者&#34;&gt;提供足夠的領域背景知識跟情境給讀者
-&lt;/h3&gt;&lt;p&gt;學術論文首先需要非常清楚的將問題描述給讀者，為什麼目前的方法還不夠好？簡介整個情境的狀態以及目前的解決方法，為的是證明論文作者已經將該問題理解至最新的進度，意即將知識的邊界線劃給讀者來看，為什麼這個問題很重要？&lt;/p&gt;
-&lt;p&gt;所有有關聯性的參考文獻都得在介紹問題時提及，哪位學者的理論或研究可以解決到什麼程度？雖說文獻通常都是由相關領域的研究員、教授、研究生在研讀，然而不能保證所有剛新進該領域的讀者熟悉過往的研究內容，所以才需要附上所有參考文獻留下脈絡給讀者&lt;/p&gt;
-&lt;p&gt;讀者在撰寫論文時也應該要注意自己的描述是否能讓大多數該領域的人讀懂您的研究內容&lt;/p&gt;
-&lt;h3 id=&#34;嚴謹的構建文章結構圖片表格以及原始資料&#34;&gt;嚴謹的構建文章結構、圖片、表格以及原始資料
-&lt;/h3&gt;&lt;p&gt;通常撰寫研究論文是為了投稿至期刊或研討會上，為了通過審查通常需要遵守該期刊或會議的文章結構，如果是Impact程度高的組織都會在網站上提供撰寫格式或範例檔案供投稿者下載，如果沒提供範例檔案的話就得自己設計，不過格式還是會提供的，意旨讓投稿者自由發揮&lt;/p&gt;
-&lt;p&gt;但基本結構就如同讀者平時看的學術論文章節，比較要注意的是圖片、表格的表示方法每個期刊或會議都不太一樣，而原始資料如實驗code、模型資料都要確保可正常運作&lt;/p&gt;
-&lt;p&gt;如果撰寫時需要極大程度偏離格式的結構必須要跟審稿人多做說明，通常只有能讓研究內容顯著提升表達或者符合某種特定學術方法時才可以使用，然而這種情況非常少發生&lt;/p&gt;
-&lt;h3 id=&#34;所有撰寫內容都需用來證明假設&#34;&gt;所有撰寫內容都需用來證明假設
-&lt;/h3&gt;&lt;p&gt;讀者在撰寫論文時所有的想法都必須是為了證明自己的假設是成立的(self-contained)，無關的事情就不需要寫進去(畢竟期刊是用頁數來算審稿費用的，你多寫些無關緊要的事情增加頁面根本是浪費錢🥴)，每個章節環環相扣最終證明你的想法可行，並且所有研究結果都需附上&lt;/p&gt;
-&lt;p&gt;連貫的內容也不應該切分成好幾個章節只為了增加版面，讀者應該用小節來描述數個概念，一字千金&lt;/p&gt;
-&lt;h3 id=&#34;清楚的定義所有工具及理論並且詳細的證明研究結果&#34;&gt;清楚的定義所有工具及理論，並且詳細的證明研究結果
-&lt;/h3&gt;&lt;p&gt;公理(Axiom)、定理(Theorem)、推論(Corollary)、主張(Proposition)、引理(Lemma)、特性(Identity)、原理(Principle)等等工具都是前人經過嚴謹的證明或歸納出來的事實，我們的研究假設應該站在這些巨人的肩膀上，基於這些方法拓展更進一步的知識邊界&lt;/p&gt;
-&lt;h2 id=&#34;實驗設計&#34;&gt;實驗設計
-&lt;/h2&gt;&lt;h3 id=&#34;原創研究內容需要滿足期刊會議的主題&#34;&gt;原創研究內容需要滿足期刊/會議的主題
-&lt;/h3&gt;&lt;p&gt;研究員付錢買期刊的存取權或付會議的參加費用是為了看到自己領域內的最新相關研究，這也是為了清楚的分類研究內容，否則就像1960年代以前每個研究領域就像一座又一座的孤島，有點相似領域的學者不知道隔壁座位的專家做了很類似的內容，只能不斷地閉門造車&lt;/p&gt;
-&lt;h3 id=&#34;好的研究題目才能彌補研究知識缺口&#34;&gt;好的研究題目才能彌補研究知識缺口
-&lt;/h3&gt;&lt;p&gt;撰寫論文時應該要清楚的描述研究問題，好的問題代表著看到現有的研究還能夠更加完善，以及學術研究大多數皆是站在過去的理論上所以要跟前人的研究有所關聯，但也不是任何研究都可以，也許有些問題已經解到一個盡頭了沒有擴展的空間，所以找出有意義的問題也是一大課題&lt;/p&gt;
-&lt;p&gt;研究內容應該要盡可能地嘗試探索知識邊界，透過自己的研究描述該方法如何貢獻這個領域，不管是擴展就方法應用到更多方面抑或是發現一個新的應用領域跟方法&lt;/p&gt;
-&lt;h3 id=&#34;以高技術及道德標準進行嚴格審查&#34;&gt;以高技術及道德標準進行嚴格審查
-&lt;/h3&gt;&lt;p&gt;學術倫理是每個研究員應該遵守的原則，審稿人員都有自己一套嚴格的調查標準，並且符合該領域的道德標準，投稿人也應該遵照相關的守則&lt;/p&gt;
-&lt;h3 id=&#34;研究方法必須要可復現&#34;&gt;研究方法必須要可復現
-&lt;/h3&gt;&lt;p&gt;投稿人撰寫的內容應該要盡可能的敘述自己的研究方法，讓審稿人或其他讀者可以將實驗結果進行復現，或者研究性內容提供足夠的證明能讓其他人成功證出相同的內容，才稱得上是科學研究，如果最好的實驗結果只能靠運氣那這跟擲骰子有什麼兩樣？&lt;/p&gt;
-&lt;h2 id=&#34;研究結果效力&#34;&gt;研究結果效力
-&lt;/h2&gt;&lt;h3 id=&#34;鼓勵可復現的研究&#34;&gt;鼓勵可復現的研究
-&lt;/h3&gt;&lt;p&gt;通常期刊要接受論文不只考慮論文的影響力、技術進步程度、題目新穎程度或小眾影響程度，甚至連沒有產出研究成果都可以列入考量內，只要清楚說明可復現的內容如何增強你的論文價值，期刊或會議就有可能接受投稿人的論文&lt;/p&gt;
-&lt;p&gt;要注意的是如果只是把一份研究切分成好幾篇文章的話通常就不列入考量直接拒收，通常會Acceptable的復現範例像是軟體code的驗證及查核，審稿人員會進行效能比較、計算資源的消耗結果檢查等方法&lt;/p&gt;
-&lt;h3 id=&#34;所有研究資料皆需附上&#34;&gt;所有研究資料皆需附上
-&lt;/h3&gt;&lt;p&gt;研究結論通常都需要許多的參考文獻進行佐證，而這些證據也應該一併附在內文裡並且能夠在特定的文獻資料庫裡讓審稿人查到和存取，引用的資料應該要是穩定、統計上合理且可控制的，由於資料庫內的文章有些是靠AI爬蟲索引進來的，所以資料內容應該要先重複驗證過再使用&lt;/p&gt;
-&lt;h3 id=&#34;總結要能完美的連結研究問題&#34;&gt;總結要能完美的連結研究問題
-&lt;/h3&gt;&lt;p&gt;一篇論文的總結要能夠適當的勾回一開始假設的研究問題是否合理，討論該篇文章在這個問題上有沒有給出一個有意義的結果，這個結果必須是支持自己的結論，在那之外，點出某個方法是否只能應用於某些問題，而問題之外的道路還未探索出來又是另一項工作了&lt;/p&gt;
-&lt;p&gt;尤其當撰稿人要針對某項因果關係做主張時，應該要設計容易控制的實驗來驗證，證明有關聯並非因果關係&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;以上就是一些正在撰寫投稿論文的讀者們可以參考的要素，如果有其他想要補充的歡迎在留言區留言或寫信給我&lt;/p&gt;
-&lt;h1 id=&#34;references&#34;&gt;References
-&lt;/h1&gt;&lt;p&gt;[1] Wiwi Kuan, 別停止打字：&lt;a class=&#34;link&#34; href=&#34;https://wiwi.blog/blog/dont-stop-typing/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;https://wiwi.blog/blog/dont-stop-typing/&lt;/a&gt;&lt;/p&gt;
-</description>
-        </item>
-        <item>
-        <title>Keshav教授的閱讀論文守則</title>
-        <link>https://hshuang.blog/p/keshav-read-paper-method/</link>
-        <pubDate>Sat, 11 Jan 2025 00:00:00 &#43;0000</pubDate>
-        <author>黃宏勝</author>
-        <guid>https://hshuang.blog/p/keshav-read-paper-method/</guid>
-        <description>&lt;img src="https://secologies.com/wp-content/uploads/2025/05/HowToReadAPaperCover.webp" alt="Featured image of post Keshav教授的閱讀論文守則" /&gt;&lt;p&gt;由Canada University of Waterloo School of Computer Science professor S. Keshav帶給大家主要使用IEEE journal template的架構來做說明&lt;/p&gt;
-&lt;p&gt;採取以下的方法審核&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Abstract&lt;/li&gt;
-&lt;li&gt;Introduction&lt;/li&gt;
-&lt;li&gt;Literature Survey&lt;/li&gt;
-&lt;li&gt;Related Work&lt;/li&gt;
-&lt;li&gt;Methodology&lt;/li&gt;
-&lt;li&gt;References&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;主要目的是想建立讀者在建構自己的新想法時能夠有些路徑探索&lt;/p&gt;
-&lt;h2 id=&#34;abstract&#34;&gt;Abstract
-&lt;/h2&gt;&lt;p&gt;在abstract內提出自己想針對的問題，彙整研究最後產出的貢獻，也是給其他研究學者在翻到你這篇研究後可以快速的review，判斷需不需要繼續讀下去&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;Categories and Subject Descriptions: 就單純提出自己研究的分類&lt;/li&gt;
-&lt;li&gt;Keywords: 附上研究的問題、提出的方法、解決方法的技術等關鍵字提供給其他研究員快速判斷&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;研究員花上大量的時間來閱讀paper，然後卻鮮少有人去教導，花較少的精力來review paper，本篇how to read a paper就是想帶給新入門的研究生一種快速閱讀paper的方法，作者稱作為”Three-pass method”，這種方法也能夠快速survey原文書&lt;/p&gt;
-&lt;h2 id=&#34;introduction&#34;&gt;Introduction
-&lt;/h2&gt;&lt;p&gt;比起abstract更加仔細的解釋你的問題來龍去脈，為什麼這個問題很重要？並且提到自己為了解決這個問題提出了哪種方法&lt;/p&gt;
-&lt;p&gt;研究員必須閱讀paper有幾點原因：因為conference或者課程需要所以review paper，理解在研究員自身的領域內最新的發展，或者為了發展新的藍海題目而進行的paper survey，一個標準的研究員每年至少會花上數百個小時來閱讀paper，故有效率的閱讀一篇paper是非常重要的技能&lt;/p&gt;
-&lt;p&gt;但卻很少有學校會專門開課教你，而指導教授通常也很忙無法完全督促你閱讀paper的方法是否正確，所以作為新手的研究生，必須靠自己在trial and error當中掌握最適合自己的閱讀方法，在這過程當中新手研究生會浪費許多的精力並且頻繁地遇到挫折，所以我們才要介紹多年來Keshav教授使用一種簡單又有效率的方法在閱讀paper，這種方法叫做’three-pass’方法，並且適合用來survey paper&lt;/p&gt;
-&lt;h2 id=&#34;methodology&#34;&gt;Methodology
-&lt;/h2&gt;&lt;p&gt;先提出你的方法架構，給其他研究員一個大方向，主要想法是一篇paper你抓個看三次要看完，並且不要拿到一篇paper就從頭abstract看到尾conclusion，每一次看的重點應該放在你想要在這篇paper上知道什麼事情，能夠突破你舊有的思想，以及參考上一次看到的東西，哪些地方不懂的，在你下一次回去看後應該要了解上次不懂的地方：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;第一次你要看到這篇paper想要表達的想法是什麼，想要解決的問題是什麼？&lt;/li&gt;
-&lt;li&gt;第二次你抓出這篇paper的內容，使用哪種解決方法、技術，但還不需要知道太細節的部分&lt;/li&gt;
-&lt;li&gt;第三次你應該要更深入的了解這篇paper了，知道作者提出的方法是如何解決遇到的問題&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;31-the-first-pass&#34;&gt;3.1 The first pass
-&lt;/h3&gt;&lt;p&gt;接著開始詳細描述你的方法每個階段步驟，像作者提出三步驟的閱讀paper法則，第一階段的細節該做哪些事情在這裡要描述清楚&lt;/p&gt;
-&lt;p&gt;首先第一次閱讀要快速掃瞄整篇paper，用鳥瞰的方法看這篇paper，先見林再去見樹，你也可以在這個階段決定需不需要更多次的閱讀，這取決於你對於paper領域的熟悉度，如果裡面出現的術語有太多你不清楚的，那肯定需要花更多時間去查詢這些術語，通常這個掃描時間花5到10分鐘，並且可以根據以下的步驟來實行：&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;仔細閱讀paper title, paper abstract, paper introduction&lt;/li&gt;
-&lt;li&gt;閱讀每一個section以及sub-section標題，但先不去看每一個section的內容&lt;/li&gt;
-&lt;li&gt;閱讀結論&lt;/li&gt;
-&lt;li&gt;稍微瞄一下references，在心裡頭回憶一下references裡你已經看過的&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;在你完成了第一次的快速掃瞄後，你應該要能夠回答出5個C：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Category：這是篇什麼樣的paper?一篇測量的paper?針對已存在系統的分析？針對一個新的研究雛形的描述？&lt;/li&gt;
-&lt;li&gt;Context：這篇paper跟其他篇有什麼樣的關聯性？在這篇paper當中使用了哪種基礎理論來分析提出的問題？&lt;/li&gt;
-&lt;li&gt;Correctness：這篇paper提出的assumption是合理的嗎？&lt;/li&gt;
-&lt;li&gt;Contributions：這篇paper主要的貢獻是什麼？&lt;/li&gt;
-&lt;li&gt;Clarity：這篇paper讀起來文筆好嗎？架構清晰嗎？提出問題跟解決問題的描述清楚嗎？&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;根據這5個C，你可以決定是否要繼續仔細讀這篇paper，這取決於你是否對於這個題目有興趣，或者你在這篇paper當中還有太多東西不了解導致於閱讀起來很吃力，亦或者作者提出的假設根本不合理，總之讀第一遍就能夠讓你知道閱讀這篇paper是否對於你現在的研究領域有幫助，但在未來可能有幫助，你就能判斷現在是否要先讀&lt;/p&gt;
-&lt;p&gt;順帶一提，當你在寫paper時，你就可以先預期大部分的reviewers或者讀者就只會讀你的paper一遍，所以你要仔細的挑選每一個section, sub-section的title，以及簡潔有力且豐富的abstract，如果reviewer不能在第一次閱讀完你的paper時了解其中的意思，很高機率你的paper會被reject掉，而讀者如果無法在5分鐘後了解你這篇paper想要解決的問題是什麼，那很高機率他們就不會繼續讀下去了&lt;/p&gt;
-&lt;h3 id=&#34;32-the-second-pass&#34;&gt;3.2 The Second pass
-&lt;/h3&gt;&lt;p&gt;第二次閱讀時你因為第一次閱讀覺得這篇paper有價值時，你需要更仔細的往更深處挖掘，不過先忽略掉更細節的部分像是證明方法的章節，你可以在這個階段閱讀時記下paper裡面的關鍵點，或者在空白處就先寫一下自己的想法，這對於後續做整理會很有幫助：&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;作者在paper裡面放的圖片、表格，或者用來解釋的圖形要很仔細的去看，畢竟不管是conference paper或者journal paper都有篇幅限制，作者深思熟慮後放的圖片絕對是很重要的內容，資料的標示是否正確？結果是否帶有誤差線條使得結論具有統計上的意義？像這些常見的錯誤會把倉促、粗劣的研究結果與真正優秀的研究結果做區別。&lt;/li&gt;
-&lt;li&gt;要記得標示出相關聯但還沒提到的參考以供更進步的查找資料作參考(這會讓讀者更好的去找出本篇paper需要的background。&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;第二次閱讀大概要花個一小時，閱讀完第二次後你應該要能夠抓出paper裡的內容，你能夠統整出paper想要解決的問題，以及如何解決的方法所提出的證據等等，這階段你還是因為對於這篇paper有興趣所以才去閱讀這些細節，但還不足以直接對你現在的研究有所幫助&lt;/p&gt;
-&lt;p&gt;有時候你在閱讀完第二次你還是不完全了解整篇paper的細節，可能是這篇paper的領域你還不是很熟悉裡面的術語與縮寫等等，或者paper作者使用的證明或實驗方法是你未曾使用過的，導致於整篇paper雖然你讀完了但還是不了解內容，也有可能是paper的內容充斥的大量未經證實的想法以及大量參考前人的paper作法導致整篇架構不清晰，閱讀起來非常吃力，也有那麼一種可能是你已經閱讀很久的時間了而你感到非常疲累&lt;/p&gt;
-&lt;p&gt;當你遇到上述這些狀況後你可以做幾個選擇&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;把paper丟到旁邊，並且冀望之後完全不會用到那篇paper提到的方法，也能讓你之後的人生一帆風順。&lt;/li&gt;
-&lt;li&gt;晚點再去看paper，先去把paper需要的background補齊&lt;/li&gt;
-&lt;li&gt;無視這些問題直接跳到閱讀第三次&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h3 id=&#34;33-the-third-pass&#34;&gt;3.3 The third pass
-&lt;/h3&gt;&lt;p&gt;第三次閱讀時就是為了完整的了解整篇paper的內容，尤其你是個reviewer時就需要這麼做，第三次閱讀的重點是你需要嘗試虛擬重新實作paper提出的方法，意思是跟作者一樣使用同樣的assumption，重新創造一次實驗結果，這是為了用來比較你重新創造的實驗環境與作者提出來的結果，你可以站在作者的角度，簡單的發覺到paper作者創新的點，以及說不定能發現作者在實驗時的失敗與曾經的assumption，尤其在DL/ML的研究裡，還是比較希望作者可以把source code發表出來，讓其他讀者重新跑一次作者的實驗數據是否是正確的，不然每天都成千上萬篇ML/DL paper出現，有些實驗數據到底是不是真實的只有實際去跑過model才能驗證&lt;/p&gt;
-&lt;p&gt;第三次閱讀需要你對於細節有更多的注意力，你必須對於paper裡面每一次提出的assumption都能夠證明合理性以及挑戰正確性，更進一步的是，透過你閱讀的這篇paper，來發想自己會如何做？你針對paper裡提出的問題你會提出什麼樣的解決方法？閱讀別人的paper應該是為了建構你自己的想法而去做的，你對於這篇作者提出的解決方法不滿意？那你可以提出一個能讓你自己更滿意的作法，如此比較虛擬想法與實際作法是為了雕塑出這個問題的知識邊界，透過paper裡證明以及展示技巧來建立你自己想法的劇本，同時在這階段，你應該要能構想出針對問題的future work，如果是你，你會如何加強這篇paper的方法？&lt;/p&gt;
-&lt;p&gt;第三次閱讀對於研究新手來說可能需要花上4到5個小時，而經驗老道的研究員可能花個1小時就行，這取決於你對於這個研究領域的熟悉度，在閱讀完第三次後，你應該要能夠靠著記憶力重新建構出paper的完整架構，能夠意識到這篇paper的優勢以及劣勢，並且你應該要能夠準確的點出這篇paper裡面的隱性assumption，遺失掉哪些相關的研究沒提到以及實驗方法或者分析技巧的潛在問題&lt;/p&gt;
-&lt;h2 id=&#34;literature-survey&#34;&gt;Literature Survey
-&lt;/h2&gt;&lt;p&gt;在做文獻調查時你的paper閱讀技巧是最關鍵的，你在做文獻回顧時都會需要閱讀數十篇的paper，尤其在你不熟悉的領域時，哪些Paper是你應該要讀的？你可以使用三個階段來判斷哪些paper是你需要的
-第一步使用學術搜尋引擎像是Google Scholar或者CiteSeer以及一些你需要的keywords來搜尋3到5篇近期在你的領域內發表的paper，第一遍你要知道每一篇paper的problematic，接著閱讀你需要相關的章節，你就會發現條列式的總結這些近期paper，或者你很幸運的可以找到近期有人發表survey paper裡都有你想要知道的事情，那你就針對那篇survey paper就可以了&lt;/p&gt;
-&lt;p&gt;第二步如果找不到別人有發表很新穎的survey paper，那你接下來得找引用數以及重複出現名字多次的作者，這些人是在你的領域內知名的主要發表人，下載他們的paper將這些paper放到一旁，然後到這些知名學者的網站裡看看他們近期發表哪些paper，這是為了讓你找出這個領域內的頂尖conferecne有哪些，畢竟這些學者最常投稿的就是top conference，尤其在computer science的領域，大部分conference比journal更有參考價值，原因是conference你投稿後3到4個月reviewer就會決定accpet或是reject掉你的paper，而journal快則6到8個月，慢則9到12個月，發表出來後你的方法早就不是最新的了，可能會有一堆conference paper有跟你很類似的方法，這樣你的研究根本無法算是最早投入的先驅，從研究貢獻原則來看，別人比你早個一天發表類似的研究你就得刪掉重疊的內容&lt;/p&gt;
-&lt;p&gt;第三部就是到這些top conference的網站，尋找近期發表在上面的研究成果，快速審視一下認知何謂高水準的研究成果，在上面找到的優質paper也許你之前就已經下載了，在你第一次找survey paper時，接著review這些優秀的paper，如果這些paper也共同指向了某篇關鍵paper而你還沒看過，你需要將其找出來並且閱讀，如果你一直有發現這樣的關鍵paper，那就重複步驟，畢竟作為一個研究生你必須不斷地追問，不斷地提出問題，為什麼這些資深的學者認為這樣的問題很重要？而往往都會有一個根源是這些學者們已經知道且默認在心裡的，你有義務去了解，並且將這問題也深植自己的心中，你才有機會有朝一日達到跟這些研究員一樣的高度，這也是文獻回顧最關鍵的核心&lt;/p&gt;
-&lt;h2 id=&#34;related-work&#34;&gt;Related Work
-&lt;/h2&gt;&lt;p&gt;如果你讀paper是為了review領域內的發展，你也應該去閱讀Timothy Roscoe的paper “Writing reviews for system conferences”[2]，如果你計畫寫一篇技術paper，你應該參考Henning Schulzrinne的網站[3]以及George Whitesides的review方法[4]，而Simon Peyton Jones的網站提供了一個研究員應該具備哪些能力[5]&lt;/p&gt;
-&lt;h2 id=&#34;references&#34;&gt;References
-&lt;/h2&gt;&lt;p&gt;參考資料，所有本篇paper中提到的引用資訊皆會放進此單元中，讀者可以從這裡找到一些作者看過的思考路徑&lt;/p&gt;
-&lt;p&gt;[1] S. Keshav. 2007. How to read a paper. SIGCOMM Comput. Commun. Rev. 37, 3 (July 2007), 83–84. &lt;a class=&#34;link&#34; href=&#34;https://doi.org/10.1145/1273445.1273458&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;https://doi.org/10.1145/1273445.1273458&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;[2] T. Roscoe, “Writing Reviews for Systems Conferences,” &lt;a class=&#34;link&#34; href=&#34;https://people.inf.ethz.ch/troscoe/pubs/review-writing.pdf&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;https://people.inf.ethz.ch/troscoe/pubs/review-writing.pdf&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;[3] H. Schulzrinne, “Writing Technical Articles,” &lt;a class=&#34;link&#34; href=&#34;https://www.cs.columbia.edu/~hgs/etc/writing-style.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;https://www.cs.columbia.edu/~hgs/etc/writing-style.html&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;[4] G.M. Whitesides, “Whitesides’ Group: Writing a Paper,&amp;quot; &lt;a class=&#34;link&#34; href=&#34;https://onlinelibrary.wiley.com/doi/10.1002/adma.200400767&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;https://onlinelibrary.wiley.com/doi/10.1002/adma.200400767&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;[5] Simon Peyton Jones, &amp;ldquo;Other great resources on research skills, &amp;quot; &lt;a class=&#34;link&#34; href=&#34;https://simon.peytonjones.org/research-skills/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;https://simon.peytonjones.org/research-skills/&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&#34;這方法實不實用&#34;&gt;這方法實不實用？
-&lt;/h2&gt;&lt;p&gt;Keshav教授已經使用這套方法15年了(這篇文章發表時間大概是2007年)，用來閱讀conference paper、寫review、研究時補齊background以及在參與討論之前快速review paper，這種嚴謹的方法讓教授先從鳥瞰的方法審視整個研究架構，從而避免了一開始就直接從頭看到尾，並且迷失在paper裡面細節的情形，用這方法可以先預估自己會花多少時間在成堆的paper上&lt;/p&gt;
-&lt;p&gt;教授用這種方法可以根據自己想知道的內容來調整需要讀哪些段落以及根據所剩的時間來決定該看paper的哪些部分，不過各位也可以調整成自己比較舒適的方法，我認為目前在AI技術蓬勃發展的這個時代也有許多輔助我們閱讀paper的工具像是chatPDF的出現，或者chatGPT、Gemini等服務也都可以上傳PDF檔案，他們的OCR能力有一直在提升，讀者可以想像目前大多數是基於NLP/LLM的方法上透過辨識內文快速整理出一些亮點給使用者，以及使用者可以用提問的方法讓模型推測出要回應的資訊&lt;/p&gt;
-&lt;p&gt;主要的問題是如果你對於一個領域才剛入門資歷還算很菜沒看過太多篇的話，這些工具通常只從單個paper當中擷取內文資訊給你，一些沒有在paper上詳述的事情就得透過引入其他篇paper來補齊知識，這麼做了之後你又會冒出更多的問題要引用更多篇進來，所以如果你才剛進入研究的門檻內還是建議先從基礎功力打穩，對於該領域有一些自己的理解跟看法之後就可以漸漸利用AI工具了，就像即便有了Midjourney、DALL-E這類圖像產生服務，還是有些人從素描慢慢學起讓自己對於光影、比例、結構等有更深入的了解，就能夠在prompting的時候有別於他人的觀點&lt;/p&gt;
-&lt;p&gt;我想做研究也是一樣的，這些工具能夠彙整出許多的點，但要如何將每一個點連起來成線就必須依靠自己的思考框架，尤其在這個人們越來越依賴機器的時代，被AGI服務、短影片所奪走如此多的注意力，從學會閱讀長篇文獻的過程中找回專注力對於你我的幫助肯定很大。&lt;/p&gt;
-</description>
-        </item>
-        
-    </channel>
+  <channel>
+    <title>學術 on Hong-Sheng Huang&#39;s Blog</title>
+    <link>http://localhost:1313/categories/%E5%AD%B8%E8%A1%93/</link>
+    <description>Recent content in 學術 on Hong-Sheng Huang&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-tw</language>
+    <copyright>© 2026 Hong-Sheng Huang</copyright>
+    <lastBuildDate>Tue, 12 Aug 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/%E5%AD%B8%E8%A1%93/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>用研究審稿員的視角閱讀文獻</title>
+      <link>http://localhost:1313/posts/research-literature-keypoints/</link>
+      <pubDate>Tue, 12 Aug 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/research-literature-keypoints/</guid>
+      <description>在這個連Agent都可以幫你梳理paper的時代，我們該如何看得比AI還深入？</description>
+      
+    </item>
+    
+    <item>
+      <title>Keshav教授的閱讀論文守則</title>
+      <link>http://localhost:1313/posts/keshav-read-paper-method/</link>
+      <pubDate>Sat, 11 Jan 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/keshav-read-paper-method/</guid>
+      <description>由Canada University of Waterloo School of Computer Science professor S. Keshav帶給大家主要使用IEEE journal template的架構來做說明</description>
+      
+    </item>
+    
+  </channel>
 </rss>
