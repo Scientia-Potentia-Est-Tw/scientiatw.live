@@ -1,6 +1,6 @@
 ---
 title: 使用
-description: 目前常用的物品
+description: 
 date: 2025-12-31T10:48:00+08:00
 lastmod: 2025-12-31T10:50:00+08:00
 author: "黃宏勝"
@@ -8,6 +8,8 @@ aliases:
   - use
 slug: use
 ---
+本頁介紹目前常用的物品或軟體
+
 ## 🖥️ 電腦軟體
 
 ### 💾 作業系統

@@ -1,6 +1,5 @@
 ---
 title: 關於
-description: 介紹本站與我
 date: '2025-12-26T16:01:00+08:00'
 author: "黃宏勝"
 aliases:
@@ -14,6 +13,8 @@ lastmod: '2025-12-26T16:02:00+08:00'
 
 <script>var ConverlyCustomData = {channelId: null};</script>
 <script async defer src="https://cdn.affiliates.one/production/adlinks/9632d86e82ddae2c6327eb55c530875fb8f852063ff7075dd96c7f802672af39.js"></script>
+
+介紹本站與我
 
 ## 關於本站
 此部落格主要記錄我所有好奇跟想做的事情

@@ -1,6 +1,5 @@
 ---
 title: 訂閱電子報
-description: 每月寄送一至兩封當月彙整資訊
 date: '2025-11-29T19:40:00+08:00'
 author: "黃宏勝"
 aliases:
@@ -9,6 +8,7 @@ slug: newsletter
 lastmod: '2025-11-29T19:47:00+08:00'
 comments: False
 ---
+每月寄送一至兩封當月彙整資訊
 <div id="mc_embed_shell">
       <link href="//cdn-images.mailchimp.com/embedcode/classic-061523.css" rel="stylesheet" type="text/css">
   <style type="text/css">
