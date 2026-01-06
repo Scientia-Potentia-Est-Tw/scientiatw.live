@@ -6,12 +6,13 @@ author: "黃宏勝"
 aliases:
   - gallery
 slug: gallery
-lastmod: '2026-01-05T15:41:00+08:00'
-comments: False
+lastmod: '2026-01-06T15:00:00+08:00'
+layout: "simple"
 ---
+<div class="max-w-5xl mx-auto">
 {{< gallery >}}
 <!--<img src="" alt="" class="grid-w33"/> -->
-<img src="https://secologies.com/wp-content/uploads/2025/12/成功湖二號鴨-scaled.webp" alt="成功湖二號鴨" class="grid-w33"  />
+<img src="https://secologies.com/wp-content/uploads/2025/12/成功湖二號鴨-scaled.webp" alt="成功湖二號鴨" class="grid-w33" xl:grid-w25  />
 <img src="https://secologies.com/wp-content/uploads/2025/12/巧巧與牛排-scaled.webp" alt="巧巧與牛排" class="grid-w33"  />
 <img src="https://secologies.com/wp-content/uploads/2025/11/旦蕉-scaled.webp" alt="旦蕉" class="grid-w33"  />
 <img src="https://secologies.com/wp-content/uploads/2025/11/日日是好日-scaled.webp" alt="日日是好日" class="grid-w33"  />
@@ -27,3 +28,4 @@ comments: False
 <img src="https://secologies.com/wp-content/uploads/2025/10/20251030-和德昌大麥克貴賓券-scaled.webp" alt="和德昌大麥克貴賓券" class="grid-w33"  />
 <img src="https://secologies.com/wp-content/uploads/2025/08/IMG_0400-scaled.webp" alt="讀墨mooInk Pro 2C 13.3吋電子書閱讀器" class="grid-w33" />
 {{< /gallery >}}
+</div>

@@ -1,3 +1,17 @@
-.max-w-fit, .max-w-prose {
-	max-width: 100% !important;
+.max-w-fit, 
+.max-w-prose, 
+.prose {
+    max-width: 100%;
+}
+/* Target the gallery container specifically to limit its width */
+.gallery {
+    max-width: 80rem; /* Adjust this value to your preferred "maximum" width */
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%; /* Provides some padding on smaller screens */
+}
+
+/* Ensure figures within the gallery don't exceed their column width */
+.gallery figure {
+    max-width: 100%;
 }
