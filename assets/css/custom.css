@@ -1,17 +1,27 @@
-.max-w-fit, 
-.max-w-prose, 
-.prose {
-    max-width: 100%;
-}
-/* Target the gallery container specifically to limit its width */
-.gallery {
-    max-width: 80rem; /* Adjust this value to your preferred "maximum" width */
-    margin-left: auto;
-    margin-right: auto;
-    width: 90%; /* Provides some padding on smaller screens */
+/* 1. Remove the theme's outer container constraints */
+.container,
+.main-wrapper,
+.relative.flex.flex-col.grow {
+    max-width: 100% !important;
+    width: 100% !important;
+    padding-left: 2rem;  /* Add small side padding so it's not touching the edge */
+    padding-right: 2rem;
 }
 
-/* Ensure figures within the gallery don't exceed their column width */
-.gallery figure {
-    max-width: 100%;
+/* 2. Target your 3-column waterfall specifically */
+.prose, .max-w-prose {
+    max-width: 100% !important;
+}
+
+/* 3. MOBILE FIX: Ensure it doesn't break on small screens */
+@media screen and (max-width: 768px) {
+    .container, .main-wrapper {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    
+    /* Forces the 3-column waterfall to a single column on mobile if needed */
+    .gallery-column {
+        width: 100% !important;
+    }
 }

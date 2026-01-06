@@ -26,7 +26,7 @@ highlightCurrentMenuArea = true
 DisqusShortname = "hong-sheng-huang"
 
 [header]
-layout = "fixed-fill-blur"
+layout = "fixed"
 
 [footer]
 showMenu = true
