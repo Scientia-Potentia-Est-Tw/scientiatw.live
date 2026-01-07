@@ -12,6 +12,7 @@ keywords:
 lastmod: 2025-11-06 20:15:00+08:00
 slug: you-should-use-rss
 summary: 在這個注意力被各種事物搶奪的時代，你是否感覺自己在資訊海洋中溺水了？
+description: "在這個注意力被各種事物搶奪的時代，你是否感覺自己在資訊海洋中溺水了？"
 tags:
 - RSS
 - 資訊

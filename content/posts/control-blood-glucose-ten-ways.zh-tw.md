@@ -14,6 +14,7 @@ keywords:
 lastmod: '2025-11-05T17:32:00+08:00'
 slug: control-blood-glucose-ten-ways
 summary: 您有過血糖波動的經驗嗎？是否會在飯後頭昏腦脹呢？而我們又該如何預防這種情況呢？
+description: "您有過血糖波動的經驗嗎？是否會在飯後頭昏腦脹呢？而我們又該如何預防這種情況呢？"
 tags:
 - 糖尿病
 - 血糖

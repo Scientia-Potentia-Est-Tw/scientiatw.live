@@ -19,6 +19,7 @@ keywords:
   - 個人網域
   - Email Routing
 summary: "個人化電子郵件信箱讓你看起來更專業，本文向各位介紹如何利用Cloudflare購買的網域搭配免費的Gmail來建立私人信箱"
+description: "個人化電子郵件信箱讓你看起來更專業，本文向各位介紹如何利用Cloudflare購買的網域搭配免費的Gmail來建立私人信箱"
 featureimage: "https://secologies.com/wp-content/uploads/2025/12/cloudflare-domain-create-free-private-email-using-gmail.webp"
 thumbnail: "https://secologies.com/wp-content/uploads/2025/12/cloudflare-domain-create-free-private-email-using-gmail.webp"
 slug: "cloudflare-domain-create-free-private-email-using-gmail"

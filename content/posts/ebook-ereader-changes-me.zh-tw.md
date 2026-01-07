@@ -14,6 +14,7 @@ keywords:
 lastmod: 2025-12-26 16:29:00+08:00
 slug: ebook-ereader-changes-me
 summary: 放下會毒害自己大腦的社群媒體，擁抱單純的閱讀拯救自己的大腦吧
+description: "放下會毒害自己大腦的社群媒體，擁抱單純的閱讀拯救自己的大腦吧"
 tags:
 - 電子書閱讀器
 - 人生

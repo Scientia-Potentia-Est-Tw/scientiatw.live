@@ -19,6 +19,7 @@ keywords:
   - AI
   - AI爬蟲
 summary: "爬蟲巨獸無情吞噬網路上的一切，知識型網站的未來是？"
+description: "爬蟲巨獸無情吞噬網路上的一切，知識型網站的未來是？"
 featureimage: "https://secologies.com/wp-content/uploads/2025/12/ai-vs-robots-scaled.webp"
 slug: "AI-vs-robots-txt" 
 ---
