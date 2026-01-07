@@ -2,689 +2,689 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Hong-Sheng Huang&#39;s Blog</title>
-    <link>https://hshuang.blog/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content on Hong-Sheng Huang&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
     <copyright>© 2026 Hong-Sheng Huang</copyright>
-    <lastBuildDate>Wed, 07 Jan 2026 22:05:00 +0800</lastBuildDate><atom:link href="https://hshuang.blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 07 Jan 2026 22:05:00 +0800</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>近況</title>
-      <link>https://hshuang.blog/now/</link>
+      <link>http://localhost:1313/now/</link>
       <pubDate>Mon, 05 Jan 2026 15:37:00 +0800</pubDate>
       
-      <guid>https://hshuang.blog/now/</guid>
+      <guid>http://localhost:1313/now/</guid>
       <description>&lt;p&gt;本頁介紹最近在做些什麼&lt;/p&gt;&#xA;&#xA;&lt;h2 class=&#34;relative group&#34;&gt;🏡 最近的狀態&#xA;    &lt;div id=&#34;-最近的狀態&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xA;    &#xA;    &lt;span&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#-%e6%9c%80%e8%bf%91%e7%9a%84%e7%8b%80%e6%85%8b&#34; aria-label=&#34;定位點&#34;&gt;#&lt;/a&gt;&#xA;    &lt;/span&gt;&#xA;    &#xA;&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;🚎 通勤：新竹台北兩地實驗室、兩地宿舍，雖然不用工作完再通勤，但只帶一個行李箱能塞的東西真的很少，兩邊都得準備生活用品&lt;/li&gt;&#xA;&lt;li&gt;🛏 睡眠：盡量十二點多睡覺早上八點多起床固定作息，但偶爾沒控制好休閒活動時間還是會報復性熬夜&lt;/li&gt;&#xA;&lt;li&gt;🏃 運動：跑步機還是最省時間的，尤其現階段得把大部分時間用在工作上，健身房裡唯一可以控管時間的好選擇&lt;/li&gt;&#xA;&lt;li&gt;🥬 飲食：校內其中一間餐廳整修到過年後，六、日回學校被強迫出校外吃飯&lt;/li&gt;&#xA;&lt;li&gt;⏳ 工作：趕第一階段實驗&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&#xA;&lt;h2 class=&#34;relative group&#34;&gt;🌐 最近網路上的狀態&#xA;    &lt;div id=&#34;-最近網路上的狀態&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xA;    &#xA;    &lt;span&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#-%e6%9c%80%e8%bf%91%e7%b6%b2%e8%b7%af%e4%b8%8a%e7%9a%84%e7%8b%80%e6%85%8b&#34; aria-label=&#34;定位點&#34;&gt;#&lt;/a&gt;&#xA;    &lt;/span&gt;&#xA;    &#xA;&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;💻 &lt;a href=&#34;https://secologies.com/zh/&#34;  target=&#34;_blank&#34;&gt;Secologies&lt;/a&gt;：寄送出第一期的電子報，有興趣的可以&lt;a href=&#34;https://secologies.com/zh/newsletter-zh/&#34;  target=&#34;_blank&#34;&gt;訂閱&lt;/a&gt;，我也把所有紀錄都更新在電子報頁面中，用該網域註冊了商業版的電子郵件服務，看起來更專業&lt;/li&gt;&#xA;&lt;li&gt;🗓 社群部落格：變更本站的Hugo模板，原本的Stack模板真的與太多人撞到所以決定換個&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&#xA;&lt;h2 class=&#34;relative group&#34;&gt;🎯 最近的專案&#xA;    &lt;div id=&#34;-最近的專案&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xA;    &#xA;    &lt;span&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#-%e6%9c%80%e8%bf%91%e7%9a%84%e5%b0%88%e6%a1%88&#34; aria-label=&#34;定位點&#34;&gt;#&lt;/a&gt;&#xA;    &lt;/span&gt;&#xA;    &#xA;&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;🖥️ Modified-Improved-Greedy-Algorithm with a Linear Layer framework：參考另一篇的框架搭配之前做的演算法做第二層分類，來嘗試看看量子電路能不能更優化&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&#xA;&lt;h2 class=&#34;relative group&#34;&gt;🍳 最近吃的/喝的&#xA;    &lt;div id=&#34;-最近吃的喝的&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xA;    &#xA;    &lt;span&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#-%e6%9c%80%e8%bf%91%e5%90%83%e7%9a%84%e5%96%9d%e7%9a%84&#34; aria-label=&#34;定位點&#34;&gt;#&lt;/a&gt;&#xA;    &lt;/span&gt;&#xA;    &#xA;&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;🍊 冬天來臨了真的冷到爆炸，晚餐水果改換橘子多補充維生素C、膳食纖維、柑橘多酚、β-胡蘿蔔素和鉀之類的&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&#xA;&lt;h2 class=&#34;relative group&#34;&gt;📚 最近讀的/聽的/看的&#xA;    &lt;div id=&#34;-最近讀的聽的看的&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xA;    &#xA;    &lt;span&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#-%e6%9c%80%e8%bf%91%e8%ae%80%e7%9a%84%e8%81%bd%e7%9a%84%e7%9c%8b%e7%9a%84&#34; aria-label=&#34;定位點&#34;&gt;#&lt;/a&gt;&#xA;    &lt;/span&gt;&#xA;    &#xA;&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;🧾 &lt;a href=&#34;https://www.books.com.tw/exep/assp.php/scientia/products/0010587254?utm_source=scientia&amp;amp;utm_medium=ap-books&amp;amp;utm_content=recommend&amp;amp;utm_campaign=ap-202512&#34;  target=&#34;_blank&#34;&gt;《發現天賦之旅》&lt;/a&gt;：從自身出發到周遭的影響，從而發現自己的天賦與天命，如果對於自己的生命有所疑惑可以看看&lt;/li&gt;&#xA;&lt;li&gt;🎧 &lt;a href=&#34;https://mondayblueeee.firstory.io/episodes&#34;  target=&#34;_blank&#34;&gt;茫DAY不錄&lt;/a&gt;：不適合，那可能是濁水溪吧，不是河😐&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
       
     </item>
     
     <item>
       <title>推薦</title>
-      <link>https://hshuang.blog/links/</link>
+      <link>http://localhost:1313/links/</link>
       <pubDate>Wed, 31 Dec 2025 18:46:00 +0800</pubDate>
       
-      <guid>https://hshuang.blog/links/</guid>
+      <guid>http://localhost:1313/links/</guid>
       <description>&lt;p&gt;此頁面收錄有趣的文章、Podcast頻道、單曲或專輯&lt;/p&gt;&#xA;&#xA;&lt;h2 class=&#34;relative group&#34;&gt;📰 文章&#xA;    &lt;div id=&#34;-文章&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xA;    &#xA;    &lt;span&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#-%e6%96%87%e7%ab%a0&#34; aria-label=&#34;定位點&#34;&gt;#&lt;/a&gt;&#xA;    &lt;/span&gt;&#xA;    &#xA;&lt;/h2&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th&gt;文章標題&lt;/th&gt;&#xA;          &lt;th&gt;註解&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;&lt;a href=&#34;https://yaxuanhe.me/post/reading/&#34;  target=&#34;_blank&#34;&gt;閱讀是如何塑造我&lt;/a&gt;&lt;/td&gt;&#xA;          &lt;td&gt;光是一本書就濃縮了作者十幾、二十年的經驗，這個注意力缺乏的世代人們更應該重拾閱讀的時光&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;&lt;a href=&#34;https://alexhsu.com/zh/boredom/&#34;  target=&#34;_blank&#34;&gt;刻意無聊的力量：也許我們都是被數位時代的眾多娛樂給埋沒的天才？&lt;/a&gt;&lt;/td&gt;&#xA;          &lt;td&gt;我嘗試不再時時刻刻地用娛樂滿足自己，而是有意識的清空自己的腦袋暫存區&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;&lt;a href=&#34;https://yaxuanhe.me/post/reflection/&#34;  target=&#34;_blank&#34;&gt;世界是內心感受的投射&lt;/a&gt;&lt;/td&gt;&#xA;          &lt;td&gt;也許就是我老想著要讓自己快樂，才導致自己總是不快樂，快樂究竟是什麼&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&#xA;&lt;h2 class=&#34;relative group&#34;&gt;📻 Podcast&#xA;    &lt;div id=&#34;-podcast&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xA;    &#xA;    &lt;span&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#-podcast&#34; aria-label=&#34;定位點&#34;&gt;#&lt;/a&gt;&#xA;    &lt;/span&gt;&#xA;    &#xA;&lt;/h2&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th&gt;Podcast名稱&lt;/th&gt;&#xA;          &lt;th&gt;內容&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;&lt;a href=&#34;https://mondayblueeee.firstory.io/episodes&#34;  target=&#34;_blank&#34;&gt;茫DAY不錄&lt;/a&gt;&lt;/td&gt;&#xA;          &lt;td&gt;聊天型頻道，一堆爛笑話但我挺喜歡的(？)&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&#xA;&lt;h2 class=&#34;relative group&#34;&gt;🎸 音樂&#xA;    &lt;div id=&#34;-音樂&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xA;    &#xA;    &lt;span&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#-%e9%9f%b3%e6%a8%82&#34; aria-label=&#34;定位點&#34;&gt;#&lt;/a&gt;&#xA;    &lt;/span&gt;&#xA;    &#xA;&lt;/h2&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th&gt;樂團名稱&lt;/th&gt;&#xA;          &lt;th&gt;推薦專輯&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;&lt;a href=&#34;https://www.sorryyouth.com/&#34;  target=&#34;_blank&#34;&gt;拍謝少年SORRY YOUTH&lt;/a&gt;&lt;/td&gt;&#xA;          &lt;td&gt;&lt;a href=&#34;https://blow.streetvoice.com/38392/&#34;  target=&#34;_blank&#34;&gt;《兄弟沒夢不應該》&lt;/a&gt;，尤其暗流超多版本挺不錯的&lt;br&gt;&lt;a href=&#34;https://blow.streetvoice.com/54794/&#34;  target=&#34;_blank&#34;&gt;《歹勢好勢》&lt;/a&gt;，踅夜市的tone很打到我&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;&lt;a href=&#34;https://open.spotify.com/artist/55xE2cp7ka3MoZ1i9Vdg2q&#34;  target=&#34;_blank&#34;&gt;NANA&lt;/a&gt;&lt;/td&gt;&#xA;          &lt;td&gt;聽到&lt;a href=&#34;https://open.spotify.com/track/1uGBe7n7caad2CAyOpA5jw&#34;  target=&#34;_blank&#34;&gt;《壁紙是你揀的》&lt;/a&gt;這首才突然注意到這位台語爵士女歌手&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;&lt;a href=&#34;https://elephantgym.co/&#34;  target=&#34;_blank&#34;&gt;大象體操Elephant Gym&lt;/a&gt;&lt;/td&gt;&#xA;          &lt;td&gt;&lt;a href=&#34;https://elephantgym.co/music/%E5%B9%B3%E8%A1%A1-balance/&#34;  target=&#34;_blank&#34;&gt;《平衡 Balance》&lt;/a&gt;，第一張專輯出來就完全體現大象體操這個樂團玩數字搖滾的技術非常強&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;&lt;a href=&#34;https://streetvoice.com/SunsetSamuraiTW/&#34;  target=&#34;_blank&#34;&gt;夕陽武士&lt;/a&gt;&lt;/td&gt;&#xA;          &lt;td&gt;&lt;a href=&#34;https://streetvoice.com/SunsetSamuraiTW/songs/album/97257592/&#34;  target=&#34;_blank&#34;&gt;《日出》&lt;/a&gt;，主軸「關心」這個概念，關心社會、關心周遭的人、關心這個世界&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;&lt;a href=&#34;https://streetvoice.com/AOIMUSHIBAND/&#34;  target=&#34;_blank&#34;&gt;青虫 aoi&lt;/a&gt;&lt;/td&gt;&#xA;          &lt;td&gt;&lt;a href=&#34;https://blow.streetvoice.com/50227/&#34;  target=&#34;_blank&#34;&gt;《有你的故事》&lt;/a&gt;這張不錯&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;&lt;a href=&#34;https://zh.wikipedia.org/zh-tw/%E8%A1%80%E8%82%89%E6%9E%9C%E6%B1%81%E6%A9%9F&#34;  target=&#34;_blank&#34;&gt;血肉果汁機Flesh Juicer&lt;/a&gt;&lt;/td&gt;&#xA;          &lt;td&gt;&lt;a href=&#34;https://blow.streetvoice.com/52989/&#34;  target=&#34;_blank&#34;&gt;《GOLDEN 太子 BRO GOLDEN TAIZI BRO》&lt;/a&gt;，重金屬當時演唱會也不斷地突破極限&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;&lt;a href=&#34;https://blow.streetvoice.com/58263/&#34;  target=&#34;_blank&#34;&gt;非人物種&lt;/a&gt;&lt;/td&gt;&#xA;          &lt;td&gt;&lt;a href=&#34;https://streetvoice.com/punktv/songs/album/12504/&#34;  target=&#34;_blank&#34;&gt;《沒路》&lt;/a&gt;，20年一路走來&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;&lt;a href=&#34;https://streetvoice.com/Traveller/about/&#34;  target=&#34;_blank&#34;&gt;Traveller旅人&lt;/a&gt;&lt;/td&gt;&#xA;          &lt;td&gt;&lt;a href=&#34;https://open.spotify.com/album/1SDOloBgqnBeGJVQSbr7YA&#34;  target=&#34;_blank&#34;&gt;《社會豢養的畜牲》&lt;/a&gt;&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;&lt;a href=&#34;https://www.toe.st/&#34;  target=&#34;_blank&#34;&gt;toe&lt;/a&gt;&lt;/td&gt;&#xA;          &lt;td&gt;&lt;a href=&#34;https://toe-music.bandcamp.com/album/the-book-about-my-idle-plot-on-a-vague-anxiety&#34;  target=&#34;_blank&#34;&gt;《The Book About My Idle Plot on a Vague Anxiety》&lt;/a&gt;&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;&lt;a href=&#34;https://zh.wikipedia.org/zh-tw/%E5%85%88%E7%9F%A5%E7%91%AA%E8%8E%89&#34;  target=&#34;_blank&#34;&gt;先知瑪莉Mary See the Future&lt;/a&gt;&lt;/td&gt;&#xA;          &lt;td&gt;&lt;a href=&#34;https://www.kkbox.com/tw/tc/song/Om6bR7YdTsIBftbjKk&#34;  target=&#34;_blank&#34;&gt;《陸橋》&lt;/a&gt;，懷念過往的台語專輯&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;</description>
       
     </item>
     
     <item>
       <title>2025-12-31</title>
-      <link>https://hshuang.blog/micro/2025-12-31/</link>
+      <link>http://localhost:1313/micro/2025-12-31/</link>
       <pubDate>Wed, 31 Dec 2025 13:35:00 +0800</pubDate>
       
-      <guid>https://hshuang.blog/micro/2025-12-31/</guid>
+      <guid>http://localhost:1313/micro/2025-12-31/</guid>
       <description>&lt;p&gt;流汗的「低能蛋白」&lt;/p&gt;&#xA;&lt;img src=&#34;https://secologies.com/wp-content/uploads/2025/12/低能蛋白-scaled.webp&#34; alt=&#34;低能蛋白&#34; width=&#34;300&#34;/&gt;</description>
       
     </item>
     
     <item>
       <title>使用</title>
-      <link>https://hshuang.blog/use/</link>
+      <link>http://localhost:1313/use/</link>
       <pubDate>Wed, 31 Dec 2025 10:48:00 +0800</pubDate>
       
-      <guid>https://hshuang.blog/use/</guid>
+      <guid>http://localhost:1313/use/</guid>
       <description>&lt;p&gt;本頁介紹目前常用的物品或軟體&lt;/p&gt;&#xA;&#xA;&lt;h2 class=&#34;relative group&#34;&gt;🖥️ 電腦軟體&#xA;    &lt;div id=&#34;-電腦軟體&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xA;    &#xA;    &lt;span&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#-%e9%9b%bb%e8%85%a6%e8%bb%9f%e9%ab%94&#34; aria-label=&#34;定位點&#34;&gt;#&lt;/a&gt;&#xA;    &lt;/span&gt;&#xA;    &#xA;&lt;/h2&gt;&#xA;&#xA;&lt;h3 class=&#34;relative group&#34;&gt;💾 作業系統&#xA;    &lt;div id=&#34;-作業系統&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xA;    &#xA;    &lt;span&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#-%e4%bd%9c%e6%a5%ad%e7%b3%bb%e7%b5%b1&#34; aria-label=&#34;定位點&#34;&gt;#&lt;/a&gt;&#xA;    &lt;/span&gt;&#xA;    &#xA;&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;macOS - MacBook Pro M1 Max 16&amp;quot;用來寫文章、學術論文、音樂製作、剪片、錄音&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://ubuntu.com/download/desktop&#34;  target=&#34;_blank&#34;&gt;Ubuntu Desktop 24.04 LTS&lt;/a&gt; - &lt;a href=&#34;https://frame.work/tw/en/&#34;  target=&#34;_blank&#34;&gt;Framework Laptop 16&amp;quot;&lt;/a&gt;用來FPGA/SoC設計、網路安全防禦系統專案開發、CTF Reverse/Pwn解題工具、7B-13B Small Language Model跟一些ML/DL訓練&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&#xA;&lt;h3 class=&#34;relative group&#34;&gt;🌏 瀏覽器&#xA;    &lt;div id=&#34;-瀏覽器&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xA;    &#xA;    &lt;span&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#-%e7%80%8f%e8%a6%bd%e5%99%a8&#34; aria-label=&#34;定位點&#34;&gt;#&lt;/a&gt;&#xA;    &lt;/span&gt;&#xA;    &#xA;&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://brave.com/&#34;  target=&#34;_blank&#34;&gt;Brave&lt;/a&gt; - 內建廣告封鎖、阻擋追蹤程式的瀏覽器，設定得當的話可以預防惡意網站的跳轉&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&#xA;&lt;h3 class=&#34;relative group&#34;&gt;🧮 瀏覽器插件&#xA;    &lt;div id=&#34;-瀏覽器插件&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xA;    &#xA;    &lt;span&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#-%e7%80%8f%e8%a6%bd%e5%99%a8%e6%8f%92%e4%bb%b6&#34; aria-label=&#34;定位點&#34;&gt;#&lt;/a&gt;&#xA;    &lt;/span&gt;&#xA;    &#xA;&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://chromewebstore.google.com/detail/news-feed-eradicator/fjcldmjmjhkklehbacihaiopjklihlgg?hl=en&#34;  target=&#34;_blank&#34;&gt;News Feed Eradicator&lt;/a&gt; - 可以封鎖各社群媒體平台上的動態資訊，尤其是那些被演算法才推給我的資訊，我根本不在乎，畢竟我只需要Facebook上的市集跟二手商品社團&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://chromewebstore.google.com/detail/block-site/nkedbnokglppcmiencngilkkhhnpcfjb?hl=en&#34;  target=&#34;_blank&#34;&gt;Block Site&lt;/a&gt; - 免費版就可以封鎖多個自訂的網域，甚至連頁面上特定的iFrame都可以阻擋掉，對於我這種很容易在網路上迷失自我的人是很需要的&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&#xA;&lt;h3 class=&#34;relative group&#34;&gt;🗓️ 行程管理&#xA;    &lt;div id=&#34;-行程管理&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xA;    &#xA;    &lt;span&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#-%e8%a1%8c%e7%a8%8b%e7%ae%a1%e7%90%86&#34; aria-label=&#34;定位點&#34;&gt;#&lt;/a&gt;&#xA;    &lt;/span&gt;&#xA;    &#xA;&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Apple Calendar - macOS內建的行事曆軟體，紀錄每月事項進度&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&#xA;&lt;h3 class=&#34;relative group&#34;&gt;📟 終端機相關工具&#xA;    &lt;div id=&#34;-終端機相關工具&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xA;    &#xA;    &lt;span&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#-%e7%b5%82%e7%ab%af%e6%a9%9f%e7%9b%b8%e9%97%9c%e5%b7%a5%e5%85%b7&#34; aria-label=&#34;定位點&#34;&gt;#&lt;/a&gt;&#xA;    &lt;/span&gt;&#xA;    &#xA;&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://iterm2.com/&#34;  target=&#34;_blank&#34;&gt;iTerm2&lt;/a&gt; - 替代macOS裏粗糙的terminal，可以調顏色，寫code時也可以讓不同的變數跟function、feature染色&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.vim.org/&#34;  target=&#34;_blank&#34;&gt;Vim&lt;/a&gt; - 最強的終端機編輯器沒有之一，豐富的快捷鍵能讓你手指不離開鍵盤也能完成任何事&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/tmux/tmux/wiki&#34;  target=&#34;_blank&#34;&gt;tmux&lt;/a&gt; - 強大的終端機Session管理工具，遠端控制實驗通常要花很多時間常常實驗做一做就出去吃個飯，又害怕網路突然讓ssh斷線，有了session控管就可以把實驗結果叫回來，以及常常要開好幾個頁面調整code，tmux能夠開啟多組pane分別編輯不同的區塊&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&#xA;&lt;h3 class=&#34;relative group&#34;&gt;📊 簡報&#xA;    &lt;div id=&#34;-簡報&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xA;    &#xA;    &lt;span&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#-%e7%b0%a1%e5%a0%b1&#34; aria-label=&#34;定位點&#34;&gt;#&lt;/a&gt;&#xA;    &lt;/span&gt;&#xA;    &#xA;&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.overleaf.com/learn/latex/Beamer&#34;  target=&#34;_blank&#34;&gt;Overleaf Beamer&lt;/a&gt; - 常用於學術簡報中，原生支援各式各樣的數學公式，可以在&lt;a href=&#34;https://www.overleaf.com/&#34;  target=&#34;_blank&#34;&gt;Overleaf&lt;/a&gt;上使用或者在電腦上安裝Latex編譯器實作，對於熟悉Latex語法的使用者來說是快速完成簡報的利器，不需要花力氣管模板的排版&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&#xA;&lt;h3 class=&#34;relative group&#34;&gt;📝 筆記軟體/編輯器&#xA;    &lt;div id=&#34;-筆記軟體編輯器&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xA;    &#xA;    &lt;span&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#-%e7%ad%86%e8%a8%98%e8%bb%9f%e9%ab%94%e7%b7%a8%e8%bc%af%e5%99%a8&#34; aria-label=&#34;定位點&#34;&gt;#&lt;/a&gt;&#xA;    &lt;/span&gt;&#xA;    &#xA;&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://obsidian.md/&#34;  target=&#34;_blank&#34;&gt;Obsidian&lt;/a&gt; - 免費且開源的筆記軟體，用來撰寫卡片盒筆記很方便，Canvas功能雖與Heptabase的白板相比之下稍嫌不足，但搭配眾多開發者的套件我覺得Obsidian很好用&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://code.visualstudio.com/&#34;  target=&#34;_blank&#34;&gt;VSCode&lt;/a&gt; - 用來做Latex Beamer簡報，設計網頁時也比較方便&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&#xA;&lt;h3 class=&#34;relative group&#34;&gt;🗂️ 學術軟體&#xA;    &lt;div id=&#34;-學術軟體&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xA;    &#xA;    &lt;span&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#-%e5%ad%b8%e8%a1%93%e8%bb%9f%e9%ab%94&#34; aria-label=&#34;定位點&#34;&gt;#&lt;/a&gt;&#xA;    &lt;/span&gt;&#xA;    &#xA;&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://endnote.com/&#34;  target=&#34;_blank&#34;&gt;EndNote&lt;/a&gt; - 幾乎每間大學都有購買EndNote的校園授權，除了給校內教師使用，研究生用來記載自己看過的paper，要插入到word或者overleaf裡都很方便&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.zotero.org/&#34;  target=&#34;_blank&#34;&gt;Zotero&lt;/a&gt; - Open Source版本的文獻管理工具，如果未來離開了大學或學術單位後也必須有個備份方案，其中zotero是最多人使用的&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://pages.uoregon.edu/koch/texshop/&#34;  target=&#34;_blank&#34;&gt;TeXShop&lt;/a&gt; - 在macOS上搭配VSCode編輯Tex檔案，也可以在local端編譯，之前有一次晚上Overleaf網站掛掉時我正在趕報告，搞得我心急如焚所以才想到也必須有備援方案，建議把Overleaf上心儀的模板也備份一組到硬碟中&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&#xA;&lt;h3 class=&#34;relative group&#34;&gt;💬 通訊軟體&#xA;    &lt;div id=&#34;-通訊軟體&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xA;    &#xA;    &lt;span&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#-%e9%80%9a%e8%a8%8a%e8%bb%9f%e9%ab%94&#34; aria-label=&#34;定位點&#34;&gt;#&lt;/a&gt;&#xA;    &lt;/span&gt;&#xA;    &#xA;&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;LINE - 微服務架構越塞越多導致LINE佔容量越來越多，在我手機裡這應該是耗費最多儲存空間的APP，但很常用Line Pay所以還脫離不了&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&#xA;&lt;h3 class=&#34;relative group&#34;&gt;🎞️ 影片製作&#xA;    &lt;div id=&#34;-影片製作&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xA;    &#xA;    &lt;span&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#-%e5%bd%b1%e7%89%87%e8%a3%bd%e4%bd%9c&#34; aria-label=&#34;定位點&#34;&gt;#&lt;/a&gt;&#xA;    &lt;/span&gt;&#xA;    &#xA;&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.apple.com/final-cut-pro/&#34;  target=&#34;_blank&#34;&gt;Final Cut Pro&lt;/a&gt; - macOS上最受歡迎的剪輯軟體，也是我被綁在MacBook上的原因之一&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://streamlabs.com/&#34;  target=&#34;_blank&#34;&gt;Streamlabs&lt;/a&gt; - 底層用OBS開發的優化版，雖然OBS可以安裝各種插件輔助，但對於macOS使用上會有些卡頓，相較之下Streamlabs改良一些功能不會吃電腦太多資源，一樣可以用來實況跟錄影，尤其pane式錄影可以同時把螢幕畫面跟視訊鏡頭一起搭配麥克風音源一併錄下&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&#xA;&lt;h3 class=&#34;relative group&#34;&gt;💻 網站製作&#xA;    &lt;div id=&#34;-網站製作&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xA;    &#xA;    &lt;span&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#-%e7%b6%b2%e7%ab%99%e8%a3%bd%e4%bd%9c&#34; aria-label=&#34;定位點&#34;&gt;#&lt;/a&gt;&#xA;    &lt;/span&gt;&#xA;    &#xA;&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://wordpress.org/download/&#34;  target=&#34;_blank&#34;&gt;Wordpress&lt;/a&gt; - 知名的動態網站系統，如果有表單或互動需求就只能依賴有資料庫的系統，基本上只建議買自己的VPS安裝wordpress.org，別買wordpress.com裡的空間，那個太浪費錢了&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://gohugo.io/&#34;  target=&#34;_blank&#34;&gt;Hugo&lt;/a&gt; - 靜態網頁生成套件，搭配Cloudflare Pages就可以做出非常精美的網站了&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&#xA;&lt;h2 class=&#34;relative group&#34;&gt;📜 電子紙產品&#xA;    &lt;div id=&#34;-電子紙產品&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xA;    &#xA;    &lt;span&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#-%e9%9b%bb%e5%ad%90%e7%b4%99%e7%94%a2%e5%93%81&#34; aria-label=&#34;定位點&#34;&gt;#&lt;/a&gt;&#xA;    &lt;/span&gt;&#xA;    &#xA;&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://moo.im/a/luyzKS&#34;  target=&#34;_blank&#34;&gt;Readmoo Mooink Pro 2C&lt;/a&gt; - Readmoo讀墨推出的13.3吋彩色電子書閱讀器，柔性螢幕讓機器非常輕薄，讓我在看paper時可以手持走動，也可以在教課時一手握著另一手寫黑板，做研究時的好夥伴，可以看&lt;a href=&#34;https://hshuang.blog/p/readmoo-mooink-pro-2c/&#34;  target=&#34;_blank&#34;&gt;《讀墨 Readmoo mooInk Pro 2C 13.3吋 彩色電子書閱讀器 閱讀PDF檔案的應許之機》&lt;/a&gt;這篇來詳細瞭解&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://r10.to/hkkbYN&#34;  target=&#34;_blank&#34;&gt;Kobo Clara BW&lt;/a&gt; - Kobo最小尺寸6吋黑白機器，外出時非常好用，我的褲子口袋剛好可以完美裝進去&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&#xA;&lt;h2 class=&#34;relative group&#34;&gt;☁️  線上服務&#xA;    &lt;div id=&#34;--線上服務&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xA;    &#xA;    &lt;span&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#--%e7%b7%9a%e4%b8%8a%e6%9c%8d%e5%8b%99&#34; aria-label=&#34;定位點&#34;&gt;#&lt;/a&gt;&#xA;    &lt;/span&gt;&#xA;    &#xA;&lt;/h2&gt;&#xA;&#xA;&lt;h3 class=&#34;relative group&#34;&gt;💰 訂閱制服務&#xA;    &lt;div id=&#34;-訂閱制服務&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xA;    &#xA;    &lt;span&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#-%e8%a8%82%e9%96%b1%e5%88%b6%e6%9c%8d%e5%8b%99&#34; aria-label=&#34;定位點&#34;&gt;#&lt;/a&gt;&#xA;    &lt;/span&gt;&#xA;    &#xA;&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.namecheap.com/wordpress/&#34;  target=&#34;_blank&#34;&gt;EasyWP WordPress Hosting&lt;/a&gt; - Namecheap推出的wordpress shared主機，但亞洲沒有伺服器可以選有點煩&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.cloudflare.com/products/registrar/&#34;  target=&#34;_blank&#34;&gt;Cloudflare Registrar&lt;/a&gt; - Cloudflare出租網域的地方，基本上他們家網域定價完後都是固定價格，不像GoDaddy、Namecheap、Wix、Hostinger之類的網域商讓價格一直浮動，我明白你們第一年價格便宜是想吸引消費者，但第二年之後價格反彈是在搞心態嗎&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&#xA;&lt;h3 class=&#34;relative group&#34;&gt;🖌 寫作平台&#xA;    &lt;div id=&#34;-寫作平台&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xA;    &#xA;    &lt;span&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#-%e5%af%ab%e4%bd%9c%e5%b9%b3%e5%8f%b0&#34; aria-label=&#34;定位點&#34;&gt;#&lt;/a&gt;&#xA;    &lt;/span&gt;&#xA;    &#xA;&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.overleaf.com/&#34;  target=&#34;_blank&#34;&gt;Overleaf&lt;/a&gt; - 線上學術寫作編輯器，有許多大學提供各式各樣的模板，用校園信箱註冊認證可以升級成Premium方案，多人共同編輯時非常好用&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&#xA;&lt;h3 class=&#34;relative group&#34;&gt;📝 學習平台&#xA;    &lt;div id=&#34;-學習平台&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xA;    &#xA;    &lt;span&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#-%e5%ad%b8%e7%bf%92%e5%b9%b3%e5%8f%b0&#34; aria-label=&#34;定位點&#34;&gt;#&lt;/a&gt;&#xA;    &lt;/span&gt;&#xA;    &#xA;&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://affone.site/track/clicks/4546/c627c2bc980426d6fa83ec23d62e9642236e48df2aabebf00264b413210652aa8272f4&#34;  target=&#34;_blank&#34;&gt;Udemy&lt;/a&gt; - 付費平台中可以低價購買課程使用權而不是強制訂閱制的，常常會有幾千塊的課程降價為270、290、320台幣等等的優惠時段&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.coursera.org/&#34;  target=&#34;_blank&#34;&gt;Coursera&lt;/a&gt; - 全球最多免費課程的平台，甚至Google或其他大公司還有提供免費認證&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.edx.org/&#34;  target=&#34;_blank&#34;&gt;edX&lt;/a&gt; - 收集MIT, Harvard, UC Berkeley, Cambridge, Columbia還有其他間美國大學等錄製的免費線上課程&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.futurelearn.com/&#34;  target=&#34;_blank&#34;&gt;Future Learn&lt;/a&gt; - 一樣是蒐錄各大學的線上課程平台&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://ocw.aca.ntu.edu.tw/&#34;  target=&#34;_blank&#34;&gt;台灣大學開放式課程&lt;/a&gt; - 台大建立的自家開放式課程平台&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://ocw.nycu.edu.tw/&#34;  target=&#34;_blank&#34;&gt;陽明交通大學開放式課程&lt;/a&gt; - 交大的開放式課程平台，但大多數還是以前單一學校錄製的影片較多，陽明的醫學課程影片還很少，但電機資訊學院錄的很多&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://ocw.nthu.edu.tw/ocw/index.php&#34;  target=&#34;_blank&#34;&gt;清華大學開放式課程&lt;/a&gt; - 清大建立的開放式課程平台，人文社會科學類的課程蠻豐富的&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&#xA;&lt;h3 class=&#34;relative group&#34;&gt;🗃 電子書平台&#xA;    &lt;div id=&#34;-電子書平台&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xA;    &#xA;    &lt;span&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#-%e9%9b%bb%e5%ad%90%e6%9b%b8%e5%b9%b3%e5%8f%b0&#34; aria-label=&#34;定位點&#34;&gt;#&lt;/a&gt;&#xA;    &lt;/span&gt;&#xA;    &#xA;&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://r10.to/hklN84&#34;  target=&#34;_blank&#34;&gt;Kobo&lt;/a&gt; - 全球非常活躍的多語言電子書平台，滿足我需要繁體中文書以及英文書的需求，每日都有99元優惠&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://moo.im/a/1iknoH&#34;  target=&#34;_blank&#34;&gt;讀墨&lt;/a&gt; - 台灣最大繁體中文電子書平台，常常會有一些閱讀馬拉松活動，官方Facebook社團也很活躍討論，也有每日優惠但價格會跟出版社討論所以有時是99元但也可能99元以上&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://wonderfulapple.net/3NP0J&#34;  target=&#34;_blank&#34;&gt;Hyread&lt;/a&gt; - 在台灣以圖書館借閱服務最為盛行，hyread跟眾多台灣的圖書館進行館藏合作，幾乎大學都可以使用他們的電子資源，甚至hyread還有蒐錄在台灣出版的期刊&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&#xA;&lt;h2 class=&#34;relative group&#34;&gt;🎶 音樂相關&#xA;    &lt;div id=&#34;-音樂相關&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xA;    &#xA;    &lt;span&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#-%e9%9f%b3%e6%a8%82%e7%9b%b8%e9%97%9c&#34; aria-label=&#34;定位點&#34;&gt;#&lt;/a&gt;&#xA;    &lt;/span&gt;&#xA;    &#xA;&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://tw.yamaha.com/zh/products/musical_instruments/pianos/p_series/p-125a/index.html&#34;  target=&#34;_blank&#34;&gt;YAMAHA P-125a&lt;/a&gt; - 我主要練琴用的數位電剛琴&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://novationmusic.com/products/launchkey-61&#34;  target=&#34;_blank&#34;&gt;Novation Launchkey 61 MK4&lt;/a&gt; - 我的主要MIDI主控鍵盤&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.apple.com/logic-pro/&#34;  target=&#34;_blank&#34;&gt;Logic Pro&lt;/a&gt; - macOS上最受歡迎的DAW，搭配各式各樣的插件就可以模擬許多可能性，只靠MIDI鍵盤還是可以玩得很開心&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://evo.audio/products/audio-interfaces/evo-4/overview/&#34;  target=&#34;_blank&#34;&gt;Audient Evo 4&lt;/a&gt; - 入門級錄音介面，我用數位鋼琴輸出TRS插一組line孔開立體聲監聽對於初學者來說就很夠用了&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
       
     </item>
     
     <item>
       <title>人生清單</title>
-      <link>https://hshuang.blog/bucket-list/</link>
+      <link>http://localhost:1313/bucket-list/</link>
       <pubDate>Sun, 28 Dec 2025 13:39:00 +0800</pubDate>
       
-      <guid>https://hshuang.blog/bucket-list/</guid>
+      <guid>http://localhost:1313/bucket-list/</guid>
       <description>&lt;p&gt;如果說對於自己的人生感到焦慮，似乎覺得某個年紀時就必須何種成就，不斷地將自己的生活跟其他人作比較，那樣活著也太痛苦，所以我決定規劃自己的人生清單，試著不去在乎幾歲時應該要做什麼事，而是把這一生想做的事情都做完，我就覺得生命圓滿，充滿意義了&lt;/p&gt;</description>
       
     </item>
     
     <item>
       <title>關於</title>
-      <link>https://hshuang.blog/about/</link>
+      <link>http://localhost:1313/about/</link>
       <pubDate>Fri, 26 Dec 2025 16:01:00 +0800</pubDate>
       
-      <guid>https://hshuang.blog/about/</guid>
+      <guid>http://localhost:1313/about/</guid>
       <description>&lt;script&gt;var ConverlyCustomData = {channelId: null};&lt;/script&gt;&#xA;&lt;script async defer src=&#34;https://cdn.affiliates.one/production/adlinks/9632d86e82ddae2c6327eb55c530875fb8f852063ff7075dd96c7f802672af39.js&#34;&gt;&lt;/script&gt;&#xA;&lt;p&gt;介紹本站與我&lt;/p&gt;&#xA;&#xA;&lt;h2 class=&#34;relative group&#34;&gt;關於本站&#xA;    &lt;div id=&#34;關於本站&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xA;    &#xA;    &lt;span&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#%e9%97%9c%e6%96%bc%e6%9c%ac%e7%ab%99&#34; aria-label=&#34;定位點&#34;&gt;#&lt;/a&gt;&#xA;    &lt;/span&gt;&#xA;    &#xA;&lt;/h2&gt;&#xA;&lt;p&gt;此部落格主要記錄我所有好奇跟想做的事情&lt;/p&gt;&#xA;&lt;p&gt;訂閱本站RSS的話請用這個連結：&lt;a href=&#34;https://hshuang.blog/index.xml&#34;  target=&#34;_blank&#34;&gt;RSS&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;歡迎逛逛我的資安部落格：&lt;a href=&#34;https://secologies.com/zh&#34;  target=&#34;_blank&#34;&gt;Secologies&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;任何問題請寄到信箱內：hshuang@hshuang.blog&lt;/p&gt;</description>
       
     </item>
     
     <item>
       <title>利用Cloudflare Domain搭配Gmail建立私人電子信箱</title>
-      <link>https://hshuang.blog/posts/cloudflare-domain-create-free-private-email-using-gmail/</link>
+      <link>http://localhost:1313/posts/cloudflare-domain-create-free-private-email-using-gmail/</link>
       <pubDate>Fri, 26 Dec 2025 15:59:00 +0800</pubDate>
       
-      <guid>https://hshuang.blog/posts/cloudflare-domain-create-free-private-email-using-gmail/</guid>
+      <guid>http://localhost:1313/posts/cloudflare-domain-create-free-private-email-using-gmail/</guid>
       <description>個人化電子郵件信箱讓你看起來更專業，本文向各位介紹如何利用Cloudflare購買的網域搭配免費的Gmail來建立私人信箱</description>
       
     </item>
     
     <item>
       <title>圖冊</title>
-      <link>https://hshuang.blog/gallery/</link>
+      <link>http://localhost:1313/gallery/</link>
       <pubDate>Sun, 21 Dec 2025 13:56:00 +0800</pubDate>
       
-      <guid>https://hshuang.blog/gallery/</guid>
-      <description>&lt;div class=&#34;width-patch&#34;&gt;&lt;/div&gt;&#xA;&lt;div id=&#34;gallery-882755e774880afe2028bca7afea7810&#34; class=&#34;gallery&#34;&gt;&#xA;  &#xA;&lt;!--&lt;img src=&#34;&#34; alt=&#34;&#34; class=&#34;grid-w50 md:grid-w33 xl:grid-w25&#34;/&gt; --&gt;&#xA;&lt;img src=&#34;https://hshuang.blog/%E6%88%90%E5%8A%9F%E6%B9%96%E4%BA%8C%E8%99%9F%E9%B4%A8-scaled_14301874872426059048.webp&#34; alt=&#34;成功湖二號鴨&#34; class=&#34;grid-w50 md:grid-w33 xl:grid-w25&#34;/&gt;&#xA;&lt;img src=&#34;https://hshuang.blog/%E5%B7%A7%E5%B7%A7%E8%88%87%E7%89%9B%E6%8E%92-scaled_12572905202393290506.webp&#34; alt=&#34;巧巧與牛排&#34; class=&#34;grid-w50 md:grid-w33 xl:grid-w25&#34;  /&gt;&#xA;&lt;img src=&#34;https://hshuang.blog/%E6%97%A6%E8%95%89-scaled_13308018799373813284.webp&#34; alt=&#34;旦蕉&#34; class=&#34;grid-w50 md:grid-w33 xl:grid-w25&#34;  /&gt;&#xA;&lt;img src=&#34;https://hshuang.blog/%E6%97%A5%E6%97%A5%E6%98%AF%E5%A5%BD%E6%97%A5-scaled_10723021671128020501.webp&#34; alt=&#34;日日是好日&#34; class=&#34;grid-w50 md:grid-w33 xl:grid-w25&#34;  /&gt;&#xA;&lt;img src=&#34;https://hshuang.blog/%E9%9B%B2%E8%B1%B9-%E8%97%9D%E8%A1%93%E5%AE%B6%E7%8E%8B%E9%BC%8E%E5%85%83-scaled_35907590143538633.webp&#34; alt=&#34;雲豹-省思Reflection-藝術家王鼎元&#34; class=&#34;grid-w50 md:grid-w33 xl:grid-w25&#34;  /&gt;&#xA;&lt;img src=&#34;https://hshuang.blog/%E6%88%90%E5%8A%9F%E6%B9%96%E5%A4%A7%E7%99%BD%E9%B5%9D-scaled_10962733197993960106.webp&#34; alt=&#34;成功湖大白鵝&#34; class=&#34;grid-w50 md:grid-w33 xl:grid-w25&#34;  /&gt;&#xA;&lt;img src=&#34;https://hshuang.blog/%E8%B7%AF%E6%BC%AB%E6%BC%AB%E5%85%B6%E4%BF%AE%E9%81%A0%E5%85%AE%EF%BC%8C%E5%90%BE%E5%B0%87%E4%B8%8A%E4%B8%8B%E8%80%8C%E6%B1%82%E7%B4%A2%E2%80%94%E2%80%94%E5%B1%88%E5%8E%9F-scaled_877728510673764501.webp&#34; alt=&#34;路漫漫其修遠兮，吾將上下而求索——屈原&#34; class=&#34;grid-w50 md:grid-w33 xl:grid-w25&#34;  /&gt;&#xA;&lt;img src=&#34;https://hshuang.blog/%E8%BF%B7%E4%BD%A0%E9%A6%AC-%E8%97%9D%E8%A1%93%E5%AE%B6%E7%8E%8B%E9%BC%8E%E5%85%83-scaled_2956541079302486761.webp&#34; alt=&#34;迷你馬-省思Reflection-藝術家王鼎元&#34; class=&#34;grid-w50 md:grid-w33 xl:grid-w25&#34;  /&gt;&#xA;&lt;img src=&#34;https://hshuang.blog/%E6%B0%B4%E7%89%9B-%E8%97%9D%E8%A1%93%E5%AE%B6%E7%8E%8B%E9%BC%8E%E5%85%83-scaled_5302080903141114286.webp&#34; alt=&#34;水牛-省思Reflection-藝術家王鼎元&#34; class=&#34;grid-w50 md:grid-w33 xl:grid-w25&#34;  /&gt;&#xA;&lt;img src=&#34;https://hshuang.blog/%E8%83%A1%E8%92%99-%E8%97%9D%E8%A1%93%E5%AE%B6%E7%8E%8B%E9%BC%8E%E5%85%83-scaled_4338182078736843604.webp&#34; alt=&#34;胡蒙-省思Reflection-藝術家王鼎元&#34; class=&#34;grid-w50 md:grid-w33 xl:grid-w25&#34;  /&gt;&#xA;&lt;img src=&#34;https://hshuang.blog/%E6%B0%82%E7%89%9B-%E8%97%9D%E8%A1%93%E5%AE%B6%E7%8E%8B%E9%BC%8E%E5%85%83-scaled_2415025259409859951.webp&#34; alt=&#34;氂牛-省思Reflection-藝術家王鼎元&#34; class=&#34;grid-w50 md:grid-w33 xl:grid-w25&#34;  /&gt;&#xA;&lt;img src=&#34;https://hshuang.blog/%E6%A2%85%E8%8A%B1%E9%B9%BF-%E8%97%9D%E8%A1%93%E5%AE%B6%E7%8E%8B%E9%BC%8E%E5%85%83-scaled_3503174264534326867.webp&#34; alt=&#34;梅花鹿-省思Reflection-藝術家王鼎元&#34; class=&#34;grid-w50 md:grid-w33 xl:grid-w25&#34;  /&gt;&#xA;&lt;img src=&#34;https://hshuang.blog/20251025-%E5%B8%8C%E8%87%98%E5%BC%8F%E5%84%AA%E9%85%AA-scaled_9342684438124967648.webp&#34; alt=&#34;希臘式優格&#34; class=&#34;grid-w50 md:grid-w33 xl:grid-w25&#34;  /&gt;&#xA;&lt;img src=&#34;https://hshuang.blog/20251030-%E5%92%8C%E5%BE%B7%E6%98%8C%E5%A4%A7%E9%BA%A5%E5%85%8B%E8%B2%B4%E8%B3%93%E5%88%B8-scaled_3888284330188813541.webp&#34; alt=&#34;和德昌大麥克貴賓券&#34; class=&#34;grid-w50 md:grid-w33 xl:grid-w25&#34;  /&gt;&#xA;&lt;img src=&#34;https://hshuang.blog/IMG_0400-scaled_5236851380577088366.webp&#34; alt=&#34;讀墨mooInk Pro 2C 13.3吋電子書閱讀器&#34; class=&#34;grid-w50 md:grid-w33 xl:grid-w25&#34; /&gt;&#xA;&lt;/div&gt;</description>
+      <guid>http://localhost:1313/gallery/</guid>
+      <description>&lt;div class=&#34;width-patch&#34;&gt;&lt;/div&gt;&#xA;&lt;div id=&#34;gallery-882755e774880afe2028bca7afea7810&#34; class=&#34;gallery&#34;&gt;&#xA;  &#xA;&lt;!--&lt;img src=&#34;&#34; alt=&#34;&#34; class=&#34;grid-w50 md:grid-w33 xl:grid-w25&#34;/&gt; --&gt;&#xA;&lt;img src=&#34;http://localhost:1313/%E6%88%90%E5%8A%9F%E6%B9%96%E4%BA%8C%E8%99%9F%E9%B4%A8-scaled_14301874872426059048.webp&#34; alt=&#34;成功湖二號鴨&#34; class=&#34;grid-w50 md:grid-w33 xl:grid-w25&#34;/&gt;&#xA;&lt;img src=&#34;http://localhost:1313/%E5%B7%A7%E5%B7%A7%E8%88%87%E7%89%9B%E6%8E%92-scaled_12572905202393290506.webp&#34; alt=&#34;巧巧與牛排&#34; class=&#34;grid-w50 md:grid-w33 xl:grid-w25&#34;  /&gt;&#xA;&lt;img src=&#34;http://localhost:1313/%E6%97%A6%E8%95%89-scaled_13308018799373813284.webp&#34; alt=&#34;旦蕉&#34; class=&#34;grid-w50 md:grid-w33 xl:grid-w25&#34;  /&gt;&#xA;&lt;img src=&#34;http://localhost:1313/%E6%97%A5%E6%97%A5%E6%98%AF%E5%A5%BD%E6%97%A5-scaled_10723021671128020501.webp&#34; alt=&#34;日日是好日&#34; class=&#34;grid-w50 md:grid-w33 xl:grid-w25&#34;  /&gt;&#xA;&lt;img src=&#34;http://localhost:1313/%E9%9B%B2%E8%B1%B9-%E8%97%9D%E8%A1%93%E5%AE%B6%E7%8E%8B%E9%BC%8E%E5%85%83-scaled_35907590143538633.webp&#34; alt=&#34;雲豹-省思Reflection-藝術家王鼎元&#34; class=&#34;grid-w50 md:grid-w33 xl:grid-w25&#34;  /&gt;&#xA;&lt;img src=&#34;http://localhost:1313/%E6%88%90%E5%8A%9F%E6%B9%96%E5%A4%A7%E7%99%BD%E9%B5%9D-scaled_10962733197993960106.webp&#34; alt=&#34;成功湖大白鵝&#34; class=&#34;grid-w50 md:grid-w33 xl:grid-w25&#34;  /&gt;&#xA;&lt;img src=&#34;http://localhost:1313/%E8%B7%AF%E6%BC%AB%E6%BC%AB%E5%85%B6%E4%BF%AE%E9%81%A0%E5%85%AE%EF%BC%8C%E5%90%BE%E5%B0%87%E4%B8%8A%E4%B8%8B%E8%80%8C%E6%B1%82%E7%B4%A2%E2%80%94%E2%80%94%E5%B1%88%E5%8E%9F-scaled_877728510673764501.webp&#34; alt=&#34;路漫漫其修遠兮，吾將上下而求索——屈原&#34; class=&#34;grid-w50 md:grid-w33 xl:grid-w25&#34;  /&gt;&#xA;&lt;img src=&#34;http://localhost:1313/%E8%BF%B7%E4%BD%A0%E9%A6%AC-%E8%97%9D%E8%A1%93%E5%AE%B6%E7%8E%8B%E9%BC%8E%E5%85%83-scaled_2956541079302486761.webp&#34; alt=&#34;迷你馬-省思Reflection-藝術家王鼎元&#34; class=&#34;grid-w50 md:grid-w33 xl:grid-w25&#34;  /&gt;&#xA;&lt;img src=&#34;http://localhost:1313/%E6%B0%B4%E7%89%9B-%E8%97%9D%E8%A1%93%E5%AE%B6%E7%8E%8B%E9%BC%8E%E5%85%83-scaled_5302080903141114286.webp&#34; alt=&#34;水牛-省思Reflection-藝術家王鼎元&#34; class=&#34;grid-w50 md:grid-w33 xl:grid-w25&#34;  /&gt;&#xA;&lt;img src=&#34;http://localhost:1313/%E8%83%A1%E8%92%99-%E8%97%9D%E8%A1%93%E5%AE%B6%E7%8E%8B%E9%BC%8E%E5%85%83-scaled_4338182078736843604.webp&#34; alt=&#34;胡蒙-省思Reflection-藝術家王鼎元&#34; class=&#34;grid-w50 md:grid-w33 xl:grid-w25&#34;  /&gt;&#xA;&lt;img src=&#34;http://localhost:1313/%E6%B0%82%E7%89%9B-%E8%97%9D%E8%A1%93%E5%AE%B6%E7%8E%8B%E9%BC%8E%E5%85%83-scaled_2415025259409859951.webp&#34; alt=&#34;氂牛-省思Reflection-藝術家王鼎元&#34; class=&#34;grid-w50 md:grid-w33 xl:grid-w25&#34;  /&gt;&#xA;&lt;img src=&#34;http://localhost:1313/%E6%A2%85%E8%8A%B1%E9%B9%BF-%E8%97%9D%E8%A1%93%E5%AE%B6%E7%8E%8B%E9%BC%8E%E5%85%83-scaled_3503174264534326867.webp&#34; alt=&#34;梅花鹿-省思Reflection-藝術家王鼎元&#34; class=&#34;grid-w50 md:grid-w33 xl:grid-w25&#34;  /&gt;&#xA;&lt;img src=&#34;http://localhost:1313/20251025-%E5%B8%8C%E8%87%98%E5%BC%8F%E5%84%AA%E9%85%AA-scaled_9342684438124967648.webp&#34; alt=&#34;希臘式優格&#34; class=&#34;grid-w50 md:grid-w33 xl:grid-w25&#34;  /&gt;&#xA;&lt;img src=&#34;http://localhost:1313/20251030-%E5%92%8C%E5%BE%B7%E6%98%8C%E5%A4%A7%E9%BA%A5%E5%85%8B%E8%B2%B4%E8%B3%93%E5%88%B8-scaled_3888284330188813541.webp&#34; alt=&#34;和德昌大麥克貴賓券&#34; class=&#34;grid-w50 md:grid-w33 xl:grid-w25&#34;  /&gt;&#xA;&lt;img src=&#34;http://localhost:1313/IMG_0400-scaled_5236851380577088366.webp&#34; alt=&#34;讀墨mooInk Pro 2C 13.3吋電子書閱讀器&#34; class=&#34;grid-w50 md:grid-w33 xl:grid-w25&#34; /&gt;&#xA;&lt;/div&gt;</description>
       
     </item>
     
     <item>
       <title>再見祖克柏</title>
-      <link>https://hshuang.blog/posts/sayonara-zuckerberg/</link>
+      <link>http://localhost:1313/posts/sayonara-zuckerberg/</link>
       <pubDate>Sat, 20 Dec 2025 00:01:00 +0800</pubDate>
       
-      <guid>https://hshuang.blog/posts/sayonara-zuckerberg/</guid>
+      <guid>http://localhost:1313/posts/sayonara-zuckerberg/</guid>
       <description>我生命中最美好的事物從沒有在社群平台上出現，如果繼續讓祖克柏控制我的大腦，也許有一天我會支離破碎吧</description>
       
     </item>
     
     <item>
       <title>支持本站</title>
-      <link>https://hshuang.blog/support/</link>
+      <link>http://localhost:1313/support/</link>
       <pubDate>Fri, 19 Dec 2025 15:11:00 +0800</pubDate>
       
-      <guid>https://hshuang.blog/support/</guid>
+      <guid>http://localhost:1313/support/</guid>
       <description>&lt;p&gt;如果覺得此部落格內容有幫助到你，而你也有能力支持站長的話，希望可以考慮幫助《Hong-Sheng Huang&amp;rsquo;s Blog》，支持這個用愛發電的部落格 ，讓這個部落格能夠繼續健康的經營下去，為各位讀者帶來更多有趣的內容&lt;/p&gt;&#xA;&lt;p&gt;本站使用綠界科技作為介面，另外請記得輸入你的電子郵件信箱，以便未來寄送贊助者資訊至你的信箱&lt;/p&gt;</description>
       
     </item>
     
     <item>
       <title>2025-12-13</title>
-      <link>https://hshuang.blog/micro/2025-12-13/</link>
+      <link>http://localhost:1313/micro/2025-12-13/</link>
       <pubDate>Sat, 13 Dec 2025 18:45:00 +0800</pubDate>
       
-      <guid>https://hshuang.blog/micro/2025-12-13/</guid>
+      <guid>http://localhost:1313/micro/2025-12-13/</guid>
       <description>&lt;p&gt;維克·華德瓦(Vivek Wadhwa)教授觀察的好&lt;/p&gt;&#xA;&lt;p&gt;「你大學選擇的科系，並非100%與你的成就或人生發展有直接關係」&lt;/p&gt;&#xA;&lt;p&gt;你跟我更應該去看注重的因素是，&amp;ldquo;動機&amp;rdquo;、&amp;ldquo;動力&amp;rdquo;、&amp;ldquo;從錯誤中學習的能力(自省)&amp;quot;，最後加上你&amp;quot;付出了多少努力&amp;quot;去達成目標&lt;/p&gt;</description>
       
     </item>
     
     <item>
       <title>訂閱電子報</title>
-      <link>https://hshuang.blog/newsletter/</link>
+      <link>http://localhost:1313/newsletter/</link>
       <pubDate>Sat, 29 Nov 2025 19:40:00 +0800</pubDate>
       
-      <guid>https://hshuang.blog/newsletter/</guid>
+      <guid>http://localhost:1313/newsletter/</guid>
       <description>&lt;p&gt;每月寄送一至兩封當月彙整資訊&lt;/p&gt;&#xA;&lt;div id=&#34;mc_embed_shell&#34;&gt;&#xA;      &lt;link href=&#34;//cdn-images.mailchimp.com/embedcode/classic-061523.css&#34; rel=&#34;stylesheet&#34; type=&#34;text/css&#34;&gt;&#xA;  &lt;style type=&#34;text/css&#34;&gt;&#xA;           #mc_embed_signup{background: var(--card-background); clear:left; font:14px Helvetica,Arial,sans-serif; width: 600px; max-width: 100%;}&#xA;        /* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.&#xA;           We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */&#xA;&lt;/style&gt;&#xA;&lt;div id=&#34;mc_embed_signup&#34;&gt;&#xA;    &lt;form action=&#34;https://live.us12.list-manage.com/subscribe/post?u=1cb9611c999051fe721263138&amp;amp;id=4574579802&amp;amp;f_id=00f29fe0f0&#34; method=&#34;post&#34; id=&#34;mc-embedded-subscribe-form&#34; name=&#34;mc-embedded-subscribe-form&#34; class=&#34;validate&#34; target=&#34;_blank&#34;&gt;&#xA;        &lt;div id=&#34;mc_embed_signup_scroll&#34;&gt;&lt;h2&gt;訂閱電子報&lt;/h2&gt;&#xA;            &lt;div class=&#34;indicates-required&#34;&gt;&lt;span class=&#34;asterisk&#34;&gt;*&lt;/span&gt; 必填 &lt;/div&gt;&#xA;            &lt;div class=&#34;mc-field-group&#34;&gt;&lt;label for=&#34;mce-EMAIL&#34;&gt; 電子郵件 &lt;span class=&#34;asterisk&#34;&gt;*&lt;/span&gt;&lt;/label&gt;&lt;input type=&#34;email&#34; name=&#34;EMAIL&#34; class=&#34;required email&#34; id=&#34;mce-EMAIL&#34; required=&#34;&#34; value=&#34;&#34;&gt;&lt;/div&gt;&lt;div class=&#34;mc-field-group&#34;&gt;&lt;label for=&#34;mce-FNAME&#34;&gt;希望我怎麼稱呼你  &lt;span class=&#34;asterisk&#34;&gt;*&lt;/span&gt;&lt;/label&gt;&lt;input type=&#34;text&#34; name=&#34;FNAME&#34; class=&#34;required text&#34; id=&#34;mce-FNAME&#34; required=&#34;&#34; value=&#34;&#34;&gt;&lt;/div&gt;&#xA;&lt;div hidden=&#34;&#34;&gt;&lt;input type=&#34;hidden&#34; name=&#34;tags&#34; value=&#34;9154059&#34;&gt;&lt;/div&gt;&#xA;        &lt;div id=&#34;mce-responses&#34; class=&#34;clear foot&#34;&gt;&#xA;            &lt;div class=&#34;response&#34; id=&#34;mce-error-response&#34; style=&#34;display: none;&#34;&gt;&lt;/div&gt;&#xA;            &lt;div class=&#34;response&#34; id=&#34;mce-success-response&#34; style=&#34;display: none;&#34;&gt;&lt;/div&gt;&#xA;        &lt;/div&gt;&#xA;    &lt;div aria-hidden=&#34;true&#34; style=&#34;position: absolute; left: -5000px;&#34;&gt;&#xA;        /* real people should not fill this in and expect good things - do not remove this or risk form bot signups */&#xA;        &lt;input type=&#34;text&#34; name=&#34;b_1cb9611c999051fe721263138_4574579802&#34; tabindex=&#34;-1&#34; value=&#34;&#34;&gt;&#xA;    &lt;/div&gt;&#xA;        &lt;div class=&#34;optionalParent&#34;&gt;&#xA;            &lt;div class=&#34;clear foot&#34;&gt;&#xA;                &lt;input type=&#34;submit&#34; name=&#34;subscribe&#34; id=&#34;mc-embedded-subscribe&#34; class=&#34;button&#34; value=&#34;訂閱&#34;&gt;&#xA;                &lt;p style=&#34;margin: 0px auto;&#34;&gt;&lt;a href=&#34;http://eepurl.com/jpAXKs&#34; title=&#34;Mailchimp - email marketing made easy and fun&#34;&gt;&lt;span style=&#34;display: inline-block; background-color: black; border-radius: 4px;&#34;&gt;&lt;img class=&#34;refferal_badge&#34; src=&#34;https://digitalasset.intuit.com/render/content/dam/intuit/mc-fe/en_us/images/intuit-mc-rewards-text-light.svg&#34; alt=&#34;Intuit Mailchimp&#34; style=&#34;width: 220px; height: 40px; display: flex; padding: 2px 0px; justify-content: center; align-items: center;&#34;&gt;&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;</description>
       
     </item>
     
     <item>
       <title>電子書閱讀器改變了我的人生</title>
-      <link>https://hshuang.blog/posts/ebook-ereader-changes-me/</link>
+      <link>http://localhost:1313/posts/ebook-ereader-changes-me/</link>
       <pubDate>Thu, 27 Nov 2025 16:28:00 +0800</pubDate>
       
-      <guid>https://hshuang.blog/posts/ebook-ereader-changes-me/</guid>
+      <guid>http://localhost:1313/posts/ebook-ereader-changes-me/</guid>
       <description>放下會毒害自己大腦的社群媒體，擁抱單純的閱讀拯救自己的大腦吧</description>
       
     </item>
     
     <item>
       <title>2025-11-20</title>
-      <link>https://hshuang.blog/micro/2025-11-20/</link>
+      <link>http://localhost:1313/micro/2025-11-20/</link>
       <pubDate>Thu, 20 Nov 2025 22:41:00 +0800</pubDate>
       
-      <guid>https://hshuang.blog/micro/2025-11-20/</guid>
+      <guid>http://localhost:1313/micro/2025-11-20/</guid>
       <description>&lt;p&gt;所謂提問，指的是如何表現裁剪後的現實&lt;/p&gt;&#xA;&lt;p&gt;講求銳利的裁剪角度和鮮明的切入點&lt;/p&gt;&#xA;&lt;p&gt;高明的提問需要品味和技術，技術可以不斷地磨練&lt;/p&gt;&#xA;&lt;p&gt;但品味，品味可以看出一個人對於現實保持何種距離&lt;/p&gt;&#xA;&lt;p&gt;保持何種態度，更甚者可以看出這個人如何活著&lt;/p&gt;</description>
       
     </item>
     
     <item>
       <title>書單</title>
-      <link>https://hshuang.blog/books/</link>
+      <link>http://localhost:1313/books/</link>
       <pubDate>Tue, 18 Nov 2025 15:09:00 +0800</pubDate>
       
-      <guid>https://hshuang.blog/books/</guid>
+      <guid>http://localhost:1313/books/</guid>
       <description>&lt;p&gt;本頁記錄讀過的每本書及心得分享&lt;/p&gt;&#xA;&#xA;&lt;h2 class=&#34;relative group&#34;&gt;商業&#xA;    &lt;div id=&#34;商業&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xA;    &#xA;    &lt;span&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#%e5%95%86%e6%a5%ad&#34; aria-label=&#34;定位點&#34;&gt;#&lt;/a&gt;&#xA;    &lt;/span&gt;&#xA;    &#xA;&lt;/h2&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th style=&#34;text-align: left&#34;&gt;書名&lt;/th&gt;&#xA;          &lt;th style=&#34;text-align: left&#34;&gt;相關文章&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;&lt;a href=&#34;https://www.books.com.tw/exep/assp.php/scientia/products/0010954573?utm_source=scientia&amp;amp;utm_medium=ap-books&amp;amp;utm_content=recommend&amp;amp;utm_campaign=ap-202510&#34;  target=&#34;_blank&#34;&gt;《決策的邏輯》：行為心理學如何影響我們的選擇？&lt;/a&gt;&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;&lt;a href=&#34;https://hshuang.blog/p/decision-logic-why-change-is-so-hard/&#34;  target=&#34;_blank&#34;&gt;《決策的邏輯》：為什麼改變會如此困難？&lt;/a&gt;&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;&lt;a href=&#34;https://www.books.com.tw/exep/assp.php/scientia/products/0010926376?utm_source=scientia&amp;amp;utm_medium=ap-books&amp;amp;utm_content=recommend&amp;amp;utm_campaign=ap-202505&#34;  target=&#34;_blank&#34;&gt;《子彈思考整理術》：釐清超載思緒，化想法為行動，專注最重要的事，設計你想要的人生&lt;/a&gt;&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;&lt;a href=&#34;https://hshuang.blog/p/the-bullet-journal-method-freedom-of-choose-is-privilege/&#34;  target=&#34;_blank&#34;&gt;《子彈思考整理術》讀後心得：選擇的自由是一種特權&lt;/a&gt;&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;&lt;a href=&#34;https://www.books.com.tw/exep/assp.php/scientia/products/0010928347?utm_source=scientia&amp;amp;utm_medium=ap-books&amp;amp;utm_content=recommend&amp;amp;utm_campaign=ap-202504&#34;  target=&#34;_blank&#34;&gt;《長銷!》 內容、定位、行銷、平台, 從個人創作到企業經營都要懂的打造經典之道&lt;/a&gt;&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;&lt;a href=&#34;https://hshuang.blog/p/perennial-seller-content/&#34;  target=&#34;_blank&#34;&gt;《長銷》讀後心讀：內容為王&lt;/a&gt;&lt;br&gt;&lt;a href=&#34;https://hshuang.blog/p/perennial-seller-positioning/&#34;  target=&#34;_blank&#34;&gt;《長銷》讀後心讀：市場定位&lt;/a&gt;&lt;br&gt;&lt;a href=&#34;https://hshuang.blog/p/perennial-seller-platform/&#34;  target=&#34;_blank&#34;&gt;《長銷》讀後心讀：最後的戰場-平台&lt;/a&gt;&lt;br&gt;&lt;a href=&#34;https://hshuang.blog/p/perennial-seller-marketing/&#34;  target=&#34;_blank&#34;&gt;《長銷》讀後心讀：行銷給誰？&lt;/a&gt;&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&#xA;&lt;h2 class=&#34;relative group&#34;&gt;健康&#xA;    &lt;div id=&#34;健康&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xA;    &#xA;    &lt;span&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#%e5%81%a5%e5%ba%b7&#34; aria-label=&#34;定位點&#34;&gt;#&lt;/a&gt;&#xA;    &lt;/span&gt;&#xA;    &#xA;&lt;/h2&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th style=&#34;text-align: left&#34;&gt;書名&lt;/th&gt;&#xA;          &lt;th style=&#34;text-align: left&#34;&gt;相關文章&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;&lt;a href=&#34;https://www.books.com.tw/exep/assp.php/scientia/products/0010983296?utm_source=scientia&amp;amp;utm_medium=ap-books&amp;amp;utm_content=recommend&amp;amp;utm_campaign=ap-202510&#34;  target=&#34;_blank&#34;&gt;《好好休息》：心不累、身體不疲憊、大腦不報廢的好眠人生實踐法&lt;/a&gt;&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;&lt;a href=&#34;https://hshuang.blog/p/well-rest-ignore-rest/&#34;  target=&#34;_blank&#34;&gt;《好好休息》：職場上忽略了休息，我們最終會面臨什麼？&lt;/a&gt;&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;&lt;a href=&#34;https://www.books.com.tw/exep/assp.php/scientia/products/0010959050?utm_source=scientia&amp;amp;utm_medium=ap-books&amp;amp;utm_content=recommend&amp;amp;utm_campaign=ap-202504&#34;  target=&#34;_blank&#34;&gt;《為什麼要睡覺？》：睡出健康與學習力、夢出創意的新科學&lt;/a&gt;&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;&lt;a href=&#34;https://hshuang.blog/p/why-we-sleep-harm/&#34;  target=&#34;_blank&#34;&gt;《為什麼要睡覺？》讀後心得：睡眠不足對於身體的各種危害&lt;/a&gt;&lt;br&gt;&lt;a href=&#34;https://hshuang.blog/p/why-we-sleep-youth/&#34;  target=&#34;_blank&#34;&gt;《為什麼要睡覺？》讀後心得：理性思考最後才成熟&lt;/a&gt;&lt;br&gt;&lt;a href=&#34;https://hshuang.blog/p/why-we-sleep-type/&#34;  target=&#34;_blank&#34;&gt;《為什麼要睡覺？》讀後心得：你是早鳥還是夜貓子？&lt;/a&gt;&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;&lt;a href=&#34;https://www.books.com.tw/exep/assp.php/scientia/products/0010982682?utm_source=scientia&amp;amp;utm_medium=ap-books&amp;amp;utm_content=recommend&amp;amp;utm_campaign=ap-202507&#34;  target=&#34;_blank&#34;&gt;《慢老2.0》：不是活得更老，而是延長健康中年！ 全面升級健腦、強肌、抗衰的日常習慣&lt;/a&gt;&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;&lt;a href=&#34;https://hshuang.blog/p/slow-aging-cognitive-reserve/&#34;  target=&#34;_blank&#34;&gt;《慢老2.0》：閱讀、寫信、玩遊戲將失智症延後五年&lt;/a&gt;&lt;br&gt;&lt;a href=&#34;https://hshuang.blog/p/slow-aging-reverse-brain-aging/&#34;  target=&#34;_blank&#34;&gt;《慢老2.0》：運動35天逆轉大腦老化&lt;/a&gt;&lt;br&gt;&lt;a href=&#34;https://hshuang.blog/p/slow-aging-sedentary-destroy-your-memory/&#34;  target=&#34;_blank&#34;&gt;《慢老2.0》：久坐摧毀你的記憶力！&lt;/a&gt;&lt;br&gt;&lt;a href=&#34;https://hshuang.blog/p/slow-aging-ten-ways-to-activate-your-brain/&#34;  target=&#34;_blank&#34;&gt;《慢老2.0》讀後心得：活化大腦的十種方法&lt;/a&gt;&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&#xA;&lt;h2 class=&#34;relative group&#34;&gt;文學小說&#xA;    &lt;div id=&#34;文學小說&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xA;    &#xA;    &lt;span&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#%e6%96%87%e5%ad%b8%e5%b0%8f%e8%aa%aa&#34; aria-label=&#34;定位點&#34;&gt;#&lt;/a&gt;&#xA;    &lt;/span&gt;&#xA;    &#xA;&lt;/h2&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th style=&#34;text-align: left&#34;&gt;書名&lt;/th&gt;&#xA;          &lt;th style=&#34;text-align: left&#34;&gt;相關文章&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;我想念我自己（經典愛藏版）&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;&lt;a href=&#34;https://hshuang.blog/p/still-alice/&#34;  target=&#34;_blank&#34;&gt;《我想念我自己》讀後心得&lt;/a&gt;&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&#xA;&lt;h2 class=&#34;relative group&#34;&gt;人生&#xA;    &lt;div id=&#34;人生&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xA;    &#xA;    &lt;span&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#%e4%ba%ba%e7%94%9f&#34; aria-label=&#34;定位點&#34;&gt;#&lt;/a&gt;&#xA;    &lt;/span&gt;&#xA;    &#xA;&lt;/h2&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th style=&#34;text-align: left&#34;&gt;書名&lt;/th&gt;&#xA;          &lt;th style=&#34;text-align: left&#34;&gt;相關文章&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;&lt;a href=&#34;https://www.books.com.tw/exep/assp.php/scientia/products/0010973322?utm_source=scientia&amp;amp;utm_medium=ap-books&amp;amp;utm_content=recommend&amp;amp;utm_campaign=ap-202508&#34;  target=&#34;_blank&#34;&gt;《自私的藝術》：快樂有理，自私無罪！別再讓「過度妥協」控制你的餘生，美國心理學權威給無私好人的50個自救箴言&lt;/a&gt;&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;&lt;a href=&#34;https://hshuang.blog/p/the-art-of-selfishness-understand-your-thoughts/&#34;  target=&#34;_blank&#34;&gt;《自私的藝術》：了解自己的想法&lt;/a&gt;&lt;br&gt;&lt;a href=&#34;https://hshuang.blog/p/the-art-of-selfishness-where-the-way-lead-to-hapiness/&#34;  target=&#34;_blank&#34;&gt;《自私的藝術》：何處才是通往快樂的道路？&lt;/a&gt;&lt;br&gt;&lt;a href=&#34;https://hshuang.blog/p/the-art-of-selfishness-never-compromise/&#34;  target=&#34;_blank&#34;&gt;《自私的藝術》：永遠不要委屈求全&lt;/a&gt;&lt;br&gt;&lt;a href=&#34;https://hshuang.blog/p/the-art-of-selfishness-root-of-my-problems/&#34;  target=&#34;_blank&#34;&gt;《自私的藝術》：自身問題的根源&lt;/a&gt;&lt;br&gt;&lt;a href=&#34;https://hshuang.blog/p/the-art-of-selfishness-stress-of-life/&#34;  target=&#34;_blank&#34;&gt;《自私的藝術》：生活的壓力&lt;/a&gt;&lt;br&gt;&lt;a href=&#34;https://hshuang.blog/p/the-art-of-selfishness-art-of-shirk/&#34;  target=&#34;_blank&#34;&gt;《自私的藝術》：偷懶的藝術&lt;/a&gt;&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&#xA;&lt;h2 class=&#34;relative group&#34;&gt;學術&#xA;    &lt;div id=&#34;學術&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xA;    &#xA;    &lt;span&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#%e5%ad%b8%e8%a1%93&#34; aria-label=&#34;定位點&#34;&gt;#&lt;/a&gt;&#xA;    &lt;/span&gt;&#xA;    &#xA;&lt;/h2&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th style=&#34;text-align: left&#34;&gt;書名&lt;/th&gt;&#xA;          &lt;th style=&#34;text-align: left&#34;&gt;相關文章&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;&lt;a href=&#34;https://www.books.com.tw/exep/assp.php/scientia/products/0010762863?utm_source=scientia&amp;amp;utm_medium=ap-books&amp;amp;utm_content=recommend&amp;amp;utm_campaign=ap-202504&#34;  target=&#34;_blank&#34;&gt;《研究生完全求生手冊》：方法、秘訣、潛規則&lt;/a&gt;&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;&lt;a href=&#34;https://hshuang.blog/p/survival-handbook-for-graduate-student-problematic/&#34;  target=&#34;_blank&#34;&gt;《研究生完全求生手冊》讀後心得：Problematic&lt;/a&gt;&lt;br&gt;&lt;a href=&#34;https://hshuang.blog/p/survival-handbook-for-graduate-student-goal/&#34;  target=&#34;_blank&#34;&gt;《研究生完全求生手冊》讀後心得：為了什麼而研究？&lt;/a&gt;&lt;br&gt;&lt;a href=&#34;https://hshuang.blog/p/survival-handbook-for-graduate-student-innovation/&#34;  target=&#34;_blank&#34;&gt;《研究生完全求生手冊》讀後心得：創新要領？&lt;/a&gt;&lt;br&gt;&lt;a href=&#34;https://hshuang.blog/p/survival-handbook-for-graduate-student-write/&#34;  target=&#34;_blank&#34;&gt;《研究生完全求生手冊》讀後心得：寫作方向&lt;/a&gt;&lt;br&gt;&lt;a href=&#34;https://hshuang.blog/p/survival-handbook-for-graduate-student-read/&#34;  target=&#34;_blank&#34;&gt;《研究生完全求生手冊》讀後心得：閱讀期刊論文方法&lt;/a&gt;&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;</description>
       
     </item>
     
     <item>
       <title>2025-11-17</title>
-      <link>https://hshuang.blog/micro/2025-11-17/</link>
+      <link>http://localhost:1313/micro/2025-11-17/</link>
       <pubDate>Mon, 17 Nov 2025 11:42:00 +0800</pubDate>
       
-      <guid>https://hshuang.blog/micro/2025-11-17/</guid>
+      <guid>http://localhost:1313/micro/2025-11-17/</guid>
       <description>&lt;p&gt;當生活失去了餘裕，我們就會被各種新奇的事物牽引著走&lt;/p&gt;&#xA;&lt;p&gt;腦中不斷想著要塞滿行程，只想讓時間管理效益最大化&lt;/p&gt;&#xA;&lt;p&gt;卻忘了自己的能量早已耗盡，也許&lt;/p&gt;&#xA;&lt;p&gt;是時候放過自己了&lt;/p&gt;</description>
       
     </item>
     
     <item>
       <title>2025-11-10</title>
-      <link>https://hshuang.blog/micro/2025-11-10/</link>
+      <link>http://localhost:1313/micro/2025-11-10/</link>
       <pubDate>Mon, 10 Nov 2025 22:30:00 +0800</pubDate>
       
-      <guid>https://hshuang.blog/micro/2025-11-10/</guid>
+      <guid>http://localhost:1313/micro/2025-11-10/</guid>
       <description>&lt;p&gt;萬物速朽，唯有公式永恆;&lt;/p&gt;&#xA;&lt;p&gt;人間虛妄，數學是唯一真理;&lt;/p&gt;&#xA;&lt;p&gt;存在即數，0和1統治一切;&lt;/p&gt;&#xA;&lt;p&gt;大道至簡，數是最美的語言&amp;hellip;..&lt;/p&gt;</description>
       
     </item>
     
     <item>
       <title>2025-11-08</title>
-      <link>https://hshuang.blog/micro/2025-11-08/</link>
+      <link>http://localhost:1313/micro/2025-11-08/</link>
       <pubDate>Sat, 08 Nov 2025 19:49:00 +0800</pubDate>
       
-      <guid>https://hshuang.blog/micro/2025-11-08/</guid>
+      <guid>http://localhost:1313/micro/2025-11-08/</guid>
       <description>&lt;p&gt;現在的生活由過去許多的幸運所組成&lt;/p&gt;&#xA;&lt;p&gt;所有事情並非理所當然，心中除了感激之外還是感激&lt;/p&gt;</description>
       
     </item>
     
     <item>
       <title>控制血糖的十招</title>
-      <link>https://hshuang.blog/posts/control-blood-glucose-ten-ways/</link>
+      <link>http://localhost:1313/posts/control-blood-glucose-ten-ways/</link>
       <pubDate>Tue, 04 Nov 2025 09:46:00 +0800</pubDate>
       
-      <guid>https://hshuang.blog/posts/control-blood-glucose-ten-ways/</guid>
+      <guid>http://localhost:1313/posts/control-blood-glucose-ten-ways/</guid>
       <description>您有過血糖波動的經驗嗎？是否會在飯後頭昏腦脹呢？而我們又該如何預防這種情況呢？</description>
       
     </item>
     
     <item>
       <title>《決策的邏輯》：為什麼改變會如此困難？</title>
-      <link>https://hshuang.blog/posts/decision-logic-why-change-is-so-hard/</link>
+      <link>http://localhost:1313/posts/decision-logic-why-change-is-so-hard/</link>
       <pubDate>Thu, 30 Oct 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://hshuang.blog/posts/decision-logic-why-change-is-so-hard/</guid>
+      <guid>http://localhost:1313/posts/decision-logic-why-change-is-so-hard/</guid>
       <description>你我都不喜歡改變帶來的損失，但人生中總有一個時刻，是我們不得不做出改變</description>
       
     </item>
     
     <item>
       <title>《我想念我自己》讀後心得</title>
-      <link>https://hshuang.blog/posts/still-alice/</link>
+      <link>http://localhost:1313/posts/still-alice/</link>
       <pubDate>Wed, 29 Oct 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://hshuang.blog/posts/still-alice/</guid>
+      <guid>http://localhost:1313/posts/still-alice/</guid>
       <description>失去了過往而未來也不再期待，因為能夠體驗的只有這個當下，該具備何種勇氣才能繼續走下去？</description>
       
     </item>
     
     <item>
       <title>部落格問題挑戰</title>
-      <link>https://hshuang.blog/posts/blog-questions-challenge/</link>
+      <link>http://localhost:1313/posts/blog-questions-challenge/</link>
       <pubDate>Sat, 18 Oct 2025 14:19:00 +0800</pubDate>
       
-      <guid>https://hshuang.blog/posts/blog-questions-challenge/</guid>
+      <guid>http://localhost:1313/posts/blog-questions-challenge/</guid>
       <description>在廢文小天地看到的Blog Questions Challenge</description>
       
     </item>
     
     <item>
       <title>《好好休息》：職場上忽略了休息，我們最終會面臨什麼？</title>
-      <link>https://hshuang.blog/posts/well-rest-ignore-rest/</link>
+      <link>http://localhost:1313/posts/well-rest-ignore-rest/</link>
       <pubDate>Sat, 11 Oct 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://hshuang.blog/posts/well-rest-ignore-rest/</guid>
+      <guid>http://localhost:1313/posts/well-rest-ignore-rest/</guid>
       <description>好好休息，不應該被視為工作完成後的附帶產品，而是一個重要的身心修復過程，只有在適當休息過後，我們才能保持高效的生活方式</description>
       
     </item>
     
     <item>
       <title>修復悲傷</title>
-      <link>https://hshuang.blog/posts/fix-grief/</link>
+      <link>http://localhost:1313/posts/fix-grief/</link>
       <pubDate>Thu, 25 Sep 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://hshuang.blog/posts/fix-grief/</guid>
+      <guid>http://localhost:1313/posts/fix-grief/</guid>
       <description>當重大悲傷來臨，我們該如何走過這黑暗，重新拾起希望？</description>
       
     </item>
     
     <item>
       <title>從被動到主動：脫離FOMO邁向JOMO</title>
-      <link>https://hshuang.blog/posts/from-fomo-to-jomo/</link>
+      <link>http://localhost:1313/posts/from-fomo-to-jomo/</link>
       <pubDate>Mon, 15 Sep 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://hshuang.blog/posts/from-fomo-to-jomo/</guid>
+      <guid>http://localhost:1313/posts/from-fomo-to-jomo/</guid>
       <description>數位原生世代面對FOMO現象更劇烈，有沒有哪些對策可以使用？</description>
       
     </item>
     
     <item>
       <title>你今天FOMO了嗎？</title>
-      <link>https://hshuang.blog/posts/fear-of-missing-out-and-me/</link>
+      <link>http://localhost:1313/posts/fear-of-missing-out-and-me/</link>
       <pubDate>Thu, 11 Sep 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://hshuang.blog/posts/fear-of-missing-out-and-me/</guid>
+      <guid>http://localhost:1313/posts/fear-of-missing-out-and-me/</guid>
       <description>資訊如浪潮般襲來的時代，在AI產生的大量低熵資訊中，錯過任何一則訊息你都覺得被世界遺落了</description>
       
     </item>
     
     <item>
       <title>越吃越累，是吃錯了！</title>
-      <link>https://hshuang.blog/posts/more-eat-more-tired/</link>
+      <link>http://localhost:1313/posts/more-eat-more-tired/</link>
       <pubDate>Sun, 07 Sep 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://hshuang.blog/posts/more-eat-more-tired/</guid>
+      <guid>http://localhost:1313/posts/more-eat-more-tired/</guid>
       <description>外食族想要吃得對，其實沒那麼難！</description>
       
     </item>
     
     <item>
       <title>代謝力才是你的生命力</title>
-      <link>https://hshuang.blog/posts/metabolic-power-is-key-of-health/</link>
+      <link>http://localhost:1313/posts/metabolic-power-is-key-of-health/</link>
       <pubDate>Thu, 04 Sep 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://hshuang.blog/posts/metabolic-power-is-key-of-health/</guid>
+      <guid>http://localhost:1313/posts/metabolic-power-is-key-of-health/</guid>
       <description>代謝猶如人體發電系統，是你我身體健康的根源</description>
       
     </item>
     
     <item>
       <title>Framework工作機裝設Oculink</title>
-      <link>https://hshuang.blog/posts/oculink-egpu-for-cuda/</link>
+      <link>http://localhost:1313/posts/oculink-egpu-for-cuda/</link>
       <pubDate>Tue, 02 Sep 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://hshuang.blog/posts/oculink-egpu-for-cuda/</guid>
+      <guid>http://localhost:1313/posts/oculink-egpu-for-cuda/</guid>
       <description>由於研究上需要CUDA平行計算，所以我在Thunderbolt 4與Oculink中做選擇</description>
       
     </item>
     
     <item>
       <title>《食托邦Sitopia》：美好生活的意義</title>
-      <link>https://hshuang.blog/posts/sitopia-meaning-of-wonderful-life/</link>
+      <link>http://localhost:1313/posts/sitopia-meaning-of-wonderful-life/</link>
       <pubDate>Thu, 21 Aug 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://hshuang.blog/posts/sitopia-meaning-of-wonderful-life/</guid>
+      <guid>http://localhost:1313/posts/sitopia-meaning-of-wonderful-life/</guid>
       <description>如果不好好吃，怎麼好好思考、好好去愛、好好睡覺？</description>
       
     </item>
     
     <item>
       <title>用研究審稿員的視角閱讀文獻</title>
-      <link>https://hshuang.blog/posts/research-literature-keypoints/</link>
+      <link>http://localhost:1313/posts/research-literature-keypoints/</link>
       <pubDate>Tue, 12 Aug 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://hshuang.blog/posts/research-literature-keypoints/</guid>
+      <guid>http://localhost:1313/posts/research-literature-keypoints/</guid>
       <description>在這個連Agent都可以幫你梳理paper的時代，我們該如何看得比AI還深入？</description>
       
     </item>
     
     <item>
       <title>《慢老2.0》：閱讀、寫信、玩遊戲將失智症延後五年</title>
-      <link>https://hshuang.blog/posts/slow-aging-cognitive-reserve/</link>
+      <link>http://localhost:1313/posts/slow-aging-cognitive-reserve/</link>
       <pubDate>Mon, 11 Aug 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://hshuang.blog/posts/slow-aging-cognitive-reserve/</guid>
+      <guid>http://localhost:1313/posts/slow-aging-cognitive-reserve/</guid>
       <description>關鍵因素在於你如何處理資訊，任何能刺激心智，對智力有挑戰的活動都有辦法讓認知能力水平下降速度減緩</description>
       
     </item>
     
     <item>
       <title>《慢老2.0》：運動35天逆轉大腦老化</title>
-      <link>https://hshuang.blog/posts/slow-aging-reverse-brain-aging/</link>
+      <link>http://localhost:1313/posts/slow-aging-reverse-brain-aging/</link>
       <pubDate>Sun, 10 Aug 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://hshuang.blog/posts/slow-aging-reverse-brain-aging/</guid>
+      <guid>http://localhost:1313/posts/slow-aging-reverse-brain-aging/</guid>
       <description>三十五天才能體驗到認知能力的顯著改善</description>
       
     </item>
     
     <item>
       <title>《慢老2.0》：久坐摧毀你的記憶力！</title>
-      <link>https://hshuang.blog/posts/slow-aging-sedentary-destroy-your-memory/</link>
+      <link>http://localhost:1313/posts/slow-aging-sedentary-destroy-your-memory/</link>
       <pubDate>Sat, 09 Aug 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://hshuang.blog/posts/slow-aging-sedentary-destroy-your-memory/</guid>
+      <guid>http://localhost:1313/posts/slow-aging-sedentary-destroy-your-memory/</guid>
       <description>從久坐不動的世界中站起來吧，為了你的大腦健康，你必須這麼做</description>
       
     </item>
     
     <item>
       <title>《自私的藝術》：了解自己的想法</title>
-      <link>https://hshuang.blog/posts/the-art-of-selfishness-understand-your-thoughts/</link>
+      <link>http://localhost:1313/posts/the-art-of-selfishness-understand-your-thoughts/</link>
       <pubDate>Fri, 08 Aug 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://hshuang.blog/posts/the-art-of-selfishness-understand-your-thoughts/</guid>
+      <guid>http://localhost:1313/posts/the-art-of-selfishness-understand-your-thoughts/</guid>
       <description>為什麼我們需要探索自我？</description>
       
     </item>
     
     <item>
       <title>《自私的藝術》：何處才是通往快樂的道路？</title>
-      <link>https://hshuang.blog/posts/the-art-of-selfishness-where-the-way-lead-to-hapiness/</link>
+      <link>http://localhost:1313/posts/the-art-of-selfishness-where-the-way-lead-to-hapiness/</link>
       <pubDate>Thu, 07 Aug 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://hshuang.blog/posts/the-art-of-selfishness-where-the-way-lead-to-hapiness/</guid>
+      <guid>http://localhost:1313/posts/the-art-of-selfishness-where-the-way-lead-to-hapiness/</guid>
       <description>在生命的無力感之中人們該抱持何種信念才能通往快樂？</description>
       
     </item>
     
     <item>
       <title>《自私的藝術》：永遠不要委屈求全</title>
-      <link>https://hshuang.blog/posts/the-art-of-selfishness-never-compromise/</link>
+      <link>http://localhost:1313/posts/the-art-of-selfishness-never-compromise/</link>
       <pubDate>Wed, 06 Aug 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://hshuang.blog/posts/the-art-of-selfishness-never-compromise/</guid>
+      <guid>http://localhost:1313/posts/the-art-of-selfishness-never-compromise/</guid>
       <description>面臨著事業危機，也不被任何人支持，究竟該如何撐過這場暴風？</description>
       
     </item>
     
     <item>
       <title>《自私的藝術》：自身問題的根源</title>
-      <link>https://hshuang.blog/posts/the-art-of-selfishness-root-of-my-problems/</link>
+      <link>http://localhost:1313/posts/the-art-of-selfishness-root-of-my-problems/</link>
       <pubDate>Tue, 05 Aug 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://hshuang.blog/posts/the-art-of-selfishness-root-of-my-problems/</guid>
+      <guid>http://localhost:1313/posts/the-art-of-selfishness-root-of-my-problems/</guid>
       <description>我們所面臨的世界究竟是由他人還是自己在掌控著？</description>
       
     </item>
     
     <item>
       <title>《自私的藝術》：生活的壓力</title>
-      <link>https://hshuang.blog/posts/the-art-of-selfishness-stress-of-life/</link>
+      <link>http://localhost:1313/posts/the-art-of-selfishness-stress-of-life/</link>
       <pubDate>Mon, 04 Aug 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://hshuang.blog/posts/the-art-of-selfishness-stress-of-life/</guid>
+      <guid>http://localhost:1313/posts/the-art-of-selfishness-stress-of-life/</guid>
       <description>生命中的難題不斷地堆疊起來</description>
       
     </item>
     
     <item>
       <title>《自私的藝術》：偷懶的藝術</title>
-      <link>https://hshuang.blog/posts/the-art-of-selfishness-art-of-shirk/</link>
+      <link>http://localhost:1313/posts/the-art-of-selfishness-art-of-shirk/</link>
       <pubDate>Sun, 03 Aug 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://hshuang.blog/posts/the-art-of-selfishness-art-of-shirk/</guid>
+      <guid>http://localhost:1313/posts/the-art-of-selfishness-art-of-shirk/</guid>
       <description>如何更好地管理工作與生活</description>
       
     </item>
     
     <item>
       <title>Robots.txt與AI爬蟲的愛恨情仇</title>
-      <link>https://hshuang.blog/posts/ai-vs-robots-txt/</link>
+      <link>http://localhost:1313/posts/ai-vs-robots-txt/</link>
       <pubDate>Sat, 02 Aug 2025 10:15:00 +0800</pubDate>
       
-      <guid>https://hshuang.blog/posts/ai-vs-robots-txt/</guid>
+      <guid>http://localhost:1313/posts/ai-vs-robots-txt/</guid>
       <description>爬蟲巨獸無情吞噬網路上的一切，知識型網站的未來是？</description>
       
     </item>
     
     <item>
       <title>自主選擇乾淨的資訊，回歸RSS的懷抱吧！</title>
-      <link>https://hshuang.blog/posts/you-should-use-rss/</link>
+      <link>http://localhost:1313/posts/you-should-use-rss/</link>
       <pubDate>Fri, 01 Aug 2025 14:23:00 +0800</pubDate>
       
-      <guid>https://hshuang.blog/posts/you-should-use-rss/</guid>
+      <guid>http://localhost:1313/posts/you-should-use-rss/</guid>
       <description>在這個注意力被各種事物搶奪的時代，你是否感覺自己在資訊海洋中溺水了？</description>
       
     </item>
     
     <item>
       <title>思維可見度</title>
-      <link>https://hshuang.blog/posts/thought-visibility/</link>
+      <link>http://localhost:1313/posts/thought-visibility/</link>
       <pubDate>Thu, 31 Jul 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://hshuang.blog/posts/thought-visibility/</guid>
+      <guid>http://localhost:1313/posts/thought-visibility/</guid>
       <description>這個Agent橫行的時代該如何更深刻的解決問題？</description>
       
     </item>
     
     <item>
       <title>職場能見度</title>
-      <link>https://hshuang.blog/posts/workplace-visibility/</link>
+      <link>http://localhost:1313/posts/workplace-visibility/</link>
       <pubDate>Wed, 30 Jul 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://hshuang.blog/posts/workplace-visibility/</guid>
+      <guid>http://localhost:1313/posts/workplace-visibility/</guid>
       <description>如何在公司升遷上更具優勢？</description>
       
     </item>
     
     <item>
       <title>從50年職涯中學到的事業課題-下</title>
-      <link>https://hshuang.blog/posts/life-lessons-from-the-first-half-century-of-my-career-focused-2/</link>
+      <link>http://localhost:1313/posts/life-lessons-from-the-first-half-century-of-my-career-focused-2/</link>
       <pubDate>Tue, 29 Jul 2025 10:05:00 +0800</pubDate>
       
-      <guid>https://hshuang.blog/posts/life-lessons-from-the-first-half-century-of-my-career-focused-2/</guid>
+      <guid>http://localhost:1313/posts/life-lessons-from-the-first-half-century-of-my-career-focused-2/</guid>
       <description>2017年圖靈獎得主的電腦科學家David A. Patterson分享了他這50年來從人生中學到一些關於職涯上應該要在乎的事</description>
       
     </item>
     
     <item>
       <title>數位佃農</title>
-      <link>https://hshuang.blog/posts/digital-tenant-farmer/</link>
+      <link>http://localhost:1313/posts/digital-tenant-farmer/</link>
       <pubDate>Mon, 28 Jul 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://hshuang.blog/posts/digital-tenant-farmer/</guid>
+      <guid>http://localhost:1313/posts/digital-tenant-farmer/</guid>
       <description>現實中當不起地主，那你可以選擇在網路上試試當地主</description>
       
     </item>
     
     <item>
       <title>從50年職涯中學到的事業課題-上</title>
-      <link>https://hshuang.blog/posts/life-lessons-from-the-first-half-century-of-my-career-focused-1/</link>
+      <link>http://localhost:1313/posts/life-lessons-from-the-first-half-century-of-my-career-focused-1/</link>
       <pubDate>Sun, 27 Jul 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://hshuang.blog/posts/life-lessons-from-the-first-half-century-of-my-career-focused-1/</guid>
+      <guid>http://localhost:1313/posts/life-lessons-from-the-first-half-century-of-my-career-focused-1/</guid>
       <description>2017年圖靈獎得主的電腦科學家David A. Patterson分享了他這50年來從人生中學到一些關於職涯上應該要在乎的事</description>
       
     </item>
     
     <item>
       <title>從50年職涯中學到的人生課題-下</title>
-      <link>https://hshuang.blog/posts/life-lessons-from-the-first-half-century-of-my-career-people-focused-2/</link>
+      <link>http://localhost:1313/posts/life-lessons-from-the-first-half-century-of-my-career-people-focused-2/</link>
       <pubDate>Wed, 23 Jul 2025 19:30:00 +0800</pubDate>
       
-      <guid>https://hshuang.blog/posts/life-lessons-from-the-first-half-century-of-my-career-people-focused-2/</guid>
+      <guid>http://localhost:1313/posts/life-lessons-from-the-first-half-century-of-my-career-people-focused-2/</guid>
       <description>2017年圖靈獎得主的電腦科學家David A. Patterson分享了他這50年來從人生中學到一些關於人們應該要在乎的事</description>
       
     </item>
     
     <item>
       <title>從50年職涯中學到的人生課題-上</title>
-      <link>https://hshuang.blog/posts/life-lessons-from-the-first-half-century-of-my-career-people-focused-1/</link>
+      <link>http://localhost:1313/posts/life-lessons-from-the-first-half-century-of-my-career-people-focused-1/</link>
       <pubDate>Tue, 22 Jul 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://hshuang.blog/posts/life-lessons-from-the-first-half-century-of-my-career-people-focused-1/</guid>
+      <guid>http://localhost:1313/posts/life-lessons-from-the-first-half-century-of-my-career-people-focused-1/</guid>
       <description>2017年圖靈獎得主的電腦科學家David A. Patterson分享了他這50年來從人生中學到的一些重要的事情</description>
       
     </item>
     
     <item>
       <title>《慢老2.0》讀後心得：活化大腦的十種方法</title>
-      <link>https://hshuang.blog/posts/slow-aging-ten-ways-to-activate-your-brain/</link>
+      <link>http://localhost:1313/posts/slow-aging-ten-ways-to-activate-your-brain/</link>
       <pubDate>Mon, 21 Jul 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://hshuang.blog/posts/slow-aging-ten-ways-to-activate-your-brain/</guid>
+      <guid>http://localhost:1313/posts/slow-aging-ten-ways-to-activate-your-brain/</guid>
       <description>神經科學家威勒米爾（Kristen Willeumier)在亞曼診所(Amen Clinics)看過許多的精密大腦影像，並且經由研究過後推斷出只要改變生活習慣以及持之以恆，就能夠大幅度的改變大腦的健康狀況</description>
       
     </item>
     
     <item>
       <title>為什麼我想寫部落格？</title>
-      <link>https://hshuang.blog/posts/why-i-build-a-blog/</link>
+      <link>http://localhost:1313/posts/why-i-build-a-blog/</link>
       <pubDate>Thu, 17 Jul 2025 08:00:00 +0800</pubDate>
       
-      <guid>https://hshuang.blog/posts/why-i-build-a-blog/</guid>
+      <guid>http://localhost:1313/posts/why-i-build-a-blog/</guid>
       <description>人的記憶非常奇妙，只有那些刻骨銘心的事情才會讓你記得長長久久，尤其每晚在我睡著前那些死去的記憶突然開始攻擊我，而那些快樂的記憶倏忽即逝不留痕跡的離開了我</description>
       
     </item>
     
     <item>
       <title>「我們只能透過繪畫表達自我」 - 文森・梵谷</title>
-      <link>https://hshuang.blog/posts/vincent-van-gogh/</link>
+      <link>http://localhost:1313/posts/vincent-van-gogh/</link>
       <pubDate>Wed, 18 Jun 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://hshuang.blog/posts/vincent-van-gogh/</guid>
+      <guid>http://localhost:1313/posts/vincent-van-gogh/</guid>
       <description>梵谷在他短短37年的人生創造了上千件作品留給我們世人</description>
       
     </item>
     
     <item>
       <title>《子彈思考整理術》讀後心得：選擇的自由是一種特權</title>
-      <link>https://hshuang.blog/posts/the-bullet-journal-method-freedom-of-choose-is-privilege/</link>
+      <link>http://localhost:1313/posts/the-bullet-journal-method-freedom-of-choose-is-privilege/</link>
       <pubDate>Sun, 04 May 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://hshuang.blog/posts/the-bullet-journal-method-freedom-of-choose-is-privilege/</guid>
+      <guid>http://localhost:1313/posts/the-bullet-journal-method-freedom-of-choose-is-privilege/</guid>
       <description>身處二十一世紀的我們每天說著自己「很忙」，但經過這些忙碌後真的有讓我們得到更多了嗎？</description>
       
     </item>
     
     <item>
       <title>《為什麼要睡覺？》讀後心得：睡眠不足對於身體的各種危害</title>
-      <link>https://hshuang.blog/posts/why-we-sleep-harm/</link>
+      <link>http://localhost:1313/posts/why-we-sleep-harm/</link>
       <pubDate>Tue, 15 Apr 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://hshuang.blog/posts/why-we-sleep-harm/</guid>
+      <guid>http://localhost:1313/posts/why-we-sleep-harm/</guid>
       <description>人生中健康的三大支柱，有些人排序成「飲食」、「運動」，最後是「睡眠」，但從研究結果來看「睡眠」才是另外兩項條件的基底</description>
       
     </item>
     
     <item>
       <title>新竹先導公車</title>
-      <link>https://hshuang.blog/posts/hsinchu-lead-bus-a/</link>
+      <link>http://localhost:1313/posts/hsinchu-lead-bus-a/</link>
       <pubDate>Sat, 05 Apr 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://hshuang.blog/posts/hsinchu-lead-bus-a/</guid>
+      <guid>http://localhost:1313/posts/hsinchu-lead-bus-a/</guid>
       <description>今天終於坐到了新竹市政府2024年月底推出新的電動先導公車</description>
       
     </item>
     
     <item>
       <title>《為什麼要睡覺？》讀後心得：理性思考最後才成熟</title>
-      <link>https://hshuang.blog/posts/why-we-sleep-youth/</link>
+      <link>http://localhost:1313/posts/why-we-sleep-youth/</link>
       <pubDate>Sat, 29 Mar 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://hshuang.blog/posts/why-we-sleep-youth/</guid>
+      <guid>http://localhost:1313/posts/why-we-sleep-youth/</guid>
       <description>你會不會覺得十六歲的青少年腦中總是少根筋？然而從腦神經科學中發現其實這是正常的</description>
       
     </item>
     
     <item>
       <title>《為什麼要睡覺？》讀後心得：你是早鳥還是夜貓子？</title>
-      <link>https://hshuang.blog/posts/why-we-sleep-type/</link>
+      <link>http://localhost:1313/posts/why-we-sleep-type/</link>
       <pubDate>Mon, 17 Mar 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://hshuang.blog/posts/why-we-sleep-type/</guid>
+      <guid>http://localhost:1313/posts/why-we-sleep-type/</guid>
       <description>雖然你我的身體時鐘是運行二十四小時作息，但總會發現有些人早上精神較好，有些人則是晚上才會生龍活虎</description>
       
     </item>
     
     <item>
       <title>Keshav教授的閱讀論文守則</title>
-      <link>https://hshuang.blog/posts/keshav-read-paper-method/</link>
+      <link>http://localhost:1313/posts/keshav-read-paper-method/</link>
       <pubDate>Sat, 11 Jan 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://hshuang.blog/posts/keshav-read-paper-method/</guid>
+      <guid>http://localhost:1313/posts/keshav-read-paper-method/</guid>
       <description>由Canada University of Waterloo School of Computer Science professor S. Keshav帶給大家主要使用IEEE journal template的架構來做說明</description>
       
     </item>
     
     <item>
       <title>讀墨 Readmoo mooInk Pro 2C 13.3吋 彩色電子書閱讀器 閱讀PDF檔案的應許之機</title>
-      <link>https://hshuang.blog/posts/readmoo-mooink-pro-2c/</link>
+      <link>http://localhost:1313/posts/readmoo-mooink-pro-2c/</link>
       <pubDate>Wed, 13 Nov 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://hshuang.blog/posts/readmoo-mooink-pro-2c/</guid>
+      <guid>http://localhost:1313/posts/readmoo-mooink-pro-2c/</guid>
       <description>學術工作時常需要看論文，除了紙本之外我們還有何種選擇？</description>
       
     </item>
     
     <item>
       <title>《研究生完全求生手冊》讀後心得：Problematic</title>
-      <link>https://hshuang.blog/posts/survival-handbook-for-graduate-student-problematic/</link>
+      <link>http://localhost:1313/posts/survival-handbook-for-graduate-student-problematic/</link>
       <pubDate>Sat, 10 Jun 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://hshuang.blog/posts/survival-handbook-for-graduate-student-problematic/</guid>
+      <guid>http://localhost:1313/posts/survival-handbook-for-graduate-student-problematic/</guid>
       <description>學術界在開始研究一個實際問題之前，會先做problem formulation，將原本複雜的問題其core-problem抽取出來，進行簡化或者抽象化，這樣會有一些好處</description>
       
     </item>
     
     <item>
       <title>《研究生完全求生手冊》讀後心得：為了什麼而研究？</title>
-      <link>https://hshuang.blog/posts/survival-handbook-for-graduate-student-goal/</link>
+      <link>http://localhost:1313/posts/survival-handbook-for-graduate-student-goal/</link>
       <pubDate>Fri, 09 Jun 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://hshuang.blog/posts/survival-handbook-for-graduate-student-goal/</guid>
+      <guid>http://localhost:1313/posts/survival-handbook-for-graduate-student-goal/</guid>
       <description>研究的目的是找到正確的答案，你可以從網路上找到許多似是而非的答案，但要如何分辨這些資訊的可靠性與互補性，你需要進行一系列的搜尋與篩選，才能過濾掉無用的內容，當你整理出你需要的東西後，你該如何對這些資訊進行分析、比對才能拼湊出完整的正確答案</description>
       
     </item>
     
     <item>
       <title>《研究生完全求生手冊》讀後心得：創新要領？</title>
-      <link>https://hshuang.blog/posts/survival-handbook-for-graduate-student-innovation/</link>
+      <link>http://localhost:1313/posts/survival-handbook-for-graduate-student-innovation/</link>
       <pubDate>Thu, 08 Jun 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://hshuang.blog/posts/survival-handbook-for-graduate-student-innovation/</guid>
+      <guid>http://localhost:1313/posts/survival-handbook-for-graduate-student-innovation/</guid>
       <description>文獻回顧除了讓你清楚知道各研究流派的前因後果，更能培養出批判性思考的能力，避免沒必要的錯誤和研究上的弱點，並且從文獻回顧中找到創新的靈感與策略，為了達成這些目標，必須先回答三個問題</description>
       
     </item>
     
     <item>
       <title>《研究生完全求生手冊》讀後心得：寫作方向</title>
-      <link>https://hshuang.blog/posts/survival-handbook-for-graduate-student-write/</link>
+      <link>http://localhost:1313/posts/survival-handbook-for-graduate-student-write/</link>
       <pubDate>Wed, 07 Jun 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://hshuang.blog/posts/survival-handbook-for-graduate-student-write/</guid>
+      <guid>http://localhost:1313/posts/survival-handbook-for-graduate-student-write/</guid>
       <description>學術著作在撰寫時總需要滿足一些基本的特</description>
       
     </item>
     
     <item>
       <title>《研究生完全求生手冊》讀後心得：閱讀期刊論文方法</title>
-      <link>https://hshuang.blog/posts/survival-handbook-for-graduate-student-read/</link>
+      <link>http://localhost:1313/posts/survival-handbook-for-graduate-student-read/</link>
       <pubDate>Tue, 06 Jun 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://hshuang.blog/posts/survival-handbook-for-graduate-student-read/</guid>
+      <guid>http://localhost:1313/posts/survival-handbook-for-graduate-student-read/</guid>
       <description>在動手開始寫之前肯定得先閱讀大量的文獻，才能知道說領域內目前還有哪些問題值得探討，還有哪些題目還未解決</description>
       
     </item>
     
     <item>
       <title>《長銷》讀後心讀：市場定位</title>
-      <link>https://hshuang.blog/posts/perennial-seller-positioning/</link>
+      <link>http://localhost:1313/posts/perennial-seller-positioning/</link>
       <pubDate>Sun, 28 May 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://hshuang.blog/posts/perennial-seller-positioning/</guid>
+      <guid>http://localhost:1313/posts/perennial-seller-positioning/</guid>
       <description>定位不到位，再多的行銷都無法彌補，再好的產品也只能報廢</description>
       
     </item>
     
     <item>
       <title>《長銷》讀後心讀：行銷給誰？</title>
-      <link>https://hshuang.blog/posts/perennial-seller-marketing/</link>
+      <link>http://localhost:1313/posts/perennial-seller-marketing/</link>
       <pubDate>Sat, 27 May 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://hshuang.blog/posts/perennial-seller-marketing/</guid>
+      <guid>http://localhost:1313/posts/perennial-seller-marketing/</guid>
       <description>除了砸大錢，還有很多高CP值的行銷工具可以用！</description>
       
     </item>
     
     <item>
       <title>《長銷》讀後心讀：最後的戰場-平台</title>
-      <link>https://hshuang.blog/posts/perennial-seller-platform/</link>
+      <link>http://localhost:1313/posts/perennial-seller-platform/</link>
       <pubDate>Fri, 26 May 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://hshuang.blog/posts/perennial-seller-platform/</guid>
+      <guid>http://localhost:1313/posts/perennial-seller-platform/</guid>
       <description>創意人的創業家思維必須具備以下幾種想法</description>
       
     </item>
     
     <item>
       <title>《長銷》讀後心讀：內容為王</title>
-      <link>https://hshuang.blog/posts/perennial-seller-content/</link>
+      <link>http://localhost:1313/posts/perennial-seller-content/</link>
       <pubDate>Thu, 25 May 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://hshuang.blog/posts/perennial-seller-content/</guid>
+      <guid>http://localhost:1313/posts/perennial-seller-content/</guid>
       <description>世界上眾多創作者通常對於產出經典長銷作品都抱有非常大的興趣，希望自己的作品能夠真正解決其他人的問題，而具體要如何做到，透過萊恩·霍利得(Ryan Holiday)寫的這本書，帶給我們一些能夠讓作品存活久一點的策略</description>
       
     </item>

@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>生活設計 on Hong-Sheng Huang&#39;s Blog</title>
-    <link>https://hshuang.blog/tags/%E7%94%9F%E6%B4%BB%E8%A8%AD%E8%A8%88/</link>
+    <link>http://localhost:1313/tags/%E7%94%9F%E6%B4%BB%E8%A8%AD%E8%A8%88/</link>
     <description>Recent content in 生活設計 on Hong-Sheng Huang&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
     <copyright>© 2026 Hong-Sheng Huang</copyright>
-    <lastBuildDate>Tue, 06 Jan 2026 22:05:00 +0800</lastBuildDate><atom:link href="https://hshuang.blog/tags/%E7%94%9F%E6%B4%BB%E8%A8%AD%E8%A8%88/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 06 Jan 2026 22:05:00 +0800</lastBuildDate><atom:link href="http://localhost:1313/tags/%E7%94%9F%E6%B4%BB%E8%A8%AD%E8%A8%88/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>為什麼我想寫部落格？</title>
-      <link>https://hshuang.blog/posts/why-i-build-a-blog/</link>
+      <link>http://localhost:1313/posts/why-i-build-a-blog/</link>
       <pubDate>Thu, 17 Jul 2025 08:00:00 +0800</pubDate>
       
-      <guid>https://hshuang.blog/posts/why-i-build-a-blog/</guid>
+      <guid>http://localhost:1313/posts/why-i-build-a-blog/</guid>
       <description>人的記憶非常奇妙，只有那些刻骨銘心的事情才會讓你記得長長久久，尤其每晚在我睡著前那些死去的記憶突然開始攻擊我，而那些快樂的記憶倏忽即逝不留痕跡的離開了我</description>
       
     </item>
