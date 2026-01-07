@@ -24,7 +24,7 @@ tags:
 title: 從50年職涯中學到的事業課題-下
 ---
 
-在[從50年職涯中學到的事業課題-上](https://hshuang.blog/p/life-lessons-from-the-first-half-century-of-my-career-focused-1/)我們提到了前四件人們在事業上應該關注的事物，本篇我們介紹後面四件
+在[從50年職涯中學到的事業課題-上](https://hshuang.blog/posts/life-lessons-from-the-first-half-century-of-my-career-focused-1/)我們提到了前四件人們在事業上應該關注的事物，本篇我們介紹後面四件
 
 ## 天佑勇者
 > 偉大的成就由大膽的願景所鑄成

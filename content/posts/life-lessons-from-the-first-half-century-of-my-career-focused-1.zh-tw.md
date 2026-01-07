@@ -27,7 +27,7 @@ featureimage = "https://secologies.com/wp-content/uploads/2025/07/career-lessons
 slug = "life-lessons-from-the-first-half-century-of-my-career-focused-1"
 +++
  
-在[從50年職涯中學到的人生課題-上](https://hshuangb.blog/p/life-lessons-from-the-first-half-century-of-my-career-people-focused-1/)跟[從50年職涯中學到的人生課題-下](https://hshuangb.blog/p/life-lessons-from-the-first-half-century-of-my-career-people-focused-2/)我們提到了八件人們應該關注的事物，而再來我們看David認為另外8件事業上要注意的事情，本篇我們介紹前四件
+在[從50年職涯中學到的人生課題-上](https://hshuangb.blog/posts/life-lessons-from-the-first-half-century-of-my-career-people-focused-1/)跟[從50年職涯中學到的人生課題-下](https://hshuangb.blog/p/life-lessons-from-the-first-half-century-of-my-career-people-focused-2/)我們提到了八件人們應該關注的事物，而再來我們看David認為另外8件事業上要注意的事情，本篇我們介紹前四件
 
 ## 把時間花在真正重要的事情上
 人們總會傾向於將一些小任務或者多個會議塞進自己一天的工作時間裡，這使得我們其實沒有太多時間處理真正重要且必須獨立作業的任務，以及自我省思的空閑時間，知道自己一天當中什麼時段最有效率是第一優先釐清的條件，並且要盡可能地在這個時段把其他雜事排開，只做最重要的事情

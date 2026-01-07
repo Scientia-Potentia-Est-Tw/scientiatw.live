@@ -13,7 +13,7 @@ featureimage = "https://secologies.com/wp-content/uploads/2025/07/life-lessons-2
 
 +++
 
-在上篇[從50年職涯中學到的人生課題-上](https://hshuang.blog/p/life-lessons-from-the-first-half-century-of-my-career-people-focused-1/)我們提到了前四件人們應該關注的事物，此篇文章我將介紹後面四件
+在上篇[從50年職涯中學到的人生課題-上](https://hshuang.blog/posts/life-lessons-from-the-first-half-century-of-my-career-people-focused-1/)我們提到了前四件人們應該關注的事物，此篇文章我將介紹後面四件
 
 ## 關注誠實的意見吧！也許他們是對的
 聆聽那些誠實的回饋才是走向成功的關鍵，我們不會在聽見第一則意見後就決定好所有決策，銘記在心的是批評或責備只會針對專案或想法，並不會對你這個人進行任何人身攻擊(如果大家都是成熟的大人的話)，不如說如果提供了建議代表著觀眾認可你的想法，他們覺得你這點子真的挺有趣的值得花時間在上面
