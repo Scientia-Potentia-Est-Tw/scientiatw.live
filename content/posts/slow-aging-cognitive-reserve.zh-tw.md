@@ -8,6 +8,7 @@ tags = [ "健康", "認知儲備", "失智症", "腦本", "認知活動", "讀�
 keywords = [ "閱讀", "健康", "認知儲備", "失智症", "腦本", "認知活動", "讀後心得", "慢老2.0",]
 slug = "slow-aging-cognitive-reserve"
 summary = "關鍵因素在於你如何處理資訊，任何能刺激心智，對智力有挑戰的活動都有辦法讓認知能力水平下降速度減緩"
+description = "關鍵因素在於你如何處理資訊，任何能刺激心智，對智力有挑戰的活動都有辦法讓認知能力水平下降速度減緩"
 featureimage = "https://secologies.com/wp-content/uploads/2025/07/slow-old-cover-2.webp"
 
 +++

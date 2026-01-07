@@ -7,6 +7,7 @@ tags = [ "睡眠", "健康", "為什麼要睡覺", "讀後心得",]
 keywords = [ "閱讀", "睡眠", "健康", "為什麼要睡覺", "讀後心得",]
 slug = "why-we-sleep-youth"
 summary = "你會不會覺得十六歲的青少年腦中總是少根筋？然而從腦神經科學中發現其實這是正常的"
+description = "你會不會覺得十六歲的青少年腦中總是少根筋？然而從腦神經科學中發現其實這是正常的"
 featureimage = "https://secologies.com/wp-content/uploads/2025/05/why_we_sleep_cover.webp"
 
 +++

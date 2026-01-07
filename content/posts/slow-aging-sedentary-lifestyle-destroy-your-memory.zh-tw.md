@@ -8,6 +8,7 @@ tags = [ "健康", "久坐", "阿茲海默症", "海馬迴", "讀後心得", "�
 keywords = [ "閱讀", "健康", "阿茲海默症", "海馬迴", "讀後心得", "慢老2.0",]
 slug = "slow-aging-sedentary-destroy-your-memory"
 summary = "從久坐不動的世界中站起來吧，為了你的大腦健康，你必須這麼做"
+description = "從久坐不動的世界中站起來吧，為了你的大腦健康，你必須這麼做"
 featureimage = "https://secologies.com/wp-content/uploads/2025/07/slow-old-cover-2.webp"
 
 +++

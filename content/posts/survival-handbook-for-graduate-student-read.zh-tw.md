@@ -8,6 +8,7 @@ tags = [ "研究", "寫作", "研究生完全求生手冊", "讀後心得",]
 keywords = [ "閱讀", "研究", "寫作", "研究生完全求生手冊", "讀後心得",]
 slug = "survival-handbook-for-graduate-student-read"
 summary = "在動手開始寫之前肯定得先閱讀大量的文獻，才能知道說領域內目前還有哪些問題值得探討，還有哪些題目還未解決"
+description = "在動手開始寫之前肯定得先閱讀大量的文獻，才能知道說領域內目前還有哪些問題值得探討，還有哪些題目還未解決"
 featureimage = "https://secologies.com/wp-content/uploads/2025/05/survival_handbook_for_graduate_student_cover.webp"
 
 +++

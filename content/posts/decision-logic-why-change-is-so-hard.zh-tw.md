@@ -8,6 +8,7 @@ tags = [ "認知心理學", "行為科學", "決策制定", "現狀偏差", "決
 keywords = [ "閱讀", "認知心理學", "行為科學", "決策制定", "現狀偏差", "決策的邏輯",]
 slug = "decision-logic-why-change-is-so-hard"
 summary = "你我都不喜歡改變帶來的損失，但人生中總有一個時刻，是我們不得不做出改變"
+description = "你我都不喜歡改變帶來的損失，但人生中總有一個時刻，是我們不得不做出改變"
 featureimage = "https://secologies.com/wp-content/uploads/2025/10/decision-logic-cover.webp"
 
 +++

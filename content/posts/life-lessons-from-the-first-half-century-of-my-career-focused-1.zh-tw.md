@@ -22,6 +22,7 @@ keywords = [
   "圖靈獎",
 ]
 summary = "2017年圖靈獎得主的電腦科學家David A. Patterson分享了他這50年來從人生中學到一些關於職涯上應該要在乎的事"
+description = "2017年圖靈獎得主的電腦科學家David A. Patterson分享了他這50年來從人生中學到一些關於職涯上應該要在乎的事"
 featureimage = "https://secologies.com/wp-content/uploads/2025/07/career-lessons-1-cover-scaled.webp"
 slug = "life-lessons-from-the-first-half-century-of-my-career-focused-1"
 +++

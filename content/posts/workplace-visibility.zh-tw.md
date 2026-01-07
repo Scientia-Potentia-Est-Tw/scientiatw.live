@@ -18,6 +18,7 @@ keywords = [
   "影響力",
 ]
 summary = "如何在公司升遷上更具優勢？"
+description = "如何在公司升遷上更具優勢？"
 featureimage = "https://secologies.com/wp-content/uploads/2025/09/workplace-visibility-scaled.webp" 
 slug = "workplace-visibility" 
 +++

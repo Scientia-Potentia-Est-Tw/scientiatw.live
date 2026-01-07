@@ -8,6 +8,7 @@ tags = [ "健康", "營養與飲食", "讀後心得", "慢老2.0",]
 keywords = [ "閱讀", "健康", "營養與飲食", "讀後心得", "慢老2.0",]
 slug = "slow-aging-ten-ways-to-activate-your-brain"
 summary = "神經科學家威勒米爾（Kristen Willeumier)在亞曼診所(Amen Clinics)看過許多的精密大腦影像，並且經由研究過後推斷出只要改變生活習慣以及持之以恆，就能夠大幅度的改變大腦的健康狀況"
+description = "神經科學家威勒米爾（Kristen Willeumier)在亞曼診所(Amen Clinics)看過許多的精密大腦影像，並且經由研究過後推斷出只要改變生活習慣以及持之以恆，就能夠大幅度的改變大腦的健康狀況"
 featureimage = "https://secologies.com/wp-content/uploads/2025/07/slow-old-cover-2.webp"
 
 +++

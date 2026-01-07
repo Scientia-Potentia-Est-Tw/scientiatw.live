@@ -8,6 +8,7 @@ tags = [ "生活", "困境", "價值觀", "讀後心得", "自私的藝術",]
 keywords = [ "閱讀", "生活", "困境", "價值觀", "讀後心得", "自私的藝術",]
 slug = "the-art-of-selfishness-where-the-way-lead-to-hapiness"
 summary = "在生命的無力感之中人們該抱持何種信念才能通往快樂？"
+description = "在生命的無力感之中人們該抱持何種信念才能通往快樂？"
 featureimage = "https://secologies.com/wp-content/uploads/2025/08/The-Art-of-Selfishness-cover.webp"
 
 +++

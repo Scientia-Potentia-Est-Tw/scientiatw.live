@@ -18,6 +18,7 @@ keywords = [
   "人生",
 ]
 summary = "如果不好好吃，怎麼好好思考、好好去愛、好好睡覺？"
+description = "如果不好好吃，怎麼好好思考、好好去愛、好好睡覺？"
 featureimage = "https://secologies.com/wp-content/uploads/2025/08/sitopia-cover.webp" 
 slug = "sitopia-meaning-of-wonderful-life"
 +++

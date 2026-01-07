@@ -22,6 +22,7 @@ keywords = [
   "代謝",
 ]
 summary = "代謝猶如人體發電系統，是你我身體健康的根源"
+description = "代謝猶如人體發電系統，是你我身體健康的根源"
 featureimage = "https://secologies.com/wp-content/uploads/2025/09/metabolic-power-cover.webp"
 slug = "metabolic-power-is-key-of-health"
 math = true

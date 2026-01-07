@@ -22,6 +22,7 @@ keywords = [
   "病識感",
 ]
 summary = "當重大悲傷來臨，我們該如何走過這黑暗，重新拾起希望？"
+description = "當重大悲傷來臨，我們該如何走過這黑暗，重新拾起希望？"
 featureimage = "https://secologies.com/wp-content/uploads/2025/09/fix-grief-cover-scaled.webp"
 slug = "fix-grief"
 +++

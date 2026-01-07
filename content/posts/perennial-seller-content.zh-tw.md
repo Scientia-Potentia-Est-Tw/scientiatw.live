@@ -20,6 +20,7 @@ keywords = [
   "讀後心得",
 ]
 summary = "世界上眾多創作者通常對於產出經典長銷作品都抱有非常大的興趣，希望自己的作品能夠真正解決其他人的問題，而具體要如何做到，透過萊恩·霍利得(Ryan Holiday)寫的這本書，帶給我們一些能夠讓作品存活久一點的策略"
+description = "世界上眾多創作者通常對於產出經典長銷作品都抱有非常大的興趣，希望自己的作品能夠真正解決其他人的問題，而具體要如何做到，透過萊恩·霍利得(Ryan Holiday)寫的這本書，帶給我們一些能夠讓作品存活久一點的策略"
 featureimage = "https://secologies.com/wp-content/uploads/2025/05/perennial_seller_cover.webp"
 slug = "perennial-seller-content"
 +++

@@ -24,6 +24,7 @@ keywords = [
   "讀後心得",
 ]
 summary = "梵谷在他短短37年的人生創造了上千件作品留給我們世人"
+description = "梵谷在他短短37年的人生創造了上千件作品留給我們世人"
 featureimage = "https://secologies.com/wp-content/uploads/2025/06/VincentVanGogh-Cover.webp"
 slug = "Vincent-Van-Gogh"
 +++

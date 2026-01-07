@@ -24,6 +24,7 @@ keywords = [
   "FOMO",
 ]
 summary = "資訊如浪潮般襲來的時代，在AI產生的大量低熵資訊中，錯過任何一則訊息你都覺得被世界遺落了"
+description = "資訊如浪潮般襲來的時代，在AI產生的大量低熵資訊中，錯過任何一則訊息你都覺得被世界遺落了"
 featureimage = "https://secologies.com/wp-content/uploads/2025/09/fear-of-missing-out-and-me-scaled.webp"
 slug = "fear-of-missing-out-and-me"
 +++

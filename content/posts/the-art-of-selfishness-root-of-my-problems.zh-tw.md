@@ -8,6 +8,7 @@ tags = [ "自我", "主宰", "自私", "無私", "讀後心得", "自私的藝�
 keywords = [ "閱讀", "自我", "主宰", "無私", "自私", "讀後心得", "自私的藝術",]
 slug = "the-art-of-selfishness-root-of-my-problems"
 summary = "我們所面臨的世界究竟是由他人還是自己在掌控著？"
+description = "我們所面臨的世界究竟是由他人還是自己在掌控著？"
 featureimage = "https://secologies.com/wp-content/uploads/2025/08/The-Art-of-Selfishness-cover.webp"
 
 +++

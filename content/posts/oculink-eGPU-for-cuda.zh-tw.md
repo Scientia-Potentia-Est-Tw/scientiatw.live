@@ -22,6 +22,7 @@ keywords = [
   "Framework",
 ]
 summary = "由於研究上需要CUDA平行計算，所以我在Thunderbolt 4與Oculink中做選擇"
+description = "由於研究上需要CUDA平行計算，所以我在Thunderbolt 4與Oculink中做選擇"
 featureimage = "https://secologies.com/wp-content/uploads/2025/09/Oculink-1-scaled.webp"
 slug = "oculink-egpu-for-cuda"
 +++

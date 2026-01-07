@@ -22,6 +22,7 @@ keywords = [
   "讀後心得",
 ]
 summary = "失去了過往而未來也不再期待，因為能夠體驗的只有這個當下，該具備何種勇氣才能繼續走下去？"
+description = "失去了過往而未來也不再期待，因為能夠體驗的只有這個當下，該具備何種勇氣才能繼續走下去？"
 featureimage = "https://secologies.com/wp-content/uploads/2025/10/Still-Alice-Cover.webp"
 slug = "still-alice"
 +++

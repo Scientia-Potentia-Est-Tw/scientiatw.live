@@ -22,6 +22,7 @@ keywords = [
   "mooInk Pro 2C",
 ]
 summary = "學術工作時常需要看論文，除了紙本之外我們還有何種選擇？"
+description = "學術工作時常需要看論文，除了紙本之外我們還有何種選擇？"
 featureimage = "https://secologies.com/wp-content/uploads/2025/05/Readmoo_mooInk_Pro_2C.webp"
 slug = "readmoo-mooink-pro-2c"
 +++

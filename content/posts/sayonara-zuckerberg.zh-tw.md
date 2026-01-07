@@ -20,6 +20,7 @@ keywords:
   - 演算法 
 summary: "我生命中最美好的事物從沒有在社群平台上出現，如果繼續讓祖克柏控制我的大腦，也許有一天我會支離破碎吧"
 featureimage: "https://secologies.com/wp-content/uploads/2025/12/祖克柏梗圖-3.webp"
+thumbnail: "https://secologies.com/wp-content/uploads/2025/12/祖克柏梗圖-3.webp"
 slug: "sayonara-zuckerberg"
 ---
 過去我們活在需要100%心力過活的生命中，可能花了80%的力氣在處理一些煩心的雜事，而剩下20%的時間裡是我們可以進入心流狀態，完成某種成就的深層體驗，可能是完整的看完一本書或一部電影、創作一篇文章或畫一張圖、與你的伴侶一起細心品味你們之間的日常相處，也可以是單純放空的在公園裡散步

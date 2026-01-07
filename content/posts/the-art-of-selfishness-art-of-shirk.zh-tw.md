@@ -8,6 +8,7 @@ tags = [ "偷懶", "工具", "AI", "讀後心得", "自私的藝術",]
 keywords = [ "閱讀", "偷懶", "工具", "AI", "讀後心得", "自私的藝術",]
 slug = "the-art-of-selfishness-art-of-shirk"
 summary = "如何更好地管理工作與生活"
+description = "如何更好地管理工作與生活"
 featureimage = "https://secologies.com/wp-content/uploads/2025/08/The-Art-of-Selfishness-cover.webp"
 
 +++

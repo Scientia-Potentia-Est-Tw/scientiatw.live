@@ -20,6 +20,7 @@ keywords = [
   "讀後心得",
 ]
 summary = "創意人的創業家思維必須具備以下幾種想法"
+description = "創意人的創業家思維必須具備以下幾種想法"
 featureimage = "https://secologies.com/wp-content/uploads/2025/05/perennial_seller_cover.webp"
 slug = "perennial-seller-platform"
 +++

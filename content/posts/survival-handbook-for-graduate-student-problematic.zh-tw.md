@@ -8,6 +8,7 @@ tags = [ "研究", "寫作", "研究生完全求生手冊", "讀後心得",]
 keywords = [ "閱讀", "研究", "寫作", "研究生完全求生手冊", "讀後心得",]
 slug = "survival-handbook-for-graduate-student-problematic"
 summary = "學術界在開始研究一個實際問題之前，會先做problem formulation，將原本複雜的問題其core-problem抽取出來，進行簡化或者抽象化，這樣會有一些好處"
+description = "學術界在開始研究一個實際問題之前，會先做problem formulation，將原本複雜的問題其core-problem抽取出來，進行簡化或者抽象化，這樣會有一些好處"
 featureimage = "https://secologies.com/wp-content/uploads/2025/05/survival_handbook_for_graduate_student_cover.webp"
 
 +++

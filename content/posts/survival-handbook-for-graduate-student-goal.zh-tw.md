@@ -8,6 +8,7 @@ tags = [ "研究", "寫作", "研究生完全求生手冊", "讀後心得",]
 keywords = [ "閱讀", "研究", "寫作", "研究生完全求生手冊", "讀後心得",]
 slug = "survival-handbook-for-graduate-student-goal"
 summary = "研究的目的是找到正確的答案，你可以從網路上找到許多似是而非的答案，但要如何分辨這些資訊的可靠性與互補性，你需要進行一系列的搜尋與篩選，才能過濾掉無用的內容，當你整理出你需要的東西後，你該如何對這些資訊進行分析、比對才能拼湊出完整的正確答案"
+description = "研究的目的是找到正確的答案，你可以從網路上找到許多似是而非的答案，但要如何分辨這些資訊的可靠性與互補性，你需要進行一系列的搜尋與篩選，才能過濾掉無用的內容，當你整理出你需要的東西後，你該如何對這些資訊進行分析、比對才能拼湊出完整的正確答案"
 featureimage = "https://secologies.com/wp-content/uploads/2025/05/survival_handbook_for_graduate_student_cover.webp"
 
 +++

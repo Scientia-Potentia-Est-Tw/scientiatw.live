@@ -22,6 +22,7 @@ keywords = [
   "原型食物",
 ]
 summary = "外食族想要吃得對，其實沒那麼難！"
+description = "外食族想要吃得對，其實沒那麼難！"
 featureimage = "https://secologies.com/wp-content/uploads/2025/09/more-eat-more-tired-cover.webp"
 slug = "more-eat-more-tired"
 +++

@@ -22,6 +22,7 @@ keywords = [
   "雲端封建時代",
 ]
 summary = "現實中當不起地主，那你可以選擇在網路上試試當地主"
+description = "現實中當不起地主，那你可以選擇在網路上試試當地主"
 featureimage = "https://secologies.com/wp-content/uploads/2025/08/Technofeudalism-cover.webp" 
 slug = "digital-tenant-farmer" 
 +++

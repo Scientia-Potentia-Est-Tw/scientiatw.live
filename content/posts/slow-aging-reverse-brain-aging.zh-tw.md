@@ -8,6 +8,7 @@ tags = [ "健康", "運動", "逆轉", "失智症", "讀後心得", "慢老2.0",
 keywords = [ "閱讀", "健康", "運動", "逆轉", "失智症", "讀後心得", "慢老2.0",]
 slug = "slow-aging-reverse-brain-aging"
 summary = "三十五天才能體驗到認知能力的顯著改善"
+description = "三十五天才能體驗到認知能力的顯著改善"
 featureimage = "https://secologies.com/wp-content/uploads/2025/07/slow-old-cover-2.webp"
 
 +++

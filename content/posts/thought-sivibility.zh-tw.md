@@ -18,6 +18,7 @@ keywords = [
   "可見度",
 ]
 summary = "這個Agent橫行的時代該如何更深刻的解決問題？"
+description = "這個Agent橫行的時代該如何更深刻的解決問題？"
 featureimage = "https://secologies.com/wp-content/uploads/2025/09/thought-visibility-scaled.webp" 
 slug = "thought-visibility" 
 +++

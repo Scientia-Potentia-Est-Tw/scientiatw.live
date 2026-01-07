@@ -8,6 +8,7 @@ tags = [ "睡眠", "健康", "為什麼要睡覺", "讀後心得",]
 keywords = [ "閱讀", "睡眠", "健康", "為什麼要睡覺", "讀後心得",]
 slug = "why-we-sleep-type"
 summary = "雖然你我的身體時鐘是運行二十四小時作息，但總會發現有些人早上精神較好，有些人則是晚上才會生龍活虎"
+description = "雖然你我的身體時鐘是運行二十四小時作息，但總會發現有些人早上精神較好，有些人則是晚上才會生龍活虎"
 featureimage = "https://secologies.com/wp-content/uploads/2025/05/why_we_sleep_cover.webp"
 
 +++

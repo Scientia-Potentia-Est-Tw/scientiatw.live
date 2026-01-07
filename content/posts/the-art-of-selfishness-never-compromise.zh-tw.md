@@ -8,6 +8,7 @@ tags = [ "妥協", "委屈求全", "挫折", "讀後心得", "自私的藝術",]
 keywords = [ "閱讀", "妥協", "委屈求全", "挫折", "讀後心得", "自私的藝術",]
 slug = "the-art-of-selfishness-never-compromise"
 summary = "面臨著事業危機，也不被任何人支持，究竟該如何撐過這場暴風？"
+description = "面臨著事業危機，也不被任何人支持，究竟該如何撐過這場暴風？"
 featureimage = "https://secologies.com/wp-content/uploads/2025/08/The-Art-of-Selfishness-cover.webp"
 
 +++

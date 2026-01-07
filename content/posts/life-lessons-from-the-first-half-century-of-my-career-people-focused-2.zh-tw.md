@@ -8,6 +8,7 @@ tags = [ "人生", "建議", "David A. Patterson", "電腦科學家", "圖靈獎
 keywords = [ "生活", "人生", "建議", "David A. Patterson", "電腦科學家", "圖靈獎",]
 slug = "life-lessons-from-the-first-half-century-of-my-career-people-focused-2"
 summary = "2017年圖靈獎得主的電腦科學家David A. Patterson分享了他這50年來從人生中學到一些關於人們應該要在乎的事"
+description = "2017年圖靈獎得主的電腦科學家David A. Patterson分享了他這50年來從人生中學到一些關於人們應該要在乎的事"
 featureimage = "https://secologies.com/wp-content/uploads/2025/07/life-lessons-2-cover-scaled.webp"
 
 +++

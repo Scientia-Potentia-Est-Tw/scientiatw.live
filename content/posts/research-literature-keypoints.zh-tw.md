@@ -18,6 +18,7 @@ keywords = [
   "關鍵",
 ]
 summary = "在這個連Agent都可以幫你梳理paper的時代，我們該如何看得比AI還深入？"
+description = "在這個連Agent都可以幫你梳理paper的時代，我們該如何看得比AI還深入？"
 featureimage = "https://secologies.com/wp-content/uploads/2025/08/research-keypoints-cover-scaled.webp" 
 slug = "research-literature-keypoints"
 +++

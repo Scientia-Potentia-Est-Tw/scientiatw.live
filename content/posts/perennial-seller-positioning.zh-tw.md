@@ -20,6 +20,7 @@ keywords = [
   "讀後心得",
 ]
 summary = "定位不到位，再多的行銷都無法彌補，再好的產品也只能報廢"
+description = "定位不到位，再多的行銷都無法彌補，再好的產品也只能報廢"
 featureimage = "https://secologies.com/wp-content/uploads/2025/05/perennial_seller_cover.webp"
 slug = "perennial-seller-positioning"
 +++

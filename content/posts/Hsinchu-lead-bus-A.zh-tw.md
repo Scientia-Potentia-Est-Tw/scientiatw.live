@@ -19,6 +19,7 @@ keywords = [
 ]
 featureimage = "https://secologies.com/wp-content/uploads/2025/05/Hsinchu_Lead_Bus_A-cover.webp"
 summary = "今天終於坐到了新竹市政府2024年月底推出新的電動先導公車"
+description = "今天終於坐到了新竹市政府2024年月底推出新的電動先導公車"
 slug = "Hsinchu-lead-bus-A"
 +++
  

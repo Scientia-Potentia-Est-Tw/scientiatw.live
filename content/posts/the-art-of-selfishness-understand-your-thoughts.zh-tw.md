@@ -8,6 +8,7 @@ tags = [ "義務", "自我懷疑", "自責", "讀後心得", "自私的藝術",]
 keywords = [ "閱讀", "義務", "自我懷疑", "自責", "讀後心得", "自私的藝術",]
 slug = "the-art-of-selfishness-understand-your-thoughts"
 summary = "為什麼我們需要探索自我？"
+description = "為什麼我們需要探索自我？"
 featureimage = "https://secologies.com/wp-content/uploads/2025/08/The-Art-of-Selfishness-cover.webp"
 
 +++

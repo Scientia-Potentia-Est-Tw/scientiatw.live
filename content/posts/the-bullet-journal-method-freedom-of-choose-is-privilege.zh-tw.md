@@ -8,6 +8,7 @@ tags = [ "個人成長", "生活分享", "子彈思考整理術", "讀後心得"
 keywords = [ "閱讀", "個人成長", "生活分享", "子彈思考整理術", "讀後心得",]
 slug = "the-bullet-journal-method-freedom-of-choose-is-privilege"
 summary = "身處二十一世紀的我們每天說著自己「很忙」，但經過這些忙碌後真的有讓我們得到更多了嗎？"
+description = "身處二十一世紀的我們每天說著自己「很忙」，但經過這些忙碌後真的有讓我們得到更多了嗎？"
 featureimage = "https://secologies.com/wp-content/uploads/2025/05/TheBulletJournalMethodCover.webp"
 
 +++

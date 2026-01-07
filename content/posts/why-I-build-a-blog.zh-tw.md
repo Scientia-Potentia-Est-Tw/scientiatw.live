@@ -18,6 +18,7 @@ keywords = [
   "為什麼我想寫部落格",
 ]
 summary = "人的記憶非常奇妙，只有那些刻骨銘心的事情才會讓你記得長長久久，尤其每晚在我睡著前那些死去的記憶突然開始攻擊我，而那些快樂的記憶倏忽即逝不留痕跡的離開了我"
+description = "人的記憶非常奇妙，只有那些刻骨銘心的事情才會讓你記得長長久久，尤其每晚在我睡著前那些死去的記憶突然開始攻擊我，而那些快樂的記憶倏忽即逝不留痕跡的離開了我"
 featureimage = "https://secologies.com/wp-content/uploads/2025/07/why-I-build-a-blog-cover-scaled.webp" 
 slug = "why-I-build-a-blog"
 math = true
