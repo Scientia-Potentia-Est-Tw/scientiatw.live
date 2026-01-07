@@ -69,4 +69,4 @@ David認為做自己所熱愛的工作即便這些組織不付錢他也心甘情
 小小一點火花，即可燃起熊熊烈火，如果聚光燈打在了你身上，也請記得將這些注目分給其他同事們一起發光發亮，與團隊共享榮耀並不會讓注目削弱
 
 ---
-[1] [BLUE GIANT SUPREME藍色巨星 歐洲篇(01)](https://moo.im/a/27jHRZ)
+[1] 石塚真一, "BLUE GIANT SUPREME 藍色巨星：歐洲篇(01)," 尖端出版, Readmoo, 2023/05/19, [https://moo.im/a/27jHRZ](https://moo.im/a/27jHRZ).
