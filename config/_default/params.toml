@@ -45,7 +45,7 @@ cardView = true
 cardViewScreenWidth = false
 layoutBackgroundBlur = true
 disableHeroImageFilter = false
-homepageImage = "/img/sea-of-clouds-13690.gif"
+homepageImage = "/img/background.svg"
 
 [article]
 showDate = true
