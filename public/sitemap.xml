@@ -3,13 +3,19 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
-    <loc>https://hshuang.blog/micro/2026-01-08/</loc>
-    <lastmod>2026-01-08T22:44:00+08:00</lastmod>
+    <loc>https://hshuang.blog/posts/serenite-peace-and-quiet/</loc>
+    <lastmod>2026-01-09T13:22:00+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://hshuang.blog/</loc>
+    <lastmod>2026-01-09T13:22:00+08:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://hshuang.blog/micro/2026-01-08/</loc>
     <lastmod>2026-01-08T22:44:00+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
