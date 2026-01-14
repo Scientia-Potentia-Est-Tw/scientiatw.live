@@ -60,7 +60,7 @@ title: 電子書閱讀器改變了我的人生
 </figure>
 
 <figure>
-  <img src="https://secologies.com/wp-content/uploads/2026/01/kobo-clara-bw-scaled.webp" alt="Kobo Clara BW" width="800">
+  <img src="https://secologies.com/wp-content/uploads/2026/01/kobo-clara-bw-scaled.webp" alt="Kobo Clara BW" width="600">
   <figcaption>Kobo Clara BW</figcaption>
 </figure>
 
