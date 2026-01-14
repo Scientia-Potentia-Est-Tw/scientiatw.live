@@ -18,7 +18,7 @@ lastmod: '2026-01-07T13:59:00+08:00'
 - ⏳ 工作：趕第一階段實驗
 
 ## 🌐 最近網路上的狀態
-- 💻 [Secologies](https://secologies.com/zh/)：寄送出第一期的電子報，有興趣的可以[訂閱](https://secologies.com/zh/newsletter-zh/)，我也把所有紀錄都更新在電子報頁面中，用該網域註冊了商業版的電子郵件服務，看起來更專業
+- 💻 [Secologies](https://secologies.com)：寄送出第一期的電子報，有興趣的可以[訂閱](https://secologies.com/zh/newsletter-zh/)，我也把所有紀錄都更新在電子報頁面中，用該網域註冊了商業版的電子郵件服務，看起來更專業
 - 🗓 社群部落格：變更本站的Hugo模板，原本的Stack模板真的與太多人撞到所以決定換個
 
 ## 🎯 最近的專案
