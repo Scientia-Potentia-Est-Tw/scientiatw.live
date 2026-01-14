@@ -21,7 +21,7 @@ lastmod: '2025-12-26T16:02:00+08:00'
 
 訂閱本站RSS的話請用這個連結：[RSS](https://hshuang.blog/index.xml)
 
-歡迎逛逛我的資安部落格：[Secologies](https://secologies.com/zh)
+歡迎逛逛我的資安部落格：[Secologies](https://secologies.com)
 
 任何問題請寄到信箱內：[hshuang@hshuang.blog](mailto:hshuang@hshuang.blog)
 
