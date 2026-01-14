@@ -2,7 +2,7 @@
 author: 黃宏勝
 categories:
 - 科技
-date: 2025-11-27 16:28:00+08:00
+date: 2025-11-27T16:28:00+08:00
 featureimage: https://secologies.com/wp-content/uploads/2025/11/Kobo-Clara-BW-cover.webp
 keywords:
 - 科技
@@ -11,7 +11,7 @@ keywords:
 - 讀墨
 - Kobo
 - MobiScribe Origin
-lastmod: 2025-12-26 16:29:00+08:00
+lastmod: 2026-01-14T10:45:00+08:00
 slug: ebook-ereader-changes-me
 summary: 放下會毒害自己大腦的社群媒體，擁抱單純的閱讀拯救自己的大腦吧
 description: "放下會毒害自己大腦的社群媒體，擁抱單純的閱讀拯救自己的大腦吧"
@@ -40,7 +40,7 @@ title: 電子書閱讀器改變了我的人生
 
 除了Kobo本身自己的機器體驗才比較好之外，在其他開放式Android魔改的機器裡下載Kobo APK，就算是EPUB 3流板的書，打開來書裡的字要不是過大，就是太小，每次都調不到最佳的大小
 
-而基於我電子書大部分都在Kobo購買，爬了許多文章都表明用他們家的閱讀器體驗才比較好，只好賣掉MobiScribe Origin換找一台Kobo機器了(是說手帳的功能當時也不太常用，畢竟我個小小實習生在開會時根本不用報告)
+而基於我電子書大部分都在Kobo購買，爬了許多文章都表明用他們家的閱讀器體驗才比較好，只好賣掉MobiScribe Origin換找一台Kobo機器了(是說手帳的功能當時也不太常用，畢竟我個小小實習生在開會時根本不用報告，自然也不用筆記主管講的東西)
 
 當時沒花多久時間就看到一台二手7吋Kobo Libra H2O狀況還ok，我第二台使用的封閉式閱讀器，體驗是真的不錯，不需要像開放式機器那樣煩惱太多，反正我的需求就只有閱讀跟看Paper，反觀社團裡有些人拿來看社群媒體、看影片，甚至玩遊戲的都有，呱張了
 
