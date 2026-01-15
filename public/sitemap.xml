@@ -3,14 +3,20 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
-    <loc>https://hshuang.blog/micro/2026-01-13/</loc>
-    <lastmod>2026-01-13T14:03:00+08:00</lastmod>
+    <loc>https://hshuang.blog/posts/animal-farm/</loc>
+    <lastmod>2026-01-15T20:17:00+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://hshuang.blog/</loc>
-    <lastmod>2026-01-14T10:45:00+08:00</lastmod>
+    <lastmod>2026-01-15T20:23:00+08:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://hshuang.blog/micro/2026-01-13/</loc>
+    <lastmod>2026-01-13T14:03:00+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
@@ -124,7 +130,7 @@
   </url>
   <url>
     <loc>https://hshuang.blog/books/</loc>
-    <lastmod>2025-11-18T15:10:00+08:00</lastmod>
+    <lastmod>2026-01-15T20:23:00+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>

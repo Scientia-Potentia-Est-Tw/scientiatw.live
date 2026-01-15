@@ -5,7 +5,7 @@ author: "黃宏勝"
 aliases:
   - books
 slug: books
-lastmod: '2025-11-18T15:10:00+08:00'
+lastmod: '2026-01-15T20:23:00+08:00'
 ---
 本頁記錄讀過的每本書及心得分享
 ## 商業
@@ -18,6 +18,7 @@ lastmod: '2025-11-18T15:10:00+08:00'
 ## 健康
 | 書名      | 相關文章 |
 | :---        |    :----   |
+| 《靜能量》：找回內在平衡的25個心靈處方 | [《靜能量》：我們的心靈是否可以「澄潔且平靜」呢？](https://hshuang.blog/posts/serenite-peace-and-quiet/) |
 | [《好好休息》：心不累、身體不疲憊、大腦不報廢的好眠人生實踐法](https://www.books.com.tw/exep/assp.php/scientia/products/0010983296?utm_source=scientia&utm_medium=ap-books&utm_content=recommend&utm_campaign=ap-202510) | [《好好休息》：職場上忽略了休息，我們最終會面臨什麼？](https://hshuang.blog/posts/well-rest-ignore-rest/) |
 |  [《為什麼要睡覺？》：睡出健康與學習力、夢出創意的新科學](https://www.books.com.tw/exep/assp.php/scientia/products/0010959050?utm_source=scientia&utm_medium=ap-books&utm_content=recommend&utm_campaign=ap-202504)  | [《為什麼要睡覺？》讀後心得：睡眠不足對於身體的各種危害](https://hshuang.blog/posts/why-we-sleep-harm/)<br>[《為什麼要睡覺？》讀後心得：理性思考最後才成熟](https://hshuang.blog/posts/why-we-sleep-youth/)<br>[《為什麼要睡覺？》讀後心得：你是早鳥還是夜貓子？](https://hshuang.blog/posts/why-we-sleep-type/)  |
 | [《慢老2.0》：不是活得更老，而是延長健康中年！ 全面升級健腦、強肌、抗衰的日常習慣](https://www.books.com.tw/exep/assp.php/scientia/products/0010982682?utm_source=scientia&utm_medium=ap-books&utm_content=recommend&utm_campaign=ap-202507)   | [《慢老2.0》：閱讀、寫信、玩遊戲將失智症延後五年](https://hshuang.blog/posts/slow-aging-cognitive-reserve/)<br>[《慢老2.0》：運動35天逆轉大腦老化](https://hshuang.blog/posts/slow-aging-reverse-brain-aging/)<br>[《慢老2.0》：久坐摧毀你的記憶力！](https://hshuang.blog/posts/slow-aging-sedentary-destroy-your-memory/)<br>[《慢老2.0》讀後心得：活化大腦的十種方法](https://hshuang.blog/posts/slow-aging-ten-ways-to-activate-your-brain/)        |
@@ -25,6 +26,7 @@ lastmod: '2025-11-18T15:10:00+08:00'
 ## 文學小說
 | 書名      | 相關文章 |
 | :---        |    :----   |
+| 《動物農莊》（隨書附贈英文版） | [《動物農莊》：所有動物一律平等，但有些動物比其他動物更平等](https://hshuang.blog/posts/animal-farm/) |
 | 我想念我自己（經典愛藏版）| [《我想念我自己》讀後心得](https://hshuang.blog/posts/still-alice/) |
 
 ## 人生
