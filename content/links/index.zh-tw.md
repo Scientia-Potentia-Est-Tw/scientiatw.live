@@ -7,18 +7,7 @@ aliases:
   - links
 slug: links
 ---
-此頁面收錄有趣的文章、Podcast頻道、單曲或專輯
-## 📰 文章
-| 文章標題 | 註解 |
-| -------- | -------- |
-| [閱讀是如何塑造我](https://yaxuanhe.me/post/reading/) | 光是一本書就濃縮了作者十幾、二十年的經驗，這個注意力缺乏的世代人們更應該重拾閱讀的時光 |
-| [刻意無聊的力量：也許我們都是被數位時代的眾多娛樂給埋沒的天才？](https://alexhsu.com/zh/boredom/) | 我嘗試不再時時刻刻地用娛樂滿足自己，而是有意識的清空自己的腦袋暫存區 |
-| [世界是內心感受的投射](https://yaxuanhe.me/post/reflection/) | 也許就是我老想著要讓自己快樂，才導致自己總是不快樂，快樂究竟是什麼 |
-
-## 📻 Podcast
-| Podcast名稱    | 內容 |
-| -------- | --------|
-| [茫DAY不錄](https://mondayblueeee.firstory.io/episodes) | 聊天型頻道，一堆爛笑話但我挺喜歡的(？) |
+此頁面收錄有趣的單曲、專輯、Podcast頻道、藝術作品
 
 ## 🎸 音樂
 | 樂團名稱 | 推薦專輯 |
@@ -35,3 +24,7 @@ slug: links
 | [先知瑪莉Mary See the Future](https://zh.wikipedia.org/zh-tw/%E5%85%88%E7%9F%A5%E7%91%AA%E8%8E%89) | [《陸橋》](https://www.kkbox.com/tw/tc/song/Om6bR7YdTsIBftbjKk)，懷念過往的台語專輯 |
 | [Theseus忒修斯](https://streetvoice.com/Theseus_tw/) | [《南國再見，南國》](https://blow.streetvoice.com/48901/)這張專輯致敬侯孝賢導演，如果對於同名電影很有感觸的話，聽完整張會很有回甘味 |
 
+## 📻 Podcast
+| Podcast名稱    | 內容 |
+| -------- | --------|
+| [茫DAY不錄](https://mondayblueeee.firstory.io/episodes) | 聊天型頻道，一堆諧音梗跟冷笑話但我挺喜歡的(？) |
