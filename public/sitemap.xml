@@ -3,13 +3,19 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
-    <loc>https://hshuang.blog/posts/animal-farm/</loc>
-    <lastmod>2026-01-16T09:51:00+08:00</lastmod>
+    <loc>https://hshuang.blog/micro/2026-01-17/</loc>
+    <lastmod>2026-01-17T18:32:00+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://hshuang.blog/</loc>
+    <lastmod>2026-01-17T18:32:00+08:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://hshuang.blog/posts/animal-farm/</loc>
     <lastmod>2026-01-16T09:51:00+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
