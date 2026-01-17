@@ -46,9 +46,7 @@ featureimage = "https://secologies.com/wp-content/uploads/2025/08/The-Art-of-Sel
 我想我自己對於自私的恐懼，到頭來，讓我對於展現或實踐自我人性本能光輝，活出自我感到恐懼，於是我讓自己，讓愛，讓生活妥協了這一切
 
 ---
-有興趣的讀者可以參考下列電子書版本或平裝書
-
-博客來實體平裝書：[《自私的藝術》：快樂有理，自私無罪！別再讓「過度妥協」控制你的餘生，美國心理學權威給無私好人的50個自救箴言](https://www.books.com.tw/exep/assp.php/scientia/products/0010973322?utm_source=scientia&utm_medium=ap-books&utm_content=recommend&utm_campaign=ap-202508)
+有興趣的讀者可以參考下列電子書版本
 
 Readmoo電子書版本：[《自私的藝術》：快樂有理，自私無罪！別再讓「過度妥協」控制你的餘生，美國心理學權威給無私好人的50個自救箴言](https://moo.im/a/4bCJNP)
 

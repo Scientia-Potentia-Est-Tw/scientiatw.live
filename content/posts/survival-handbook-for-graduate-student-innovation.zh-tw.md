@@ -37,9 +37,7 @@ featureimage = "https://secologies.com/wp-content/uploads/2025/05/survival_handb
 
 關鍵在於以最省力的方式取法先進國家，藉以減少錯誤嘗試的次數與時間，巨幅縮短學習曲線，從而在最短的時間和成本內追趕先進國家的技術。
 
-有興趣的讀者可以參考下列電子書版本或平裝書
-
-博客來實體平裝書：[《研究生完全求生手冊》：方法、秘訣、潛規則](https://www.books.com.tw/exep/assp.php/scientia/products/0010762863?utm_source=scientia&utm_medium=ap-books&utm_content=recommend&utm_campaign=ap-202504)
+有興趣的讀者可以參考下列電子書版本
 
 Readmoo電子書版：[《研究生完全求生手冊》：方法、秘訣、潛規則](https://moo.im/a/dhyDFU)
 

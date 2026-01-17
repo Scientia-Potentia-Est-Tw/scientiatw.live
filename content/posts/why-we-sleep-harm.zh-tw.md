@@ -25,9 +25,7 @@ featureimage = "https://secologies.com/wp-content/uploads/2025/05/why_we_sleep_c
 
 當你接近中年時身體修復能力就會開始退化，四十五歲以上如果睡眠時間在**六小時**以下的人發生心臟病或中風的機會是每晚至少睡**七**到**八**小時的人的**200%**，所以中年晚期的睡眠品質非常重要，然而這時期也是你我的家庭與事業狀況變得艱難的人生階段
 
-有興趣的讀者可以參考下列電子書版本或平裝書
-
-博客來實體平裝書：[《為什麼要睡覺？》：睡出健康與學習力、夢出創意的新科學](https://www.books.com.tw/exep/assp.php/scientia/products/0010959050?utm_source=scientia&utm_medium=ap-books&utm_content=recommend&utm_campaign=ap-202504)
+有興趣的讀者可以參考下列電子書版本
 
 Readmoo電子書版本：[《為什麼要睡覺？》：睡出健康與學習力、夢出創意的新科學](https://moo.im/a/1ijmnu)
 

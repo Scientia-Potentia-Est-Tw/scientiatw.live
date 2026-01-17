@@ -59,9 +59,7 @@ featureimage = "https://secologies.com/wp-content/uploads/2025/05/survival_handb
 
 任何研究越是革命性、原創性的成果越需要仰賴個人的才智與運氣，但失敗風險也高，反之應用導向的研究較為仰賴文獻回顧的能力，將前人已經解決的問題整合到自己的想法內，使得控制風險與成本。
 
-有興趣的讀者可以參考下列電子書或者平裝書
-
-博客來實體平裝書：[《研究生完全求生手冊》：方法、秘訣、潛規則](https://www.books.com.tw/exep/assp.php/scientia/products/0010762863?utm_source=scientia&utm_medium=ap-books&utm_content=recommend&utm_campaign=ap-202504)
+有興趣的讀者可以參考下列電子書或
 
 Readmoo電子書版：[《研究生完全求生手冊》：方法、秘訣、潛規則](https://moo.im/a/dhyDFU)
 

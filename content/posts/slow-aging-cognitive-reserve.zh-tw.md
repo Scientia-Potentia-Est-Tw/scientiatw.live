@@ -22,9 +22,7 @@ featureimage = "https://secologies.com/wp-content/uploads/2025/07/slow-old-cover
 不如說**老年時期的認知活動才是失智病情發展的最重要因素**，任何能刺激心智，對智力有挑戰的活動都有幫助，這些活動為大腦保留了一些韌性，讓你即使失智病變了，大腦功能也下降的慢一些，讓老後健康期延長才能讓人更有尊嚴地活著
 
 ---
-有興趣的讀者可以參考下列電子書版本或平裝書
-
-博客來實體平裝書：[《慢老2.0》：不是活得更老，而是延長健康中年！ 全面升級健腦、強肌、抗衰的日常習慣](https://www.books.com.tw/exep/assp.php/scientia/products/0010982682?utm_source=scientia&utm_medium=ap-books&utm_content=recommend&utm_campaign=ap-202507)
+有興趣的讀者可以參考下列電子書版本
 
 Readmoo電子書版本：[《慢老2.0》：不是活得更老，而是延長健康中年！ 全面升級健腦、強肌、抗衰的日常習慣](https://moo.im/a/ghiBMT)
 

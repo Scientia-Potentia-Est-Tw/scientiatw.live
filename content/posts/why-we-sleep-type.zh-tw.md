@@ -35,9 +35,7 @@ featureimage = "https://secologies.com/wp-content/uploads/2025/05/why_we_sleep_c
 
 這樣調整之下確保每個人都睡了八個小時，又提升了至少50%的生存機會，這種生物特徵(**部落中每個人作息時間的多樣性**)讓我們的智人祖先有效加強了安全存活能力，從效率來比對說不定比起現代同步睡眠時間還來得有利，而大自然就決定保留這個特性，使得我們繼承了這從古至今的體質(**你我在某一時段精神特別好是因為基因要我們站哨**)
 
-有興趣的讀者可以參考下列電子書版本或平裝書
-
-博客來實體平裝書：[《為什麼要睡覺？》：睡出健康與學習力、夢出創意的新科學](https://www.books.com.tw/exep/assp.php/scientia/products/0010959050?utm_source=scientia&utm_medium=ap-books&utm_content=recommend&utm_campaign=ap-202504)
+有興趣的讀者可以參考下列電子書版本
 
 Readmoo電子書版本：[《為什麼要睡覺？》：睡出健康與學習力、夢出創意的新科學](https://moo.im/a/1ijmnu)
 

@@ -24,9 +24,7 @@ featureimage = "https://secologies.com/wp-content/uploads/2025/08/The-Art-of-Sel
 但如果一個人拒絕克服自我放縱的態度，踏出生命要他邁進的艱苦道路，那麼這樣的自私就是錯誤的，悉達多(Siddhārtha)為追求智慧思考、等待、戒齋、苦修、放縱，那麼我們的義務就是面對自己
 
 ---
-有興趣的讀者可以參考下列電子書版本或平裝書
-
-博客來實體平裝書：[《自私的藝術》：快樂有理，自私無罪！別再讓「過度妥協」控制你的餘生，美國心理學權威給無私好人的50個自救箴言](https://www.books.com.tw/exep/assp.php/scientia/products/0010973322?utm_source=scientia&utm_medium=ap-books&utm_content=recommend&utm_campaign=ap-202508)
+有興趣的讀者可以參考下列電子書版本
 
 Readmoo電子書版本：[《自私的藝術》：快樂有理，自私無罪！別再讓「過度妥協」控制你的餘生，美國心理學權威給無私好人的50個自救箴言](https://moo.im/a/4bCJNP)
 

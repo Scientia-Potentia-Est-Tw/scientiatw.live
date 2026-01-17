@@ -108,9 +108,7 @@ slug = "perennial-seller-platform"
 
 賈伯斯明確的商業策略：「如果你做了某樣東西，結果還不錯，你得再去做很棒的東西，不要沈溺在舊的東西上太久。要想清楚接下來要做什麼。」，Apple不是做出第一代iphone跟ipad就停止研發了，麥克菲說：「你必須戰戰兢兢，不斷創作新作品。」，並且「你的上一件作品，不會為你寫下一件作品。」。
 
-《長銷》已經重新再版成《滾動內容複利》：掌握長銷經營者的關鍵行動選擇，持續變現，穩定創收，有興趣的讀者可以參考下列平裝書或電子書連結
-
-博客來實體平裝書：[《滾動內容複利》：掌握長銷經營者的關鍵行動選擇，持續變現，穩定創收](https://www.books.com.tw/exep/assp.php/scientia/products/0010928347?utm_source=scientia&utm_medium=ap-books&utm_content=recommend&utm_campaign=ap-202504)
+《長銷》已經重新再版成《滾動內容複利》：掌握長銷經營者的關鍵行動選擇，持續變現，穩定創收，有興趣的讀者可以參考下列電子書連結
 
 Readmoo電子書版：[《滾動內容複利》](https://moo.im/a/6dlJOY)
 

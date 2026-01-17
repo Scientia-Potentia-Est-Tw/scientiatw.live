@@ -30,9 +30,7 @@ featureimage = "https://secologies.com/wp-content/uploads/2025/05/survival_handb
 
 透過這三種條件，才能讓你完整的學會文獻回顧的能力，批判性思考的能力以及最基本的創新能力。
 
-有興趣的讀者可以參考下列電子書版本或平裝書
-
-博客來實體平裝書：[《研究生完全求生手冊》：方法、秘訣、潛規則](https://www.books.com.tw/exep/assp.php/scientia/products/0010762863?utm_source=scientia&utm_medium=ap-books&utm_content=recommend&utm_campaign=ap-202504)
+有興趣的讀者可以參考下列電子書版本
 
 Readmoo電子書版：[《研究生完全求生手冊》：方法、秘訣、潛規則](https://moo.im/a/dhyDFU)
 

@@ -27,9 +27,7 @@ featureimage = "https://secologies.com/wp-content/uploads/2025/08/The-Art-of-Sel
 這兩類人的道早已不同，那麼「過上好日子」已經不是一個關於智慧的問題，而是關於膽量的問題了，或許**讀者聰明到足以找到一個可行的解決之道，但你有勇氣去實踐嗎？如果沒有，那麼你其實跟愚者沒什麼差別**
 
 ---
-有興趣的讀者可以參考下列電子書版本或平裝書
-
-博客來實體平裝書：[《自私的藝術》：快樂有理，自私無罪！別再讓「過度妥協」控制你的餘生，美國心理學權威給無私好人的50個自救箴言](https://www.books.com.tw/exep/assp.php/scientia/products/0010973322?utm_source=scientia&utm_medium=ap-books&utm_content=recommend&utm_campaign=ap-202508)
+有興趣的讀者可以參考下列電子書版本
 
 Readmoo電子書版本：[《自私的藝術》：快樂有理，自私無罪！別再讓「過度妥協」控制你的餘生，美國心理學權威給無私好人的50個自救箴言](https://moo.im/a/4bCJNP)
 

@@ -45,10 +45,10 @@ slug = "sitopia-meaning-of-wonderful-life"
 [1] 長生不死：矽谷富豪的逆齡人生：[https://www.gq.com.tw/article/%E7%9F%BD%E8%B0%B7%E5%AF%8C%E8%B1%AA%E8%BF%BD%E6%B1%82%E9%95%B7%E7%94%9F](https://www.gq.com.tw/article/%E7%9F%BD%E8%B0%B7%E5%AF%8C%E8%B1%AA%E8%BF%BD%E6%B1%82%E9%95%B7%E7%94%9F)
 
 ---
-有興趣的讀者可以參考下列讀墨或Kobo電子書版本或者博客來平裝書
+有興趣的讀者可以參考下列電子書版本
 
 Readmoo電子書版本：[《食托邦 Sitopia》：一餐一世界！有意識的選擇吃，用美味打造永續未來【飲食與人文新經典】](https://moo.im/a/02hmXY)
 
 Kobo電子書版本：[《食托邦 Sitopia》：一餐一世界！有意識的選擇吃，用美味打造永續未來【飲食與人文新經典】](https://r10.to/hgfFF2)
 
-博客來實體平裝書：[《食托邦 Sitopia》：一餐一世界！有意識的選擇吃，用美味打造永續未來【飲食與人文新經典】](https://www.books.com.tw/exep/assp.php/scientia/products/0010932180?utm_source=scientia&utm_medium=ap-books&utm_content=recommend&utm_campaign=ap-202508)
+Hyread電子書版本：[《食托邦 Sitopia》：一餐一世界！有意識的選擇吃，用美味打造永續未來【飲食與人文新經典】](https://shoppingfun.co/3P7iE?uid1=Blog)
