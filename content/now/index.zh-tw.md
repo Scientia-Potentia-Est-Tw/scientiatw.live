@@ -28,5 +28,5 @@ lastmod: '2026-01-07T13:59:00+08:00'
 - 🍊 冬天來臨了真的冷到爆炸，晚餐水果改換橘子多補充維生素C、膳食纖維、柑橘多酚、β-胡蘿蔔素和鉀之類的
 
 ## 📚 最近讀的/聽的/看的
-- 🧾 [《發現天賦之旅》](https://www.books.com.tw/exep/assp.php/scientia/products/0010587254?utm_source=scientia&utm_medium=ap-books&utm_content=recommend&utm_campaign=ap-202512)：從自身出發到周遭的影響，從而發現自己的天賦與天命，如果對於自己的生命有所疑惑可以看看
+- 🧾 《發現天賦之旅》：從自身出發到周遭的影響，從而發現自己的天賦與天命，如果對於自己的生命有所疑惑可以看看
 - 🎧 [茫DAY不錄](https://mondayblueeee.firstory.io/episodes)：不適合，那可能是濁水溪吧，不是河😐
