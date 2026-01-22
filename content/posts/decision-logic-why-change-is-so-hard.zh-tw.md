@@ -74,7 +74,9 @@ featureimage = "https://secologies.com/wp-content/uploads/2025/10/decision-logic
 [1] 山口飛翔, "藍色時期 (15)," [https://moo.im/a/agtuHX](https://moo.im/a/agtuHX), 東立出版社, Readmoo讀墨
 
 ---
-有興趣的讀者可以參考下列電子書版本
+有興趣的讀者可以參考下列電子書版本或平裝書
+
+博客來實體平裝書：[《決策的邏輯》：行為心理學如何影響我們的選擇？](https://greenmall.info/3PEVv?uid1=Blog)
 
 Readmoo電子書版：[《決策的邏輯》：行為心理學如何影響我們的選擇？](https://moo.im/a/klsAGR)
 

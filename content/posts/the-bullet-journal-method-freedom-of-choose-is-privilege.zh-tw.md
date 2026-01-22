@@ -29,7 +29,9 @@ featureimage = "https://secologies.com/wp-content/uploads/2025/05/TheBulletJourn
 
 美國前總統歐巴馬(Barack Obama)在專訪時說自己只穿灰色或藍色西裝，就是為了減少決策，而臉書創辦人馬克．祖克柏(Mark Zukerberg)總是穿著灰色的運動衫，蘋果創辦人史帝夫．賈伯斯(Steve Jobs)每次發表會都是黑色高領上衣搭配牛仔褲，這些人都意識到，思考各項選擇都是極為費神的事情，因此盡可能地減少生活中需要做的決策
 
-有興趣的讀者可以參考下列電子書版本
+有興趣的讀者可以參考下列電子書版本或平裝書
+
+博客來實體平裝書：[《子彈思考整理術》：釐清超載思緒，化想法為行動，專注最重要的事，設計你想要的人生](https://whitehippo.net/3PEVJ?uid1=Blog)
 
 Readmoo電子書版本：[《子彈思考整理術》：釐清超載思緒，化想法為行動，專注最重要的事，設計你想要的人生](https://moo.im/a/ajpKMW)
 

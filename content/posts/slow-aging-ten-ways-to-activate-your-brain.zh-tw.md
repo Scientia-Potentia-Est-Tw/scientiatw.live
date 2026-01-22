@@ -60,7 +60,9 @@ featureimage = "https://secologies.com/wp-content/uploads/2025/07/slow-old-cover
 **感謝您花時間看了我這篇貼文！**😆
 
 ---
-有興趣的讀者可以參考下列電子書版本
+有興趣的讀者可以參考下列電子書版本或平裝書
+
+博客來實體平裝書：[《慢老2.0》：不是活得更老，而是延長健康中年！ 全面升級健腦、強肌、抗衰的日常習慣](https://ibestfun.net/3PEWo?uid1=Blog)
 
 Readmoo電子書版本：[慢老2.0：不是活得更老，而是延長健康中年！ 全面升級健腦、強肌、抗衰的日常習慣](https://moo.im/a/ghiBMT)
 

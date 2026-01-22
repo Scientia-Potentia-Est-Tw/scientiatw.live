@@ -19,7 +19,9 @@ featureimage = "https://secologies.com/wp-content/uploads/2025/05/survival_handb
 - 透過抽象化後, 可以直接使用學術文獻提出過的解決方法來分析該問題, 不需要自己重新閉門造車
 - 與學術文獻接軌, 可以釐清原本研究裡存在的創新部分, 而後專心攻擊突破既有知識的邊界, 達到更近一步的創新
 
-有興趣的讀者可以參考下列電子書版本
+有興趣的讀者可以參考下列電子書版本或平裝書
+
+博客來實體平裝書：[《研究生完全求生手冊》：方法、秘訣、潛規則](https://ibestfun.net/3PEX5?uid1=Blog)
 
 Readmoo電子書版：[《研究生完全求生手冊》：方法、秘訣、潛規則](https://moo.im/a/dhyDFU)
 
