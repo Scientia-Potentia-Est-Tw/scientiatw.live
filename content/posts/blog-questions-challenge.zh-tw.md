@@ -1,9 +1,15 @@
 ---
+title: 部落格問題挑戰
 author: 黃宏勝
 categories:
 - 生活
 date: '2025-10-18T14:19:00+08:00'
-featureimage: https://secologies.com/wp-content/uploads/2025/10/blog-questions-challenges-cover-scaled.webp
+tags:
+- bear blog question challenge
+- Blog Questions Challenge
+- 挑戰
+- 部落格
+- 故事
 keywords:
 - 生活
 - bear blog question challenge
@@ -11,17 +17,11 @@ keywords:
 - 挑戰
 - 部落格
 - 故事
-lastmod: '2025-12-22T13:53:00+08:00'
+lastmod: '2026-01-23T11:34:00+08:00'
 slug: blog-questions-challenge
 summary: 在廢文小天地看到的Blog Questions Challenge
 description: "在廢文小天地看到的Blog Questions Challenge"
-tags:
-- bear blog question challenge
-- Blog Questions Challenge
-- 挑戰
-- 部落格
-- 故事
-title: 部落格問題挑戰
+featureimage: https://secologies.com/wp-content/uploads/2025/10/blog-questions-challenges-cover-scaled.webp
 ---
 
 在廢文小天地RSS看到部落格挑戰[1]，源自Kev Quirk的Blog Questions Challenge[2]，看到題目蠻有興趣的，所以決定也寫一篇來回應各項問題
@@ -46,7 +46,7 @@ title: 部落格問題挑戰
 - Wordpress
 - [Cloudflare Pages](https://pages.cloudflare.com/)
 
-大學時期沒有收入時只能選擇免費的Github Pages當作網頁空間，開始實習後有些工讀的薪水，在網路上看來看去要經營自媒體應該要架設自己的網站與網域，所以開始買了VPS安裝Wordpress
+一開始沒有收入時只能選擇免費的Github Pages當作網頁空間，開始實習後有些工讀的薪水，在網路上看來看去要經營自媒體應該要架設自己的網站與網域，所以開始買了VPS安裝Wordpress
 
 由於我之後有打算啟動訂閱服務以及線上課程的規劃，並且讀者的個人資料我想要自己全權掌控減少風險，就一定需要有資料庫管理讀者的資訊，Wordpress自然就成為我的第一選項，而且wordpress除了免費的模板功能就夠用之外，支援LaTex、多語言切換以及SEO等套件都有免費版的可以安裝
 
@@ -73,7 +73,7 @@ title: 部落格問題挑戰
 ## 你什麼時候最有寫作靈感？
 每天晚上吃完晚餐後的休息時間，由於晚餐過後注意力也下降許多，所以會開始審視當日白天新增的卡片盒筆記資料庫，整理今天寫的卡片並且更新Obsidian Canvas時就會想到有哪些素材是可以寫成文章的
 
-另外看RSS閱讀器時，看到有些部落格更新了新文章，覺得有趣的內容就決定延伸寫一篇我自己的想法
+另外看到有些部落格更新了新文章，覺得有趣的內容就決定延伸寫一篇我自己的想法，以及閱讀時看到某一章節有感而發就會想要來寫一篇
 
 ## 你會在寫完後立即發布，還是會先存成草稿醞釀一下？
 我自己習慣寫完就馬上發出去，畢竟在Wordpress上有些題目是當初想寫的，但由於素材還沒整理好，所以就一直拖到現在也還躺在草稿區裡，但一直拖著也不是辦法，最近也把那些只有標題的草稿刪掉了
