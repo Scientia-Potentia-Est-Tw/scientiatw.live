@@ -29,10 +29,7 @@ googleAnalytics = "G-GC235QD2XY"
   pagerSize = 100
 
 [imaging]
-  resampleFilter = "lanczos"
-  quality = 90
-  anchor = "smart"
-  # anchor = 'Center'
+  anchor = 'Center'
 
 [taxonomies]
   tag = "tags"
