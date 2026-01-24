@@ -29,7 +29,7 @@ googleAnalytics = "G-GC235QD2XY"
   pagerSize = 100
 
 [imaging]
-  anchor = 'Smart'
+  anchor = 'Center'
 
 [taxonomies]
   tag = "tags"
