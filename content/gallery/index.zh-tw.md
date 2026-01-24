@@ -11,7 +11,6 @@ layout: "simple"
 ---
 {{< gallery >}}
 <!--<img src="" alt="" class="grid-w50 md:grid-w33 xl:grid-w25"/> -->
-<img src="https://secologies.com/wp-content/uploads/2026/01/巧巧與牛排-2-scaled.jpg" alt="巧巧與牛排-2" class="grid-w50 md:grid-w33 xl:grid-w25"/>
 <img src="https://secologies.com/wp-content/uploads/2025/12/成功湖二號鴨-scaled.webp" alt="成功湖二號鴨" class="grid-w50 md:grid-w33 xl:grid-w25"/>
 <img src="https://secologies.com/wp-content/uploads/2025/12/巧巧與牛排-scaled.webp" alt="巧巧與牛排" class="grid-w50 md:grid-w33 xl:grid-w25"  />
 <img src="https://secologies.com/wp-content/uploads/2025/11/旦蕉-scaled.webp" alt="旦蕉" class="grid-w50 md:grid-w33 xl:grid-w25"  />
