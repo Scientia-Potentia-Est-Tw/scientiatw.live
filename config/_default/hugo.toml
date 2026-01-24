@@ -29,6 +29,8 @@ googleAnalytics = "G-GC235QD2XY"
   pagerSize = 100
 
 [imaging]
+  resampleFilter = "lanczos"
+  quality = 85
   anchor = 'Center'
 
 [taxonomies]
