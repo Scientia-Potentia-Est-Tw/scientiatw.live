@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>優酪 on Hong-Sheng Huang&#39;s Blog</title>
-    <link>https://hshuang.blog/tags/%E5%84%AA%E9%85%AA/</link>
+    <link>http://localhost:1313/tags/%E5%84%AA%E9%85%AA/</link>
     <description>Recent content in 優酪 on Hong-Sheng Huang&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
     <copyright>© 2026 Hong-Sheng Huang</copyright>
-    <lastBuildDate>Wed, 31 Dec 2025 13:35:00 +0800</lastBuildDate><atom:link href="https://hshuang.blog/tags/%E5%84%AA%E9%85%AA/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 31 Dec 2025 13:35:00 +0800</lastBuildDate><atom:link href="http://localhost:1313/tags/%E5%84%AA%E9%85%AA/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>2025-12-31</title>
-      <link>https://hshuang.blog/micro/2025-12-31/</link>
+      <link>http://localhost:1313/micro/2025-12-31/</link>
       <pubDate>Wed, 31 Dec 2025 13:35:00 +0800</pubDate>
       
-      <guid>https://hshuang.blog/micro/2025-12-31/</guid>
+      <guid>http://localhost:1313/micro/2025-12-31/</guid>
       <description>&lt;p&gt;流汗的「低能蛋白」&lt;/p&gt;&#xA;&lt;img src=&#34;https://secologies.com/wp-content/uploads/2025/12/低能蛋白-scaled.webp&#34; alt=&#34;低能蛋白&#34; width=&#34;300&#34;/&gt;</description>
       
     </item>

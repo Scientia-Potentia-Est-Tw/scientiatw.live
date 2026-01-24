@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>侘寂 on Hong-Sheng Huang&#39;s Blog</title>
-    <link>https://hshuang.blog/tags/%E4%BE%98%E5%AF%82/</link>
+    <link>http://localhost:1313/tags/%E4%BE%98%E5%AF%82/</link>
     <description>Recent content in 侘寂 on Hong-Sheng Huang&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
     <copyright>© 2026 Hong-Sheng Huang</copyright>
-    <lastBuildDate>Fri, 23 Jan 2026 14:24:00 +0800</lastBuildDate><atom:link href="https://hshuang.blog/tags/%E4%BE%98%E5%AF%82/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 23 Jan 2026 14:24:00 +0800</lastBuildDate><atom:link href="http://localhost:1313/tags/%E4%BE%98%E5%AF%82/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>也許我終究是許多的不完美所組成的</title>
-      <link>https://hshuang.blog/posts/imperfect-builds-me/</link>
+      <link>http://localhost:1313/posts/imperfect-builds-me/</link>
       <pubDate>Thu, 22 Jan 2026 22:48:00 +0800</pubDate>
       
-      <guid>https://hshuang.blog/posts/imperfect-builds-me/</guid>
+      <guid>http://localhost:1313/posts/imperfect-builds-me/</guid>
       <description>接受自己不完美、有可能失敗，才能繼續向前走</description>
       
     </item>
