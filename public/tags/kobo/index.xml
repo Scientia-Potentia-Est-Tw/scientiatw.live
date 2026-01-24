@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Kobo on Hong-Sheng Huang&#39;s Blog</title>
-    <link>http://localhost:1313/tags/kobo/</link>
+    <link>https://hshuang.blog/tags/kobo/</link>
     <description>Recent content in Kobo on Hong-Sheng Huang&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
     <copyright>© 2026 Hong-Sheng Huang</copyright>
-    <lastBuildDate>Wed, 14 Jan 2026 10:45:00 +0800</lastBuildDate><atom:link href="http://localhost:1313/tags/kobo/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 14 Jan 2026 10:45:00 +0800</lastBuildDate><atom:link href="https://hshuang.blog/tags/kobo/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>電子書閱讀器改變了我的人生</title>
-      <link>http://localhost:1313/posts/ebook-ereader-changes-me/</link>
+      <link>https://hshuang.blog/posts/ebook-ereader-changes-me/</link>
       <pubDate>Thu, 27 Nov 2025 16:28:00 +0800</pubDate>
       
-      <guid>http://localhost:1313/posts/ebook-ereader-changes-me/</guid>
+      <guid>https://hshuang.blog/posts/ebook-ereader-changes-me/</guid>
       <description>放下會毒害自己大腦的社群媒體，擁抱單純的閱讀拯救自己的大腦吧</description>
       
     </item>
