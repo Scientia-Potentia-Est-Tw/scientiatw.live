@@ -30,7 +30,7 @@ googleAnalytics = "G-GC235QD2XY"
 
 [imaging]
   resampleFilter = "lanczos"
-  quality = 100
+  quality = 90
   anchor = "smart"
   # anchor = 'Center'
 
