@@ -6,7 +6,8 @@ aliases:
   - newsletter
 slug: newsletter
 lastmod: '2025-11-29T19:47:00+08:00'
-comments: False
+cascade:
+  showComments: false
 ---
 每月寄送一至兩封當月彙整資訊
 <div id="mc_embed_shell">
