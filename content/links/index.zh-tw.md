@@ -1,7 +1,7 @@
 ---
 title: 推薦
 date: 2025-12-31T18:46:00+08:00
-lastmod: 2026-01-13T17:16:00+08:00
+lastmod: 2026-02-05T16:36:00+08:00
 author: "黃宏勝"
 aliases:
   - links
@@ -12,6 +12,7 @@ slug: links
 ## 🎸 音樂
 | 樂團名稱 | 推薦專輯 |
 | -------- | -------- |
+| [聲子蟲 Bugs of Phonon](https://streetvoice.com/bugsofphonon/) | [《真面目》](https://blow.streetvoice.com/60325/)距離前一張睽違十年，整張緊湊的曲風超級有畫面 |
 | [拍謝少年SORRY YOUTH](https://www.sorryyouth.com/) | [《兄弟沒夢不應該》](https://blow.streetvoice.com/38392/)，尤其暗流超多版本挺不錯的<br>[《歹勢好勢》](https://blow.streetvoice.com/54794/)，踅夜市的tone很打到我    |
 | [NANA](https://open.spotify.com/artist/55xE2cp7ka3MoZ1i9Vdg2q) | 聽到[《壁紙是你揀的》](https://open.spotify.com/track/1uGBe7n7caad2CAyOpA5jw)這首才突然注意到這位台語爵士女歌手    |
 | [大象體操Elephant Gym](https://elephantgym.co/) | [《平衡 Balance》](https://elephantgym.co/music/%E5%B9%B3%E8%A1%A1-balance/)，第一張專輯出來就完全體現大象體操這個樂團玩數字搖滾的技術非常強    |
