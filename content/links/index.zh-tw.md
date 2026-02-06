@@ -1,7 +1,7 @@
 ---
 title: 推薦
 date: 2025-12-31T18:46:00+08:00
-lastmod: 2026-02-05T16:36:00+08:00
+lastmod: 2026-02-06T10:13:00+08:00
 author: "黃宏勝"
 aliases:
   - links
@@ -28,4 +28,5 @@ slug: links
 ## 📻 Podcast
 | Podcast名稱    | 內容 |
 | -------- | --------|
+| [Gooaye 股癌](https://player.soundon.fm/p/954689a5-3096-43a4-a80b-7810b219cef3) | 主委就是讚 |
 | [茫DAY不錄](https://mondayblueeee.firstory.io/episodes) | 聊天型頻道，一堆諧音梗跟冷笑話但我挺喜歡的(？) |
