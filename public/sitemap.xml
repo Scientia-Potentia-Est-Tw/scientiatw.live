@@ -4,7 +4,13 @@
 
   <url>
     <loc>https://hshuang.blog/</loc>
-    <lastmod>2026-02-06T10:13:00+08:00</lastmod>
+    <lastmod>2026-02-07T10:38:00+08:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://hshuang.blog/posts/live-in-fully-mindfulness/</loc>
+    <lastmod>2026-02-07T10:38:00+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
