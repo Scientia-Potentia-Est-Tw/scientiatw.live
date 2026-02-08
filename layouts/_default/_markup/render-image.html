@@ -59,7 +59,7 @@
     {{ with $imgObj.Height }}height="{{ . }}"{{ end }}
     src="{{ $img800.RelPermalink }}"
     srcset="{{ $srcset }}"
-    sizes="(min-width: 768px) 50vw, 30vw"
+    sizes="(min-width: 768px) 50vw, 100vw"
     data-zoom-src="{{ $imgObj.RelPermalink }}">
 {{- end -}}
 
