@@ -16,7 +16,7 @@ layout: "simple"
 <img src="https://secologies.com/wp-content/uploads/2026/02/IMG_0750-scaled.webp" alt="通勤" class="grid-w50 md:grid-w33 xl:grid-w25"/>
 <img src="https://secologies.com/wp-content/uploads/2026/02/IMG_0749-scaled.webp" alt="咖啡機" class="grid-w50 md:grid-w33 xl:grid-w25"/>
 <img src="https://secologies.com/wp-content/uploads/2025/12/成功湖二號鴨-scaled.webp" alt="成功湖二號鴨" class="grid-w50 md:grid-w33 xl:grid-w25"/>
-<img src="https://secologies.com/wp-content/uploads/2026/02/巧巧與牛排-scaled.jpg" alt="巧巧與牛排" class="grid-w50 md:grid-w33 xl:grid-w25"  />
+<img src="https://secologies.com/wp-content/uploads/2025/12/巧巧與牛排-scaled.webp" alt="巧巧與牛排" class="grid-w50 md:grid-w33 xl:grid-w25"  />
 <img src="https://secologies.com/wp-content/uploads/2025/11/旦蕉-scaled.webp" alt="旦蕉" class="grid-w50 md:grid-w33 xl:grid-w25"  />
 <img src="https://secologies.com/wp-content/uploads/2025/11/日日是好日-scaled.webp" alt="日日是好日" class="grid-w50 md:grid-w33 xl:grid-w25"  />
 <img src="https://secologies.com/wp-content/uploads/2025/11/雲豹-藝術家王鼎元-scaled.webp" alt="雲豹-省思Reflection-藝術家王鼎元" class="grid-w50 md:grid-w33 xl:grid-w25"  />
