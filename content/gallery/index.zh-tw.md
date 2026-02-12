@@ -7,8 +7,7 @@ aliases:
   - gallery
 slug: gallery
 lastmod: '2026-02-07T18:48:00+08:00'
-cascade:
-  - showComments: false
+layout: simple
 ---
 {{< gallery >}}
 <!--<img src="" alt="" class="grid-w50 md:grid-w33 xl:grid-w25" /> -->
