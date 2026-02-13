@@ -34,9 +34,10 @@
 (function() {
   // Function to shuffle array (Fisher-Yates algorithm)
   function shuffleArray(array) {
-    for (let i = array.length - 1; i > 0; i--) {
+    for (let i = array.length - 1; i; i--) {
       const j = Math.floor(Math.random() * (i + 1));
       [array[i], array[j]] = [array[j], array[i]];
+      if (i === 1) break;
     }
     return array;
   }
@@ -57,12 +58,12 @@
     gallery.innerHTML = '';
     
     // Append shuffled figures back to gallery
-    shuffledFigures.forEach(figure => {
+    shuffledFigures.forEach(function(figure) {
       gallery.appendChild(figure);
     });
     
     // Fade in the gallery
-    requestAnimationFrame(() => {
+    requestAnimationFrame(function() {
       gallery.style.opacity = '1';
     });
   });

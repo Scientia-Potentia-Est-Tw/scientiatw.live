@@ -20,7 +20,7 @@
         {{- $resource = . }}
       {{- end }}
       {{- if $resource }}
-        {{/* Successfully fetched remote resource - create optimized versions */}}
+        {{/* Successfully fetched remote resource - create high-res versions for mobile */}}
         <img
           class="my-0 rounded-md w-full h-auto{{ with $nozoom }} nozoom{{ end }}{{ with $class }} {{ . }}{{ end }}"
           loading="lazy"
@@ -28,16 +28,18 @@
           alt="{{ $altText }}"
           {{ with $resource.Width }}width="{{ . }}"{{ end }}
           {{ with $resource.Height }}height="{{ . }}"{{ end }}
-          src="{{ ($resource.Resize "600x").RelPermalink }}"
+          src="{{ ($resource.Resize "1200x").RelPermalink }}"
           srcset="
-          {{- ($resource.Resize "600x").RelPermalink }} 600w,
+          {{- ($resource.Resize "800x").RelPermalink }} 800w,
           {{- ($resource.Resize "1200x").RelPermalink }} 1200w,
-          {{- ($resource.Resize "2000x").RelPermalink }} 2000w"
-          sizes="(min-width: 1280px) 33vw, (min-width: 768px) 50vw, 100vw"
+          {{- ($resource.Resize "1600x").RelPermalink }} 1600w,
+          {{- ($resource.Resize "2400x").RelPermalink }} 2400w,
+          {{- $resource.RelPermalink }} {{ $resource.Width }}w"
+          sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
           {{ if not $nozoom }}data-zoom-src="{{ $resource.RelPermalink }}"{{ end }}
         />
       {{- else }}
-        {{/* Direct external URL - can't optimize, but provide full resolution for zoom */}}
+        {{/* Direct external URL - provide high quality for mobile retina */}}
         <img 
           class="my-0 rounded-md w-full h-auto{{ with $nozoom }} nozoom{{ end }}{{ with $class }} {{ . }}{{ end }}" 
           src="{{ $url.String }}" 
@@ -70,11 +72,14 @@
           alt="{{ $altText }}"
           {{ with .Width }}width="{{ . }}"{{ end }}
           {{ with .Height }}height="{{ . }}"{{ end }}
-          src="{{ (.Resize "600x").RelPermalink }}"
+          src="{{ (.Resize "1200x").RelPermalink }}"
           srcset="
-          {{- (.Resize "600x").RelPermalink }} 600w,
-          {{- (.Resize "1200x").RelPermalink }} 1200w"
-          sizes="(min-width: 768px) 50vw, 100vw"
+          {{- (.Resize "800x").RelPermalink }} 800w,
+          {{- (.Resize "1200x").RelPermalink }} 1200w,
+          {{- (.Resize "1600x").RelPermalink }} 1600w,
+          {{- (.Resize "2400x").RelPermalink }} 2400w,
+          {{- .RelPermalink }} {{ .Width }}w"
+          sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
           data-zoom-src="{{ .RelPermalink }}"
         />
       {{- end }}
