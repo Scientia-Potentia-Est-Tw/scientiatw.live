@@ -18,7 +18,7 @@ lastmod: '2026-02-13T17:01:00+08:00'
 
 ## 🌐 最近網路上的狀態
 - 💻 [Secologies](https://secologies.com)：花更多篇幅談論密碼理論
-- 🗓 社群部落格：持續更新閱讀心得
+- 🗓 社群部落格：因為 Blowfish 有更新所以也嘗試把 gallery 頁面做更新
 
 ## 🎯 最近的專案
 - 🖥️ Modified-Improved-Greedy-Algorithm
