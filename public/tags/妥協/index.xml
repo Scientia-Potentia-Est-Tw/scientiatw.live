@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>妥協 on Hong-Sheng Huang&#39;s Blog</title>
-    <link>https://hshuang.blog/tags/%E5%A6%A5%E5%8D%94/</link>
+    <link>http://localhost:1313/tags/%E5%A6%A5%E5%8D%94/</link>
     <description>Recent content in 妥協 on Hong-Sheng Huang&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
     <copyright>© 2026 Hong-Sheng Huang</copyright>
-    <lastBuildDate>Tue, 12 Aug 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://hshuang.blog/tags/%E5%A6%A5%E5%8D%94/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 12 Aug 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/%E5%A6%A5%E5%8D%94/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>《自私的藝術》：永遠不要委屈求全</title>
-      <link>https://hshuang.blog/posts/the-art-of-selfishness-never-compromise/</link>
+      <link>http://localhost:1313/posts/the-art-of-selfishness-never-compromise/</link>
       <pubDate>Wed, 06 Aug 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://hshuang.blog/posts/the-art-of-selfishness-never-compromise/</guid>
+      <guid>http://localhost:1313/posts/the-art-of-selfishness-never-compromise/</guid>
       <description>面臨著事業危機，也不被任何人支持，究竟該如何撐過這場暴風？</description>
       
     </item>
