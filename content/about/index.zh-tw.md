@@ -26,7 +26,7 @@ lastmod: '2025-12-26T16:02:00+08:00'
 任何問題請寄到信箱內：[hshuang@hshuang.blog](mailto:hshuang@hshuang.blog)
 
 ## 關於我
-我是[黃宏勝](https://secologies.com/zh/hong-sheng-huang-zh/)，臺東人，但不騎山豬
+我是[黃宏勝](https://secologies.com/zh/hong-sheng-huang-zh/)，臺東人
 
 - Z世代
 - 北漂青年
