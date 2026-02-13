@@ -14,7 +14,39 @@
   <figure{{ with $figureClass }} class="{{ . }}"{{ end }}>
   {{- with $href }}<a href="{{ . }}" {{ with $target }}target="{{ . }}"{{ end }} class="inline-block">{{ end -}}
   {{- if findRE "^https?" $url.Scheme }}
-      <img class="my-0 rounded-md w-full h-auto object-cover{{ with $nozoom }} nozoom{{ end }}{{ with $class }} {{ . }}{{ end }}" src="{{ $url.String }}" alt="{{ $altText }}" loading="lazy" />
+      {{/* For external URLs, try to fetch as resource for optimization */}}
+      {{- $resource := "" }}
+      {{- with resources.GetRemote ($url.String) }}
+        {{- $resource = . }}
+      {{- end }}
+      {{- if $resource }}
+        {{/* Successfully fetched remote resource - create optimized versions */}}
+        <img
+          class="my-0 rounded-md w-full h-auto{{ with $nozoom }} nozoom{{ end }}{{ with $class }} {{ . }}{{ end }}"
+          loading="lazy"
+          decoding="async"
+          alt="{{ $altText }}"
+          {{ with $resource.Width }}width="{{ . }}"{{ end }}
+          {{ with $resource.Height }}height="{{ . }}"{{ end }}
+          src="{{ ($resource.Resize "600x").RelPermalink }}"
+          srcset="
+          {{- ($resource.Resize "600x").RelPermalink }} 600w,
+          {{- ($resource.Resize "1200x").RelPermalink }} 1200w,
+          {{- ($resource.Resize "2000x").RelPermalink }} 2000w"
+          sizes="(min-width: 1280px) 33vw, (min-width: 768px) 50vw, 100vw"
+          {{ if not $nozoom }}data-zoom-src="{{ $resource.RelPermalink }}"{{ end }}
+        />
+      {{- else }}
+        {{/* Direct external URL - can't optimize, but provide full resolution for zoom */}}
+        <img 
+          class="my-0 rounded-md w-full h-auto{{ with $nozoom }} nozoom{{ end }}{{ with $class }} {{ . }}{{ end }}" 
+          src="{{ $url.String }}" 
+          alt="{{ $altText }}" 
+          loading="lazy"
+          decoding="async"
+          {{ if not $nozoom }}data-zoom-src="{{ $url.String }}"{{ end }}
+        />
+      {{- end }}
   {{- else }}
     {{- $resource := "" }}
     {{- if $.Page.Resources.GetMatch ($url.String) }}
@@ -38,16 +70,22 @@
           alt="{{ $altText }}"
           {{ with .Width }}width="{{ . }}"{{ end }}
           {{ with .Height }}height="{{ . }}"{{ end }}
-          src="{{ (.Resize "800x").RelPermalink }}"
+          src="{{ (.Resize "600x").RelPermalink }}"
           srcset="
-          {{- (.Resize "800x").RelPermalink }} 800w,
-          {{- (.Resize "1280x").RelPermalink }} 1280w"
-          sizes="(min-width: 768px) 50vw, 65vw"
+          {{- (.Resize "600x").RelPermalink }} 600w,
+          {{- (.Resize "1200x").RelPermalink }} 1200w"
+          sizes="(min-width: 768px) 50vw, 100vw"
           data-zoom-src="{{ .RelPermalink }}"
         />
       {{- end }}
     {{- else }}
-      <img class="my-0 rounded-md w-full h-auto object-cover{{ with $nozoom }} nozoom{{ end }}{{ with $class }} {{ . }}{{ end }}" src="{{ $url.String }}" alt="{{ $altText }}" loading="lazy" />
+      <img 
+        class="my-0 rounded-md w-full h-auto{{ with $nozoom }} nozoom{{ end }}{{ with $class }} {{ . }}{{ end }}" 
+        src="{{ $url.String }}" 
+        alt="{{ $altText }}" 
+        loading="lazy"
+        {{ if not $nozoom }}data-zoom-src="{{ $url.String }}"{{ end }}
+      />
     {{- end }}
   {{- end }}
   {{ if $href }}</a>{{ end }}

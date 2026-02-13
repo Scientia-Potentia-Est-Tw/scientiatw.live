@@ -29,7 +29,15 @@ googleAnalytics = "G-GC235QD2XY"
   pagerSize = 100
 
 [imaging]
+  quality = 90
+  resampleFilter = "Lanczos"
   anchor = 'Center'
+
+[imaging.exif]
+  disableDate = false
+  disableLatLong = true
+  excludeFields = ""
+  includeFields = ""
 
 [taxonomies]
   tag = "tags"
