@@ -31,30 +31,7 @@ googleAnalytics = "G-GC235QD2XY"
 [imaging]
   quality = 95
   resampleFilter = "Lanczos"
-  anchor = 'Smart'
-  bgColor = "#ffffff"
-  hint = "picture"
-
-[imaging.exif]
-  disableDate = false
-  disableLatLong = true
-  excludeFields = ""
-  includeFields = ""
-
-[caches]
-  [caches.images]
-    dir = ":resourceDir/_gen"
-    maxAge = "24h"
-
-# Server settings for development
-[server]
-  [[server.headers]]
-    for = "/**"
-    [server.headers.values]
-      # Prevent aggressive caching that causes blur on mobile
-      Cache-Control = "public, max-age=3600, must-revalidate"
-      # Better image rendering
-      X-Content-Type-Options = "nosniff"
+  anchor = 'Center'
 
 [taxonomies]
   tag = "tags"
