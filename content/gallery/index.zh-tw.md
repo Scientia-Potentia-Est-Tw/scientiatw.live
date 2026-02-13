@@ -7,6 +7,7 @@ aliases:
   - gallery
 slug: gallery
 lastmod: '2026-02-07T18:48:00+08:00'
+layout: simple
 ---
 {{< gallery >}}
 	<!-- {{< figure src="gallery/01.jpg" alt="Gallery image 1" caption="First caption" figureClass="grid-w50 md:grid-w33 xl:grid-w25" >}} -->
