@@ -1,7 +1,7 @@
 ---
 author: 黃宏勝
 categories:
-- 職涯
+- 生活
 date: '2025-07-29T10:05:00+08:00'
 featureimage: https://secologies.com/wp-content/uploads/2025/07/career-lessons-2-cover-scaled.webp
 keywords:

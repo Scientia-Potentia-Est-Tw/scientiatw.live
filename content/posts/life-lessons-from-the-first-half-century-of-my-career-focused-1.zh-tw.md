@@ -4,7 +4,7 @@ date = "2025-07-27"
 lastmod = "2025-10-30"
 author = "黃宏勝"
 categories = [
-  "職涯",
+  "生活",
 ]
 tags = [
   "職涯",
