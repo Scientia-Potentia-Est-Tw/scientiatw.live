@@ -4,7 +4,13 @@
 
   <url>
     <loc>https://hshuang.blog/</loc>
-    <lastmod>2026-02-13T17:01:00+08:00</lastmod>
+    <lastmod>2026-02-20T17:25:00+08:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://hshuang.blog/micro/good-student-and-bad-student/</loc>
+    <lastmod>2026-02-20T17:25:00+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
