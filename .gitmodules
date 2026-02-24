@@ -1,10 +1,4 @@
-[submodule "themes/hugo-theme-stack"]
-        path = themes/hugo-theme-stack
-        url = https://github.com/CaiJimmy/hugo-theme-stack.git
 [submodule "themes/blowfish"]
 	path = themes/blowfish
 	url = https://github.com/nunocoracao/blowfish.git
 	branch = main
-[submodule "themes/hugo-photoswipe5-gallery"]
-	path = themes/hugo-photoswipe5-gallery
-	url = https://github.com/thkukuk/hugo-photoswipe5-gallery.git
