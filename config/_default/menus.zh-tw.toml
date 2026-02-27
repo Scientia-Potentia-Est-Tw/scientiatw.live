@@ -11,59 +11,54 @@
 # ordered by weight from lowest to highest.
 
 [[main]]
-  name = "文章"
+  name = "貼文"
   pageRef = "posts"
   weight = 10
 
 [[main]]
-  name = "貼文"
-  pageRef = "micro"
-  weight = 20
-
-[[main]]
   name = "關於"
   pageRef = "about"
-  weight = 30
+  weight = 20
 
 [[main]]
   name = "近況"
   pageRef = "now"
-  weight = 40
+  weight = 30
 
 [[main]]
   name = "人生清單"
   pageRef = "bucket-list"
-  weight = 50
+  weight = 40
 
 [[main]]
   name = "書單"
   pageRef = "books"
-  weight = 60
+  weight = 50
 
 [[main]]
   name = "使用"
   pageRef = "use"
-  weight = 70
+  weight = 60
 
 [[main]]
   name = "推薦"
   pageRef = "links"
-  weight = 80
+  weight = 70
 
 [[main]]
   name = "訂閱電子報"
   pageRef = "newsletter"
-  weight = 90
+  weight = 80
 
 [[main]]
   name = "圖冊"
   pageRef = "gallery"
-  weight = 100
+  weight = 90
 
 [[main]]
   name = "支持本站"
   pageRef = "support"
-  weight = 110
+  weight = 100
 
 #[[main]]
 #  name = "example sub-menu 1"
