@@ -4,7 +4,13 @@
 
   <url>
     <loc>https://hshuang.blog/</loc>
-    <lastmod>2026-02-27T11:19:00+08:00</lastmod>
+    <lastmod>2026-03-04T14:25:00+08:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://hshuang.blog/posts/2026-03-04/</loc>
+    <lastmod>2026-03-04T14:25:00+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
