@@ -20,7 +20,7 @@ slug: use
 - [Brave](https://brave.com/) - 內建廣告封鎖、阻擋追蹤程式的瀏覽器，設定得當的話可以預防惡意網站的跳轉
 
 ### 🧮 瀏覽器插件
-- [News Feed Eradicator](https://chromewebstore.google.com/detail/news-feed-eradicator/fjcldmjmjhkklehbacihaiopjklihlgg?hl=en) - 可以封鎖各社群媒體平台上的動態資訊，尤其是那些被演算法才推給我的資訊，我根本不在乎，畢竟我只需要Facebook上的市集跟二手商品社團
+- [News Feed Eradicator](https://chromewebstore.google.com/detail/news-feed-eradicator/fjcldmjmjhkklehbacihaiopjklihlgg?hl=en) - 可以封鎖各社群媒體平台上的動態資訊，尤其是那些被演算法才推給我的資訊，我根本不在乎，畢竟我用 Youtube 只為了看教學影片而已
 - [Block Site](https://chromewebstore.google.com/detail/block-site/nkedbnokglppcmiencngilkkhhnpcfjb?hl=en) - 免費版就可以封鎖多個自訂的網域，甚至連頁面上特定的iFrame都可以阻擋掉，對於我這種很容易在網路上迷失自我的人是很需要的
 
 ### 🗓️ 行程管理
@@ -78,7 +78,7 @@ slug: use
 
 ### 🗃 電子書平台
 - [Kobo](https://r10.to/hklN84) - 全球非常活躍的多語言電子書平台，滿足我需要繁體中文書以及英文書的需求，每日都有99元優惠
-- [讀墨](https://moo.im/a/1iknoH) - 台灣最大繁體中文電子書平台，常常會有一些閱讀馬拉松活動，官方Facebook社團也很活躍討論，也有每日優惠但價格會跟出版社討論所以有時是99元但也可能99元以上
+- [讀墨](https://moo.im/a/1iknoH) - 台灣最大繁體中文電子書平台，常常會有一些閱讀馬拉松活動，也有每日優惠但價格會跟出版社討論所以有時是99元但也可能99元以上
 - [Hyread](https://wonderfulapple.net/3NP0J) - 在台灣以圖書館借閱服務最為盛行，hyread跟眾多台灣的圖書館進行館藏合作，幾乎大學都可以使用他們的電子資源，甚至hyread還有蒐錄在台灣出版的期刊
 
 ## 🎶 音樂相關
