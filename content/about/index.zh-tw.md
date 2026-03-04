@@ -26,6 +26,8 @@ lastmod: '2025-12-26T16:02:00+08:00'
 任何問題請寄到信箱內：[hshuang@hshuang.blog](mailto:hshuang@hshuang.blog)
 
 ## 關於我
+<p align="center"><img src="https://secologies.com/wp-content/uploads/2026/03/IMG_0953-scaled.jpg" alt="黃宏勝" width="500"/></p>
+
 我是[黃宏勝](https://secologies.com/zh/hong-sheng-huang-zh/)，臺東人
 
 - Z世代
