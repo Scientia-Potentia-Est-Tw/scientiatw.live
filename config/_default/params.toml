@@ -36,7 +36,7 @@ showAppearanceSwitcher = true
 showScrollToTop = true
 
 [homepage]
-layout = "profile"
+layout = "background"
 showRecent = true
 showRecentItems = 10
 showMoreLink = true
@@ -45,7 +45,7 @@ cardView = true
 cardViewScreenWidth = false
 layoutBackgroundBlur = true
 disableHeroImageFilter = false
-homepageImage = ""
+homepageImage = "img/fireflies.svg"
 
 [article]
 showDate = true
