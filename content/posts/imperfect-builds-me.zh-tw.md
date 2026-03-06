@@ -10,14 +10,12 @@ tags:
   - 不完美
   - 生命
   - 超越自我
-  - 子彈思考整理術
 keywords: 
   - 生活
   - 侘寂
   - 不完美
   - 生命
   - 超越自我
-  - 子彈思考整理術
 summary: "接受自己不完美、有可能失敗，才能繼續向前走"
 description: "接受自己不完美、有可能失敗，才能繼續向前走"
 featureimage: "https://secologies.com/wp-content/uploads/2026/01/imperfect-builds-me-cover-scaled.webp"
