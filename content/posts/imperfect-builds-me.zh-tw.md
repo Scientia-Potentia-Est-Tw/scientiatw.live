@@ -64,14 +64,3 @@ slug: "imperfect-builds-me"
 
 # Reference
 [1] 維基百科, "侘寂," 2022年5月25日, https://zh.wikipedia.org/zh-tw/%E4%BE%98%E5%AF%82.
-
----
-有興趣的讀者可以參考下列電子書版本或平裝書
-
-博客來實體平裝書：[《子彈思考整理術》：釐清超載思緒，化想法為行動，專注最重要的事，設計你想要的人生](https://whitehippo.net/3PEVJ?uid1=Blog)
-
-Readmoo電子書版本：[《子彈思考整理術》：釐清超載思緒，化想法為行動，專注最重要的事，設計你想要的人生](https://moo.im/a/ajpKMW)
-
-Kobo電子書版本：[《子彈思考整理術》：釐清超載思緒，化想法為行動，專注最重要的事，設計你想要的人生](https://r10.to/h5Fo19)
-
-Hyread電子書版本：[《子彈思考整理術》：釐清超載思緒, 化想法為行動, 專注最重要的事, 設計你想要的人生](https://igrape.net/3OsOy?uid1=Blog)
