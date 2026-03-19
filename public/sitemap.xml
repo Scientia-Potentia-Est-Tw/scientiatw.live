@@ -4,7 +4,13 @@
 
   <url>
     <loc>https://hshuang.blog/</loc>
-    <lastmod>2026-03-08T16:25:00+08:00</lastmod>
+    <lastmod>2026-03-19T16:25:00+08:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://hshuang.blog/posts/perfectionism-destroy-me/</loc>
+    <lastmod>2026-03-19T16:25:00+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
