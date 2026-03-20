@@ -18,10 +18,6 @@ enableEmoji = true
 
 googleAnalytics = "G-GC235QD2XY"
 
-[services]
-  [services.disqus]
-    shortname = 'hong-sheng-huang'
-
 [params]
   logo = "static/favicon.ico"
 

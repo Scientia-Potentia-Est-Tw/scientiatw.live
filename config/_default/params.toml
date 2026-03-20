@@ -23,7 +23,6 @@ rssnext = { }
 advertisement = { }
 smartTOC = true
 highlightCurrentMenuArea = true
-DisqusShortname = "hong-sheng-huang"
 
 [header]
 layout = "fixed"
