@@ -54,8 +54,8 @@
   <meta property="og:description" content="制訂我自己的夢想清單">
   <meta property="og:locale" content="zh_tw">
   <meta property="og:type" content="article">
-    <meta property="article:published_time" content="2025-12-28T13:39:00+08:00">
-    <meta property="article:modified_time" content="2025-12-28T13:43:00+08:00">
+    <meta property="article:published_time" content="2026-03-21T12:00:00+08:00">
+    <meta property="article:modified_time" content="2026-03-21T12:01:00+08:00">
 
   
   <meta name="twitter:card" content="summary">
@@ -222,16 +222,16 @@
       "@type": "Person",
       "name": "Hong-Sheng Huang"
     },
-    "copyrightYear": "2025",
-    "dateCreated": "2025-12-28T13:39:00\u002b08:00",
-    "datePublished": "2025-12-28T13:39:00\u002b08:00",
+    "copyrightYear": "2026",
+    "dateCreated": "2026-03-21T12:00:00\u002b08:00",
+    "datePublished": "2026-03-21T12:00:00\u002b08:00",
     
-    "dateModified": "2025-12-28T13:43:00\u002b08:00",
+    "dateModified": "2026-03-21T12:01:00\u002b08:00",
     
     
     
     "mainEntityOfPage": "true",
-    "wordCount": "179"
+    "wordCount": "691"
   },
   {
     "@context": "https://schema.org",
@@ -952,7 +952,7 @@
   <div class="flex flex-row flex-wrap items-center">
     
     
-      <time datetime="2025-12-28T13:39:00&#43;08:00">2025-12-28 13:39</time><span class="px-2 text-primary-500">&middot;</span><time datetime="2025-12-28T13:43:00&#43;08:00">上次編輯: 2025-12-28 13:43</time><span class="px-2 text-primary-500">&middot;</span><span>179 字</span><span class="px-2 text-primary-500">&middot;</span><span title="預計閱讀時間">1 分鐘</span>
+      <time datetime="2026-03-21T12:00:00&#43;08:00">2026-03-21 12:00</time><span class="px-2 text-primary-500">&middot;</span><time datetime="2026-03-21T12:01:00&#43;08:00">上次編輯: 2026-03-21 12:01</time><span class="px-2 text-primary-500">&middot;</span><span>691 字</span><span class="px-2 text-primary-500">&middot;</span><span title="預計閱讀時間">2 分鐘</span>
     
 
     
@@ -996,6 +996,157 @@
       
       
       
+        <div class="order-first lg:ml-auto px-0 lg:order-last lg:ps-8 lg:max-w-2xs">
+          <div class="toc ps-5 print:hidden lg:sticky lg:top-[140px]">
+            
+              <details
+  open
+  id="TOCView"
+  class="toc-right mt-0 overflow-y-auto overscroll-contain bf-scrollbar rounded-lg -ms-5 ps-5 pe-2 hidden lg:block">
+  <summary
+    class="block py-1 text-lg font-semibold cursor-pointer bg-neutral-100 text-neutral-800 -ms-5 ps-5 dark:bg-neutral-700 dark:text-neutral-100 lg:hidden">
+    目錄
+  </summary>
+  <div
+    class="min-w-[220px] py-2 border-dotted border-s-1 -ms-5 ps-5 dark:border-neutral-600">
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#個人">個人</a></li>
+    <li><a href="#工作">工作</a></li>
+    <li><a href="#學習">學習</a></li>
+    <li><a href="#健康">健康</a></li>
+    <li><a href="#關係">關係</a></li>
+    <li><a href="#財務">財務</a></li>
+  </ul>
+</nav>
+  </div>
+</details>
+<details class="toc-inside mt-0 overflow-hidden rounded-lg -ms-5 ps-5 lg:hidden">
+  <summary
+    class="py-1 text-lg font-semibold cursor-pointer bg-neutral-100 text-neutral-800 -ms-5 ps-5 dark:bg-neutral-700 dark:text-neutral-100 lg:hidden">
+    目錄
+  </summary>
+  <div
+    class="py-2 border-dotted border-neutral-300 border-s-1 -ms-5 ps-5 dark:border-neutral-600">
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#個人">個人</a></li>
+    <li><a href="#工作">工作</a></li>
+    <li><a href="#學習">學習</a></li>
+    <li><a href="#健康">健康</a></li>
+    <li><a href="#關係">關係</a></li>
+    <li><a href="#財務">財務</a></li>
+  </ul>
+</nav>
+  </div>
+</details>
+
+
+<script>
+  (function () {
+    'use strict'
+
+    const SCROLL_OFFSET_RATIO = 0.33
+    const TOC_SELECTOR = '#TableOfContents'
+    const ANCHOR_SELECTOR = '.anchor'
+    const TOC_LINK_SELECTOR = 'a[href^="#"]'
+    const NESTED_LIST_SELECTOR = 'li ul'
+    const ACTIVE_CLASS = 'active'
+    let isJumpingToAnchor = false
+
+    function getActiveAnchorId(anchors, offsetRatio) {
+      const threshold = window.scrollY + window.innerHeight * offsetRatio
+      const tocLinks = [...document.querySelectorAll('#TableOfContents a[href^="#"]')]
+      const tocIds = new Set(tocLinks.map(link => link.getAttribute('href').substring(1)))
+
+      if (isJumpingToAnchor) {
+        for (let i = 0; i < anchors.length; i++) {
+          const anchor = anchors[i]
+          if (!tocIds.has(anchor.id)) continue
+          const top = anchor.getBoundingClientRect().top + window.scrollY
+          if (Math.abs(window.scrollY - top) < 100) {
+            return anchor.id
+          }
+        }
+      }
+
+      for (let i = anchors.length - 1; i >= 0; i--) {
+        const top = anchors[i].getBoundingClientRect().top + window.scrollY
+        if (top <= threshold && tocIds.has(anchors[i].id)) {
+          return anchors[i].id
+        }
+      }
+      return anchors.find(anchor => tocIds.has(anchor.id))?.id || ''
+    }
+
+    function updateTOC({ toc, anchors, links, scrollOffset, collapseInactive }) {
+      const activeId = getActiveAnchorId(anchors, scrollOffset)
+      if (!activeId) return
+
+      links.forEach(link => {
+        const isActive = link.getAttribute('href') === `#${activeId}`
+        link.classList.toggle(ACTIVE_CLASS, isActive)
+
+        if (collapseInactive) {
+          const ul = link.closest('li')?.querySelector('ul')
+          if (ul) ul.style.display = isActive ? '' : 'none'
+        }
+      })
+
+      if (collapseInactive) {
+        const activeLink = toc.querySelector(`a[href="#${CSS.escape(activeId)}"]`)
+        let el = activeLink
+        while (el && el !== toc) {
+          if (el.tagName === 'UL') el.style.display = ''
+          if (el.tagName === 'LI') el.querySelector('ul')?.style.setProperty('display', '')
+          el = el.parentElement
+        }
+      }
+    }
+
+    function initTOC() {
+      const toc = document.querySelector(TOC_SELECTOR)
+      if (!toc) return
+
+      const collapseInactive = false
+      const anchors = [...document.querySelectorAll(ANCHOR_SELECTOR)]
+      const links = [...toc.querySelectorAll(TOC_LINK_SELECTOR)]
+
+      if (collapseInactive) {
+        toc.querySelectorAll(NESTED_LIST_SELECTOR).forEach(ul => ul.style.display = 'none')
+      }
+
+      links.forEach(link => {
+        link.addEventListener('click', () => {
+          isJumpingToAnchor = true
+        })
+      })
+
+      const config = {
+        toc,
+        anchors,
+        links,
+        scrollOffset: SCROLL_OFFSET_RATIO,
+        collapseInactive
+      }
+
+      window.addEventListener('scroll', () => updateTOC(config), { passive: true })
+      window.addEventListener('hashchange', () => updateTOC(config), { passive: true })
+
+      updateTOC(config)
+    }
+
+    document.readyState === 'loading'
+      ? document.addEventListener('DOMContentLoaded', initTOC)
+      : initTOC()
+  })()
+</script>
+
+
+            
+          </div>
+        </div>
+      
 
 
       <div class="min-w-0 min-h-0 max-w-fit">
@@ -1004,6 +1155,16 @@
         <div class="article-content max-w-prose mb-20">
           <p>如果說對於自己的人生感到焦慮，似乎覺得某個年紀時就必須何種成就，不斷地將自己的生活跟其他人作比較，那樣活著也太痛苦，所以我決定規劃自己的人生清單，試著不去在乎幾歲時應該要做什麼事，而是把這一生想做的事情都做完，我就覺得生命圓滿，充滿意義了</p>
 <p>不定期更新</p>
+
+<h2 class="relative group">個人
+    <div id="個人" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#%e5%80%8b%e4%ba%ba" aria-label="定位點">#</a>
+    </span>
+    
+</h2>
 <table>
   <thead>
       <tr>
@@ -1015,19 +1176,126 @@
   <tbody>
       <tr>
           <td style="text-align: left">❌</td>
+          <td style="text-align: left">早上不賴床</td>
+          <td style="text-align: left"></td>
+      </tr>
+      <tr>
+          <td style="text-align: left">❌</td>
+          <td style="text-align: left">捐血10次</td>
+          <td style="text-align: left">4/10</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">❌</td>
+          <td style="text-align: left">整理宿舍把用不到的東西丟掉</td>
+          <td style="text-align: left"></td>
+      </tr>
+      <tr>
+          <td style="text-align: left">❌</td>
+          <td style="text-align: left">寫子彈筆記日誌 365 天，並且每三個月回顧一次</td>
+          <td style="text-align: left"></td>
+      </tr>
+      <tr>
+          <td style="text-align: left">✅</td>
+          <td style="text-align: left">把用不到的線上服務帳號刪掉</td>
+          <td style="text-align: left">我已經將 Facebook, Instagram, Threads, Linkedin, X(Twitter), Twitch 帳號都刪掉了，<a href="https://hshuang.blog/posts/sayonara-zuckerberg/"  target="_blank">戒除社群媒體</a>讓自己邁向更理想的生活</td>
+      </tr>
+  </tbody>
+</table>
+
+<h2 class="relative group">工作
+    <div id="工作" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#%e5%b7%a5%e4%bd%9c" aria-label="定位點">#</a>
+    </span>
+    
+</h2>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left">狀態</th>
+          <th style="text-align: left">目標</th>
+          <th style="text-align: left">進度</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left">❌</td>
+          <td style="text-align: left">把 Obsidian 過去的文獻筆記通通整理好成永久筆記</td>
+          <td style="text-align: left"></td>
+      </tr>
+      <tr>
+          <td style="text-align: left">❌</td>
+          <td style="text-align: left">製作 12 期電子報</td>
+          <td style="text-align: left">1/12</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">❌</td>
+          <td style="text-align: left">錄製 Podcast 節目</td>
+          <td style="text-align: left"></td>
+      </tr>
+      <tr>
+          <td style="text-align: left">❌</td>
+          <td style="text-align: left">將 E-mail 收件夾裡沒用的促銷或電子報通通退掉跟刪除</td>
+          <td style="text-align: left"></td>
+      </tr>
+      <tr>
+          <td style="text-align: left">❌</td>
+          <td style="text-align: left">讀完 Introduction to Cryptography: Principles and Applications</td>
+          <td style="text-align: left"></td>
+      </tr>
+      <tr>
+          <td style="text-align: left">❌</td>
+          <td style="text-align: left">讀完 Privacy-Preserving Machine Learning</td>
+          <td style="text-align: left"></td>
+      </tr>
+      <tr>
+          <td style="text-align: left">❌</td>
+          <td style="text-align: left">自己投稿一篇密碼學論文</td>
+          <td style="text-align: left"></td>
+      </tr>
+      <tr>
+          <td style="text-align: left">❌</td>
           <td style="text-align: left">取得碩士學位</td>
           <td style="text-align: left"></td>
       </tr>
       <tr>
-          <td style="text-align: left">❌</td>
-          <td style="text-align: left">學會彈奏古典樂</td>
-          <td style="text-align: left"></td>
+          <td style="text-align: left">✅</td>
+          <td style="text-align: left">把電腦跟手機裡沒用的 APP 刪掉</td>
+          <td style="text-align: left">notion 作為資料庫跟看板確實不錯，但功能實在太複雜了，對我工作上來說是個阻礙，所以還是刪了</td>
       </tr>
       <tr>
-          <td style="text-align: left">❌</td>
-          <td style="text-align: left">學會素描</td>
-          <td style="text-align: left"></td>
+          <td style="text-align: left">✅</td>
+          <td style="text-align: left">參加 IACR RWC 研討會</td>
+          <td style="text-align: left"><a href="https://secologies.com/zh/iacr-rwc-2026-experience/"  target="_blank">IACR RWC 2026 參與心得</a></td>
       </tr>
+      <tr>
+          <td style="text-align: left">✅</td>
+          <td style="text-align: left">參加 IACR PQCrypto 研討會</td>
+          <td style="text-align: left"><a href="https://secologies.com/zh/pqcrypto-2025-conference-experience/"  target="_blank">PQCrypto 2025 參加心得</a></td>
+      </tr>
+  </tbody>
+</table>
+
+<h2 class="relative group">學習
+    <div id="學習" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#%e5%ad%b8%e7%bf%92" aria-label="定位點">#</a>
+    </span>
+    
+</h2>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left">狀態</th>
+          <th style="text-align: left">目標</th>
+          <th style="text-align: left">進度</th>
+      </tr>
+  </thead>
+  <tbody>
       <tr>
           <td style="text-align: left">❌</td>
           <td style="text-align: left">取得多益金色證書</td>
@@ -1035,13 +1303,186 @@
       </tr>
       <tr>
           <td style="text-align: left">❌</td>
-          <td style="text-align: left">托福iBT考超過100分</td>
+          <td style="text-align: left">上完 Flowkey 的鋼琴課程</td>
           <td style="text-align: left"></td>
       </tr>
       <tr>
           <td style="text-align: left">❌</td>
-          <td style="text-align: left">捐血10次</td>
-          <td style="text-align: left">4/10</td>
+          <td style="text-align: left">學習 Logic Pro</td>
+          <td style="text-align: left"></td>
+      </tr>
+      <tr>
+          <td style="text-align: left">❌</td>
+          <td style="text-align: left">讀完 OffSec PWK Pen-200 教材</td>
+          <td style="text-align: left"></td>
+      </tr>
+      <tr>
+          <td style="text-align: left">❌</td>
+          <td style="text-align: left">讀完《深度學習的數學地圖》</td>
+          <td style="text-align: left"></td>
+      </tr>
+      <tr>
+          <td style="text-align: left">❌</td>
+          <td style="text-align: left">學習毛線編織</td>
+          <td style="text-align: left"></td>
+      </tr>
+      <tr>
+          <td style="text-align: left">❌</td>
+          <td style="text-align: left">上完 Google Cybersecurity Professional Certificate 線上課程</td>
+          <td style="text-align: left"></td>
+      </tr>
+      <tr>
+          <td style="text-align: left">❌</td>
+          <td style="text-align: left">學習素描</td>
+          <td style="text-align: left"></td>
+      </tr>
+      <tr>
+          <td style="text-align: left">❌</td>
+          <td style="text-align: left">學習刺繡</td>
+          <td style="text-align: left"></td>
+      </tr>
+      <tr>
+          <td style="text-align: left">❌</td>
+          <td style="text-align: left">托福iBT考超過100分</td>
+          <td style="text-align: left"></td>
+      </tr>
+  </tbody>
+</table>
+
+<h2 class="relative group">健康
+    <div id="健康" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#%e5%81%a5%e5%ba%b7" aria-label="定位點">#</a>
+    </span>
+    
+</h2>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left">狀態</th>
+          <th style="text-align: left">目標</th>
+          <th style="text-align: left">進度</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left">❌</td>
+          <td style="text-align: left">不報復性熬夜 365 天</td>
+          <td style="text-align: left"></td>
+      </tr>
+      <tr>
+          <td style="text-align: left">❌</td>
+          <td style="text-align: left">下午散步曬太陽</td>
+          <td style="text-align: left"></td>
+      </tr>
+      <tr>
+          <td style="text-align: left">❌</td>
+          <td style="text-align: left">一週三天不吃紅肉</td>
+          <td style="text-align: left"></td>
+      </tr>
+      <tr>
+          <td style="text-align: left">❌</td>
+          <td style="text-align: left">下午三點後不攝取任何咖啡因 365 天</td>
+          <td style="text-align: left"></td>
+      </tr>
+      <tr>
+          <td style="text-align: left">❌</td>
+          <td style="text-align: left">一週三天運動</td>
+          <td style="text-align: left"></td>
+      </tr>
+      <tr>
+          <td style="text-align: left">❌</td>
+          <td style="text-align: left">每天坐著 30 分鐘就起來一次</td>
+          <td style="text-align: left"></td>
+      </tr>
+      <tr>
+          <td style="text-align: left">❌</td>
+          <td style="text-align: left">每天喝足 2000 cc 的水</td>
+          <td style="text-align: left"></td>
+      </tr>
+      <tr>
+          <td style="text-align: left">❌</td>
+          <td style="text-align: left">每天好好刷牙，養成使用牙線的習慣</td>
+          <td style="text-align: left"></td>
+      </tr>
+  </tbody>
+</table>
+
+<h2 class="relative group">關係
+    <div id="關係" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#%e9%97%9c%e4%bf%82" aria-label="定位點">#</a>
+    </span>
+    
+</h2>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left">狀態</th>
+          <th style="text-align: left">目標</th>
+          <th style="text-align: left">進度</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left">❌</td>
+          <td style="text-align: left">更喜歡現在的自己一點點</td>
+          <td style="text-align: left"></td>
+      </tr>
+      <tr>
+          <td style="text-align: left">❌</td>
+          <td style="text-align: left">練習真誠的稱讚別人</td>
+          <td style="text-align: left"></td>
+      </tr>
+      <tr>
+          <td style="text-align: left">❌</td>
+          <td style="text-align: left">每天感謝三件事</td>
+          <td style="text-align: left"></td>
+      </tr>
+      <tr>
+          <td style="text-align: left">❌</td>
+          <td style="text-align: left">練習傾聽不插嘴</td>
+          <td style="text-align: left"></td>
+      </tr>
+      <tr>
+          <td style="text-align: left">❌</td>
+          <td style="text-align: left">試著不去跟他人作比較</td>
+          <td style="text-align: left"></td>
+      </tr>
+  </tbody>
+</table>
+
+<h2 class="relative group">財務
+    <div id="財務" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#%e8%b2%a1%e5%8b%99" aria-label="定位點">#</a>
+    </span>
+    
+</h2>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left">狀態</th>
+          <th style="text-align: left">目標</th>
+          <th style="text-align: left">進度</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left">❌</td>
+          <td style="text-align: left">用不到的東西就賣掉</td>
+          <td style="text-align: left"></td>
+      </tr>
+      <tr>
+          <td style="text-align: left">❌</td>
+          <td style="text-align: left">增加被動收入</td>
+          <td style="text-align: left"></td>
       </tr>
   </tbody>
 </table>
@@ -1184,32 +1625,19 @@
           
             <a
               class="flex text-neutral-700 hover:text-primary-600 dark:text-neutral dark:hover:text-primary-400"
-              href="/about/">
+              href="/now/">
               <span class="leading-6">
-                <span class="inline-block rtl:rotate-180">&larr;</span>&ensp;關於
+                <span class="inline-block rtl:rotate-180">&larr;</span>&ensp;近況
               </span>
             </a>
             
               <span class="ms-6 mt-1 text-xs text-neutral-500 dark:text-neutral-400">
-                <time datetime="2025-12-26T16:01:00&#43;08:00">2025-12-26 16:01</time>
+                <time datetime="2026-03-21T10:12:00&#43;08:00">2026-03-21 10:12</time>
               </span>
             
           
         </span>
         <span class="flex flex-col items-end">
-          
-            <a
-              class="flex text-right text-neutral-700 hover:text-primary-600 dark:text-neutral dark:hover:text-primary-400"
-              href="/use/">
-              <span class="leading-6">
-                使用&ensp;<span class="inline-block rtl:rotate-180">&rarr;</span>
-              </span>
-            </a>
-            
-              <span class="me-6 mt-1 text-xs text-neutral-500 dark:text-neutral-400">
-                <time datetime="2025-12-31T10:48:00&#43;08:00">2025-12-31 10:48</time>
-              </span>
-            
           
         </span>
       </div>
