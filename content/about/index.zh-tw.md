@@ -10,12 +10,8 @@ aliases:
 slug: about
 lastmod: '2025-12-26T16:02:00+08:00'
 ---
-
 <script>var ConverlyCustomData = {channelId: null};</script>
 <script async defer src="https://cdn.affiliates.one/production/adlinks/9632d86e82ddae2c6327eb55c530875fb8f852063ff7075dd96c7f802672af39.js"></script>
-
-本頁介紹本站與我
-
 ## 關於本站
 此部落格主要記錄我所有好奇跟想做的事情
 
@@ -29,7 +25,7 @@ lastmod: '2025-12-26T16:02:00+08:00'
 
 我是[黃宏勝](https://secologies.com/zh/hong-sheng-huang-zh/)，臺東人
 
-- Z世代
+- Z 世代
 - 北漂青年
 - 高敏感，時常事後一直懊悔內耗
 - 還在與完美主義困鬥中，想戰勝拖延症

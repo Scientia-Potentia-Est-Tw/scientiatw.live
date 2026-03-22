@@ -4,7 +4,19 @@
 
   <url>
     <loc>https://hshuang.blog/</loc>
-    <lastmod>2026-03-21T12:01:00+08:00</lastmod>
+    <lastmod>2026-03-22T10:34:00+08:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://hshuang.blog/use/</loc>
+    <lastmod>2026-03-22T10:34:00+08:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://hshuang.blog/posts/conditional-love/</loc>
+    <lastmod>2026-03-22T10:13:00+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
@@ -95,12 +107,6 @@
   <url>
     <loc>https://hshuang.blog/posts/2025-12-31/</loc>
     <lastmod>2025-12-31T13:35:00+08:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://hshuang.blog/use/</loc>
-    <lastmod>2025-12-31T10:50:00+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>

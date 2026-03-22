@@ -16,7 +16,7 @@ lastmod: '2026-03-21T12:01:00+08:00'
 | 狀態  | 目標 | 進度    |
 | :----        |    :----   |  :----- |
 | ❌ | 早上不賴床  |   |
-| ❌ | 捐血10次  | 4/10  |
+| ❌ | 捐血 10 次  | 4/10  |
 | ❌ | 整理宿舍把用不到的東西丟掉  |   |
 | ❌ | 寫子彈筆記日誌 365 天，並且每三個月回顧一次  |   |
 | ✅ | 把用不到的線上服務帳號刪掉  |  我已經將 Facebook, Instagram, Threads, Linkedin, X(Twitter), Twitch 帳號都刪掉了，[戒除社群媒體](https://hshuang.blog/posts/sayonara-zuckerberg/)讓自己邁向更理想的生活 |
@@ -48,7 +48,7 @@ lastmod: '2026-03-21T12:01:00+08:00'
 | ❌ | 上完 Google Cybersecurity Professional Certificate 線上課程 |  |
 | ❌ | 學習素描  |   |
 | ❌ | 學習刺繡  |   |
-| ❌ | 托福iBT考超過100分  |   |
+| ❌ | 托福 iBT 考超過 100 分  |   |
 
 ## 健康
 | 狀態  | 目標 | 進度    |

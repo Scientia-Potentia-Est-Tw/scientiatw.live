@@ -9,7 +9,6 @@ lastmod: '2025-11-29T19:47:00+08:00'
 cascade:
   showComments: false
 ---
-每月寄送一至兩封當月彙整資訊
 <div id="mc_embed_shell">
       <link href="//cdn-images.mailchimp.com/embedcode/classic-061523.css" rel="stylesheet" type="text/css">
   <style type="text/css">
