@@ -154,9 +154,9 @@ slug = "Keshav-read-paper-method"
 
 ## 相關文獻 Related Work
 
-如果我們讀論文是為了追蹤領域內的發展，也應該去閱讀 Timothy Roscoe的paper “Writing reviews for system conferences”[2]
+如果我們讀論文是為了追蹤領域內的發展，也應該去閱讀 Timothy Roscoe的paper “Writing reviews for system conferences”[^2]
 
-如果計畫寫一篇技術 paper，應該參考 Henning Schulzrinne 的網站[3]以及 George Whitesides 的方法[4]，而 Simon Peyton Jones 的網站提供了一個研究員應該具備哪些能力[5]
+如果計畫寫一篇技術 paper，應該參考 Henning Schulzrinne 的網站[^3]以及 George Whitesides 的方法[^4]，而 Simon Peyton Jones 的網站提供了一個研究員應該具備哪些能力[^5]
 
 ## 參考資料 References
 
@@ -164,13 +164,13 @@ slug = "Keshav-read-paper-method"
 
 [1] S. Keshav. 2007. How to read a paper. SIGCOMM Comput. Commun. Rev. 37, 3 (July 2007), 83–84. https://doi.org/10.1145/1273445.1273458
 
-[2] T. Roscoe, “Writing Reviews for Systems Conferences,” https://people.inf.ethz.ch/troscoe/pubs/review-writing.pdf
+[^2]: T. Roscoe, “Writing Reviews for Systems Conferences,” https://people.inf.ethz.ch/troscoe/pubs/review-writing.pdf
 
-[3] H. Schulzrinne, “Writing Technical Articles,” https://www.cs.columbia.edu/~hgs/etc/writing-style.html
+[^3]: H. Schulzrinne, “Writing Technical Articles,” https://www.cs.columbia.edu/~hgs/etc/writing-style.html
 
-[4] G.M. Whitesides, “Whitesides’ Group: Writing a Paper," https://onlinelibrary.wiley.com/doi/10.1002/adma.200400767
+[^4]: G.M. Whitesides, “Whitesides’ Group: Writing a Paper," https://onlinelibrary.wiley.com/doi/10.1002/adma.200400767
 
-[5] Simon Peyton Jones, "Other great resources on research skills, " https://simon.peytonjones.org/research-skills/
+[^5]: Simon Peyton Jones, "Other great resources on research skills, " https://simon.peytonjones.org/research-skills/
 
 ## 這方法實不實用？
 

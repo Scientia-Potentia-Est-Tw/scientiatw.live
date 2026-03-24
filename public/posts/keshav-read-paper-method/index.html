@@ -113,8 +113,8 @@
   <link
     type="text/css"
     rel="stylesheet"
-    href="/css/main.bundle.min.52faf8de5cbac48eef80aefe71ae27037c41b656a4713fbac42bdb1d73eccc9cf6b74b63fa12f62e40d0137a8fb0989cf1f50ff9d627b1f840bedf905736027d.css"
-    integrity="sha512-Uvr43ly6xI7vgK7&#43;ca4nA3xBtlakcT&#43;6xCvbHXPszJz2t0tj&#43;hL2LkDQE3qPsJic8fUP&#43;dYnsfhAvt&#43;QVzYCfQ==">
+    href="/css/main.bundle.min.e99ce30310fa9161794259495bd611a07e8087e52c7f039ee01c08d7e5b5d0969b59977165695b98f4028492ca08c9c7717478f4f0e111ba25365b25ee4afdde.css"
+    integrity="sha512-6ZzjAxD6kWF5QllJW9YRoH6Ah&#43;UsfwOe4BwI1&#43;W10JabWZdxZWlbmPQChJLKCMnHcXR49PDhEbolNlsl7kr93g==">
 
   
   
@@ -237,7 +237,7 @@
     "keywords": ["學術","論文閱讀","How to read a paper","如何閱讀paper"],
     
     "mainEntityOfPage": "true",
-    "wordCount": "5217"
+    "wordCount": "5205"
   },
   {
     "@context": "https://schema.org",
@@ -281,6 +281,32 @@
   
 
   
+  
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tippy.js@6.3.7/dist/tippy.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tippy.js@6.3.7/dist/themes/light-border.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tippy.js@6.3.7/animations/shift-away.css">
+
+<script>
+  window.MathJax = {
+    tex: {
+      inlineMath: [['$', '$'], ['\\(', '\\)']],
+      displayMath: [['$$', '$$'], ['\\[', '\\]']],
+      tags: 'ams',
+      processEscapes: true,
+      packages: {'[+]': ['ams']}
+    },
+    options: {
+      skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'annotation', 'annotation-xml'],
+      ignoreHtmlClass: 'no-mathjax',
+      processHtmlClass: 'prose'  
+    },
+    loader: {
+      load: ['[tex]/ams']
+    }
+  };
+</script>
+<script async id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
   
 
   
@@ -997,7 +1023,7 @@
   <div class="flex flex-row flex-wrap items-center">
     
     
-      <time datetime="2025-01-11T13:20:00&#43;08:00">2025-01-11 13:20</time><span class="px-2 text-primary-500">&middot;</span><time datetime="2026-03-07T14:15:00&#43;08:00">上次編輯: 2026-03-07 14:15</time><span class="px-2 text-primary-500">&middot;</span><span>5217 字</span><span class="px-2 text-primary-500">&middot;</span><span title="預計閱讀時間">11 分鐘</span>
+      <time datetime="2025-01-11T13:20:00&#43;08:00">2025-01-11 13:20</time><span class="px-2 text-primary-500">&middot;</span><time datetime="2026-03-07T14:15:00&#43;08:00">上次編輯: 2026-03-07 14:15</time><span class="px-2 text-primary-500">&middot;</span><span>5205 字</span><span class="px-2 text-primary-500">&middot;</span><span title="預計閱讀時間">11 分鐘</span>
     
 
     
@@ -1464,8 +1490,8 @@
     </span>
     
 </h2>
-<p>如果我們讀論文是為了追蹤領域內的發展，也應該去閱讀 Timothy Roscoe的paper “Writing reviews for system conferences”[2]</p>
-<p>如果計畫寫一篇技術 paper，應該參考 Henning Schulzrinne 的網站[3]以及 George Whitesides 的方法[4]，而 Simon Peyton Jones 的網站提供了一個研究員應該具備哪些能力[5]</p>
+<p>如果我們讀論文是為了追蹤領域內的發展，也應該去閱讀 Timothy Roscoe的paper “Writing reviews for system conferences”<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
+<p>如果計畫寫一篇技術 paper，應該參考 Henning Schulzrinne 的網站<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup>以及 George Whitesides 的方法<sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup>，而 Simon Peyton Jones 的網站提供了一個研究員應該具備哪些能力<sup id="fnref:4"><a href="#fn:4" class="footnote-ref" role="doc-noteref">4</a></sup></p>
 
 <h2 class="relative group">參考資料 References
     <div id="參考資料-references" class="anchor"></div>
@@ -1478,10 +1504,6 @@
 </h2>
 <p>參考資料，所有本篇paper中提到的引用資訊皆會放進此單元中，讀者可以從這裡找到一些作者看過的思考路徑</p>
 <p>[1] S. Keshav. 2007. How to read a paper. SIGCOMM Comput. Commun. Rev. 37, 3 (July 2007), 83–84. <a href="https://doi.org/10.1145/1273445.1273458"  target="_blank">https://doi.org/10.1145/1273445.1273458</a></p>
-<p>[2] T. Roscoe, “Writing Reviews for Systems Conferences,” <a href="https://people.inf.ethz.ch/troscoe/pubs/review-writing.pdf"  target="_blank">https://people.inf.ethz.ch/troscoe/pubs/review-writing.pdf</a></p>
-<p>[3] H. Schulzrinne, “Writing Technical Articles,” <a href="https://www.cs.columbia.edu/~hgs/etc/writing-style.html"  target="_blank">https://www.cs.columbia.edu/~hgs/etc/writing-style.html</a></p>
-<p>[4] G.M. Whitesides, “Whitesides’ Group: Writing a Paper,&quot; <a href="https://onlinelibrary.wiley.com/doi/10.1002/adma.200400767"  target="_blank">https://onlinelibrary.wiley.com/doi/10.1002/adma.200400767</a></p>
-<p>[5] Simon Peyton Jones, &ldquo;Other great resources on research skills, &quot; <a href="https://simon.peytonjones.org/research-skills/"  target="_blank">https://simon.peytonjones.org/research-skills/</a></p>
 
 <h2 class="relative group">這方法實不實用？
     <div id="這方法實不實用" class="anchor"></div>
@@ -1501,6 +1523,23 @@
 <p>所以對於才剛進入研究的菜鳥，門檻內還是建議先從基礎功力打穩，對該領域有一些自己的理解跟看法之後就可以漸漸利用 AI 工具了</p>
 <p>就像即便有了Midjourney、DALL-E 這類圖像產生服務，還是有些人從素描慢慢學起讓自己對於光影、比例、結構等有更深入的了解，就能夠在 prompting 的時候有別於他人的觀點</p>
 <p>我想做研究也是一樣的，這些工具能夠彙整出許多的點，但要如何將每一個點連起來成線就必須依靠自己的思考框架，尤其在這個人們越來越依賴機器的時代，被 AGI 服務、短影片所奪走如此多的注意力，從學會閱讀長篇文獻的過程中找回專注力對於你我的幫助肯定很大</p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>T. Roscoe, “Writing Reviews for Systems Conferences,” <a href="https://people.inf.ethz.ch/troscoe/pubs/review-writing.pdf"  target="_blank">https://people.inf.ethz.ch/troscoe/pubs/review-writing.pdf</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2">
+<p>H. Schulzrinne, “Writing Technical Articles,” <a href="https://www.cs.columbia.edu/~hgs/etc/writing-style.html"  target="_blank">https://www.cs.columbia.edu/~hgs/etc/writing-style.html</a>&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:3">
+<p>G.M. Whitesides, “Whitesides’ Group: Writing a Paper,&quot; <a href="https://onlinelibrary.wiley.com/doi/10.1002/adma.200400767"  target="_blank">https://onlinelibrary.wiley.com/doi/10.1002/adma.200400767</a>&#160;<a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:4">
+<p>Simon Peyton Jones, &ldquo;Other great resources on research skills, &quot; <a href="https://simon.peytonjones.org/research-skills/"  target="_blank">https://simon.peytonjones.org/research-skills/</a>&#160;<a href="#fnref:4" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
 
           
           
@@ -1781,6 +1820,52 @@
     src="/js/process.min.ee03488f19c93c2efb199e2e3014ea5f3cb2ce7d45154adb3399a158cac27ca52831db249ede5bb602700ef87eb02434139de0858af1818ab0fb4182472204a4.js"
     integrity="sha512-7gNIjxnJPC77GZ4uMBTqXzyyzn1FFUrbM5mhWMrCfKUoMdsknt5btgJwDvh&#43;sCQ0E53ghYrxgYqw&#43;0GCRyIEpA=="></script>
   
+  
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/tippy.js@6.3.7/dist/tippy-bundle.umd.min.js"></script>
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+    if (typeof tippy === 'undefined') return;
+    var noteRefs = document.querySelectorAll('a.footnote-ref[role="doc-noteref"]');
+    if (!noteRefs.length) return;
+    var noteCache = new Map();
+    noteRefs.forEach(function (ref) {
+        var targetId = ref.getAttribute('href');
+        if (!targetId || targetId.charAt(0) !== '#') return;
+        targetId = targetId.slice(1);
+        var note = document.getElementById(targetId);
+        if (!note) return;
+        if (!noteCache.has(targetId)) {
+            var clone = note.cloneNode(true);
+            clone.querySelectorAll('.footnote-backref').forEach(function (b) { b.remove(); });
+            noteCache.set(targetId, clone.innerHTML.trim());
+        }
+        tippy(ref, {
+            content: noteCache.get(targetId),
+            allowHTML: true,
+            interactive: true,
+            theme: 'light-border',
+            maxWidth: 360,
+            appendTo: document.body,
+            placement: 'auto',
+            touch: ['hold', 400],
+            animation: 'shift-away',
+        });
+    });
+});
+</script>
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  document.querySelectorAll('a[href^="#mjx-eqn-"]').forEach(function (a) {
+    a.addEventListener('click', function (e) {
+      
+      e.stopPropagation();
+    });
+  });
+});
+</script>
+
   
 </footer>
 <div

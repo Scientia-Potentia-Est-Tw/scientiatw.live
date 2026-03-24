@@ -115,8 +115,8 @@
   <link
     type="text/css"
     rel="stylesheet"
-    href="/css/main.bundle.min.52faf8de5cbac48eef80aefe71ae27037c41b656a4713fbac42bdb1d73eccc9cf6b74b63fa12f62e40d0137a8fb0989cf1f50ff9d627b1f840bedf905736027d.css"
-    integrity="sha512-Uvr43ly6xI7vgK7&#43;ca4nA3xBtlakcT&#43;6xCvbHXPszJz2t0tj&#43;hL2LkDQE3qPsJic8fUP&#43;dYnsfhAvt&#43;QVzYCfQ==">
+    href="/css/main.bundle.min.e99ce30310fa9161794259495bd611a07e8087e52c7f039ee01c08d7e5b5d0969b59977165695b98f4028492ca08c9c7717478f4f0e111ba25365b25ee4afdde.css"
+    integrity="sha512-6ZzjAxD6kWF5QllJW9YRoH6Ah&#43;UsfwOe4BwI1&#43;W10JabWZdxZWlbmPQChJLKCMnHcXR49PDhEbolNlsl7kr93g==">
 
   
   
@@ -239,7 +239,7 @@
     "keywords": ["科技","robots.txt","網路爬蟲","搜尋引擎","AI","AI爬蟲"],
     
     "mainEntityOfPage": "true",
-    "wordCount": "710"
+    "wordCount": "767"
   },
   {
     "@context": "https://schema.org",
@@ -283,6 +283,32 @@
   
 
   
+  
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tippy.js@6.3.7/dist/tippy.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tippy.js@6.3.7/dist/themes/light-border.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tippy.js@6.3.7/animations/shift-away.css">
+
+<script>
+  window.MathJax = {
+    tex: {
+      inlineMath: [['$', '$'], ['\\(', '\\)']],
+      displayMath: [['$$', '$$'], ['\\[', '\\]']],
+      tags: 'ams',
+      processEscapes: true,
+      packages: {'[+]': ['ams']}
+    },
+    options: {
+      skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'annotation', 'annotation-xml'],
+      ignoreHtmlClass: 'no-mathjax',
+      processHtmlClass: 'prose'  
+    },
+    loader: {
+      load: ['[tex]/ams']
+    }
+  };
+</script>
+<script async id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
   
 
   
@@ -999,7 +1025,7 @@
   <div class="flex flex-row flex-wrap items-center">
     
     
-      <time datetime="2025-08-02T10:15:00&#43;08:00">2025-08-02 10:15</time><span class="px-2 text-primary-500">&middot;</span><time datetime="2025-08-12T18:05:00&#43;08:00">上次編輯: 2025-08-12 18:05</time><span class="px-2 text-primary-500">&middot;</span><span>710 字</span><span class="px-2 text-primary-500">&middot;</span><span title="預計閱讀時間">2 分鐘</span>
+      <time datetime="2025-08-02T10:15:00&#43;08:00">2025-08-02 10:15</time><span class="px-2 text-primary-500">&middot;</span><time datetime="2025-08-12T18:05:00&#43;08:00">上次編輯: 2025-08-12 18:05</time><span class="px-2 text-primary-500">&middot;</span><span>767 字</span><span class="px-2 text-primary-500">&middot;</span><span title="預計閱讀時間">2 分鐘</span>
     
 
     
@@ -1113,13 +1139,23 @@
         
 
         <div class="article-content max-w-prose mb-20">
-          <p>各大網站基本上靠一個叫做&quot;robots.txt&quot;的檔案對網路爬蟲[1]說明哪些頁面可以爬取而哪些頁面禁止爬取，過去我們透過這個設定讓Google Search, Bing Webmaster等搜尋引擎的spider來逛我們的個人網站，時至今日這些公司為了讓他們自己的大型語言模型系統更完善，利用RAG強化AI爬蟲花更多力氣想把整個網際網路都爬下來，以便更精確的回應使用者的提問，以及能訓練生成更多種類的內容</p>
-<p>一些網路新聞公司及出版社的執行長都跳出來説這些AI公司只顧自己的利益一直爬創作者辛苦創造出來的內容，卻沒有給任何報酬來回饋，甚至讓一些平台的<strong>點擊率下降</strong>[2]，因為現在Google的AI Overview真的挺好用的，雖然Overview最後都會附上參考資料連結，但如果解法已經呈現出來的話我通常就不花時間點進文章裡看前因後果了</p>
-<p>不過這情形應該也勢不可擋，雖然robots.txt可以設定一些守則告知爬蟲，但也得那間AI公司遵守我們設定的條款，如果不管的話照樣可以直接爬取我們所創作的內容，我想新技術出來一定有一段時間的陣痛期，未來內容創作者也許有一些方法可以跟AI公司進行<strong>協同合作</strong>[3]</p>
+          <p>各大網站基本上靠一個叫做&quot;robots.txt&quot;的檔案對網路爬蟲<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>說明哪些頁面可以爬取而哪些頁面禁止爬取，過去我們透過這個設定讓Google Search, Bing Webmaster等搜尋引擎的spider來逛我們的個人網站，時至今日這些公司為了讓他們自己的大型語言模型系統更完善，利用RAG強化AI爬蟲花更多力氣想把整個網際網路都爬下來，以便更精確的回應使用者的提問，以及能訓練生成更多種類的內容</p>
+<p>一些網路新聞公司及出版社的執行長都跳出來説這些AI公司只顧自己的利益一直爬創作者辛苦創造出來的內容，卻沒有給任何報酬來回饋，甚至讓一些平台的<strong>點擊率下降</strong><sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup>，因為現在Google的AI Overview真的挺好用的，雖然Overview最後都會附上參考資料連結，但如果解法已經呈現出來的話我通常就不花時間點進文章裡看前因後果了</p>
+<p>不過這情形應該也勢不可擋，雖然robots.txt可以設定一些守則告知爬蟲，但也得那間AI公司遵守我們設定的條款，如果不管的話照樣可以直接爬取我們所創作的內容，我想新技術出來一定有一段時間的陣痛期，未來內容創作者也許有一些方法可以跟AI公司進行<strong>協同合作</strong><sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup></p>
+<div class="footnotes" role="doc-endnotes">
 <hr>
-<p>[1] 關於網路爬蟲：<a href="https://steam.oxxostudio.tw/category/python/spider/about-spider.html"  target="_blank">https://steam.oxxostudio.tw/category/python/spider/about-spider.html</a></p>
-<p>[2] Google AI總覽功能掀「零點擊」潮，新聞產業已陷入流量與版權危機：<a href="https://www.thenewslens.com/article/256565"  target="_blank">https://www.thenewslens.com/article/256565</a></p>
-<p>[3] AI橫行，30年前寫給「君子」的robots.txt擋得住今日的爬蟲巨獸嗎？：<a href="https://dq.yam.com/post/16602"  target="_blank">https://dq.yam.com/post/16602</a></p>
+<ol>
+<li id="fn:1">
+<p>關於網路爬蟲：<a href="https://steam.oxxostudio.tw/category/python/spider/about-spider.html"  target="_blank">https://steam.oxxostudio.tw/category/python/spider/about-spider.html</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2">
+<p>Google AI總覽功能掀「零點擊」潮，新聞產業已陷入流量與版權危機：<a href="https://www.thenewslens.com/article/256565"  target="_blank">https://www.thenewslens.com/article/256565</a>&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:3">
+<p>AI橫行，30年前寫給「君子」的robots.txt擋得住今日的爬蟲巨獸嗎？：<a href="https://dq.yam.com/post/16602"  target="_blank">https://dq.yam.com/post/16602</a>&#160;<a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
 
           
           
@@ -1329,7 +1365,7 @@
   <div class="flex flex-row flex-wrap items-center">
     
     
-      <time datetime="2025-08-01T14:23:00&#43;08:00">2025-08-01 14:23</time><span class="px-2 text-primary-500">&middot;</span><time datetime="2026-03-07T11:48:00&#43;08:00">上次編輯: 2026-03-07 11:48</time><span class="px-2 text-primary-500">&middot;</span><span>3766 字</span><span class="px-2 text-primary-500">&middot;</span><span title="預計閱讀時間">8 分鐘</span>
+      <time datetime="2025-08-01T14:23:00&#43;08:00">2025-08-01 14:23</time><span class="px-2 text-primary-500">&middot;</span><time datetime="2026-03-07T11:48:00&#43;08:00">上次編輯: 2026-03-07 11:48</time><span class="px-2 text-primary-500">&middot;</span><span>3760 字</span><span class="px-2 text-primary-500">&middot;</span><span title="預計閱讀時間">8 分鐘</span>
     
 
     
@@ -1803,6 +1839,52 @@
     src="/js/process.min.ee03488f19c93c2efb199e2e3014ea5f3cb2ce7d45154adb3399a158cac27ca52831db249ede5bb602700ef87eb02434139de0858af1818ab0fb4182472204a4.js"
     integrity="sha512-7gNIjxnJPC77GZ4uMBTqXzyyzn1FFUrbM5mhWMrCfKUoMdsknt5btgJwDvh&#43;sCQ0E53ghYrxgYqw&#43;0GCRyIEpA=="></script>
   
+  
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/tippy.js@6.3.7/dist/tippy-bundle.umd.min.js"></script>
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+    if (typeof tippy === 'undefined') return;
+    var noteRefs = document.querySelectorAll('a.footnote-ref[role="doc-noteref"]');
+    if (!noteRefs.length) return;
+    var noteCache = new Map();
+    noteRefs.forEach(function (ref) {
+        var targetId = ref.getAttribute('href');
+        if (!targetId || targetId.charAt(0) !== '#') return;
+        targetId = targetId.slice(1);
+        var note = document.getElementById(targetId);
+        if (!note) return;
+        if (!noteCache.has(targetId)) {
+            var clone = note.cloneNode(true);
+            clone.querySelectorAll('.footnote-backref').forEach(function (b) { b.remove(); });
+            noteCache.set(targetId, clone.innerHTML.trim());
+        }
+        tippy(ref, {
+            content: noteCache.get(targetId),
+            allowHTML: true,
+            interactive: true,
+            theme: 'light-border',
+            maxWidth: 360,
+            appendTo: document.body,
+            placement: 'auto',
+            touch: ['hold', 400],
+            animation: 'shift-away',
+        });
+    });
+});
+</script>
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  document.querySelectorAll('a[href^="#mjx-eqn-"]').forEach(function (a) {
+    a.addEventListener('click', function (e) {
+      
+      e.stopPropagation();
+    });
+  });
+});
+</script>
+
   
 </footer>
 <div

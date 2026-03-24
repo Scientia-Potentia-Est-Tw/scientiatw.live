@@ -114,8 +114,8 @@
   <link
     type="text/css"
     rel="stylesheet"
-    href="/css/main.bundle.min.52faf8de5cbac48eef80aefe71ae27037c41b656a4713fbac42bdb1d73eccc9cf6b74b63fa12f62e40d0137a8fb0989cf1f50ff9d627b1f840bedf905736027d.css"
-    integrity="sha512-Uvr43ly6xI7vgK7&#43;ca4nA3xBtlakcT&#43;6xCvbHXPszJz2t0tj&#43;hL2LkDQE3qPsJic8fUP&#43;dYnsfhAvt&#43;QVzYCfQ==">
+    href="/css/main.bundle.min.e99ce30310fa9161794259495bd611a07e8087e52c7f039ee01c08d7e5b5d0969b59977165695b98f4028492ca08c9c7717478f4f0e111ba25365b25ee4afdde.css"
+    integrity="sha512-6ZzjAxD6kWF5QllJW9YRoH6Ah&#43;UsfwOe4BwI1&#43;W10JabWZdxZWlbmPQChJLKCMnHcXR49PDhEbolNlsl7kr93g==">
 
   
   
@@ -282,6 +282,32 @@
   
 
   
+  
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tippy.js@6.3.7/dist/tippy.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tippy.js@6.3.7/dist/themes/light-border.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tippy.js@6.3.7/animations/shift-away.css">
+
+<script>
+  window.MathJax = {
+    tex: {
+      inlineMath: [['$', '$'], ['\\(', '\\)']],
+      displayMath: [['$$', '$$'], ['\\[', '\\]']],
+      tags: 'ams',
+      processEscapes: true,
+      packages: {'[+]': ['ams']}
+    },
+    options: {
+      skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'annotation', 'annotation-xml'],
+      ignoreHtmlClass: 'no-mathjax',
+      processHtmlClass: 'prose'  
+    },
+    loader: {
+      load: ['[tex]/ams']
+    }
+  };
+</script>
+<script async id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
   
 
   
@@ -2779,6 +2805,52 @@
     src="/js/process.min.ee03488f19c93c2efb199e2e3014ea5f3cb2ce7d45154adb3399a158cac27ca52831db249ede5bb602700ef87eb02434139de0858af1818ab0fb4182472204a4.js"
     integrity="sha512-7gNIjxnJPC77GZ4uMBTqXzyyzn1FFUrbM5mhWMrCfKUoMdsknt5btgJwDvh&#43;sCQ0E53ghYrxgYqw&#43;0GCRyIEpA=="></script>
   
+  
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/tippy.js@6.3.7/dist/tippy-bundle.umd.min.js"></script>
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+    if (typeof tippy === 'undefined') return;
+    var noteRefs = document.querySelectorAll('a.footnote-ref[role="doc-noteref"]');
+    if (!noteRefs.length) return;
+    var noteCache = new Map();
+    noteRefs.forEach(function (ref) {
+        var targetId = ref.getAttribute('href');
+        if (!targetId || targetId.charAt(0) !== '#') return;
+        targetId = targetId.slice(1);
+        var note = document.getElementById(targetId);
+        if (!note) return;
+        if (!noteCache.has(targetId)) {
+            var clone = note.cloneNode(true);
+            clone.querySelectorAll('.footnote-backref').forEach(function (b) { b.remove(); });
+            noteCache.set(targetId, clone.innerHTML.trim());
+        }
+        tippy(ref, {
+            content: noteCache.get(targetId),
+            allowHTML: true,
+            interactive: true,
+            theme: 'light-border',
+            maxWidth: 360,
+            appendTo: document.body,
+            placement: 'auto',
+            touch: ['hold', 400],
+            animation: 'shift-away',
+        });
+    });
+});
+</script>
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  document.querySelectorAll('a[href^="#mjx-eqn-"]').forEach(function (a) {
+    a.addEventListener('click', function (e) {
+      
+      e.stopPropagation();
+    });
+  });
+});
+</script>
+
   
 </footer>
 <div

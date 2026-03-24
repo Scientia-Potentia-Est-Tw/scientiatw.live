@@ -113,8 +113,8 @@
   <link
     type="text/css"
     rel="stylesheet"
-    href="/css/main.bundle.min.52faf8de5cbac48eef80aefe71ae27037c41b656a4713fbac42bdb1d73eccc9cf6b74b63fa12f62e40d0137a8fb0989cf1f50ff9d627b1f840bedf905736027d.css"
-    integrity="sha512-Uvr43ly6xI7vgK7&#43;ca4nA3xBtlakcT&#43;6xCvbHXPszJz2t0tj&#43;hL2LkDQE3qPsJic8fUP&#43;dYnsfhAvt&#43;QVzYCfQ==">
+    href="/css/main.bundle.min.e99ce30310fa9161794259495bd611a07e8087e52c7f039ee01c08d7e5b5d0969b59977165695b98f4028492ca08c9c7717478f4f0e111ba25365b25ee4afdde.css"
+    integrity="sha512-6ZzjAxD6kWF5QllJW9YRoH6Ah&#43;UsfwOe4BwI1&#43;W10JabWZdxZWlbmPQChJLKCMnHcXR49PDhEbolNlsl7kr93g==">
 
   
   
@@ -237,7 +237,7 @@
     "keywords": ["學術","論文","研讀","關鍵"],
     
     "mainEntityOfPage": "true",
-    "wordCount": "2602"
+    "wordCount": "2619"
   },
   {
     "@context": "https://schema.org",
@@ -281,6 +281,32 @@
   
 
   
+  
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tippy.js@6.3.7/dist/tippy.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tippy.js@6.3.7/dist/themes/light-border.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tippy.js@6.3.7/animations/shift-away.css">
+
+<script>
+  window.MathJax = {
+    tex: {
+      inlineMath: [['$', '$'], ['\\(', '\\)']],
+      displayMath: [['$$', '$$'], ['\\[', '\\]']],
+      tags: 'ams',
+      processEscapes: true,
+      packages: {'[+]': ['ams']}
+    },
+    options: {
+      skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'annotation', 'annotation-xml'],
+      ignoreHtmlClass: 'no-mathjax',
+      processHtmlClass: 'prose'  
+    },
+    loader: {
+      load: ['[tex]/ams']
+    }
+  };
+</script>
+<script async id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
   
 
   
@@ -995,7 +1021,7 @@
   <div class="flex flex-row flex-wrap items-center">
     
     
-      <time datetime="2025-08-12T00:00:00&#43;00:00">2025-08-12 00:00</time><span class="px-2 text-primary-500">&middot;</span><span>2602 字</span><span class="px-2 text-primary-500">&middot;</span><span title="預計閱讀時間">6 分鐘</span>
+      <time datetime="2025-08-12T00:00:00&#43;00:00">2025-08-12 00:00</time><span class="px-2 text-primary-500">&middot;</span><span>2619 字</span><span class="px-2 text-primary-500">&middot;</span><span title="預計閱讀時間">6 分鐘</span>
     
 
     
@@ -1298,7 +1324,7 @@
     
 </h3>
 <p>在台灣的碩、博士研究所清一色都要求使用英文撰寫研究報告及論文，雖然英文並非我們的母語，但對於學術內容來說使用英文表達清楚且正確無誤的內容是必要的，同時還要禮貌性的表述自己的看法，而不對某種研究或理論過於偏激的超譯</p>
-<p>要具備這種能力只能靠大量的練習，不過現今LLM非常方便可以利用目前市面上成熟的模型來進行修改及學習，讀者可以參考Wiwi的方法[1]先自己寫一遍，然後倒進大型語言模型內請它幫忙重構、潤飾以及更改錯誤字，參考模型改出來的結果進行編輯</p>
+<p>要具備這種能力只能靠大量的練習，不過現今LLM非常方便可以利用目前市面上成熟的模型來進行修改及學習，讀者可以參考Wiwi的方法<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>先自己寫一遍，然後倒進大型語言模型內請它幫忙重構、潤飾以及更改錯誤字，參考模型改出來的結果進行編輯</p>
 <p>要注意的是，不要直接複製貼到你的編輯器內，而是參考AI給的來編輯自己的內容，因為學術寫作時非常在乎前後文結構，如果讀者在撰寫上已經有框架的話就照著自己的想法走，同時學習AI為什麼這樣寫才是你真正帶著走的技能，也不會讓審稿人員看到一半就迷路</p>
 
 <h3 class="relative group">提供足夠的領域背景知識跟情境給讀者
@@ -1449,19 +1475,15 @@
 </h3>
 <p>一篇論文的總結要能夠適當的勾回一開始假設的研究問題是否合理，討論該篇文章在這個問題上有沒有給出一個有意義的結果，這個結果必須是支持自己的結論，在那之外，點出某個方法是否只能應用於某些問題，而問題之外的道路還未探索出來又是另一項工作了</p>
 <p>尤其當撰稿人要針對某項因果關係做主張時，應該要設計容易控制的實驗來驗證，證明有關聯並非因果關係</p>
-<hr>
 <p>以上就是一些正在撰寫投稿論文的讀者們可以參考的要素，如果有其他想要補充的歡迎在留言區留言或寫信給我</p>
-
-<h1 class="relative group">References
-    <div id="references" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
-        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#references" aria-label="定位點">#</a>
-    </span>
-    
-</h1>
-<p>[1] Wiwi Kuan, 別停止打字：<a href="https://wiwi.blog/blog/dont-stop-typing/"  target="_blank">https://wiwi.blog/blog/dont-stop-typing/</a></p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>Wiwi Kuan, 別停止打字：<a href="https://wiwi.blog/blog/dont-stop-typing/"  target="_blank">https://wiwi.blog/blog/dont-stop-typing/</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
 
           
           
@@ -1671,7 +1693,7 @@
   <div class="flex flex-row flex-wrap items-center">
     
     
-      <time datetime="2025-01-11T13:20:00&#43;08:00">2025-01-11 13:20</time><span class="px-2 text-primary-500">&middot;</span><time datetime="2026-03-07T14:15:00&#43;08:00">上次編輯: 2026-03-07 14:15</time><span class="px-2 text-primary-500">&middot;</span><span>5217 字</span><span class="px-2 text-primary-500">&middot;</span><span title="預計閱讀時間">11 分鐘</span>
+      <time datetime="2025-01-11T13:20:00&#43;08:00">2025-01-11 13:20</time><span class="px-2 text-primary-500">&middot;</span><time datetime="2026-03-07T14:15:00&#43;08:00">上次編輯: 2026-03-07 14:15</time><span class="px-2 text-primary-500">&middot;</span><span>5205 字</span><span class="px-2 text-primary-500">&middot;</span><span title="預計閱讀時間">11 分鐘</span>
     
 
     
@@ -1936,6 +1958,52 @@
     src="/js/process.min.ee03488f19c93c2efb199e2e3014ea5f3cb2ce7d45154adb3399a158cac27ca52831db249ede5bb602700ef87eb02434139de0858af1818ab0fb4182472204a4.js"
     integrity="sha512-7gNIjxnJPC77GZ4uMBTqXzyyzn1FFUrbM5mhWMrCfKUoMdsknt5btgJwDvh&#43;sCQ0E53ghYrxgYqw&#43;0GCRyIEpA=="></script>
   
+  
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/tippy.js@6.3.7/dist/tippy-bundle.umd.min.js"></script>
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+    if (typeof tippy === 'undefined') return;
+    var noteRefs = document.querySelectorAll('a.footnote-ref[role="doc-noteref"]');
+    if (!noteRefs.length) return;
+    var noteCache = new Map();
+    noteRefs.forEach(function (ref) {
+        var targetId = ref.getAttribute('href');
+        if (!targetId || targetId.charAt(0) !== '#') return;
+        targetId = targetId.slice(1);
+        var note = document.getElementById(targetId);
+        if (!note) return;
+        if (!noteCache.has(targetId)) {
+            var clone = note.cloneNode(true);
+            clone.querySelectorAll('.footnote-backref').forEach(function (b) { b.remove(); });
+            noteCache.set(targetId, clone.innerHTML.trim());
+        }
+        tippy(ref, {
+            content: noteCache.get(targetId),
+            allowHTML: true,
+            interactive: true,
+            theme: 'light-border',
+            maxWidth: 360,
+            appendTo: document.body,
+            placement: 'auto',
+            touch: ['hold', 400],
+            animation: 'shift-away',
+        });
+    });
+});
+</script>
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  document.querySelectorAll('a[href^="#mjx-eqn-"]').forEach(function (a) {
+    a.addEventListener('click', function (e) {
+      
+      e.stopPropagation();
+    });
+  });
+});
+</script>
+
   
 </footer>
 <div

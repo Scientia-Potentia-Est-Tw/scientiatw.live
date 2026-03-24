@@ -115,8 +115,8 @@
   <link
     type="text/css"
     rel="stylesheet"
-    href="/css/main.bundle.min.52faf8de5cbac48eef80aefe71ae27037c41b656a4713fbac42bdb1d73eccc9cf6b74b63fa12f62e40d0137a8fb0989cf1f50ff9d627b1f840bedf905736027d.css"
-    integrity="sha512-Uvr43ly6xI7vgK7&#43;ca4nA3xBtlakcT&#43;6xCvbHXPszJz2t0tj&#43;hL2LkDQE3qPsJic8fUP&#43;dYnsfhAvt&#43;QVzYCfQ==">
+    href="/css/main.bundle.min.e99ce30310fa9161794259495bd611a07e8087e52c7f039ee01c08d7e5b5d0969b59977165695b98f4028492ca08c9c7717478f4f0e111ba25365b25ee4afdde.css"
+    integrity="sha512-6ZzjAxD6kWF5QllJW9YRoH6Ah&#43;UsfwOe4BwI1&#43;W10JabWZdxZWlbmPQChJLKCMnHcXR49PDhEbolNlsl7kr93g==">
 
   
   
@@ -239,7 +239,7 @@
     "keywords": ["科技","客製化電子信箱","Cloudflare","Gmail","個人網域","Email Routing"],
     
     "mainEntityOfPage": "true",
-    "wordCount": "2253"
+    "wordCount": "2245"
   },
   {
     "@context": "https://schema.org",
@@ -283,6 +283,32 @@
   
 
   
+  
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tippy.js@6.3.7/dist/tippy.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tippy.js@6.3.7/dist/themes/light-border.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tippy.js@6.3.7/animations/shift-away.css">
+
+<script>
+  window.MathJax = {
+    tex: {
+      inlineMath: [['$', '$'], ['\\(', '\\)']],
+      displayMath: [['$$', '$$'], ['\\[', '\\]']],
+      tags: 'ams',
+      processEscapes: true,
+      packages: {'[+]': ['ams']}
+    },
+    options: {
+      skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'annotation', 'annotation-xml'],
+      ignoreHtmlClass: 'no-mathjax',
+      processHtmlClass: 'prose'  
+    },
+    loader: {
+      load: ['[tex]/ams']
+    }
+  };
+</script>
+<script async id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
   
 
   
@@ -999,7 +1025,7 @@
   <div class="flex flex-row flex-wrap items-center">
     
     
-      <time datetime="2025-12-26T15:59:00&#43;08:00">2025-12-26 15:59</time><span class="px-2 text-primary-500">&middot;</span><time datetime="2026-01-03T11:22:00&#43;08:00">上次編輯: 2026-01-03 11:22</time><span class="px-2 text-primary-500">&middot;</span><span>2253 字</span><span class="px-2 text-primary-500">&middot;</span><span title="預計閱讀時間">5 分鐘</span>
+      <time datetime="2025-12-26T15:59:00&#43;08:00">2025-12-26 15:59</time><span class="px-2 text-primary-500">&middot;</span><time datetime="2026-01-03T11:22:00&#43;08:00">上次編輯: 2026-01-03 11:22</time><span class="px-2 text-primary-500">&middot;</span><span>2245 字</span><span class="px-2 text-primary-500">&middot;</span><span title="預計閱讀時間">5 分鐘</span>
     
 
     
@@ -1125,7 +1151,6 @@
     <li><a href="#cloudflare-email-routing">Cloudflare Email Routing</a></li>
     <li><a href="#gmail-smtp-server">Gmail SMTP Server</a></li>
     <li><a href="#測試">測試</a></li>
-    <li><a href="#reference">Reference</a></li>
   </ul>
 </nav>
   </div>
@@ -1142,7 +1167,6 @@
     <li><a href="#cloudflare-email-routing">Cloudflare Email Routing</a></li>
     <li><a href="#gmail-smtp-server">Gmail SMTP Server</a></li>
     <li><a href="#測試">測試</a></li>
-    <li><a href="#reference">Reference</a></li>
   </ul>
 </nav>
   </div>
@@ -1262,7 +1286,7 @@
         <div class="article-content max-w-prose mb-20">
           <p>你是否擁有了自己的網域後，也想要一個網域的信箱？</p>
 <p>擁有客製化的電子郵件信箱，會讓你看起來更專業，要完成這點，其實不需要額外購買存放SMTP伺服器的網路空間，只需要有免費版的Google Gmail的信箱帳號就能達成，本文將會帶各位一步一步的完成設定</p>
-<p>由於我的網域是在Cloudflare購買的，也比較推薦讀者在該平台租用，原因可以參考Alex Hsu的《如何為網站選一個好域名》[1]以及JN的《想架部落格，需要註冊自己的網域嗎？》[2]等文章，整個流程需要設定兩個主要的部分，首先是Cloudflare端的設定</p>
+<p>由於我的網域是在Cloudflare購買的，也比較推薦讀者在該平台租用，原因可以參考Alex Hsu的《如何為網站選一個好域名》<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup> 以及JN的《想架部落格，需要註冊自己的網域嗎？》<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup> 等文章，整個流程需要設定兩個主要的部分，首先是Cloudflare端的設定</p>
 
 <h2 class="relative group">Cloudflare Email Routing
     <div id="cloudflare-email-routing" class="anchor"></div>
@@ -1399,18 +1423,17 @@
   <figcaption>用Gmail回信，protonmail確實收到來自hshuang@hshuang.blog的信件</figcaption>
 </figure>
 <p>如果上述都有成功，代表讀者的設定都正確，此文以Gmail的SMTP Server作為中繼，如果讀者使用的是Outlook或者其他商業型電子郵件服務，需要確認是否可以免費設定SMTP server，像是protonmail就需要訂閱後才能新增domain name，這點需要特別注意，祝各位可以成功建立自己的網域信箱</p>
-
-<h2 class="relative group">Reference
-    <div id="reference" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
-        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#reference" aria-label="定位點">#</a>
-    </span>
-    
-</h2>
-<p>[1] Alex Hsu 徐小翔, &ldquo;如何為網站選一個好域名,&rdquo; 2025年12月18日, <a href="https://alexhsu.com/domain-names"  target="_blank">https://alexhsu.com/domain-names</a>.</p>
-<p>[2] 資工小廢物 - JN, &ldquo;想架部落格，需要註冊自己的網域嗎？,&rdquo; 2025-12-19, <a href="https://blog.giveanornot.com/get-a-domain-or-not/"  target="_blank">https://blog.giveanornot.com/get-a-domain-or-not/</a>.</p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>Alex Hsu 徐小翔, &ldquo;如何為網站選一個好域名,&rdquo; 2025年12月18日, <a href="https://alexhsu.com/domain-names"  target="_blank">https://alexhsu.com/domain-names</a>.&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2">
+<p>資工小廢物 - JN, &ldquo;想架部落格，需要註冊自己的網域嗎？,&rdquo; 2025-12-19, <a href="https://blog.giveanornot.com/get-a-domain-or-not/"  target="_blank">https://blog.giveanornot.com/get-a-domain-or-not/</a>.&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
 
           
           
@@ -1516,215 +1539,6 @@
   
     <h2 class="mt-8 text-2xl font-extrabold mb-10">相關貼文</h2>
     <section class="w-full grid gap-4 sm:grid-cols-2 md:grid-cols-3">
-      
-        
-
-
-
-
-
-
-
-  
-    
-      
-        
-      
-    
-  
-
-  
-  
-
-  
-  
-
-  
-  
-
-
-
-<article
-  class="relative min-h-full min-w-full overflow-hidden rounded-lg border border-neutral-300 dark:border-neutral-600">
-  
-    <div class="flex-none relative overflow-hidden thumbnail_card_related">
-      <img
-        src="https://secologies.com/wp-content/uploads/2025/09/Oculink-1-scaled.webp"
-        role="presentation"
-        loading="lazy"
-        decoding="async"
-        fetchpriority="low"
-        class="not-prose absolute inset-0 w-full h-full object-cover">
-    </div>
-  
-  
-  <div class="p-4">
-    <header>
-      <a
-        
-          href="/posts/oculink-egpu-for-cuda/"
-        
-        class="not-prose before:absolute before:inset-0 decoration-primary-500 dark:text-neutral text-xl font-bold text-neutral-800 hover:underline hover:underline-offset-2">
-        <h2>
-          Framework工作機裝設Oculink
-          
-        </h2>
-      </a>
-    </header>
-    <div class="text-sm text-neutral-500 dark:text-neutral-400">
-      
-
-
-
-
-
-
-
-  
-
-  
-  
-  
-    
-  
-
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  <div class="flex flex-row flex-wrap items-center">
-    
-    
-      <time datetime="2025-09-02T00:00:00&#43;00:00">2025-09-02 00:00</time><span class="px-2 text-primary-500">&middot;</span><time datetime="2025-10-30T00:00:00&#43;00:00">上次編輯: 2025-10-30 00:00</time><span class="px-2 text-primary-500">&middot;</span><span>1164 字</span><span class="px-2 text-primary-500">&middot;</span><span title="預計閱讀時間">3 分鐘</span>
-    
-
-    
-    
-  </div>
-
-  
-
-  
-  
-    <div class="flex flex-row flex-wrap items-center">
-      
-        
-      
-        
-          
-            
-              <a class="relative mt-[0.5rem] me-2" href="/categories/%E7%A7%91%E6%8A%80/">
-                <span class="flex cursor-pointer">
-  <span
-    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
-    科技
-  </span>
-</span>
-
-              </a>
-            
-          
-        
-      
-        
-      
-        
-          
-            
-              <a class="relative mt-[0.5rem] me-2" href="/tags/%E5%A4%96%E6%8E%A5%E5%BC%8F%E9%A1%AF%E7%A4%BA%E5%8D%A1/">
-                <span class="flex cursor-pointer">
-  <span
-    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
-    外接式顯示卡
-  </span>
-</span>
-
-              </a>
-            
-              <a class="relative mt-[0.5rem] me-2" href="/tags/oculink/">
-                <span class="flex cursor-pointer">
-  <span
-    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
-    Oculink
-  </span>
-</span>
-
-              </a>
-            
-              <a class="relative mt-[0.5rem] me-2" href="/tags/egpu/">
-                <span class="flex cursor-pointer">
-  <span
-    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
-    EGPU
-  </span>
-</span>
-
-              </a>
-            
-              <a class="relative mt-[0.5rem] me-2" href="/tags/cuda/">
-                <span class="flex cursor-pointer">
-  <span
-    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
-    CUDA
-  </span>
-</span>
-
-              </a>
-            
-              <a class="relative mt-[0.5rem] me-2" href="/tags/framework/">
-                <span class="flex cursor-pointer">
-  <span
-    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
-    Framework
-  </span>
-</span>
-
-              </a>
-            
-          
-        
-      
-    </div>
-  
-
-  
-  
-
-
-
-    </div>
-    
-      <div class="prose dark:prose-invert py-1">由於研究上需要CUDA平行計算，所以我在Thunderbolt 4與Oculink中做選擇</div>
-    
-  </div>
-  <div class="px-6 pt-4 pb-2"></div>
-</article>
-
       
         
 
@@ -1967,6 +1781,215 @@
   
     <div class="flex-none relative overflow-hidden thumbnail_card_related">
       <img
+        src="https://secologies.com/wp-content/uploads/2025/09/Oculink-1-scaled.webp"
+        role="presentation"
+        loading="lazy"
+        decoding="async"
+        fetchpriority="low"
+        class="not-prose absolute inset-0 w-full h-full object-cover">
+    </div>
+  
+  
+  <div class="p-4">
+    <header>
+      <a
+        
+          href="/posts/oculink-egpu-for-cuda/"
+        
+        class="not-prose before:absolute before:inset-0 decoration-primary-500 dark:text-neutral text-xl font-bold text-neutral-800 hover:underline hover:underline-offset-2">
+        <h2>
+          Framework工作機裝設Oculink
+          
+        </h2>
+      </a>
+    </header>
+    <div class="text-sm text-neutral-500 dark:text-neutral-400">
+      
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+    
+  
+
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  <div class="flex flex-row flex-wrap items-center">
+    
+    
+      <time datetime="2025-09-02T00:00:00&#43;00:00">2025-09-02 00:00</time><span class="px-2 text-primary-500">&middot;</span><time datetime="2025-10-30T00:00:00&#43;00:00">上次編輯: 2025-10-30 00:00</time><span class="px-2 text-primary-500">&middot;</span><span>1159 字</span><span class="px-2 text-primary-500">&middot;</span><span title="預計閱讀時間">3 分鐘</span>
+    
+
+    
+    
+  </div>
+
+  
+
+  
+  
+    <div class="flex flex-row flex-wrap items-center">
+      
+        
+      
+        
+          
+            
+              <a class="relative mt-[0.5rem] me-2" href="/categories/%E7%A7%91%E6%8A%80/">
+                <span class="flex cursor-pointer">
+  <span
+    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    科技
+  </span>
+</span>
+
+              </a>
+            
+          
+        
+      
+        
+      
+        
+          
+            
+              <a class="relative mt-[0.5rem] me-2" href="/tags/%E5%A4%96%E6%8E%A5%E5%BC%8F%E9%A1%AF%E7%A4%BA%E5%8D%A1/">
+                <span class="flex cursor-pointer">
+  <span
+    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    外接式顯示卡
+  </span>
+</span>
+
+              </a>
+            
+              <a class="relative mt-[0.5rem] me-2" href="/tags/oculink/">
+                <span class="flex cursor-pointer">
+  <span
+    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Oculink
+  </span>
+</span>
+
+              </a>
+            
+              <a class="relative mt-[0.5rem] me-2" href="/tags/egpu/">
+                <span class="flex cursor-pointer">
+  <span
+    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    EGPU
+  </span>
+</span>
+
+              </a>
+            
+              <a class="relative mt-[0.5rem] me-2" href="/tags/cuda/">
+                <span class="flex cursor-pointer">
+  <span
+    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    CUDA
+  </span>
+</span>
+
+              </a>
+            
+              <a class="relative mt-[0.5rem] me-2" href="/tags/framework/">
+                <span class="flex cursor-pointer">
+  <span
+    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Framework
+  </span>
+</span>
+
+              </a>
+            
+          
+        
+      
+    </div>
+  
+
+  
+  
+
+
+
+    </div>
+    
+      <div class="prose dark:prose-invert py-1">由於研究上需要CUDA平行計算，所以我在Thunderbolt 4與Oculink中做選擇</div>
+    
+  </div>
+  <div class="px-6 pt-4 pb-2"></div>
+</article>
+
+      
+        
+
+
+
+
+
+
+
+  
+    
+      
+        
+      
+    
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+
+
+<article
+  class="relative min-h-full min-w-full overflow-hidden rounded-lg border border-neutral-300 dark:border-neutral-600">
+  
+    <div class="flex-none relative overflow-hidden thumbnail_card_related">
+      <img
         src="https://secologies.com/wp-content/uploads/2025/12/ai-vs-robots-scaled.webp"
         role="presentation"
         loading="lazy"
@@ -2038,7 +2061,7 @@
   <div class="flex flex-row flex-wrap items-center">
     
     
-      <time datetime="2025-08-02T10:15:00&#43;08:00">2025-08-02 10:15</time><span class="px-2 text-primary-500">&middot;</span><time datetime="2025-08-12T18:05:00&#43;08:00">上次編輯: 2025-08-12 18:05</time><span class="px-2 text-primary-500">&middot;</span><span>710 字</span><span class="px-2 text-primary-500">&middot;</span><span title="預計閱讀時間">2 分鐘</span>
+      <time datetime="2025-08-02T10:15:00&#43;08:00">2025-08-02 10:15</time><span class="px-2 text-primary-500">&middot;</span><time datetime="2025-08-12T18:05:00&#43;08:00">上次編輯: 2025-08-12 18:05</time><span class="px-2 text-primary-500">&middot;</span><span>767 字</span><span class="px-2 text-primary-500">&middot;</span><span title="預計閱讀時間">2 分鐘</span>
     
 
     
@@ -2247,7 +2270,7 @@
   <div class="flex flex-row flex-wrap items-center">
     
     
-      <time datetime="2025-08-01T14:23:00&#43;08:00">2025-08-01 14:23</time><span class="px-2 text-primary-500">&middot;</span><time datetime="2026-03-07T11:48:00&#43;08:00">上次編輯: 2026-03-07 11:48</time><span class="px-2 text-primary-500">&middot;</span><span>3766 字</span><span class="px-2 text-primary-500">&middot;</span><span title="預計閱讀時間">8 分鐘</span>
+      <time datetime="2025-08-01T14:23:00&#43;08:00">2025-08-01 14:23</time><span class="px-2 text-primary-500">&middot;</span><time datetime="2026-03-07T11:48:00&#43;08:00">上次編輯: 2026-03-07 11:48</time><span class="px-2 text-primary-500">&middot;</span><span>3760 字</span><span class="px-2 text-primary-500">&middot;</span><span title="預計閱讀時間">8 分鐘</span>
     
 
     
@@ -2721,6 +2744,52 @@
     src="/js/process.min.ee03488f19c93c2efb199e2e3014ea5f3cb2ce7d45154adb3399a158cac27ca52831db249ede5bb602700ef87eb02434139de0858af1818ab0fb4182472204a4.js"
     integrity="sha512-7gNIjxnJPC77GZ4uMBTqXzyyzn1FFUrbM5mhWMrCfKUoMdsknt5btgJwDvh&#43;sCQ0E53ghYrxgYqw&#43;0GCRyIEpA=="></script>
   
+  
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/tippy.js@6.3.7/dist/tippy-bundle.umd.min.js"></script>
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+    if (typeof tippy === 'undefined') return;
+    var noteRefs = document.querySelectorAll('a.footnote-ref[role="doc-noteref"]');
+    if (!noteRefs.length) return;
+    var noteCache = new Map();
+    noteRefs.forEach(function (ref) {
+        var targetId = ref.getAttribute('href');
+        if (!targetId || targetId.charAt(0) !== '#') return;
+        targetId = targetId.slice(1);
+        var note = document.getElementById(targetId);
+        if (!note) return;
+        if (!noteCache.has(targetId)) {
+            var clone = note.cloneNode(true);
+            clone.querySelectorAll('.footnote-backref').forEach(function (b) { b.remove(); });
+            noteCache.set(targetId, clone.innerHTML.trim());
+        }
+        tippy(ref, {
+            content: noteCache.get(targetId),
+            allowHTML: true,
+            interactive: true,
+            theme: 'light-border',
+            maxWidth: 360,
+            appendTo: document.body,
+            placement: 'auto',
+            touch: ['hold', 400],
+            animation: 'shift-away',
+        });
+    });
+});
+</script>
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  document.querySelectorAll('a[href^="#mjx-eqn-"]').forEach(function (a) {
+    a.addEventListener('click', function (e) {
+      
+      e.stopPropagation();
+    });
+  });
+});
+</script>
+
   
 </footer>
 <div

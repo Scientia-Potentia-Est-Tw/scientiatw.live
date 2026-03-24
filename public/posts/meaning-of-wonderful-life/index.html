@@ -113,8 +113,8 @@
   <link
     type="text/css"
     rel="stylesheet"
-    href="/css/main.bundle.min.52faf8de5cbac48eef80aefe71ae27037c41b656a4713fbac42bdb1d73eccc9cf6b74b63fa12f62e40d0137a8fb0989cf1f50ff9d627b1f840bedf905736027d.css"
-    integrity="sha512-Uvr43ly6xI7vgK7&#43;ca4nA3xBtlakcT&#43;6xCvbHXPszJz2t0tj&#43;hL2LkDQE3qPsJic8fUP&#43;dYnsfhAvt&#43;QVzYCfQ==">
+    href="/css/main.bundle.min.e99ce30310fa9161794259495bd611a07e8087e52c7f039ee01c08d7e5b5d0969b59977165695b98f4028492ca08c9c7717478f4f0e111ba25365b25ee4afdde.css"
+    integrity="sha512-6ZzjAxD6kWF5QllJW9YRoH6Ah&#43;UsfwOe4BwI1&#43;W10JabWZdxZWlbmPQChJLKCMnHcXR49PDhEbolNlsl7kr93g==">
 
   
   
@@ -237,7 +237,7 @@
     "keywords": ["生活","飲食","哲學","人生"],
     
     "mainEntityOfPage": "true",
-    "wordCount": "1270"
+    "wordCount": "1287"
   },
   {
     "@context": "https://schema.org",
@@ -281,6 +281,32 @@
   
 
   
+  
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tippy.js@6.3.7/dist/tippy.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tippy.js@6.3.7/dist/themes/light-border.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tippy.js@6.3.7/animations/shift-away.css">
+
+<script>
+  window.MathJax = {
+    tex: {
+      inlineMath: [['$', '$'], ['\\(', '\\)']],
+      displayMath: [['$$', '$$'], ['\\[', '\\]']],
+      tags: 'ams',
+      processEscapes: true,
+      packages: {'[+]': ['ams']}
+    },
+    options: {
+      skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'annotation', 'annotation-xml'],
+      ignoreHtmlClass: 'no-mathjax',
+      processHtmlClass: 'prose'  
+    },
+    loader: {
+      load: ['[tex]/ams']
+    }
+  };
+</script>
+<script async id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
   
 
   
@@ -995,7 +1021,7 @@
   <div class="flex flex-row flex-wrap items-center">
     
     
-      <time datetime="2025-08-21T00:00:00&#43;00:00">2025-08-21 00:00</time><span class="px-2 text-primary-500">&middot;</span><span>1270 字</span><span class="px-2 text-primary-500">&middot;</span><span title="預計閱讀時間">3 分鐘</span>
+      <time datetime="2025-08-21T00:00:00&#43;00:00">2025-08-21 00:00</time><span class="px-2 text-primary-500">&middot;</span><span>1287 字</span><span class="px-2 text-primary-500">&middot;</span><span title="預計閱讀時間">3 分鐘</span>
     
 
     
@@ -1083,154 +1109,13 @@
       
       
       
-        <div class="order-first lg:ml-auto px-0 lg:order-last lg:ps-8 lg:max-w-2xs">
-          <div class="toc ps-5 print:hidden lg:sticky lg:top-[140px]">
-            
-              <details
-  open
-  id="TOCView"
-  class="toc-right mt-0 overflow-y-auto overscroll-contain bf-scrollbar rounded-lg -ms-5 ps-5 pe-2 hidden lg:block">
-  <summary
-    class="block py-1 text-lg font-semibold cursor-pointer bg-neutral-100 text-neutral-800 -ms-5 ps-5 dark:bg-neutral-700 dark:text-neutral-100 lg:hidden">
-    目錄
-  </summary>
-  <div
-    class="min-w-[220px] py-2 border-dotted border-s-1 -ms-5 ps-5 dark:border-neutral-600">
-    <nav id="TableOfContents">
-  <ul>
-    <li><a href="#reference">Reference</a></li>
-  </ul>
-</nav>
-  </div>
-</details>
-<details class="toc-inside mt-0 overflow-hidden rounded-lg -ms-5 ps-5 lg:hidden">
-  <summary
-    class="py-1 text-lg font-semibold cursor-pointer bg-neutral-100 text-neutral-800 -ms-5 ps-5 dark:bg-neutral-700 dark:text-neutral-100 lg:hidden">
-    目錄
-  </summary>
-  <div
-    class="py-2 border-dotted border-neutral-300 border-s-1 -ms-5 ps-5 dark:border-neutral-600">
-    <nav id="TableOfContents">
-  <ul>
-    <li><a href="#reference">Reference</a></li>
-  </ul>
-</nav>
-  </div>
-</details>
-
-
-<script>
-  (function () {
-    'use strict'
-
-    const SCROLL_OFFSET_RATIO = 0.33
-    const TOC_SELECTOR = '#TableOfContents'
-    const ANCHOR_SELECTOR = '.anchor'
-    const TOC_LINK_SELECTOR = 'a[href^="#"]'
-    const NESTED_LIST_SELECTOR = 'li ul'
-    const ACTIVE_CLASS = 'active'
-    let isJumpingToAnchor = false
-
-    function getActiveAnchorId(anchors, offsetRatio) {
-      const threshold = window.scrollY + window.innerHeight * offsetRatio
-      const tocLinks = [...document.querySelectorAll('#TableOfContents a[href^="#"]')]
-      const tocIds = new Set(tocLinks.map(link => link.getAttribute('href').substring(1)))
-
-      if (isJumpingToAnchor) {
-        for (let i = 0; i < anchors.length; i++) {
-          const anchor = anchors[i]
-          if (!tocIds.has(anchor.id)) continue
-          const top = anchor.getBoundingClientRect().top + window.scrollY
-          if (Math.abs(window.scrollY - top) < 100) {
-            return anchor.id
-          }
-        }
-      }
-
-      for (let i = anchors.length - 1; i >= 0; i--) {
-        const top = anchors[i].getBoundingClientRect().top + window.scrollY
-        if (top <= threshold && tocIds.has(anchors[i].id)) {
-          return anchors[i].id
-        }
-      }
-      return anchors.find(anchor => tocIds.has(anchor.id))?.id || ''
-    }
-
-    function updateTOC({ toc, anchors, links, scrollOffset, collapseInactive }) {
-      const activeId = getActiveAnchorId(anchors, scrollOffset)
-      if (!activeId) return
-
-      links.forEach(link => {
-        const isActive = link.getAttribute('href') === `#${activeId}`
-        link.classList.toggle(ACTIVE_CLASS, isActive)
-
-        if (collapseInactive) {
-          const ul = link.closest('li')?.querySelector('ul')
-          if (ul) ul.style.display = isActive ? '' : 'none'
-        }
-      })
-
-      if (collapseInactive) {
-        const activeLink = toc.querySelector(`a[href="#${CSS.escape(activeId)}"]`)
-        let el = activeLink
-        while (el && el !== toc) {
-          if (el.tagName === 'UL') el.style.display = ''
-          if (el.tagName === 'LI') el.querySelector('ul')?.style.setProperty('display', '')
-          el = el.parentElement
-        }
-      }
-    }
-
-    function initTOC() {
-      const toc = document.querySelector(TOC_SELECTOR)
-      if (!toc) return
-
-      const collapseInactive = false
-      const anchors = [...document.querySelectorAll(ANCHOR_SELECTOR)]
-      const links = [...toc.querySelectorAll(TOC_LINK_SELECTOR)]
-
-      if (collapseInactive) {
-        toc.querySelectorAll(NESTED_LIST_SELECTOR).forEach(ul => ul.style.display = 'none')
-      }
-
-      links.forEach(link => {
-        link.addEventListener('click', () => {
-          isJumpingToAnchor = true
-        })
-      })
-
-      const config = {
-        toc,
-        anchors,
-        links,
-        scrollOffset: SCROLL_OFFSET_RATIO,
-        collapseInactive
-      }
-
-      window.addEventListener('scroll', () => updateTOC(config), { passive: true })
-      window.addEventListener('hashchange', () => updateTOC(config), { passive: true })
-
-      updateTOC(config)
-    }
-
-    document.readyState === 'loading'
-      ? document.addEventListener('DOMContentLoaded', initTOC)
-      : initTOC()
-  })()
-</script>
-
-
-            
-          </div>
-        </div>
-      
 
 
       <div class="min-w-0 min-h-0 max-w-fit">
         
 
         <div class="article-content max-w-prose mb-20">
-          <p>當我們飢餓、口渴、冷、生病或有危險時追尋美善的生活根本毫無意義，那個時代只有關乎生存的食物、水、溫暖、藥物和棲身之處才是極為珍貴的「商品」，而當科技的進步解決了這些事情之後，我們開始能夠對抗死亡，但也遠離了自己生命有限的事實，從全素食主義、實驗室植物肉，到甚至有人花錢把年輕血液打進自己的身體裡[1]</p>
+          <p>當我們飢餓、口渴、冷、生病或有危險時追尋美善的生活根本毫無意義，那個時代只有關乎生存的食物、水、溫暖、藥物和棲身之處才是極為珍貴的「商品」，而當科技的進步解決了這些事情之後，我們開始能夠對抗死亡，但也遠離了自己生命有限的事實，從全素食主義、實驗室植物肉，到甚至有人花錢把年輕血液打進自己的身體裡<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
 <p>當人們克服了這些困難後「怎麼活」的問題就變得越發複雜、抽象，雖然同樣間接與生存有關，但我們開始追求無形的事物，像是追求<strong>幸福</strong>，可你我都知道幸福出名的難界定，每個人追求的幸福都不同，每個人都很難達成，而幸福卻又像終極的誘惑，人皆渴望</p>
 <p>有一種似乎刻在DNA裡的假設：你我<strong>應當</strong>幸福。不過由於數不清的原因(課業壓力、工作壓迫、擔心財務狀況、你那過年時會問東問西的親戚、想要抱孫子的父母以及一種普遍的寂寞感)，我們總是處在恰恰相反的情況裡</p>
 <p>英國經濟學家理查·萊亞德(Richard Layard)在《快樂經濟學》(Happiness)中寫的好</p>
@@ -1240,17 +1125,14 @@
 <p>善讓我們的靈魂更完美，具備了美德，就能夠直直穿越人生，如果人類是艘船，人生是大海，那麼善就是我們的北極星，也是我們掌舵的依歸，但要過上美善的生活充滿著挑戰，需要不少勇氣和努力，畢竟幸福這個字的希臘文eudaimonia，代表著接近繁榮，是主動而非被動的狀態</p>
 <p>那蘇格拉底會建議我們該如何面對現代生活呢？他的建議可能是：要學會擁抱矛盾。畢竟我們一生都在追求難以捉摸的目標，這件事本身就非常矛盾，接受人類的處境，本身就是美善生活的基礎，為了回答「生命、宇宙和萬物的意義是什麼」，深思(Deep Thought)這台超級電腦在《銀河便車指南》(The Hitchhiker&rsquo;s Guide to the Galaxy)裡出現，深思花了七百五十萬年，想出了答案：「<strong>四十二</strong>」</p>
 <p>這答案根本毫無意義，對吧？深思也承認了，但它解釋，設計它的人其實根本不了解這個問題的本質，而我們呢？我們又真正瞭解自己所追求的事物本質了嗎？</p>
-
-<h2 class="relative group">Reference
-    <div id="reference" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
-        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#reference" aria-label="定位點">#</a>
-    </span>
-    
-</h2>
-<p>[1] 長生不死：矽谷富豪的逆齡人生：<a href="https://www.gq.com.tw/article/%E7%9F%BD%E8%B0%B7%E5%AF%8C%E8%B1%AA%E8%BF%BD%E6%B1%82%E9%95%B7%E7%94%9F"  target="_blank">https://www.gq.com.tw/article/%E7%9F%BD%E8%B0%B7%E5%AF%8C%E8%B1%AA%E8%BF%BD%E6%B1%82%E9%95%B7%E7%94%9F</a></p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>長生不死：矽谷富豪的逆齡人生：<a href="https://www.gq.com.tw/article/%E7%9F%BD%E8%B0%B7%E5%AF%8C%E8%B1%AA%E8%BF%BD%E6%B1%82%E9%95%B7%E7%94%9F"  target="_blank">https://www.gq.com.tw/article/%E7%9F%BD%E8%B0%B7%E5%AF%8C%E8%B1%AA%E8%BF%BD%E6%B1%82%E9%95%B7%E7%94%9F</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
 
           
           
@@ -1460,7 +1342,7 @@
   <div class="flex flex-row flex-wrap items-center">
     
     
-      <time datetime="2025-07-23T19:30:00&#43;08:00">2025-07-23 19:30</time><span class="px-2 text-primary-500">&middot;</span><time datetime="2025-12-22T19:40:00&#43;08:00">上次編輯: 2025-12-22 19:40</time><span class="px-2 text-primary-500">&middot;</span><span>2660 字</span><span class="px-2 text-primary-500">&middot;</span><span title="預計閱讀時間">6 分鐘</span>
+      <time datetime="2025-07-23T19:30:00&#43;08:00">2025-07-23 19:30</time><span class="px-2 text-primary-500">&middot;</span><time datetime="2025-12-22T19:40:00&#43;08:00">上次編輯: 2025-12-22 19:40</time><span class="px-2 text-primary-500">&middot;</span><span>2668 字</span><span class="px-2 text-primary-500">&middot;</span><span title="預計閱讀時間">6 分鐘</span>
     
 
     
@@ -1669,7 +1551,7 @@
   <div class="flex flex-row flex-wrap items-center">
     
     
-      <time datetime="2025-07-22T00:00:00&#43;00:00">2025-07-22 00:00</time><span class="px-2 text-primary-500">&middot;</span><time datetime="2025-09-23T00:00:00&#43;00:00">上次編輯: 2025-09-23 00:00</time><span class="px-2 text-primary-500">&middot;</span><span>1727 字</span><span class="px-2 text-primary-500">&middot;</span><span title="預計閱讀時間">4 分鐘</span>
+      <time datetime="2025-07-22T00:00:00&#43;00:00">2025-07-22 00:00</time><span class="px-2 text-primary-500">&middot;</span><time datetime="2025-09-23T00:00:00&#43;00:00">上次編輯: 2025-09-23 00:00</time><span class="px-2 text-primary-500">&middot;</span><span>1724 字</span><span class="px-2 text-primary-500">&middot;</span><span title="預計閱讀時間">4 分鐘</span>
     
 
     
@@ -1769,404 +1651,6 @@
     </div>
     
       <div class="prose dark:prose-invert py-1">2017年圖靈獎得主的電腦科學家David A. Patterson分享了他這50年來從人生中學到的一些重要的事情</div>
-    
-  </div>
-  <div class="px-6 pt-4 pb-2"></div>
-</article>
-
-      
-        
-
-
-
-
-
-
-
-  
-    
-      
-        
-      
-    
-  
-
-  
-  
-
-  
-  
-
-  
-  
-
-
-
-<article
-  class="relative min-h-full min-w-full overflow-hidden rounded-lg border border-neutral-300 dark:border-neutral-600">
-  
-    <div class="flex-none relative overflow-hidden thumbnail_card_related">
-      <img
-        src="https://secologies.com/wp-content/uploads/2025/07/career-lessons-1-cover-scaled.webp"
-        role="presentation"
-        loading="lazy"
-        decoding="async"
-        fetchpriority="low"
-        class="not-prose absolute inset-0 w-full h-full object-cover">
-    </div>
-  
-  
-  <div class="p-4">
-    <header>
-      <a
-        
-          href="/posts/life-lessons-from-the-first-half-century-of-my-career-focused-1/"
-        
-        class="not-prose before:absolute before:inset-0 decoration-primary-500 dark:text-neutral text-xl font-bold text-neutral-800 hover:underline hover:underline-offset-2">
-        <h2>
-          從50年職涯中學到的事業課題-上
-          
-        </h2>
-      </a>
-    </header>
-    <div class="text-sm text-neutral-500 dark:text-neutral-400">
-      
-
-
-
-
-
-
-
-  
-
-  
-  
-  
-    
-  
-
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  <div class="flex flex-row flex-wrap items-center">
-    
-    
-      <time datetime="2025-07-27T00:00:00&#43;00:00">2025-07-27 00:00</time><span class="px-2 text-primary-500">&middot;</span><time datetime="2025-10-30T00:00:00&#43;00:00">上次編輯: 2025-10-30 00:00</time><span class="px-2 text-primary-500">&middot;</span><span>1230 字</span><span class="px-2 text-primary-500">&middot;</span><span title="預計閱讀時間">3 分鐘</span>
-    
-
-    
-    
-  </div>
-
-  
-
-  
-  
-    <div class="flex flex-row flex-wrap items-center">
-      
-        
-      
-        
-          
-            
-              <a class="relative mt-[0.5rem] me-2" href="/categories/%E7%94%9F%E6%B4%BB/">
-                <span class="flex cursor-pointer">
-  <span
-    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
-    生活
-  </span>
-</span>
-
-              </a>
-            
-          
-        
-      
-        
-      
-        
-          
-            
-              <a class="relative mt-[0.5rem] me-2" href="/tags/%E8%81%B7%E6%B6%AF/">
-                <span class="flex cursor-pointer">
-  <span
-    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
-    職涯
-  </span>
-</span>
-
-              </a>
-            
-              <a class="relative mt-[0.5rem] me-2" href="/tags/%E5%BB%BA%E8%AD%B0/">
-                <span class="flex cursor-pointer">
-  <span
-    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
-    建議
-  </span>
-</span>
-
-              </a>
-            
-              <a class="relative mt-[0.5rem] me-2" href="/tags/david-a.-patterson/">
-                <span class="flex cursor-pointer">
-  <span
-    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
-    David A. Patterson
-  </span>
-</span>
-
-              </a>
-            
-              <a class="relative mt-[0.5rem] me-2" href="/tags/%E9%9B%BB%E8%85%A6%E7%A7%91%E5%AD%B8%E5%AE%B6/">
-                <span class="flex cursor-pointer">
-  <span
-    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
-    電腦科學家
-  </span>
-</span>
-
-              </a>
-            
-              <a class="relative mt-[0.5rem] me-2" href="/tags/%E5%9C%96%E9%9D%88%E7%8D%8E/">
-                <span class="flex cursor-pointer">
-  <span
-    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
-    圖靈獎
-  </span>
-</span>
-
-              </a>
-            
-          
-        
-      
-    </div>
-  
-
-  
-  
-
-
-
-    </div>
-    
-      <div class="prose dark:prose-invert py-1">2017年圖靈獎得主的電腦科學家David A. Patterson分享了他這50年來從人生中學到一些關於職涯上應該要在乎的事</div>
-    
-  </div>
-  <div class="px-6 pt-4 pb-2"></div>
-</article>
-
-      
-        
-
-
-
-
-
-
-
-  
-    
-      
-        
-      
-    
-  
-
-  
-  
-
-  
-  
-
-  
-  
-
-
-
-<article
-  class="relative min-h-full min-w-full overflow-hidden rounded-lg border border-neutral-300 dark:border-neutral-600">
-  
-    <div class="flex-none relative overflow-hidden thumbnail_card_related">
-      <img
-        src="https://secologies.com/wp-content/uploads/2025/05/Hsinchu_Lead_Bus_A-cover.webp"
-        role="presentation"
-        loading="lazy"
-        decoding="async"
-        fetchpriority="low"
-        class="not-prose absolute inset-0 w-full h-full object-cover">
-    </div>
-  
-  
-  <div class="p-4">
-    <header>
-      <a
-        
-          href="/posts/hsinchu-lead-bus-a/"
-        
-        class="not-prose before:absolute before:inset-0 decoration-primary-500 dark:text-neutral text-xl font-bold text-neutral-800 hover:underline hover:underline-offset-2">
-        <h2>
-          新竹先導公車
-          
-        </h2>
-      </a>
-    </header>
-    <div class="text-sm text-neutral-500 dark:text-neutral-400">
-      
-
-
-
-
-
-
-
-  
-
-  
-  
-  
-    
-  
-
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  <div class="flex flex-row flex-wrap items-center">
-    
-    
-      <time datetime="2025-04-05T00:00:00&#43;00:00">2025-04-05 00:00</time><span class="px-2 text-primary-500">&middot;</span><time datetime="2025-10-30T00:00:00&#43;00:00">上次編輯: 2025-10-30 00:00</time><span class="px-2 text-primary-500">&middot;</span><span>574 字</span><span class="px-2 text-primary-500">&middot;</span><span title="預計閱讀時間">2 分鐘</span>
-    
-
-    
-    
-  </div>
-
-  
-
-  
-  
-    <div class="flex flex-row flex-wrap items-center">
-      
-        
-      
-        
-          
-            
-              <a class="relative mt-[0.5rem] me-2" href="/categories/%E7%94%9F%E6%B4%BB/">
-                <span class="flex cursor-pointer">
-  <span
-    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
-    生活
-  </span>
-</span>
-
-              </a>
-            
-          
-        
-      
-        
-      
-        
-          
-            
-              <a class="relative mt-[0.5rem] me-2" href="/tags/%E5%85%AC%E5%85%B1%E9%81%8B%E8%BC%B8/">
-                <span class="flex cursor-pointer">
-  <span
-    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
-    公共運輸
-  </span>
-</span>
-
-              </a>
-            
-              <a class="relative mt-[0.5rem] me-2" href="/tags/%E6%96%B0%E7%AB%B9/">
-                <span class="flex cursor-pointer">
-  <span
-    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
-    新竹
-  </span>
-</span>
-
-              </a>
-            
-              <a class="relative mt-[0.5rem] me-2" href="/tags/%E5%85%88%E5%B0%8E%E5%85%AC%E8%BB%8A/">
-                <span class="flex cursor-pointer">
-  <span
-    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
-    先導公車
-  </span>
-</span>
-
-              </a>
-            
-          
-        
-      
-    </div>
-  
-
-  
-  
-
-
-
-    </div>
-    
-      <div class="prose dark:prose-invert py-1">今天終於坐到了新竹市政府2024年月底推出新的電動先導公車</div>
     
   </div>
   <div class="px-6 pt-4 pb-2"></div>
@@ -2581,6 +2065,394 @@
 </article>
 
       
+        
+
+
+
+
+
+
+
+  
+    
+      
+        
+      
+    
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+
+
+<article
+  class="relative min-h-full min-w-full overflow-hidden rounded-lg border border-neutral-300 dark:border-neutral-600">
+  
+    <div class="flex-none relative overflow-hidden thumbnail_card_related">
+      <img
+        src="https://secologies.com/wp-content/uploads/2026/03/sedentary-destroy-your-memory-scaled.webp"
+        role="presentation"
+        loading="lazy"
+        decoding="async"
+        fetchpriority="low"
+        class="not-prose absolute inset-0 w-full h-full object-cover">
+    </div>
+  
+  
+  <div class="p-4">
+    <header>
+      <a
+        
+          href="/posts/sedentary-destroy-your-memory/"
+        
+        class="not-prose before:absolute before:inset-0 decoration-primary-500 dark:text-neutral text-xl font-bold text-neutral-800 hover:underline hover:underline-offset-2">
+        <h2>
+          久坐摧毀你的記憶力！
+          
+        </h2>
+      </a>
+    </header>
+    <div class="text-sm text-neutral-500 dark:text-neutral-400">
+      
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+    
+  
+
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  <div class="flex flex-row flex-wrap items-center">
+    
+    
+      <time datetime="2025-08-09T00:00:00&#43;08:00">2025-08-09 00:00</time><span class="px-2 text-primary-500">&middot;</span><time datetime="2026-03-07T10:17:00&#43;08:00">上次編輯: 2026-03-07 10:17</time><span class="px-2 text-primary-500">&middot;</span><span>900 字</span><span class="px-2 text-primary-500">&middot;</span><span title="預計閱讀時間">2 分鐘</span>
+    
+
+    
+    
+  </div>
+
+  
+
+  
+  
+    <div class="flex flex-row flex-wrap items-center">
+      
+        
+      
+        
+          
+            
+              <a class="relative mt-[0.5rem] me-2" href="/categories/%E7%94%9F%E6%B4%BB/">
+                <span class="flex cursor-pointer">
+  <span
+    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    生活
+  </span>
+</span>
+
+              </a>
+            
+          
+        
+      
+        
+      
+        
+          
+            
+              <a class="relative mt-[0.5rem] me-2" href="/tags/%E5%81%A5%E5%BA%B7/">
+                <span class="flex cursor-pointer">
+  <span
+    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    健康
+  </span>
+</span>
+
+              </a>
+            
+              <a class="relative mt-[0.5rem] me-2" href="/tags/%E4%B9%85%E5%9D%90/">
+                <span class="flex cursor-pointer">
+  <span
+    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    久坐
+  </span>
+</span>
+
+              </a>
+            
+              <a class="relative mt-[0.5rem] me-2" href="/tags/%E9%98%BF%E8%8C%B2%E6%B5%B7%E9%BB%98%E7%97%87/">
+                <span class="flex cursor-pointer">
+  <span
+    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    阿茲海默症
+  </span>
+</span>
+
+              </a>
+            
+              <a class="relative mt-[0.5rem] me-2" href="/tags/%E6%B5%B7%E9%A6%AC%E8%BF%B4/">
+                <span class="flex cursor-pointer">
+  <span
+    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    海馬迴
+  </span>
+</span>
+
+              </a>
+            
+          
+        
+      
+    </div>
+  
+
+  
+  
+
+
+
+    </div>
+    
+      <div class="prose dark:prose-invert py-1">從久坐不動的世界中站起來吧，為了你的大腦健康，你必須這麼做</div>
+    
+  </div>
+  <div class="px-6 pt-4 pb-2"></div>
+</article>
+
+      
+        
+
+
+
+
+
+
+
+  
+    
+      
+        
+      
+    
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+
+
+<article
+  class="relative min-h-full min-w-full overflow-hidden rounded-lg border border-neutral-300 dark:border-neutral-600">
+  
+    <div class="flex-none relative overflow-hidden thumbnail_card_related">
+      <img
+        src="https://secologies.com/wp-content/uploads/2026/03/understand-your-thoughts-scaled.webp"
+        role="presentation"
+        loading="lazy"
+        decoding="async"
+        fetchpriority="low"
+        class="not-prose absolute inset-0 w-full h-full object-cover">
+    </div>
+  
+  
+  <div class="p-4">
+    <header>
+      <a
+        
+          href="/posts/understand-your-thoughts/"
+        
+        class="not-prose before:absolute before:inset-0 decoration-primary-500 dark:text-neutral text-xl font-bold text-neutral-800 hover:underline hover:underline-offset-2">
+        <h2>
+          了解自己的想法
+          
+        </h2>
+      </a>
+    </header>
+    <div class="text-sm text-neutral-500 dark:text-neutral-400">
+      
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+    
+  
+
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  <div class="flex flex-row flex-wrap items-center">
+    
+    
+      <time datetime="2025-08-08T00:00:00&#43;00:00">2025-08-08 00:00</time><span class="px-2 text-primary-500">&middot;</span><time datetime="2025-08-12T00:00:00&#43;00:00">上次編輯: 2025-08-12 00:00</time><span class="px-2 text-primary-500">&middot;</span><span>537 字</span><span class="px-2 text-primary-500">&middot;</span><span title="預計閱讀時間">2 分鐘</span>
+    
+
+    
+    
+  </div>
+
+  
+
+  
+  
+    <div class="flex flex-row flex-wrap items-center">
+      
+        
+      
+        
+          
+            
+              <a class="relative mt-[0.5rem] me-2" href="/categories/%E7%94%9F%E6%B4%BB/">
+                <span class="flex cursor-pointer">
+  <span
+    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    生活
+  </span>
+</span>
+
+              </a>
+            
+          
+        
+      
+        
+      
+        
+          
+            
+              <a class="relative mt-[0.5rem] me-2" href="/tags/%E7%BE%A9%E5%8B%99/">
+                <span class="flex cursor-pointer">
+  <span
+    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    義務
+  </span>
+</span>
+
+              </a>
+            
+              <a class="relative mt-[0.5rem] me-2" href="/tags/%E8%87%AA%E6%88%91%E6%87%B7%E7%96%91/">
+                <span class="flex cursor-pointer">
+  <span
+    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    自我懷疑
+  </span>
+</span>
+
+              </a>
+            
+              <a class="relative mt-[0.5rem] me-2" href="/tags/%E8%87%AA%E8%B2%AC/">
+                <span class="flex cursor-pointer">
+  <span
+    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    自責
+  </span>
+</span>
+
+              </a>
+            
+          
+        
+      
+    </div>
+  
+
+  
+  
+
+
+
+    </div>
+    
+      <div class="prose dark:prose-invert py-1">為什麼我們需要探索自我？</div>
+    
+  </div>
+  <div class="px-6 pt-4 pb-2"></div>
+</article>
+
+      
     </section>
   
 
@@ -2760,6 +2632,52 @@
     src="/js/process.min.ee03488f19c93c2efb199e2e3014ea5f3cb2ce7d45154adb3399a158cac27ca52831db249ede5bb602700ef87eb02434139de0858af1818ab0fb4182472204a4.js"
     integrity="sha512-7gNIjxnJPC77GZ4uMBTqXzyyzn1FFUrbM5mhWMrCfKUoMdsknt5btgJwDvh&#43;sCQ0E53ghYrxgYqw&#43;0GCRyIEpA=="></script>
   
+  
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/tippy.js@6.3.7/dist/tippy-bundle.umd.min.js"></script>
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+    if (typeof tippy === 'undefined') return;
+    var noteRefs = document.querySelectorAll('a.footnote-ref[role="doc-noteref"]');
+    if (!noteRefs.length) return;
+    var noteCache = new Map();
+    noteRefs.forEach(function (ref) {
+        var targetId = ref.getAttribute('href');
+        if (!targetId || targetId.charAt(0) !== '#') return;
+        targetId = targetId.slice(1);
+        var note = document.getElementById(targetId);
+        if (!note) return;
+        if (!noteCache.has(targetId)) {
+            var clone = note.cloneNode(true);
+            clone.querySelectorAll('.footnote-backref').forEach(function (b) { b.remove(); });
+            noteCache.set(targetId, clone.innerHTML.trim());
+        }
+        tippy(ref, {
+            content: noteCache.get(targetId),
+            allowHTML: true,
+            interactive: true,
+            theme: 'light-border',
+            maxWidth: 360,
+            appendTo: document.body,
+            placement: 'auto',
+            touch: ['hold', 400],
+            animation: 'shift-away',
+        });
+    });
+});
+</script>
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  document.querySelectorAll('a[href^="#mjx-eqn-"]').forEach(function (a) {
+    a.addEventListener('click', function (e) {
+      
+      e.stopPropagation();
+    });
+  });
+});
+</script>
+
   
 </footer>
 <div

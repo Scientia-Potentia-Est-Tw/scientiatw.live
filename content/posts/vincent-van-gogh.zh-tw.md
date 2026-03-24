@@ -130,7 +130,7 @@ slug = "Vincent-Van-Gogh"
   <figcaption>《麥田烏鴉》- 1890年7月, 50.5cm x 103cm, 阿姆斯特丹梵谷博物館</figcaption>
 </figure>
 
-我很羨慕梵谷擁有勇氣接受那些無法改變的事，也期望自己擁有勇氣嘗試那些我害怕但必須改變的事，如果要看更多梵谷的畫作可以到阿姆斯特丹梵谷博物館的網站上Vincent van Gogh[1]
+我很羨慕梵谷擁有勇氣接受那些無法改變的事，也期望自己擁有勇氣嘗試那些我害怕但必須改變的事，如果要看更多梵谷的畫作可以到阿姆斯特丹梵谷博物館的網站上Vincent van Gogh[^1]
 
 有興趣的讀者可以參考下列Kobo電子書版本或者博客來平裝書
 
@@ -138,5 +138,4 @@ Kobo電子書版本：[《看畫 梵谷》：從作品走進大師們的人生�
 
 博客來實體平裝書：[《看畫：梵谷》：從作品走進大師們的人生與內心世界](https://www.books.com.tw/exep/assp.php/scientia/products/0010972253?utm_source=scientia&utm_medium=ap-books&utm_content=recommend&utm_campaign=ap-202507)
 
-# Reference
-[1] Van Gogh Museum, "Vincent van Gogh," [https://www.vangoghmuseum.nl/en/art-and-stories/art/vincent-van-gogh](https://www.vangoghmuseum.nl/en/art-and-stories/art/vincent-van-gogh)
+[^1]: Van Gogh Museum, "Vincent van Gogh," [https://www.vangoghmuseum.nl/en/art-and-stories/art/vincent-van-gogh](https://www.vangoghmuseum.nl/en/art-and-stories/art/vincent-van-gogh)

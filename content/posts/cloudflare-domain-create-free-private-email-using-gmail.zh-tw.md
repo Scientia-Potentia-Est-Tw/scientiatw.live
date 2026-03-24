@@ -28,7 +28,7 @@ slug: "cloudflare-domain-create-free-private-email-using-gmail"
 
 擁有客製化的電子郵件信箱，會讓你看起來更專業，要完成這點，其實不需要額外購買存放SMTP伺服器的網路空間，只需要有免費版的Google Gmail的信箱帳號就能達成，本文將會帶各位一步一步的完成設定
 
-由於我的網域是在Cloudflare購買的，也比較推薦讀者在該平台租用，原因可以參考Alex Hsu的《如何為網站選一個好域名》[1]以及JN的《想架部落格，需要註冊自己的網域嗎？》[2]等文章，整個流程需要設定兩個主要的部分，首先是Cloudflare端的設定
+由於我的網域是在Cloudflare購買的，也比較推薦讀者在該平台租用，原因可以參考Alex Hsu的《如何為網站選一個好域名》[^1] 以及JN的《想架部落格，需要註冊自己的網域嗎？》[^2] 等文章，整個流程需要設定兩個主要的部分，首先是Cloudflare端的設定
 
 ## Cloudflare Email Routing
 在擁有自己的網域後，讀者可以點進去該網域內，我們可以在左側欄位找到所有功能，其中看到Email功能後下拉，會出現Email Routing可以點選
@@ -172,7 +172,6 @@ Cloudflare就會寄送一封確認信到你想要轉寄的信箱裡，直接點�
 
 如果上述都有成功，代表讀者的設定都正確，此文以Gmail的SMTP Server作為中繼，如果讀者使用的是Outlook或者其他商業型電子郵件服務，需要確認是否可以免費設定SMTP server，像是protonmail就需要訂閱後才能新增domain name，這點需要特別注意，祝各位可以成功建立自己的網域信箱
 
-## Reference
-[1] Alex Hsu 徐小翔, "如何為網站選一個好域名," 2025年12月18日, [https://alexhsu.com/domain-names](https://alexhsu.com/domain-names).
+[^1]: Alex Hsu 徐小翔, "如何為網站選一個好域名," 2025年12月18日, [https://alexhsu.com/domain-names](https://alexhsu.com/domain-names).
 
-[2] 資工小廢物 - JN, "想架部落格，需要註冊自己的網域嗎？," 2025-12-19, [https://blog.giveanornot.com/get-a-domain-or-not/](https://blog.giveanornot.com/get-a-domain-or-not/).
+[^2]: 資工小廢物 - JN, "想架部落格，需要註冊自己的網域嗎？," 2025-12-19, [https://blog.giveanornot.com/get-a-domain-or-not/](https://blog.giveanornot.com/get-a-domain-or-not/).

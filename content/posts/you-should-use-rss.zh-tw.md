@@ -73,7 +73,7 @@ title: 自主選擇乾淨的資訊，回歸RSS的懷抱吧！
 限制資訊來源只看那些有品質保障的文章，而不是刷那些毫無前後脈絡的社群媒體貼文，讓自己可以真正保留看過的印象
 
 ### 不會資訊焦慮
-資訊爆炸的現代讓我們一份報紙上的資訊早就超過十七世紀人們一生所需要的資訊量[4] (雖然我只會買報紙來包食物😏)，但社群媒體更是加劇了這一現象，當你追蹤的人跟粉絲專頁越來越多，就會導致你每天有成千上萬個貼文需要去看，尤其還會有一堆不相關的、詐騙的、損害你智商的貼文出現
+資訊爆炸的現代讓我們一份報紙上的資訊早就超過十七世紀人們一生所需要的資訊量[^4] (雖然我只會買報紙來包食物😏)，但社群媒體更是加劇了這一現象，當你追蹤的人跟粉絲專頁越來越多，就會導致你每天有成千上萬個貼文需要去看，尤其還會有一堆不相關的、詐騙的、損害你智商的貼文出現
 
 我在大學時follow國內外所有能查到的資安公司及社群粉專，這些公司跟社群每天都會po一堆活動資訊或網路技術文章，這造成我的分頁永遠都超過20幾個，我感覺我永遠都看不完文章且追不上他們的進度，尤其剛升上大學得適應課業環境
 
@@ -86,11 +86,11 @@ title: 自主選擇乾淨的資訊，回歸RSS的懷抱吧！
 
 如果您找到了適合自己的閱讀器，也可以考慮訂閱我的RSS：[https://hshuang.blog/index.xml](https://hshuang.blog/index.xml)
 
-## 參考資料
+## References
 [1] 你需要用 RSS，不要再拖了 - [https://wiwi.blog/blog/you-should-use-rss](https://wiwi.blog/blog/you-should-use-rss)
 
 [2] 拒絕演算法洗腦！RSS 讓你奪回閱讀的「自主權」- [https://blog.giveanornot.com/%E6%8B%92%E7%B5%95%E6%BC%94%E7%AE%97%E6%B3%95%E6%B4%97%E8%85%A6rss-%E8%AE%93%E4%BD%A0%E5%A5%AA%E5%9B%9E%E9%96%B1%E8%AE%80%E7%9A%84%E8%87%AA%E4%B8%BB%E6%AC%8A/](https://blog.giveanornot.com/%E6%8B%92%E7%B5%95%E6%BC%94%E7%AE%97%E6%B3%95%E6%B4%97%E8%85%A6rss-%E8%AE%93%E4%BD%A0%E5%A5%AA%E5%9B%9E%E9%96%B1%E8%AE%80%E7%9A%84%E8%87%AA%E4%B8%BB%E6%AC%8A/)
 
 [3] RSS - [https://zh.wikipedia.org/zh-tw/RSS](https://zh.wikipedia.org/zh-tw/RSS)
 
-[4] 初探網路趨勢：速食化的利與弊 - [https://pansci.asia/archives/357929](https://pansci.asia/archives/357929)
+[^4]: 初探網路趨勢：速食化的利與弊 - [https://pansci.asia/archives/357929](https://pansci.asia/archives/357929)

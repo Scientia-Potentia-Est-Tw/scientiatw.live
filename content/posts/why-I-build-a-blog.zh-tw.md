@@ -1,7 +1,7 @@
 +++
 title = "為什麼我想寫部落格？"
 date = "2025-07-17T08:00:00+08:00"
-lastmod = "2026-01-12T17:02:00+08:00"
+lastmod = "2026-03-24T13:54:00+08:00"
 author = "黃宏勝"
 categories = [
   "生活",
@@ -49,13 +49,15 @@ math = true
 
 回到我的起點不再去要求一步到位的內容，我想要寫些什麼就寫，分享書的讀後心得、分享我從網路上看到的文章而引發我那些省思、分享我去哪裡怎麼去怎麼玩以及分享我的品味給讀者等等，人本來就有各式各樣的興趣而這些內容用社群媒體很難整理(畢竟誰會想要往下滑一年前的貼文？)，所以我想部落格是最好的歸屬
 
-在這裡我可以自由設計我自己想要的版面、格式以及甚至放點Katex公式[1]🧐
-{{< katex >}}
-\[ H_{b}(X) = -\sum_{x \in \mathbb{X}} P(x) \cdot log_{b}P(x) = \mathbb{E}[-log_{b}P(X)] = \mathbb{E}{p} [log_{b}\frac{1}{P(x)}] \]
+在這裡我可以自由設計我自己想要的版面、格式以及甚至放點Katex公式$\eqref{Information-Theory-Entropy}$[^1]🧐
+
+\begin{equation}
+H_{b}(X) = -\sum_{x \in \mathbb{X}} P(x) \cdot log_{b}P(x) = \mathbb{E}[-log_{b}P(X)] = \mathbb{E}{p} [log_{b}\frac{1}{P(x)}]
+\label{Information-Theory-Entropy}
+\end{equation}
 
 並且透過部落格練習寫作可以同時為我的職業生涯帶來好處，畢竟研究工作花了七成時間在進行研究，三成時間把研究內容整理完寫成paper才算得上完成工作，優化任何一塊環節都能夠超越自我此乃美德，而練習直接寫才是王道，難道我讓想法在腦中盤旋就可以完成一篇文章？
 
 共勉之
 
----
-[1] 消息理論中的熵定義 - [https://secologies.com/zh/entropy-information-theory/](https://secologies.com/zh/entropy-information-theory/)
+[^1]: 消息理論中的熵定義 - [https://secologies.com/zh/entropy-information-theory/](https://secologies.com/zh/entropy-information-theory/)
