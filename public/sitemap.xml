@@ -3,8 +3,14 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
+    <loc>https://hshuang.blog/posts/2026-03-25/</loc>
+    <lastmod>2026-03-25T19:01:00+08:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://hshuang.blog/</loc>
-    <lastmod>2026-03-24T13:54:00+08:00</lastmod>
+    <lastmod>2026-03-25T19:01:00+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
