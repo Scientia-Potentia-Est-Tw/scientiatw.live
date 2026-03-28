@@ -33,7 +33,7 @@ slug = "Vincent-Van-Gogh"
 
 <figure>
   <img src="https://secologies.com/wp-content/uploads/2025/06/The-Potato-Eaters.webp" alt="The-Potato-Eaters">
-  <figcaption>《吃馬鈴薯的人》- 1885年, 82cm x 114cm, 阿姆斯特丹梵谷博物館</figcaption>
+  <figcaption>《吃馬鈴薯的人》- 1885年, 82cm x 114cm, 阿姆斯特丹梵谷博物館[1]</figcaption>
 </figure>
 
 來到安特衛普時在音樂咖啡廳裡請一位女服務生當模特兒，梵谷對她說「妳真是一個快樂的女性」，但服務生說
@@ -48,7 +48,7 @@ slug = "Vincent-Van-Gogh"
 
 <figure>
   <img src="https://secologies.com/wp-content/uploads/2025/06/Agostina-Segatori.webp" alt="Agostina Segatori Sitting in the Café du Tambourin">
-  <figcaption>《鈴鼓咖啡廳的阿格斯蒂娜》- 1887年2-3月, 55.5cm x 46.5cm, 奧特洛庫勒-穆勒博物館</figcaption>
+  <figcaption>《鈴鼓咖啡廳的阿格斯蒂娜》[1]- 1887年2-3月, 55.5cm x 46.5cm, 奧特洛庫勒-穆勒博物館</figcaption>
 </figure>
 
 1886年梵谷來到巴黎，當時歐洲所有藝術家都會聚集在這城市，距離第一次印象派畫展舉辦已經是十二年前了，尤其蒙馬特區是熱點中心，梵谷在柯爾蒙畫室學習，同時還要天天泡在沙龍裡面，這時期結識了科特萊特、席涅克、畢沙羅、秀拉、高更等人，天天交換作品跟意見讓梵谷開始嘗試印象派的筆法技巧來作畫，拋棄了原來棕灰色的調色板，作品在這時開始明亮了起來
@@ -57,17 +57,17 @@ slug = "Vincent-Van-Gogh"
 
 <figure>
   <img src="https://secologies.com/wp-content/uploads/2025/06/Portrait-of-Pere-Tanguy.webp" alt="Portrait of Père Tanguy">
-  <figcaption>《唐吉老爹肖像》- 1887年, 65cm x 51cm, 巴黎羅丹博物館</figcaption>
+  <figcaption>《唐吉老爹肖像》[1]- 1887年, 65cm x 51cm, 巴黎羅丹博物館</figcaption>
 </figure>
 
 <figure>
   <img src="https://secologies.com/wp-content/uploads/2025/06/SunFlower.webp" alt="SunFlowers">
-  <figcaption>《向日葵》- 1887年, 43cm x 61cm, 紐約大都會藝術博物館</figcaption>
+  <figcaption>《向日葵》[1]- 1887年, 43cm x 61cm, 紐約大都會藝術博物館</figcaption>
 </figure>
 
 <figure>
   <img src="https://secologies.com/wp-content/uploads/2025/06/Asnieres.webp" alt="Asnières-sur-Seine">
-  <figcaption>《塞納河畔阿涅爾的公園》(局部) - 1887年, 65cm x 51cm, 巴黎羅丹博物館</figcaption>
+  <figcaption>《塞納河畔阿涅爾的公園》(局部)[1] - 1887年, 65cm x 51cm, 巴黎羅丹博物館</figcaption>
 </figure>
 
 35歲的梵谷跑去法國南部一座小城『亞爾』更加的貼近自然，為的是成立「南方畫室」這個夢想，這時期的梵谷寫信跟弟弟說：「希望成功的慾望已經消失，我畫畫只因為我必須畫」，每天早上背著畫箱出門，只要吸引到他的景色就直接在現場畫，也結交了郵差魯倫一家人，有一部紀錄片就是從魯倫的兒子角度來看梵谷這個人，這部[《梵谷：星夜之謎》](https://giloo.ist/zh-TW/episodes/788/)有趣的地方是找來100名動畫師用油畫的方法製作這部作品
@@ -78,12 +78,12 @@ slug = "Vincent-Van-Gogh"
 
 <figure>
   <img src="https://secologies.com/wp-content/uploads/2025/06/Cafe-Terrace-at-Night.webp" alt="Café Terrace at Night">
-  <figcaption>《夜晚的露天咖啡座》- 1888年9月, 81cm x 65.5cm, 奧特洛庫勒-穆勒博物館</figcaption>
+  <figcaption>《夜晚的露天咖啡座》[1]- 1888年9月, 81cm x 65.5cm, 奧特洛庫勒-穆勒博物館</figcaption>
 </figure>
 
 <figure>
   <img src="https://secologies.com/wp-content/uploads/2025/06/Postman-Joseph-Roulin.webp" alt="Postman Joseph Roulin">
-  <figcaption>《郵差魯倫》- 1889年2月, 79.5cm x 63.5cm, 奧特洛庫勒-穆勒博物館</figcaption>
+  <figcaption>《郵差魯倫》[1]- 1889年2月, 79.5cm x 63.5cm, 奧特洛庫勒-穆勒博物館</figcaption>
 </figure>
 
 當病情漸漸緩解獲准出院後鄰居還是有些許不安，他們聯名請求市長請他離開，西奧安排哥哥住到離亞爾不遠的聖雷米精神療養院，梵谷多次向醫生請求外出，最終批准只有早晨跟傍晚才能到花園畫畫，因為他的間歇性癲癇每兩到三個月會發作一次，每次發作時整個人會很瘋狂，然而沒發病的話你根本看不出來這人患病了
@@ -92,19 +92,19 @@ slug = "Vincent-Van-Gogh"
 
 <figure>
   <img src="https://secologies.com/wp-content/uploads/2025/06/The-Starry-Night.webp" alt="The Starry Night">
-  <figcaption>《星夜》- 1889年6月, 73.2cm x 92.1cm, 紐約現代藝術博物館</figcaption>
+  <figcaption>《星夜》[1]- 1889年6月, 73.2cm x 92.1cm, 紐約現代藝術博物館</figcaption>
 </figure>
 
 <figure>
   <img src="https://secologies.com/wp-content/uploads/2025/06/Irises.webp" alt="Irises">
-  <figcaption>《鳶尾花》- 1889年5月, 71cm x 93cm, 洛杉磯保羅-蓋蒂博物館</figcaption>
+  <figcaption>《鳶尾花》[1]- 1889年5月, 71cm x 93cm, 洛杉磯保羅-蓋蒂博物館</figcaption>
 </figure>
 
 當然在這期間還是有一些好事發生，梵谷生前唯一賣掉的《紅色葡萄園》被比利時畫家尤金·博赫的姊姊安娜·博赫用400法郎買下，西奧的兒子小文森誕生到這個世上
 
 <figure>
   <img src="https://secologies.com/wp-content/uploads/2025/06/The-Red-Vineyard.webp" alt="The Red Vineyard">
-  <figcaption>《紅色葡萄園》- 1888年11月, 73cm x 91cm, 莫斯科普希金美術館</figcaption>
+  <figcaption>《紅色葡萄園》[1]- 1888年11月, 73cm x 91cm, 莫斯科普希金美術館</figcaption>
 </figure>
 
 1890年梵谷回到巴黎，此時的他看起來氣色極佳，隻身前往巴黎西北的奧維爾小鎮，這是一個巴黎近郊的畫家村，不過那裡沒有任何現代化的工廠，只有美麗的森林、天空和滿眼的紫羅蘭成為梵谷的支柱，在村子裡唯一依靠的是加歇醫生的照護，加歇醫生的治療下梵谷全身心地投入創作，短短兩個月就創造了70幅左右的油畫，畫加歇醫生與他女兒的人畫像，也畫村子裡客棧的人們，但更多時候是在鄉間寫生，他不在關注筆法與技巧，只是單單抓緊生命中的每一分每一秒來創作，可以說文森·梵谷的畫風在此時已經成型了
@@ -117,17 +117,17 @@ slug = "Vincent-Van-Gogh"
 
 <figure>
   <img src="https://secologies.com/wp-content/uploads/2025/06/Portrait-of-Dr.-Gachet.webp" alt="Portrait of Dr. Gachet">
-  <figcaption>《加歇醫生》- 1890年6月, 68cm x 57cm, 巴黎奧賽博物館</figcaption>
+  <figcaption>《加歇醫生》[1]- 1890年6月, 68cm x 57cm, 巴黎奧賽博物館</figcaption>
 </figure>
 
 <figure>
   <img src="https://secologies.com/wp-content/uploads/2025/06/Poppy-Field.webp" alt="The Poppy Field">
-  <figcaption>《罌粟田》- 1890年6月, 73cm x 92cm, 海牙市立美術館</figcaption>
+  <figcaption>《罌粟田》[1]- 1890年6月, 73cm x 92cm, 海牙市立美術館</figcaption>
 </figure>
 
 <figure>
   <img src="https://secologies.com/wp-content/uploads/2025/06/Wheatfield-with-Crows-scaled.webp" alt="The Wheatfield with Crows">
-  <figcaption>《麥田烏鴉》- 1890年7月, 50.5cm x 103cm, 阿姆斯特丹梵谷博物館</figcaption>
+  <figcaption>《麥田烏鴉》- 1890年7月, 50.5cm x 103cm, 阿姆斯特丹梵谷博物館[1]</figcaption>
 </figure>
 
 我很羨慕梵谷擁有勇氣接受那些無法改變的事，也期望自己擁有勇氣嘗試那些我害怕但必須改變的事，如果要看更多梵谷的畫作可以到阿姆斯特丹梵谷博物館的網站上Vincent van Gogh[^1]
