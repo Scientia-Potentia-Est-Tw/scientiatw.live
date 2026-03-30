@@ -19,7 +19,7 @@ lastmod: '2026-03-21T12:01:00+08:00'
 | ❌ | 捐血 10 次  | 4/10  |
 | ❌ | 整理宿舍把用不到的東西丟掉  |   |
 | ❌ | 寫子彈筆記日誌 365 天，並且每三個月回顧一次  |   |
-| ✅ | 把用不到的線上服務帳號刪掉  |  我已經將 Facebook, Instagram, Threads, Linkedin, X(Twitter), Twitch 帳號都刪掉了，[戒除社群媒體](https://hshuang.blog/posts/sayonara-zuckerberg/)讓自己邁向更理想的生活 |
+| ✅ | 將社群媒體帳號刪掉  |  我已經將 Facebook, Instagram, Threads, Linkedin, X, Twitch 帳號都刪掉了，[戒除社群媒體](https://hshuang.blog/posts/sayonara-zuckerberg/)讓自己邁向更理想的生活 |
 
 ## 工作
 | 狀態  | 目標 | 進度    |

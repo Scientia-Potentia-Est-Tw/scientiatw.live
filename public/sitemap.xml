@@ -3,13 +3,19 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
-    <loc>https://hshuang.blog/posts/2026-03-25/</loc>
-    <lastmod>2026-03-25T19:01:00+08:00</lastmod>
+    <loc>https://hshuang.blog/</loc>
+    <lastmod>2026-03-30T14:04:00+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://hshuang.blog/</loc>
+    <loc>https://hshuang.blog/about/</loc>
+    <lastmod>2026-03-30T14:04:00+08:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://hshuang.blog/posts/2026-03-25/</loc>
     <lastmod>2026-03-25T19:01:00+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -118,12 +124,6 @@
   </url>
   <url>
     <loc>https://hshuang.blog/posts/</loc>
-    <lastmod>2025-12-26T16:02:00+08:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://hshuang.blog/about/</loc>
     <lastmod>2025-12-26T16:02:00+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>

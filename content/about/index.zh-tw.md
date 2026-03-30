@@ -1,6 +1,6 @@
 ---
 title: 關於
-date: '2025-12-26T16:01:00+08:00'
+date: '2026-03-30T14:03:00+08:00'
 author: "黃宏勝"
 aliases:
   - about
@@ -8,7 +8,7 @@ aliases:
   - about-me
   - about-site
 slug: about
-lastmod: '2025-12-26T16:02:00+08:00'
+lastmod: '2026-03-30T14:04:00+08:00'
 ---
 <script>var ConverlyCustomData = {channelId: null};</script>
 <script async defer src="https://cdn.affiliates.one/production/adlinks/9632d86e82ddae2c6327eb55c530875fb8f852063ff7075dd96c7f802672af39.js"></script>
@@ -20,6 +20,8 @@ lastmod: '2025-12-26T16:02:00+08:00'
 歡迎逛逛我的資安部落格：[Secologies](https://secologies.com)
 
 任何問題請寄到信箱內：[hshuang@hshuang.blog](mailto:hshuang@hshuang.blog)
+
+此部落格不經營任何社群媒體，如果讀者在社群平台或奇怪的 APP 上看到我，皆是假冒的，畢竟我早就跟祖克柏說[再見](https://hshuang.blog/posts/sayonara-zuckerberg/)了
 
 ## 關於我
 
