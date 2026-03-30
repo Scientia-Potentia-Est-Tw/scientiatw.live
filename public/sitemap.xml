@@ -4,7 +4,7 @@
 
   <url>
     <loc>https://hshuang.blog/</loc>
-    <lastmod>2026-03-30T14:04:00+08:00</lastmod>
+    <lastmod>2026-03-30T15:26:00+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
@@ -178,7 +178,7 @@
   </url>
   <url>
     <loc>https://hshuang.blog/books/</loc>
-    <lastmod>2026-01-23T00:00:00+08:00</lastmod>
+    <lastmod>2026-03-30T15:26:00+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
@@ -447,56 +447,8 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://hshuang.blog/posts/survival-handbook-for-graduate-student-problematic/</loc>
-    <lastmod>2025-10-18T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://hshuang.blog/posts/survival-handbook-for-graduate-student-goal/</loc>
-    <lastmod>2025-10-18T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://hshuang.blog/posts/survival-handbook-for-graduate-student-innovation/</loc>
-    <lastmod>2025-10-18T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://hshuang.blog/posts/survival-handbook-for-graduate-student-write/</loc>
-    <lastmod>2025-10-18T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://hshuang.blog/posts/survival-handbook-for-graduate-student-read/</loc>
-    <lastmod>2025-03-16T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://hshuang.blog/posts/perennial-seller-positioning/</loc>
-    <lastmod>2025-10-18T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://hshuang.blog/posts/perennial-seller-marketing/</loc>
-    <lastmod>2025-10-18T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://hshuang.blog/posts/perennial-seller-platform/</loc>
-    <lastmod>2025-03-16T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://hshuang.blog/posts/perennial-seller-content/</loc>
-    <lastmod>2025-03-15T00:00:00+00:00</lastmod>
+    <loc>https://hshuang.blog/posts/perennial-seller/</loc>
+    <lastmod>2026-03-30T15:16:00+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
