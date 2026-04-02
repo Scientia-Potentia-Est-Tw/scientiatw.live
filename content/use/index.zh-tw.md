@@ -2,7 +2,7 @@
 title: 使用
 description: 
 date: 2026-03-22T10:33:00+08:00
-lastmod: 2026-03-22T10:34:00+08:00
+lastmod: 2026-04-02T09:55:00+08:00
 author: "黃宏勝"
 aliases:
   - use
@@ -83,4 +83,8 @@ slug: use
 - [YAMAHA P-125a](https://tw.yamaha.com/zh/products/musical_instruments/pianos/p_series/p-125a/index.html) - 我主要練琴用的數位電鋼琴
 - [Novation Launchkey 61 MK4](https://novationmusic.com/products/launchkey-61) - 我的主要 MIDI 主控鍵盤
 - [Logic Pro](https://www.apple.com/logic-pro/) - macOS 上最受歡迎的 DAW，搭配各式各樣的插件就可以模擬許多可能性，只靠 MIDI 鍵盤還是可以玩得很開心
-- [Audient Evo 4](https://evo.audio/products/audio-interfaces/evo-4/overview/) - 入門級錄音介面，我用數位鋼琴輸出 TRS 插一組 line 孔開立體聲監聽對於初學者來說就很夠用
+
+## 🎙️ 錄音設備
+- [Audient Evo 4](https://evo.audio/products/audio-interfaces/evo-4/overview/) - 入門級錄音介面，如果只是單人的 Podcast 節目就很夠用了
+- Shure MV7 - 許多 Podcaster 推薦的動圈式麥克風
+- [Yamaha HPH-50](https://tw.yamaha.com/zh/audio/headphones/products/headphones/hph-50/) - 練琴時的耳機，因為有 6.3mm 所以也拿來當監聽耳機
