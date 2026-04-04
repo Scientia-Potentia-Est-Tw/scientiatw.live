@@ -10,10 +10,6 @@ aliases:
 slug: about
 lastmod: '2026-03-30T14:04:00+08:00'
 ---
-
-<script>var ConverlyCustomData = {channelId: null};</script>
-<script async defer src="https://cdn.affiliates.one/production/adlinks/9d0a8494fe31f5177e9900a7145c00ed6bffbefe12f853198f4baecfd9f91c18.js"></script>
-
 ## 關於本站
 此部落格主要記錄我所有好奇跟想做的事情
 
