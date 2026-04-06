@@ -1,7 +1,7 @@
 ---
 title: "過度通訊降低生產力"
 date: 2026-04-05T21:33:00+08:00
-lastmod: 2026-04-06T10:54:00+08:00
+lastmod: 2026-04-06T11:55:00+08:00
 author: "黃宏勝"
 categories:
   - 生活
@@ -25,9 +25,9 @@ slug: "over-communication-reduces-productivity"
 ---
 > 這是我的「[BlogBlog 同樂會 - 2026 年 4 月](https://blogblog.club/party/?ref=wen-lab.tw)」的投稿文章。本月主題是「[生產力](https://www.wen-lab.tw/blogblog-party-productivity)」！
 
-不知道你現在是正在上班時間摸魚看 BlogBlog 同樂會的文章嗎？(也很感謝你看我的文章😚)，抑或是你今天一整天都為要交給主管的報告焦慮；甚者，你上班的時候一直反覆查看電子郵件信箱、Slack、Teams 或其他種數位通訊軟體看有沒有任何新資訊？
-
 <p align="center"><img src="https://secologies.com/wp-content/uploads/2026/04/BlogBlog同樂會成癮.webp" alt="BlogBlog 同樂會成癮" width="400"/></p>
+
+不知道你現在是正在上班時間摸魚看 BlogBlog 同樂會的文章嗎？(也很感謝你看我的文章😚)，抑或是你今天一整天都為要交給主管的報告焦慮；甚者，你上班的時候一直反覆查看電子郵件信箱、Slack、Teams 或其他種數位通訊軟體看有沒有任何新資訊？
 
 以前去內湖實習的時候，幾乎一整天上班時間都得接另一台外接螢幕隨時開著公司內部的 Outlook 電子信箱服務，同時由於公司業務需要處理客戶的即時問題，以及幫忙正職員工想額外測試的項目，為此建立的數個 Line 群組通知此起彼落
 
