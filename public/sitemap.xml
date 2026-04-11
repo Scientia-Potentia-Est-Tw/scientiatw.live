@@ -3,14 +3,20 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
+    <loc>https://hshuang.blog/posts/writing-clearly-present-your-opinion/</loc>
+    <lastmod>2026-04-11T19:37:00+08:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://hshuang.blog/</loc>
-    <lastmod>2026-04-06T10:54:00+08:00</lastmod>
+    <lastmod>2026-04-11T19:37:00+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://hshuang.blog/posts/over-communication-reduces-productivity/</loc>
-    <lastmod>2026-04-06T10:54:00+08:00</lastmod>
+    <lastmod>2026-04-06T11:55:00+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
