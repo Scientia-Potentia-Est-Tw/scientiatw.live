@@ -44,7 +44,7 @@ cardView = true
 cardViewScreenWidth = false
 layoutBackgroundBlur = true
 disableHeroImageFilter = false
-homepageImage = "img/IMG_1014.JPG"
+homepageImage = "img/IMG_1030.JPG"
 
 [article]
 showDate = true
