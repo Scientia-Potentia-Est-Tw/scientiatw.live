@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>資訊 on 黃宏勝的部落格 | hshuang.blog</title>
-    <link>http://localhost:1313/tags/%E8%B3%87%E8%A8%8A/</link>
+    <link>https://hshuang.blog/tags/%E8%B3%87%E8%A8%8A/</link>
     <description>Recent content in 資訊 on 黃宏勝的部落格 | hshuang.blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
     <copyright>© 2026 黃宏勝</copyright>
-    <lastBuildDate>Sat, 07 Mar 2026 11:48:00 +0800</lastBuildDate><atom:link href="http://localhost:1313/tags/%E8%B3%87%E8%A8%8A/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 07 Mar 2026 11:48:00 +0800</lastBuildDate><atom:link href="https://hshuang.blog/tags/%E8%B3%87%E8%A8%8A/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>2025-11-20</title>
-      <link>http://localhost:1313/posts/2025-11-20/</link>
+      <link>https://hshuang.blog/posts/2025-11-20/</link>
       <pubDate>Thu, 20 Nov 2025 22:41:00 +0800</pubDate>
       
-      <guid>http://localhost:1313/posts/2025-11-20/</guid>
+      <guid>https://hshuang.blog/posts/2025-11-20/</guid>
       <description>所謂提問，指的是如何表現裁剪後的現實，講求銳利的裁剪角度和鮮明的切入點</description>
       
     </item>
     
     <item>
       <title>自主選擇乾淨的資訊，回歸RSS的懷抱吧！</title>
-      <link>http://localhost:1313/posts/you-should-use-rss/</link>
+      <link>https://hshuang.blog/posts/you-should-use-rss/</link>
       <pubDate>Fri, 01 Aug 2025 14:23:00 +0800</pubDate>
       
-      <guid>http://localhost:1313/posts/you-should-use-rss/</guid>
+      <guid>https://hshuang.blog/posts/you-should-use-rss/</guid>
       <description>在這個注意力被各種事物搶奪的時代，你是否感覺自己在資訊海洋中溺水了？</description>
       
     </item>

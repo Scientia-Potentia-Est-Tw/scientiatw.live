@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>關鍵 on 黃宏勝的部落格 | hshuang.blog</title>
-    <link>http://localhost:1313/tags/%E9%97%9C%E9%8D%B5/</link>
+    <link>https://hshuang.blog/tags/%E9%97%9C%E9%8D%B5/</link>
     <description>Recent content in 關鍵 on 黃宏勝的部落格 | hshuang.blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
     <copyright>© 2026 黃宏勝</copyright>
-    <lastBuildDate>Tue, 12 Aug 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/%E9%97%9C%E9%8D%B5/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 12 Aug 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://hshuang.blog/tags/%E9%97%9C%E9%8D%B5/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>用研究審稿員的視角閱讀文獻</title>
-      <link>http://localhost:1313/posts/research-literature-keypoints/</link>
+      <link>https://hshuang.blog/posts/research-literature-keypoints/</link>
       <pubDate>Tue, 12 Aug 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/research-literature-keypoints/</guid>
+      <guid>https://hshuang.blog/posts/research-literature-keypoints/</guid>
       <description>在這個連Agent都可以幫你梳理paper的時代，我們該如何看得比AI還深入？</description>
       
     </item>

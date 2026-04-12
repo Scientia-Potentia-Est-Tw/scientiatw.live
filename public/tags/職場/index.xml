@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>職場 on 黃宏勝的部落格 | hshuang.blog</title>
-    <link>http://localhost:1313/tags/%E8%81%B7%E5%A0%B4/</link>
+    <link>https://hshuang.blog/tags/%E8%81%B7%E5%A0%B4/</link>
     <description>Recent content in 職場 on 黃宏勝的部落格 | hshuang.blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
     <copyright>© 2026 黃宏勝</copyright>
-    <lastBuildDate>Tue, 12 Aug 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/%E8%81%B7%E5%A0%B4/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 12 Aug 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://hshuang.blog/tags/%E8%81%B7%E5%A0%B4/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>思維可見度</title>
-      <link>http://localhost:1313/posts/thought-visibility/</link>
+      <link>https://hshuang.blog/posts/thought-visibility/</link>
       <pubDate>Thu, 31 Jul 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/thought-visibility/</guid>
+      <guid>https://hshuang.blog/posts/thought-visibility/</guid>
       <description>這個Agent橫行的時代該如何更深刻的解決問題？</description>
       
     </item>
     
     <item>
       <title>職場能見度</title>
-      <link>http://localhost:1313/posts/workplace-visibility/</link>
+      <link>https://hshuang.blog/posts/workplace-visibility/</link>
       <pubDate>Wed, 30 Jul 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/workplace-visibility/</guid>
+      <guid>https://hshuang.blog/posts/workplace-visibility/</guid>
       <description>如何在公司升遷上更具優勢？</description>
       
     </item>
