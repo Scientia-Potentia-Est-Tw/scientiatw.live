@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>生產力 on 黃宏勝的部落格 | hshuang.blog</title>
-    <link>https://hshuang.blog/tags/%E7%94%9F%E7%94%A2%E5%8A%9B/</link>
+    <link>http://localhost:1313/tags/%E7%94%9F%E7%94%A2%E5%8A%9B/</link>
     <description>Recent content in 生產力 on 黃宏勝的部落格 | hshuang.blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
     <copyright>© 2026 黃宏勝</copyright>
-    <lastBuildDate>Mon, 06 Apr 2026 11:55:00 +0800</lastBuildDate><atom:link href="https://hshuang.blog/tags/%E7%94%9F%E7%94%A2%E5%8A%9B/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 06 Apr 2026 11:55:00 +0800</lastBuildDate><atom:link href="http://localhost:1313/tags/%E7%94%9F%E7%94%A2%E5%8A%9B/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>過度通訊降低生產力</title>
-      <link>https://hshuang.blog/posts/over-communication-reduces-productivity/</link>
+      <link>http://localhost:1313/posts/over-communication-reduces-productivity/</link>
       <pubDate>Sun, 05 Apr 2026 21:33:00 +0800</pubDate>
       
-      <guid>https://hshuang.blog/posts/over-communication-reduces-productivity/</guid>
+      <guid>http://localhost:1313/posts/over-communication-reduces-productivity/</guid>
       <description>知識產業依舊潛藏著巨大的生產力，為了釋放它，我們需要仔細思索平時的工作習慣</description>
       
     </item>
