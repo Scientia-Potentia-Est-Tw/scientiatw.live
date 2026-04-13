@@ -8,8 +8,6 @@ aliases:
   - subscription
 slug: support
 lastmod: '2025-12-19T15:12:00+08:00'
-cascade:
-  showComments: false
 ---
 如果覺得此部落格內容有幫助到你，而你也有能力支持站長的話，希望可以考慮幫助《Hong-Sheng Huang's Blog》，支持這個用愛發電的部落格 ，讓這個部落格能夠繼續健康的經營下去，為各位讀者帶來更多有趣的內容
 

@@ -64,7 +64,7 @@
 #  name = "example sub-menu 1"
 #  parent = "Parent"
 #  pageRef = "posts"
-#  weight = 20
+#  weight = 10
 
 #[[main]]
 #  name = "example sub-menu 2"
