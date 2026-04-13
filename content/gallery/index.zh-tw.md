@@ -1,6 +1,6 @@
 ---
-title: 圖冊
-description: 本頁顯示所有圖文創作以及相關的文章
+title: 作品牆
+description: 本頁顯示所有創作以及相關的文章
 date: '2025-12-21T13:56:00+08:00'
 author: "黃宏勝"
 aliases:
