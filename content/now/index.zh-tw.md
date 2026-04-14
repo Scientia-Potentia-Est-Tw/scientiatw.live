@@ -17,7 +17,7 @@ showComments: false
 
 ## 🌐 最近網路上的狀態
 - 💻 [Secologies](https://secologies.com)：又把留言區開起來了
-- 🗓 社群部落格：看完 Alex 的[部落格到底要不要開評論區？](https://alexhsu.com/turn-on-comments)想了一下，也許可以來試試繼續開著，可能是因為之前使用 Disqus 不喜歡它插入 JavaScript 內容導致頁面變慢，所以參考皮皮的[DIY 網站留言簿](https://trashposts.com/blog/build-my-own-guestbook/)用 Gist 快取加上 Google APP Scripts 加速，一起來實驗看看留言區的效果
+- 🗓 社群部落格：看完 Alex 的[部落格到底要不要開評論區？](https://alexhsu.com/turn-on-comments)想了一下，也許可以來試試繼續開著，可能是因為之前使用 Disqus 不喜歡它插入 JavaScript 內容導致頁面變慢，所以參考皮皮的[DIY 網站留言簿](https://trashposts.com/blog/build-my-own-guestbook/)用 Gist 快取加上 Google Apps Script 加速，一起來實驗看看留言區的效果
 
 ## 🍳 最近吃的/喝的
 - 🍵 最近嘗試減少咖啡因的攝取，平日早上不再喝咖啡，假日早上喝一杯，每天下午只喝回沖一次的茶包，對於晚上睡眠真的有效
