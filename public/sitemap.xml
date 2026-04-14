@@ -3,13 +3,19 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
-    <loc>https://hshuang.blog/guestbook/</loc>
-    <lastmod>2026-04-14T11:39:00+08:00</lastmod>
+    <loc>https://hshuang.blog/now/</loc>
+    <lastmod>2026-04-14T14:28:00+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://hshuang.blog/</loc>
+    <lastmod>2026-04-14T14:28:00+08:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://hshuang.blog/guestbook/</loc>
     <lastmod>2026-04-14T11:39:00+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -59,12 +65,6 @@
   <url>
     <loc>https://hshuang.blog/posts/conditional-love/</loc>
     <lastmod>2026-03-22T10:13:00+08:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://hshuang.blog/now/</loc>
-    <lastmod>2026-03-21T10:13:00+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>

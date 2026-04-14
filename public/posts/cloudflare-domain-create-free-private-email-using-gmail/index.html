@@ -2771,7 +2771,7 @@ async function loadComments() {
       <div class="flex items-center gap-2">
         ${c.website
           ? `<a href="${escHtml(c.website)}" target="_blank" rel="noopener noreferrer"
-                class="font-medium text-neutral-800 dark:text-neutral-100 hover:text-primary-500 dark:hover:text-primary-400 underline transition-colors duration-200">${escHtml(c.name)}</a>`
+                class="font-medium text-neutral-800 dark:text-neutral-100 hover:text-primary-500 dark:hover:text-primary-400 transition-colors duration-200">${escHtml(c.name)}</a>`
           : `<span class="font-medium text-neutral-800 dark:text-neutral-100">${escHtml(c.name)}</span>`
         }
       </div>
