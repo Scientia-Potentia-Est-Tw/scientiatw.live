@@ -7,6 +7,7 @@ author: "黃宏勝"
 aliases:
   - use
 slug: use
+showComments: false
 ---
 ## 🖥️ 電腦軟體
 ### 💾 作業系統

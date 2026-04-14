@@ -502,6 +502,24 @@
       
   
     <a
+      href="/guestbook/"
+      
+      class="flex items-center bf-icon-color-hover"
+      aria-label="留言板"
+      title="留言板">
+      
+      
+        <span class="text-base font-medium break-normal">
+          留言板
+        </span>
+      
+    </a>
+  
+
+    
+      
+  
+    <a
       href="/newsletter/"
       
       class="flex items-center bf-icon-color-hover"
@@ -766,6 +784,23 @@
     
     <div class="px-2">
       <a
+        href="/guestbook/"
+        aria-label="留言板"
+        
+        class="flex items-center gap-4 group bf-icon-color-hover text-neutral-700 dark:text-neutral-200">
+        
+        <span title="留言板" class="text-2xl font-bold tracking-tight">
+          留言板
+        </span>
+        
+      </a>
+
+      
+    </div>
+  
+    
+    <div class="px-2">
+      <a
         href="/newsletter/"
         aria-label="訂閱電子報"
         
@@ -962,6 +997,9 @@
 
   
     
+  
+
+  
   
 
   
@@ -1683,15 +1721,6 @@
 
 
       
-        
-          <div class="pt-3">
-            <hr class="border-dotted border-neutral-300 dark:border-neutral-600">
-            <div class="pt-3">
-              
-            </div>
-          </div>
-        
-      
     </footer>
   </article>
 
@@ -1875,6 +1904,25 @@ document.addEventListener('DOMContentLoaded', function () {
 </div>
 
     </div>
+    <script>
+(async () => {
+  const GIST_USERNAME = 'hshuang99';
+  const GIST_ID       = '3b5ad6ae66d41f4cd3587e2d59982fc1';
+
+  try {
+	  const res = await fetch(`https://gist.githubusercontent.com/${GIST_USERNAME}/${GIST_ID}/raw/comments.json?t=${Date.now()}`);
+	  const all = await res.json();
+	  document.querySelectorAll('.comment-count').forEach(el => {
+		  const key   = el.dataset.postkey;
+		  const count = (all[key] || []).length;
+		  el.querySelector('.count-num').textContent = count;
+	  });
+  } catch(e) {
+	  document.querySelectorAll('.count-num').forEach(el => el.textContent = '0');
+  }
+})();
+</script>
+
   </body>
   
 </html>

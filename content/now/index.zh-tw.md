@@ -7,6 +7,7 @@ aliases:
   - now
 slug: now
 lastmod: '2026-03-21T10:13:00+08:00'
+showComments: false
 ---
 ## 🏡 最近的狀態
 - 🚎 通勤生活：禮拜一坐車到南港，禮拜五下午回新竹，遠比之前的通勤時數少許多

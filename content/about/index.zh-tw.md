@@ -9,6 +9,7 @@ aliases:
   - about-site
 slug: about
 lastmod: '2026-03-30T14:04:00+08:00'
+showComments: false
 ---
 ## 關於本站
 此部落格主要記錄我所有好奇跟想做的事情

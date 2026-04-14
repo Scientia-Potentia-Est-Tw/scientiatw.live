@@ -508,6 +508,24 @@
       
   
     <a
+      href="/guestbook/"
+      
+      class="flex items-center bf-icon-color-hover"
+      aria-label="留言板"
+      title="留言板">
+      
+      
+        <span class="text-base font-medium break-normal">
+          留言板
+        </span>
+      
+    </a>
+  
+
+    
+      
+  
+    <a
       href="/newsletter/"
       
       class="flex items-center bf-icon-color-hover"
@@ -772,6 +790,23 @@
     
     <div class="px-2">
       <a
+        href="/guestbook/"
+        aria-label="留言板"
+        
+        class="flex items-center gap-4 group bf-icon-color-hover text-neutral-700 dark:text-neutral-200">
+        
+        <span title="留言板" class="text-2xl font-bold tracking-tight">
+          留言板
+        </span>
+        
+      </a>
+
+      
+    </div>
+  
+    
+    <div class="px-2">
+      <a
         href="/newsletter/"
         aria-label="訂閱電子報"
         
@@ -1014,6 +1049,12 @@
   
 
   
+  
+    
+    
+  
+
+  
 
   
 
@@ -1027,7 +1068,7 @@
   <div class="flex flex-row flex-wrap items-center">
     
     
-      <time datetime="2025-11-08T19:49:00&#43;08:00">2025-11-08 19:49</time><span class="px-2 text-primary-500">&middot;</span><span>39 字</span><span class="px-2 text-primary-500">&middot;</span><span title="預計閱讀時間">1 分鐘</span>
+      <time datetime="2025-11-08T19:49:00&#43;08:00">2025-11-08 19:49</time><span class="px-2 text-primary-500">&middot;</span><span>39 字</span><span class="px-2 text-primary-500">&middot;</span><span title="預計閱讀時間">1 分鐘</span><span class="px-2 text-primary-500">&middot;</span><span class="comment-count text-xs text-neutral-500 dark:text-neutral-400 flex items-center gap-1" data-postkey="/posts/2025-11-08/">💬 <span class="count-num">...</span></span>
     
 
     
@@ -1301,6 +1342,25 @@ document.addEventListener('DOMContentLoaded', function () {
 </div>
 
     </div>
+    <script>
+(async () => {
+  const GIST_USERNAME = 'hshuang99';
+  const GIST_ID       = '3b5ad6ae66d41f4cd3587e2d59982fc1';
+
+  try {
+	  const res = await fetch(`https://gist.githubusercontent.com/${GIST_USERNAME}/${GIST_ID}/raw/comments.json?t=${Date.now()}`);
+	  const all = await res.json();
+	  document.querySelectorAll('.comment-count').forEach(el => {
+		  const key   = el.dataset.postkey;
+		  const count = (all[key] || []).length;
+		  el.querySelector('.count-num').textContent = count;
+	  });
+  } catch(e) {
+	  document.querySelectorAll('.count-num').forEach(el => el.textContent = '0');
+  }
+})();
+</script>
+
   </body>
   
 </html>

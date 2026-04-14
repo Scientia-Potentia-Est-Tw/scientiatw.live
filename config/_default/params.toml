@@ -76,6 +76,14 @@ showWordCount = true
 showZenMode = false
 showComments = true
 
+[comments]
+enabled = true
+gistId = "3b5ad6ae66d41f4cd3587e2d59982fc1"
+gistUsername = "hshuang99"
+appsScriptUrl = "https://script.google.com/macros/s/AKfycbzGixvWo8NNBoct9bR3bG08WdXc0dsdIpqyCOW2BCVEryjGXlqk3OjHIHgIS3fyXg/exec"
+ownerName = "黃宏勝"
+turnstileSiteKey = "0x4AAAAAAC9C5NqraXotgk_0"
+
 [list]
 showHero = true
 heroStyle = "background"
