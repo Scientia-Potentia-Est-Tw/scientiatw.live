@@ -18,7 +18,7 @@ showComments: false
 
 歡迎逛逛我的資安部落格：[Secologies](https://secologies.com)
 
-任何問題請寄到信箱內：[hshuang@hshuang.blog](mailto:hshuang@hshuang.blog)
+任何問題可以寄到信箱內：[hshuang@hshuang.blog](mailto:hshuang@hshuang.blog)
 
 此部落格不經營任何社群媒體，如果讀者在社群平台或奇怪的 APP 上看到我，皆是假冒的，畢竟我早就跟祖克柏說[再見](https://hshuang.blog/posts/sayonara-zuckerberg/)了
 
