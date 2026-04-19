@@ -16,7 +16,7 @@ showComments: false
 
 訂閱本站RSS的話請用這個連結：[RSS](https://hshuang.blog/index.xml)
 
-歡迎逛逛我的資安部落格：[Secologies](https://secologies.com)
+歡迎逛逛我的資安部落格：[Secologies](https://secologies.com/zh)
 
 任何問題可以寄到信箱內：[hshuang@hshuang.blog](mailto:hshuang@hshuang.blog)
 
