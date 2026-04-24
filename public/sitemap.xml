@@ -3,13 +3,19 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
-    <loc>https://hshuang.blog/posts/modern-society-is-so-complicated/</loc>
-    <lastmod>2026-04-23T20:37:00+08:00</lastmod>
+    <loc>https://hshuang.blog/posts/hugo-simple-guestbook/</loc>
+    <lastmod>2026-04-24T23:07:00+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://hshuang.blog/</loc>
+    <lastmod>2026-04-24T23:07:00+08:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://hshuang.blog/posts/modern-society-is-so-complicated/</loc>
     <lastmod>2026-04-23T20:37:00+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>

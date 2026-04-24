@@ -34,6 +34,7 @@
 </div>
 
 <script>
+const GIST_USERNAME = '{{ site.Params.comments.gistUsername }}';
 const GIST_ID      = '{{ site.Params.comments.gistId }}';
 const APPS_SCRIPT  = '{{ site.Params.comments.appsScriptUrl }}';
 const POST_KEY     = '{{ $postKey }}';
@@ -43,7 +44,7 @@ const OWNER_NAME   = '{{ site.Params.comments.ownerName }}';
 async function loadComments() {
   const el = document.getElementById('comment-list');
   try {
-    const res  = await fetch(`https://gist.githubusercontent.com/hshuang99/${GIST_ID}/raw/comments.json?t=${Date.now()}`);
+    const res  = await fetch(`https://gist.githubusercontent.com/${GIST_USERNAME}/${GIST_ID}/raw/comments.json?t=${Date.now()}`);
     const all  = await res.json();
     const list = all[POST_KEY] || [];
 
