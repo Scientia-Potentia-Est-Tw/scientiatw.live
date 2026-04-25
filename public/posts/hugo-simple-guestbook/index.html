@@ -250,7 +250,7 @@
     "keywords": ["科技","Hugo","靜態網站","留言板","GitHub Gist","Google Apps Script","Cloudflare Turnstile","Akismet","Google 表單"],
     
     "mainEntityOfPage": "true",
-    "wordCount": "7414"
+    "wordCount": "7468"
   },
   {
     "@context": "https://schema.org",
@@ -1077,7 +1077,7 @@
   <div class="flex flex-row flex-wrap items-center">
     
     
-      <time datetime="2026-04-24T23:06:00&#43;08:00">2026-04-24 23:06</time><span class="px-2 text-primary-500">&middot;</span><time datetime="2026-04-25T10:48:00&#43;08:00">上次編輯: 2026-04-25 10:48</time><span class="px-2 text-primary-500">&middot;</span><span>7414 字</span><span class="px-2 text-primary-500">&middot;</span><span title="預計閱讀時間">15 分鐘</span><span class="px-2 text-primary-500">&middot;</span><span class="comment-count text-xs text-neutral-500 dark:text-neutral-400 flex items-center gap-1" data-postkey="/posts/hugo-simple-guestbook/">💬 <span class="count-num">...</span></span>
+      <time datetime="2026-04-24T23:06:00&#43;08:00">2026-04-24 23:06</time><span class="px-2 text-primary-500">&middot;</span><time datetime="2026-04-25T10:48:00&#43;08:00">上次編輯: 2026-04-25 10:48</time><span class="px-2 text-primary-500">&middot;</span><span>7468 字</span><span class="px-2 text-primary-500">&middot;</span><span title="預計閱讀時間">15 分鐘</span><span class="px-2 text-primary-500">&middot;</span><span class="comment-count text-xs text-neutral-500 dark:text-neutral-400 flex items-center gap-1" data-postkey="/posts/hugo-simple-guestbook/">💬 <span class="count-num">...</span></span>
     
 
     
@@ -2029,7 +2029,7 @@ stateDiagram-v2
 </span></span><span class="line"><span class="cl">    &lt;div <span class="nv">class</span><span class="o">=</span><span class="s2">&#34;flex items-center justify-between mb-3&#34;</span>&gt;
 </span></span><span class="line"><span class="cl">      &lt;div <span class="nv">class</span><span class="o">=</span><span class="s2">&#34;flex items-center gap-2&#34;</span>&gt;
 </span></span><span class="line"><span class="cl">        <span class="si">${</span><span class="nv">c</span><span class="p">.website
-</span></span></span><span class="line"><span class="cl"><span class="p">          ? </span><span class="sb">`</span>&lt;a <span class="nv">href</span><span class="o">=</span><span class="s2">&#34;</span><span class="si">${</span><span class="nv">escHtml</span><span class="p">(c.website)</span><span class="si">}</span><span class="s2">&#34;</span> <span class="nv">target</span><span class="o">=</span><span class="s2">&#34;_blank&#34;</span> <span class="nv">rel</span><span class="o">=</span><span class="s2">&#34;noopener noreferrer&#34;</span>
+</span></span></span><span class="line"><span class="cl"><span class="p">          ? </span><span class="sb">`</span>&lt;a <span class="nv">href</span><span class="o">=</span><span class="s2">&#34;</span><span class="si">${</span><span class="nv">escHtml</span><span class="p">(normalizeUrl(c.website))</span><span class="si">}</span><span class="s2">&#34;</span> <span class="nv">target</span><span class="o">=</span><span class="s2">&#34;_blank&#34;</span> <span class="nv">rel</span><span class="o">=</span><span class="s2">&#34;noopener noreferrer&#34;</span>
 </span></span><span class="line"><span class="cl">                <span class="nv">class</span><span class="o">=</span><span class="s2">&#34;font-medium text-neutral-800 dark:text-neutral-100 hover:text-primary-500 dark:hover:text-primary-400 transition-colors duration-200&#34;</span>&gt;<span class="si">${</span><span class="nv">escHtml</span><span class="p">(c.name)</span><span class="si">}</span>&lt;/a&gt;<span class="sb">`</span><span class="p">
 </span></span></span><span class="line"><span class="cl"><span class="p">          : </span><span class="sb">`</span>&lt;span <span class="nv">class</span><span class="o">=</span><span class="s2">&#34;font-medium text-neutral-800 dark:text-neutral-100&#34;</span>&gt;<span class="si">${</span><span class="nv">escHtml</span><span class="p">(c.name)</span><span class="si">}</span>&lt;/span&gt;<span class="sb">`</span><span class="p">
 </span></span></span><span class="line"><span class="cl"><span class="p">        </span><span class="si">}</span>
@@ -2104,6 +2104,14 @@ stateDiagram-v2
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl"><span class="k">function</span> escHtml<span class="o">(</span>str<span class="o">)</span> <span class="o">{</span>
 </span></span><span class="line"><span class="cl">  <span class="k">return</span> String<span class="o">(</span>str<span class="o">)</span>.replace<span class="o">(</span>/<span class="p">&amp;</span>/g,<span class="s1">&#39;&amp;amp;&#39;</span><span class="o">)</span>.replace<span class="o">(</span>/&lt;/g,<span class="s1">&#39;&amp;lt;&#39;</span><span class="o">)</span>.replace<span class="o">(</span>/&gt;/g,<span class="s1">&#39;&amp;gt;&#39;</span><span class="o">)</span>.replace<span class="o">(</span>/<span class="s2">&#34;/g,&#39;&amp;quot;&#39;);
+</span></span></span><span class="line"><span class="cl"><span class="s2">}
+</span></span></span><span class="line"><span class="cl"><span class="s2">
+</span></span></span><span class="line"><span class="cl"><span class="s2">function normalizeUrl(url) {
+</span></span></span><span class="line"><span class="cl"><span class="s2">  if (!url) return &#39;&#39;;
+</span></span></span><span class="line"><span class="cl"><span class="s2">  if (!/^https?:\/\//i.test(url)) {
+</span></span></span><span class="line"><span class="cl"><span class="s2">    return &#39;https://&#39; + url;
+</span></span></span><span class="line"><span class="cl"><span class="s2">  }
+</span></span></span><span class="line"><span class="cl"><span class="s2">  return url;
 </span></span></span><span class="line"><span class="cl"><span class="s2">}
 </span></span></span><span class="line"><span class="cl"><span class="s2">
 </span></span></span><span class="line"><span class="cl"><span class="s2">loadComments();
@@ -2241,7 +2249,7 @@ stateDiagram-v2
 </span></span><span class="line"><span class="cl">        &lt;div <span class="nv">class</span><span class="o">=</span><span class="s2">&#34;flex items-center justify-between mb-3&#34;</span>&gt;
 </span></span><span class="line"><span class="cl">          &lt;div <span class="nv">class</span><span class="o">=</span><span class="s2">&#34;flex items-center gap-2&#34;</span>&gt;
 </span></span><span class="line"><span class="cl">            <span class="si">${</span><span class="nv">c</span><span class="p">.website
-</span></span></span><span class="line"><span class="cl"><span class="p">              ? </span><span class="sb">`</span>&lt;a <span class="nv">href</span><span class="o">=</span><span class="s2">&#34;</span><span class="si">${</span><span class="nv">escHtml</span><span class="p">(c.website)</span><span class="si">}</span><span class="s2">&#34;</span> <span class="nv">target</span><span class="o">=</span><span class="s2">&#34;_blank&#34;</span> <span class="nv">rel</span><span class="o">=</span><span class="s2">&#34;noopener noreferrer&#34;</span>
+</span></span></span><span class="line"><span class="cl"><span class="p">              ? </span><span class="sb">`</span>&lt;a <span class="nv">href</span><span class="o">=</span><span class="s2">&#34;</span><span class="si">${</span><span class="nv">escHtml</span><span class="p">(normalizeUrl(c.website))</span><span class="si">}</span><span class="s2">&#34;</span> <span class="nv">target</span><span class="o">=</span><span class="s2">&#34;_blank&#34;</span> <span class="nv">rel</span><span class="o">=</span><span class="s2">&#34;noopener noreferrer&#34;</span>
 </span></span><span class="line"><span class="cl">                    <span class="nv">class</span><span class="o">=</span><span class="s2">&#34;font-medium text-neutral-800 dark:text-neutral-100 hover:text-primary-500 dark:hover:text-primary-400 transition-colors duration-200&#34;</span>&gt;<span class="si">${</span><span class="nv">escHtml</span><span class="p">(c.name)</span><span class="si">}</span>&lt;/a&gt;<span class="sb">`</span><span class="p">
 </span></span></span><span class="line"><span class="cl"><span class="p">              : </span><span class="sb">`</span>&lt;span <span class="nv">class</span><span class="o">=</span><span class="s2">&#34;font-medium text-neutral-800 dark:text-neutral-100&#34;</span>&gt;<span class="si">${</span><span class="nv">escHtml</span><span class="p">(c.name)</span><span class="si">}</span>&lt;/span&gt;<span class="sb">`</span><span class="p">
 </span></span></span><span class="line"><span class="cl"><span class="p">            </span><span class="si">}</span>
@@ -2313,6 +2321,14 @@ stateDiagram-v2
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl"><span class="k">function</span> escHtml<span class="o">(</span>str<span class="o">)</span> <span class="o">{</span>
 </span></span><span class="line"><span class="cl">  <span class="k">return</span> String<span class="o">(</span>str<span class="o">)</span>.replace<span class="o">(</span>/<span class="p">&amp;</span>/g,<span class="s1">&#39;&amp;amp;&#39;</span><span class="o">)</span>.replace<span class="o">(</span>/&lt;/g,<span class="s1">&#39;&amp;lt;&#39;</span><span class="o">)</span>.replace<span class="o">(</span>/&gt;/g,<span class="s1">&#39;&amp;gt;&#39;</span><span class="o">)</span>.replace<span class="o">(</span>/<span class="s2">&#34;/g,&#39;&amp;quot;&#39;);
+</span></span></span><span class="line"><span class="cl"><span class="s2">}
+</span></span></span><span class="line"><span class="cl"><span class="s2">
+</span></span></span><span class="line"><span class="cl"><span class="s2">function normalizeUrl(url) {
+</span></span></span><span class="line"><span class="cl"><span class="s2">  if (!url) return &#39;&#39;;
+</span></span></span><span class="line"><span class="cl"><span class="s2">  if (!/^https?:\/\//i.test(url)) {
+</span></span></span><span class="line"><span class="cl"><span class="s2">    return &#39;https://&#39; + url;
+</span></span></span><span class="line"><span class="cl"><span class="s2">  }
+</span></span></span><span class="line"><span class="cl"><span class="s2">  return url;
 </span></span></span><span class="line"><span class="cl"><span class="s2">}
 </span></span></span><span class="line"><span class="cl"><span class="s2">
 </span></span></span><span class="line"><span class="cl"><span class="s2">loadComments();
@@ -2429,7 +2445,7 @@ stateDiagram-v2
 </span></span></span><span class="line"><span class="cl"><span class="s1">      &lt;div class=&#34;flex items-center justify-between mb-3&#34;&gt;
 </span></span></span><span class="line"><span class="cl"><span class="s1">        &lt;div class=&#34;flex items-center gap-2&#34;&gt;
 </span></span></span><span class="line"><span class="cl"><span class="s1">          ${c.website
-</span></span></span><span class="line"><span class="cl"><span class="s1">            ? `&lt;a href=&#34;${escHtml(c.website)}&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;
+</span></span></span><span class="line"><span class="cl"><span class="s1">            ? `&lt;a href=&#34;${escHtml(normalizeUrl(c.website))}&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;
 </span></span></span><span class="line"><span class="cl"><span class="s1">                  class=&#34;font-medium text-neutral-800 dark:text-neutral-100 hover:text-primary-500 dark:hover:text-primary-400 hover:underline transition-colors duration-200&#34;&gt;${escHtml(c.name)}&lt;/a&gt;`
 </span></span></span><span class="line"><span class="cl"><span class="s1">            : `&lt;span class=&#34;font-medium text-neutral-800 dark:text-neutral-100&#34;&gt;${escHtml(c.name)}&lt;/span&gt;`
 </span></span></span><span class="line"><span class="cl"><span class="s1">          }
@@ -2457,7 +2473,15 @@ stateDiagram-v2
 </span></span></span><span class="line"><span class="cl"><span class="s1">}
 </span></span></span><span class="line"><span class="cl"><span class="s1">
 </span></span></span><span class="line"><span class="cl"><span class="s1">function escHtml(str) {
-</span></span></span><span class="line"><span class="cl"><span class="s1">  return String(str).replace(/&amp;/g,&#39;</span><span class="p">&amp;</span>amp<span class="p">;</span><span class="s1">&#39;).replace(/&lt;/g,&#39;</span><span class="p">&amp;</span>lt<span class="p">;</span><span class="s1">&#39;).replace(/&gt;/g,&#39;</span><span class="p">&amp;</span>gt<span class="p">;</span><span class="s1">&#39;).replace(/&#34;/g,&#39;</span><span class="p">&amp;</span>quot<span class="p">;</span><span class="err">&#39;</span><span class="o">)</span><span class="p">;</span>
+</span></span></span><span class="line"><span class="cl"><span class="s1">  return String(str).replace(/&amp;/g,&#39;</span><span class="p">&amp;</span>amp<span class="p">;</span><span class="s1">&#39;).replace(/&lt;/g,&#39;</span><span class="p">&amp;</span>lt<span class="p">;</span><span class="s1">&#39;).replace(/&gt;/g,&#39;</span><span class="p">&amp;</span>gt<span class="p">;</span><span class="s1">&#39;).replace(/&#34;/g,&#39;</span><span class="p">&amp;</span>quot<span class="p">;</span><span class="s1">&#39;);
+</span></span></span><span class="line"><span class="cl"><span class="s1">}
+</span></span></span><span class="line"><span class="cl"><span class="s1">
+</span></span></span><span class="line"><span class="cl"><span class="s1">function normalizeUrl(url) {
+</span></span></span><span class="line"><span class="cl"><span class="s1">  if (!url) return &#39;&#39;;
+</span></span></span><span class="line"><span class="cl"><span class="s1">  if (!/^https?:\/\//i.test(url)) {
+</span></span></span><span class="line"><span class="cl"><span class="s1">    return &#39;</span>https://<span class="err">&#39;</span> + url<span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="o">}</span>
+</span></span><span class="line"><span class="cl">  <span class="k">return</span> url<span class="p">;</span>
 </span></span><span class="line"><span class="cl"><span class="o">}</span>
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl">loadAllComments<span class="o">()</span><span class="p">;</span>
@@ -4153,7 +4177,7 @@ async function loadComments() {
     <div class="flex items-center justify-between mb-3">
       <div class="flex items-center gap-2">
         ${c.website
-          ? `<a href="${escHtml(c.website)}" target="_blank" rel="noopener noreferrer"
+          ? `<a href="${escHtml(normalizeUrl(c.website))}" target="_blank" rel="noopener noreferrer"
                 class="font-medium text-neutral-800 dark:text-neutral-100 hover:text-primary-500 dark:hover:text-primary-400 transition-colors duration-200">${escHtml(c.name)}</a>`
           : `<span class="font-medium text-neutral-800 dark:text-neutral-100">${escHtml(c.name)}</span>`
         }
@@ -4228,6 +4252,15 @@ function showMsg(text, type) {
 
 function escHtml(str) {
   return String(str).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+}
+
+function normalizeUrl(url) {
+  if (!url) return '';
+  
+  if (!/^https?:\/\//i.test(url)) {
+    return 'https://' + url;
+  }
+  return url;
 }
 
 loadComments();

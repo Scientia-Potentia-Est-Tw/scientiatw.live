@@ -964,7 +964,7 @@ function renderComments(list) {
       <div class="flex items-center justify-between mb-3">
         <div class="flex items-center gap-2">
           ${c.website
-            ? `<a href="${escHtml(c.website)}" target="_blank" rel="noopener noreferrer"
+            ? `<a href="${escHtml(normalizeUrl(c.website))}" target="_blank" rel="noopener noreferrer"
                   class="font-medium text-neutral-800 dark:text-neutral-100 hover:text-primary-500 dark:hover:text-primary-400 hover:underline transition-colors duration-200">${escHtml(c.name)}</a>`
             : `<span class="font-medium text-neutral-800 dark:text-neutral-100">${escHtml(c.name)}</span>`
           }
@@ -993,6 +993,15 @@ function renderComments(list) {
 
 function escHtml(str) {
   return String(str).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+}
+
+function normalizeUrl(url) {
+  if (!url) return '';
+  
+  if (!/^https?:\/\//i.test(url)) {
+    return 'https://' + url;
+  }
+  return url;
 }
 
 loadAllComments();
