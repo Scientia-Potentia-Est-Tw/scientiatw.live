@@ -1,7 +1,7 @@
 ---
 title: "Hugo 靜態部落格簡易留言板實作"
 date: 2026-04-24T23:06:00+08:00
-lastmod: 2026-04-25T14:19:00+08:00
+lastmod: 2026-04-25T14:52:00+08:00
 author: "黃宏勝"
 categories:
   - 科技
@@ -262,26 +262,23 @@ function checkAkismet(name, content) {
     return false; // if Akismet fails, don't block the comment
   }
 }
-
 function syncToGist() {
-  const sheet   = SpreadsheetApp.openById(SHEET_ID).getActiveSheet();
-  const rows    = sheet.getDataRange().getValues();
-  const headers = rows[0];
-  const data    = rows.slice(1);
+  const sheet = SpreadsheetApp.openById(SHEET_ID).getActiveSheet();
+  const rows  = sheet.getDataRange().getValues();
+  const data  = rows.slice(1);
 
   const comments = {};
   data.forEach(row => {
-    // Map to your exact column order
     const obj = {
-      id:       row[0],  // A
-      postKey:  row[1],  // B
-      name:     row[2],  // C
-      email:    row[3],  // D
-      content:  row[4],  // E
-      date:     row[5],  // F
-      website:  row[6],  // G
-      reply:    row[7],  // H
-      approved: row[8],  // I
+      id:       row[0],
+      postKey:  row[1],
+      name:     row[2],
+      email:    row[3],
+      content:  row[4],
+      date:     row[5],
+      website:  row[6],
+      reply:    row[7],
+      approved: row[8],
     };
 
     if (obj.approved !== true && obj.approved !== 'approved') return;
@@ -294,11 +291,15 @@ function syncToGist() {
       content: String(obj.content).replace(/\r\n/g, '\n').replace(/\r/g, '\n'),
       date:    obj.date,
       website: obj.website || '',
-      reply:   obj.reply || ''
+      reply:   String(obj.reply || '').replace(/\r\n/g, '\n').replace(/\r/g, '\n')
     });
   });
 
-  // Push to GitHub Gist
+  // ✅ Sort comments by date ascending (oldest first)
+  Object.keys(comments).forEach(key => {
+    comments[key].sort((a, b) => new Date(a.date) - new Date(b.date));
+  });
+
   const payload = JSON.stringify({
     files: {
       [GIST_FILENAME]: {
@@ -406,7 +407,7 @@ async function loadComments() {
   try {
     const res  = await fetch(`https://gist.githubusercontent.com/${GIST_USERNAME}/${GIST_ID}/raw/comments.json?t=${Date.now()}`);
     const all  = await res.json();
-    const list = all[POST_KEY] || [];
+    const list = (all[POST_KEY] || []).sort((a, b) => new Date(a.date) - new Date(b.date));
 
     if (list.length === 0) {
       el.innerHTML = '<p class="text-neutral-400 dark:text-neutral-500 text-sm">還沒有留言，來第一個留言吧！</p>';
@@ -424,7 +425,7 @@ async function loadComments() {
       </div>
       <span class="text-xs text-neutral-500 dark:text-neutral-400">${new Date(c.date).toLocaleDateString('zh-TW', { year:'numeric', month:'2-digit', day:'2-digit', hour:'2-digit', minute:'2-digit' })}</span>
     </div>
-    <p class="text-neutral-700 dark:text-neutral-200 text-base whitespace-pre-wrap leading-relaxed">${escHtml(c.content)}</p>
+    <p class="text-neutral-700 dark:text-neutral-200 text-base leading-relaxed">${formatContent(c.content)}</p>
     ${c.reply ? `
     <div class="mt-4 bg-neutral-200 dark:bg-neutral-800 rounded-lg p-4">
       <div class="flex items-center gap-2 mb-2">
@@ -432,7 +433,7 @@ async function loadComments() {
 	<span class="text-xs bg-primary-600 dark:bg-primary-700 text-white px-2 py-0.5 rounded">站長</span>
         <span class="text-xs text-neutral-500 dark:text-neutral-400 ml-auto">${new Date(c.date).toLocaleDateString('zh-TW', { year:'numeric', month:'2-digit', day:'2-digit', hour:'2-digit', minute:'2-digit' })}</span>
       </div>
-      <p class="text-neutral-700 dark:text-neutral-200 text-base whitespace-pre-wrap leading-relaxed">${escHtml(c.reply)}</p>
+      <p class="text-neutral-700 dark:text-neutral-200 text-base leading-relaxed">${formatContent(c.reply)}</p>
     </div>` : ''}
   </div>
 `).join('');
@@ -500,6 +501,10 @@ function normalizeUrl(url) {
     return 'https://' + url;
   }
   return url;
+}
+
+function formatContent(str) {
+  return escHtml(str).replace(/\n/g, '<br>');
 }
 
 loadComments();
@@ -634,7 +639,7 @@ async function loadComments() {
   try {
     const res  = await fetch(`https://gist.githubusercontent.com/${GIST_USERNAME}/${GIST_ID}/raw/comments.json?t=${Date.now()}`);
     const all  = await res.json();
-    const list = all[POST_KEY] || [];
+    const list = (all[POST_KEY] || []).sort((a, b) => new Date(a.date) - new Date(b.date));
 
     document.getElementById('c-count').textContent = list.length;
 
@@ -655,14 +660,14 @@ async function loadComments() {
           </div>
           <span class="text-xs text-neutral-500 dark:text-neutral-400">${new Date(c.date).toLocaleDateString('zh-TW', { year:'numeric', month:'2-digit', day:'2-digit', hour:'2-digit', minute:'2-digit' })}</span>
         </div>
-        <p class="text-neutral-700 dark:text-neutral-200 text-base whitespace-pre-wrap leading-relaxed">${escHtml(c.content)}</p>
+        <p class="text-neutral-700 dark:text-neutral-200 text-base leading-relaxed">${formatContent(c.content)}</p>
         ${c.reply ? `
         <div class="mt-4 bg-neutral-200 dark:bg-neutral-800 rounded-lg p-4">
           <div class="flex items-center gap-2 mb-2">
             <span class="font-medium text-neutral-800 dark:text-neutral-100">${escHtml(OWNER_NAME)}</span>
             <span class="text-xs bg-primary-600 dark:bg-primary-700 text-white px-2 py-0.5 rounded">站長</span>
           </div>
-          <p class="text-neutral-700 dark:text-neutral-200 text-base whitespace-pre-wrap leading-relaxed">${escHtml(c.reply)}</p>
+          <p class="text-neutral-700 dark:text-neutral-200 text-base leading-relaxed">${formatContent(c.reply)}</p>
         </div>` : ''}
       </div>
     `).join('');
@@ -728,6 +733,10 @@ function normalizeUrl(url) {
     return 'https://' + url;
   }
   return url;
+}
+
+function formatContent(str) {
+  return escHtml(str).replace(/\n/g, '<br>');
 }
 
 loadComments();
@@ -821,7 +830,7 @@ async function loadAllComments() {
     // Flatten all posts' comments into one array, attach postKey to each
     allComments = Object.entries(all).flatMap(([postKey, comments]) =>
       comments.map(c => ({ ...c, postKey }))
-    );
+    ).sort((a, b) => new Date(a.date) - new Date(b.date));
 
     document.getElementById('c-count').textContent = allComments.length;
     renderComments(allComments);
@@ -871,14 +880,14 @@ function renderComments(list) {
         📄 ${escHtml(c.postKey)}
       </a>
 
-      <p class="text-neutral-700 dark:text-neutral-200 text-base whitespace-pre-wrap leading-relaxed">${escHtml(c.content)}</p>
+      <p class="text-neutral-700 dark:text-neutral-200 text-base leading-relaxed">${formatContent(c.content)}</p>
       ${c.reply ? `
       <div class="mt-4 bg-neutral-200 dark:bg-neutral-800 rounded-lg p-4">
         <div class="flex items-center gap-2 mb-2">
           <span class="font-medium text-neutral-800 dark:text-neutral-100">${escHtml(OWNER_NAME)}</span>
           <span class="text-xs bg-primary-600 dark:bg-primary-700 text-white px-2 py-0.5 rounded">站長</span>
         </div>
-        <p class="text-neutral-700 dark:text-neutral-200 text-base whitespace-pre-wrap leading-relaxed">${escHtml(c.reply)}</p>
+        <p class="text-neutral-700 dark:text-neutral-200 text-base leading-relaxed">${formatContent(c.reply)}</p>
       </div>` : ''}
     </div>
   `).join('');
@@ -894,6 +903,10 @@ function normalizeUrl(url) {
     return 'https://' + url;
   }
   return url;
+}
+
+function formatContent(str) {
+  return escHtml(str).replace(/\n/g, '<br>');
 }
 
 loadAllComments();

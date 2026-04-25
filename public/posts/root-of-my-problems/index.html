@@ -2574,7 +2574,7 @@
 <script>
 const GIST_USERNAME = 'hshuang99';
 const GIST_ID      = '3b5ad6ae66d41f4cd3587e2d59982fc1';
-const APPS_SCRIPT  = 'https:\/\/script.google.com\/macros\/s\/AKfycbwlXcylC8HiE7mRgxNQQpm8zLbR7p85WqzpV6JCh4zsihVZ1TbNFfNxFh9VoUqm_VqD\/exec';
+const APPS_SCRIPT  = 'https:\/\/script.google.com\/macros\/s\/AKfycbw__BAo1CKHLvGnVZaIOEP1qzCr03tOhu-vwEvEXW36UbtpPMqtZlKLeMmjkFj1ijrq\/exec';
 const POST_KEY     = '\/posts\/root-of-my-problems\/';
 const OWNER_NAME   = '黃宏勝';
 
@@ -2584,7 +2584,8 @@ async function loadComments() {
   try {
     const res  = await fetch(`https://gist.githubusercontent.com/${GIST_USERNAME}/${GIST_ID}/raw/comments.json?t=${Date.now()}`);
     const all  = await res.json();
-    const list = all[POST_KEY] || [];
+    const list = (all[POST_KEY] || []).sort((a, b) => new Date(a.date) - new Date(b.date));
+
 
     if (list.length === 0) {
       el.innerHTML = '<p class="text-neutral-400 dark:text-neutral-500 text-sm">還沒有留言，來第一個留言吧！</p>';
@@ -2602,7 +2603,7 @@ async function loadComments() {
       </div>
       <span class="text-xs text-neutral-500 dark:text-neutral-400">${new Date(c.date).toLocaleDateString('zh-TW', { year:'numeric', month:'2-digit', day:'2-digit', hour:'2-digit', minute:'2-digit' })}</span>
     </div>
-    <p class="text-neutral-700 dark:text-neutral-200 text-base whitespace-pre-wrap leading-relaxed">${escHtml(c.content)}</p>
+    <p class="text-neutral-700 dark:text-neutral-200 text-base leading-relaxed">${formatContent(c.content)}</p>
     ${c.reply ? `
     <div class="mt-4 bg-neutral-200 dark:bg-neutral-800 rounded-lg p-4">
       <div class="flex items-center gap-2 mb-2">
@@ -2610,7 +2611,7 @@ async function loadComments() {
 	<span class="text-xs bg-primary-600 dark:bg-primary-700 text-white px-2 py-0.5 rounded">站長</span>
         <span class="text-xs text-neutral-500 dark:text-neutral-400 ml-auto">${new Date(c.date).toLocaleDateString('zh-TW', { year:'numeric', month:'2-digit', day:'2-digit', hour:'2-digit', minute:'2-digit' })}</span>
       </div>
-      <p class="text-neutral-700 dark:text-neutral-200 text-base whitespace-pre-wrap leading-relaxed">${escHtml(c.reply)}</p>
+      <p class="text-neutral-700 dark:text-neutral-200 text-base leading-relaxed">${formatContent(c.reply)}</p>
     </div>` : ''}
   </div>
 `).join('');
@@ -2679,6 +2680,10 @@ function normalizeUrl(url) {
     return 'https://' + url;
   }
   return url;
+}
+
+function formatContent(str) {
+  return escHtml(str).replace(/\n/g, '<br>');
 }
 
 loadComments();

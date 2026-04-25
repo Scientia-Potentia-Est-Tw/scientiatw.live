@@ -250,7 +250,7 @@
     "keywords": ["科技","Hugo","靜態網站","留言板","GitHub Gist","Google Apps Script","Cloudflare Turnstile","Akismet","Google 表單"],
     
     "mainEntityOfPage": "true",
-    "wordCount": "7470"
+    "wordCount": "7495"
   },
   {
     "@context": "https://schema.org",
@@ -1077,7 +1077,7 @@
   <div class="flex flex-row flex-wrap items-center">
     
     
-      <time datetime="2026-04-24T23:06:00&#43;08:00">2026-04-24 23:06</time><span class="px-2 text-primary-500">&middot;</span><time datetime="2026-04-25T14:19:00&#43;08:00">上次編輯: 2026-04-25 14:19</time><span class="px-2 text-primary-500">&middot;</span><span>7470 字</span><span class="px-2 text-primary-500">&middot;</span><span title="預計閱讀時間">15 分鐘</span><span class="px-2 text-primary-500">&middot;</span><span class="comment-count text-xs text-neutral-500 dark:text-neutral-400 flex items-center gap-1" data-postkey="/posts/hugo-simple-guestbook/">💬 <span class="count-num">...</span></span>
+      <time datetime="2026-04-24T23:06:00&#43;08:00">2026-04-24 23:06</time><span class="px-2 text-primary-500">&middot;</span><time datetime="2026-04-25T14:19:00&#43;08:00">上次編輯: 2026-04-25 14:19</time><span class="px-2 text-primary-500">&middot;</span><span>7495 字</span><span class="px-2 text-primary-500">&middot;</span><span title="預計閱讀時間">15 分鐘</span><span class="px-2 text-primary-500">&middot;</span><span class="comment-count text-xs text-neutral-500 dark:text-neutral-400 flex items-center gap-1" data-postkey="/posts/hugo-simple-guestbook/">💬 <span class="count-num">...</span></span>
     
 
     
@@ -1841,26 +1841,23 @@ stateDiagram-v2
 </span></span><span class="line"><span class="cl">    <span class="k">return</span> false<span class="p">;</span> // <span class="k">if</span> Akismet fails, don<span class="s1">&#39;t block the comment
 </span></span></span><span class="line"><span class="cl"><span class="s1">  }
 </span></span></span><span class="line"><span class="cl"><span class="s1">}
-</span></span></span><span class="line"><span class="cl"><span class="s1">
 </span></span></span><span class="line"><span class="cl"><span class="s1">function syncToGist() {
-</span></span></span><span class="line"><span class="cl"><span class="s1">  const sheet   = SpreadsheetApp.openById(SHEET_ID).getActiveSheet();
-</span></span></span><span class="line"><span class="cl"><span class="s1">  const rows    = sheet.getDataRange().getValues();
-</span></span></span><span class="line"><span class="cl"><span class="s1">  const headers = rows[0];
-</span></span></span><span class="line"><span class="cl"><span class="s1">  const data    = rows.slice(1);
+</span></span></span><span class="line"><span class="cl"><span class="s1">  const sheet = SpreadsheetApp.openById(SHEET_ID).getActiveSheet();
+</span></span></span><span class="line"><span class="cl"><span class="s1">  const rows  = sheet.getDataRange().getValues();
+</span></span></span><span class="line"><span class="cl"><span class="s1">  const data  = rows.slice(1);
 </span></span></span><span class="line"><span class="cl"><span class="s1">
 </span></span></span><span class="line"><span class="cl"><span class="s1">  const comments = {};
 </span></span></span><span class="line"><span class="cl"><span class="s1">  data.forEach(row =&gt; {
-</span></span></span><span class="line"><span class="cl"><span class="s1">    // Map to your exact column order
 </span></span></span><span class="line"><span class="cl"><span class="s1">    const obj = {
-</span></span></span><span class="line"><span class="cl"><span class="s1">      id:       row[0],  // A
-</span></span></span><span class="line"><span class="cl"><span class="s1">      postKey:  row[1],  // B
-</span></span></span><span class="line"><span class="cl"><span class="s1">      name:     row[2],  // C
-</span></span></span><span class="line"><span class="cl"><span class="s1">      email:    row[3],  // D
-</span></span></span><span class="line"><span class="cl"><span class="s1">      content:  row[4],  // E
-</span></span></span><span class="line"><span class="cl"><span class="s1">      date:     row[5],  // F
-</span></span></span><span class="line"><span class="cl"><span class="s1">      website:  row[6],  // G
-</span></span></span><span class="line"><span class="cl"><span class="s1">      reply:    row[7],  // H
-</span></span></span><span class="line"><span class="cl"><span class="s1">      approved: row[8],  // I
+</span></span></span><span class="line"><span class="cl"><span class="s1">      id:       row[0],
+</span></span></span><span class="line"><span class="cl"><span class="s1">      postKey:  row[1],
+</span></span></span><span class="line"><span class="cl"><span class="s1">      name:     row[2],
+</span></span></span><span class="line"><span class="cl"><span class="s1">      email:    row[3],
+</span></span></span><span class="line"><span class="cl"><span class="s1">      content:  row[4],
+</span></span></span><span class="line"><span class="cl"><span class="s1">      date:     row[5],
+</span></span></span><span class="line"><span class="cl"><span class="s1">      website:  row[6],
+</span></span></span><span class="line"><span class="cl"><span class="s1">      reply:    row[7],
+</span></span></span><span class="line"><span class="cl"><span class="s1">      approved: row[8],
 </span></span></span><span class="line"><span class="cl"><span class="s1">    };
 </span></span></span><span class="line"><span class="cl"><span class="s1">
 </span></span></span><span class="line"><span class="cl"><span class="s1">    if (obj.approved !== true &amp;&amp; obj.approved !== &#39;</span>approved<span class="s1">&#39;) return;
@@ -1873,11 +1870,15 @@ stateDiagram-v2
 </span></span></span><span class="line"><span class="cl"><span class="s1">      content: String(obj.content).replace(/\r\n/g, &#39;</span><span class="se">\n</span><span class="s1">&#39;).replace(/\r/g, &#39;</span><span class="se">\n</span><span class="s1">&#39;),
 </span></span></span><span class="line"><span class="cl"><span class="s1">      date:    obj.date,
 </span></span></span><span class="line"><span class="cl"><span class="s1">      website: obj.website || &#39;&#39;,
-</span></span></span><span class="line"><span class="cl"><span class="s1">      reply:   obj.reply || &#39;&#39;
+</span></span></span><span class="line"><span class="cl"><span class="s1">      reply:   String(obj.reply || &#39;&#39;).replace(/\r\n/g, &#39;</span><span class="se">\n</span><span class="s1">&#39;).replace(/\r/g, &#39;</span><span class="se">\n</span><span class="s1">&#39;)
 </span></span></span><span class="line"><span class="cl"><span class="s1">    });
 </span></span></span><span class="line"><span class="cl"><span class="s1">  });
 </span></span></span><span class="line"><span class="cl"><span class="s1">
-</span></span></span><span class="line"><span class="cl"><span class="s1">  // Push to GitHub Gist
+</span></span></span><span class="line"><span class="cl"><span class="s1">  // ✅ Sort comments by date ascending (oldest first)
+</span></span></span><span class="line"><span class="cl"><span class="s1">  Object.keys(comments).forEach(key =&gt; {
+</span></span></span><span class="line"><span class="cl"><span class="s1">    comments[key].sort((a, b) =&gt; new Date(a.date) - new Date(b.date));
+</span></span></span><span class="line"><span class="cl"><span class="s1">  });
+</span></span></span><span class="line"><span class="cl"><span class="s1">
 </span></span></span><span class="line"><span class="cl"><span class="s1">  const payload = JSON.stringify({
 </span></span></span><span class="line"><span class="cl"><span class="s1">    files: {
 </span></span></span><span class="line"><span class="cl"><span class="s1">      [GIST_FILENAME]: {
@@ -2018,7 +2019,7 @@ stateDiagram-v2
 </span></span><span class="line"><span class="cl">  try <span class="o">{</span>
 </span></span><span class="line"><span class="cl">    const <span class="nv">res</span>  <span class="o">=</span> await fetch<span class="o">(</span><span class="sb">`</span>https://gist.githubusercontent.com/<span class="si">${</span><span class="nv">GIST_USERNAME</span><span class="si">}</span>/<span class="si">${</span><span class="nv">GIST_ID</span><span class="si">}</span>/raw/comments.json?t<span class="o">=</span><span class="si">${</span><span class="nv">Date</span><span class="p">.now()</span><span class="si">}</span><span class="sb">`</span><span class="o">)</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl">    const <span class="nv">all</span>  <span class="o">=</span> await res.json<span class="o">()</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">    const <span class="nv">list</span> <span class="o">=</span> all<span class="o">[</span>POST_KEY<span class="o">]</span> <span class="o">||</span> <span class="o">[]</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    const <span class="nv">list</span> <span class="o">=</span> <span class="o">(</span>all<span class="o">[</span>POST_KEY<span class="o">]</span> <span class="o">||</span> <span class="o">[])</span>.sort<span class="o">((</span>a, b<span class="o">)</span> <span class="o">=</span>&gt; new Date<span class="o">(</span>a.date<span class="o">)</span> - new Date<span class="o">(</span>b.date<span class="o">))</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="o">(</span>list.length <span class="o">===</span> 0<span class="o">)</span> <span class="o">{</span>
 </span></span><span class="line"><span class="cl">      el.innerHTML <span class="o">=</span> <span class="s1">&#39;&lt;p class=&#34;text-neutral-400 dark:text-neutral-500 text-sm&#34;&gt;還沒有留言，來第一個留言吧！&lt;/p&gt;&#39;</span><span class="p">;</span>
@@ -2036,7 +2037,7 @@ stateDiagram-v2
 </span></span><span class="line"><span class="cl">      &lt;/div&gt;
 </span></span><span class="line"><span class="cl">      &lt;span <span class="nv">class</span><span class="o">=</span><span class="s2">&#34;text-xs text-neutral-500 dark:text-neutral-400&#34;</span>&gt;<span class="si">${</span><span class="nv">new</span><span class="p"> Date(c.date).toLocaleDateString(</span><span class="s1">&#39;zh-TW&#39;</span><span class="p">, { year:</span><span class="s1">&#39;numeric&#39;</span><span class="p">, month:</span><span class="s1">&#39;2-digit&#39;</span><span class="p">, day:</span><span class="s1">&#39;2-digit&#39;</span><span class="p">, hour:</span><span class="s1">&#39;2-digit&#39;</span><span class="p">, minute:</span><span class="s1">&#39;2-digit&#39;</span><span class="p"> </span><span class="si">}</span><span class="o">)}</span>&lt;/span&gt;
 </span></span><span class="line"><span class="cl">    &lt;/div&gt;
-</span></span><span class="line"><span class="cl">    &lt;p <span class="nv">class</span><span class="o">=</span><span class="s2">&#34;text-neutral-700 dark:text-neutral-200 text-base whitespace-pre-wrap leading-relaxed&#34;</span>&gt;<span class="si">${</span><span class="nv">escHtml</span><span class="p">(c.content)</span><span class="si">}</span>&lt;/p&gt;
+</span></span><span class="line"><span class="cl">    &lt;p <span class="nv">class</span><span class="o">=</span><span class="s2">&#34;text-neutral-700 dark:text-neutral-200 text-base leading-relaxed&#34;</span>&gt;<span class="si">${</span><span class="nv">formatContent</span><span class="p">(c.content)</span><span class="si">}</span>&lt;/p&gt;
 </span></span><span class="line"><span class="cl">    <span class="si">${</span><span class="nv">c</span><span class="p">.reply ? </span><span class="sb">`</span>
 </span></span><span class="line"><span class="cl">    &lt;div <span class="nv">class</span><span class="o">=</span><span class="s2">&#34;mt-4 bg-neutral-200 dark:bg-neutral-800 rounded-lg p-4&#34;</span>&gt;
 </span></span><span class="line"><span class="cl">      &lt;div <span class="nv">class</span><span class="o">=</span><span class="s2">&#34;flex items-center gap-2 mb-2&#34;</span>&gt;
@@ -2044,7 +2045,7 @@ stateDiagram-v2
 </span></span><span class="line"><span class="cl">	&lt;span <span class="nv">class</span><span class="o">=</span><span class="s2">&#34;text-xs bg-primary-600 dark:bg-primary-700 text-white px-2 py-0.5 rounded&#34;</span>&gt;站長&lt;/span&gt;
 </span></span><span class="line"><span class="cl">        &lt;span <span class="nv">class</span><span class="o">=</span><span class="s2">&#34;text-xs text-neutral-500 dark:text-neutral-400 ml-auto&#34;</span>&gt;<span class="si">${</span><span class="nv">new</span><span class="p"> Date(c.date).toLocaleDateString(</span><span class="s1">&#39;zh-TW&#39;</span><span class="p">, { year:</span><span class="s1">&#39;numeric&#39;</span><span class="p">, month:</span><span class="s1">&#39;2-digit&#39;</span><span class="p">, day:</span><span class="s1">&#39;2-digit&#39;</span><span class="p">, hour:</span><span class="s1">&#39;2-digit&#39;</span><span class="p">, minute:</span><span class="s1">&#39;2-digit&#39;</span><span class="p"> </span><span class="si">}</span><span class="o">)}</span>&lt;/span&gt;
 </span></span><span class="line"><span class="cl">      &lt;/div&gt;
-</span></span><span class="line"><span class="cl">      &lt;p <span class="nv">class</span><span class="o">=</span><span class="s2">&#34;text-neutral-700 dark:text-neutral-200 text-base whitespace-pre-wrap leading-relaxed&#34;</span>&gt;<span class="si">${</span><span class="nv">escHtml</span><span class="p">(c.reply)</span><span class="si">}</span>&lt;/p&gt;
+</span></span><span class="line"><span class="cl">      &lt;p <span class="nv">class</span><span class="o">=</span><span class="s2">&#34;text-neutral-700 dark:text-neutral-200 text-base leading-relaxed&#34;</span>&gt;<span class="si">${</span><span class="nv">formatContent</span><span class="p">(c.reply)</span><span class="si">}</span>&lt;/p&gt;
 </span></span><span class="line"><span class="cl">    &lt;/div&gt;<span class="sb">`</span><span class="p"> : </span><span class="s1">&#39;&#39;</span><span class="si">}</span>
 </span></span><span class="line"><span class="cl">  &lt;/div&gt;
 </span></span><span class="line"><span class="cl"><span class="sb">`</span><span class="o">)</span>.join<span class="o">(</span><span class="s1">&#39;&#39;</span><span class="o">)</span><span class="p">;</span>
@@ -2112,6 +2113,10 @@ stateDiagram-v2
 </span></span></span><span class="line"><span class="cl"><span class="s2">    return &#39;https://&#39; + url;
 </span></span></span><span class="line"><span class="cl"><span class="s2">  }
 </span></span></span><span class="line"><span class="cl"><span class="s2">  return url;
+</span></span></span><span class="line"><span class="cl"><span class="s2">}
+</span></span></span><span class="line"><span class="cl"><span class="s2">
+</span></span></span><span class="line"><span class="cl"><span class="s2">function formatContent(str) {
+</span></span></span><span class="line"><span class="cl"><span class="s2">  return escHtml(str).replace(/\n/g, &#39;&lt;br&gt;&#39;);
 </span></span></span><span class="line"><span class="cl"><span class="s2">}
 </span></span></span><span class="line"><span class="cl"><span class="s2">
 </span></span></span><span class="line"><span class="cl"><span class="s2">loadComments();
@@ -2235,7 +2240,7 @@ stateDiagram-v2
 </span></span><span class="line"><span class="cl">  try <span class="o">{</span>
 </span></span><span class="line"><span class="cl">    const <span class="nv">res</span>  <span class="o">=</span> await fetch<span class="o">(</span><span class="sb">`</span>https://gist.githubusercontent.com/<span class="si">${</span><span class="nv">GIST_USERNAME</span><span class="si">}</span>/<span class="si">${</span><span class="nv">GIST_ID</span><span class="si">}</span>/raw/comments.json?t<span class="o">=</span><span class="si">${</span><span class="nv">Date</span><span class="p">.now()</span><span class="si">}</span><span class="sb">`</span><span class="o">)</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl">    const <span class="nv">all</span>  <span class="o">=</span> await res.json<span class="o">()</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">    const <span class="nv">list</span> <span class="o">=</span> all<span class="o">[</span>POST_KEY<span class="o">]</span> <span class="o">||</span> <span class="o">[]</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    const <span class="nv">list</span> <span class="o">=</span> <span class="o">(</span>all<span class="o">[</span>POST_KEY<span class="o">]</span> <span class="o">||</span> <span class="o">[])</span>.sort<span class="o">((</span>a, b<span class="o">)</span> <span class="o">=</span>&gt; new Date<span class="o">(</span>a.date<span class="o">)</span> - new Date<span class="o">(</span>b.date<span class="o">))</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl">    document.getElementById<span class="o">(</span><span class="s1">&#39;c-count&#39;</span><span class="o">)</span>.textContent <span class="o">=</span> list.length<span class="p">;</span>
 </span></span><span class="line"><span class="cl">
@@ -2256,14 +2261,14 @@ stateDiagram-v2
 </span></span><span class="line"><span class="cl">          &lt;/div&gt;
 </span></span><span class="line"><span class="cl">          &lt;span <span class="nv">class</span><span class="o">=</span><span class="s2">&#34;text-xs text-neutral-500 dark:text-neutral-400&#34;</span>&gt;<span class="si">${</span><span class="nv">new</span><span class="p"> Date(c.date).toLocaleDateString(</span><span class="s1">&#39;zh-TW&#39;</span><span class="p">, { year:</span><span class="s1">&#39;numeric&#39;</span><span class="p">, month:</span><span class="s1">&#39;2-digit&#39;</span><span class="p">, day:</span><span class="s1">&#39;2-digit&#39;</span><span class="p">, hour:</span><span class="s1">&#39;2-digit&#39;</span><span class="p">, minute:</span><span class="s1">&#39;2-digit&#39;</span><span class="p"> </span><span class="si">}</span><span class="o">)}</span>&lt;/span&gt;
 </span></span><span class="line"><span class="cl">        &lt;/div&gt;
-</span></span><span class="line"><span class="cl">        &lt;p <span class="nv">class</span><span class="o">=</span><span class="s2">&#34;text-neutral-700 dark:text-neutral-200 text-base whitespace-pre-wrap leading-relaxed&#34;</span>&gt;<span class="si">${</span><span class="nv">escHtml</span><span class="p">(c.content)</span><span class="si">}</span>&lt;/p&gt;
+</span></span><span class="line"><span class="cl">        &lt;p <span class="nv">class</span><span class="o">=</span><span class="s2">&#34;text-neutral-700 dark:text-neutral-200 text-base leading-relaxed&#34;</span>&gt;<span class="si">${</span><span class="nv">formatContent</span><span class="p">(c.content)</span><span class="si">}</span>&lt;/p&gt;
 </span></span><span class="line"><span class="cl">        <span class="si">${</span><span class="nv">c</span><span class="p">.reply ? </span><span class="sb">`</span>
 </span></span><span class="line"><span class="cl">        &lt;div <span class="nv">class</span><span class="o">=</span><span class="s2">&#34;mt-4 bg-neutral-200 dark:bg-neutral-800 rounded-lg p-4&#34;</span>&gt;
 </span></span><span class="line"><span class="cl">          &lt;div <span class="nv">class</span><span class="o">=</span><span class="s2">&#34;flex items-center gap-2 mb-2&#34;</span>&gt;
 </span></span><span class="line"><span class="cl">            &lt;span <span class="nv">class</span><span class="o">=</span><span class="s2">&#34;font-medium text-neutral-800 dark:text-neutral-100&#34;</span>&gt;<span class="si">${</span><span class="nv">escHtml</span><span class="p">(OWNER_NAME)</span><span class="si">}</span>&lt;/span&gt;
 </span></span><span class="line"><span class="cl">            &lt;span <span class="nv">class</span><span class="o">=</span><span class="s2">&#34;text-xs bg-primary-600 dark:bg-primary-700 text-white px-2 py-0.5 rounded&#34;</span>&gt;站長&lt;/span&gt;
 </span></span><span class="line"><span class="cl">          &lt;/div&gt;
-</span></span><span class="line"><span class="cl">          &lt;p <span class="nv">class</span><span class="o">=</span><span class="s2">&#34;text-neutral-700 dark:text-neutral-200 text-base whitespace-pre-wrap leading-relaxed&#34;</span>&gt;<span class="si">${</span><span class="nv">escHtml</span><span class="p">(c.reply)</span><span class="si">}</span>&lt;/p&gt;
+</span></span><span class="line"><span class="cl">          &lt;p <span class="nv">class</span><span class="o">=</span><span class="s2">&#34;text-neutral-700 dark:text-neutral-200 text-base leading-relaxed&#34;</span>&gt;<span class="si">${</span><span class="nv">formatContent</span><span class="p">(c.reply)</span><span class="si">}</span>&lt;/p&gt;
 </span></span><span class="line"><span class="cl">        &lt;/div&gt;<span class="sb">`</span><span class="p"> : </span><span class="s1">&#39;&#39;</span><span class="si">}</span>
 </span></span><span class="line"><span class="cl">      &lt;/div&gt;
 </span></span><span class="line"><span class="cl">    <span class="sb">`</span><span class="o">)</span>.join<span class="o">(</span><span class="s1">&#39;&#39;</span><span class="o">)</span><span class="p">;</span>
@@ -2329,6 +2334,10 @@ stateDiagram-v2
 </span></span></span><span class="line"><span class="cl"><span class="s2">    return &#39;https://&#39; + url;
 </span></span></span><span class="line"><span class="cl"><span class="s2">  }
 </span></span></span><span class="line"><span class="cl"><span class="s2">  return url;
+</span></span></span><span class="line"><span class="cl"><span class="s2">}
+</span></span></span><span class="line"><span class="cl"><span class="s2">
+</span></span></span><span class="line"><span class="cl"><span class="s2">function formatContent(str) {
+</span></span></span><span class="line"><span class="cl"><span class="s2">  return escHtml(str).replace(/\n/g, &#39;&lt;br&gt;&#39;);
 </span></span></span><span class="line"><span class="cl"><span class="s2">}
 </span></span></span><span class="line"><span class="cl"><span class="s2">
 </span></span></span><span class="line"><span class="cl"><span class="s2">loadComments();
@@ -2409,7 +2418,7 @@ stateDiagram-v2
 </span></span><span class="line"><span class="cl">    // Flatten all posts<span class="s1">&#39; comments into one array, attach postKey to each
 </span></span></span><span class="line"><span class="cl"><span class="s1">    allComments = Object.entries(all).flatMap(([postKey, comments]) =&gt;
 </span></span></span><span class="line"><span class="cl"><span class="s1">      comments.map(c =&gt; ({ ...c, postKey }))
-</span></span></span><span class="line"><span class="cl"><span class="s1">    );
+</span></span></span><span class="line"><span class="cl"><span class="s1">    ).sort((a, b) =&gt; new Date(a.date) - new Date(b.date));
 </span></span></span><span class="line"><span class="cl"><span class="s1">
 </span></span></span><span class="line"><span class="cl"><span class="s1">    document.getElementById(&#39;</span>c-count<span class="s1">&#39;).textContent = allComments.length;
 </span></span></span><span class="line"><span class="cl"><span class="s1">    renderComments(allComments);
@@ -2459,14 +2468,14 @@ stateDiagram-v2
 </span></span></span><span class="line"><span class="cl"><span class="s1">        📄 ${escHtml(c.postKey)}
 </span></span></span><span class="line"><span class="cl"><span class="s1">      &lt;/a&gt;
 </span></span></span><span class="line"><span class="cl"><span class="s1">
-</span></span></span><span class="line"><span class="cl"><span class="s1">      &lt;p class=&#34;text-neutral-700 dark:text-neutral-200 text-base whitespace-pre-wrap leading-relaxed&#34;&gt;${escHtml(c.content)}&lt;/p&gt;
+</span></span></span><span class="line"><span class="cl"><span class="s1">      &lt;p class=&#34;text-neutral-700 dark:text-neutral-200 text-base leading-relaxed&#34;&gt;${formatContent(c.content)}&lt;/p&gt;
 </span></span></span><span class="line"><span class="cl"><span class="s1">      ${c.reply ? `
 </span></span></span><span class="line"><span class="cl"><span class="s1">      &lt;div class=&#34;mt-4 bg-neutral-200 dark:bg-neutral-800 rounded-lg p-4&#34;&gt;
 </span></span></span><span class="line"><span class="cl"><span class="s1">        &lt;div class=&#34;flex items-center gap-2 mb-2&#34;&gt;
 </span></span></span><span class="line"><span class="cl"><span class="s1">          &lt;span class=&#34;font-medium text-neutral-800 dark:text-neutral-100&#34;&gt;${escHtml(OWNER_NAME)}&lt;/span&gt;
 </span></span></span><span class="line"><span class="cl"><span class="s1">          &lt;span class=&#34;text-xs bg-primary-600 dark:bg-primary-700 text-white px-2 py-0.5 rounded&#34;&gt;站長&lt;/span&gt;
 </span></span></span><span class="line"><span class="cl"><span class="s1">        &lt;/div&gt;
-</span></span></span><span class="line"><span class="cl"><span class="s1">        &lt;p class=&#34;text-neutral-700 dark:text-neutral-200 text-base whitespace-pre-wrap leading-relaxed&#34;&gt;${escHtml(c.reply)}&lt;/p&gt;
+</span></span></span><span class="line"><span class="cl"><span class="s1">        &lt;p class=&#34;text-neutral-700 dark:text-neutral-200 text-base leading-relaxed&#34;&gt;${formatContent(c.reply)}&lt;/p&gt;
 </span></span></span><span class="line"><span class="cl"><span class="s1">      &lt;/div&gt;` : &#39;&#39;}
 </span></span></span><span class="line"><span class="cl"><span class="s1">    &lt;/div&gt;
 </span></span></span><span class="line"><span class="cl"><span class="s1">  `).join(&#39;&#39;);
@@ -2479,9 +2488,13 @@ stateDiagram-v2
 </span></span></span><span class="line"><span class="cl"><span class="s1">function normalizeUrl(url) {
 </span></span></span><span class="line"><span class="cl"><span class="s1">  if (!url) return &#39;&#39;;
 </span></span></span><span class="line"><span class="cl"><span class="s1">  if (!/^https?:\/\//i.test(url)) {
-</span></span></span><span class="line"><span class="cl"><span class="s1">    return &#39;</span>https://<span class="err">&#39;</span> + url<span class="p">;</span>
-</span></span><span class="line"><span class="cl">  <span class="o">}</span>
-</span></span><span class="line"><span class="cl">  <span class="k">return</span> url<span class="p">;</span>
+</span></span></span><span class="line"><span class="cl"><span class="s1">    return &#39;</span>https://<span class="s1">&#39; + url;
+</span></span></span><span class="line"><span class="cl"><span class="s1">  }
+</span></span></span><span class="line"><span class="cl"><span class="s1">  return url;
+</span></span></span><span class="line"><span class="cl"><span class="s1">}
+</span></span></span><span class="line"><span class="cl"><span class="s1">
+</span></span></span><span class="line"><span class="cl"><span class="s1">function formatContent(str) {
+</span></span></span><span class="line"><span class="cl"><span class="s1">  return escHtml(str).replace(/\n/g, &#39;</span>&lt;br&gt;<span class="err">&#39;</span><span class="o">)</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl"><span class="o">}</span>
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl">loadAllComments<span class="o">()</span><span class="p">;</span>
@@ -4156,7 +4169,7 @@ stateDiagram-v2
 <script>
 const GIST_USERNAME = 'hshuang99';
 const GIST_ID      = '3b5ad6ae66d41f4cd3587e2d59982fc1';
-const APPS_SCRIPT  = 'https:\/\/script.google.com\/macros\/s\/AKfycbwlXcylC8HiE7mRgxNQQpm8zLbR7p85WqzpV6JCh4zsihVZ1TbNFfNxFh9VoUqm_VqD\/exec';
+const APPS_SCRIPT  = 'https:\/\/script.google.com\/macros\/s\/AKfycbw__BAo1CKHLvGnVZaIOEP1qzCr03tOhu-vwEvEXW36UbtpPMqtZlKLeMmjkFj1ijrq\/exec';
 const POST_KEY     = '\/posts\/hugo-simple-guestbook\/';
 const OWNER_NAME   = '黃宏勝';
 
@@ -4166,7 +4179,8 @@ async function loadComments() {
   try {
     const res  = await fetch(`https://gist.githubusercontent.com/${GIST_USERNAME}/${GIST_ID}/raw/comments.json?t=${Date.now()}`);
     const all  = await res.json();
-    const list = all[POST_KEY] || [];
+    const list = (all[POST_KEY] || []).sort((a, b) => new Date(a.date) - new Date(b.date));
+
 
     if (list.length === 0) {
       el.innerHTML = '<p class="text-neutral-400 dark:text-neutral-500 text-sm">還沒有留言，來第一個留言吧！</p>';
@@ -4184,7 +4198,7 @@ async function loadComments() {
       </div>
       <span class="text-xs text-neutral-500 dark:text-neutral-400">${new Date(c.date).toLocaleDateString('zh-TW', { year:'numeric', month:'2-digit', day:'2-digit', hour:'2-digit', minute:'2-digit' })}</span>
     </div>
-    <p class="text-neutral-700 dark:text-neutral-200 text-base whitespace-pre-wrap leading-relaxed">${escHtml(c.content)}</p>
+    <p class="text-neutral-700 dark:text-neutral-200 text-base leading-relaxed">${formatContent(c.content)}</p>
     ${c.reply ? `
     <div class="mt-4 bg-neutral-200 dark:bg-neutral-800 rounded-lg p-4">
       <div class="flex items-center gap-2 mb-2">
@@ -4192,7 +4206,7 @@ async function loadComments() {
 	<span class="text-xs bg-primary-600 dark:bg-primary-700 text-white px-2 py-0.5 rounded">站長</span>
         <span class="text-xs text-neutral-500 dark:text-neutral-400 ml-auto">${new Date(c.date).toLocaleDateString('zh-TW', { year:'numeric', month:'2-digit', day:'2-digit', hour:'2-digit', minute:'2-digit' })}</span>
       </div>
-      <p class="text-neutral-700 dark:text-neutral-200 text-base whitespace-pre-wrap leading-relaxed">${escHtml(c.reply)}</p>
+      <p class="text-neutral-700 dark:text-neutral-200 text-base leading-relaxed">${formatContent(c.reply)}</p>
     </div>` : ''}
   </div>
 `).join('');
@@ -4261,6 +4275,10 @@ function normalizeUrl(url) {
     return 'https://' + url;
   }
   return url;
+}
+
+function formatContent(str) {
+  return escHtml(str).replace(/\n/g, '<br>');
 }
 
 loadComments();
