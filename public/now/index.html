@@ -1424,6 +1424,19 @@
         </span>
         <span class="flex flex-col items-end">
           
+            <a
+              class="flex text-right text-neutral-700 hover:text-primary-600 dark:text-neutral dark:hover:text-primary-400"
+              href="/comment-search/">
+              <span class="leading-6">
+                搜尋留言&ensp;<span class="inline-block rtl:rotate-180">&rarr;</span>
+              </span>
+            </a>
+            
+              <span class="me-6 mt-1 text-xs text-neutral-500 dark:text-neutral-400">
+                <time datetime="2026-04-25T09:43:00&#43;08:00">2026-04-25 09:43</time>
+              </span>
+            
+          
         </span>
       </div>
     </div>
@@ -1609,9 +1622,28 @@ document.addEventListener('DOMContentLoaded', function () {
       <ul id="search-results">
         
       </ul>
+      <div id="comment-search-hint" class="px-3 py-3 border-t border-neutral-200 dark:border-neutral-700">
+      <p class="text-xs text-neutral-400 dark:text-neutral-500">
+        想搜尋留言？請前往
+        <a href="/comment-search" class="text-primary-500 hover:underline">留言搜尋頁面</a>
+      </p>
+      </div>
     </section>
   </div>
 </div>
+
+<script>
+  const searchQuery = document.getElementById('search-query');
+  const hint = document.getElementById('comment-search-hint');
+
+  searchQuery.addEventListener('input', () => {
+    if (searchQuery.value.trim() === '') {
+      hint.classList.remove('hidden');
+    } else {
+      hint.classList.add('hidden');
+    }
+  });
+</script>
 
     </div>
     <script>

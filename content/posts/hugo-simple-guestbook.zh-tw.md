@@ -1,7 +1,7 @@
 ---
 title: "Hugo 靜態部落格簡易留言板實作"
 date: 2026-04-24T23:06:00+08:00
-lastmod: 2026-04-24T23:07:00+08:00
+lastmod: 2026-04-25T10:48:00+08:00
 author: "黃宏勝"
 categories:
   - 科技
@@ -84,6 +84,21 @@ hugo v0.154.1-e2fd6764be86d0cde988a7de6334fda0f43de871 darwin/arm64 BuildDate=20
 ```bash
 Blowfish v2.102.0
 ```
+
+## 限制
+{{< alert >}}
+由於此方法我只在 Blowfish 模板上測試，如果讀者的模板是不同的，請先參考自己模板的 class 階層做調整
+{{< /alert >}}
+
+{{< alert >}}
+如果讀者不需要 Cloudflare Turnstile 以及 Akismet 功能，可以跳過這兩個設定步驟，並且修改 Google Apps Script 專案以及留言內嵌的 Cloudflare 驗證區塊 
+{{< /alert >}}
+
+{{< alert >}}
+由於我們採用 Google 表單紀錄的方法，所以留言回覆時沒有任何 SMTP 伺服器可以像 Artalk 那樣寄送信件通知站長已回覆，需要請讀者自行確認
+
+並且因為我們將內容存放在 GitHub Gist 的隱密檔案內，所以 Google 搜尋引擎無法收錄留言內容，代表其他人無法透過搜尋引擎找到該留言，留言無法提升 SEO 效果，但可以在部落格內利用 <code> 留言搜尋頁面 </code> 搜尋到所有留言內容
+{{< /alert >}}
 
 ## 設置 Google 表單
 因為我們架設靜態網站沒有後端資料庫，而且我將其部署在 Cloudflare Workers 上，所以也沒有底層的 Linux 機器有空間給我儲存，而我們的想法就是將所有留言內容儲存在 Google Sheet 裡，各位可以選一個帳號底下建立一個新的表單，並且在第一列輸入留言標籤，下列是我設定的所有標籤
@@ -724,8 +739,258 @@ showComments: false
 ---
 ```
 
+## 留言搜尋
+由於所有的留言內容都是存放在 GitHub Gist JSON 檔案內，而 Hugo 內建搜尋功能是針對內部靜態編譯時產生的 index.json 檔案做搜尋，所以無法透過內建的方法搜尋到留言內容
+
+我們想到的方法就是另外建置一個搜尋系統，蒐錄 Gist 所有的快取內容到瀏覽器內，再進行單一搜索，而在 Gist 檔案裡除了留言板是統一固定的 postKey，其餘文章內的留言則是不同的 id 跟 postKey
+
+```bash
+{
+  "/posts/post-one/": [...comments],
+  "/posts/post-two/": [...comments],
+  "/guestbook/":      [...comments],
+  ...
+}
+```
+
+所以我們想利用一個頁面搜集所有的 postKey，建立 <code> content/comment-search/index.zh-tw.md </code> 頁面
+
+```bash
+---
+title: "搜尋留言"
+showComments: false
+---
+```
+
+然後為這個頁面特別設計 <code> layouts/comment-search/single.html </code>
+
+```bash
+{{ define "main" }}
+<div class="max-w-2xl mx-auto px-4 py-8">
+
+  <p class="text-neutral-500 dark:text-neutral-400 mb-6">搜尋所有文章的留言</p>
+
+  <!-- Search Input -->
+  <div class="mb-6">
+    <input id="c-search" type="text" placeholder="輸入關鍵字搜尋留言..."
+      oninput="filterComments(this.value)"
+      class="w-full px-4 py-2 rounded-lg border border-neutral-300 dark:border-neutral-600 bg-white dark:bg-neutral-700 text-neutral-800 dark:text-neutral-200 focus:outline-none focus:ring-2 focus:ring-primary-500" />
+  </div>
+
+  <!-- Result Count -->
+  <p class="text-sm text-neutral-500 dark:text-neutral-400 mb-4">
+    找到 <span id="c-count">0</span> 則留言
+  </p>
+
+  <!-- Results -->
+  <div id="comment-list">
+    <p class="text-neutral-400 text-sm">載入中...</p>
+  </div>
+
+</div>
+
+<script>
+const GIST_USERNAME = '{{ site.Params.comments.gistUsername }}';
+const GIST_ID       = '{{ site.Params.comments.gistId }}';
+const OWNER_NAME    = '{{ site.Params.comments.ownerName }}';
+
+let allComments = []; // flat array of all comments across all posts
+
+async function loadAllComments() {
+  const el = document.getElementById('comment-list');
+  try {
+    const res = await fetch(`https://gist.githubusercontent.com/${GIST_USERNAME}/${GIST_ID}/raw/comments.json?t=${Date.now()}`);
+    const all = await res.json();
+
+    // Flatten all posts' comments into one array, attach postKey to each
+    allComments = Object.entries(all).flatMap(([postKey, comments]) =>
+      comments.map(c => ({ ...c, postKey }))
+    );
+
+    document.getElementById('c-count').textContent = allComments.length;
+    renderComments(allComments);
+  } catch(err) {
+    el.innerHTML = '<p class="text-red-400 text-sm">載入留言失敗</p>';
+  }
+}
+
+function filterComments(query) {
+  if (!query.trim()) {
+    document.getElementById('c-count').textContent = allComments.length;
+    renderComments(allComments);
+    return;
+  }
+  const q = query.toLowerCase();
+  const filtered = allComments.filter(c =>
+    c.name.toLowerCase().includes(q) ||
+    c.content.toLowerCase().includes(q) ||
+    c.postKey.toLowerCase().includes(q)
+  );
+  document.getElementById('c-count').textContent = filtered.length;
+  renderComments(filtered);
+}
+
+function renderComments(list) {
+  const el = document.getElementById('comment-list');
+  if (list.length === 0) {
+    el.innerHTML = '<p class="text-neutral-400 dark:text-neutral-500 text-sm">找不到符合的留言</p>';
+    return;
+  }
+  el.innerHTML = list.map(c => `
+    <div class="bg-neutral-100 dark:bg-neutral-900 border border-neutral-300 dark:border-neutral-700 rounded-xl p-5 mb-4">
+      <div class="flex items-center justify-between mb-3">
+        <div class="flex items-center gap-2">
+          ${c.website
+            ? `<a href="${escHtml(c.website)}" target="_blank" rel="noopener noreferrer"
+                  class="font-medium text-neutral-800 dark:text-neutral-100 hover:text-primary-500 dark:hover:text-primary-400 hover:underline transition-colors duration-200">${escHtml(c.name)}</a>`
+            : `<span class="font-medium text-neutral-800 dark:text-neutral-100">${escHtml(c.name)}</span>`
+          }
+        </div>
+        <span class="text-xs text-neutral-500 dark:text-neutral-400">${new Date(c.date).toLocaleDateString('zh-TW', { year:'numeric', month:'2-digit', day:'2-digit', hour:'2-digit', minute:'2-digit' })}</span>
+      </div>
+
+      <!-- Post link -->
+      <a href="${escHtml(c.postKey)}"
+        class="inline-block text-xs text-primary-500 dark:text-primary-400 hover:underline mb-2">
+        📄 ${escHtml(c.postKey)}
+      </a>
+
+      <p class="text-neutral-700 dark:text-neutral-200 text-base whitespace-pre-wrap leading-relaxed">${escHtml(c.content)}</p>
+      ${c.reply ? `
+      <div class="mt-4 bg-neutral-200 dark:bg-neutral-800 rounded-lg p-4">
+        <div class="flex items-center gap-2 mb-2">
+          <span class="font-medium text-neutral-800 dark:text-neutral-100">${escHtml(OWNER_NAME)}</span>
+          <span class="text-xs bg-primary-600 dark:bg-primary-700 text-white px-2 py-0.5 rounded">站長</span>
+        </div>
+        <p class="text-neutral-700 dark:text-neutral-200 text-base whitespace-pre-wrap leading-relaxed">${escHtml(c.reply)}</p>
+      </div>` : ''}
+    </div>
+  `).join('');
+}
+
+function escHtml(str) {
+  return String(str).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+}
+
+loadAllComments();
+</script>
+{{ end }}
+```
+
+最後我們在 Hugo 內建的搜尋工具底下新增這個頁面，複製模板內的搜尋功能到我們自己的檔案底下 <code> layouts/partials/search.html </code>
+
+```bash
+cp themes/blowfish/layouts/partials/search.html layouts/partials/search.html
+```
+
+新增一項指引到留言搜尋頁面的元件
+
+```bash
+<section class="flex-auto px-2 overflow-auto">
+  <ul id="search-results">
+    <!-- 原本預設的內容保持不動 -->
+  </ul>
+  
+  <!-- 新增底下的內容 -->
+  <div id="comment-search-hint" class="px-3 py-3 border-t border-neutral-200 dark:border-neutral-700">
+    <p class="text-xs text-neutral-400 dark:text-neutral-500">
+      想搜尋留言？請前往
+      <a href="/comment-search" class="text-primary-500 hover:underline">留言搜尋頁面</a>
+    </p>
+  </div>
+</section>
+```
+
+![CommentSearch](https://secologies.com/wp-content/uploads/2026/04/CommentSearch.webp)
+
+並且在檔案內搜尋欄位 html 之後加上 JavaScript 動態存取
+
+```bash
+<script>
+  const searchQuery = document.getElementById('search-query');
+  const hint = document.getElementById('comment-search-hint');
+
+  searchQuery.addEventListener('input', () => {
+    if (searchQuery.value.trim() === '') {
+      hint.classList.remove('hidden');
+    } else {
+      hint.classList.add('hidden');
+    }
+  });
+</script>
+```
+
+整個 <code> search.html </code> 檔案會長得像
+
+```bash
+<div
+  id="search-wrapper"
+  class="invisible fixed inset-0 flex h-screen w-screen cursor-default flex-col bg-neutral-500/50 p-4 backdrop-blur-sm dark:bg-neutral-900/50 sm:p-6 md:p-[10vh] lg:p-[12vh] z-500"
+  data-url="{{ "" | absLangURL }}">
+  <div
+    id="search-modal"
+    class="flex flex-col w-full max-w-3xl min-h-0 mx-auto border rounded-md shadow-lg top-20 border-neutral-200 bg-neutral dark:border-neutral-700 dark:bg-neutral-800">
+    <header class="relative z-10 flex items-center justify-between flex-none px-2">
+      <form class="flex items-center flex-auto min-w-0">
+        <div class="flex items-center justify-center w-8 h-8 text-neutral-400">
+          {{ partial "icon.html" "search" }}
+        </div>
+        <input
+          type="search"
+          id="search-query"
+          class="flex flex-auto h-12 mx-1 bg-transparent appearance-none focus:outline-dotted focus:outline-2 focus:outline-transparent"
+          placeholder="{{ i18n "search.input_placeholder" }}"
+          tabindex="0">
+      </form>
+      <button
+        id="close-search-button"
+        class="flex items-center justify-center w-8 h-8 text-neutral-700 hover:text-primary-600 dark:text-neutral dark:hover:text-primary-400"
+        title="{{ i18n "search.close_button_title" }}">
+        {{ partial "icon.html" "xmark" }}
+      </button>
+    </header>
+    <section class="flex-auto px-2 overflow-auto">
+      <ul id="search-results">
+        <!-- <li class="mb-2">
+          <a class="flex items-center px-3 py-2 rounded-md appearance-none bg-neutral-100 dark:bg-neutral-700 focus:bg-primary-100 hover:bg-primary-100 dark:hover:bg-primary-900 dark:focus:bg-primary-900 focus:outline-dotted focus:outline-transparent focus:outline-2" href="${value.item.permalink}" tabindex="0">
+            <div class="grow">
+              <div class="-mb-1 text-lg font-bold">${value.item.title}</div>
+              <div class="text-sm text-neutral-500 dark:text-neutral-400">${value.item.section}<span class="px-2 text-primary-500">&middot;</span>${value.item.date}</span></div>
+              <div class="text-sm italic">${value.item.summary}</div>
+            </div>
+            <div class="ml-2 ltr:block rtl:hidden text-neutral-500">&rarr;</div>
+            <div class="mr-2 ltr:hidden rtl:block text-neutral-500">&larr;</div>
+          </a>
+        </li> -->
+      </ul>
+      <div id="comment-search-hint" class="px-3 py-3 border-t border-neutral-200 dark:border-neutral-700">
+      <p class="text-xs text-neutral-400 dark:text-neutral-500">
+        想搜尋留言？請前往
+        <a href="/comment-search" class="text-primary-500 hover:underline">留言搜尋頁面</a>
+      </p>
+      </div>
+    </section>
+  </div>
+</div>
+
+<script>
+  const searchQuery = document.getElementById('search-query');
+  const hint = document.getElementById('comment-search-hint');
+
+  searchQuery.addEventListener('input', () => {
+    if (searchQuery.value.trim() === '') {
+      hint.classList.remove('hidden');
+    } else {
+      hint.classList.add('hidden');
+    }
+  });
+</script>
+```
+
+![CommentSearchResult](https://secologies.com/wp-content/uploads/2026/04/CommentSearchResult.webp)
+
 ## 測試
-到這裡我們就將所有留言區、留言板需要的內容設定完成了，可以來測試看看，在你自己的留言區塊裡輸入一些內容，此時 Google 表單裡就會出現留言，而我們要做的就是把 pending 的狀態改成 approved，並且讀者可以選擇要不要回覆，變更完畢後等待 5 分鐘後就會自動觸發同步了，又或者可以手動測試
+到這裡我們就將所有留言區、留言板以及留言搜尋功能所需要的內容都設定完成了，可以來測試看看，請讀者在自己的留言區塊裡輸入一些內容，此時 Google 表單裡就會出現留言，而我們要做的就是把 <code> pending </code> 的狀態改成 <code> approved </code>，並且讀者可以選擇要不要回覆，變更完畢後等待 5 分鐘後就會自動觸發同步了，又或者可以手動測試
 
 在 Google Apps Script 上方有個執行欄位，選擇 <code> syncToGist </code> 並且按下 <code> Run </code>，就可以手動執行同步功能
 

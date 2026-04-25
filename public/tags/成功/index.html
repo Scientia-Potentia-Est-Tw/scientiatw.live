@@ -1347,9 +1347,28 @@ document.addEventListener('DOMContentLoaded', function () {
       <ul id="search-results">
         
       </ul>
+      <div id="comment-search-hint" class="px-3 py-3 border-t border-neutral-200 dark:border-neutral-700">
+      <p class="text-xs text-neutral-400 dark:text-neutral-500">
+        想搜尋留言？請前往
+        <a href="/comment-search" class="text-primary-500 hover:underline">留言搜尋頁面</a>
+      </p>
+      </div>
     </section>
   </div>
 </div>
+
+<script>
+  const searchQuery = document.getElementById('search-query');
+  const hint = document.getElementById('comment-search-hint');
+
+  searchQuery.addEventListener('input', () => {
+    if (searchQuery.value.trim() === '') {
+      hint.classList.remove('hidden');
+    } else {
+      hint.classList.add('hidden');
+    }
+  });
+</script>
 
     </div>
     <script>
