@@ -1,7 +1,7 @@
 ---
 title: "Hugo 靜態部落格簡易留言板實作"
 date: 2026-04-24T23:06:00+08:00
-lastmod: 2026-04-25T10:48:00+08:00
+lastmod: 2026-04-25T14:19:00+08:00
 author: "黃宏勝"
 categories:
   - 科技
@@ -291,7 +291,7 @@ function syncToGist() {
     comments[key].push({
       id:      obj.id,
       name:    obj.name,
-      content: obj.content,
+      content: String(obj.content).replace(/\r\n/g, '\n').replace(/\r/g, '\n'),
       date:    obj.date,
       website: obj.website || '',
       reply:   obj.reply || ''
