@@ -12,7 +12,7 @@ showComments: false
 ## 🖥️ 電腦軟體
 ### 💾 作業系統
 - macOS - MacBook Pro M1 Max 16 吋用來寫文章、學術論文、音樂製作、剪片、錄音
-- [Ubuntu Desktop 24.04 LTS](https://ubuntu.com/download/desktop) - [Framework Laptop 16](https://frame.work/tw/en/) 吋用來 FPGA/SoC 設計、網路安全防禦系統專案開發、CTF Reverse/Pwn 解題工具、7B-13B Small Language Model 跟一些 ML/DL 訓練
+- [Ubuntu Desktop 24.04 LTS](https://ubuntu.com/download/desktop) - [Framework Laptop 16](https://frame.work/tw/en/laptop16) 吋用來 FPGA/SoC 設計、網路安全防禦系統專案開發、CTF Reverse/Pwn 解題工具、7B-13B Small Language Model 跟一些 ML/DL 訓練
 
 ### 🌏 瀏覽器
 - [Brave](https://brave.com/) - 內建廣告封鎖、阻擋追蹤程式的瀏覽器，設定得當的話可以預防惡意網站的跳轉
