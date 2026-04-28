@@ -17,7 +17,7 @@ keywords:
 - 挑戰
 - 部落格
 - 故事
-lastmod: '2026-01-23T11:34:00+08:00'
+lastmod: '2026-04-28T09:38:00+08:00'
 slug: blog-questions-challenge
 summary: 在廢文小天地看到的Blog Questions Challenge
 description: "在廢文小天地看到的Blog Questions Challenge"
@@ -42,9 +42,8 @@ featureimage: https://secologies.com/wp-content/uploads/2025/10/blog-questions-c
 一開始的打算是把電腦科學裡學到的，跟平時生活心得與閱讀心得等等都在同一個網站中呈現，但隨著文章越來越多，整個網站內含所有主題越看越混淆，所以決定讓VPS主要展示技術型的文章，而這個部落格則是主要分享生活型的文章
 
 ## 你使用什麼平台來管理你的部落格？為什麼選擇它？
-- [Github Pages](https://docs.github.com/en/pages)
+- ~~Github Pages~~ $\rightarrow$ Cloudflare Pages
 - Wordpress
-- [Cloudflare Pages](https://pages.cloudflare.com/)
 
 一開始沒有收入時只能選擇免費的Github Pages當作網頁空間，開始實習後有些工讀的薪水，在網路上看來看去要經營自媒體應該要架設自己的網站與網域，所以開始買了VPS安裝Wordpress
 
