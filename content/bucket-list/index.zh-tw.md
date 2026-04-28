@@ -6,7 +6,7 @@ author: "黃宏勝"
 aliases:
   - Bucket-List
 slug: bucket-list
-lastmod: '2026-04-12T14:29:00+08:00'
+lastmod: '2026-04-28T13:42:00+08:00'
 showComments: false
 ---
 如果說對於自己的人生感到焦慮，似乎覺得某個年紀時就必須何種成就，不斷地將自己的生活跟其他人作比較，那樣活著也太痛苦，所以我決定規劃自己的人生清單，試著不去在乎幾歲時應該要做什麼事，而是把這一生想做的事情都做完，我就覺得生命圓滿，充滿意義了
@@ -41,6 +41,7 @@ showComments: false
 | 狀態  | 目標 | 進度    |
 | :----        |    :----   |  :----- |
 | ❌ | 取得多益金色證書 |   |
+| ❌ | 托福 iBT 考超過 100 分  |   |
 | ❌ | 上完 Flowkey 的鋼琴課程  |   |
 | ❌ | 學習 Logic Pro  |   |
 | ❌ | 讀完 OffSec PWK Pen-200 教材 |  |
@@ -49,7 +50,7 @@ showComments: false
 | ❌ | 上完 Google Cybersecurity Professional Certificate 線上課程 |  |
 | ❌ | 學習素描  |   |
 | ❌ | 學習刺繡  |   |
-| ❌ | 托福 iBT 考超過 100 分  |   |
+| ❌ | 製作部落格徽章  |   |
 
 ## 健康
 | 狀態  | 目標 | 進度    |
