@@ -60,11 +60,6 @@
   pageRef = "newsletter"
   weight = 100
 
-[[main]]
-  name = "支持本站"
-  pageRef = "support"
-  weight = 110
-
 #[[main]]
 #  name = "example sub-menu 1"
 #  parent = "Parent"
