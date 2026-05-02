@@ -51,7 +51,7 @@ async function loadComments() {
   try {
     const res  = await fetch(`https://gist.githubusercontent.com/${GIST_USERNAME}/${GIST_ID}/raw/comments.json?t=${Date.now()}`);
     const all  = await res.json();
-    const list = (all[POST_KEY] || []).sort((a, b) => new Date(a.date) - new Date(b.date));
+    const list = (all[POST_KEY] || []).sort((a, b) => new Date(b.date) - new Date(a.date));
 
 
     document.getElementById('c-count').textContent = list.length;

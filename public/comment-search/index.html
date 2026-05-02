@@ -893,7 +893,7 @@ async function loadAllComments() {
     
     allComments = Object.entries(all).flatMap(([postKey, comments]) =>
       comments.map(c => ({ ...c, postKey }))
-    ).sort((a, b) => new Date(a.date) - new Date(b.date));
+    ).sort((a, b) => new Date(b.date) - new Date(a.date));
 
     document.getElementById('c-count').textContent = allComments.length;
     renderComments(allComments);

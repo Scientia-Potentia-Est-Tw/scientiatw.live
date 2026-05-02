@@ -2591,7 +2591,7 @@
 <script>
 const GIST_USERNAME = 'hshuang99';
 const GIST_ID      = '3b5ad6ae66d41f4cd3587e2d59982fc1';
-const APPS_SCRIPT  = 'https:\/\/script.google.com\/macros\/s\/AKfycbw__BAo1CKHLvGnVZaIOEP1qzCr03tOhu-vwEvEXW36UbtpPMqtZlKLeMmjkFj1ijrq\/exec';
+const APPS_SCRIPT  = 'https:\/\/script.google.com\/macros\/s\/AKfycbyTj0j_smEAt1krSAdIckGuAqaSeN_W5Pk5l3jCHNEli_QUH9f6hKPEbY21lBrz2hqX\/exec';
 const POST_KEY     = '\/posts\/2025-11-10\/';
 const OWNER_NAME   = '黃宏勝';
 
@@ -2601,7 +2601,7 @@ async function loadComments() {
   try {
     const res  = await fetch(`https://gist.githubusercontent.com/${GIST_USERNAME}/${GIST_ID}/raw/comments.json?t=${Date.now()}`);
     const all  = await res.json();
-    const list = (all[POST_KEY] || []).sort((a, b) => new Date(a.date) - new Date(b.date));
+    const list = (all[POST_KEY] || []).sort((a, b) => new Date(b.date) - new Date(a.date));
 
 
     if (list.length === 0) {
