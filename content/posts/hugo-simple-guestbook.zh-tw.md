@@ -504,12 +504,12 @@ function normalizeUrl(url) {
 }
 
 function formatContent(str) {
+  const mdLink   = new RegExp('\\[([^\\]]+)\\]\\((https?:\\/\\/[^\\)]+)\\)', 'g');
+  const bareUrl  = new RegExp('(?<!href=")(https?:\\/\\/[^\\s<]+)', 'g');
+
   return escHtml(str)
-    // markdown links first
-    .replace(/\[([^\]]+)\]\((https?:\/\/[^\)]+)\)/g, '<a href="$2" target="_blank" rel="noopener noreferrer" class="text-primary-500 hover:underline">$1</a>')
-    // then bare URLs (not already inside an href)
-    .replace(/(?<!href=")(https?:\/\/[^\s<]+)/g, '<a href="$1" target="_blank" rel="noopener noreferrer" class="text-primary-500 hover:underline">$1</a>')
-    // newlines last
+    .replace(mdLink,  '<a href="$2" target="_blank" rel="noopener noreferrer" class="text-primary-500 hover:underline">$1</a>')
+    .replace(bareUrl, '<a href="$1" target="_blank" rel="noopener noreferrer" class="text-primary-500 hover:underline">$1</a>')
     .replace(/\n/g, '<br>');
 }
 
@@ -742,12 +742,12 @@ function normalizeUrl(url) {
 }
 
 function formatContent(str) {
+  const mdLink   = new RegExp('\\[([^\\]]+)\\]\\((https?:\\/\\/[^\\)]+)\\)', 'g');
+  const bareUrl  = new RegExp('(?<!href=")(https?:\\/\\/[^\\s<]+)', 'g');
+
   return escHtml(str)
-    // markdown links first
-    .replace(/\[([^\]]+)\]\((https?:\/\/[^\)]+)\)/g, '<a href="$2" target="_blank" rel="noopener noreferrer" class="text-primary-500 hover:underline">$1</a>')
-    // then bare URLs (not already inside an href)
-    .replace(/(?<!href=")(https?:\/\/[^\s<]+)/g, '<a href="$1" target="_blank" rel="noopener noreferrer" class="text-primary-500 hover:underline">$1</a>')
-    // newlines last
+    .replace(mdLink,  '<a href="$2" target="_blank" rel="noopener noreferrer" class="text-primary-500 hover:underline">$1</a>')
+    .replace(bareUrl, '<a href="$1" target="_blank" rel="noopener noreferrer" class="text-primary-500 hover:underline">$1</a>')
     .replace(/\n/g, '<br>');
 }
 
@@ -918,12 +918,12 @@ function normalizeUrl(url) {
 }
 
 function formatContent(str) {
+  const mdLink   = new RegExp('\\[([^\\]]+)\\]\\((https?:\\/\\/[^\\)]+)\\)', 'g');
+  const bareUrl  = new RegExp('(?<!href=")(https?:\\/\\/[^\\s<]+)', 'g');
+
   return escHtml(str)
-    // markdown links first
-    .replace(/\[([^\]]+)\]\((https?:\/\/[^\)]+)\)/g, '<a href="$2" target="_blank" rel="noopener noreferrer" class="text-primary-500 hover:underline">$1</a>')
-    // then bare URLs (not already inside an href)
-    .replace(/(?<!href=")(https?:\/\/[^\s<]+)/g, '<a href="$1" target="_blank" rel="noopener noreferrer" class="text-primary-500 hover:underline">$1</a>')
-    // newlines last
+    .replace(mdLink,  '<a href="$2" target="_blank" rel="noopener noreferrer" class="text-primary-500 hover:underline">$1</a>')
+    .replace(bareUrl, '<a href="$1" target="_blank" rel="noopener noreferrer" class="text-primary-500 hover:underline">$1</a>')
     .replace(/\n/g, '<br>');
 }
 

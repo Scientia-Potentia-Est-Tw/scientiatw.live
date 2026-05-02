@@ -250,7 +250,7 @@
     "keywords": ["科技","Hugo","靜態網站","留言板","GitHub Gist","Google Apps Script","Cloudflare Turnstile","Akismet","Google 表單"],
     
     "mainEntityOfPage": "true",
-    "wordCount": "7594"
+    "wordCount": "7582"
   },
   {
     "@context": "https://schema.org",
@@ -1042,7 +1042,7 @@
   <div class="flex flex-row flex-wrap items-center">
     
     
-      <time datetime="2026-04-24T23:06:00&#43;08:00">2026-04-24 23:06</time><span class="px-2 text-primary-500">&middot;</span><time datetime="2026-05-02T13:14:00&#43;08:00">上次編輯: 2026-05-02 13:14</time><span class="px-2 text-primary-500">&middot;</span><span>7594 字</span><span class="px-2 text-primary-500">&middot;</span><span title="預計閱讀時間">16 分鐘</span><span class="px-2 text-primary-500">&middot;</span><span class="comment-count text-xs text-neutral-500 dark:text-neutral-400 flex items-center gap-1" data-postkey="/posts/hugo-simple-guestbook/">💬 <span class="count-num">...</span></span>
+      <time datetime="2026-04-24T23:06:00&#43;08:00">2026-04-24 23:06</time><span class="px-2 text-primary-500">&middot;</span><time datetime="2026-05-02T13:14:00&#43;08:00">上次編輯: 2026-05-02 13:14</time><span class="px-2 text-primary-500">&middot;</span><span>7582 字</span><span class="px-2 text-primary-500">&middot;</span><span title="預計閱讀時間">16 分鐘</span><span class="px-2 text-primary-500">&middot;</span><span class="comment-count text-xs text-neutral-500 dark:text-neutral-400 flex items-center gap-1" data-postkey="/posts/hugo-simple-guestbook/">💬 <span class="count-num">...</span></span>
     
 
     
@@ -2081,13 +2081,13 @@ stateDiagram-v2
 </span></span></span><span class="line"><span class="cl"><span class="s2">}
 </span></span></span><span class="line"><span class="cl"><span class="s2">
 </span></span></span><span class="line"><span class="cl"><span class="s2">function formatContent(str) {
-</span></span></span><span class="line"><span class="cl"><span class="s2">  return escHtml(str)
-</span></span></span><span class="line"><span class="cl"><span class="s2">    // markdown links first
-</span></span></span><span class="line"><span class="cl"><span class="s2">    .replace(/\[([^\]]+)\]\((https?:\/\/[^\)]+)\)/g, &#39;&lt;a href=&#34;</span><span class="nv">$2</span><span class="s2">&#34; target=&#34;</span>_blank<span class="s2">&#34; rel=&#34;</span>noopener noreferrer<span class="s2">&#34; class=&#34;</span>text-primary-500 hover:underline<span class="s2">&#34;&gt;</span><span class="nv">$1</span><span class="s2">&lt;/a&gt;&#39;)
-</span></span></span><span class="line"><span class="cl"><span class="s2">    // then bare URLs (not already inside an href)
-</span></span></span><span class="line"><span class="cl"><span class="s2">    .replace(/(?&lt;!href=&#34;</span><span class="o">)(</span>https?:<span class="se">\/\/</span><span class="o">[</span>^<span class="se">\s</span>&lt;<span class="o">]</span>+<span class="o">)</span>/g, <span class="s1">&#39;&lt;a href=&#34;$1&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34; class=&#34;text-primary-500 hover:underline&#34;&gt;$1&lt;/a&gt;&#39;</span><span class="o">)</span>
-</span></span><span class="line"><span class="cl">    // newlines last
-</span></span><span class="line"><span class="cl">    .replace<span class="o">(</span>/<span class="se">\n</span>/g, <span class="s1">&#39;&lt;br&gt;&#39;</span><span class="o">)</span><span class="p">;</span>
+</span></span></span><span class="line"><span class="cl"><span class="s2">  const mdLink   = new RegExp(&#39;\\[([^\\]]+)\\]\\((https?:\\/\\/[^\\)]+)\\)&#39;, &#39;g&#39;);
+</span></span></span><span class="line"><span class="cl"><span class="s2">  const bareUrl  = new RegExp(&#39;(?&lt;!href=&#34;</span><span class="o">)(</span>https?:<span class="se">\\</span>/<span class="se">\\</span>/<span class="o">[</span>^<span class="se">\\</span>s&lt;<span class="o">]</span>+<span class="o">)</span><span class="s1">&#39;, &#39;</span>g<span class="s1">&#39;);
+</span></span></span><span class="line"><span class="cl"><span class="s1">
+</span></span></span><span class="line"><span class="cl"><span class="s1">  return escHtml(str)
+</span></span></span><span class="line"><span class="cl"><span class="s1">    .replace(mdLink,  &#39;</span>&lt;a <span class="nv">href</span><span class="o">=</span><span class="s2">&#34;</span><span class="nv">$2</span><span class="s2">&#34;</span> <span class="nv">target</span><span class="o">=</span><span class="s2">&#34;_blank&#34;</span> <span class="nv">rel</span><span class="o">=</span><span class="s2">&#34;noopener noreferrer&#34;</span> <span class="nv">class</span><span class="o">=</span><span class="s2">&#34;text-primary-500 hover:underline&#34;</span>&gt;<span class="nv">$1</span>&lt;/a&gt;<span class="s1">&#39;)
+</span></span></span><span class="line"><span class="cl"><span class="s1">    .replace(bareUrl, &#39;</span>&lt;a <span class="nv">href</span><span class="o">=</span><span class="s2">&#34;</span><span class="nv">$1</span><span class="s2">&#34;</span> <span class="nv">target</span><span class="o">=</span><span class="s2">&#34;_blank&#34;</span> <span class="nv">rel</span><span class="o">=</span><span class="s2">&#34;noopener noreferrer&#34;</span> <span class="nv">class</span><span class="o">=</span><span class="s2">&#34;text-primary-500 hover:underline&#34;</span>&gt;<span class="nv">$1</span>&lt;/a&gt;<span class="s1">&#39;)
+</span></span></span><span class="line"><span class="cl"><span class="s1">    .replace(/\n/g, &#39;</span>&lt;br&gt;<span class="err">&#39;</span><span class="o">)</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl"><span class="o">}</span>
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl">loadComments<span class="o">()</span><span class="p">;</span>
@@ -2308,13 +2308,13 @@ stateDiagram-v2
 </span></span></span><span class="line"><span class="cl"><span class="s2">}
 </span></span></span><span class="line"><span class="cl"><span class="s2">
 </span></span></span><span class="line"><span class="cl"><span class="s2">function formatContent(str) {
-</span></span></span><span class="line"><span class="cl"><span class="s2">  return escHtml(str)
-</span></span></span><span class="line"><span class="cl"><span class="s2">    // markdown links first
-</span></span></span><span class="line"><span class="cl"><span class="s2">    .replace(/\[([^\]]+)\]\((https?:\/\/[^\)]+)\)/g, &#39;&lt;a href=&#34;</span><span class="nv">$2</span><span class="s2">&#34; target=&#34;</span>_blank<span class="s2">&#34; rel=&#34;</span>noopener noreferrer<span class="s2">&#34; class=&#34;</span>text-primary-500 hover:underline<span class="s2">&#34;&gt;</span><span class="nv">$1</span><span class="s2">&lt;/a&gt;&#39;)
-</span></span></span><span class="line"><span class="cl"><span class="s2">    // then bare URLs (not already inside an href)
-</span></span></span><span class="line"><span class="cl"><span class="s2">    .replace(/(?&lt;!href=&#34;</span><span class="o">)(</span>https?:<span class="se">\/\/</span><span class="o">[</span>^<span class="se">\s</span>&lt;<span class="o">]</span>+<span class="o">)</span>/g, <span class="s1">&#39;&lt;a href=&#34;$1&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34; class=&#34;text-primary-500 hover:underline&#34;&gt;$1&lt;/a&gt;&#39;</span><span class="o">)</span>
-</span></span><span class="line"><span class="cl">    // newlines last
-</span></span><span class="line"><span class="cl">    .replace<span class="o">(</span>/<span class="se">\n</span>/g, <span class="s1">&#39;&lt;br&gt;&#39;</span><span class="o">)</span><span class="p">;</span>
+</span></span></span><span class="line"><span class="cl"><span class="s2">  const mdLink   = new RegExp(&#39;\\[([^\\]]+)\\]\\((https?:\\/\\/[^\\)]+)\\)&#39;, &#39;g&#39;);
+</span></span></span><span class="line"><span class="cl"><span class="s2">  const bareUrl  = new RegExp(&#39;(?&lt;!href=&#34;</span><span class="o">)(</span>https?:<span class="se">\\</span>/<span class="se">\\</span>/<span class="o">[</span>^<span class="se">\\</span>s&lt;<span class="o">]</span>+<span class="o">)</span><span class="s1">&#39;, &#39;</span>g<span class="s1">&#39;);
+</span></span></span><span class="line"><span class="cl"><span class="s1">
+</span></span></span><span class="line"><span class="cl"><span class="s1">  return escHtml(str)
+</span></span></span><span class="line"><span class="cl"><span class="s1">    .replace(mdLink,  &#39;</span>&lt;a <span class="nv">href</span><span class="o">=</span><span class="s2">&#34;</span><span class="nv">$2</span><span class="s2">&#34;</span> <span class="nv">target</span><span class="o">=</span><span class="s2">&#34;_blank&#34;</span> <span class="nv">rel</span><span class="o">=</span><span class="s2">&#34;noopener noreferrer&#34;</span> <span class="nv">class</span><span class="o">=</span><span class="s2">&#34;text-primary-500 hover:underline&#34;</span>&gt;<span class="nv">$1</span>&lt;/a&gt;<span class="s1">&#39;)
+</span></span></span><span class="line"><span class="cl"><span class="s1">    .replace(bareUrl, &#39;</span>&lt;a <span class="nv">href</span><span class="o">=</span><span class="s2">&#34;</span><span class="nv">$1</span><span class="s2">&#34;</span> <span class="nv">target</span><span class="o">=</span><span class="s2">&#34;_blank&#34;</span> <span class="nv">rel</span><span class="o">=</span><span class="s2">&#34;noopener noreferrer&#34;</span> <span class="nv">class</span><span class="o">=</span><span class="s2">&#34;text-primary-500 hover:underline&#34;</span>&gt;<span class="nv">$1</span>&lt;/a&gt;<span class="s1">&#39;)
+</span></span></span><span class="line"><span class="cl"><span class="s1">    .replace(/\n/g, &#39;</span>&lt;br&gt;<span class="err">&#39;</span><span class="o">)</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl"><span class="o">}</span>
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl">loadComments<span class="o">()</span><span class="p">;</span>
@@ -2471,18 +2471,18 @@ stateDiagram-v2
 </span></span></span><span class="line"><span class="cl"><span class="s1">}
 </span></span></span><span class="line"><span class="cl"><span class="s1">
 </span></span></span><span class="line"><span class="cl"><span class="s1">function formatContent(str) {
-</span></span></span><span class="line"><span class="cl"><span class="s1">  return escHtml(str)
-</span></span></span><span class="line"><span class="cl"><span class="s1">    // markdown links first
-</span></span></span><span class="line"><span class="cl"><span class="s1">    .replace(/\[([^\]]+)\]\((https?:\/\/[^\)]+)\)/g, &#39;</span>&lt;a <span class="nv">href</span><span class="o">=</span><span class="s2">&#34;</span><span class="nv">$2</span><span class="s2">&#34;</span> <span class="nv">target</span><span class="o">=</span><span class="s2">&#34;_blank&#34;</span> <span class="nv">rel</span><span class="o">=</span><span class="s2">&#34;noopener noreferrer&#34;</span> <span class="nv">class</span><span class="o">=</span><span class="s2">&#34;text-primary-500 hover:underline&#34;</span>&gt;<span class="nv">$1</span>&lt;/a&gt;<span class="s1">&#39;)
-</span></span></span><span class="line"><span class="cl"><span class="s1">    // then bare URLs (not already inside an href)
-</span></span></span><span class="line"><span class="cl"><span class="s1">    .replace(/(?&lt;!href=&#34;)(https?:\/\/[^\s&lt;]+)/g, &#39;</span>&lt;a <span class="nv">href</span><span class="o">=</span><span class="s2">&#34;</span><span class="nv">$1</span><span class="s2">&#34;</span> <span class="nv">target</span><span class="o">=</span><span class="s2">&#34;_blank&#34;</span> <span class="nv">rel</span><span class="o">=</span><span class="s2">&#34;noopener noreferrer&#34;</span> <span class="nv">class</span><span class="o">=</span><span class="s2">&#34;text-primary-500 hover:underline&#34;</span>&gt;<span class="nv">$1</span>&lt;/a&gt;<span class="s1">&#39;)
-</span></span></span><span class="line"><span class="cl"><span class="s1">    // newlines last
-</span></span></span><span class="line"><span class="cl"><span class="s1">    .replace(/\n/g, &#39;</span>&lt;br&gt;<span class="err">&#39;</span><span class="o">)</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl"><span class="o">}</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">loadAllComments<span class="o">()</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">&lt;/script&gt;
-</span></span><span class="line"><span class="cl"><span class="o">{{</span> end <span class="o">}}</span></span></span></code></pre></div></div>
+</span></span></span><span class="line"><span class="cl"><span class="s1">  const mdLink   = new RegExp(&#39;</span><span class="se">\\</span><span class="o">[([</span>^<span class="se">\\</span><span class="o">]]</span>+<span class="o">)</span><span class="se">\\</span><span class="o">]</span><span class="se">\\</span><span class="o">((</span>https?:<span class="se">\\</span>/<span class="se">\\</span>/<span class="o">[</span>^<span class="se">\\</span><span class="o">)]</span>+<span class="o">)</span><span class="se">\\</span><span class="o">)</span><span class="s1">&#39;, &#39;</span>g<span class="s1">&#39;);
+</span></span></span><span class="line"><span class="cl"><span class="s1">  const bareUrl  = new RegExp(&#39;</span><span class="o">(</span>?&lt;!href<span class="o">=</span><span class="s2">&#34;)(https?:\\/\\/[^\\s&lt;]+)&#39;, &#39;g&#39;);
+</span></span></span><span class="line"><span class="cl"><span class="s2">
+</span></span></span><span class="line"><span class="cl"><span class="s2">  return escHtml(str)
+</span></span></span><span class="line"><span class="cl"><span class="s2">    .replace(mdLink,  &#39;&lt;a href=&#34;</span><span class="nv">$2</span><span class="s2">&#34; target=&#34;</span>_blank<span class="s2">&#34; rel=&#34;</span>noopener noreferrer<span class="s2">&#34; class=&#34;</span>text-primary-500 hover:underline<span class="s2">&#34;&gt;</span><span class="nv">$1</span><span class="s2">&lt;/a&gt;&#39;)
+</span></span></span><span class="line"><span class="cl"><span class="s2">    .replace(bareUrl, &#39;&lt;a href=&#34;</span><span class="nv">$1</span><span class="s2">&#34; target=&#34;</span>_blank<span class="s2">&#34; rel=&#34;</span>noopener noreferrer<span class="s2">&#34; class=&#34;</span>text-primary-500 hover:underline<span class="s2">&#34;&gt;</span><span class="nv">$1</span><span class="s2">&lt;/a&gt;&#39;)
+</span></span></span><span class="line"><span class="cl"><span class="s2">    .replace(/\n/g, &#39;&lt;br&gt;&#39;);
+</span></span></span><span class="line"><span class="cl"><span class="s2">}
+</span></span></span><span class="line"><span class="cl"><span class="s2">
+</span></span></span><span class="line"><span class="cl"><span class="s2">loadAllComments();
+</span></span></span><span class="line"><span class="cl"><span class="s2">&lt;/script&gt;
+</span></span></span><span class="line"><span class="cl"><span class="s2">{{ end }}</span></span></span></code></pre></div></div>
 <p>最後我們在 Hugo 內建的搜尋工具底下新增這個頁面，複製模板內的搜尋功能到我們自己的檔案底下 <code> layouts/partials/search.html </code></p>
 <div class="highlight-wrapper"><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">cp themes/blowfish/layouts/partials/search.html layouts/partials/search.html</span></span></code></pre></div></div>
 <p>新增一項指引到留言搜尋頁面的元件</p>
