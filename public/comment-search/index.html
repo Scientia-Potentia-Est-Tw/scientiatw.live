@@ -970,9 +970,14 @@ function normalizeUrl(url) {
 }
 
 function formatContent(str) {
-  return escHtml(str).replace(/\n/g, '<br>');
+  return escHtml(str)
+    
+    .replace(/\[([^\]]+)\]\((https?:\/\/[^\)]+)\)/g, '<a href="$2" target="_blank" rel="noopener noreferrer" class="text-primary-500 hover:underline">$1</a>')
+    
+    .replace(/(?<!href=")(https?:\/\/[^\s<]+)/g, '<a href="$1" target="_blank" rel="noopener noreferrer" class="text-primary-500 hover:underline">$1</a>')
+    
+    .replace(/\n/g, '<br>');
 }
-
 loadAllComments();
 </script>
 

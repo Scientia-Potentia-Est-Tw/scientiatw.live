@@ -1,7 +1,7 @@
 ---
 title: "Hugo 靜態部落格簡易留言板實作"
 date: 2026-04-24T23:06:00+08:00
-lastmod: 2026-04-25T14:52:00+08:00
+lastmod: 2026-05-02T13:14:00+08:00
 author: "黃宏勝"
 categories:
   - 科技
@@ -504,7 +504,13 @@ function normalizeUrl(url) {
 }
 
 function formatContent(str) {
-  return escHtml(str).replace(/\n/g, '<br>');
+  return escHtml(str)
+    // markdown links first
+    .replace(/\[([^\]]+)\]\((https?:\/\/[^\)]+)\)/g, '<a href="$2" target="_blank" rel="noopener noreferrer" class="text-primary-500 hover:underline">$1</a>')
+    // then bare URLs (not already inside an href)
+    .replace(/(?<!href=")(https?:\/\/[^\s<]+)/g, '<a href="$1" target="_blank" rel="noopener noreferrer" class="text-primary-500 hover:underline">$1</a>')
+    // newlines last
+    .replace(/\n/g, '<br>');
 }
 
 loadComments();
@@ -736,7 +742,13 @@ function normalizeUrl(url) {
 }
 
 function formatContent(str) {
-  return escHtml(str).replace(/\n/g, '<br>');
+  return escHtml(str)
+    // markdown links first
+    .replace(/\[([^\]]+)\]\((https?:\/\/[^\)]+)\)/g, '<a href="$2" target="_blank" rel="noopener noreferrer" class="text-primary-500 hover:underline">$1</a>')
+    // then bare URLs (not already inside an href)
+    .replace(/(?<!href=")(https?:\/\/[^\s<]+)/g, '<a href="$1" target="_blank" rel="noopener noreferrer" class="text-primary-500 hover:underline">$1</a>')
+    // newlines last
+    .replace(/\n/g, '<br>');
 }
 
 loadComments();
@@ -906,7 +918,13 @@ function normalizeUrl(url) {
 }
 
 function formatContent(str) {
-  return escHtml(str).replace(/\n/g, '<br>');
+  return escHtml(str)
+    // markdown links first
+    .replace(/\[([^\]]+)\]\((https?:\/\/[^\)]+)\)/g, '<a href="$2" target="_blank" rel="noopener noreferrer" class="text-primary-500 hover:underline">$1</a>')
+    // then bare URLs (not already inside an href)
+    .replace(/(?<!href=")(https?:\/\/[^\s<]+)/g, '<a href="$1" target="_blank" rel="noopener noreferrer" class="text-primary-500 hover:underline">$1</a>')
+    // newlines last
+    .replace(/\n/g, '<br>');
 }
 
 loadAllComments();
