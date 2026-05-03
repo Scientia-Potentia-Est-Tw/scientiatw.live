@@ -8,19 +8,19 @@ aliases:
   - about-me
   - about-site
 slug: about
-lastmod: '2026-03-30T14:04:00+08:00'
+lastmod: '2026-05-03T11:07:00+08:00'
 showComments: false
 ---
 ## 關於本站
-此部落格主要記錄我所有好奇跟想做的事情
+此部落格主要記錄我所有好奇跟想做的事情，因為我沒有使用任何社群媒體，所以架了一個部落格來分享
 
-訂閱本站RSS的話請用這個連結：[RSS](https://hshuang.blog/index.xml)
+訂閱本站 RSS 的話請用這個連結：[RSS](https://hshuang.blog/index.xml)
 
 歡迎逛逛我的資安部落格：[Secologies](https://secologies.com/zh)
 
 任何問題可以寄到信箱內：[hshuang@hshuang.blog](mailto:hshuang@hshuang.blog)
 
-此部落格不經營任何社群媒體，如果讀者在社群平台或奇怪的 APP 上看到我，皆是假冒的，畢竟我早就跟祖克柏說[再見](https://hshuang.blog/posts/sayonara-zuckerberg/)了
+另外如果讀者在社群平台或奇怪的 APP 上看到我，皆是假冒的
 
 ## 關於我
 
