@@ -46,7 +46,7 @@
   weight = 70
 
 [[main]]
-  name = "作品牆"
+  name = "相冊"
   pageRef = "gallery"
   weight = 80
 
