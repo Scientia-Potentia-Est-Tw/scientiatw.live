@@ -3,14 +3,20 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
-    <loc>https://hshuang.blog/posts/inferiority-complex-ignite-my-death-instinct/</loc>
-    <lastmod>2026-05-02T19:25:00+08:00</lastmod>
+    <loc>https://hshuang.blog/use/</loc>
+    <lastmod>2026-05-05T11:17:00+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://hshuang.blog/</loc>
-    <lastmod>2026-05-03T11:07:00+08:00</lastmod>
+    <lastmod>2026-05-05T11:17:00+08:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://hshuang.blog/posts/inferiority-complex-ignite-my-death-instinct/</loc>
+    <lastmod>2026-05-02T19:25:00+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
@@ -77,12 +83,6 @@
   <url>
     <loc>https://hshuang.blog/posts/2026-03-25/</loc>
     <lastmod>2026-03-25T19:01:00+08:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://hshuang.blog/use/</loc>
-    <lastmod>2026-04-27T15:19:00+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>

@@ -1,8 +1,8 @@
 ---
 title: 使用
 description: 
-date: 2026-03-22T10:33:00+08:00
-lastmod: 2026-04-27T15:19:00+08:00
+date: 2026-05-05T11:16:00+08:00
+lastmod: 2026-05-05T11:17:00+08:00
 author: "黃宏勝"
 aliases:
   - use
@@ -11,7 +11,7 @@ showComments: false
 ---
 ## 🖥️ 電腦軟體
 ### 💾 作業系統
-- macOS - MacBook Pro M1 Max 16 吋用來寫文章、學術論文、音樂製作、剪片、錄音
+- macOS - MacBook Pro M1 Max 16 吋用來寫文章、學術論文、錄音、操作 DAW、剪片
 - [Ubuntu Desktop 24.04 LTS](https://ubuntu.com/download/desktop) - [Framework Laptop 16](https://frame.work/tw/en/laptop16) 吋用來 FPGA/SoC 設計、網路安全防禦系統專案開發、CTF Reverse/Pwn 解題工具、7B-13B Small Language Model 跟一些 ML/DL 訓練
 
 ### 🌏 瀏覽器
@@ -40,8 +40,7 @@ showComments: false
 - [VSCode](https://code.visualstudio.com/) - 用來做 Latex Beamer 簡報，設計網頁時也比較方便
 
 ### 🗂️ 學術軟體
-- [EndNote](https://endnote.com/) - 幾乎每間大學都有購買 EndNote 的校園授權，除了給校內教師使用，研究生用來記載自己看過的 paper，要插入到 word 或者 overleaf 裡都很方便
-- [Zotero](https://www.zotero.org/) - 開源版本的文獻管理工具，IACR 的 eprint 文獻頁面可以直接右鍵匯入，但 EndNote 卻沒辦法，所以 Zotero 其實對我蠻必要的
+- [Zotero](https://www.zotero.org/) - 開源版本的文獻管理工具，IACR 的 eprint 文獻頁面可以直接右鍵匯入，但 EndNote 卻沒辦法，所以 Zotero 對我才是有用的，並且在 Linux、macOS 以及 Windows 上都有支援
 - [TeXShop](https://pages.uoregon.edu/koch/texshop/) - 在 macOS 上搭配 VSCode 編輯 Tex 檔案，也可以在 local 端編譯，以前有一晚 Overleaf 網站掛掉時我正在趕報告，搞得我心急如焚所以才想到也必須有備援方案，建議把 Overleaf 上心儀的模板也備份一組到硬碟中
 
 ### 💬 通訊軟體
