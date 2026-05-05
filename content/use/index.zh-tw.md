@@ -85,7 +85,8 @@ showComments: false
 - [Novation Launchkey 61 MK4](https://novationmusic.com/products/launchkey-61) - 我的主要 MIDI 主控鍵盤
 - [Logic Pro](https://www.apple.com/logic-pro/) - macOS 上最受歡迎的 DAW，搭配各式各樣的插件就可以模擬許多可能性，只靠 MIDI 鍵盤還是可以玩得很開心
 
-## 🎙️ 錄音設備
+## 🎙️ 錄音相關
+- [GarageBand](https://www.apple.com/mac/garageband/) - 錄音用軟體，直接對音軌做編輯很方便
 - [Audient Evo 4](https://evo.audio/products/audio-interfaces/evo-4/overview/) - 入門級錄音介面，如果只是單人的 Podcast 節目就很夠用了
 - Shure MV7 - 許多 Podcaster 推薦的動圈式麥克風
 - [Yamaha HPH-50](https://tw.yamaha.com/zh/audio/headphones/products/headphones/hph-50/) - 練琴時的耳機，因為有 6.3mm 所以也拿來當監聽耳機
