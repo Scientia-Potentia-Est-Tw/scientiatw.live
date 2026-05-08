@@ -3,13 +3,19 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
-    <loc>https://hshuang.blog/use/</loc>
-    <lastmod>2026-05-05T11:17:00+08:00</lastmod>
+    <loc>https://hshuang.blog/</loc>
+    <lastmod>2026-05-08T11:36:00+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://hshuang.blog/</loc>
+    <loc>https://hshuang.blog/posts/the-helpful-fox-adult/</loc>
+    <lastmod>2026-05-08T11:36:00+08:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://hshuang.blog/use/</loc>
     <lastmod>2026-05-05T11:17:00+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -491,11 +497,6 @@
   <url>
     <loc>https://hshuang.blog/posts/perennial-seller/</loc>
     <lastmod>2026-03-30T15:16:00+08:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://hshuang.blog/posts/information-age-free-people/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
