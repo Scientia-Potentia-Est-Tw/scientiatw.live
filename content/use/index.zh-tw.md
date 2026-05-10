@@ -2,7 +2,7 @@
 title: 使用
 description: 
 date: 2026-05-05T11:16:00+08:00
-lastmod: 2026-05-05T11:17:00+08:00
+lastmod: 2026-05-10T18:33:00+08:00
 author: "黃宏勝"
 aliases:
   - use
@@ -19,7 +19,6 @@ showComments: false
 
 ### 🧮 瀏覽器插件
 - [News Feed Eradicator](https://chromewebstore.google.com/detail/news-feed-eradicator/fjcldmjmjhkklehbacihaiopjklihlgg?hl=en) - 可以封鎖各社群媒體平台上的動態資訊，尤其是那些被演算法才推給我的資訊，我根本不在乎，畢竟我用 Youtube 只為了看教學影片而已
-- [Block Site](https://chromewebstore.google.com/detail/block-site/nkedbnokglppcmiencngilkkhhnpcfjb?hl=en) - 免費版就可以封鎖多個自訂的網域，甚至連頁面上特定的 iFrame 都可以阻擋掉，對於我這種很容易在網路上迷失自我的人是很需要的
 
 ### 🔈 RSS工具
 - [Vienna RSS](https://www.vienna-rss.com/) - macOS 上開源的 RSS 軟體，非常好用
