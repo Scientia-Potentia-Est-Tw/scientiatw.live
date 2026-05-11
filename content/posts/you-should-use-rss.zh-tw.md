@@ -9,7 +9,7 @@ keywords:
 - RSS
 - 資訊
 - 壟斷
-lastmod: "2026-03-07T11:48:00+08:00"
+lastmod: "2026-05-11T19:29:00+08:00"
 slug: you-should-use-rss
 summary: 在這個注意力被各種事物搶奪的時代，你是否感覺自己在資訊海洋中溺水了？
 description: "在這個注意力被各種事物搶奪的時代，你是否感覺自己在資訊海洋中溺水了？"
@@ -51,24 +51,12 @@ title: 自主選擇乾淨的資訊，回歸RSS的懷抱吧！
 透過RSS工具訂閱任何我真正關注的事物，而不讓科技公司決定我該看些什麼，尤其他們都不把演算法開源出來我們根本無法得知推播在河道上的資訊究竟是從哪裡來的，所以常常就有一堆我根本不感興趣且毫無相關的資訊出現在我面前，甚至中間穿插了個短影音還給我自動播放我越用越火大
 
 只要該網站有提供RSS(任何一個為讀者著想的平台都應該要有這功能)訂閱者就不會錯過任何內容，你就不用再浪費時間刷些你之後根本不會記得的文章，在RSS裡出現你想知道的事情再點進去看即可，像我就訂閱了：
-- [Wiwi.Blog](https://wiwi.blog/)：好和弦網站的站長Wiwi Kuan分享他自己的生活跟見解，他的RSS：[https://wiwi.blog/blog/rss.xml](https://wiwi.blog/blog/rss.xml)
-- [Sheracaolity](https://sheracaolity.ghost.io/)：[Heptabase](https://heptabase.com/)卡片盒筆記軟體創辦人詹雨安的網站，他會分享一些關於自己的經歷跟創業心得給讀者，他的RSS：[https://sheracaolity.ghost.io/rss/](https://sheracaolity.ghost.io/rss/)
-- [Huli's blog](https://life.huli.tw/)：前端開發者兼網頁安全研究員Huli的生活型部落格，分享一些他自己教課或人生見解，他的RSS：[https://life.huli.tw/atom.xml](https://life.huli.tw/atom.xml)
-- [電腦玩物](https://www.playpcesor.com/)：異塵行者Esor站長在電腦玩物分享數位工具軟體與服務，分享他使用者些數位工具的心得，他的RSS：[https://feeds.feedburner.com/playpc](https://feeds.feedburner.com/playpc)
-- [伊果的沒人看筆記本](https://igouist.github.io/)：Windows開發者伊果平時會分享一些套件工具文章以及生活分享，他的RSS：[https://igouist.github.io/index.xml](https://igouist.github.io/index.xml)
-- [資工小廢物 - JN](https://blog.giveanornot.com/)：JN會分享一些生活見解，他的RSS：[https://blog.giveanornot.com/index.xml](https://blog.giveanornot.com/index.xml)
-- [Skychopath](https://skyhong.tw/)：Sky有時候寫些資料科學的長文可以期待，他的RSS：[https://skyhong.tw/rss/](https://skyhong.tw/rss/)
-- [駉](https://alexhsu.com/zh)：獨立APP開發者駉寫一些關於職涯上或人生上的想法，他的RSS：[https://alexhsu.com/zh/rss.xml](https://alexhsu.com/zh/rss.xml)
-- [Hacker News](https://news.ycombinator.com/news)：Y Combinator的Hacker News，每天都有一堆文章，RSS：[https://news.ycombinator.com/rss](https://news.ycombinator.com/rss)
-- [Lobsters](https://lobste.rs)：跟Hacker News很類似的網站，不過文章只有關於電腦相關的，RSS：[https://lobste.rs/rss](https://lobste.rs/rss)
-- [報導者](https://www.twreporter.org/)：台灣少數幾個還能看的新聞網站，RSS：[https://public.twreporter.org/rss/twreporter-rss.xml](https://public.twreporter.org/rss/twreporter-rss.xml)
-- [關鍵評論網](https://www.thenewslens.com/)：找書籍時它的書摘分享有些參考價值，RSS：[https://feeds.feedburner.com/TheNewsLens](https://feeds.feedburner.com/TheNewsLens)
-- [換日線](https://crossing.cw.com.tw/)：雖然有些文章有點染上政治色彩，不過留學資訊或國際觀的讀者投書文章還算有些價值，RSS：[https://crossing.cw.com.tw/rss](https://crossing.cw.com.tw/rss)
-- [Seth's blog](https://seths.blog/)：暢銷管理學作家Seth Godin的部落格，常常會分享一些他自己生活中的見解，RSS：[https://feeds.feedblitz.com/sethsblog](https://feeds.feedblitz.com/sethsblog)
-- [Kagi Small Web](https://kagi.com/smallweb)：一個蒐錄了網路上許多小型個人網站或blog的地方，有時候可以找到有趣的部落客，RSS：[https://kagi.com/api/v1/smallweb/feed/](https://kagi.com/api/v1/smallweb/feed/)
+- [Hacker News](https://news.ycombinator.com/news)：Y Combinator 的 Hacker News，每天都有一堆電腦科學相關的文章，RSS：[https://news.ycombinator.com/rss](https://news.ycombinator.com/rss)
+- [Lobsters](https://lobste.rs)：跟 Hacker News 很類似的老牌網站，RSS：[https://lobste.rs/rss](https://lobste.rs/rss)
 - [Slashdot](https://slashdot.org/)：一個老牌科技新聞論壇，每天都有蠻多討論的，RSS：[https://rss.slashdot.org/Slashdot/slashdotMain](https://rss.slashdot.org/Slashdot/slashdotMain)
+- [Kagi Small Web](https://kagi.com/smallweb)：一個蒐錄了網路上許多小型個人網站或blog的地方，有時候可以找到有趣的部落客，RSS：[https://kagi.com/api/v1/smallweb/feed/](https://kagi.com/api/v1/smallweb/feed/)
 
-甚至PTT的每一個版面都可以用RSS訂閱，只要使用https://www.ptt.cc/atom/欲訂閱版名稱.xml，例如 [https://www.ptt.cc/atom/PhD.xml](https://www.ptt.cc/atom/PhD.xml)就可以訂閱了(每天都要看PhD版看別人痛苦跟發瘋文🫠)，需要發文時在登入上去即可
+甚至 PTT 的每一個版面都可以用 RSS 訂閱，只要使用 https://www.ptt.cc/atom/欲訂閱版名稱.xml 即可，例如 [https://www.ptt.cc/atom/PhD.xml](https://www.ptt.cc/atom/PhD.xml)就可以訂閱了(有興趣的可以上 PhD 版看別人每天痛苦跟發瘋 🫠)，需要發文時在登入上去即可
 
 限制資訊來源只看那些有品質保障的文章，而不是刷那些毫無前後脈絡的社群媒體貼文，讓自己可以真正保留看過的印象
 
