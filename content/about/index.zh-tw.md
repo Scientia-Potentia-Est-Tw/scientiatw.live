@@ -16,7 +16,7 @@ showComments: false
 
 訂閱本站 RSS 的話請用這個連結：[RSS](https://hshuang.blog/index.xml)
 
-歡迎逛逛我的資安部落格：[Secologies](https://secologies.com/zh)
+歡迎逛逛我的資安部落格：[Secologies](https://secologies.com)
 
 任何問題可以寄到信箱內：[hshuang@hshuang.blog](mailto:hshuang@hshuang.blog)
 
@@ -24,7 +24,7 @@ showComments: false
 
 ## 關於我
 
-我是[黃宏勝](https://secologies.com/zh/hong-sheng-huang-zh/)，臺東人
+我是[黃宏勝](https://secologies.com/hong-sheng-huang)，臺東人
 
 - Z 世代
 - 北漂青年

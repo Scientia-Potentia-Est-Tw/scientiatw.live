@@ -80,7 +80,7 @@ featureimage: https://secologies.com/wp-content/uploads/2025/10/blog-questions-c
 未來規劃要養成Obsidian裡有足夠的素材時才開始寫文章，不然東缺西缺一直放在資料夾裡我看了也心煩
 
 ## 你部落格上最喜歡的文章是哪一篇？
-在我的技術部落格裡，我最喜歡的是《[PUF 晶片上的物理不可複製功能](https://secologies.com/zh/physical-unclonable-function/)》這文章，當初修硬體安全這門課時體驗很好，學到很多東西
+在我的技術部落格裡，我最喜歡的是《[PUF 晶片上的物理不可複製功能](https://secologies.com/physical-unclonable-function/)》這文章，當初修硬體安全這門課時體驗很好，學到很多東西
 
 也是讓我不後悔延畢後所遇到的一門課，讓我認識除了做純密碼研究之外還有更廣泛應用的領域，而裡面談保護晶片最重要的方法之一就是使用PUF，所以我認為這篇作為晶片安全的入門很適合
 
@@ -91,7 +91,7 @@ featureimage: https://secologies.com/wp-content/uploads/2025/10/blog-questions-c
 ## 你對部落格有什麼未來計畫嗎？例如重新設計、搬到另一個平台，或是加入新功能？
 技術部落格如我冀望它的名字，《[Secologies](https://secologies.com/)》，希望從數學、硬體到軟體的多維度視角來建構完整的資安生態圈，所以我需要開始多補充詳細的數學文章彌補讀者的底層知識，讓網站成為自給自足(self-contained)的平台
 
-以及目前開放免費的電子報註冊[https://secologies.com/zh/newsletter-zh/](https://secologies.com/zh/newsletter-zh/)，未來打算推出訂閱制的電子報，還有推出一些線上課程，Wordpress模板換了好幾次，目前這個消耗的計算資源最少，應該不會再換了
+以及目前開放免費的電子報註冊[https://secologies.com/newsletter](https://secologies.com/newsletter)，未來打算推出訂閱制的電子報，還有推出一些線上課程，Wordpress模板換了好幾次，目前這個消耗的計算資源最少，應該不會再換了
 
 而個人部落格未來如果Cloudflare Pages開始收費的話可能又要換平台了，但我對目前的Hugo模板很滿意，之前換過好幾次模板只有這一次的滿足卡片式、關鍵字搜尋、目錄支援且最重要有meta tag的SEO優化，所以未來應該不會考慮換模板
 

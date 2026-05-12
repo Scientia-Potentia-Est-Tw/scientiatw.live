@@ -60,4 +60,4 @@ H_{b}(X) = -\sum_{x \in \mathbb{X}} P(x) \cdot log_{b}P(x) = \mathbb{E}[-log_{b}
 
 共勉之
 
-[^1]: 消息理論中的熵定義 - [https://secologies.com/zh/entropy-information-theory/](https://secologies.com/zh/entropy-information-theory/)
+[^1]: 消息理論中的熵定義 - [https://secologies.com/entropy-information-theory/](https://secologies.com/entropy-information-theory/)
