@@ -9,12 +9,12 @@ displayName = "繁體中文"
 isoCode = "zh-tw"
 rtl = false
 dateFormat = "2006-01-02 15:04"
-description = "思考、等待、齋戒"
+description = "思考、等待、齋戒、忍耐、傾聽"
 
 [params.author]
 name = "黃宏勝"
 image = "img/Author.jpg"
-headline = "思考、等待、齋戒"
+headline = "思考、等待、齋戒、忍耐、傾聽"
 bio = "菸酒生"
 links = [
   { globe = "https://secologies.com" },
