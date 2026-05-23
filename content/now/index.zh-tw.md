@@ -6,7 +6,7 @@ author: "黃宏勝"
 aliases:
   - now
 slug: now
-lastmod: '2026-05-21T10:59:00+08:00'
+lastmod: '2026-05-23T15:44:00+08:00'
 showComments: false
 ---
 ## 🏡 最近的狀態
@@ -16,7 +16,7 @@ showComments: false
 - 🥬 飲食：有自助餐時自助餐，但假日都沒開，哭啊
 
 ## 🌐 最近網路上的狀態
-- 💻 [Secologies](https://secologies.com)：又把留言區開起來了
+- 💻 [Secologies](https://secologies.com)：又關掉留言區，阻擋垃圾留言的 Wordpress 插件在更新又搞壞我的網站，雖然 Wordpress 方便歸方便，但用 PHP 開發出來太久了有時都會出 Bug
 - 🗓 社群部落格：完成五月份的部落格同樂會文章，[你以為的絕境，藏著豐收的秘密](https://hshuang.blog/posts/within-the-abyss-you-perceive-lies-the-secret-to-a-bountiful-harvest/)
 
 ## 🍳 最近吃的/喝的
