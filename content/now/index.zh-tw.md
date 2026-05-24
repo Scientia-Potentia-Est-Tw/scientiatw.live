@@ -15,7 +15,7 @@ lastmod: '2026-05-24T14:22:00+08:00'
 - 🥬 飲食：有自助餐時自助餐，但假日都沒開，哭啊
 
 ## 🌐 最近網路上的狀態
-- 💻 [Secologies](https://secologies.com)：又關掉留言區，阻擋垃圾留言的 Wordpress 插件在更新又搞壞我的網站，雖然 Wordpress 方便歸方便，但用 PHP 開發出來太久了有時都會出 Bug
+- 💻 [Secologies](https://secologies.com)：叕關掉留言區，阻擋垃圾留言的 Wordpress 插件在更新後又搞壞我的網站，雖然 Wordpress 方便歸方便，但用 PHP 開發出來太久了有時都會出 Bug
 - 🗓 個人部落格：又又叒關掉留言板，說實話每天除了檢查信箱之外，還要打開看 Google Sheets 檢查，完全就多一道耗費我心力的事情，而且有留言後我還得去想怎麼回覆，看完 YangBear 的[多與人產生聯繫
 ](https://yangbear.bearblog.dev/5599/)我重新審視自己的需求到底為何，還是麻煩你們有事時寫信找我吧
 
