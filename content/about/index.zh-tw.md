@@ -9,7 +9,6 @@ aliases:
   - about-site
 slug: about
 lastmod: '2026-05-08T13:20:00+08:00'
-showComments: false
 ---
 ## 關於本站
 此部落格主要記錄我所有好奇跟想做的事情，因為我沒有使用任何社群媒體，所以架了一個部落格來分享

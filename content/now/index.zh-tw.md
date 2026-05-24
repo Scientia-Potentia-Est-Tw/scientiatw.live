@@ -1,13 +1,12 @@
 ---
 title: 近況
 description: 
-date: '2026-05-21T10:58:00+08:00'
+date: '2026-05-24T14:17:00+08:00'
 author: "黃宏勝"
 aliases:
   - now
 slug: now
-lastmod: '2026-05-23T15:44:00+08:00'
-showComments: false
+lastmod: '2026-05-24T14:22:00+08:00'
 ---
 ## 🏡 最近的狀態
 - 🚎 通勤生活：禮拜一坐車到南港，禮拜五下午回新竹，遠比之前的通勤時數少許多
@@ -17,7 +16,8 @@ showComments: false
 
 ## 🌐 最近網路上的狀態
 - 💻 [Secologies](https://secologies.com)：又關掉留言區，阻擋垃圾留言的 Wordpress 插件在更新又搞壞我的網站，雖然 Wordpress 方便歸方便，但用 PHP 開發出來太久了有時都會出 Bug
-- 🗓 社群部落格：完成五月份的部落格同樂會文章，[你以為的絕境，藏著豐收的秘密](https://hshuang.blog/posts/within-the-abyss-you-perceive-lies-the-secret-to-a-bountiful-harvest/)
+- 🗓 個人部落格：又又叒關掉留言板，說實話每天除了檢查信箱之外，還要打開看 Google Sheets 檢查，完全就多一道耗費我心力的事情，而且有留言後我還得去想怎麼回覆，看完 YangBear 的[多與人產生聯繫
+](https://yangbear.bearblog.dev/5599/)我重新審視自己的需求到底為何，還是麻煩你們有事時寫信找我吧
 
 ## 🍳 最近吃的/喝的
 - 🍠 [全聯原食早安夯烤地瓜](https://shop.pxgo.com.tw/hourArrive/goods/419199-750305-2675030514315)，作為我早餐必備的地瓜，89 元裡面有 7 到 8 塊，比起 7-11 蒸地瓜最少 25 元的價格還來得划算，口感也很不錯，冰的吃熱的吃都很棒

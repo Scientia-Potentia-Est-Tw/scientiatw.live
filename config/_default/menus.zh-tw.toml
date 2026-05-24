@@ -51,14 +51,9 @@
   weight = 80
 
 [[main]]
-  name = "留言板"
-  pageRef = "guestbook"
-  weight = 90
-
-[[main]]
   name = "訂閱電子報"
   pageRef = "newsletter"
-  weight = 100
+  weight = 90
 
 #[[main]]
 #  name = "example sub-menu 1"

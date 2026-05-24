@@ -6,7 +6,6 @@ aliases:
   - books
 slug: books
 lastmod: '2026-05-01T10:17:00+08:00'
-showComments: false
 ---
 ## 商業
 | 書名      | 相關文章 |

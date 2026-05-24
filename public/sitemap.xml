@@ -4,13 +4,13 @@
 
   <url>
     <loc>https://hshuang.blog/now/</loc>
-    <lastmod>2026-05-23T15:44:00+08:00</lastmod>
+    <lastmod>2026-05-24T14:22:00+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://hshuang.blog/</loc>
-    <lastmod>2026-05-23T15:44:00+08:00</lastmod>
+    <lastmod>2026-05-24T14:22:00+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
@@ -39,26 +39,14 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://hshuang.blog/comment-search/</loc>
-    <lastmod>2026-04-25T09:44:00+08:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>https://hshuang.blog/posts/hugo-simple-guestbook/</loc>
-    <lastmod>2026-05-02T13:14:00+08:00</lastmod>
+    <lastmod>2026-05-24T14:02:00+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://hshuang.blog/posts/modern-society-is-so-complicated/</loc>
     <lastmod>2026-04-23T20:37:00+08:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://hshuang.blog/guestbook/</loc>
-    <lastmod>2026-04-14T11:39:00+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>

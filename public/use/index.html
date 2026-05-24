@@ -502,24 +502,6 @@
       
   
     <a
-      href="/guestbook/"
-      
-      class="flex items-center bf-icon-color-hover"
-      aria-label="留言板"
-      title="留言板">
-      
-      
-        <span class="text-base font-medium break-normal">
-          留言板
-        </span>
-      
-    </a>
-  
-
-    
-      
-  
-    <a
       href="/newsletter/"
       
       class="flex items-center bf-icon-color-hover"
@@ -766,23 +748,6 @@
     
     <div class="px-2">
       <a
-        href="/guestbook/"
-        aria-label="留言板"
-        
-        class="flex items-center gap-4 group bf-icon-color-hover text-neutral-700 dark:text-neutral-200">
-        
-        <span title="留言板" class="text-2xl font-bold tracking-tight">
-          留言板
-        </span>
-        
-      </a>
-
-      
-    </div>
-  
-    
-    <div class="px-2">
-      <a
         href="/newsletter/"
         aria-label="訂閱電子報"
         
@@ -962,9 +927,6 @@
 
   
     
-  
-
-  
   
 
   
@@ -1652,14 +1614,14 @@
           
             <a
               class="flex text-neutral-700 hover:text-primary-600 dark:text-neutral dark:hover:text-primary-400"
-              href="/comment-search/">
+              href="/bucket-list/">
               <span class="leading-6">
-                <span class="inline-block rtl:rotate-180">&larr;</span>&ensp;搜尋留言
+                <span class="inline-block rtl:rotate-180">&larr;</span>&ensp;人生清單
               </span>
             </a>
             
               <span class="ms-6 mt-1 text-xs text-neutral-500 dark:text-neutral-400">
-                <time datetime="2026-04-25T09:43:00&#43;08:00">2026-04-25 09:43</time>
+                <time datetime="2026-04-12T14:26:00&#43;08:00">2026-04-12 14:26</time>
               </span>
             
           
@@ -1675,7 +1637,7 @@
             </a>
             
               <span class="me-6 mt-1 text-xs text-neutral-500 dark:text-neutral-400">
-                <time datetime="2026-05-21T10:58:00&#43;08:00">2026-05-21 10:58</time>
+                <time datetime="2026-05-24T14:17:00&#43;08:00">2026-05-24 14:17</time>
               </span>
             
           
@@ -1864,12 +1826,6 @@ document.addEventListener('DOMContentLoaded', function () {
       <ul id="search-results">
         
       </ul>
-      <div id="comment-search-hint" class="px-3 py-3 border-t border-neutral-200 dark:border-neutral-700">
-      <p class="text-xs text-neutral-400 dark:text-neutral-500">
-        想搜尋留言？請前往
-        <a href="/comment-search" class="text-primary-500 hover:underline">留言搜尋頁面</a>
-      </p>
-      </div>
     </section>
   </div>
 </div>
@@ -1888,25 +1844,6 @@ document.addEventListener('DOMContentLoaded', function () {
 </script>
 
     </div>
-    <script>
-(async () => {
-  const GIST_USERNAME = 'hshuang99';
-  const GIST_ID       = '3b5ad6ae66d41f4cd3587e2d59982fc1';
-
-  try {
-	  const res = await fetch(`https://gist.githubusercontent.com/${GIST_USERNAME}/${GIST_ID}/raw/comments.json?t=${Date.now()}`);
-	  const all = await res.json();
-	  document.querySelectorAll('.comment-count').forEach(el => {
-		  const key   = el.dataset.postkey;
-		  const count = (all[key] || []).length;
-		  el.querySelector('.count-num').textContent = count;
-	  });
-  } catch(e) {
-	  document.querySelectorAll('.count-num').forEach(el => el.textContent = '0');
-  }
-})();
-</script>
-
   </body>
   
 </html>
