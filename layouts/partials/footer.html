@@ -50,15 +50,9 @@
     {{/* Theme attribution */}}
     {{ if .Site.Params.footer.showThemeAttribution | default true }}
       <p class="text-xs text-neutral-500 dark:text-neutral-400">
-        <a href="//www.dmca.com/Protection/Status.aspx?ID=0778a9ef-73b2-4053-886c-1bc0f528e069" title="DMCA.com Protection Status" class="dmca-badge"> <img src ="https://images.dmca.com/Badges/dmca_protected_sml_120ac.png?ID=0778a9ef-73b2-4053-886c-1bc0f528e069"  alt="DMCA.com Protection Status" /></a>  <script src="https://images.dmca.com/Badges/DMCABadgeHelper.min.js"> </script>
-        <!--{{ $hugo := printf `<a class="hover:underline hover:decoration-primary-400 hover:text-primary-500"
+        {{ $hugo := printf `<a class="hover:underline hover:decoration-primary-400 hover:text-primary-500"
           href="https://gohugo.io/" target="_blank" rel="noopener noreferrer">Hugo</a>`
         }}
-        {{ $blowfish := printf `<a class="hover:underline hover:decoration-primary-400 hover:text-primary-500"
-          href="https://blowfish.page/" target="_blank" rel="noopener noreferrer">Blowfish</a>`
-        }}
-        {{ i18n "footer.powered_by" (dict "Hugo" $hugo "Theme" $blowfish) | safeHTML }}
-	-->
       </p>
     {{ end }}
   </div>
@@ -71,12 +65,6 @@
       });
     </script>
   {{ end }}
-  {{ $jsProcess := resources.Get "js/process.js" }}
-  {{ $jsProcess = $jsProcess | resources.Minify | resources.Fingerprint (.Site.Params.fingerprintAlgorithm | default "sha512") }}
-  <script
-    type="text/javascript"
-    src="{{ $jsProcess.RelPermalink }}"
-    integrity="{{ $jsProcess.Data.Integrity }}"></script>
   {{/* Extend footer - eg. for extra scripts, etc. */}}
   {{ if templates.Exists "partials/extend-footer.html" }}
     {{ partialCached "extend-footer.html" . }}

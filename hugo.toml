@@ -3,7 +3,7 @@
 # https://blowfish.page/docs/getting-started/
 
 theme = "blowfish" # UNCOMMENT THIS LINE
-baseURL = "https://hshuang.blog/"
+baseURL = "https://hshuang.com/"
 defaultContentLanguage = "zh-tw"
 hasCJKLanguage = true
 pluralizeListTitles = "true" # hugo function useful for non-english languages, find out more in  https://gohugo.io/getting-started/configuration/#pluralizelisttitles
@@ -16,7 +16,7 @@ buildFuture = false
 
 enableEmoji = true
 
-googleAnalytics = "G-GC235QD2XY"
+googleAnalytics = "G-ZQ5CYTBRS5"
 
 [params]
   logo = "static/favicon.ico"

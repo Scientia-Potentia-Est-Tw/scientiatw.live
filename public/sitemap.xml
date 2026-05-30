@@ -3,13 +3,19 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
-    <loc>https://hshuang.com/now/</loc>
-    <lastmod>2026-05-30T11:05:00+08:00</lastmod>
+    <loc>https://hshuang.com/use/</loc>
+    <lastmod>2026-05-30T19:32:00+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://hshuang.com/</loc>
+    <lastmod>2026-05-30T19:32:00+08:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://hshuang.com/now/</loc>
     <lastmod>2026-05-30T11:05:00+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -29,12 +35,6 @@
   <url>
     <loc>https://hshuang.com/posts/the-helpful-fox-adult/</loc>
     <lastmod>2026-05-08T11:36:00+08:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://hshuang.com/use/</loc>
-    <lastmod>2026-05-10T18:33:00+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>

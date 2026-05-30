@@ -7,7 +7,7 @@
   data-auto-appearance="true"><head>
   <meta charset="utf-8">
   
-    <meta http-equiv="content-language" content="zh-tw">
+    <meta http-equiv="content-language" content="zh-TW">
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -21,6 +21,16 @@
 
   
   
+  
+  
+  
+    
+  
+    
+  
+    
+  
+  
     <meta name="description" content="由於利用 Cloudflare Worker 架設 Hugo 靜態部落格沒有後台伺服器可以儲存，所以我們利用 Google Apps Script、GitHub Gist 以及 Google 表單來建立一個簡易的留言系統">
   
   
@@ -29,6 +39,7 @@
   
   
   <link rel="canonical" href="https://hshuang.com/posts/hugo-simple-guestbook/">
+  
   
 
   
@@ -54,7 +65,7 @@
   <meta property="og:site_name" content="黃宏勝的部落格 | hshuang.com">
   <meta property="og:title" content="Hugo 靜態部落格簡易留言板實作">
   <meta property="og:description" content="由於利用 Cloudflare Worker 架設 Hugo 靜態部落格沒有後台伺服器可以儲存，所以我們利用 Google Apps Script、GitHub Gist 以及 Google 表單來建立一個簡易的留言系統">
-  <meta property="og:locale" content="zh_tw">
+  <meta property="og:locale" content="zh_TW">
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
     <meta property="article:published_time" content="2026-04-24T23:06:00+08:00">
@@ -116,8 +127,8 @@
   <link
     type="text/css"
     rel="stylesheet"
-    href="/css/main.bundle.min.e99ce30310fa9161794259495bd611a07e8087e52c7f039ee01c08d7e5b5d0969b59977165695b98f4028492ca08c9c7717478f4f0e111ba25365b25ee4afdde.css"
-    integrity="sha512-6ZzjAxD6kWF5QllJW9YRoH6Ah&#43;UsfwOe4BwI1&#43;W10JabWZdxZWlbmPQChJLKCMnHcXR49PDhEbolNlsl7kr93g==">
+    href="/css/main.bundle.min.e0f584f3f37ca7940d79a3d0f7b5342d6d2ee27a32ba45402ad3e57b7b69de2b82a00ac7585151f5837eeb49a205d4e14e1994cb28358f9fd1973e9989c01410.css"
+    integrity="sha512-4PWE8/N8p5QNeaPQ97U0LW0u4noyukVAKtPle3tp3iuCoArHWFFR9YN&#43;60miBdThThmUyyg1j5/Rlz6ZicAUEA==">
 
   
   
@@ -142,9 +153,12 @@
   
   
     
+    
+    
   
   
     
+  
   
   
   
@@ -155,18 +169,14 @@
       defer
       type="text/javascript"
       id="script-bundle"
-      src="/js/main.bundle.min.bdda7dece6cbaf08deef7d254f7f842f3261c2524d247905127c9a20decc03f1011a2950048464c79272c1ce0705a49a41147f39f2b95163bb71d404b33263ef.js"
-      integrity="sha512-vdp97ObLrwje730lT3&#43;ELzJhwlJNJHkFEnyaIN7MA/EBGilQBIRkx5Jywc4HBaSaQRR/OfK5UWO7cdQEszJj7w=="
+      src="/js/main.bundle.min.8f75559c3b0987cc436337d462a0b075ebdd214d92a8eac880da424282daeece8759e586481872b873dc2eaa92c6a66f083e3be96ab847d926aea25777dfb292.js"
+      integrity="sha512-j3VVnDsJh8xDYzfUYqCwdevdIU2SqOrIgNpCQoLa7s6HWeWGSBhyuHPcLqqSxqZvCD476Wq4R9kmrqJXd9&#43;ykg=="
       data-copy="複製"
       data-copied="已複製"></script>
   
 
   
   
-
-<script src="/lib/jquery/jquery.slim.min.b0dca576e87d7eaa5850ae4e61759c065786cdb6489d68fcc82240539eebd5da522bdb4fda085ffd245808c8fe2acb2516408eb774ef26b5f6015fc6737c0ea8.js" integrity="sha512-sNylduh9fqpYUK5OYXWcBleGzbZInWj8yCJAU57r1dpSK9tP2ghf/SRYCMj&#43;KsslFkCOt3TvJrX2AV/Gc3wOqA=="></script>
-
-
 
   
   
@@ -175,8 +185,8 @@
   <script
     defer
     type="text/javascript"
-    src="/js/mermaid.bundle.123b31b3c46015cee384d15cf0ef614f7ed885722a7e6f496f9b83d7b8400aef5dc2f3b9fc778649d5ba948bf957b3c67bbdf4de0033db316bbe394e2f7da794.js"
-    integrity="sha512-Ejsxs8RgFc7jhNFc8O9hT37YhXIqfm9Jb5uD17hACu9dwvO5/HeGSdW6lIv5V7PGe7303gAz2zFrvjlOL32nlA=="></script>
+    src="/js/mermaid.bundle.c3f4160ee4c66cc5d12153aff8477ebce6e5103507ab46b889595151c4d50978e0e5b449d7496be0f07031b9ee1fc1de2e2459aac12fa60fbf7441f07e2bd2b3.js"
+    integrity="sha512-w/QWDuTGbMXRIVOv&#43;Ed&#43;vOblEDUHq0a4iVlRUcTVCXjg5bRJ10lr4PBwMbnuH8HeLiRZqsEvpg&#43;/dEHwfivSsw=="></script>
 
 
 
@@ -210,6 +220,11 @@
   
 
   
+
+
+
+
+
 
 
 
@@ -235,7 +250,7 @@
     "name": "Hugo 靜態部落格簡易留言板實作",
     "headline": "Hugo 靜態部落格簡易留言板實作",
     "description": "由於利用 Cloudflare Worker 架設 Hugo 靜態部落格沒有後台伺服器可以儲存，所以我們利用 Google Apps Script、GitHub Gist 以及 Google 表單來建立一個簡易的留言系統",
-    "inLanguage": "zh-tw",
+    "inLanguage": "zh-TW",
     "url" : "https://hshuang.com/posts/hugo-simple-guestbook/",
     "author" : {
       "@type": "Person",
@@ -1021,8 +1036,13 @@
             
               <a class="relative mt-[0.5rem] me-2" href="/categories/%E7%A7%91%E6%8A%80/">
                 <span class="flex cursor-pointer">
-  <span
-    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+  
+  
+  
+  
+    <span
+      class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+  
     科技
   </span>
 </span>
@@ -1039,8 +1059,13 @@
             
               <a class="relative mt-[0.5rem] me-2" href="/tags/hugo/">
                 <span class="flex cursor-pointer">
-  <span
-    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+  
+  
+  
+  
+    <span
+      class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+  
     Hugo
   </span>
 </span>
@@ -1049,8 +1074,13 @@
             
               <a class="relative mt-[0.5rem] me-2" href="/tags/%E9%9D%9C%E6%85%8B%E7%B6%B2%E7%AB%99/">
                 <span class="flex cursor-pointer">
-  <span
-    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+  
+  
+  
+  
+    <span
+      class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+  
     靜態網站
   </span>
 </span>
@@ -1059,8 +1089,13 @@
             
               <a class="relative mt-[0.5rem] me-2" href="/tags/%E7%95%99%E8%A8%80%E6%9D%BF/">
                 <span class="flex cursor-pointer">
-  <span
-    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+  
+  
+  
+  
+    <span
+      class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+  
     留言板
   </span>
 </span>
@@ -1069,8 +1104,13 @@
             
               <a class="relative mt-[0.5rem] me-2" href="/tags/github-gist/">
                 <span class="flex cursor-pointer">
-  <span
-    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+  
+  
+  
+  
+    <span
+      class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+  
     GitHub Gist
   </span>
 </span>
@@ -1079,8 +1119,13 @@
             
               <a class="relative mt-[0.5rem] me-2" href="/tags/google-apps-script/">
                 <span class="flex cursor-pointer">
-  <span
-    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+  
+  
+  
+  
+    <span
+      class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+  
     Google Apps Script
   </span>
 </span>
@@ -1089,8 +1134,13 @@
             
               <a class="relative mt-[0.5rem] me-2" href="/tags/cloudflare-turnstile/">
                 <span class="flex cursor-pointer">
-  <span
-    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+  
+  
+  
+  
+    <span
+      class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+  
     Cloudflare Turnstile
   </span>
 </span>
@@ -1099,8 +1149,13 @@
             
               <a class="relative mt-[0.5rem] me-2" href="/tags/akismet/">
                 <span class="flex cursor-pointer">
-  <span
-    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+  
+  
+  
+  
+    <span
+      class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+  
     Akismet
   </span>
 </span>
@@ -1109,8 +1164,13 @@
             
               <a class="relative mt-[0.5rem] me-2" href="/tags/google-%E8%A1%A8%E5%96%AE/">
                 <span class="flex cursor-pointer">
-  <span
-    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+  
+  
+  
+  
+    <span
+      class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+  
     Google 表單
   </span>
 </span>
@@ -1139,10 +1199,9 @@
       
       
       
-        <div class="order-first lg:ml-auto px-0 lg:order-last lg:ps-8 lg:max-w-2xs">
+        <div class="order-first lg:ms-auto px-0 lg:order-last lg:ps-8 lg:max-w-2xs">
           <div class="toc ps-5 print:hidden lg:sticky lg:top-[140px]">
-            
-              <details
+            <details
   open
   id="TOCView"
   class="toc-right mt-0 overflow-y-auto overscroll-contain bf-scrollbar rounded-lg -ms-5 ps-5 pe-2 hidden lg:block">
@@ -1322,7 +1381,6 @@
 </script>
 
 
-            
           </div>
         </div>
       
@@ -1434,7 +1492,7 @@ stateDiagram-v2
 
 <div
   
-    class="flex px-4 py-3 rounded-md bg-primary-100 dark:bg-primary-900"
+    class="flex px-4 py-3 rounded-md shadow bg-primary-100 dark:bg-primary-900"
   
   >
   <span
@@ -1460,7 +1518,7 @@ stateDiagram-v2
 
 <div
   
-    class="flex px-4 py-3 rounded-md bg-primary-100 dark:bg-primary-900"
+    class="flex px-4 py-3 rounded-md shadow bg-primary-100 dark:bg-primary-900"
   
   >
   <span
@@ -1486,7 +1544,7 @@ stateDiagram-v2
 
 <div
   
-    class="flex px-4 py-3 rounded-md bg-primary-100 dark:bg-primary-900"
+    class="flex px-4 py-3 rounded-md shadow bg-primary-100 dark:bg-primary-900"
   
   >
   <span
@@ -1527,7 +1585,7 @@ stateDiagram-v2
     alt="Comments Google Sheet"
     src="https://secologies.com/wp-content/uploads/2026/04/Google-Sheet-Comments-scaled.webp"
     ></figure>
-<p>請記得把表單的 ID 記錄到空白的文字檔內，之後會用到，Google Sheet ID 可以從網址內找到：<code> <a href="https://docs.google.com/spreadsheets/d/"  target="_blank">https://docs.google.com/spreadsheets/d/</a>你的Google Sheet ID/edit?gid=0#gid=0 </code></p>
+<p>請記得把表單的 ID 記錄到空白的文字檔內，之後會用到，Google Sheet ID 可以從網址內找到：<code> <a href="https://docs.google.com/spreadsheets/d/"  target="_blank" rel="noreferrer">https://docs.google.com/spreadsheets/d/</a>你的Google Sheet ID/edit?gid=0#gid=0 </code></p>
 
 <h2 class="relative group">建立 Github Gist JSON
     <div id="建立-github-gist-json" class="anchor"></div>
@@ -1538,7 +1596,7 @@ stateDiagram-v2
     </span>
     
 </h2>
-<p>由於我們要將 Github Gist 當作快取空間，所以讀者請先建立一個 <a href="https://github.com/"  target="_blank">Github</a> 帳號，登入後請到 <a href="https://gist.github.com/"  target="_blank">Github Gist</a> 服務上，一進去應該就可以建立新的一組 json 檔，檔案名稱可以自訂，但之後會用到所以請取個有意義的名字，並且在檔案內容填寫下列空符號，以便未來可以存放留言內容進去，請注意建立時選擇預設的隱密 gist</p>
+<p>由於我們要將 Github Gist 當作快取空間，所以讀者請先建立一個 <a href="https://github.com/"  target="_blank" rel="noreferrer">Github</a> 帳號，登入後請到 <a href="https://gist.github.com/"  target="_blank" rel="noreferrer">Github Gist</a> 服務上，一進去應該就可以建立新的一組 json 檔，檔案名稱可以自訂，但之後會用到所以請取個有意義的名字，並且在檔案內容填寫下列空符號，以便未來可以存放留言內容進去，請注意建立時選擇預設的隱密 gist</p>
 <div class="highlight-wrapper"><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="o">{}</span></span></span></code></pre></div></div>
 <figure><img
     class="my-0 rounded-md"
@@ -1549,7 +1607,7 @@ stateDiagram-v2
     src="https://secologies.com/wp-content/uploads/2026/04/Github-Gist-JSON.webp"
     ></figure>
 <p>創造完檔案後，我們點進檔案本身，將 Gist ID 記錄下來，Gist ID 從網址上就可以看到，找出 <code> gist.github.com/你的 Github 帳戶名/GIST_ID </code>，同樣存放在空格文字檔內，之後會用到</p>
-<p>再來還必須建立一個 GitHub Personal Access Token 開出權限用來給其他服務寫入該 Gist 檔案，我們先回到 <a href="https://github.com/"  target="_blank">Github</a>，點擊右上角的頭貼出現下拉式選單，選擇 Settings</p>
+<p>再來還必須建立一個 GitHub Personal Access Token 開出權限用來給其他服務寫入該 Gist 檔案，我們先回到 <a href="https://github.com/"  target="_blank" rel="noreferrer">Github</a>，點擊右上角的頭貼出現下拉式選單，選擇 Settings</p>
 <figure><img
     class="my-0 rounded-md"
     loading="lazy"
@@ -1605,7 +1663,7 @@ stateDiagram-v2
     </span>
     
 </h2>
-<p>再來我們先把 Cloudflare Turnstile 用來驗證的 Token 跟 Key 申請好，首先要申請好 <a href="https://www.cloudflare.com/"  target="_blank">Cloudflare</a> 帳號，如果讀者的網域是在 Cloudflare 上買的應該就會很熟悉他們家的介面，意思是我們要進去後台 <a href="https://dash.cloudflare.com/"  target="_blank">Dashboard</a>，直接從左側搜尋 Turnstile 會比較快</p>
+<p>再來我們先把 Cloudflare Turnstile 用來驗證的 Token 跟 Key 申請好，首先要申請好 <a href="https://www.cloudflare.com/"  target="_blank" rel="noreferrer">Cloudflare</a> 帳號，如果讀者的網域是在 Cloudflare 上買的應該就會很熟悉他們家的介面，意思是我們要進去後台 <a href="https://dash.cloudflare.com/"  target="_blank" rel="noreferrer">Dashboard</a>，直接從左側搜尋 Turnstile 會比較快</p>
 <figure><img
     class="my-0 rounded-md"
     loading="lazy"
@@ -1651,7 +1709,7 @@ stateDiagram-v2
     </span>
     
 </h2>
-<p>接著我們到 <a href="https://akismet.com/"  target="_blank">Akismet</a> 申請一組 API Key，基本上只要部落格或網站沒盈利他們就提供免費版的垃圾留言檢測服務給申請者，流程就照個官方的說明走就行，雖然會出現結帳畫面但個人版的申請不會要求輸入任何信用卡資訊</p>
+<p>接著我們到 <a href="https://akismet.com/"  target="_blank" rel="noreferrer">Akismet</a> 申請一組 API Key，基本上只要部落格或網站沒盈利他們就提供免費版的垃圾留言檢測服務給申請者，流程就照個官方的說明走就行，雖然會出現結帳畫面但個人版的申請不會要求輸入任何信用卡資訊</p>
 <figure><img
     class="my-0 rounded-md"
     loading="lazy"
@@ -1671,7 +1729,7 @@ stateDiagram-v2
     </span>
     
 </h2>
-<p>再來我們要設定最重要的中繼服務配置，利用 Google Apps Script 轉發讀者留言、GitHub Gist 以及 Google Sheet 之間的聯繫，首先進到後台頁面 <a href="https://script.google.com/"  target="_blank">https://script.google.com/</a>，請注意 Google 帳號是不是跟之前建立 Google Sheet 的是同一個，在同一個帳號底下，我們建立一個新專案</p>
+<p>再來我們要設定最重要的中繼服務配置，利用 Google Apps Script 轉發讀者留言、GitHub Gist 以及 Google Sheet 之間的聯繫，首先進到後台頁面 <a href="https://script.google.com/"  target="_blank" rel="noreferrer">https://script.google.com/</a>，請注意 Google 帳號是不是跟之前建立 Google Sheet 的是同一個，在同一個帳號底下，我們建立一個新專案</p>
 <figure><img
     class="my-0 rounded-md"
     loading="lazy"
@@ -2588,7 +2646,7 @@ stateDiagram-v2
 
 <div
   
-    class="flex px-4 py-3 rounded-md bg-primary-100 dark:bg-primary-900"
+    class="flex px-4 py-3 rounded-md shadow bg-primary-100 dark:bg-primary-900"
   
   >
   <span
@@ -2629,76 +2687,76 @@ stateDiagram-v2
   </thead>
   <tbody>
       <tr>
-          <td><a href="https://trashposts.com/"  target="_blank">廢文小天地</a></td>
+          <td><a href="https://trashposts.com/"  target="_blank" rel="noreferrer">廢文小天地</a></td>
           <td>安安～簽到搶頭香！</td>
           <td>2026-04-14T06:51:06.145Z</td>
           <td>太狠了老哥，隨時都在海巡</td>
       </tr>
       <tr>
-          <td><a href="https://eddielv.com"  target="_blank">Eddie Lv</a></td>
+          <td><a href="https://eddielv.com"  target="_blank" rel="noreferrer">Eddie Lv</a></td>
           <td>簽到！</td>
           <td>2026-04-15T18:29:37.117Z</td>
           <td>歡迎</td>
       </tr>
       <tr>
-          <td><a href="https://immarcus.com"  target="_blank">Marcus</a></td>
+          <td><a href="https://immarcus.com"  target="_blank" rel="noreferrer">Marcus</a></td>
           <td>訂閱讀者來冒泡留言～</td>
           <td>2026-04-24T15:43:50.064Z</td>
           <td>歡迎，我每天也固定要看你的文章！謝謝你總是帶來有趣的思考角度</td>
       </tr>
       <tr>
-          <td><a href="https://shuojen.com"  target="_blank">shuojen</a></td>
+          <td><a href="https://shuojen.com"  target="_blank" rel="noreferrer">shuojen</a></td>
           <td>大推，原本也想紀錄過程的，現在不用自己寫一篇了，耶，而且我也無法介紹的比你更詳細嘿嘿嘿。(｡&gt;﹏&lt;｡)</td>
           <td>2026-04-25T00:27:25.236Z</td>
           <td>謝謝，但每個人使用的模板不同，我的方法還不算通用款，所以可能還算不上最詳細的</td>
       </tr>
       <tr>
-          <td><a href="https://lq7.tw"  target="_blank">LQ7</a></td>
+          <td><a href="https://lq7.tw"  target="_blank" rel="noreferrer">LQ7</a></td>
           <td>Re: 留言板\n太詳盡地整理了！感覺該收錄至 BlogBlog 的資源裡面，我會向 Wiwi 推薦這篇文章 XD</td>
           <td>2026-04-25T04:32:20.750Z</td>
           <td>謝謝，但也要感謝你們已經先走過一些路，實證這個方法可行我才能弄出來的</td>
       </tr>
       <tr>
-          <td><a href="https://blog.giveanornot.com"  target="_blank">資工小廢物 - JN</a></td>
+          <td><a href="https://blog.giveanornot.com"  target="_blank" rel="noreferrer">資工小廢物 - JN</a></td>
           <td>我來晚了 XDDD\n教學文章超詳細，超級佩服！我真的沒有耐心把這麼長的圖文步驟寫完。</td>
           <td>2026-04-25T07:20:15.304Z</td>
           <td>歡迎，我也是把好幾天的卡片盒筆記組合起來的，一次寫完太耗時間了</td>
       </tr>
       <tr>
-          <td><a href="https://yoe1.bearblog.dev"  target="_blank">右衣</a></td>
-          <td>最近看到你的文章〈現代社會何其複雜〉。我想到之前有人為了討論類似的主題，寫了萬字長文。名為<a href="https://yangzhiping.com/essays/20211014/"  target="_blank">〈人性与暴力〉</a>。</td>
+          <td><a href="https://yoe1.bearblog.dev"  target="_blank" rel="noreferrer">右衣</a></td>
+          <td>最近看到你的文章〈現代社會何其複雜〉。我想到之前有人為了討論類似的主題，寫了萬字長文。名為<a href="https://yangzhiping.com/essays/20211014/"  target="_blank" rel="noreferrer">〈人性与暴力〉</a>。</td>
           <td>2026-05-01T11:27:55.286Z</td>
           <td>感謝你給的這篇文章，確實對於這不確定的世界提出了一些更實際的方法來應對</td>
       </tr>
   </tbody>
 </table>
-<p>對了，如果對於要用 Google Sheets 當作儲存空間有點感冒，可以參考碩人哥的<a href="https://shuojen.com/blog/2026/05/09/guestbook_v2"  target="_blank">留言板系統全新改版</a>，改用 Cloudflare D1 搭配 Worker 啟動的更快</p>
+<p>對了，如果對於要用 Google Sheets 當作儲存空間有點感冒，可以參考碩人哥的<a href="https://shuojen.com/blog/2026/05/09/guestbook_v2"  target="_blank" rel="noreferrer">留言板系統全新改版</a>，改用 Cloudflare D1 搭配 Worker 啟動的更快</p>
 <div class="footnotes" role="doc-endnotes">
 <hr>
 <ol>
 <li id="fn:1">
-<p>JN, &ldquo;留言板上線啦！（以及我怎麼挑選我的留言板系統）,&rdquo; 2025-07-30, 資工小廢物 - JN, <a href="https://blog.giveanornot.com/comment-system-launched/"  target="_blank">https://blog.giveanornot.com/comment-system-launched/</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+<p>JN, &ldquo;留言板上線啦！（以及我怎麼挑選我的留言板系統）,&rdquo; 2025-07-30, 資工小廢物 - JN, <a href="https://blog.giveanornot.com/comment-system-launched/"  target="_blank" rel="noreferrer">https://blog.giveanornot.com/comment-system-launched/</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 <li id="fn:2">
-<p>Wiwi Kuan, &ldquo;留言區,&rdquo; 2024年10月26日, Wiwi.Blog｜官大為的部落格, <a href="https://wiwi.blog/blog/social-media-feedback/"  target="_blank">https://wiwi.blog/blog/social-media-feedback/</a>.&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+<p>Wiwi Kuan, &ldquo;留言區,&rdquo; 2024年10月26日, Wiwi.Blog｜官大為的部落格, <a href="https://wiwi.blog/blog/social-media-feedback/"  target="_blank" rel="noreferrer">https://wiwi.blog/blog/social-media-feedback/</a>.&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 <li id="fn:3">
-<p>Ivon Huang, &ldquo;為什麼我要用Disqus取代Giscus當作Hugo網站的留言板,&rdquo; 2023年10月20日, Ivon的部落格, <a href="https://ivonblog.com/posts/replace-giscus-with-disqus/"  target="_blank">https://ivonblog.com/posts/replace-giscus-with-disqus/</a>.&#160;<a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+<p>Ivon Huang, &ldquo;為什麼我要用Disqus取代Giscus當作Hugo網站的留言板,&rdquo; 2023年10月20日, Ivon的部落格, <a href="https://ivonblog.com/posts/replace-giscus-with-disqus/"  target="_blank" rel="noreferrer">https://ivonblog.com/posts/replace-giscus-with-disqus/</a>.&#160;<a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 <li id="fn:4">
-<p>ikuka, &ldquo;留言區大戰,&rdquo; 2026.04.21, ikukaroom, <a href="https://blog.ikukaroom.com/comment-yes-or-no/"  target="_blank">https://blog.ikukaroom.com/comment-yes-or-no/</a>.&#160;<a href="#fnref:4" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+<p>ikuka, &ldquo;留言區大戰,&rdquo; 2026.04.21, ikukaroom, <a href="https://blog.ikukaroom.com/comment-yes-or-no/"  target="_blank" rel="noreferrer">https://blog.ikukaroom.com/comment-yes-or-no/</a>.&#160;<a href="#fnref:4" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 <li id="fn:5">
-<p>YangBear, &ldquo;留言與寄信,&rdquo; 14 Apr, 2026, YangBear&rsquo;Blog ᓚᘏᗢ, <a href="https://yangbear.bearblog.dev/2455/"  target="_blank">https://yangbear.bearblog.dev/2455/</a>.&#160;<a href="#fnref:5" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+<p>YangBear, &ldquo;留言與寄信,&rdquo; 14 Apr, 2026, YangBear&rsquo;Blog ᓚᘏᗢ, <a href="https://yangbear.bearblog.dev/2455/"  target="_blank" rel="noreferrer">https://yangbear.bearblog.dev/2455/</a>.&#160;<a href="#fnref:5" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 <li id="fn:6">
-<p>Alex Hsu, &ldquo;部落格到底要不要開放評論區？,&rdquo; 2026年4月13日, Alex Hsu, <a href="https://alexhsu.com/turn-on-comments"  target="_blank">https://alexhsu.com/turn-on-comments</a>&#160;<a href="#fnref:6" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+<p>Alex Hsu, &ldquo;部落格到底要不要開放評論區？,&rdquo; 2026年4月13日, Alex Hsu, <a href="https://alexhsu.com/turn-on-comments"  target="_blank" rel="noreferrer">https://alexhsu.com/turn-on-comments</a>&#160;<a href="#fnref:6" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 <li id="fn:7">
-<p>皮皮, &ldquo;DIY 網站留言簿,&rdquo; 2025 年 12 月 20 日, 廢文小天地, <a href="https://trashposts.com/blog/build-my-own-guestbook/"  target="_blank">https://trashposts.com/blog/build-my-own-guestbook/</a>.&#160;<a href="#fnref:7" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+<p>皮皮, &ldquo;DIY 網站留言簿,&rdquo; 2025 年 12 月 20 日, 廢文小天地, <a href="https://trashposts.com/blog/build-my-own-guestbook/"  target="_blank" rel="noreferrer">https://trashposts.com/blog/build-my-own-guestbook/</a>.&#160;<a href="#fnref:7" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 <li id="fn:8">
-<p>LQ7, &ldquo;做一個留言板,&rdquo; January 3, 2026, LQ7的創作與想像, <a href="https://lq7.tw/tech/make-a-guestbook/"  target="_blank">https://lq7.tw/tech/make-a-guestbook/</a>.&#160;<a href="#fnref:8" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+<p>LQ7, &ldquo;做一個留言板,&rdquo; January 3, 2026, LQ7的創作與想像, <a href="https://lq7.tw/tech/make-a-guestbook/"  target="_blank" rel="noreferrer">https://lq7.tw/tech/make-a-guestbook/</a>.&#160;<a href="#fnref:8" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 </ol>
 </div>
@@ -2740,8 +2798,8 @@ stateDiagram-v2
         width="96"
         height="96"
         alt="黃宏勝"
-        src="/img/Author_hu_9eafac70ac54474f.jpg"
-        data-zoom-src="/img/Author_hu_ed5e66f0b39e47e6.jpg">
+        src="/img/Author_hu_28ea11ba493264fa.jpg"
+        data-zoom-src="/img/Author_hu_ea68cf0db6224841.jpg">
     
   
   <div class="place-self-center">
@@ -2757,12 +2815,14 @@ stateDiagram-v2
       <div class="text-sm text-neutral-700 dark:text-neutral-400">菸酒生</div>
     
     <div class="text-2xl sm:text-lg">
-  <div class="flex flex-wrap text-neutral-400 dark:text-neutral-500">
+  <div class="flex flex-wrap text-neutral-400 dark:text-neutral-500 space-x-2">
     
       
+        
         <a
-          class="px-1 hover:text-primary-700 dark:hover:text-primary-400"
+          class=" hover:text-primary-700 dark:hover:text-primary-400"
           href="https://secologies.com"
+          
           target="_blank"
           aria-label="Globe"
           title="Globe"
@@ -2772,9 +2832,11 @@ stateDiagram-v2
       
     
       
+        
         <a
-          class="px-1 hover:text-primary-700 dark:hover:text-primary-400"
+          class=" hover:text-primary-700 dark:hover:text-primary-400"
           href="mailto:me@hshuang.com"
+          
           target="_blank"
           aria-label="Envelope"
           title="Envelope"
@@ -2816,6 +2878,9 @@ stateDiagram-v2
 
 
 
+
+
+
   
     
       
@@ -2836,9 +2901,9 @@ stateDiagram-v2
 
 
 <article
-  class="relative min-h-full min-w-full overflow-hidden rounded-lg border border-neutral-300 dark:border-neutral-600">
+  class="article-link--related relative min-h-full min-w-full overflow-hidden rounded-lg border border-neutral-300 dark:border-neutral-600">
   
-    <div class="flex-none relative overflow-hidden thumbnail_card_related">
+    <div class="flex-none relative overflow-hidden thumbnail_card_related" style="--thumbnail-aspect-ratio: 1.5">
       <img
         src="https://secologies.com/wp-content/uploads/2025/12/cloudflare-domain-create-free-private-email-using-gmail.webp"
         role="presentation"
@@ -2931,8 +2996,13 @@ stateDiagram-v2
             
               <a class="relative mt-[0.5rem] me-2" href="/categories/%E7%A7%91%E6%8A%80/">
                 <span class="flex cursor-pointer">
-  <span
-    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+  
+  
+  
+  
+    <span
+      class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+  
     科技
   </span>
 </span>
@@ -2949,8 +3019,13 @@ stateDiagram-v2
             
               <a class="relative mt-[0.5rem] me-2" href="/tags/%E5%AE%A2%E8%A3%BD%E5%8C%96%E9%9B%BB%E5%AD%90%E4%BF%A1%E7%AE%B1/">
                 <span class="flex cursor-pointer">
-  <span
-    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+  
+  
+  
+  
+    <span
+      class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+  
     客製化電子信箱
   </span>
 </span>
@@ -2959,8 +3034,13 @@ stateDiagram-v2
             
               <a class="relative mt-[0.5rem] me-2" href="/tags/cloudflare/">
                 <span class="flex cursor-pointer">
-  <span
-    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+  
+  
+  
+  
+    <span
+      class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+  
     Cloudflare
   </span>
 </span>
@@ -2969,8 +3049,13 @@ stateDiagram-v2
             
               <a class="relative mt-[0.5rem] me-2" href="/tags/gmail/">
                 <span class="flex cursor-pointer">
-  <span
-    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+  
+  
+  
+  
+    <span
+      class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+  
     Gmail
   </span>
 </span>
@@ -2979,8 +3064,13 @@ stateDiagram-v2
             
               <a class="relative mt-[0.5rem] me-2" href="/tags/%E5%80%8B%E4%BA%BA%E7%B6%B2%E5%9F%9F/">
                 <span class="flex cursor-pointer">
-  <span
-    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+  
+  
+  
+  
+    <span
+      class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+  
     個人網域
   </span>
 </span>
@@ -2989,8 +3079,13 @@ stateDiagram-v2
             
               <a class="relative mt-[0.5rem] me-2" href="/tags/email-routing/">
                 <span class="flex cursor-pointer">
-  <span
-    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+  
+  
+  
+  
+    <span
+      class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+  
     Email Routing
   </span>
 </span>
@@ -3010,7 +3105,9 @@ stateDiagram-v2
 
     </div>
     
-      <div class="prose dark:prose-invert py-1">個人化電子郵件信箱讓你看起來更專業，本文向各位介紹如何利用Cloudflare購買的網域搭配免費的Gmail來建立私人信箱</div>
+      <div class="article-link__summary prose dark:prose-invert mt-1 line-clamp-5">
+        個人化電子郵件信箱讓你看起來更專業，本文向各位介紹如何利用Cloudflare購買的網域搭配免費的Gmail來建立私人信箱
+      </div>
     
   </div>
   <div class="px-6 pt-4 pb-2"></div>
@@ -3018,6 +3115,9 @@ stateDiagram-v2
 
       
         
+
+
+
 
 
 
@@ -3045,9 +3145,9 @@ stateDiagram-v2
 
 
 <article
-  class="relative min-h-full min-w-full overflow-hidden rounded-lg border border-neutral-300 dark:border-neutral-600">
+  class="article-link--related relative min-h-full min-w-full overflow-hidden rounded-lg border border-neutral-300 dark:border-neutral-600">
   
-    <div class="flex-none relative overflow-hidden thumbnail_card_related">
+    <div class="flex-none relative overflow-hidden thumbnail_card_related" style="--thumbnail-aspect-ratio: 1.5">
       <img
         src="https://secologies.com/wp-content/uploads/2025/11/Kobo-Clara-BW-cover.webp"
         role="presentation"
@@ -3140,8 +3240,13 @@ stateDiagram-v2
             
               <a class="relative mt-[0.5rem] me-2" href="/categories/%E7%A7%91%E6%8A%80/">
                 <span class="flex cursor-pointer">
-  <span
-    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+  
+  
+  
+  
+    <span
+      class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+  
     科技
   </span>
 </span>
@@ -3158,8 +3263,13 @@ stateDiagram-v2
             
               <a class="relative mt-[0.5rem] me-2" href="/tags/%E9%9B%BB%E5%AD%90%E6%9B%B8%E9%96%B1%E8%AE%80%E5%99%A8/">
                 <span class="flex cursor-pointer">
-  <span
-    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+  
+  
+  
+  
+    <span
+      class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+  
     電子書閱讀器
   </span>
 </span>
@@ -3168,8 +3278,13 @@ stateDiagram-v2
             
               <a class="relative mt-[0.5rem] me-2" href="/tags/%E4%BA%BA%E7%94%9F/">
                 <span class="flex cursor-pointer">
-  <span
-    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+  
+  
+  
+  
+    <span
+      class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+  
     人生
   </span>
 </span>
@@ -3178,8 +3293,13 @@ stateDiagram-v2
             
               <a class="relative mt-[0.5rem] me-2" href="/tags/%E8%AE%80%E5%A2%A8/">
                 <span class="flex cursor-pointer">
-  <span
-    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+  
+  
+  
+  
+    <span
+      class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+  
     讀墨
   </span>
 </span>
@@ -3188,8 +3308,13 @@ stateDiagram-v2
             
               <a class="relative mt-[0.5rem] me-2" href="/tags/kobo/">
                 <span class="flex cursor-pointer">
-  <span
-    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+  
+  
+  
+  
+    <span
+      class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+  
     Kobo
   </span>
 </span>
@@ -3198,8 +3323,13 @@ stateDiagram-v2
             
               <a class="relative mt-[0.5rem] me-2" href="/tags/mobiscribe-origin/">
                 <span class="flex cursor-pointer">
-  <span
-    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+  
+  
+  
+  
+    <span
+      class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+  
     MobiScribe Origin
   </span>
 </span>
@@ -3219,7 +3349,9 @@ stateDiagram-v2
 
     </div>
     
-      <div class="prose dark:prose-invert py-1">放下會毒害自己大腦的社群媒體，擁抱單純的閱讀拯救自己的大腦吧</div>
+      <div class="article-link__summary prose dark:prose-invert mt-1 line-clamp-5">
+        放下會毒害自己大腦的社群媒體，擁抱單純的閱讀拯救自己的大腦吧
+      </div>
     
   </div>
   <div class="px-6 pt-4 pb-2"></div>
@@ -3227,6 +3359,9 @@ stateDiagram-v2
 
       
         
+
+
+
 
 
 
@@ -3254,9 +3389,9 @@ stateDiagram-v2
 
 
 <article
-  class="relative min-h-full min-w-full overflow-hidden rounded-lg border border-neutral-300 dark:border-neutral-600">
+  class="article-link--related relative min-h-full min-w-full overflow-hidden rounded-lg border border-neutral-300 dark:border-neutral-600">
   
-    <div class="flex-none relative overflow-hidden thumbnail_card_related">
+    <div class="flex-none relative overflow-hidden thumbnail_card_related" style="--thumbnail-aspect-ratio: 1.5">
       <img
         src="https://secologies.com/wp-content/uploads/2025/09/Oculink-1-scaled.webp"
         role="presentation"
@@ -3349,8 +3484,13 @@ stateDiagram-v2
             
               <a class="relative mt-[0.5rem] me-2" href="/categories/%E7%A7%91%E6%8A%80/">
                 <span class="flex cursor-pointer">
-  <span
-    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+  
+  
+  
+  
+    <span
+      class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+  
     科技
   </span>
 </span>
@@ -3367,8 +3507,13 @@ stateDiagram-v2
             
               <a class="relative mt-[0.5rem] me-2" href="/tags/%E5%A4%96%E6%8E%A5%E5%BC%8F%E9%A1%AF%E7%A4%BA%E5%8D%A1/">
                 <span class="flex cursor-pointer">
-  <span
-    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+  
+  
+  
+  
+    <span
+      class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+  
     外接式顯示卡
   </span>
 </span>
@@ -3377,8 +3522,13 @@ stateDiagram-v2
             
               <a class="relative mt-[0.5rem] me-2" href="/tags/oculink/">
                 <span class="flex cursor-pointer">
-  <span
-    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+  
+  
+  
+  
+    <span
+      class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+  
     Oculink
   </span>
 </span>
@@ -3387,8 +3537,13 @@ stateDiagram-v2
             
               <a class="relative mt-[0.5rem] me-2" href="/tags/egpu/">
                 <span class="flex cursor-pointer">
-  <span
-    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+  
+  
+  
+  
+    <span
+      class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+  
     EGPU
   </span>
 </span>
@@ -3397,8 +3552,13 @@ stateDiagram-v2
             
               <a class="relative mt-[0.5rem] me-2" href="/tags/cuda/">
                 <span class="flex cursor-pointer">
-  <span
-    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+  
+  
+  
+  
+    <span
+      class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+  
     CUDA
   </span>
 </span>
@@ -3407,8 +3567,13 @@ stateDiagram-v2
             
               <a class="relative mt-[0.5rem] me-2" href="/tags/framework/">
                 <span class="flex cursor-pointer">
-  <span
-    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+  
+  
+  
+  
+    <span
+      class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+  
     Framework
   </span>
 </span>
@@ -3428,7 +3593,9 @@ stateDiagram-v2
 
     </div>
     
-      <div class="prose dark:prose-invert py-1">由於研究上需要CUDA平行計算，所以我在Thunderbolt 4與Oculink中做選擇</div>
+      <div class="article-link__summary prose dark:prose-invert mt-1 line-clamp-5">
+        由於研究上需要CUDA平行計算，所以我在Thunderbolt 4與Oculink中做選擇
+      </div>
     
   </div>
   <div class="px-6 pt-4 pb-2"></div>
@@ -3436,6 +3603,9 @@ stateDiagram-v2
 
       
         
+
+
+
 
 
 
@@ -3463,9 +3633,9 @@ stateDiagram-v2
 
 
 <article
-  class="relative min-h-full min-w-full overflow-hidden rounded-lg border border-neutral-300 dark:border-neutral-600">
+  class="article-link--related relative min-h-full min-w-full overflow-hidden rounded-lg border border-neutral-300 dark:border-neutral-600">
   
-    <div class="flex-none relative overflow-hidden thumbnail_card_related">
+    <div class="flex-none relative overflow-hidden thumbnail_card_related" style="--thumbnail-aspect-ratio: 1.5">
       <img
         src="https://secologies.com/wp-content/uploads/2025/12/ai-vs-robots-scaled.webp"
         role="presentation"
@@ -3558,8 +3728,13 @@ stateDiagram-v2
             
               <a class="relative mt-[0.5rem] me-2" href="/categories/%E7%A7%91%E6%8A%80/">
                 <span class="flex cursor-pointer">
-  <span
-    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+  
+  
+  
+  
+    <span
+      class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+  
     科技
   </span>
 </span>
@@ -3576,8 +3751,13 @@ stateDiagram-v2
             
               <a class="relative mt-[0.5rem] me-2" href="/tags/robots.txt/">
                 <span class="flex cursor-pointer">
-  <span
-    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+  
+  
+  
+  
+    <span
+      class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+  
     Robots.txt
   </span>
 </span>
@@ -3586,8 +3766,13 @@ stateDiagram-v2
             
               <a class="relative mt-[0.5rem] me-2" href="/tags/%E7%B6%B2%E8%B7%AF%E7%88%AC%E8%9F%B2/">
                 <span class="flex cursor-pointer">
-  <span
-    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+  
+  
+  
+  
+    <span
+      class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+  
     網路爬蟲
   </span>
 </span>
@@ -3596,8 +3781,13 @@ stateDiagram-v2
             
               <a class="relative mt-[0.5rem] me-2" href="/tags/%E6%90%9C%E5%B0%8B%E5%BC%95%E6%93%8E/">
                 <span class="flex cursor-pointer">
-  <span
-    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+  
+  
+  
+  
+    <span
+      class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+  
     搜尋引擎
   </span>
 </span>
@@ -3606,8 +3796,13 @@ stateDiagram-v2
             
               <a class="relative mt-[0.5rem] me-2" href="/tags/ai/">
                 <span class="flex cursor-pointer">
-  <span
-    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+  
+  
+  
+  
+    <span
+      class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+  
     AI
   </span>
 </span>
@@ -3616,8 +3811,13 @@ stateDiagram-v2
             
               <a class="relative mt-[0.5rem] me-2" href="/tags/ai%E7%88%AC%E8%9F%B2/">
                 <span class="flex cursor-pointer">
-  <span
-    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+  
+  
+  
+  
+    <span
+      class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+  
     AI爬蟲
   </span>
 </span>
@@ -3637,7 +3837,9 @@ stateDiagram-v2
 
     </div>
     
-      <div class="prose dark:prose-invert py-1">爬蟲巨獸無情吞噬網路上的一切，知識型網站的未來是？</div>
+      <div class="article-link__summary prose dark:prose-invert mt-1 line-clamp-5">
+        爬蟲巨獸無情吞噬網路上的一切，知識型網站的未來是？
+      </div>
     
   </div>
   <div class="px-6 pt-4 pb-2"></div>
@@ -3645,6 +3847,9 @@ stateDiagram-v2
 
       
         
+
+
+
 
 
 
@@ -3672,9 +3877,9 @@ stateDiagram-v2
 
 
 <article
-  class="relative min-h-full min-w-full overflow-hidden rounded-lg border border-neutral-300 dark:border-neutral-600">
+  class="article-link--related relative min-h-full min-w-full overflow-hidden rounded-lg border border-neutral-300 dark:border-neutral-600">
   
-    <div class="flex-none relative overflow-hidden thumbnail_card_related">
+    <div class="flex-none relative overflow-hidden thumbnail_card_related" style="--thumbnail-aspect-ratio: 1.5">
       <img
         src="https://secologies.com/wp-content/uploads/2025/08/rss-cover-scaled.webp"
         role="presentation"
@@ -3767,8 +3972,13 @@ stateDiagram-v2
             
               <a class="relative mt-[0.5rem] me-2" href="/categories/%E7%A7%91%E6%8A%80/">
                 <span class="flex cursor-pointer">
-  <span
-    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+  
+  
+  
+  
+    <span
+      class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+  
     科技
   </span>
 </span>
@@ -3785,8 +3995,13 @@ stateDiagram-v2
             
               <a class="relative mt-[0.5rem] me-2" href="/tags/rss/">
                 <span class="flex cursor-pointer">
-  <span
-    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+  
+  
+  
+  
+    <span
+      class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+  
     RSS
   </span>
 </span>
@@ -3795,8 +4010,13 @@ stateDiagram-v2
             
               <a class="relative mt-[0.5rem] me-2" href="/tags/%E8%B3%87%E8%A8%8A/">
                 <span class="flex cursor-pointer">
-  <span
-    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+  
+  
+  
+  
+    <span
+      class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+  
     資訊
   </span>
 </span>
@@ -3805,8 +4025,13 @@ stateDiagram-v2
             
               <a class="relative mt-[0.5rem] me-2" href="/tags/%E5%A3%9F%E6%96%B7/">
                 <span class="flex cursor-pointer">
-  <span
-    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+  
+  
+  
+  
+    <span
+      class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+  
     壟斷
   </span>
 </span>
@@ -3826,7 +4051,9 @@ stateDiagram-v2
 
     </div>
     
-      <div class="prose dark:prose-invert py-1">在這個注意力被各種事物搶奪的時代，你是否感覺自己在資訊海洋中溺水了？</div>
+      <div class="article-link__summary prose dark:prose-invert mt-1 line-clamp-5">
+        在這個注意力被各種事物搶奪的時代，你是否感覺自己在資訊海洋中溺水了？
+      </div>
     
   </div>
   <div class="px-6 pt-4 pb-2"></div>
@@ -3834,6 +4061,9 @@ stateDiagram-v2
 
       
         
+
+
+
 
 
 
@@ -3861,9 +4091,9 @@ stateDiagram-v2
 
 
 <article
-  class="relative min-h-full min-w-full overflow-hidden rounded-lg border border-neutral-300 dark:border-neutral-600">
+  class="article-link--related relative min-h-full min-w-full overflow-hidden rounded-lg border border-neutral-300 dark:border-neutral-600">
   
-    <div class="flex-none relative overflow-hidden thumbnail_card_related">
+    <div class="flex-none relative overflow-hidden thumbnail_card_related" style="--thumbnail-aspect-ratio: 1.5">
       <img
         src="https://secologies.com/wp-content/uploads/2025/05/Readmoo_mooInk_Pro_2C.webp"
         role="presentation"
@@ -3956,8 +4186,13 @@ stateDiagram-v2
             
               <a class="relative mt-[0.5rem] me-2" href="/categories/%E7%A7%91%E6%8A%80/">
                 <span class="flex cursor-pointer">
-  <span
-    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+  
+  
+  
+  
+    <span
+      class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+  
     科技
   </span>
 </span>
@@ -3974,8 +4209,13 @@ stateDiagram-v2
             
               <a class="relative mt-[0.5rem] me-2" href="/tags/%E9%9B%BB%E5%AD%90%E6%9B%B8%E9%96%B1%E8%AE%80%E5%99%A8/">
                 <span class="flex cursor-pointer">
-  <span
-    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+  
+  
+  
+  
+    <span
+      class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+  
     電子書閱讀器
   </span>
 </span>
@@ -3984,8 +4224,13 @@ stateDiagram-v2
             
               <a class="relative mt-[0.5rem] me-2" href="/tags/%E8%AE%80%E5%A2%A8/">
                 <span class="flex cursor-pointer">
-  <span
-    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+  
+  
+  
+  
+    <span
+      class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+  
     讀墨
   </span>
 </span>
@@ -3994,8 +4239,13 @@ stateDiagram-v2
             
               <a class="relative mt-[0.5rem] me-2" href="/tags/13.3%E5%90%8B/">
                 <span class="flex cursor-pointer">
-  <span
-    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+  
+  
+  
+  
+    <span
+      class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+  
     13.3吋
   </span>
 </span>
@@ -4004,8 +4254,13 @@ stateDiagram-v2
             
               <a class="relative mt-[0.5rem] me-2" href="/tags/readmoo/">
                 <span class="flex cursor-pointer">
-  <span
-    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+  
+  
+  
+  
+    <span
+      class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+  
     Readmoo
   </span>
 </span>
@@ -4014,8 +4269,13 @@ stateDiagram-v2
             
               <a class="relative mt-[0.5rem] me-2" href="/tags/mooink-pro-2c/">
                 <span class="flex cursor-pointer">
-  <span
-    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+  
+  
+  
+  
+    <span
+      class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+  
     MooInk Pro 2C
   </span>
 </span>
@@ -4035,7 +4295,9 @@ stateDiagram-v2
 
     </div>
     
-      <div class="prose dark:prose-invert py-1">學術工作時常需要看論文，除了紙本之外我們還有何種選擇？讀墨 Readmoo mooInk Pro 2C 13.3吋彩色電子書閱讀器可以考慮看看</div>
+      <div class="article-link__summary prose dark:prose-invert mt-1 line-clamp-5">
+        學術工作時常需要看論文，除了紙本之外我們還有何種選擇？讀墨 Readmoo mooInk Pro 2C 13.3吋彩色電子書閱讀器可以考慮看看
+      </div>
     
   </div>
   <div class="px-6 pt-4 pb-2"></div>
@@ -4047,23 +4309,6 @@ stateDiagram-v2
 
 
       </div>
-
-      
-      
-        
-        
-          
-          
-        
-        
-        
-        <script
-          type="text/javascript"
-          src="/js/page.min.54b6f4371722649edbe871e431d8670d670878c22be8f36e229fe53cc9b786fe25a834def5e6de621f7a3e37b72bc8cd73839aa5ed907ed6cbd45cd3e1b0fa20.js"
-          integrity="sha512-VLb0NxciZJ7b6HHkMdhnDWcIeMIr6PNuIp/lPMm3hv4lqDTe9ebeYh96Pje3K8jNc4Oape2QftbL1FzT4bD6IA=="
-          data-oid="views_posts/hugo-simple-guestbook.md"
-          data-oid-likes="likes_posts/hugo-simple-guestbook.md"></script>
-      
     </section>
 
     
@@ -4191,7 +4436,6 @@ stateDiagram-v2
     
     
       <p class="text-xs text-neutral-500 dark:text-neutral-400">
-        <a href="//www.dmca.com/Protection/Status.aspx?ID=0778a9ef-73b2-4053-886c-1bc0f528e069" title="DMCA.com Protection Status" class="dmca-badge"> <img src ="https://images.dmca.com/Badges/dmca_protected_sml_120ac.png?ID=0778a9ef-73b2-4053-886c-1bc0f528e069"  alt="DMCA.com Protection Status" /></a>  <script src="https://images.dmca.com/Badges/DMCABadgeHelper.min.js"> </script>
         
       </p>
     
@@ -4205,12 +4449,6 @@ stateDiagram-v2
       });
     </script>
   
-  
-  
-  <script
-    type="text/javascript"
-    src="/js/process.min.ee03488f19c93c2efb199e2e3014ea5f3cb2ce7d45154adb3399a158cac27ca52831db249ede5bb602700ef87eb02434139de0858af1818ab0fb4182472204a4.js"
-    integrity="sha512-7gNIjxnJPC77GZ4uMBTqXzyyzn1FFUrbM5mhWMrCfKUoMdsknt5btgJwDvh&#43;sCQ0E53ghYrxgYqw&#43;0GCRyIEpA=="></script>
   
   
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
