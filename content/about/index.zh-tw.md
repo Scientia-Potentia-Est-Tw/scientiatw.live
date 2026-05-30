@@ -1,6 +1,6 @@
 ---
 title: 關於
-date: '2026-03-30T14:03:00+08:00'
+date: '2026-05-30T10:23:00+08:00'
 author: "黃宏勝"
 aliases:
   - about
@@ -8,16 +8,16 @@ aliases:
   - about-me
   - about-site
 slug: about
-lastmod: '2026-05-08T13:20:00+08:00'
+lastmod: '2026-05-30T10:24:00+08:00'
 ---
 ## 關於本站
 此部落格主要記錄我所有好奇跟想做的事情，因為我沒有使用任何社群媒體，所以架了一個部落格來分享
 
-訂閱本站 RSS 的話請用這個連結：[RSS](https://hshuang.blog/index.xml)
+訂閱本站 RSS 的話請用這個連結：[RSS](https://hshuang.com/index.xml)
 
 歡迎逛逛我的資安部落格：[Secologies](https://secologies.com)
 
-任何問題可以寄到信箱內：[hshuang@hshuang.blog](mailto:hshuang@hshuang.blog)
+任何問題可以寄到信箱內：[me@hshuang.com](mailto:me@hshuang.com)
 
 另外如果讀者在社群平台或奇怪的 APP 上看到我，皆是假冒的
 
