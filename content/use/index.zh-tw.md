@@ -10,7 +10,7 @@ slug: use
 ---
 ## 🖥️ 電腦軟體
 ### 💾 作業系統
-- [Ubuntu Desktop 24.04 LTS](https://ubuntu.com/download/desktop) - [Framework Laptop 16](https://frame.work/tw/en/laptop16) 吋
+- [Ubuntu Desktop 24.04 LTS](https://ubuntu.com/download/desktop) - [Framework Laptop 16](https://frame.work/tw/en/laptop16)，模組化筆電從主機板到 Wi-Fi 模組都可以自己換
 
 ### 🌏 瀏覽器
 - [Brave](https://brave.com/) - 內建廣告封鎖、阻擋追蹤程式的瀏覽器，設定得當的話可以預防惡意網站的跳轉
