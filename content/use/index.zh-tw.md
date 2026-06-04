@@ -2,7 +2,7 @@
 title: 使用
 description: 
 date: 2026-05-30T19:31:00+08:00
-lastmod: 2026-05-30T19:32:00+08:00
+lastmod: 2026-06-04T10:34:00+08:00
 author: "黃宏勝"
 aliases:
   - use
@@ -22,7 +22,7 @@ slug: use
 - [Liferea](https://lzone.de/liferea/) - Ubuntu 上簡單的開源 RSS 閱讀器，界面蠻單調的
 
 ### 🗓️ 行程管理
-- [Calindori](https://apps.kde.org/calindori/) - 最怪的就是明明我的 Ubuntu 是 GNOME 卻裝不了 GNOME Calendar，只好用這個在 KDE 認證過的
+- [GNOME Calendar](https://apps.gnome.org/Calendar/) - 最陽春的 GNOME 自家行事曆，反正我只要紀錄重大事件就行
 
 ### 📟 終端機相關工具
 - [Vim](https://www.vim.org/) - 最強的終端機編輯器沒有之一，豐富的快捷鍵能讓你手指不離開鍵盤也能完成任何事
@@ -40,16 +40,17 @@ slug: use
 - [TeX Live](https://tug.org/texlive/) - 在 Linux 上搭配 VSCode 編輯 Tex 檔案，也可以在 local 端編譯，以前有一晚 Overleaf 網站掛掉時我正在趕報告，搞得我心急如焚所以才想到也必須有備援方案，建議把 Overleaf 上心儀的模板也備份一組到硬碟中
 
 ### 💬 通訊軟體
-- LINE - 微服務架構越塞越多導致 LINE 佔容量越來越多，在我手機裡這應該是耗費最多儲存空間的 APP，但在台灣跟親友聯絡以及很常用 Line Pay 所以還是脫離不了
+- LINE - 微服務架構越塞越多導致 LINE 佔容量越來越多，在我手機裡這應該是耗費最多儲存空間的 APP，但在台灣跟親友聯絡以及很常用 Line Pay 所以還是脫離不了，而在 Ubuntu 上用 Bottles 跟 wine 模擬執行 exe 版，瀏覽訊息還行，不過不知道為什麼裝了 Fcitx5 跟新酷音在 line 上還是打不了中文，只能先用一個記事本打好之後在貼進去，還可以接受
 
 ### 💻 網站製作
 - [Wordpress](https://wordpress.org/download/) - 知名的動態網站系統，如果有表單或互動需求就只能依賴有資料庫的系統，基本上只建議買自己的 VPS 安裝 wordpress.org，別買 wordpress.com 的方案，那個太浪費錢了
 - [Hugo](https://gohugo.io/) - 靜態網頁生成套件，搭配 CloudFlare Pages 作為部署空間就可以做出非常精美的網站了
 
 ## 📜 電子紙產品
+- [reMarkable Paper Pro](https://remarkable.com/products/remarkable-paper/pro) - 工作時除了用白板紀錄之外，還需要一台打字筆記，並且我想盡可能的少接觸藍光，但我的環境不允許使用文石 Tab X C，所以退而求其次選 11.8 吋的 rMPP，雖然規格比不上開放式的機器，但到目前使用起來都還挺順的，尤其他們家的鍵盤手感還不錯，唯一美中不足的是只支援英文，所以只能用來寫研究筆記，讀書筆記我一樣只好用筆電
+- [Kobo Clara BW](https://r10.to/hkkbYN) - Kobo 最小尺寸 6 吋黑白機器，外出時非常好用，我的褲子口袋剛好可以完美裝進去
 - [Readmoo Mooink Pro 2C](https://moo.im/a/luyzKS) - Readmoo 讀墨推出的 13.3 吋彩色電子書閱讀器，柔性螢幕讓機器非常輕薄，讓我在看 paper 時可以手持走動，也可以在教課時一手握著另一手寫黑板，做研究時的好夥伴，可以看[《讀墨 Readmoo mooInk Pro 2C 13.3吋 彩色電子書閱讀器 閱讀PDF檔案的應許之機》](https://hshuang.com/posts/readmoo-mooink-pro-2c/)這篇來詳細瞭解
 - Boox Mira - 13.3 吋柔性護眼黑白電子墨水顯示器，用來看 paper 還不錯，但圖表如果有顏色我會分不出來，不過隨身帶著挺方便的
-- [Kobo Clara BW](https://r10.to/hkkbYN) - Kobo 最小尺寸 6 吋黑白機器，外出時非常好用，我的褲子口袋剛好可以完美裝進去
 
 ## ☁️  線上服務
 ### 💰 訂閱制服務
