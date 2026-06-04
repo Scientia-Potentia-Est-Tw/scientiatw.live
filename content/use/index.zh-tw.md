@@ -8,7 +8,7 @@ aliases:
   - use
 slug: use
 ---
-## 🖥️ 電腦軟體
+## 🖥️ 軟體
 ### 💾 作業系統
 - [Ubuntu Desktop 24.04 LTS](https://ubuntu.com/download/desktop) - [Framework Laptop 16](https://frame.work/tw/en/laptop16)，模組化筆電從主機板到 Wi-Fi 模組都可以自己換
 
@@ -50,7 +50,7 @@ slug: use
 - [reMarkable Paper Pro](https://remarkable.com/products/remarkable-paper/pro) - 工作時除了用白板紀錄之外，還需要一台打字筆記，並且我想盡可能的少接觸藍光，但我的環境不允許使用文石 Tab X C，所以退而求其次選 11.8 吋的 rMPP，雖然規格比不上開放式的機器，但到目前使用起來都還挺順的，尤其他們家的鍵盤手感還不錯，唯一美中不足的是只支援英文，所以只能用來寫研究筆記，讀書筆記我一樣只好用筆電
 - [Kobo Clara BW](https://r10.to/hkkbYN) - Kobo 最小尺寸 6 吋黑白機器，外出時非常好用，我的褲子口袋剛好可以完美裝進去
 - [Readmoo Mooink Pro 2C](https://moo.im/a/luyzKS) - Readmoo 讀墨推出的 13.3 吋彩色電子書閱讀器，柔性螢幕讓機器非常輕薄，讓我在看 paper 時可以手持走動，也可以在教課時一手握著另一手寫黑板，做研究時的好夥伴，可以看[《讀墨 Readmoo mooInk Pro 2C 13.3吋 彩色電子書閱讀器 閱讀PDF檔案的應許之機》](https://hshuang.com/posts/readmoo-mooink-pro-2c/)這篇來詳細瞭解
-- Boox Mira - 13.3 吋柔性護眼黑白電子墨水顯示器，用來看 paper 還不錯，但圖表如果有顏色我會分不出來，不過隨身帶著挺方便的
+- Boox Mira - 13.3 吋柔性護眼黑白電子墨水顯示器，用來看 paper 還不錯，但圖表如果有顏色我會分不出來，不過隨身帶著挺方便的，而且裡面沒有任何通訊模組
 
 ## ☁️  線上服務
 ### 💰 訂閱制服務
