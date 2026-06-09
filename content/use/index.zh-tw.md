@@ -2,7 +2,7 @@
 title: 使用
 description: 
 date: 2026-05-30T19:31:00+08:00
-lastmod: 2026-06-04T10:34:00+08:00
+lastmod: 2026-06-09T11:03:00+08:00
 author: "黃宏勝"
 aliases:
   - use
@@ -60,7 +60,7 @@ slug: use
 ## ☁️  線上服務
 ### 💰 訂閱制服務
 - [Cloudflare Registrar](https://www.cloudflare.com/products/registrar/) - CloudFlare 出租網域的地方，基本上他們家網域定價完後都是固定價格，不像 GoDaddy、NameCheap、Wix、Hostinger 之類的網域商讓價格一直浮動，我明白你們第一年價格便宜是想吸引消費者，但第二年之後價格反彈是在搞心態嗎
-- [EasyWP WordPress Hosting](https://www.namecheap.com/wordpress/) - NameCheap 推出的 Wordpress Shared 主機，但亞洲沒有伺服器可以選有點煩
+- [EasyWP WordPress Hosting](https://www.namecheap.com/wordpress/) - NameCheap 推出的 Wordpress Shared 主機，但亞洲沒有伺服器可以選有點煩，而且每年續約的價格一直往上調，越來越不爽，明年不續約了
 
 ### 🖌 寫作平台
 - [Overleaf](https://www.overleaf.com/) - 線上學術寫作編輯器，有許多大學提供各式各樣的模板，用校園信箱註冊認證可以升級成 Premium 方案，多人共同編輯時非常好用
