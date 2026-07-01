@@ -31,7 +31,7 @@ description: "也許我把⾃⼰⾃縛起來，就是為了得到⾃由。正如
 featureimage: "https://media.secologies.com/musical-self-bondage-cover.webp"
 slug: "musical-self-bondage"
 ---
-這是我的「[BlogBlog 同樂會 - 2026 年 6 月](https://blogblog.club/party/)」的投稿文章。本月主題是「[音樂與記憶](https://www.yozblog.com/posts/music-and-memories)」，由 [柚子](https://www.yozblog.com/) 主持。如果你有自己的部落格，歡迎一起來參加！
+> 這是我的「[BlogBlog 同樂會 - 2026 年 6 月](https://blogblog.club/party/)」的投稿文章。本月主題是「[音樂與記憶](https://www.yozblog.com/posts/music-and-memories)」，由 [柚子](https://www.yozblog.com/) 主持。如果你有自己的部落格，歡迎一起來參加！
 
 ## 痛苦的源頭
 最近⼜花了些時間重新審視⾃⼰有可能接觸到哪些會刺激⾼多巴胺分泌的物質或⾏為，諸如社群媒體的魔掌我已經逃離了，電玩作為⼀種會成癮的"**藥物**"，雖然戒斷現象⽐起酒還來的輕微，但幸好我在脱離 Windows/Mac 作業系統後就⼀
