@@ -1,8 +1,8 @@
 ---
 title: 使用
 description: 
-date: 2026-05-30T19:31:00+08:00
-lastmod: 2026-06-09T11:03:00+08:00
+date: 2026-07-01T19:09:00+08:00
+lastmod: 2026-07-01T19:10:00+08:00
 author: "黃宏勝"
 aliases:
   - use
@@ -17,6 +17,7 @@ slug: use
 
 ### 🧮 瀏覽器插件
 - [News Feed Eradicator](https://chromewebstore.google.com/detail/news-feed-eradicator/fjcldmjmjhkklehbacihaiopjklihlgg?hl=en) - 可以封鎖各社群媒體平台上的動態資訊，尤其是那些被演算法才推給我的資訊，我根本不在乎，畢竟我用 Youtube 只為了看教學影片而已
+- [Block Site](https://chromewebstore.google.com/detail/block-site/nkedbnokglppcmiencngilkkhhnpcfjb) - 轟鎖網域，甚至還可以單獨封鎖 iframes，新版功能還可以用密碼上鎖
 
 ### 🔈 RSS工具
 - [Liferea](https://lzone.de/liferea/) - Ubuntu 上簡單的開源 RSS 閱讀器，界面蠻單調的
@@ -40,7 +41,7 @@ slug: use
 - [TeX Live](https://tug.org/texlive/) - 在 Linux 上搭配 VSCode 編輯 Tex 檔案，也可以在 local 端編譯，以前有一晚 Overleaf 網站掛掉時我正在趕報告，搞得我心急如焚所以才想到也必須有備援方案，建議把 Overleaf 上心儀的模板也備份一組到硬碟中
 
 ### 💬 通訊軟體
-- LINE - 微服務架構越塞越多導致 LINE 佔容量越來越多，在我手機裡這應該是耗費最多儲存空間的 APP，但在台灣跟親友聯絡以及很常用 Line Pay 所以還是脫離不了，而在 Ubuntu 上用 Bottles 跟 wine 模擬執行 exe 版，瀏覽訊息還行，不過不知道為什麼裝了 Fcitx5 跟新酷音在 line 上還是打不了中文，只能先用一個記事本打好之後在貼進去，還可以接受
+- LINE - 在台灣跟親友聯絡以及很常用 Line Pay 所以還是得用，而在 Ubuntu 上安裝瀏覽器插件，網頁版官方說會關掉，但到現在還可以用，反正我就繼續用吧，到時沒了再轉回那 bug 超級多的 wine 模擬器
 
 ### 💻 網站製作
 - [Wordpress](https://wordpress.org/download/) - 知名的動態網站系統，如果有表單或互動需求就只能依賴有資料庫的系統，基本上只建議買自己的 VPS 安裝 wordpress.org，別買 wordpress.com 的方案，那個太浪費錢了

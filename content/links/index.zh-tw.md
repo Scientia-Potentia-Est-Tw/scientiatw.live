@@ -1,7 +1,7 @@
 ---
 title: 推薦
 date: 2025-12-31T18:46:00+08:00
-lastmod: 2026-02-06T10:13:00+08:00
+lastmod: 2026-07-01T19:13:00+08:00
 author: "黃宏勝"
 aliases:
   - links
@@ -22,9 +22,3 @@ slug: links
 | [toe](https://www.toe.st/) | [《The Book About My Idle Plot on a Vague Anxiety》](https://toe-music.bandcamp.com/album/the-book-about-my-idle-plot-on-a-vague-anxiety) |
 | [先知瑪莉Mary See the Future](https://zh.wikipedia.org/zh-tw/%E5%85%88%E7%9F%A5%E7%91%AA%E8%8E%89) | [《陸橋》](https://www.kkbox.com/tw/tc/song/Om6bR7YdTsIBftbjKk)，懷念過往的台語專輯 |
 | [Theseus忒修斯](https://streetvoice.com/Theseus_tw/) | [《南國再見，南國》](https://blow.streetvoice.com/48901/)這張專輯致敬侯孝賢導演，如果對於同名電影很有感觸的話，聽完整張會很有回甘味 |
-
-## 📻 Podcast
-| Podcast名稱    | 內容 |
-| -------- | --------|
-| [Gooaye 股癌](https://player.soundon.fm/p/954689a5-3096-43a4-a80b-7810b219cef3) | 主委就是讚 |
-| [茫DAY不錄](https://mondayblueeee.firstory.io/episodes) | 聊天型頻道，一堆諧音梗跟冷笑話但我挺喜歡的(？) |
