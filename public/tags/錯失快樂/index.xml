@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>錯失快樂 on 黃宏勝的部落格 | hshuang.com</title>
-    <link>https://hshuang.com/tags/%E9%8C%AF%E5%A4%B1%E5%BF%AB%E6%A8%82/</link>
+    <link>http://localhost:1313/tags/%E9%8C%AF%E5%A4%B1%E5%BF%AB%E6%A8%82/</link>
     <description>Recent content in 錯失快樂 on 黃宏勝的部落格 | hshuang.com</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-TW</language>
     <copyright>© 2026 黃宏勝</copyright>
-    <lastBuildDate>Sat, 07 Mar 2026 11:50:00 +0800</lastBuildDate><atom:link href="https://hshuang.com/tags/%E9%8C%AF%E5%A4%B1%E5%BF%AB%E6%A8%82/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 07 Mar 2026 11:50:00 +0800</lastBuildDate><atom:link href="http://localhost:1313/tags/%E9%8C%AF%E5%A4%B1%E5%BF%AB%E6%A8%82/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>從被動到主動：脫離FOMO邁向JOMO</title>
-      <link>https://hshuang.com/posts/from-fomo-to-jomo/</link>
+      <link>http://localhost:1313/posts/from-fomo-to-jomo/</link>
       <pubDate>Mon, 15 Sep 2025 14:32:00 +0800</pubDate>
       
-      <guid>https://hshuang.com/posts/from-fomo-to-jomo/</guid>
+      <guid>http://localhost:1313/posts/from-fomo-to-jomo/</guid>
       <description>數位原生世代面對FOMO現象更劇烈，有沒有哪些對策可以使用？</description>
       
     </item>

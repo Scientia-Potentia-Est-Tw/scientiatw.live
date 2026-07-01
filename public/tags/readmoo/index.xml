@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Readmoo on 黃宏勝的部落格 | hshuang.com</title>
-    <link>https://hshuang.com/tags/readmoo/</link>
+    <link>http://localhost:1313/tags/readmoo/</link>
     <description>Recent content in Readmoo on 黃宏勝的部落格 | hshuang.com</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-TW</language>
     <copyright>© 2026 黃宏勝</copyright>
-    <lastBuildDate>Tue, 16 Sep 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://hshuang.com/tags/readmoo/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 16 Sep 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/readmoo/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>讀墨 Readmoo mooInk Pro 2C 13.3吋 彩色電子書閱讀器 閱讀PDF檔案的應許之機</title>
-      <link>https://hshuang.com/posts/readmoo-mooink-pro-2c/</link>
+      <link>http://localhost:1313/posts/readmoo-mooink-pro-2c/</link>
       <pubDate>Wed, 13 Nov 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://hshuang.com/posts/readmoo-mooink-pro-2c/</guid>
+      <guid>http://localhost:1313/posts/readmoo-mooink-pro-2c/</guid>
       <description>學術工作時常需要看論文，除了紙本之外我們還有何種選擇？讀墨 Readmoo mooInk Pro 2C 13.3吋彩色電子書閱讀器可以考慮看看</description>
       
     </item>
