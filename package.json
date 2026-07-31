@@ -1,0 +1,25 @@
+{
+  "name": "hshuang.com",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+    "scripts": {
+    "build": "hugo --minify && npx pagefind --site public",
+    "dev": "hugo server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hshuang99/hshuang.com.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/hshuang99/hshuang.com/issues"
+  },
+  "homepage": "https://github.com/hshuang99/hshuang.com#readme",
+  "devDependencies": {
+    "pagefind": "^1.5.2"
+  }
+}
