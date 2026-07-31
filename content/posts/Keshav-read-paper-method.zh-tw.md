@@ -17,11 +17,12 @@ keywords = [
   "How to read a paper",
   "如何閱讀paper",
 ]
-summary = "由Canada University of Waterloo School of Computer Science professor S. Keshav帶給大家主要使用IEEE journal template的架構來做說明"
 description = "由Canada University of Waterloo School of Computer Science professor S. Keshav帶給大家主要使用IEEE journal template的架構來做說明"
-featureimage = "https://secologies.com/wp-content/uploads/2025/05/HowToReadAPaperCover.webp"
 slug = "Keshav-read-paper-method"
+featureimage = "https://media.secologies.com/HowToReadAPaperCover.webp"
 +++
+![HowToReadAPaperCover](https://media.secologies.com/HowToReadAPaperCover.webp)
+
 由 Canada University of Waterloo School of Computer Science professor S. Keshav 帶給大家主要使用 IEEE journal template 的架構來做說明
 
 採取以下的方法審核

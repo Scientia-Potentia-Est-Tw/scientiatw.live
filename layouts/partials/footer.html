@@ -1,72 +1,76 @@
-<footer id="site-footer" class="py-10 print:hidden">
-  {{/* Footer menu */}}
-  {{ if .Site.Params.footer.showMenu | default true }}
-    {{ if .Site.Menus.footer }}
-      {{ $onlyIcon := true }}
-      {{ range .Site.Menus.footer }}
-        {{ if .Name }}
-          {{ $onlyIcon = false }}
-          {{ break }}
-        {{ end }}
-      {{ end }}
-      {{ $navClass := printf "flex flex-row pb-4 text-base font-medium text-neutral-500 dark:text-neutral-400 %s" (cond $onlyIcon "overflow-x-auto py-2" "") }}
-      {{ $ulClass := printf "flex list-none %s" (cond $onlyIcon "flex-row" "flex-col sm:flex-row") }}
-      {{ $liClass := printf "flex mb-1 text-end sm:mb-0 sm:me-7 sm:last:me-0 %s" (cond $onlyIcon "me-4" "") }}
-      <nav class="{{ $navClass }}">
-        <ul class="{{ $ulClass }}">
-          {{ range .Site.Menus.footer }}
-            <li class=" {{ $liClass }}">
-              <a
-                class="decoration-primary-500 hover:underline hover:decoration-2 hover:underline-offset-2 flex items-center"
-                href="{{ .URL }}"
-                title="{{ .Title }}">
-                {{ if .Pre }}
-                  <span {{ if and .Pre .Name }}class="mr-1"{{ end }}>
-                    {{ partial "icon.html" .Pre }}
-                  </span>
-                {{ end }}
-                {{ .Name | markdownify }}
-              </a>
-            </li>
-          {{ end }}
-        </ul>
-      </nav>
-    {{ end }}
-  {{ end }}
-  <div class="flex items-center justify-between">
-    {{/* Copyright */}}
-    {{ if .Site.Params.footer.showCopyright | default true }}
-      <p class="text-sm text-neutral-500 dark:text-neutral-400">
-        {{- with replace .Site.Params.copyright "{ year }" now.Year }}
-          {{ . | markdownify }}
-        {{- else }}
-          &copy;
-          {{ now.Format "2006" }}
-          {{ .Site.Params.Author.name | markdownify }}
-        {{- end }}
-      </p>
-    {{ end }}
+<footer class="container">
+    <hr class="soften">
+    <p>
+        {{- partial "copyright.html" . -}}
+    </p>
+    <p class="text-center">
+        {{ with .Site.Params.facebook }}<a href="{{ . }}">Facebook</a> {{ end }}
+        {{ with .Site.Params.twitter }}<a href="{{ . }}">Twitter</a> {{ end }}
+        {{ with .Site.Params.linkedin }}<a href="{{ . }}">Linkedin</a> {{ end }}
+        {{ with .Site.Params.github }}<a href="{{ . }}">GitHub</a> {{ end }}
+        {{ with .Site.Params.gitlab }}<a href="{{ . }}">GitLab</a>{{ end }}
+        {{ with .Site.Params.rss }}<a href="{{ . }}">RSS</a>{{ end }}
+    </p>
 
-    {{/* Theme attribution */}}
-    {{ if .Site.Params.footer.showThemeAttribution | default true }}
-      <p class="text-xs text-neutral-500 dark:text-neutral-400">
-        {{ $hugo := printf `<a class="hover:underline hover:decoration-primary-400 hover:text-primary-500"
-          href="https://gohugo.io/" target="_blank" rel="noopener noreferrer">Hugo</a>`
-        }}
-      </p>
-    {{ end }}
-  </div>
-  {{ if not .Site.Params.disableImageZoom | default true }}
+    {{ if .Page.Store.Get "hasMermaid" }}
+    <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
     <script>
-      mediumZoom(document.querySelectorAll("img:not(.nozoom)"), {
-        margin: 24,
-        background: "rgba(0,0,0,0.5)",
-        scrollOffset: 0,
-      });
+      mermaid.initialize({ startOnLoad: true, theme: "default" });
     </script>
-  {{ end }}
-  {{/* Extend footer - eg. for extra scripts, etc. */}}
-  {{ if templates.Exists "partials/extend-footer.html" }}
-    {{ partialCached "extend-footer.html" . }}
-  {{ end }}
+    {{ end }}
+    <script>
+(function () {
+  var refs = document.querySelectorAll('.footnote-ref');
+  if (!refs.length) return;
+
+  var tooltip = document.createElement('div');
+  tooltip.className = 'footnote-tooltip';
+  tooltip.style.display = 'none';
+  document.body.appendChild(tooltip);
+
+  function showTooltip(ref) {
+    var href = ref.getAttribute('href');
+    var id = decodeURIComponent(href.slice(1));   // "#fn:1" -> "fn:1"
+    var note = document.getElementById(id);        // no CSS-selector parsing involved
+    if (!note) return;
+
+    var clone = note.cloneNode(true);
+    var backref = clone.querySelector('.footnote-backref');
+    if (backref) backref.remove();
+    tooltip.innerHTML = clone.innerHTML;
+
+    var rect = ref.getBoundingClientRect();
+    tooltip.style.display = 'block';
+    var top = rect.top + window.scrollY - tooltip.offsetHeight - 8;
+    var left = rect.left + window.scrollX - (tooltip.offsetWidth / 2) + (rect.width / 2);
+    left = Math.max(8, Math.min(left, window.innerWidth - tooltip.offsetWidth - 8));
+
+    tooltip.style.top = top + 'px';
+    tooltip.style.left = left + 'px';
+  }
+
+  function hideTooltip() {
+    tooltip.style.display = 'none';
+  }
+
+  refs.forEach(function (ref) {
+    ref.addEventListener('mouseenter', function () { showTooltip(ref); });
+    ref.addEventListener('mouseleave', hideTooltip);
+    ref.addEventListener('focus', function () { showTooltip(ref); });
+    ref.addEventListener('blur', hideTooltip);
+    ref.addEventListener('click', function (e) {
+      e.preventDefault();
+      if (tooltip.style.display === 'block') {
+        hideTooltip();
+      } else {
+        showTooltip(ref);
+      }
+    });
+  });
+
+  document.addEventListener('click', function (e) {
+    if (!e.target.closest('.footnote-ref')) hideTooltip();
+  });
+})();
+</script>
 </footer>

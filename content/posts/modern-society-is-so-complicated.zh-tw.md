@@ -20,9 +20,11 @@ keywords:
   - 理性思維
 summary: "面對複雜的世界我們應該具備理性思維來挑戰現代社會"
 description: "面對複雜的世界我們應該具備理性思維來挑戰現代社會"
-featureimage: "https://secologies.com/wp-content/uploads/2026/04/1776947391937.webp"
 slug: "modern-society-is-so-complicated"
+featureimage: "https://media.secologies.com/1776947391937.webp"
 ---
+![1776947391937](https://media.secologies.com/1776947391937.webp)
+
 有人說，當你二十歲時站在人生的十字路口上，你可以選擇安穩的那條路，固守在自己感到舒適的世界中，只想辦法搞懂一套遊戲規則，想著用同一套規則玩到退休。又或者，你得到了一個機會，可以好好認識這個瞬息萬變的現實世界，而我覺得人生只能活一次(先不管轉世存不存在)，不好好了解這個現實世界簡直是白活了一趟，但要怎麼活又是個難題
 
 事實上，現代社會脫離工業時代後，世上早就沒有太多單純的問題了，首先，**這個世界越來越複雜**，如果拿臺灣人最熟悉的超大型積體電路 (Very Large-Scale Integration) 來說

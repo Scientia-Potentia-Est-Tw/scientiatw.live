@@ -9,9 +9,9 @@ keywords = [ "生活", "個人成長", "生活分享"]
 slug = "freedom-of-choose-is-privilege"
 summary = "身處二十一世紀的我們每天說著自己「很忙」，但經過這些忙碌後真的有讓我們得到更多了嗎？"
 description = "身處二十一世紀的我們每天說著自己「很忙」，但經過這些忙碌後真的有讓我們得到更多了嗎？"
-featureimage = "https://secologies.com/wp-content/uploads/2026/03/freedom-of-choose-is-privilege-scaled.webp"
-
+featureimage = "https://media.secologies.com/freedom-of-choose-is-privilege.webp"
 +++
+![freedom-of-choose-is-privilege](https://media.secologies.com/freedom-of-choose-is-privilege.webp)
 
 身處二十一世紀的我們每天說著自己「很忙」，但經過這些忙碌後真的有讓我們得到更多了嗎？
  

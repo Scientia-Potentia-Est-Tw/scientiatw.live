@@ -1,0 +1,38 @@
+<head>
+    <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} - {{ .Site.Title }}{{ end }}</title>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+    <meta content="utf-8" http-equiv="encoding">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="theme-color" content="#000084" />
+    <link rel="icon" href="{{ .Site.BaseURL }}/favicon.png">
+    <link rel="canonical" href="{{ .Permalink }}">
+
+    {{ $description := .Params.description | default .Summary | default .Site.Params.description }}
+    {{ with $description }}
+    <meta name="description" content="{{ . | plainify }}">
+    {{ end }}
+
+    {{ $ogImage := .Params.featureimage | default .Site.Params.defaultImage }}
+
+    <meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}">
+    <meta property="og:title" content="{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }}{{ end }}">
+    {{ with $description }}<meta property="og:description" content="{{ . | plainify }}">{{ end }}
+    <meta property="og:url" content="{{ .Permalink }}">
+    {{ with $ogImage }}<meta property="og:image" content="{{ . | absURL }}">{{ end }}
+    {{ with .Site.Title }}<meta property="og:site_name" content="{{ . }}">{{ end }}
+
+    <meta name="twitter:card" content="{{ if $ogImage }}summary_large_image{{ else }}summary{{ end }}">
+    <meta name="twitter:title" content="{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }}{{ end }}">
+    {{ with $description }}<meta name="twitter:description" content="{{ . | plainify }}">{{ end }}
+    {{ with $ogImage }}<meta name="twitter:image" content="{{ . | absURL }}">{{ end }}
+
+    {{/* Don't ask why it's like this. This original theme is a mess... */}}
+    <!-- <noscript><style>body { visibility: visible }</style></noscript> -->
+    {{ if .Params.mermaid }}
+    <script type="module">
+    import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
+      mermaid.initialize({ startOnLoad: true });
+    </script>
+    {{ end }}
+</head>

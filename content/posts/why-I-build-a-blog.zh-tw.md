@@ -17,13 +17,13 @@ keywords = [
   "生活設計",
   "為什麼我想寫部落格",
 ]
-summary = "人的記憶非常奇妙，只有那些刻骨銘心的事情才會讓你記得長長久久，尤其每晚在我睡著前那些死去的記憶突然開始攻擊我，而那些快樂的記憶倏忽即逝不留痕跡的離開了我"
-description = "人的記憶非常奇妙，只有那些刻骨銘心的事情才會讓你記得長長久久，尤其每晚在我睡著前那些死去的記憶突然開始攻擊我，而那些快樂的記憶倏忽即逝不留痕跡的離開了我"
-featureimage = "https://secologies.com/wp-content/uploads/2025/07/why-I-build-a-blog-cover-scaled.webp" 
+
+description = "人的記憶非常奇妙，只有那些刻骨銘心的事情才會讓你記得長長久久，尤其每晚在我睡著前那些死去的記憶突然開始攻擊我，而那些快樂的記憶倏忽即逝不留痕跡的離開了我" 
 slug = "why-I-build-a-blog"
+featureimage = "https://media.secologies.com/why-I-build-a-blog-cover.webp"
 math = true
 +++
-> 人的記憶非常奇妙，只有那些刻骨銘心的事情才會讓你記得長長久久，尤其每晚在我睡著前那些死去的記憶突然開始攻擊我，而那些快樂的記憶倏忽即逝不留痕跡的離開了我
+![why-I-build-a-blog-cover](https://media.secologies.com/why-I-build-a-blog-cover.webp)
 
 所以我想在網路上有個空間紀錄我的所見所聞，至少比起我的大腦還來的可信吧，當我在進行寫作的過程會回憶起當時的情境，雛形寫完後潤飾文章看看我有沒有對我自己的記憶動了手腳，其次透過寫作可以慢慢地梳理我的生活，所以我想透過部落格培養我的寫作技能
 
@@ -49,12 +49,11 @@ math = true
 
 回到我的起點不再去要求一步到位的內容，我想要寫些什麼就寫，分享書的讀後心得、分享我從網路上看到的文章而引發我那些省思、分享我去哪裡怎麼去怎麼玩以及分享我的品味給讀者等等，人本來就有各式各樣的興趣而這些內容用社群媒體很難整理(畢竟誰會想要往下滑一年前的貼文？)，所以我想部落格是最好的歸屬
 
-在這裡我可以自由設計我自己想要的版面、格式以及甚至放點Katex公式$\eqref{Information-Theory-Entropy}$[^1]🧐
+在這裡我可以自由設計我自己想要的版面、格式以及甚至放點Katex公式[^1]🧐
 
-\begin{equation}
+$$
 H_{b}(X) = -\sum_{x \in \mathbb{X}} P(x) \cdot log_{b}P(x) = \mathbb{E}[-log_{b}P(X)] = \mathbb{E}{p} [log_{b}\frac{1}{P(x)}]
-\label{Information-Theory-Entropy}
-\end{equation}
+$$
 
 並且透過部落格練習寫作可以同時為我的職業生涯帶來好處，畢竟研究工作花了七成時間在進行研究，三成時間把研究內容整理完寫成paper才算得上完成工作，優化任何一塊環節都能夠超越自我此乃美德，而練習直接寫才是王道，難道我讓想法在腦中盤旋就可以完成一篇文章？
 

@@ -20,9 +20,11 @@ keywords:
   - "動物農莊"
 summary: "所有動物一律平等，但有些動物比其他動物更平等"
 description: "所有動物一律平等，但有些動物比其他動物更平等"
-featureimage: "https://secologies.com/wp-content/uploads/2026/01/Animal-Farm-Cover.webp"
 slug: "animal-farm"
+featureimage: "https://media.secologies.com/Animal-Farm-Cover.webp"
 ---
+![Animal-Farm-Cover](https://media.secologies.com/Animal-Farm-Cover.webp)
+
 《動物農莊》是喬治·歐威爾(George Orwell)筆下描寫關於掌握權力並且擴張極致後，這個社會，這個世界會是個什麼樣子，歐威爾只用一個農場裡發生的事就讓我們見識到，打著崇高理念的豬是如何掌握整個遊戲規則，又是如何將整個世界掌控在手裡的
 
 故事一開始老少校也許是立意良善的，在它十二年生命中，看盡自己跟身邊的動物同伴不斷地被農場主人剝削，所以認為自己跟這些同夥們應該挺身反抗，對抗不公不義之事，它們也確實推翻了農場主人的掌握

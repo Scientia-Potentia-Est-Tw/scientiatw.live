@@ -25,9 +25,11 @@ keywords = [
 ]
 summary = "資訊如浪潮般襲來的時代，在AI產生的大量低熵資訊中，錯過任何一則訊息你都覺得被世界遺落了"
 description = "資訊如浪潮般襲來的時代，在AI產生的大量低熵資訊中，錯過任何一則訊息你都覺得被世界遺落了"
-featureimage = "https://secologies.com/wp-content/uploads/2025/09/fear-of-missing-out-and-me-scaled.webp"
+featureimage = "https://media.secologies.com/fear-of-missing-out-and-me.webp"
 slug = "fear-of-missing-out-and-me"
 +++
+![fear-of-missing-out-and-me](https://media.secologies.com/fear-of-missing-out-and-me.webp)
+
 你是否總是沒幾分鐘就想把手機拿出來，打開IG看看有沒有任何朋友的限時動態，老想著Threads的河道上是不是又有人在開新話題，這種對「可能錯過他人已經歷過有趣、重要或新奇的事件」所產生出來的焦慮與不安感，被稱作「Fear of Missing Out」或簡稱FOMO，是「錯失恐懼」，是「錯失焦慮」，也是「資訊遺漏焦慮」。我們統稱一下叫「錯失焦慮」好了
 
 一直擔心錯過有價值的體驗，而引發對人際關係、社會連結與自我價值感的深層擔憂，2000年行銷專家的丹·赫爾曼(Dan Herman)就已經拿到商場上來使用了，用限時活動大拍賣引起消費者想避免錯過優惠的機會，而參與活動或購買產品的心理動機(我在雙十一跟黑色星期五也確實會失控)，那種渴望持續與他人的活動保持連結，對於「與他人脫節的感覺」或感覺「其他人的生活比我更充實或有趣」時就會感到焦慮

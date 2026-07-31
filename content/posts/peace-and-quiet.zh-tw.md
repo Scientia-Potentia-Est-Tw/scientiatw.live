@@ -18,9 +18,11 @@ keywords:
   - "生命的意義"
 summary: "這樣安詳寧靜的片刻，給予我生命的意義和深度"
 description: "這樣安詳寧靜的片刻，給予我生命的意義和深度"
-featureimage: "https://secologies.com/wp-content/uploads/2026/03/peace-and-quiet-scaled.webp"
+featureimage: "https://media.secologies.com/peace-and-quiet.webp"
 slug: "peace-and-quiet"
 ---
+![peace-and-quiet](https://media.secologies.com/peace-and-quiet.webp)
+
 隨著年紀越長越大，心裡總有一股聲音，告訴自己應該嘗試追求心靈安詳，也許就這麼在一個安靜的夏日午後時光，空氣溫潤，陽光和煦不灼熱，唯一聽到的就是大自然傳來的天籟之音。
 
 頓時間，內心感到舒適，一切清明平靜，甚至是圓滿的。我的內心中沒有任何匱乏，擁有了一切所需。其中讓我感到最喜悅的，就是幾乎無所「需求」。如此簡單，像動物一樣的活著，

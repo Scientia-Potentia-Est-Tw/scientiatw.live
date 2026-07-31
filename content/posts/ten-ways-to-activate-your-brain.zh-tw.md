@@ -9,9 +9,9 @@ keywords = [ "生活", "健康", "營養與飲食"]
 slug = "ten-ways-to-activate-your-brain"
 summary = "神經科學家威勒米爾（Kristen Willeumier)在亞曼診所(Amen Clinics)看過許多的精密大腦影像，並且經由研究過後推斷出只要改變生活習慣以及持之以恆，就能夠大幅度的改變大腦的健康狀況"
 description = "神經科學家威勒米爾（Kristen Willeumier)在亞曼診所(Amen Clinics)看過許多的精密大腦影像，並且經由研究過後推斷出只要改變生活習慣以及持之以恆，就能夠大幅度的改變大腦的健康狀況"
-featureimage = "https://secologies.com/wp-content/uploads/2026/03/ten-ways-to-activate-your-brain-scaled.webp"
-
+featureimage = "https://media.secologies.com/ten-ways-to-activate-your-brain.webp"
 +++
+![ten-ways-to-activate-your-brain](https://media.secologies.com/ten-ways-to-activate-your-brain.webp)
 
 在威勒米爾的《大腦逆齡指南》(Biohack your Brain)書裡提到，年過四十之後，平均每十年大腦容量減少5%，這只是平均值，還會取決於你的生活狀況而有所變化，無論幾歲，都不要拋棄你的大腦，可以透過以下十種方法來修復大腦功能：
 

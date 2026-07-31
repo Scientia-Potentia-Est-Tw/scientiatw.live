@@ -18,11 +18,12 @@ keywords:
   - 精簡
   - 精巧
   - 精深
-summary: "寫作的過程就像蓋房子，要有穩固的地基與扎實的結構，正因如此我們才能利用寫作訓練出堅實的獨立思考能力"
 description: "寫作的過程就像蓋房子，要有穩固的地基與扎實的結構，正因如此我們才能利用寫作訓練出堅實的獨立思考能力"
-featureimage: "https://secologies.com/wp-content/uploads/2026/04/writing-clearly-present-your-opinion-scaled.webp"
 slug: "writing-clearly-present-your-opinion"
+featureimage: "https://media.secologies.com/writing-clearly-present-your-opinion.webp"
 ---
+![writing-clearly-present-your-opinion](https://media.secologies.com/writing-clearly-present-your-opinion.webp)
+
 這是一個許多人利用機器學習/深度學習/強化學習技術解決許多事情的時代，這也是一個寫作者崛起的時代
 
 曾幾何時，寫作是少數人才能完全掌握的工具，然而在 2007 年後智慧型手機的出現，加上 2010 年後社群媒體的進步，人們寫作並非只為了接受某種評鑑，而是用來溝通、娛樂、遊說，或者說為了獲得其他人的注意力

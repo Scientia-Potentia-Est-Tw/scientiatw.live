@@ -23,10 +23,12 @@ keywords = [
 ]
 summary = "代謝猶如人體發電系統，是你我身體健康的根源"
 description = "代謝猶如人體發電系統，是你我身體健康的根源"
-featureimage = "https://secologies.com/wp-content/uploads/2025/09/metabolic-power-cover.webp"
+featureimage = "https://media.secologies.com/metabolic-power-cover.webp"
 slug = "metabolic-power-is-key-of-health"
 math = true
 +++
+![metabolic-power](https://media.secologies.com/metabolic-power-cover.webp)
+
 隨著醫療水準越來越進步，人類的壽命不斷地倍增，但每年全球死亡人數卻有超過**7**成也就是約4100萬人死於慢性病，現今這個科技世界更造就10億的肥胖人口，更不用說現代醫療治療時只專注於將病症去除，卻輕忽疾病的預防，加上全球大型食品公司與製藥公司的雙雙聯手，你我活在充斥超加工食品(每晚超爽麥當勞薯條)、環境毒素(PM 2.5)和壓力充斥(主管每天罵你)的環境當中，現代人越來越遠離健康生活了
 
 2024年卡利·明斯(Calley Means)跟妹妹凱西·明斯(Casey Means)合著《Good Energy》一書提到**代謝**是身體健康的根源，現代病往往源自於新陳代謝失衡，粒腺體無法將食物轉成好能量，導致身體常常發炎、慢性病也隨之而來，尤其現代生活高壓快節奏，人們的飲食、運動、睡眠、壓力、生理節奏、環境等因素通通無法自己掌控

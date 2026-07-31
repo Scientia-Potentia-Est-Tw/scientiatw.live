@@ -20,9 +20,11 @@ keywords:
   - 幸福之人
 summary: "人生就像是鐘擺來回於痛苦和無聊之間，其實這兩者就是每日生命的終極要素"
 description: "人生就像是鐘擺來回於痛苦和無聊之間，其實這兩者就是每日生命的終極要素"
-featureimage: "https://secologies.com/wp-content/uploads/2026/03/whether-exist-a-perfect-days.webp"
+featureimage: "https://media.secologies.com/whether-exist-a-perfect-days.webp"
 slug: "whether-exist-a-perfect-days"
 ---
+![whether-exist-a-perfect-dats](https://media.secologies.com/whether-exist-a-perfect-days.webp)
+
 > 這是我的「[BlogBlog 同樂會 - 2026 年 3 月](https://blogblog.club/party)」的投稿文章。本月主題是「[理想的日常](https://alexhsu.com/perfect-days)」，由 [Alex Hsu](https://alexhsu.com/) 主持。如果你有自己的部落格，歡迎一起來參加！
 
 叔本華說「人生就像是鐘擺來回於痛苦和無聊之間，其實這兩者就是每日生命的終極要素」，阻止我們在一天生活中感到幸福的兩大敵人就是痛苦與無聊，我們的人生可以說是穿梭於這兩者之間

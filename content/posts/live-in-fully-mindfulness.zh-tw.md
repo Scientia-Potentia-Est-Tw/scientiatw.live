@@ -20,9 +20,11 @@ keywords:
   - 生命
 summary: "生命已經在那裡了，就在我的問題和不滿之間"
 description: "生命已經在那裡了，就在我的問題和不滿之間"
-featureimage: "https://secologies.com/wp-content/uploads/2026/02/live-in-fully-mindfulness-cover-scaled.webp"
+featureimage: "https://media.secologies.com/live-in-fully-mindfulness-cover.webp"
 slug: "live-in-fully-mindfulness"
 ---
+![live-in-fully-mindfulness](https://media.secologies.com/live-in-fully-mindfulness-cover.webp)
+
 > 這是我的[「BlogBlog 同樂會 - 2026 年 2 月」](https://blogblog.club/party)的投稿文章。本月主題是[「只有我這樣嗎？」](https://wiwi.blog/blog/blogblog-party-feb-2026)，由 [Wiwi](https://wiwi.blog/) 主持。如果你有自己的部落格，歡迎一起來參加！
 
 在我不斷地審思自己的生活節奏之後，我改變了一些策略，我開始在一天中無時無刻地停下眼前的事務，審視我現在做的事情真的是必要的嗎？以及每天睡覺前思考一整天過得如何？感覺如何？對我來說這才是一天的開始
@@ -53,10 +55,10 @@ slug: "live-in-fully-mindfulness"
 
 正如埃米爾·蕭沆(Emil Cioran，羅馬尼亞旅法哲人，二十世紀懷疑論、悲觀主義的重要思想家)所言：「真正的幸福，是不需參考任何其他事物的意識狀態。意識自身就能填補這巨大的空缺。」似乎在這個越來越快速的時代，什麼都不用做，是最高級的奢侈品？
 
-<figure>
-  <img src="https://secologies.com/wp-content/uploads/2026/02/世界越快，心則慢.webp" alt="世界越快，心則慢" width="600">
-  <figcaption>世界越快，心則慢[2]。(放一張所有參與 BlogBlog 同樂會男性參與者的自拍照)</figcaption>
-</figure>
+![世界越快，心則慢](https://media.secologies.com/%E4%B8%96%E7%95%8C%E8%B6%8A%E5%BF%AB%EF%BC%8C%E5%BF%83%E5%89%87%E6%85%A2.webp)
+{{< alert >}}
+世界越快，心則慢[2]。(放一張所有參與 BlogBlog 同樂會男性參與者的自拍照)
+{{< /alert >}}
 
 這20幾年來顯示卡技術越來越好，利用機器高效能計算的效率越來越強。這動盪且實用主義掛帥的時代，在這個令人振奮且富裕的時代，如此多的模型已經將許多事情的門檻降低許多，更多的人可以將腦中的想法實現出來，但世上要做的事情卻越來越多，絲毫不見我們可以停下來的一天，我感覺「什麼都不做」的日子離我是越來越遠了，可以當作是至尊奢華的一件事情呢
 
@@ -66,7 +68,7 @@ slug: "live-in-fully-mindfulness"
 
 覺察當下是多麼複雜、迷茫、不完美，時時都有缺陷的生活，過去，我如此地認為這個既真且善的生命，只有在一切困難都解決了之後才開始，但當我後退一步，才覺得這樣想其實不太對，生命對我而言就已經在那裡了，就在我的問題和不滿之間，這個瞬間我才覺得這個樣子才真真正正的活出了我自己的生命
 
-# References
+## References
 [^1]: Daniel Kahneman, "快思慢想（新版）," 天下文化, 2023/07/10, [https://ibestfun.net/3Pfy-?uid1=Blog](https://ibestfun.net/3Pfy-?uid1=Blog)
 
 [2] Takeshi Kaneshiro 金城武, "中華電信，極速 4G," 中華電信, 2014年9月13日, [https://www.facebook.com/photo.php?fbid=1391947947731672&id=1382542935338840&set=a.1382543768672090](https://www.facebook.com/photo.php?fbid=1391947947731672&id=1382542935338840&set=a.1382543768672090)

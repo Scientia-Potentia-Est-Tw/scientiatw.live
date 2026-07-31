@@ -9,9 +9,9 @@ keywords = [ "生活", "睡眠", "健康"]
 slug = "lack-of-sleep-harm"
 summary = "人生中健康的三大支柱，有些人排序成「飲食」、「運動」，最後是「睡眠」，但從研究結果來看「睡眠」才是另外兩項條件的基底"
 description = "人生中健康的三大支柱，有些人排序成「飲食」、「運動」，最後是「睡眠」，但從研究結果來看「睡眠」才是另外兩項條件的基底"
-featureimage = "https://secologies.com/wp-content/uploads/2026/03/lack-of-sleep-harm-scaled.webp"
-
+featureimage = "https://media.secologies.com/lack-of-sleep-harm.webp"
 +++
+![lack-of-sleep-harm](https://media.secologies.com/lack-of-sleep-harm.webp)
 
 人生中健康的三大支柱，有些人排序成「飲食」、「運動」，最後是「睡眠」，但從研究結果來看**睡眠**才是另外兩項條件的基底
  

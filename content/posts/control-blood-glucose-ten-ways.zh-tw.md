@@ -3,7 +3,7 @@ author: 黃宏勝
 categories:
 - 生活
 date: '2025-11-04T09:46:00+08:00'
-featureimage: https://secologies.com/wp-content/uploads/2025/11/control-blood-glucose-ten-ways-cover-scaled.webp
+featureimage: "https://media.secologies.com/control-blood-glucose-ten-ways-cover.webp"
 keywords:
 - 生活
 - 糖尿病
@@ -23,6 +23,7 @@ tags:
 - 放鬆心情
 title: 控制血糖的十招
 ---
+![control-blood-glucose-ten-ways](https://media.secologies.com/control-blood-glucose-ten-ways-cover.webp)
 
 當我們被診斷出罹患糖尿病時，並不等於要立刻馬上進行藥物治療，治療糖尿病的第一步，也是最核心的一步，是要改變原先的「生活型態」，其實整個療程不只有吃藥而已，事實上，藥物只是輔助工具
 

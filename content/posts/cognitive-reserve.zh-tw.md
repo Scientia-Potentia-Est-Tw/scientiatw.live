@@ -9,9 +9,9 @@ keywords = [ "生活", "健康", "認知儲備", "失智症", "腦本", "認知�
 slug = "cognitive-reserve"
 summary = "關鍵因素在於你如何處理資訊，任何能刺激心智，對智力有挑戰的活動都有辦法讓認知能力水平下降速度減緩"
 description = "關鍵因素在於你如何處理資訊，任何能刺激心智，對智力有挑戰的活動都有辦法讓認知能力水平下降速度減緩"
-featureimage = "https://secologies.com/wp-content/uploads/2026/03/cognitive-reserve-scaled.webp"
-
+featureimage = "https://media.secologies.com/cognitive-reserve.webp"
 +++
+![cognitive-reserve](https://media.secologies.com/cognitive-reserve.webp)
 
 「認知儲備」(cognitive reserve)也就是常動腦將腦力儲存在大腦銀行裡，有可能降低失
 智的風險，美國芝加哥Rush大學醫學中心找了1900名老人，平均年齡為79.3歲探訪他們每天花多少時間在**閱讀、寫信、以及玩遊戲例如拼字、紙牌遊戲、棋類遊戲**的頻率，研究發現認知活動水準較高的人罹患失智症平均年齡為93.6歲

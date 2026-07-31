@@ -9,9 +9,9 @@ keywords = [ "生活", "妥協", "委屈求全", "挫折"]
 slug = "never-compromise-myself"
 summary = "面臨著事業危機，也不被任何人支持，究竟該如何撐過這場暴風？"
 description = "面臨著事業危機，也不被任何人支持，究竟該如何撐過這場暴風？"
-featureimage = "https://secologies.com/wp-content/uploads/2026/03/never-compromise-myself-scaled.webp"
-
+featureimage = "https://media.secologies.com/never-compromise-myself.webp"
 +++
+![never-compromise-myself](https://media.secologies.com/never-compromise-myself.webp)
 
 **不願妥協，與妥協太多，兩者之間你只能擇一前進**，也許是我的固執也許是我的理念，有時我就是不願做別人期望我做的事，拒絕了遊戲規則後下場有時就是原地打轉，比我晚進公司的學弟妹們爬到了比我高的職位，太可悲了，我那討人厭的不一樣，近乎毀了所有事情
 

@@ -18,9 +18,11 @@ keywords:
   - 超越自我
 summary: "接受自己不完美、有可能失敗，才能繼續向前走"
 description: "接受自己不完美、有可能失敗，才能繼續向前走"
-featureimage: "https://secologies.com/wp-content/uploads/2026/01/imperfect-builds-me-cover-scaled.webp"
 slug: "imperfect-builds-me"
+featureimage: "https://media.secologies.com/imperfect-builds-me-cover.webp"
 ---
+![imperfect-builds-me-cover](https://media.secologies.com/imperfect-builds-me-cover.webp)
+
 是環境嗎？抑或是家庭所塑造的，每當我面對別人交付予我的任務，我總想著做到盡善盡美的結果才肯回應，在執行的過程中，我痛苦、我掙扎，想著只要自己犧牲多一點就能夠滿足別人多一點。
 
 更甚者，我總想著要求自己達到不可能達成的標準，隨之而來，我只有更加認識自己的不完美，導致熱情日漸消退，甚至開始厭惡自己，總覺得自己毫無價值，沒有達到這個被錯誤引導的理想目標，我就不值得被愛。
@@ -33,10 +35,7 @@ slug: "imperfect-builds-me"
 
 在我們長年受的教育當中，認為只有達到完美才有資格滿足別人的期待，但 Wabi-Sabi 讚頌事物的短暫無常、獨特性以及缺陷，這些特質讓個別的事物顯得獨一無二、真誠與美麗。
 
-<figure>
-  <img src="https://secologies.com/wp-content/uploads/2026/01/wabi-sabi.webp" alt="龍安寺禪院" width="600">
-  <figcaption>龍安寺禪院[1]</figcaption>
-</figure>
+![龍安寺禪院](https://media.secologies.com/wabi-sabi.webp)
 
 也許我是時候學著與自己不完美的本性和平共處了，如果我只是為了意淫著想將事情一步到位，那我便偏離原本的焦點：持續改善，這才是對我、對上司、對同事有用的一步。
 
@@ -58,7 +57,6 @@ slug: "imperfect-builds-me"
 
 即使步伐緩慢，或在過程中不斷地跌倒，我也想告訴自己，「沒關係的」，真正重要的是我有在持續進步，因為，唯有接受自己不完美、有可能失敗，我們才能繼續向前走。
 
-{{< youtubeLite id="ofTmUZjkh8Q" label="康士坦的變化球 KST 【向前走 Marching Forward】" >}}
+{{< youtube ofTmUZjkh8Q >}}
 
-# Reference
 [1] 維基百科, "侘寂," 2022年5月25日, https://zh.wikipedia.org/zh-tw/%E4%BE%98%E5%AF%82.

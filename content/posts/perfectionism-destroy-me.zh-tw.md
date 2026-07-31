@@ -20,9 +20,11 @@ keywords:
   - 失敗
 summary: "當一個人的「自我評價」與「自我期待」脫鉤，焦慮勢必會失控，想要控制的方法就是完美主義行為的表現"
 description: "當一個人的「自我評價」與「自我期待」脫鉤，焦慮勢必會失控，想要控制的方法就是完美主義行為的表現"
-featureimage: "https://secologies.com/wp-content/uploads/2026/03/perfectionism-destroy-me.webp"
+featureimage: "https://media.secologies.com/perfectionism-destroy-me.webp"
 slug: "perfectionism-destroy-me"
 ---
+![perfectionism-destroy-me](https://media.secologies.com/perfectionism-destroy-me.webp)
+
 我忘了自己是從什麼時候開始不斷「吹毛求疵」、「過度要求細節」，或為了想像中的完美不斷地花大量時間與精力去修改一版二版甚至更多版，修改完後又直接將報告寄給主管，回想起主管曾有一次口頭說能不能修到我覺得比較可行的版本後再寄信，不然中階主管每天要收很多信件，所以他們會隨時開著信箱，卻又有一封一封其實差異不大的版本傳進來，感覺就很煩
 
 其實到現在完美主義還算不上一種疾病，比較偏向心理狀態或個人特質，這項特質是指一種不斷追求精確且完美的性格，伴隨著自我否定和對他人評價的關注

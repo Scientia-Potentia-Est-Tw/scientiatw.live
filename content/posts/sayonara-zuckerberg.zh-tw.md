@@ -20,10 +20,10 @@ keywords:
   - 演算法 
 summary: "我生命中最美好的事物從沒有在社群平台上出現，如果繼續讓祖克柏控制我的大腦，也許有一天我會支離破碎吧"
 description: "我生命中最美好的事物從沒有在社群平台上出現，如果繼續讓祖克柏控制我的大腦，也許有一天我會支離破碎吧"
-featureimage: "https://secologies.com/wp-content/uploads/2025/12/祖克柏梗圖-3.webp"
+featureimage: "https://media.secologies.com/%E7%A5%96%E5%85%8B%E6%9F%8F%E6%A2%97%E5%9C%96.webp"
 slug: "sayonara-zuckerberg"
 ---
-<p align="center"><img src="https://secologies.com/wp-content/uploads/2026/01/再見祖克柏.webp" alt="祖克柏梗圖" width="400"/></p>
+![祖克柏](https://media.secologies.com/%E7%A5%96%E5%85%8B%E6%9F%8F%E6%A2%97%E5%9C%96.webp)
 
 過去我們活在需要100%心力過活的生命中，可能花了80%的力氣在處理一些煩心的雜事，而剩下20%的時間裡是我們可以進入心流狀態，完成某種成就的深層體驗，可能是完整的看完一本書或一部電影、創作一篇文章或畫一張圖、與你的伴侶一起細心品味你們之間的日常相處，也可以是單純放空的在公園裡散步
 
@@ -109,10 +109,10 @@ TikTok吹響了短影音的號角，雖說各家科技公司可以決定自己�
 
 所以，再見，祖克柏
 
-<figure>
-  <img src="https://secologies.com/wp-content/uploads/2025/12/Sayonara-Zuckerberg.webp" alt="再見祖克柏" width="500">
-  <figcaption>再見祖克柏，原圖是藤本樹老師的《再見繪梨》[2]，吸血鬼換成蜥蜴人感覺無違和</figcaption>
-</figure>
+![再見祖克柏](https://media.secologies.com/Sayonara-Zuckerberg.webp)
+{{< alert >}}
+再見祖克柏，原圖是藤本樹老師的《再見繪梨》[2]，吸血鬼換成蜥蜴人感覺無違和
+{{< /alert >}}
 
 ## References
 [^1]: 喬治．歐威爾, "動物農莊 Animal Farm," 讀墨, 2025, [https://moo.im/a/018esT](https://moo.im/a/018esT)

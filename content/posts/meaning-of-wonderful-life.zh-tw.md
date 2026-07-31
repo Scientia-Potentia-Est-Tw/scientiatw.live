@@ -19,9 +19,11 @@ keywords = [
 ]
 summary = "如果不好好吃，怎麼好好思考、好好去愛、好好睡覺？"
 description = "如果不好好吃，怎麼好好思考、好好去愛、好好睡覺？"
-featureimage = "https://secologies.com/wp-content/uploads/2026/03/meaning-of-wonderful-life-scaled.webp" 
+featureimage = "https://media.secologies.com/meaning-of-wonderful-life.webp" 
 slug = "meaning-of-wonderful-life"
 +++
+![meaning-of-wonderful-life](https://media.secologies.com/meaning-of-wonderful-life.webp)
+
 當我們飢餓、口渴、冷、生病或有危險時追尋美善的生活根本毫無意義，那個時代只有關乎生存的食物、水、溫暖、藥物和棲身之處才是極為珍貴的「商品」，而當科技的進步解決了這些事情之後，我們開始能夠對抗死亡，但也遠離了自己生命有限的事實，從全素食主義、實驗室植物肉，到甚至有人花錢把年輕血液打進自己的身體裡[^1]
 
 當人們克服了這些困難後「怎麼活」的問題就變得越發複雜、抽象，雖然同樣間接與生存有關，但我們開始追求無形的事物，像是追求**幸福**，可你我都知道幸福出名的難界定，每個人追求的幸福都不同，每個人都很難達成，而幸福卻又像終極的誘惑，人皆渴望

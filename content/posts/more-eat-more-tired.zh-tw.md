@@ -23,9 +23,11 @@ keywords = [
 ]
 summary = "外食族想要吃得對，其實沒那麼難！"
 description = "外食族想要吃得對，其實沒那麼難！"
-featureimage = "https://secologies.com/wp-content/uploads/2025/09/more-eat-more-tired-cover.webp"
+featureimage = "https://media.secologies.com/more-eat-more-tired-cover.webp"
 slug = "more-eat-more-tired"
 +++
+![more-eat-more-tired](https://media.secologies.com/more-eat-more-tired-cover.webp)
+
 代謝變慢所帶來的影響不只是讓人發胖，從血糖波動、慢性發炎到身體機能下降皆與代謝力息息相關，代謝力下降最主要的原因除了年齡與活動量減少外，其中一個關鍵辨識每天吃下肚的食物，成大醫院營養師兼營養部主任的郭素娥營養師表示，人體的代謝運作是一部精密的引擎，食物不只是熱量來源，更是驅動能量轉換、維持生理功能的燃料
 
 若長期飲食過多加工食品、油炸物及含糖糕點及飲料，就像每次現代轎車進加油站都加柴油，漸漸地搞壞引擎，換到身體上就是容易造成血糖波動，引發體內慢性發炎，讓代謝系統變慢、效率變差，要讓身體的心跳與呼吸系統運作，每天要消耗六到七成的總能量，這些能量來源是碳水化合物、脂肪以及蛋白質三大營養素

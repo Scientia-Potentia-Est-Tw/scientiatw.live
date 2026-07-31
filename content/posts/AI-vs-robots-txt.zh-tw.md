@@ -20,9 +20,11 @@ keywords:
   - AI爬蟲
 summary: "爬蟲巨獸無情吞噬網路上的一切，知識型網站的未來是？"
 description: "爬蟲巨獸無情吞噬網路上的一切，知識型網站的未來是？"
-featureimage: "https://secologies.com/wp-content/uploads/2025/12/ai-vs-robots-scaled.webp"
+featureimage: "https://media.secologies.com/ai-vs-robots.webp"
 slug: "AI-vs-robots-txt" 
 ---
+![ai-vs-robots](https://media.secologies.com/ai-vs-robots.webp)
+
 各大網站基本上靠一個叫做"robots.txt"的檔案對網路爬蟲[^1]說明哪些頁面可以爬取而哪些頁面禁止爬取，過去我們透過這個設定讓Google Search, Bing Webmaster等搜尋引擎的spider來逛我們的個人網站，時至今日這些公司為了讓他們自己的大型語言模型系統更完善，利用RAG強化AI爬蟲花更多力氣想把整個網際網路都爬下來，以便更精確的回應使用者的提問，以及能訓練生成更多種類的內容
 
 一些網路新聞公司及出版社的執行長都跳出來説這些AI公司只顧自己的利益一直爬創作者辛苦創造出來的內容，卻沒有給任何報酬來回饋，甚至讓一些平台的**點擊率下降**[^2]，因為現在Google的AI Overview真的挺好用的，雖然Overview最後都會附上參考資料連結，但如果解法已經呈現出來的話我通常就不花時間點進文章裡看前因後果了

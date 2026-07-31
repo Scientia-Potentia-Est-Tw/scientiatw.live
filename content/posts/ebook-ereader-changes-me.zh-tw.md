@@ -3,7 +3,7 @@ author: 黃宏勝
 categories:
 - 科技
 date: 2025-11-27T16:28:00+08:00
-featureimage: https://secologies.com/wp-content/uploads/2025/11/Kobo-Clara-BW-cover.webp
+featureimage: "https://media.secologies.com/Kobo%20Clara%20BW%20cover.webp"
 keywords:
 - 科技
 - 電子書閱讀器
@@ -23,6 +23,7 @@ tags:
 - MobiScribe Origin
 title: 電子書閱讀器改變了我的人生
 ---
+![Kobo Clara BW](https://media.secologies.com/Kobo%20Clara%20BW%20cover.webp)
 
 > 這是我的 2026 年 1 月份 BlogBlog 同樂會投稿，詳細活動資訊可以參考：[https://blogblog.club/party](https://blogblog.club/party)
 
@@ -44,26 +45,20 @@ title: 電子書閱讀器改變了我的人生
 
 當時沒花多久時間就看到一台二手7吋Kobo Libra H2O狀況還ok，我第二台使用的封閉式閱讀器，體驗是真的不錯，不需要像開放式機器那樣煩惱太多，反正我的需求就只有閱讀跟看Paper，反觀社團裡有些人拿來看社群媒體、看影片，甚至玩遊戲的都有，呱張了
 
-<p align="center"><img src="https://secologies.com/wp-content/uploads/2025/11/呱張.webp" alt="呱張" width="400"/></p>
+![呱張](https://media.secologies.com/%E5%91%B1%E5%BC%B5.webp)
 
 帶去實習公司裡也很方便，畢竟7吋才192克，卻至少可以下載6000本書，賺爛了
 
-<p align="center"><img src="https://secologies.com/wp-content/uploads/2025/11/賺爛了.webp" alt="賺爛了" width="500"/></p>
+![賺爛了](https://media.secologies.com/%E8%B3%BA%E7%88%9B%E4%BA%86.webp)
 
 而接下來每天的日子就是看讀墨跟Kobo書城的特價書籍是什麼，有意思或對我有幫助的書就直接買授權，而不需要再等寄送的過程，宿舍的櫃子也慢慢清空了，搬東西時不再需要帶很多東西，我觀察到每次搬宿舍裝箱最重的應該是放書的箱子
 
 最終，電子書閱讀器成為我生命中不可或缺的一塊，目前服役的是13.3吋[讀墨 mooInk Pro 2C](https://moo.im/a/luyzKS)跟6吋[Kobo Clara BW](https://r10.to/hkkbYN)兩台，在室內就用mooInk pro看paper，離開實驗室去學餐吃飯就靠Clara BW，即使有保護套要放進我褲子口袋裡，也是從從容容遊刃有餘
 
-<figure>
-  <img src="https://secologies.com/wp-content/uploads/2025/08/IMG_0403-scaled.webp" alt="讀墨MooInk Pro 2C" width="600">
-  <figcaption>讀墨 mooInk Pro 2C</figcaption>
-</figure>
+![readmoo-mooink-pro-2c](https://media.secologies.com/IMG_0403.webp)
 
-<figure>
-  <img src="https://secologies.com/wp-content/uploads/2026/01/kobo-clara-bw-scaled.webp" alt="Kobo Clara BW" width="600">
-  <figcaption>Kobo Clara BW</figcaption>
-</figure>
+![kobo-clara-bw](https://media.secologies.com/kobo-clara-bw.webp)
 
-<p align="center"><img src="https://secologies.com/wp-content/uploads/2025/11/Clara從從容容遊刃有餘-scaled.webp" alt="Kobo Clara BW放口袋從從容容游刃有餘" width="400"/></p>
+![Kobo Clara BW放口袋從從容容游刃有餘](https://media.secologies.com/Clara%E5%BE%9E%E5%BE%9E%E5%AE%B9%E5%AE%B9%E9%81%8A%E5%88%83%E6%9C%89%E9%A4%98.webp)
 
 文字在我的生活中是隨處可見的，可以說，只要靠閱讀器不斷地輸入，我就有可能無限的輸出，它改變了我，也正因為我不再想要讓社群媒體內容荼毒我的大腦，所以我做出了選擇。

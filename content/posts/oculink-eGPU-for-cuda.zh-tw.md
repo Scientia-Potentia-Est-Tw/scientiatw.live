@@ -23,20 +23,22 @@ keywords = [
 ]
 summary = "由於研究上需要CUDA平行計算，所以我在Thunderbolt 4與Oculink中做選擇"
 description = "由於研究上需要CUDA平行計算，所以我在Thunderbolt 4與Oculink中做選擇"
-featureimage = "https://secologies.com/wp-content/uploads/2025/09/Oculink-1-scaled.webp"
+featureimage = "https://media.secologies.com/Oculink-1.webp"
 slug = "oculink-egpu-for-cuda"
 +++
+![Oculink](https://media.secologies.com/Oculink-1.webp)
+
 由於近期研究上需要弄NVIDIA CUDA平行程式做實驗，但我手上只有筆電，市面上針對筆電的外接式顯示卡除了利用Thunderbolt 4(TB 4)的USB介面外接之外，剩下的選擇只有伺服器在用的Oculink技術，不過目前TB 4的轉接盒都接近一萬元，何況只是轉接盒而已，還得撥一些預算給顯示卡跟電源供應器
 
 相比之下Oculink的轉接器加上線材在網路上找差不多只要兩千多塊左右，還可以把更多額度轉到顯示卡的選擇上，其中最大的優勢更是頻寬的大小，同樣都是走PCIE Gen 4的通道但Oculink最大總頻寬有64Gbps，而目前Thunderbolt 4最大頻寬只有40Gbps，即使目前已經出了Thunderbolt 5(TB 5)協定走PCIE Gen 5最大頻寬可以到80Gbps，但目前TB 5還是屬於Intel家的專利，而我的工作機是AMD的主機板
 
 通常都還需要一段時間等AMD跟Intel談攏這專利要花多少錢才有機會上到AMD設備裡，所以我只好先選擇PCIE Gen 4裡最大的頻寬數的方法，但未來可能會更新至Gen 5所以我在挑選Oculink的轉接器時直接選有支援到PCIE Gen 5的通道(雖然我不知道市面上還很少PCIE Gen 5的設備時為什麼這個轉接器先出了？)
 
-![Oculink Dock-7](https://secologies.com/wp-content/uploads/2025/09/Oculink-3-scaled.webp)
+![Oculink Dock-7](https://media.secologies.com/Oculink-3.webp)
 
 一般來說Oculink有較高的頻寬數但裝起來比起TB 4還要麻煩，我們需要用設備裡的M.2接孔轉Oculink出來到轉接器上，幸虧Framework的筆電還有擴充M.2的元件，除了NVMe SSD用的兩孔M.2之外可以再買兩孔，我直接從擴充的M.2接孔外接出去，從機身裡拉出來再跟Oculink轉接器的線材介接
 
-![Oculink Cable](https://secologies.com/wp-content/uploads/2025/09/Oculink-2-scaled.webp)
+![Oculink Cable](https://media.secologies.com/Oculink-2.webp)
 
 接到轉接器後用電源供應器供電給板子跟GPU，透過Oculink的線材把計算結果回傳給筆電，雖然這方法還是會讓GPU效能降低一些，但網路上評測下來大概只降5\%\~10\%，比起用TB 4的轉接盒降得還少，TB 4基本上就把顯示卡的效能砍一半，越高階的顯示卡效能砍越兇
 

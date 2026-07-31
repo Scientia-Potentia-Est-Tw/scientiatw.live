@@ -3,7 +3,6 @@ author: 黃宏勝
 categories:
 - 科技
 date: 2025-08-01T14:23:00+08:00
-featureimage: https://secologies.com/wp-content/uploads/2025/08/rss-cover-scaled.webp
 keywords:
 - 科技
 - RSS
@@ -18,7 +17,9 @@ tags:
 - 資訊
 - 壟斷
 title: 自主選擇乾淨的資訊，回歸RSS的懷抱吧！
+featureimage: "https://media.secologies.com/rss-cover.webp"
 ---
+![rss-cover](https://media.secologies.com/rss-cover.webp)
 
 上班一整天身心已經俱疲，下班回到家吃晚餐打開手機裡的社群媒體 APP 左滑右刷，這邊看了朋友的限動那邊又換去幫另一個朋友點愛心，你不經意間就吃完飯了繼續坐著滑滑河道(文字型社群媒體如 Facebook、Plurk、X 及 Threads 等首頁頁面用語，因需要一直往下滑載入資訊故有時稱作河道)跟看看短影音
 
@@ -76,9 +77,6 @@ title: 自主選擇乾淨的資訊，回歸RSS的懷抱吧！
 
 ## References
 [1] 你需要用 RSS，不要再拖了 - [https://wiwi.blog/blog/you-should-use-rss](https://wiwi.blog/blog/you-should-use-rss)
-
 [2] 拒絕演算法洗腦！RSS 讓你奪回閱讀的「自主權」- [https://blog.giveanornot.com/%E6%8B%92%E7%B5%95%E6%BC%94%E7%AE%97%E6%B3%95%E6%B4%97%E8%85%A6rss-%E8%AE%93%E4%BD%A0%E5%A5%AA%E5%9B%9E%E9%96%B1%E8%AE%80%E7%9A%84%E8%87%AA%E4%B8%BB%E6%AC%8A/](https://blog.giveanornot.com/%E6%8B%92%E7%B5%95%E6%BC%94%E7%AE%97%E6%B3%95%E6%B4%97%E8%85%A6rss-%E8%AE%93%E4%BD%A0%E5%A5%AA%E5%9B%9E%E9%96%B1%E8%AE%80%E7%9A%84%E8%87%AA%E4%B8%BB%E6%AC%8A/)
-
 [3] RSS - [https://zh.wikipedia.org/zh-tw/RSS](https://zh.wikipedia.org/zh-tw/RSS)
-
 [^4]: 初探網路趨勢：速食化的利與弊 - [https://pansci.asia/archives/357929](https://pansci.asia/archives/357929)

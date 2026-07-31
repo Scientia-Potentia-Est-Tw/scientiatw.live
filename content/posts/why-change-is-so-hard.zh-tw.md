@@ -9,8 +9,9 @@ keywords = [ "生活", "認知心理學", "行為科學", "決策制定", "現�
 slug = "why-change-is-so-hard"
 summary = "你我都不喜歡改變帶來的損失，但人生中總有一個時刻，是我們不得不做出改變"
 description = "你我都不喜歡改變帶來的損失，但人生中總有一個時刻，是我們不得不做出改變"
-featureimage = "https://secologies.com/wp-content/uploads/2026/03/why-change-is-so-hard-scaled.webp"
+featureimage = "https://media.secologies.com/why-change-is-so-hard.webp"
 +++
+![why-change-is-so-hard](https://media.secologies.com/why-change-is-so-hard.webp)
 
 報復性熬夜、暴飲暴食、煙癮、工作上一犯再犯的小失誤，不知道讀者有沒有過怨懟生活諸多不順的經驗，我們老是想著明天就要把我們認為的壞習慣給改掉，短時間就想要見到自己改變，成為一個更好的人，但端看我們每年計劃的事情，似乎到了年尾總會意識到事與願違
 

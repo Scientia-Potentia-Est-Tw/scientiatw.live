@@ -19,10 +19,11 @@ keywords:
 - 故事
 lastmod: '2026-04-28T09:38:00+08:00'
 slug: blog-questions-challenge
-summary: 在廢文小天地看到的Blog Questions Challenge
 description: "在廢文小天地看到的Blog Questions Challenge"
-featureimage: https://secologies.com/wp-content/uploads/2025/10/blog-questions-challenges-cover-scaled.webp
+math: true
+featureimage: "https://media.secologies.com/blog-questions-challenges-cover.webp"
 ---
+![blog-questions-challenges-cover](https://media.secologies.com/blog-questions-challenges-cover.webp)
 
 在廢文小天地RSS看到部落格挑戰[^1]，源自Kev Quirk的Blog Questions Challenge[^2]，看到題目蠻有興趣的，所以決定也寫一篇來回應各項問題
 
@@ -42,7 +43,7 @@ featureimage: https://secologies.com/wp-content/uploads/2025/10/blog-questions-c
 一開始的打算是把電腦科學裡學到的，跟平時生活心得與閱讀心得等等都在同一個網站中呈現，但隨著文章越來越多，整個網站內含所有主題越看越混淆，所以決定讓VPS主要展示技術型的文章，而這個部落格則是主要分享生活型的文章
 
 ## 你使用什麼平台來管理你的部落格？為什麼選擇它？
-- ~~Github Pages~~ $\rightarrow$ Cloudflare Pages
+- ~~Github Pages~~ $ \rightarrow $ Cloudflare Pages
 - Wordpress
 
 一開始沒有收入時只能選擇免費的Github Pages當作網頁空間，開始實習後有些工讀的薪水，在網路上看來看去要經營自媒體應該要架設自己的網站與網域，所以開始買了VPS安裝Wordpress
@@ -93,7 +94,7 @@ featureimage: https://secologies.com/wp-content/uploads/2025/10/blog-questions-c
 
 以及目前開放免費的電子報註冊[https://secologies.com/newsletter](https://secologies.com/newsletter)，未來打算推出訂閱制的電子報，還有推出一些線上課程，Wordpress模板換了好幾次，目前這個消耗的計算資源最少，應該不會再換了
 
-而個人部落格未來如果Cloudflare Pages開始收費的話可能又要換平台了，但我對目前的Hugo模板很滿意，之前換過好幾次模板只有這一次的滿足卡片式、關鍵字搜尋、目錄支援且最重要有meta tag的SEO優化，所以未來應該不會考慮換模板
+而個人部落格未來如果 Cloudflare Pages 開始收費的話可能又要換平台了，Hugo模板如果有好看或適合的我就會換過去
 
 未來素描作品比較能讓人看的話，考慮做一個類似雷歐的圖文版面[^3]介面或者是Yelle的瀑布式相冊[^4]來呈現圖片，可以展示出我每一張作品
 

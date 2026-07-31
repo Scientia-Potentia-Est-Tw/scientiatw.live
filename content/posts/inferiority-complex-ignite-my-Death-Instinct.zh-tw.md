@@ -24,9 +24,11 @@ keywords:
   - 習得無助
 summary: "早上好自卑，現在我有超越的 Ego"
 description: "早上好自卑，現在我有超越的 Ego"
-featureimage: "https://secologies.com/wp-content/uploads/2026/05/1777720407015.webp"
 slug: "inferiority-complex-ignite-my-death-instinct"
+featureimage: "https://media.secologies.com/1777720407015.webp"
 ---
+![1777720407015](https://media.secologies.com/1777720407015.webp)
+
 「自卑感」或「自卑情結」，這是阿德勒在「自卑與超越」裡著重的其中一環，也是我們進入這個社會後，時時比較後而出現「主觀」的「缺陷」。畢竟這是一個受到自我意象、環境、親友、主流文化等因素決定的特徵，例如小翔同學忠厚老實的個性在老師眼裡覺得是「誠實」，但在同儕小安同學眼中卻可能認為這種特質又笨又呆
 
 某些時候，我想透過試圖超越自卑感，產生成就的動機，只為了超越我那天生的自卑感，再仔細覺察我自己的情緒裡，我發現自己在特別自卑的議題上非常敏感，使得我不得不忽略一些事情，我篤定為了在工作上做到盡善盡美，幾乎只把時間花在學習上；但跟朋友出去玩都不感興趣，甚至有點嗤之以鼻

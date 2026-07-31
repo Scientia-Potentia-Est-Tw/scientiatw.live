@@ -19,9 +19,11 @@ keywords = [
 ]
 summary = "這個Agent橫行的時代該如何更深刻的解決問題？"
 description = "這個Agent橫行的時代該如何更深刻的解決問題？"
-featureimage = "https://secologies.com/wp-content/uploads/2025/09/thought-visibility-scaled.webp" 
+featureimage = "https://media.secologies.com/thought-visibility.webp" 
 slug = "thought-visibility" 
 +++
+![thought-visibility](https://media.secologies.com/thought-visibility.webp)
+
 除了**職場能見度**之外要讓主管看見你還需要**思維可見度**[^1]讓你的影響力大增，過去在公司裡只要把工作做好有成果，主管自然會在你的**考績**🍗[^2]上打I或I+，E(Excellent)你就不用想了🤗那得超乎主管的預期好幾層樓才有辦法，而目前AI Agent這麼方便的時代能解決問題似乎是基本的，你的主管跟經理更想知道你是怎麼思考問題的？
 
 試想如果你能夠展現自己的專業能力之外還分享了決策思維的話就能讓上層人員注意到你的定位從而調整你的角色，如果你只是每次成果很棒，但無法讓管理職階層覺得你可以挑戰不同領域時發揮一樣的影響力，你就會永遠都待在那個團隊裡了，也許你可以試試看：

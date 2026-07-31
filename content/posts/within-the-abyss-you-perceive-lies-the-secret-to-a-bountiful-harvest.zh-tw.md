@@ -24,9 +24,11 @@ keywords:
   - 螺旋形職涯
 summary: "即使面臨最絕望的困境，我們依舊要走下去，過度這段痛苦的轉變，最終可以採收到最豐碩的果實"
 description: "即使面臨最絕望的困境，我們依舊要走下去，過度這段痛苦的轉變，最終可以採收到最豐碩的果實"
-featureimage: "https://secologies.com/wp-content/uploads/2026/05/1779089484316.webp"
 slug: "within-the-abyss-you-perceive-lies-the-secret-to-a-bountiful-harvest"
+featureimage: "https://media.secologies.com/1779089484316.webp"
 ---
+![within-the-abyss-you-perceive-lies-the-secret-to-a-bountiful-harvest](https://media.secologies.com/1779089484316.webp)
+
 >這是我的「[BlogBlog 同樂會 - 2026 年 5 月](https://blogblog.club/party/)」的投稿文章。本月主題是「[改變人生觀的一句話](https://eddielv.com/articles/a-sentence-changing-you/)」，由 [Eddie Lv](https://eddielv.com) 主持。如果你有自己的部落格，歡迎一起來參加！
 
 詩人但丁在 14 世紀裡出版的《神曲》[^1] 點出了我們每個人幾乎會遇到的問題
@@ -39,13 +41,11 @@ slug: "within-the-abyss-you-perceive-lies-the-secret-to-a-bountiful-harvest"
 
 不過，在流體智力下滑之後，卡泰爾認為人類還能靠「晶體智力」(Crystallized Intelligence) 獲得成就，這種智力可以運用過去累積知識的庫存，透過組合許多已有的概念來創造新東西，如果我們用高階一點的方式描述：「流體智力是解析抽象問題的脈絡化能力，晶體智力則代表人在一生中透過涵化[^4]與學習所獲得的知識」，意思是我們年輕時可以學會許多知識，老了之後則學到了智慧
 
-<p align="center">
-  <img src="https://secologies.com/wp-content/uploads/2026/05/Fluid-Crystallized-Intellgence.webp" alt="流體智力與晶體智力">
-</p>
+![流體智力與晶體智力](https://media.secologies.com/Fluid-Crystallized-Intellgence.webp)
 
 人們也經常稱這段時間為「中年危機」，這段時期裡幾乎每一天都非常動盪，費勒（Bruce Feiler）在他自己的書《人生故事專案》[^5]訪談數百人，歸納出每個人平均 **18** 個月就會遇到一次重大的人生轉變，大部分遇到的轉變都是非自願的，但有趣的是人生唯一能確定的事，就是沒有什麼事情是不變的
 
-{{< youtubeLite id="n7xF4UYrkq8" label="康士坦的變化球-美好的事可不可以發生在我身上" >}}
+{{< youtube n7xF4UYrkq8 >}}
 
 因此接受佛陀說的「諸行無常，是生滅法」可能還比較好一些，畢竟過渡時期總會有陣痛，經歷閾態的過程雖說辛苦，不過即使是最不受歡迎的轉變，事後回想起來，通常還是會跟當下的感受不同，有時候過去重大的事件最終會結成正面的果實，即使那時候沒有告白，那時候晚了一點投工作，那時候沒有在最低點進場，事後以長期來看也許才是最好的做法
 

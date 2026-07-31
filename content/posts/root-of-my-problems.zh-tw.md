@@ -9,9 +9,9 @@ keywords = [ "生活", "自我", "主宰", "無私", "自私"]
 slug = "root-of-my-problems"
 summary = "我們所面臨的世界究竟是由他人還是自己在掌控著？"
 description = "我們所面臨的世界究竟是由他人還是自己在掌控著？"
-featureimage = "https://secologies.com/wp-content/uploads/2026/03/root-of-my-problems-scaled.webp"
-
+featureimage = "https://media.secologies.com/root-of-my-problems.webp"
 +++
+![root-of-my-problems](https://media.secologies.com/root-of-my-problems.webp)
 
 **就連釋迦牟尼，都不會順服所有人的意見。他懂得自我的主宰**，隨著歲數的增長，我理解到不管是哪一種人即便表面上顯得沒事，但他們每個人都會有自己的問題，不論事業上的大事，或者煩惱今天晚餐要吃什麼的小事，沒有人可以擺脫掉這一切
 

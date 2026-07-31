@@ -1,0 +1,78 @@
+{{ define "main" }}
+
+{{ if or .Params.math .Site.Params.math }}
+{{ partial "math.html" . }}
+{{ end }}
+
+<div class="row-fluid navmargin">
+    <div class="page-header">
+        <h1>{{ .Title }} - {{ .Date.Format "Mon, Jan 2, 2006" }}</h1>
+    </div>
+</div>
+
+{{ $hasToc := .Fragments.Headings }}
+
+<div class="row-fluid content-row">
+    <div class="{{ if $hasToc }}span9{{ else }}span12{{ end }} bs-docs-sidebar">
+        <p class="lead">{{ .Params.description }}</p>
+        <div class="post-content">
+            {{ .Content }}
+        </div>
+        <h4><a href="{{ .Site.BaseURL }}">{{ i18n "backtohome" }}</a></h4>
+
+        <ul class="pager">
+            {{ with .PrevInSection }}
+            <li class="previous"><a href="{{ .Permalink }}">&larr; {{ i18n "prevpost" | default "Previous" }}: {{ .Title }}</a></li>
+            {{ end }}
+            {{ with .NextInSection }}
+            <li class="next"><a href="{{ .Permalink }}">{{ i18n "nextpost" | default "Next" }}: {{ .Title }} &rarr;</a></li>
+            {{ end }}
+        </ul>
+    </div>
+
+    {{ if $hasToc }}
+    <div class="span3 bs-docs-sidebar">
+        <div class="toc-sticky">
+            <h1>{{ i18n "toc" | default "Contents" }}</h1>
+            {{ .TableOfContents }}
+        </div>
+        <script>
+        (function () {
+          var tocLinks = document.querySelectorAll('#TableOfContents a[href^="#"]');
+          if (!tocLinks.length) return;
+
+          var headings = [];
+          tocLinks.forEach(function (link) {
+            var id = decodeURIComponent(link.getAttribute('href').slice(1));
+            var heading = document.getElementById(id);
+            if (heading) headings.push(heading);
+          });
+          if (!headings.length) return;
+
+          var activeLink = null;
+          function setActive(id) {
+            if (activeLink) activeLink.classList.remove('toc-active');
+            var link = document.querySelector('#TableOfContents a[href="#' + CSS.escape(id) + '"]');
+            if (link) {
+              link.classList.add('toc-active');
+              activeLink = link;
+            }
+          }
+
+          var observer = new IntersectionObserver(function (entries) {
+            entries.forEach(function (entry) {
+              if (entry.isIntersecting) setActive(entry.target.id);
+            });
+          }, {
+            rootMargin: '0px 0px -70% 0px',
+            threshold: 0
+          });
+
+          headings.forEach(function (h) { observer.observe(h); });
+        })();
+        </script>
+    </div>
+    {{ end }}
+</div>
+
+{{ end }}

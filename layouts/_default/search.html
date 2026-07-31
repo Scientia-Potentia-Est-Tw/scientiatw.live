@@ -1,0 +1,24 @@
+{{ define "main" }}
+<main class="container">
+    <h1>{{ .Title }}</h1>
+    
+    <!-- Pagefind's UI will inject the input bar and results here -->
+    <div id="search"></div>
+
+    <!-- Include Pagefind UI styles and scripts -->
+    <link rel="stylesheet" href="/pagefind/pagefind-ui.css">
+    <script src="/pagefind/pagefind-ui.js" defer></script>
+
+    <script>
+        window.addEventListener('DOMContentLoaded', (event) => {
+            new PagefindUI({ 
+                element: "#search", 
+                showSubResults: true,
+                showImages: false,
+                resetStyles: false // Set to true if you want to override your theme CSS
+            });
+        });
+    </script>
+</main>
+{{ end }}
+

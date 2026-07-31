@@ -9,9 +9,9 @@ keywords = [ "生活", "身心健康", "工作效率", "休息", "睡眠"]
 slug = "employment-ignore-rest"
 summary = "好好休息，不應該被視為工作完成後的附帶產品，而是一個重要的身心修復過程，只有在適當休息過後，我們才能保持高效的生活方式"
 description = "好好休息，不應該被視為工作完成後的附帶產品，而是一個重要的身心修復過程，只有在適當休息過後，我們才能保持高效的生活方式"
-featureimage = "https://secologies.com/wp-content/uploads/2026/03/employment-ignore-rest.webp"
-
+featureimage = "https://media.secologies.com/employment-ignore-rest.webp"
 +++
+![employment-ignore-rest](https://media.secologies.com/employment-ignore-rest.webp)
 
 ## 漸漸失眠
 隨著年紀增長，我有時可能躺在床上1個小時了都還無法入睡，腦袋裡的思緒如海嘯般的一波接一波出現，遲遲無法進入夢鄉的我，室友的細微動作、冷氣機出風口的微弱風聲，甚至是從牆壁傳來那加班到凌晨晚歸鄰居的盥洗聲音，任何一分貝都讓我更加煩躁

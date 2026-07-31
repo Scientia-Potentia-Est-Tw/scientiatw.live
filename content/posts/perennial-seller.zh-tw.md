@@ -21,11 +21,12 @@ keywords = [
   "長銷",
   "讀後心得",
 ]
-summary = "世界上眾多創作者通常對於產出經典長銷作品都抱有非常大的興趣，希望自己的作品能夠真正解決其他人的問題，而具體要如何做到，透過萊恩·霍利得(Ryan Holiday)寫的這本書，帶給我們一些能夠讓作品存活久一點的策略"
 description = "世界上眾多創作者通常對於產出經典長銷作品都抱有非常大的興趣，希望自己的作品能夠真正解決其他人的問題，而具體要如何做到，透過萊恩·霍利得(Ryan Holiday)寫的這本書，帶給我們一些能夠讓作品存活久一點的策略"
-featureimage = "https://secologies.com/wp-content/uploads/2025/05/perennial_seller_cover.webp"
 slug = "perennial-seller"
+featureimage = "https://media.secologies.com/perennial_seller_cover.webp"
 +++
+![perennial_seller_cover](https://media.secologies.com/perennial_seller_cover.webp)
+
 各位讀者想過要創作嗎？我們都曾有那麼一個時刻，希望自己可以解決其他人的問題，或者將自己內心的想法製作出來，事實上，根據 1% 規則[^1]其實任何的平台或社群裡只有 1% 的人在創造新內容、9% 的人修改這些舊的內容，而剩下 90% 的人只是單純消費這些內容[^2]，這是所謂的 1-9-90 法則
 
 如果我們想確保創作的內容可以存活久一點，萊恩·霍利得 (Ryan Holiday) 的《長銷！》也許可以帶給我們一些啟發，尤其我現在只經營獨立網站、部落格、電子報以及預計要做 Podcast 頻道，這類型的作品想要成功並非一蹴可幾，通常必須經過時間的考驗，甚至還得考量運氣與時機等外部因素(如果我們不考慮炎上策略的話)

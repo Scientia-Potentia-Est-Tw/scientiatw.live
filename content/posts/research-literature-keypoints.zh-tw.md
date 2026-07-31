@@ -19,9 +19,11 @@ keywords = [
 ]
 summary = "在這個連Agent都可以幫你梳理paper的時代，我們該如何看得比AI還深入？"
 description = "在這個連Agent都可以幫你梳理paper的時代，我們該如何看得比AI還深入？"
-featureimage = "https://secologies.com/wp-content/uploads/2025/08/research-keypoints-cover-scaled.webp" 
+featureimage = "https://media.secologies.com/research-keypoints-cover.webp" 
 slug = "research-literature-keypoints"
 +++
+![research-keypoints](https://media.secologies.com/research-keypoints-cover.webp)
+
 近期有幸收到一份CS期刊的Review邀請，也是我職涯中第一次進行審稿，而有一些關鍵是我們在看paper時應該要特別注意的，以及當讀者在撰寫論文時也需要在乎的，以下我會從基本撰寫內容、實驗設計及研究結果來探討
 
 ## 基本撰寫內容

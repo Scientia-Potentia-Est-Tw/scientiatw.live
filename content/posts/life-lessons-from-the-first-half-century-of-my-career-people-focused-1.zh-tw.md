@@ -21,11 +21,11 @@ keywords = [
   "電腦科學家",
   "圖靈獎",
 ]
-summary = "2017年圖靈獎得主的電腦科學家David A. Patterson分享了他這50年來從人生中學到的一些重要的事情"
 description = "2017年圖靈獎得主的電腦科學家David A. Patterson分享了他這50年來從人生中學到的一些重要的事情"
-featureimage = "https://secologies.com/wp-content/uploads/2025/07/life-lessons-1-cover-scaled.webp"
 slug = "life-lessons-from-the-first-half-century-of-my-career-people-focused-1"
+featureimage = "https://media.secologies.com/life-lessons-1-cover.webp"
 +++
+![life-lessons-1](https://media.secologies.com/life-lessons-1-cover.webp)
  
 [David A. Patterson](https://en.wikipedia.org/wiki/David_Patterson_(computer_scientist))博士從UCLA PhD畢業後在UC Berkeley教學與研究了40年的系統設計，同時也協助許多公司的專案，之後幫助google實現AI加速硬體的關鍵基礎底層技術，而這些年來歸納出8件我們生活上應該注意的事情，此篇我先介紹前四件
 

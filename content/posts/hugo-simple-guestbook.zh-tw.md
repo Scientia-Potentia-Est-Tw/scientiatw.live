@@ -26,9 +26,11 @@ keywords:
   - Google 表單
 summary: "由於利用 Cloudflare Worker 架設 Hugo 靜態部落格沒有後台伺服器可以儲存，所以我們利用 Google Apps Script、GitHub Gist 以及 Google 表單來建立一個簡易的留言系統"
 description: "由於利用 Cloudflare Worker 架設 Hugo 靜態部落格沒有後台伺服器可以儲存，所以我們利用 Google Apps Script、GitHub Gist 以及 Google 表單來建立一個簡易的留言系統"
-featureimage: "https://secologies.com/wp-content/uploads/2026/04/1777042613661.webp"
 slug: "hugo-simple-guestbook"
+featureimage: "https://media.secologies.com/Hugo%20%E9%9D%9C%E6%85%8B%E9%83%A8%E8%90%BD%E6%A0%BC%E7%B0%A1%E6%98%93%E7%95%99%E8%A8%80%E6%9D%BF%E5%AF%A6%E4%BD%9C%E5%B0%81%E9%9D%A2.webp"
 ---
+![留言板封面](https://media.secologies.com/Hugo%20%E9%9D%9C%E6%85%8B%E9%83%A8%E8%90%BD%E6%A0%BC%E7%B0%A1%E6%98%93%E7%95%99%E8%A8%80%E6%9D%BF%E5%AF%A6%E4%BD%9C%E5%B0%81%E9%9D%A2.webp)
+
 ## 動機
 對於要讓讀者在部落格裡留言或者只能寄信討論問題的選擇一直環繞在我的腦海中，以前寄信問過 JN[^1] 我們到底需不需要，也看過 Wiwi[^2] 對於留言區的看法，所以我對於留言板的看法一直拿捏不定
 
@@ -91,13 +93,11 @@ Blowfish v2.102.0
 {{< /alert >}}
 
 {{< alert >}}
-如果讀者不需要 Cloudflare Turnstile 以及 Akismet 功能，可以跳過這兩個設定步驟，並且修改 Google Apps Script 專案以及留言內嵌的 Cloudflare 驗證區塊 
+如果讀者不需要 Cloudflare Turnstile 以及 Akismet 功能，可以跳過這兩個設定步驟，並且修改 Google Apps Script 專案以及留言內嵌的 Cloudflare 驗證區塊
 {{< /alert >}}
 
 {{< alert >}}
-由於我們採用 Google 表單紀錄的方法，所以留言回覆時沒有任何 SMTP 伺服器可以像 Artalk 那樣寄送信件通知站長已回覆，需要請讀者自行確認
-
-並且因為我們將內容存放在 GitHub Gist 的隱密檔案內，所以 Google 搜尋引擎無法收錄留言內容，代表其他人無法透過搜尋引擎找到該留言，留言無法提升 SEO 效果，但可以在部落格內利用 <code> 留言搜尋頁面 </code> 搜尋到所有留言內容
+由於我們採用 Google 表單紀錄的方法，所以留言回覆時沒有任何 SMTP 伺服器可以像 Artalk 那樣寄送信件通知站長已回覆，需要請讀者自行確認，並且因為我們將內容存放在 GitHub Gist 的隱密檔案內，所以 Google 搜尋引擎無法收錄留言內容，代表其他人無法透過搜尋引擎找到該留言，留言無法提升 SEO 效果，但可以在部落格內利用 <code> 留言搜尋頁面 </code> 搜尋到所有留言內容
 {{< /alert >}}
 
 ## 設置 Google 表單
@@ -107,7 +107,7 @@ Blowfish v2.102.0
 A: id | B: postKey | C: name | D: email | E: content | F: date | G: website | H: reply | I: approved
 ```
 
-![Comments Google Sheet](https://secologies.com/wp-content/uploads/2026/04/Google-Sheet-Comments-scaled.webp)
+![Comments Google Sheet](https://media.secologies.com/Google%20Sheet%20Comments.webp)
 
 請記得把表單的 ID 記錄到空白的文字檔內，之後會用到，Google Sheet ID 可以從網址內找到：<code> https://docs.google.com/spreadsheets/d/你的Google Sheet ID/edit?gid=0#gid=0 </code>
 
@@ -118,60 +118,60 @@ A: id | B: postKey | C: name | D: email | E: content | F: date | G: website | H:
 {}
 ```
 
-![Github Gist JSON](https://secologies.com/wp-content/uploads/2026/04/Github-Gist-JSON.webp)
+![Github Gist JSON](https://media.secologies.com/Github%20Gist%20JSON.webp)
 
 創造完檔案後，我們點進檔案本身，將 Gist ID 記錄下來，Gist ID 從網址上就可以看到，找出 <code> gist.github.com/你的 Github 帳戶名/GIST_ID </code>，同樣存放在空格文字檔內，之後會用到
 
 再來還必須建立一個 GitHub Personal Access Token 開出權限用來給其他服務寫入該 Gist 檔案，我們先回到 [Github](https://github.com/)，點擊右上角的頭貼出現下拉式選單，選擇 Settings
 
-![GithubSettings](https://secologies.com/wp-content/uploads/2026/04/GithubSettings.webp)
+![GithubSettings](https://media.secologies.com/GithubSettings.webp)
 
 從左側欄位最下面找到 Developer settings
 
-![GithubDeveloperSettings](https://secologies.com/wp-content/uploads/2026/04/GithubDeveloperSettings.webp)
+![GithubDeveloperSettings](https://media.secologies.com/GithubDeveloperSettings.webp)
 
 然後一樣在左側欄位最下面找到 Personal access tokens，下拉選單選擇 Tokens (classic) 即可
 
-![GithubPersonalAccessToken](https://secologies.com/wp-content/uploads/2026/04/GithubPersonalAccessToken.webp)
+![GithubPersonalAccessToken](https://media.secologies.com/GithubPersonalAccessToken.webp)
 
 進到創建頁面，從右上角看到 Generate new token，按下拉選單選擇 Generate new token (classic) 就行
 
-![GithubGenerateNewToken](https://secologies.com/wp-content/uploads/2026/04/GithubGenerateNewToken.webp)
+![GithubGenerateNewToken](https://media.secologies.com/GithubGenerateNewToken.webp)
 
 該 Token 名稱可以自行輸入，並且選擇有效期限，最重要的是往下找到 gist 選項勾選創建後即可
 
-![GithubSelectGist](https://secologies.com/wp-content/uploads/2026/04/GithubSelectGist.webp)
+![GithubSelectGist](https://media.secologies.com/GithubSelectGist.webp)
 
 建立完成後請將 Token 內容一樣存在空的文字檔內，後續也會用到
 
 ## Cloudflare Turnstile
 再來我們先把 Cloudflare Turnstile 用來驗證的 Token 跟 Key 申請好，首先要申請好 [Cloudflare](https://www.cloudflare.com/) 帳號，如果讀者的網域是在 Cloudflare 上買的應該就會很熟悉他們家的介面，意思是我們要進去後台 [Dashboard](https://dash.cloudflare.com/)，直接從左側搜尋 Turnstile 會比較快
 
-![Turnstile](https://secologies.com/wp-content/uploads/2026/04/Turnstile.webp)
+![Turnstile](https://media.secologies.com/Turnstile.webp)
 
 到 Turnstile 頁面後新增 Widgets，中間的 Add widget
 
-![TurnstileAddWidget](https://secologies.com/wp-content/uploads/2026/04/TurnstileAddWidget.webp)
+![TurnstileAddWidget](https://media.secologies.com/TurnstileAddWidget.webp)
 
 填選該 Widget 的內容，名稱自訂，新增網域名稱，如果是在 Cloudflare 上買的可以直接找，如果是外部的就請自行新增，模式選擇預設的管理模式，並且驗證方法我預設每一次都要進行驗證，不管過去是否已經驗證過了，確認完之後點選建立
 
-![TurnstileWidgetSetting](https://secologies.com/wp-content/uploads/2026/04/TurnstileWidgetSetting.webp)
+![TurnstileWidgetSetting](https://media.secologies.com/TurnstileWidgetSetting.webp)
 
 建立完之後應該會出現一個頁面顯示你的 Site Key 跟 Secret Key，請一樣將兩把 Key 都記錄在文字檔裡，之後還會用到，確認完後關閉會跳轉回 Turnstile widgets 頁面就可以看到方才建立的配置
 
-![TurnstileWidgetResult](https://secologies.com/wp-content/uploads/2026/04/TurnstileWidgetResult.webp)
+![TurnstileWidgetResult](https://media.secologies.com/TurnstileWidgetResult.webp)
 
 ## Akismet
 接著我們到 [Akismet](https://akismet.com/) 申請一組 API Key，基本上只要部落格或網站沒盈利他們就提供免費版的垃圾留言檢測服務給申請者，流程就照個官方的說明走就行，雖然會出現結帳畫面但個人版的申請不會要求輸入任何信用卡資訊
 
-![Akismet](https://secologies.com/wp-content/uploads/2026/04/Akismet.webp)
+![Akismet](https://media.secologies.com/Akismet.webp)
 
 記得一樣把 Akismet API key 記錄在文字檔案
 
 ## Google Apps Script 設定
 再來我們要設定最重要的中繼服務配置，利用 Google Apps Script 轉發讀者留言、GitHub Gist 以及 Google Sheet 之間的聯繫，首先進到後台頁面 [https://script.google.com/](https://script.google.com/)，請注意 Google 帳號是不是跟之前建立 Google Sheet 的是同一個，在同一個帳號底下，我們建立一個新專案
 
-![GoogleAppsScriptAddNewProject](https://secologies.com/wp-content/uploads/2026/04/GoogleAppsScriptAddNewProject.webp)
+![GoogleAppsScriptAddNewProject](https://media.secologies.com/GoogleAppsScriptAddNewProject.webp)
 
 進到新專案內後可以貼上我最後設計的版本如下，我在全域宣告的變數內容請通通換成方才要讀者儲存的所有資訊
 
@@ -321,23 +321,23 @@ function syncToGist() {
 
 而我們要試著部署這份 Script，在右上角可以找到 Deploy 的按鈕，點擊 <code> New deployment </code>
 
-![NewDepolyment](https://secologies.com/wp-content/uploads/2026/04/NewDepolyment.webp)
+![NewDepolyment](https://media.secologies.com/NewDepolyment.webp)
 
 選擇目前我們這個 Web app，執行人員選擇目前建立 Script 的帳號，而存取權限請選擇所有人，因為我們要讓任何人都可以留言
 
-![NewDepolymentSetting](https://secologies.com/wp-content/uploads/2026/04/NewDepolymentSetting.webp)
+![NewDepolymentSetting](https://media.secologies.com/NewDepolymentSetting.webp)
 
 按下部署後就會完成該次紀錄，會出現一個 Web app 的網址我們一樣儲存起來放進文字檔案裡，之後還會用到
 
-![DeploymentID](https://secologies.com/wp-content/uploads/2026/04/DeploymentID.webp)
+![DeploymentID](https://media.secologies.com/DeploymentID.webp)
 
 再來我們還要設定自動同步的條件，回到頁面中左側欄位有個碼錶的功能是觸發器
 
-![Trigger](https://secologies.com/wp-content/uploads/2026/04/Trigger.webp)
+![Trigger](https://media.secologies.com/Trigger.webp)
 
 點選後進到設定，新增一組觸發條件每 5 分鐘執行一次 <code> syncToGist </code> 的函式，確認完時間後就可以按下建立
 
-![TriggerSettings](https://secologies.com/wp-content/uploads/2026/04/TriggerSettings.webp)
+![TriggerSettings](https://media.secologies.com/TriggerSettings.webp)
 
 至此 Google Apps Script 中繼站這樣就設定完成了
 
@@ -956,7 +956,7 @@ cp themes/blowfish/layouts/partials/search.html layouts/partials/search.html
 </section>
 ```
 
-![CommentSearch](https://secologies.com/wp-content/uploads/2026/04/CommentSearch.webp)
+![CommentSearch](https://media.secologies.com/CommentSearch.webp)
 
 並且在檔案內搜尋欄位 html 之後加上 JavaScript 動態存取
 
@@ -1042,18 +1042,18 @@ cp themes/blowfish/layouts/partials/search.html layouts/partials/search.html
 </script>
 ```
 
-![CommentSearchResult](https://secologies.com/wp-content/uploads/2026/04/CommentSearchResult.webp)
+![CommentSearchResult](https://media.secologies.com/CommentSearchResult.webp)
 
 ## 測試
 到這裡我們就將所有留言區、留言板以及留言搜尋功能所需要的內容都設定完成了，可以來測試看看，請讀者在自己的留言區塊裡輸入一些內容，此時 Google 表單裡就會出現留言，而我們要做的就是把 <code> pending </code> 的狀態改成 <code> approved </code>，並且讀者可以選擇要不要回覆，變更完畢後等待 5 分鐘後就會自動觸發同步了，又或者可以手動測試
 
 在 Google Apps Script 上方有個執行欄位，選擇 <code> syncToGist </code> 並且按下 <code> Run </code>，就可以手動執行同步功能
 
-![ManualSync](https://secologies.com/wp-content/uploads/2026/04/ManualSync.webp)
+![ManualSync](https://media.secologies.com/ManualSync.webp)
 
 最後成功的話就可以回到留言區塊去看是否成功
 
-![CommentsResult](https://secologies.com/wp-content/uploads/2026/04/CommentsResult.webp)
+![CommentsResult](https://media.secologies.com/CommentsResult.webp)
 
 {{< alert >}}
 請注意 Cloudflare Turnstile 在 Hugo 測試模式下無法正常驗證，所以確認完內容無誤可以先部署到正式的環境中再測試

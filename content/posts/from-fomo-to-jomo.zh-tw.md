@@ -23,9 +23,11 @@ keywords = [
 ]
 summary = "數位原生世代面對FOMO現象更劇烈，有沒有哪些對策可以使用？"
 description = "數位原生世代面對FOMO現象更劇烈，有沒有哪些對策可以使用？"
-featureimage = "https://secologies.com/wp-content/uploads/2025/09/from-FOMO-to-JOMO-cover-scaled.webp"
+featureimage = "https://media.secologies.com/from-FOMO-to-JOMO-cover.webp"
 slug = "from-fomo-to-jomo"
 +++
+![FOMO-to-JOMO](https://media.secologies.com/from-FOMO-to-JOMO-cover.webp)
+
 年輕族群自小接觸網際網路，身為數位原住民的他們很早就擁有許多社群平台的帳號，幾乎成長歷程中都有使用社群媒體了解同學、認識新朋友的經驗，卻也更加容易受到FOMO現象影響
 
 在一些諮商個案中發現，缺乏家庭溫暖與成長過程中仰賴社群媒體，會讓自己越來越需要人際歸屬感，這種人在團體內認為自己必須盡可能的接上所有話題

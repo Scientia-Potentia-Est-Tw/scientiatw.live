@@ -18,14 +18,15 @@ keywords:
   - 過動蜂巢思維
   - 生產力
   - BlogBlog 同樂會
-summary: "知識產業依舊潛藏著巨大的生產力，為了釋放它，我們需要仔細思索平時的工作習慣"
 description: "知識產業依舊潛藏著巨大的生產力，為了釋放它，我們需要仔細思索平時的工作習慣"
-featureimage: "https://secologies.com/wp-content/uploads/2026/04/4034df0be5598bddb97fbf931419538e.webp"
 slug: "over-communication-reduces-productivity"
+feature: "https://media.secologies.com/4034df0be5598bddb97fbf931419538e.webp"
 ---
+![4034df0be5598bddb97fbf931419538e](https://media.secologies.com/4034df0be5598bddb97fbf931419538e.webp)
+
 > 這是我的「[BlogBlog 同樂會 - 2026 年 4 月](https://blogblog.club/party/?ref=wen-lab.tw)」的投稿文章。本月主題是「[生產力](https://www.wen-lab.tw/blogblog-party-productivity)」！
 
-<p align="center"><img src="https://secologies.com/wp-content/uploads/2026/04/BlogBlog同樂會成癮.webp" alt="BlogBlog 同樂會成癮" width="400"/></p>
+![BlogBlog 同樂會成癮](https://media.secologies.com/BlogBlog%E5%90%8C%E6%A8%82%E6%9C%83%E6%88%90%E7%99%AE.webp)
 
 不知道你現在是正在上班時間摸魚看 BlogBlog 同樂會的文章嗎？(也很感謝你看我的文章😚)，抑或是你今天一整天都為要交給主管的報告焦慮；甚者，你上班的時候一直反覆查看電子郵件信箱、Slack、Teams 或其他種數位通訊軟體看有沒有任何新資訊？
 
@@ -42,7 +43,7 @@ slug: "over-communication-reduces-productivity"
 
 基於這樣的急迫性，有時幾乎連下去 7-11 買個三明治或飯糰的時間都沒有，等我回來，我看到同事們都待在電腦螢幕前吃東西，那樣的日子，大概就是持續、持續、多工處理的瘋狂。說實話，不管是我們自己或是旁人來看都注意的到，這樣的資訊工作變得非常零碎，如果真要追究其原因的話，大概就是，**電子郵件**
 
-<p align="center"><img src="https://secologies.com/wp-content/uploads/2026/04/愛音驚訝.webp" alt="愛音驚訝" width="400"/></p>
+![愛音驚訝](https://media.secologies.com/%E6%84%9B%E9%9F%B3%E9%A9%9A%E8%A8%9D.webp)
 
 雖說每週會有一天是大家在會議室裡面對面開會，但其他時間我們都在做所謂的「辦公桌工作」，尤其電子郵件實在太方便，我們根本不需要互相喬個時間，動動手指就把問題毫無忌憚的丟給對方
 
@@ -60,7 +61,7 @@ slug: "over-communication-reduces-productivity"
 
 如果你有注意過的話，我們的前額葉皮質從靈長類祖先那繼承下來，經過這麼多年還是沒什麼太大的變化，代表我們通常一次只能應對一個注意力目標，我們的大腦根本無法平行處理資訊，如果有人聲稱他們的高度生產力源自於同步處理好幾件事，那也只是代表他們任務切換的能力比較靈活
 
-<p align="center"><img src="https://secologies.com/wp-content/uploads/2026/04/441f7586d78ac2e5486344985449113e.webp" alt="爬蟲腦" width="400"/></p>
+![爬蟲腦](https://media.secologies.com/441f7586d78ac2e5486344985449113e.webp)
 
 然而我們大多數人如果試圖維持多項進行中的數位通訊交談，同時還得處理重大的工作，前額葉皮質會時常感到非常混亂。正因如此，我們的大腦從來都不是為了維持平行運作的注意力而設計的，更不用說電子郵件裡的資訊讓工作內容變得更為零碎化，導致我們看到一些資訊後會分散注意力，一直將不緊急的問題懸在心上
 

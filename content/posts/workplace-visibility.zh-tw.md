@@ -19,9 +19,11 @@ keywords = [
 ]
 summary = "如何在公司升遷上更具優勢？"
 description = "如何在公司升遷上更具優勢？"
-featureimage = "https://secologies.com/wp-content/uploads/2025/09/workplace-visibility-scaled.webp" 
+featureimage = "https://media.secologies.com/workplace-visibility.webp" 
 slug = "workplace-visibility" 
 +++
+![workplace-visibility](https://media.secologies.com/workplace-visibility.webp)
+
 亞洲人在職場上普遍習慣恬恬食三碗公半(Tiām-tiām tsia̍h sann uánn-kong puànn)即默默地做好自己的本分工作，但若想在公司內部成為有影響力的人，**職場能見度**[^1]才是真的有辦法讓主管或同事有問題時馬上想到你的關鍵，你從現在可以開始嘗試：
 
 - 主動對團隊成員伸出援手幫助他們解決你已經駕輕就熟的問題(必須是不花你太多時間的問題，否則會影響到你自己的上班時間)

@@ -23,9 +23,11 @@ keywords = [
 ]
 summary = "失去了過往而未來也不再期待，因為能夠體驗的只有這個當下，該具備何種勇氣才能繼續走下去？"
 description = "失去了過往而未來也不再期待，因為能夠體驗的只有這個當下，該具備何種勇氣才能繼續走下去？"
-featureimage = "https://secologies.com/wp-content/uploads/2025/10/Still-Alice-Cover.webp"
+featureimage = "https://media.secologies.com/Still-Alice-Cover.webp"
 slug = "still-alice"
 +++
+![still-alice](https://media.secologies.com/Still-Alice-Cover.webp)
+
 **失智症**，目前在世界上許多已開發國家裡最棘手的疾病之一，隨著醫療技術越加發達，人們的壽命上限一直在擴增，然而身體與大腦卻只會越來越虛弱，當年紀增長大腦的皮質層及腦神經卻不斷地失去功能，最終出現認知功能下降的狀況，我們目前能做的，就只能讓發病時期延緩，而其中最廣為人知也佔了六成大宗的情況就是**阿茲海默症**
 
 主角愛麗絲·赫蘭雖然只有五十歲卻得了早發性阿茲海默症，一般我們認為老年時期才會得到的這個病，大概有百分之十的機率發生在六十五歲以下的病患之中，尤其在哈佛大學擔任教授的她腦神經數量照理說比起我們應該還要來得多，如果説當我們的十個神經元死亡時會對記憶造成影響，那愛麗絲至少要五十個神經元才會出現這種情況，所以她的發病時間其實可能更早

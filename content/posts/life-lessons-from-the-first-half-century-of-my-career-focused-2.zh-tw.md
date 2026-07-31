@@ -3,7 +3,7 @@ author: 黃宏勝
 categories:
 - 生活
 date: '2025-07-29T10:05:00+08:00'
-featureimage: https://secologies.com/wp-content/uploads/2025/07/career-lessons-2-cover-scaled.webp
+featureimage: "https://media.secologies.com/career-lessons-2-cover.webp"
 keywords:
 - 生活
 - 職涯
@@ -23,6 +23,7 @@ tags:
 - 圖靈獎
 title: 從50年職涯中學到的事業課題-下
 ---
+![career-lessons-2-cover](https://media.secologies.com/career-lessons-2-cover.webp)
 
 在[從50年職涯中學到的事業課題-上](https://hshuang.blog/posts/life-lessons-from-the-first-half-century-of-my-career-focused-1/)我們提到了前四件人們在事業上應該關注的事物，本篇我們介紹後面四件
 

@@ -20,9 +20,11 @@ keywords:
   - 靈魂
 summary: "靈魂的唯一目標，便是追求獨特結尾；眼中也只有路途盡頭。這使我們相聚"
 description: "靈魂的唯一目標，便是追求獨特結尾；眼中也只有路途盡頭。這使我們相聚"
-featureimage: "https://secologies.com/wp-content/uploads/2026/03/to-life-scaled.webp"
+featureimage: "https://media.secologies.com/to-life.webp"
 slug: "to-life"
 ---
+![to-life](https://media.secologies.com/to-life.webp)
+
 我生命中必然的到來：「死亡」
 
 它是統一的盡頭，也是共同的終點，它是無所在乎的名詞。出現在我們告別式上的悼詞。瞻仰遺容見識了它。活過這輩子

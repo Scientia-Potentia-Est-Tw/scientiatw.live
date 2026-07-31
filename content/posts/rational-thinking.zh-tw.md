@@ -8,9 +8,9 @@ keywords = [ "生活", "睡眠", "健康", "青少年", "理性思考"]
 slug = "rational-thinking"
 summary = "你會不會覺得十六歲的青少年腦中總是少根筋？然而從腦神經科學中發現其實這是正常的"
 description = "你會不會覺得十六歲的青少年腦中總是少根筋？然而從腦神經科學中發現其實這是正常的"
-featureimage = "https://secologies.com/wp-content/uploads/2026/03/rational-thinking-scaled.webp"
-
+featureimage = "https://media.secologies.com/rational%20thinking.webp"
 +++
+![rational-thinking](https://media.secologies.com/rational%20thinking.webp)
 
 你會不會覺得十六歲的青少年腦中總是少根筋？然而從腦神經科學中發現其實這是正常的
  

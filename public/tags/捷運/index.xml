@@ -2,22 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>捷運 on 黃宏勝的部落格 | hshuang.com</title>
-    <link>http://localhost:1313/tags/%E6%8D%B7%E9%81%8B/</link>
+    <link>https://hshuang.com/tags/%E6%8D%B7%E9%81%8B/</link>
     <description>Recent content in 捷運 on 黃宏勝的部落格 | hshuang.com</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>zh-TW</language>
-    <copyright>© 2026 黃宏勝</copyright>
-    <lastBuildDate>Tue, 13 Jan 2026 14:03:00 +0800</lastBuildDate><atom:link href="http://localhost:1313/tags/%E6%8D%B7%E9%81%8B/index.xml" rel="self" type="application/rss+xml" />
-    
+    <generator>Hugo</generator>
+    <language>zh-tw</language>
+    <lastBuildDate>Tue, 13 Jan 2026 14:03:00 +0800</lastBuildDate>
+    <atom:link href="https://hshuang.com/tags/%E6%8D%B7%E9%81%8B/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>2026-01-13</title>
-      <link>http://localhost:1313/posts/2026-01-13/</link>
+      <title>貝納頌？</title>
+      <link>https://hshuang.com/posts/bernachon/</link>
       <pubDate>Tue, 13 Jan 2026 14:03:00 +0800</pubDate>
-      
-      <guid>http://localhost:1313/posts/2026-01-13/</guid>
+      <guid>https://hshuang.com/posts/bernachon/</guid>
       <description>痾&amp;hellip;.對，貝納頌</description>
-      
     </item>
-    
   </channel>
 </rss>

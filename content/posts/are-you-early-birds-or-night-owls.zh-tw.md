@@ -9,9 +9,9 @@ keywords = [ "生活", "睡眠", "健康", "晨型人", "夜型人"]
 slug = "are-you-early-birds-or-night-owls"
 summary = "雖然你我的身體時鐘是運行二十四小時作息，但總會發現有些人早上精神較好，有些人則是晚上才會生龍活虎"
 description = "雖然你我的身體時鐘是運行二十四小時作息，但總會發現有些人早上精神較好，有些人則是晚上才會生龍活虎"
-featureimage = "https://secologies.com/wp-content/uploads/2026/03/are-you-early-birds-or-night-owls-scaled.webp"
-
+featureimage = "https://media.secologies.com/are-you-early-birds-or-night-owls.webp"
 +++
+![early-birds-or-night-owls](https://media.secologies.com/are-you-early-birds-or-night-owls.webp)
 
 雖然你我的身體時鐘是運行二十四小時作息，但總會發現有些人早上精神較好，有些人則是晚上才會生龍活虎
 

@@ -9,9 +9,9 @@ keywords = ["生活", "困境", "價值觀"]
 slug = "where-the-way-lead-to-hapiness"
 summary = "在生命的無力感之中人們該抱持何種信念才能通往快樂？"
 description = "在生命的無力感之中人們該抱持何種信念才能通往快樂？"
-featureimage = "https://secologies.com/wp-content/uploads/2026/03/where-the-way-lead-to-hapiness-scaled.webp"
-
+featureimage = "https://media.secologies.com/where-the-way-lead-to-hapiness.webp"
 +++
+![where-the-way-lead-to-hapiness](https://media.secologies.com/where-the-way-lead-to-hapiness.webp)
 
 **有時生活的困境在於，大家根本無意解決問題；他們只想照自己的意思來**，人生路途裡總會出現那種不覺得生命的法則應該要被遵守並努力探索，也不認為自己應該要用近似現代科學的方式，去理解生命這道課題的人。正因如此工程師所遵循的秩序法則更應該應用在我們的個人生活上吧？
 

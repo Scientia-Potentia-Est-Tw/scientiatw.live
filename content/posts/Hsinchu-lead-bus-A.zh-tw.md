@@ -17,32 +17,32 @@ keywords = [
   "新竹",
   "先導公車",
 ]
-featureimage = "https://secologies.com/wp-content/uploads/2025/05/Hsinchu_Lead_Bus_A-cover.webp"
-summary = "今天終於坐到了新竹市政府2024年月底推出新的電動先導公車"
 description = "今天終於坐到了新竹市政府2024年月底推出新的電動先導公車"
 slug = "Hsinchu-lead-bus-A"
+feature = "https://media.secologies.com/Hsinchu_Lead_Bus_A-cover.webp"
 +++
+![Hsinchu_Lead_Bus_A-cover](https://media.secologies.com/Hsinchu_Lead_Bus_A-cover.webp)
  
 今天終於坐到了新竹市政府2024年月底推出新的電動先導公車
 
 不過平常去新竹高鐵站搭乘182客運公車的時間實在太慢了，不如騎youbike去北新竹車站，再從北新竹坐區間車到六家車站搭高鐵絕對比較快(**但下雨天就會很麻煩**)，所以還是值得慶幸從學校到高鐵站路線又更多選擇了
  
 
-![Hsinchu_Lead_Bus_A-1](https://secologies.com/wp-content/uploads/2025/04/Hsinchu_Lead_Bus_A-1-scaled.webp)
+![Hsinchu_Lead_Bus_A-1](https://media.secologies.com/Hsinchu_Lead_Bus_A-1.webp)
  
 原本182的路線從光復路接到龍山里路變小條如果遇上園區下班時段肯定塞好塞滿，到高鐵站至少需要30~40分鐘時間，而先導公車經過清交後直接走交大校內，避開兩線道市區路段到慈雲埔頂二路口跟好市多直接上經國大橋，體感上比起182還真的比較快，話說連內裝都有調整
 
-![Hsinchu_Lead_Bus_A-2](https://secologies.com/wp-content/uploads/2025/04/Hsinchu_Lead_Bus_A-2-scaled.webp)
+![Hsinchu_Lead_Bus_A-2](https://media.secologies.com/Hsinchu_Lead_Bus_A-2.webp)
 
 最直接看到有設置導盲犬專區比起原先182公車更友善但跟其他客運的狀況一樣把導盲犬的位置安置在走道上
 
-![Hsinchu_Lead_Bus_A-3](https://secologies.com/wp-content/uploads/2025/04/Hsinchu_Lead_Bus_A-3-scaled.webp)
+![Hsinchu_Lead_Bus_A-3](https://media.secologies.com/Hsinchu_Lead_Bus_A-3.webp)
 
-![Hsinchu_Lead_Bus_A-4](https://secologies.com/wp-content/uploads/2025/04/Hsinchu_Lead_Bus_A-4-scaled.webp)
+![Hsinchu_Lead_Bus_A-4](https://media.secologies.com/Hsinchu_Lead_Bus_A-4.webp)
 
 額外就是其他原先的區域感覺有擴張一些空間
 
-![Hsinchu_Lead_Bus_A-6](https://secologies.com/wp-content/uploads/2025/04/Hsinchu_Lead_Bus_A-6-scaled.webp)
+![Hsinchu_Lead_Bus_A-6](https://media.secologies.com/Hsinchu_Lead_Bus_A-6.webp)
 
 話說地板多加木紋貼皮是要重新開始走復古風嗎？
 

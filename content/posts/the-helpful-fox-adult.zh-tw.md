@@ -20,9 +20,11 @@ keywords:
   - 思維
 summary: "我是潘X遠醫師，我信賴狐狸型大人"
 description: "我是潘X遠醫師，我信賴狐狸型大人"
-featureimage: "https://secologies.com/wp-content/uploads/2026/05/Y2HOZBX-scaled.webp"
 slug: "the-helpful-fox-adult"
+featureimage: "https://media.secologies.com/Y2HOZBX.webp"
 ---
+![Y2HOZBX](https://media.secologies.com/Y2HOZBX.webp)
+
 看到 Wiwi[^1] 針對 TzuChun Chao[^2] 查資料的歷史多做了一些補充，資訊時代發展了一輪，結果最後的「**結局是，我們依然需要一個「裝懂的大人」來告訴我們該相信什麼。- Wiwi Kuan**」
 
 但究竟要相信哪種大人？如果大學是唸理工科的讀者，對於理工科的教授都有一些認知，由於許多現實問題太過複雜，無法用單一的理論來解釋，而這些教授對於自己專業以外的領域不太熟悉，所以他們總是喜歡用半生之力鑄造一個屬於自己的「錘子」，將一切問題視作「釘子」，只為推崇自己唯一的理念。我覺得將這些教授的話當作專業參考，並且自己再多聽一些其他人的觀點和文獻朔造自己的想法應該較為恰當

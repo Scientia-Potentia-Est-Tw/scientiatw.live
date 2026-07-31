@@ -28,9 +28,11 @@ keywords:
   - 無聊
 summary: "或許我把⾃⼰⾃縛起來，就是為了得到⾃由。正如康德所説：「⼀旦我們意會到我們有能⼒進⾏這種內在的⽴法，⾃然⼈就會感覺有股衝動要去尊重存在於⾃⼰體內的那名道德⼈」"
 description: "或許我把⾃⼰⾃縛起來，就是為了得到⾃由。正如康德所説：「⼀旦我們意會到我們有能⼒進⾏這種內在的⽴法，⾃然⼈就會感覺有股衝動要去尊重存在於⾃⼰體內的那名道德⼈」"
-featureimage: "https://media.secologies.com/musical-self-bondage-cover.webp"
 slug: "musical-self-bondage"
+featureimage: "https://media.secologies.com/musical-self-bondage-cover.webp"
 ---
+![musical-self-bondage-cover](https://media.secologies.com/musical-self-bondage-cover.webp)
+
 > 這是我的「[BlogBlog 同樂會 - 2026 年 6 月](https://blogblog.club/party/)」的投稿文章。本月主題是「[音樂與記憶](https://www.yozblog.com/posts/music-and-memories)」，由 [柚子](https://www.yozblog.com/) 主持。如果你有自己的部落格，歡迎一起來參加！
 
 ## 痛苦的源頭
