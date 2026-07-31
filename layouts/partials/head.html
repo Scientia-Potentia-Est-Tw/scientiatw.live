@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="format-detection" content="telephone=no" />
     <meta name="theme-color" content="#000084" />
-    <link rel="icon" href="{{ .Site.BaseURL }}/favicon.png">
+    <link rel="icon" href="{{ "favicon.png" | absURL }}">
     <link rel="canonical" href="{{ .Permalink }}">
 
     {{ $description := .Params.description | default .Summary | default .Site.Params.description }}
