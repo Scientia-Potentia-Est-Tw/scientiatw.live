@@ -17,9 +17,6 @@ author = "黃宏勝"
 - [News Feed Eradicator](https://chromewebstore.google.com/detail/news-feed-eradicator/fjcldmjmjhkklehbacihaiopjklihlgg?hl=en) - 可以封鎖各社群媒體平台上的動態資訊，尤其是那些被演算法才推給我的資訊，我根本不在乎，畢竟我用 Youtube 只為了看教學影片而已
 - [Block Site](https://chromewebstore.google.com/detail/block-site/nkedbnokglppcmiencngilkkhhnpcfjb) - 轟鎖網域，甚至還可以單獨封鎖 iframes，新版功能還可以用密碼上鎖
 
-### 🔈 RSS工具
-- [Liferea](https://lzone.de/liferea/) - Ubuntu 上簡單的開源 RSS 閱讀器，界面蠻單調的
-
 ### 🗓️ 行程管理
 - [GNOME Calendar](https://apps.gnome.org/Calendar/) - 最陽春的 GNOME 自家行事曆，反正我只要紀錄重大事件就行
 
@@ -42,8 +39,8 @@ author = "黃宏勝"
 - LINE - 在台灣跟親友聯絡以及很常用 Line Pay 所以還是得用，而在 Ubuntu 上安裝瀏覽器插件，網頁版官方說會關掉，但到現在還可以用，反正我就繼續用吧，到時沒了再轉回那 bug 超級多的 wine 模擬器
 
 ### 💻 網站製作
+- [Hugo](https://gohugo.io/) - 靜態網頁生成套件，搭配 CloudFlare Pages 作為部署空間就可以做出非常精美的網站了，本站就是用 Hugo
 - [Wordpress](https://wordpress.org/download/) - 知名的動態網站系統，如果有表單或互動需求就只能依賴有資料庫的系統，基本上只建議買自己的 VPS 安裝 wordpress.org，別買 wordpress.com 的方案，那個太浪費錢了
-- [Hugo](https://gohugo.io/) - 靜態網頁生成套件，搭配 CloudFlare Pages 作為部署空間就可以做出非常精美的網站了
 
 ## ⚙️ 硬體
 ### 📜 電子紙產品
