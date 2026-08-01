@@ -11,6 +11,7 @@ tags:
   - 無聊
   - 恐懼
   - 幸福之人
+  - BlogBlog 同樂會
 keywords:
   - 生活
   - 理想的日常

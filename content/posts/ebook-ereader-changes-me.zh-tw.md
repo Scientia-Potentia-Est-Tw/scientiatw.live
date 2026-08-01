@@ -21,6 +21,7 @@ tags:
 - 讀墨
 - Kobo
 - MobiScribe Origin
+- BlogBlog 同樂會
 title: 電子書閱讀器改變了我的人生
 ---
 ![Kobo Clara BW](https://media.secologies.com/Kobo%20Clara%20BW%20cover.webp)
