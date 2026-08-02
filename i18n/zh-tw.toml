@@ -5,7 +5,7 @@ other = "首頁"
 other = "文章"
 
 [postslist]
-other = "部落格文章"
+other = "近期部落格文章"
 
 [categories]
 other = "分類"
