@@ -46,7 +46,7 @@ preserveTaxonomyNames = true
     name = "黃宏勝"
 
     # The url to use as link in the copyright name in the footer. Leave empty to use none.
-    url = "https://secologies.com/zh/hong-sheng-huang/"
+    url = ""
 
     # Text to go before copyright information
     prefix = ""
