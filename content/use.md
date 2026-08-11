@@ -1,7 +1,7 @@
 +++
 title = "使用"
 description = "本頁顯示站長目前愛用的"
-date = "2026-07-01"
+date = "2026-08-11"
 aliases = ["use"]
 author = "黃宏勝" 
 +++
@@ -40,7 +40,7 @@ author = "黃宏勝"
 
 ### 💻 網站製作
 - [Hugo](https://gohugo.io/) - 靜態網頁生成套件，搭配 CloudFlare Pages 作為部署空間就可以做出非常精美的網站了，本站就是用 Hugo
-- [Wordpress](https://wordpress.org/download/) - 知名的動態網站系統，如果有表單或互動需求就只能依賴有資料庫的系統，基本上只建議買自己的 VPS 安裝 wordpress.org，別買 wordpress.com 的方案，那個太浪費錢了
+- [Astro](https://astro.build/) - 用於建構快速、以內容為中心之網站的現代 JavaScript 網頁框架，傳送極少量的 JavaScript 到客戶端，大幅提升網站載入速度，目前主要是 Cloudflare 開發與維護，代表未來可以支援 x402 協定，[Secologies](https://secologies.com) 就是用這個製成的
 
 ## ⚙️ 硬體
 ### 📜 電子紙產品
@@ -56,7 +56,6 @@ author = "黃宏勝"
 ## ☁️  線上服務
 ### 💰 訂閱制服務
 - [Cloudflare Registrar](https://www.cloudflare.com/products/registrar/) - CloudFlare 出租網域的地方，基本上他們家網域定價完後都是固定價格，不像 GoDaddy、NameCheap、Wix、Hostinger 之類的網域商讓價格一直浮動，我明白你們第一年價格便宜是想吸引消費者，但第二年之後價格反彈是在搞心態嗎
-- [EasyWP WordPress Hosting](https://www.namecheap.com/wordpress/) - NameCheap 推出的 Wordpress Shared 主機，但亞洲沒有伺服器可以選有點煩，而且每年續約的價格一直往上調，越來越不爽，明年不續約了
 
 ### 🖌 寫作平台
 - [Overleaf](https://www.overleaf.com/) - 線上學術寫作編輯器，有許多大學提供各式各樣的模板，用校園信箱註冊認證可以升級成 Premium 方案，多人共同編輯時非常好用
@@ -73,7 +72,6 @@ author = "黃宏勝"
 ### 🗃 電子書平台
 - [Kobo](https://r10.to/hklN84) - 全球非常活躍的多語言電子書平台，滿足我需要繁體中文書以及英文書的需求，每日都有 99 元優惠
 - [讀墨](https://moo.im/a/1iknoH) - 台灣最大繁體中文電子書平台，常常會有一些閱讀馬拉松活動，也有每日優惠但價格會跟出版社討論所以有時是 99 元但也可能 99 元以上
-- [Hyread](https://wonderfulapple.net/3NP0J) - 在台灣以圖書館借閱服務最為盛行，Hyread 跟眾多台灣的圖書館進行館藏合作，幾乎大學都可以使用他們的電子資源，甚至 Hyread 還有蒐錄在台灣出版的期刊
 
 ## 🎶 音樂相關
 - [YAMAHA P-125a](https://tw.yamaha.com/zh/products/musical_instruments/pianos/p_series/p-125a/index.html) - 我主要練琴用的數位電鋼琴

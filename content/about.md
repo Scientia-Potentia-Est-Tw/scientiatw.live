@@ -19,7 +19,7 @@ author = "黃宏勝"
 
 ## 關於我
 
-我是[黃宏勝](https://secologies.com/zh/hong-sheng-huang/)，臺東人
+我是[黃宏勝](https://secologies.com/hong-sheng-huang/)，臺東人
 
 - Z 世代
 - 北漂青年
