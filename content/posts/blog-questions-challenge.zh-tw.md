@@ -81,7 +81,7 @@ featureimage: "https://media.secologies.com/blog-questions-challenges-cover.webp
 未來規劃要養成Obsidian裡有足夠的素材時才開始寫文章，不然東缺西缺一直放在資料夾裡我看了也心煩
 
 ## 你部落格上最喜歡的文章是哪一篇？
-在我的技術部落格裡，我最喜歡的是《[PUF 晶片上的物理不可複製功能](https://secologies.com/physical-unclonable-function/)》這文章，當初修硬體安全這門課時體驗很好，學到很多東西
+在我的技術部落格裡，我最喜歡的是《[PUF 晶片上的物理不可複製功能](https://secologies.com/posts/physical-unclonable-function/)》這文章，當初修硬體安全這門課時體驗很好，學到很多東西
 
 也是讓我不後悔延畢後所遇到的一門課，讓我認識除了做純密碼研究之外還有更廣泛應用的領域，而裡面談保護晶片最重要的方法之一就是使用PUF，所以我認為這篇作為晶片安全的入門很適合
 
