@@ -25,7 +25,7 @@ author = "黃宏勝"
 - [tmux](https://github.com/tmux/tmux/wiki) - 強大的終端機 Session 管理工具，遠端控制實驗通常要花很多時間常常實驗做一做就出去吃個飯，又害怕網路突然讓 ssh 斷線，有了 session 控管就可以把實驗結果叫回來，以及常常要開好幾個頁面調整 code，tmux 能夠開啟多組 pane 分別編輯不同的區塊
 
 ### 📊 簡報
-- [Overleaf Beamer](https://www.overleaf.com/learn/latex/Beamer) - 常用於學術簡報中，原生支援各式各樣的數學公式，可以在 [Overleaf](https://www.overleaf.com/) 上使用或者在電腦上安裝 Latex 編譯器實作，對於熟悉 Latex 語法的使用者來說是快速完成簡報的利器，不需要花力氣管模板的排版
+- [Beamer](https://www.overleaf.com/learn/latex/Beamer) - 常用於學術簡報中，原生支援各式各樣的數學公式，可以在 [Overleaf](https://www.overleaf.com/) 上使用或者在電腦上安裝 Latex 編譯器實作，對於熟悉 Latex 語法的使用者來說是快速完成簡報的利器，不需要花力氣管模板的排版
 
 ### 📝 筆記軟體/編輯器
 - [Obsidian](https://obsidian.md/) - 免費且開源的筆記軟體，用來撰寫卡片盒筆記很方便，Canvas 功能雖與 Heptabase 的白板相比之下稍嫌不足，但搭配眾多開發者的套件我覺得 Obsidian 還是很好用，而且每一張卡片都是 markdown 格式可以隨時帶走
@@ -33,18 +33,18 @@ author = "黃宏勝"
 
 ### 🗂️ 學術軟體
 - [Zotero](https://www.zotero.org/) - 開源版本的文獻管理工具，IACR 的 eprint 文獻頁面可以直接右鍵匯入，但 EndNote 卻沒辦法，所以 Zotero 對我才是有用的，並且在 Linux / macOS 以及 Windows 上都有支援
-- [TeX Live](https://tug.org/texlive/) - 在 Linux 上搭配 VSCode 編輯 Tex 檔案，也可以在 local 端編譯，以前有一晚 Overleaf 網站掛掉時我正在趕報告，搞得我心急如焚所以才想到也必須有備援方案，建議把 Overleaf 上心儀的模板也備份一組到硬碟中
+- [TeX Live](https://tug.org/texlive/) - 在 Linux 上的 TeX 編譯器，可以搭配 VSCode 的插件編輯 Tex 檔案且在 local 端編譯，以前有一晚 Overleaf 網站掛掉時我正在趕報告，搞得我心急如焚所以才想到也必須有備援方案，建議把 Overleaf 上心儀的模板也備份一組到硬碟中
 
 ### 💬 通訊軟體
 - LINE - 在台灣跟親友聯絡以及很常用 Line Pay 所以還是得用，而在 Ubuntu 上安裝瀏覽器插件，網頁版官方說會關掉，但到現在還可以用，反正我就繼續用吧，到時沒了再轉回那 bug 超級多的 wine 模擬器
 
 ### 💻 網站製作
-- [Hugo](https://gohugo.io/) - 靜態網頁生成套件，搭配 CloudFlare Pages 作為部署空間就可以做出非常精美的網站了，本站就是用 Hugo
-- [Astro](https://astro.build/) - 用於建構快速、以內容為中心之網站的現代 JavaScript 網頁框架，傳送極少量的 JavaScript 到客戶端，大幅提升網站載入速度，目前主要是 Cloudflare 開發與維護，代表未來可以支援 x402 協定，[Secologies](https://secologies.com) 就是用這個製成的
+- [Hugo](https://gohugo.io/) - 靜態網頁生成套件，搭配 CloudFlare Pages 作為部署空間就可以做出非常精美的網站了，本站就是用 Hugo 建置的
+- [Astro](https://astro.build/) - 用於建構快速、以內容為中心之靜態網站的現代 JavaScript 網頁框架，傳送極少量的 JavaScript 到客戶端，大幅提升網站載入速度，目前主要是 Cloudflare 開發與維護，代表未來可以支援 x402 協定，[Secologies](https://secologies.com) 就是用這個製成的
 
 ## ⚙️ 硬體
 ### 📜 電子紙產品
-- [reMarkable Paper Pro](https://remarkable.com/products/remarkable-paper/pro) - 工作時除了用白板紀錄之外，還需要一台打字筆記，並且我想盡可能的少接觸藍光，但我的環境不允許使用文石 Tab X C，所以退而求其次選 11.8 吋的 rMPP，雖然規格比不上開放式的機器，但到目前使用起來都還挺順的，尤其他們家的鍵盤手感還不錯，唯一美中不足的是只支援英文，所以只能用來寫研究筆記，讀書筆記我一樣只好用筆電
+- [reMarkable Paper Pro](https://remarkable.com/products/remarkable-paper/pro) - 工作時除了用白板紀錄之外，我還需要一台有原廠鍵盤的電子筆記設備，並且我想盡可能的少接觸藍光，但我的環境不允許使用文石 Tab X C，所以退而求其次選 11.8 吋的 rMPP，雖然規格比不上開放式的機器，但到目前使用起來都還挺順的，尤其他們家的鍵盤手感還不錯，很像 Apple 巧控鍵盤的質感，另外買了鎮紙 Paperweight 中文輸入法插件，因為看起來原廠完全沒有做中文介面的打算
 - [Kobo Clara BW](https://r10.to/hkkbYN) - Kobo 最小尺寸 6 吋黑白機器，外出時非常好用，我的褲子口袋剛好可以完美裝進去
 - [Readmoo Mooink Pro 2C](https://moo.im/a/luyzKS) - Readmoo 讀墨推出的 13.3 吋彩色電子書閱讀器，柔性螢幕讓機器非常輕薄，讓我在看 paper 時可以手持走動，也可以在教課時一手握著另一手寫黑板，做研究時的好夥伴，可以看[《讀墨 Readmoo mooInk Pro 2C 13.3吋 彩色電子書閱讀器 閱讀PDF檔案的應許之機》](https://hshuang.com/posts/readmoo-mooink-pro-2c/)這篇來詳細瞭解
 - Boox Mira - 13.3 吋柔性護眼黑白電子墨水顯示器，用來看 paper 還不錯，但圖表如果有顏色我會分不出來，不過隨身帶著挺方便的，而且裡面沒有任何通訊模組
