@@ -57,9 +57,6 @@ author = "黃宏勝"
 ### 💰 訂閱制服務
 - [Cloudflare Registrar](https://www.cloudflare.com/products/registrar/) - CloudFlare 出租網域的地方，基本上他們家網域定價完後都是固定價格，不像 GoDaddy、NameCheap、Wix、Hostinger 之類的網域商讓價格一直浮動，我明白你們第一年價格便宜是想吸引消費者，但第二年之後價格反彈是在搞心態嗎
 
-### 🖌 寫作平台
-- [Overleaf](https://www.overleaf.com/) - 線上學術寫作編輯器，有許多大學提供各式各樣的模板，用校園信箱註冊認證可以升級成 Premium 方案，多人共同編輯時非常好用
-
 ### 📝 學習平台
 - [Udemy](https://affone.site/track/clicks/4546/c627c2bc980426d6fa83ec23d62e9642236e48df2aabebf00264b413210652aa8272f4) - 付費平台中可以低價購買課程使用權而不是強制訂閱制的，常常會有幾千塊的課程降價為 270、290、320 台幣等等的優惠時段
 - [Coursera](https://www.coursera.org/) - 全球最多免費課程的平台，甚至 Google 或其他大公司還有提供免費認證
