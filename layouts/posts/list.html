@@ -1,0 +1,156 @@
+{{ define "main" }}
+<article class="row-fluid navmargin">
+    <header class="page-header">
+        <h1>{{ .Title }}</h1>
+    </header>
+    <!-- "{{.Content}}" pulls from the markdown content of the corresponding _index.md -->
+    {{ .Content }}
+</article>
+
+{{ $yearGroups := .Pages.GroupByDate "2006" "desc" }}
+{{ $thisYear := now.Format "2006" }}
+{{ $hasToc := gt (len $yearGroups) 0 }}
+
+{{/* Work out which year should start open: the current calendar year if it
+     has posts, otherwise fall back to the most recent year available. */}}
+{{ $hasThisYear := false }}
+{{ range $yearGroups }}
+    {{ if eq .Key $thisYear }}{{ $hasThisYear = true }}{{ end }}
+{{ end }}
+
+<div class="row-fluid content-row">
+    <div class="{{ if $hasToc }}span9{{ else }}span12{{ end }} bs-docs-sidebar">
+        <div class="accordion post-year-accordion" id="postsByYear">
+        {{ range $i, $yearGroup := $yearGroups }}
+            {{ $year := $yearGroup.Key }}
+            {{ $isOpen := or (eq $year $thisYear) (and (eq $i 0) (not $hasThisYear)) }}
+            {{ $collapseID := printf "posts-year-%s" $year }}
+            {{ $groupAnchor := printf "posts-year-%s-anchor" $year }}
+            <div class="accordion-group post-year-group" id="{{ $groupAnchor }}">
+                <div class="accordion-heading">
+                    <a class="accordion-toggle{{ if not $isOpen }} collapsed{{ end }}"
+                       data-toggle="collapse"
+                       data-parent="#postsByYear"
+                       href="#{{ $collapseID }}">
+                        {{ $year }} 年
+                        <span class="post-year-count">（{{ len $yearGroup.Pages }} 篇）</span>
+                    </a>
+                </div>
+                <div id="{{ $collapseID }}" class="accordion-body collapse{{ if $isOpen }} in{{ end }}">
+                    <div class="accordion-inner">
+                        {{ range $monthGroup := $yearGroup.Pages.GroupByDate "01" "desc" }}
+                        <h4 class="post-month-header">{{ (index $monthGroup.Pages 0).Date.Format "1" }} 月</h4>
+                        <ul class="post-month-list">
+                            {{ range $monthGroup.Pages }}
+                            <li><a href="{{ .Permalink }}">{{ .Date.Format "01-02" }}：{{ .Title }}</a></li>
+                            {{ end }}
+                        </ul>
+                        {{ end }}
+                    </div>
+                </div>
+            </div>
+        {{ end }}
+        </div>
+    </div>
+
+    {{ if $hasToc }}
+    <div class="span3 bs-docs-sidebar">
+        <div class="toc-sticky">
+            <h1>{{ i18n "toc" | default "Contents" }}</h1>
+            <ul id="postsIndexToc" class="nav nav-list bs-docs-sidenav">
+                {{ range $yearGroups }}
+                {{ $year := .Key }}
+                <li>
+                    <a href="#{{ printf "posts-year-%s-anchor" $year }}"
+                       data-collapse-target="#{{ printf "posts-year-%s" $year }}">
+                        {{ $year }} 年
+                    </a>
+                </li>
+                {{ end }}
+            </ul>
+        </div>
+        <script>
+        (function () {
+          var tocLinks = document.querySelectorAll('#postsIndexToc a[href^="#"]');
+          if (!tocLinks.length) return;
+
+          tocLinks.forEach(function (link) {
+            link.addEventListener('click', function (e) {
+              e.preventDefault();
+              var id = decodeURIComponent(link.getAttribute('href').slice(1));
+              var collapseTarget = link.getAttribute('data-collapse-target');
+              if (collapseTarget) {
+                var toggle = document.querySelector('.accordion-toggle[href="' + collapseTarget + '"]');
+                if (toggle && toggle.classList.contains('collapsed')) {
+                  toggle.click();
+                }
+              }
+              var target = document.getElementById(id);
+              if (target) {
+                target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+              }
+            });
+          });
+
+          var headings = [];
+          tocLinks.forEach(function (link) {
+            var id = decodeURIComponent(link.getAttribute('href').slice(1));
+            var heading = document.getElementById(id);
+            if (heading) headings.push(heading);
+          });
+          if (!headings.length) return;
+
+          var activeLink = null;
+          function setActive(id) {
+            if (activeLink) activeLink.classList.remove('toc-active');
+            var link = document.querySelector('#postsIndexToc a[href="#' + CSS.escape(id) + '"]');
+            if (link) {
+              link.classList.add('toc-active');
+              activeLink = link;
+            }
+          }
+
+          var observer = new IntersectionObserver(function (entries) {
+            entries.forEach(function (entry) {
+              if (entry.isIntersecting) setActive(entry.target.id);
+            });
+          }, {
+            rootMargin: '0px 0px -70% 0px',
+            threshold: 0
+          });
+
+          headings.forEach(function (h) { observer.observe(h); });
+        })();
+        </script>
+    </div>
+    {{ end }}
+</div>
+
+<style>
+    .post-year-accordion .accordion-toggle {
+        font-size: 20px;
+        font-weight: bold;
+        display: block;
+        padding: 8px 0;
+        cursor: pointer;
+    }
+    .post-year-accordion .post-year-count {
+        font-size: 13px;
+        font-weight: normal;
+        opacity: .7;
+    }
+    .post-year-accordion .accordion-inner {
+        padding: 0 0 10px 4px;
+    }
+    .post-month-header {
+        margin: 14px 0 4px;
+    }
+    .post-month-list {
+        list-style: none;
+        margin: 0 0 0 4px;
+    }
+    .post-month-list li {
+        padding: 2px 0;
+    }
+</style>
+{{ end }}

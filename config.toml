@@ -93,16 +93,10 @@ preserveTaxonomyNames = true
     weight = 60          # A number to order the buttons in the navbar
     
     [[menu.main]]
-    identifier = "links" # An unique identifier for the button
-    name = "推薦"       # A display name for the button
-    url = "/links/"      # The path to the content. It can lead to a single page (like here)
-    weight = 70          # A number to order the buttons in the navbar
-    
-    [[menu.main]]
     identifier = "search" # An unique identifier for the button
     name = "搜尋"       # A display name for the button
     url = "/search/"      # The path to the content. It can lead to a single page (like here)
-    weight = 80          # A number to order the buttons in the navbar
+    weight = 70          # A number to order the buttons in the navbar
 
 [taxonomies]
 category = "categories"

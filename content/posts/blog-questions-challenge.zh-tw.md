@@ -17,7 +17,7 @@ keywords:
 - 挑戰
 - 部落格
 - 故事
-lastmod: '2026-04-28T09:38:00+08:00'
+lastmod: '2026-08-27T18:17:00+08:00'
 slug: blog-questions-challenge
 description: "在廢文小天地看到的Blog Questions Challenge"
 math: true
@@ -43,32 +43,36 @@ featureimage: "https://media.secologies.com/blog-questions-challenges-cover.webp
 一開始的打算是把電腦科學裡學到的，跟平時生活心得與閱讀心得等等都在同一個網站中呈現，但隨著文章越來越多，整個網站內含所有主題越看越混淆，所以決定讓VPS主要展示技術型的文章，而這個部落格則是主要分享生活型的文章
 
 ## 你使用什麼平台來管理你的部落格？為什麼選擇它？
-- ~~Github Pages~~ $ \rightarrow $ Cloudflare Pages
-- Wordpress
+- ~~Github Pages~~ $ \rightarrow $ Hugo + Cloudflare Pages
+- ~~Wordpress~~ $ \rightarrow $ Astro + Cloudflare Pages
 
-一開始沒有收入時只能選擇免費的Github Pages當作網頁空間，開始實習後有些工讀的薪水，在網路上看來看去要經營自媒體應該要架設自己的網站與網域，所以開始買了VPS安裝Wordpress
+一開始沒有收入時只能選擇免費的 Github Pages 當作網頁空間，開始實習後有些工讀的薪水，在網路上看來看去要經營自媒體應該要架設自己的網站與網域，所以開始買了 VPS 安裝 Wordpress
 
-由於我之後有打算啟動訂閱服務以及線上課程的規劃，並且讀者的個人資料我想要自己全權掌控減少風險，就一定需要有資料庫管理讀者的資訊，Wordpress自然就成為我的第一選項，而且wordpress除了免費的模板功能就夠用之外，支援LaTex、多語言切換以及SEO等套件都有免費版的可以安裝
+由於我之後有打算啟動訂閱服務以及線上課程的規劃，並且讀者的個人資料我想要自己全權掌控減少風險，就一定需要有資料庫管理讀者的資訊，Wordpress 自然就成為我的第一選項，而且 wordpress 除了免費的模板功能就夠用之外，支援 LaTex、多語言切換以及 SEO 等套件都有免費版的可以安裝
 
-另一個考量的點是Github Repository建議只儲存5GB以下的內容在上面，光把Hugo模板上傳上去就花了一些空間，而隨著文章增加就會越需要引用更多張圖片，如果把圖片全部上傳在Github上會讓部署時間越來越久，所以Wordpress的媒體空間也提供一個網路圖庫空間給我的社群部落格儲存所有圖片
+另一個考量的點是 Github Repository 建議只儲存 5GB 以下的內容在上面，光把 Hugo 模板上傳上去就花了一些空間，而隨著文章增加就會越需要引用更多張圖片，如果把圖片全部上傳在 Github 上會讓部署時間越來越久，所以 Wordpress 的媒體空間也提供一個網路圖庫空間給我的社群部落格儲存所有圖片
 
-近期將Github Pages改到Cloudflare Pages上，雖然原本的Github Pages就挺夠用的了，但SEO就是唯一也是我最煩惱的問題，由於Github的CDN只有在美國地區比較完善，相較之下亞洲地區還不夠好，而不巧我的文章大部分都是中文的，目前TA都是亞太地區
+近期將 Github Pages 改到 Cloudflare Pages 上，雖然原本的 Github Pages 就挺夠用的了，但 SEO 就是唯一也是我最煩惱的問題，由於 Github 的 CDN 只有在美國地區比較完善，相較之下亞洲地區還不夠好，而不巧我的文章大部分都是中文的，目前 TA 都是亞太地區
 
-我架設社群部落格已經一段時間了，但不是每一篇文章在Google搜尋引擎上可以有好的排名，所以決定換成CloudFlare Pages使用CloudFlare的DNS服務，原因光是免費方案就不限流量了，甚至防範DDoS、惡意爬蟲以及防火牆服務都是免費的
+我架設社群部落格已經一段時間了，但不是每一篇文章在 Google 搜尋引擎上可以有好的排名，所以決定換成 CloudFlare Pages 使用 CloudFlare 的 DNS 服務，原因光是免費方案就不限流量了，甚至防範 DDoS、惡意爬蟲以及防火牆服務都是免費的
 
 而且從Github Pages換到Cloudflare Pages很方便，只需要把原本放在Github上的repo連接到Cloudflare上就可以了，Cloudflare就會根據專案裡面的檔案自動部署出同樣的網站，而只要把網域指向Cloudflare就可以把整個網站換到Cloudflare Pages上
 
-原先我每一篇文章在vim裡寫完markdown檔案後還要用Hugo compiler重新編譯，再到/public將輸出的檔案push到github repo裡讓Action部署，但我現在直接在repo裡修改就可以讓Cloudflare自動部署更新
+原先我每一篇文章在 vim 裡寫完 markdown 檔案後還要用Hugo compiler重新編譯，再到/public將輸出的檔案push到github repo裡讓Action部署，但我現在直接在repo裡修改就可以讓Cloudflare自動部署更新
+
+2026/08/10: 決定不再使用 Wordpress 維護網站了，一來是我發現自己根本用不太到非常大的資料庫，如果只需要圖庫 Cloudflare R2 Storage 對我所有都是 webp 格式的圖片夠用了。二來是幾乎大部分的 VPS 續約價格年年都在增長，我之前用的 Namecheap 就是如此，難怪他們可以打很多廣告。三來是如果讓網站速度變快就只能多加錢買更大的計算能力，而那些插件如果要用更進階的功能通通都得付費訂閱，俗話說免費的最貴。
+
+基於總總我發現如果是要滿足其他需求改用其他服務也可以做到類似的事情，像是電子報大部分人也幾乎都用那幾家電子報服務而不是自己用資料庫蒐集，雖然依賴其他公司的服務長期來看不太完美，但至少出事時我可以選擇把電子郵件匯出。而我解決網站速度的問題就是轉用 Astro + Cloudflare Pages 部屬，未來如果真的各家的 Agent 都強的跟鬼一樣，但還是需要有人寫新的內容讓它們爬取，而 Astro 由 Cloudflare 維護的情況下可以新增 x402 協定，也許我有機會靠網站生活嗎？ 
 
 ## 你之前有在其他平台上寫過部落格文章嗎？
-高職時期上科技應用課時，老師有教我們開Google Blogger網誌，但寫完一篇關於高一生活的文章，之後就沒有再開過了，那個Google帳號我也不確定還有沒有在用，後來就只在自己架設的地方寫文章
+高職時期上科技應用課時，老師有教我們開 Google Blogger 網誌，但寫完一篇關於高一生活的文章，之後就沒有再開過了，那個Google帳號我也不確定還有沒有在用，後來就只在自己架設的地方寫文章
 
 ## 你如何撰寫文章？例如，使用本地編輯工具，還是在部落格的後台／控制面板中編寫？
 不管是技術文章或是閱讀心得，我總會先在Obsidian上做許多卡片盒筆記，搜集好一定份量的素材後才決定開始寫文章
 
-之後再貼到Wordpress上的撰寫區塊，調整字型，比較麻煩的就是Obsidian裡原生Latex是用錢字號(\$)，但換到Wordpress上的模板inline mode是用[latex]來標記
+~~之後再貼到Wordpress上的撰寫區塊，調整字型，比較麻煩的就是Obsidian裡原生Latex是用錢字號(\$)，但換到Wordpress上的模板inline mode是用[latex]來標記~~
 
-而Cloudflare Pages上的文章都是我從素材裡貼到Vim編輯器裡的Markdown檔案產出的，把文章範例模板儲存在一個txt檔案裡，每次開新的一篇都從裡面複製出來貼到vim上，再開始寫完整篇
+在 Cloudflare Pages 上的文章都是我從素材裡貼到 Vim 編輯器裡的 Markdown 檔案產出的，把文章範例模板儲存在一個 txt 檔案裡，每次開新的一篇都從裡面複製出來貼到 vim 上，再開始寫完整篇
 
 ## 你什麼時候最有寫作靈感？
 每天晚上吃完晚餐後的休息時間，由於晚餐過後注意力也下降許多，所以會開始審視當日白天新增的卡片盒筆記資料庫，整理今天寫的卡片並且更新Obsidian Canvas時就會想到有哪些素材是可以寫成文章的
@@ -76,9 +80,9 @@ featureimage: "https://media.secologies.com/blog-questions-challenges-cover.webp
 另外看到有些部落格更新了新文章，覺得有趣的內容就決定延伸寫一篇我自己的想法，以及閱讀時看到某一章節有感而發就會想要來寫一篇
 
 ## 你會在寫完後立即發布，還是會先存成草稿醞釀一下？
-我自己習慣寫完就馬上發出去，畢竟在Wordpress上有些題目是當初想寫的，但由於素材還沒整理好，所以就一直拖到現在也還躺在草稿區裡，但一直拖著也不是辦法，最近也把那些只有標題的草稿刪掉了
+我自己習慣寫完就馬上發出去，畢竟在網站上有些題目是當初想寫的，但由於素材還沒整理好，所以就一直拖到現在也還躺在草稿區裡，但一直拖著也不是辦法，最近也把那些只有標題的草稿刪掉了
 
-未來規劃要養成Obsidian裡有足夠的素材時才開始寫文章，不然東缺西缺一直放在資料夾裡我看了也心煩
+未來規劃要養成 Obsidian 裡有足夠的素材時才開始寫文章，不然東缺西缺一直放在資料夾裡我看了也心煩
 
 ## 你部落格上最喜歡的文章是哪一篇？
 在我的技術部落格裡，我最喜歡的是《[PUF 晶片上的物理不可複製功能](https://secologies.com/posts/physical-unclonable-function/)》這文章，當初修硬體安全這門課時體驗很好，學到很多東西
@@ -92,7 +96,7 @@ featureimage: "https://media.secologies.com/blog-questions-challenges-cover.webp
 ## 你對部落格有什麼未來計畫嗎？例如重新設計、搬到另一個平台，或是加入新功能？
 技術部落格如我冀望它的名字，《[Secologies](https://secologies.com/)》，希望從數學、硬體到軟體的多維度視角來建構完整的資安生態圈，所以我需要開始多補充詳細的數學文章彌補讀者的底層知識，讓網站成為自給自足(self-contained)的平台
 
-以及目前開放免費的電子報註冊[https://secologies.com/newsletter](https://secologies.com/newsletter)，未來打算推出訂閱制的電子報，還有推出一些線上課程，Wordpress模板換了好幾次，目前這個消耗的計算資源最少，應該不會再換了
+以及目前開放免費的電子報註冊[https://secologies.com/newsletter](https://secologies.com/newsletter)，未來打算推出訂閱制的電子報，還有推出一些線上課程，~~Wordpress模板換了好幾次，目前這個消耗的計算資源最少，應該不會再換了~~，Astro 模板我選了個免費的已文章為主的模板，支援 Obsidian 的卡片盒筆記，可以在文章中檢視相關聯的其他文章，這也是我平時作筆記的習慣，尤其資安這一個主題實在太廣泛了，我們沒辦法只靠一篇文章就解釋完全部的細節，但如果未來還有更適合的模板我也會考慮換
 
 而個人部落格未來如果 Cloudflare Pages 開始收費的話可能又要換平台了，Hugo模板如果有好看或適合的我就會換過去
 
