@@ -1,7 +1,7 @@
 +++
 title = "近況"
 description = "本頁顯示站長近況"
-date = "2026-08-30"
+date = "2026-08-30T18:50:00+08:00"
 aliases = ["now"]
 author = "黃宏勝" 
 +++

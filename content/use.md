@@ -1,24 +1,20 @@
 +++
 title = "使用"
 description = "本頁顯示站長目前愛用的"
-date = "2026-08-11"
+date = "2026-08-30T18:53:00+08:00"
 aliases = ["use"]
 author = "黃宏勝" 
 +++
 
 ## 🖥️ 軟體
 ### 💾 作業系統
-- [Ubuntu Desktop 24.04 LTS](https://ubuntu.com/download/desktop) - [Framework Laptop 16](https://frame.work/tw/en/laptop16)，模組化筆電從主機板到 Wi-Fi 模組都可以自己換
+- [Ubuntu Desktop 24.04 LTS](https://ubuntu.com/download/desktop) - 裝在主力工作模組化筆電 [Framework Laptop 16](https://frame.work/tw/en/laptop16) 上
 
 ### 🌏 瀏覽器
 - [Brave](https://brave.com/) - 內建廣告封鎖、阻擋追蹤程式的瀏覽器，設定得當的話可以預防惡意網站的跳轉
 
 ### 🧮 瀏覽器插件
 - [News Feed Eradicator](https://chromewebstore.google.com/detail/news-feed-eradicator/fjcldmjmjhkklehbacihaiopjklihlgg?hl=en) - 可以封鎖各社群媒體平台上的動態資訊，尤其是那些被演算法才推給我的資訊，我根本不在乎，畢竟我用 Youtube 只為了看教學影片而已
-- [Block Site](https://chromewebstore.google.com/detail/block-site/nkedbnokglppcmiencngilkkhhnpcfjb) - 轟鎖網域，甚至還可以單獨封鎖 iframes，新版功能還可以用密碼上鎖
-
-### 🗓️ 行程管理
-- [GNOME Calendar](https://apps.gnome.org/Calendar/) - 最陽春的 GNOME 自家行事曆，反正我只要紀錄重大事件就行
 
 ### 📟 終端機相關工具
 - [Vim](https://www.vim.org/) - 最強的終端機編輯器沒有之一，豐富的快捷鍵能讓你手指不離開鍵盤也能完成任何事
@@ -36,7 +32,7 @@ author = "黃宏勝"
 - [TeX Live](https://tug.org/texlive/) - 在 Linux 上的 TeX 編譯器，可以搭配 VSCode 的插件編輯 Tex 檔案且在 local 端編譯，以前有一晚 Overleaf 網站掛掉時我正在趕報告，搞得我心急如焚所以才想到也必須有備援方案，建議把 Overleaf 上心儀的模板也備份一組到硬碟中
 
 ### 💬 通訊軟體
-- LINE - 在台灣跟親友聯絡以及很常用 Line Pay 所以還是得用，而在 Ubuntu 上安裝瀏覽器插件，網頁版官方說會關掉，但到現在還可以用，反正我就繼續用吧，到時沒了再轉回那 bug 超級多的 wine 模擬器
+- LINE - 在台灣跟親友聯絡以及很常用 Line Pay 所以還是得用，主要在 Ubuntu 上安裝瀏覽器插件，雖說官方已經公告網頁版要停止營運，但到現在還可以用，所以我就繼續用吧，到時沒了再轉回用那 bug 超級多的 wine 模擬器啟動
 
 ### 💻 網站製作
 - [Hugo](https://gohugo.io/) - 靜態網頁生成套件，搭配 CloudFlare Pages 作為部署空間就可以做出非常精美的網站了，本站就是用 Hugo 建置的
