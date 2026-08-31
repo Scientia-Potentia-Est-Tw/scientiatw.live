@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>回顧 on 黃宏勝的部落格 | hshuang.com</title>
-    <link>http://localhost:1313/tags/%E5%9B%9E%E9%A1%A7/</link>
+    <link>https://hshuang.com/tags/%E5%9B%9E%E9%A1%A7/</link>
     <description>Recent content in 回顧 on 黃宏勝的部落格 | hshuang.com</description>
     <generator>Hugo</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Thu, 27 Aug 2026 19:00:00 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/%E5%9B%9E%E9%A1%A7/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 31 Aug 2026 19:28:00 +0800</lastBuildDate>
+    <atom:link href="https://hshuang.com/tags/%E5%9B%9E%E9%A1%A7/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>2026 八月 回顧</title>
-      <link>http://localhost:1313/posts/august-2026-review/</link>
-      <pubDate>Thu, 27 Aug 2026 18:11:00 +0800</pubDate>
-      <guid>http://localhost:1313/posts/august-2026-review/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;&#34; alt=&#34;&#34;&gt;&lt;/p&gt;</description>
+      <title>2026 八月回顧</title>
+      <link>https://hshuang.com/posts/august-2026-review/</link>
+      <pubDate>Mon, 31 Aug 2026 19:27:00 +0800</pubDate>
+      <guid>https://hshuang.com/posts/august-2026-review/</guid>
+      <description>八月正午的陽光都沒你耀眼</description>
     </item>
   </channel>
 </rss>
