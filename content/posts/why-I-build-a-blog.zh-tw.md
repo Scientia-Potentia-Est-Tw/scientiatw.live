@@ -59,4 +59,4 @@ $$
 
 共勉之
 
-[^1]: 消息理論中的熵定義 - [https://secologies.com/entropy-information-theory/](https://secologies.com/entropy-information-theory/)
+[^1]: 消息理論中的熵定義 - [https://secologies.com/posts/entropy-information-theory/](https://secologies.com/posts/entropy-information-theory/)
