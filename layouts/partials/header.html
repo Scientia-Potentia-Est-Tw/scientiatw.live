@@ -4,7 +4,7 @@
     <div class="navbar-inner">
         <div class="container">
             <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"></button>
-            <a class="brand" href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a>
+            <a class="brand" href="{{ "/" | relLangURL }}">{{ .Site.Title }}</a>
             <div class="nav-collapse collapse">
                 <ul class="nav">
                     {{ $currentPage := . }}
@@ -32,6 +32,11 @@
                             </li>
                         {{ end }}
                     {{ end }}
+                    <li>
+                        <a href="#" id="randomPostBtn" data-random-json="{{ "posts/index.random.json" | relLangURL }}">
+                            <span>{{ i18n "randompost" }}</span>
+                        </a>
+                    </li>
                 </ul>
             </div>
         </div>

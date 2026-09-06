@@ -1,27 +1,132 @@
 baseURL = "https://hshuang.com"
-title = "黃宏勝的部落格 | hshuang.com"
-locale = "zh-tw"
-DefaultContentLanguage = "zh-tw" # Change this to change the site's language
-hasCJKLanguage = true
 theme = "hugo.386"
 preserveTaxonomyNames = true
+hasCJKLanguage = true
+
+# --- Multilingual setup ------------------------------------------------
+# zh-tw is the default language and keeps clean URLs (no "/zh-tw/" prefix).
+# Any other language (en) automatically gets its own URL prefix ("/en/…")
+# as soon as more than one [languages.*] block is defined below — that is
+# controlled by defaultContentLanguageInSubdir, which stays false so ONLY
+# the default language is prefix-free.
+defaultContentLanguage = "zh-tw"
+defaultContentLanguageInSubdir = false
+
+# Translations are matched by filename suffix, e.g.:
+#   content/posts/hello.md      -> zh-tw (default, no suffix needed)
+#   content/posts/hello.en.md   -> en
+# No contentDir split needed, so none of your existing content has to move.
+
+[languages]
+    [languages.zh-tw]
+        languageName = "繁體中文"
+        weight = 1
+        title = "黃宏勝的部落格 | hshuang.com"
+        [languages.zh-tw.params]
+            mainpagetitle = "HSHuang.com | 黃宏勝的部落格"
+            mainpagesubtitle = "思考、等待、齋戒、忍耐、傾聽"
+            mainpagedesc = ""
+            copyrightname = "黃宏勝"
+            copyrighturl = ""
+        [languages.zh-tw.params.copyright]
+            name = "黃宏勝"
+            url = ""
+            prefix = ""
+            suffix = ""
+        [[languages.zh-tw.menu.main]]
+            identifier = "posts"
+            name = "貼文"
+            url = "/posts/"
+            weight = 10
+        [[languages.zh-tw.menu.main]]
+            identifier = "about"
+            name = "關於"
+            url = "/about/"
+            weight = 20
+        [[languages.zh-tw.menu.main]]
+            identifier = "now"
+            name = "近況"
+            url = "/now/"
+            weight = 30
+        [[languages.zh-tw.menu.main]]
+            identifier = "bucket-list"
+            name = "人生清單"
+            url = "/bucket-list/"
+            weight = 40
+        [[languages.zh-tw.menu.main]]
+            identifier = "books"
+            name = "書單"
+            url = "/books/"
+            weight = 50
+        [[languages.zh-tw.menu.main]]
+            identifier = "use"
+            name = "使用"
+            url = "/use/"
+            weight = 60
+        [[languages.zh-tw.menu.main]]
+            identifier = "giveaway"
+            name = "贈物"
+            url = "/giveaway/"
+            weight = 70
+        [[languages.zh-tw.menu.main]]
+            identifier = "search"
+            name = "搜尋"
+            url = "/search/"
+            weight = 80
+
+    [languages.en]
+        languageName = "English"
+        weight = 2
+        title = "Hong-Sheng Huang's Blog | hshuang.com"
+        # TODO: translate these to taste — placeholders for now.
+        [languages.en.params]
+            mainpagetitle = "HSHuang.com | Hong-Sheng Huang's Blog"
+            mainpagesubtitle = "Think, Wait, Fast, Endure, Listen"
+            mainpagedesc = ""
+            copyrightname = "Hong-Sheng Huang"
+            copyrighturl = ""
+        [languages.en.params.copyright]
+            name = "Hung-Sheng Huang"
+            url = ""
+            prefix = ""
+            suffix = ""
+        #[[languages.en.menu.main]]
+        #    identifier = "posts"
+        #    name = "Posts"
+        #    url = "/en/posts/"
+        #    weight = 10
+        #[[languages.en.menu.main]]
+        #    identifier = "about"
+        #    name = "About"
+        #    url = "/en/about/"
+        #    weight = 20
+        #[[languages.en.menu.main]]
+        #    identifier = "now"
+        #    name = "Now"
+        #    url = "/en/now/"
+        #    weight = 30
+        #[[languages.en.menu.main]]
+        #    identifier = "bucket-list"
+        #    name = "Bucket List"
+        #    url = "/en/bucket-list/"
+        #    weight = 40
+        #[[languages.en.menu.main]]
+        #    identifier = "books"
+        #    name = "Books"
+        #    url = "/en/books/"
+        #    weight = 50
+        #[[languages.en.menu.main]]
+        #    identifier = "use"
+        #    name = "Use"
+        #    url = "/en/use/"
+        #    weight = 60
+        #[[languages.en.menu.main]]
+        #    identifier = "search"
+        #    name = "Search"
+        #    url = "/en/search/"
+        #    weight = 70
 
 [params]
-    # The name to display as main title in the home page
-    mainpagetitle = "HSHuang.com | 黃宏勝的部落格"
-
-    # The subtitle to display under the title in the home page
-    mainpagesubtitle = "思考、等待、齋戒、忍耐、傾聽" 
-
-    # The description of your website. It will be displayed in the home page
-    mainpagedesc = "2026/09/04：總算是畢業了，但畢業證書只用一個資料夾裝給我，大學的好歹還有燙金證書夾裝著..."
-
-    # The name to display in the copyright section in the footer
-    copyrightname = "黃宏勝"
-
-    # The url to use as link in the copyright name in the footer. Leave empty to use none.
-    copyrighturl = ""
-
     # Show the "built on Hugo" disclaimer
     showhugo = false
 
@@ -31,7 +136,12 @@ preserveTaxonomyNames = true
     linkedin = ""
     github = ""
     gitlab = ""
-    rss = "https://hshuang.com/index.xml"
+    # NOTE: params.rss was removed — the footer now links to each
+    # language's own feed automatically (see footer.html), since RSS
+    # feeds are per-language once a site is multilingual.
+    # NOTE: copyrightname / copyright.* were moved into each
+    # [languages.<lang>.params] block above so the copyright name can
+    # differ (or stay the same) per language — see zh-tw / en sections.
 
     # Enables or disables the loading animations. false activates them. Default is false.
     loadfastload = false
@@ -42,65 +152,20 @@ preserveTaxonomyNames = true
     # Enables or disables the second flyby cursor. Default is false.
     loadonepass = false
 
-[params.copyright]
-    name = "黃宏勝"
-
-    # The url to use as link in the copyright name in the footer. Leave empty to use none.
-    url = ""
-
-    # Text to go before copyright information
-    prefix = ""
-
-    # Text to go between copyright and hugo disclaimer (if enabled)
-    suffix = ""
-
-[menu]
-  # This displays buttons in the navbar to access your contents
-  [[menu.main]]
-    identifier = "posts"
-    name = "貼文"
-    url = "/posts/"       # The path can lead to a content folder too.
-    weight = 10
-    
-  [[menu.main]]
-    identifier = "about" # An unique identifier for the button
-    name = "關於"       # A display name for the button
-    url = "/about/"      # The path to the content. It can lead to a single page (like here)
-    weight = 20          # A number to order the buttons in the navbar
-    
-    [[menu.main]]
-    identifier = "now" # An unique identifier for the button
-    name = "近況"       # A display name for the button
-    url = "/now/"      # The path to the content. It can lead to a single page (like here)
-    weight = 30          # A number to order the buttons in the navbar
-    
-    [[menu.main]]
-    identifier = "bucket-list" # An unique identifier for the button
-    name = "人生清單"       # A display name for the button
-    url = "/bucket-list/"      # The path to the content. It can lead to a single page (like here)
-    weight = 40          # A number to order the buttons in the navbar
-
-    [[menu.main]]
-    identifier = "books" # An unique identifier for the button
-    name = "書單"       # A display name for the button
-    url = "/books/"      # The path to the content. It can lead to a single page (like here)
-    weight = 50          # A number to order the buttons in the navbar
-    
-    [[menu.main]]
-    identifier = "use" # An unique identifier for the button
-    name = "使用"       # A display name for the button
-    url = "/use/"      # The path to the content. It can lead to a single page (like here)
-    weight = 60          # A number to order the buttons in the navbar
-    
-    [[menu.main]]
-    identifier = "search" # An unique identifier for the button
-    name = "搜尋"       # A display name for the button
-    url = "/search/"      # The path to the content. It can lead to a single page (like here)
-    weight = 70          # A number to order the buttons in the navbar
-
 [taxonomies]
 category = "categories"
 tag = "tags"
+
+# --- Random-post button --------------------------------------------------
+# Produces posts/index.random.json (and en/posts/index.random.json) — a
+# tiny JSON list of {url,title} for every post, fetched only when the
+# "Random post" nav button is clicked (see header.html / footer.html).
+[outputFormats]
+    [outputFormats.RandomPosts]
+        mediaType = "application/json"
+        baseName = "index.random"
+        isPlainText = true
+        notAlternative = true
 
 [privacy]
 

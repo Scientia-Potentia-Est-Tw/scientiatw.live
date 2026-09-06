@@ -27,3 +27,6 @@ other = "Previous Post"
 
 [nextpost]
 other = "Next Post"
+
+[randompost]
+other = "Random Post"

@@ -37,7 +37,7 @@
     <div class="navbar-inner">
         <div class="container">
             <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"></button>
-            <a class="brand" href="https://hshuang.com/">黃宏勝的部落格 | hshuang.com</a>
+            <a class="brand" href="/">黃宏勝的部落格 | hshuang.com</a>
             <div class="nav-collapse collapse">
                 <ul class="nav">
                     
@@ -98,6 +98,15 @@
                     
                         
                             <li>
+                                <a href="/giveaway/">
+                                    
+                                    <span>贈物</span>
+                                </a>
+                            </li>
+                        
+                    
+                        
+                            <li>
                                 <a href="/search/">
                                     
                                     <span>搜尋</span>
@@ -105,11 +114,17 @@
                             </li>
                         
                     
+                    <li>
+                        <a href="#" id="randomPostBtn" data-random-json="/posts/index.random.json">
+                            <span>隨機文章</span>
+                        </a>
+                    </li>
                 </ul>
             </div>
         </div>
     </div>
-</nav><div id="content" class="container">
+</nav>
+<div id="content" class="container">
 
 
 
@@ -126,7 +141,7 @@
         <p class="lead">2017年圖靈獎得主的電腦科學家David A. Patterson分享了他這50年來從人生中學到的一些重要的事情</p>
         <div class="post-content">
             <p><img src="https://media.secologies.com/life-lessons-1-cover.webp" alt="life-lessons-1"></p>
-<p><a href="https://en.wikipedia.org/wiki/David_Patterson_(computer_scientist)">David A. Patterson</a>博士從UCLA PhD畢業後在UC Berkeley教學與研究了40年的系統設計，同時也協助許多公司的專案，之後幫助google實現AI加速硬體的關鍵基礎底層技術，而這些年來歸納出8件我們生活上應該注意的事情，此篇我先介紹前四件</p>
+<p><a href="https://en.wikipedia.org/wiki/David_Patterson_%28computer_scientist%29">David A. Patterson</a>博士從UCLA PhD畢業後在UC Berkeley教學與研究了40年的系統設計，同時也協助許多公司的專案，之後幫助google實現AI加速硬體的關鍵基礎底層技術，而這些年來歸納出8件我們生活上應該注意的事情，此篇我先介紹前四件</p>
 <h2 id="家人至上">家人至上！</h2>
 <p>博士認為不要犧牲自己家人的快樂來換取你職涯上的成功，早年David跟另一位同事時常在矽谷開完會已經是晚上了，便一起開車載同事回去，不過經常到家時已經過了與家人的晚餐時間，同事說如果這一切重來的話他寧願花更多的時間在家庭上</p>
 <p>當時的David並沒有想過這件事，他與妻子有兩個孩子要養，但同時他也參與許多的志工活動，David樂於將時間分散至各種有樂趣的活動以帶給他自己快樂，然而當他的孩子成長為青少年時卻抱怨說David從未出現在他們的成長過程當中，即便跟孩子解釋自己有很多事情要忙，然而對於12~18歲的青少年來說還是需要持續地接受來自家人的關愛與照護</p>
@@ -236,7 +251,8 @@
 
         </div><footer class="container">
     <hr class="soften">
-    <p>
+    <p class="footer-top-row">
+        <span class="copyright-text">
 &copy; 
 
     黃宏勝
@@ -244,7 +260,21 @@
 <span id="thisyear">2026</span>
 
 
-</p>
+</span>
+        
+        
+        
+        
+        <span class="lang-switcher">
+            
+                
+                
+                
+                <a href="/en/" class="lang-switch-link">English</a>
+            
+        </span>
+        
+    </p>
     <p class="text-center">
         
         
@@ -310,7 +340,43 @@
   });
 })();
 </script>
+    <script>
+(function () {
+  var btn = document.getElementById('randomPostBtn');
+  if (!btn) return;
+
+  btn.addEventListener('click', function (e) {
+    e.preventDefault();
+    var url = btn.getAttribute('data-random-json');
+    if (!url) return;
+
+    fetch(url)
+      .then(function (res) { return res.json(); })
+      .then(function (list) {
+        if (!list || !list.length) return;
+        var pick = list[Math.floor(Math.random() * list.length)];
+        if (pick && pick.url) window.location.href = pick.url;
+      })
+      .catch(function (err) {
+        console.error('Random post: could not load post list.', err);
+      });
+  });
+})();
+</script>
 </footer>
+
+<style>
+    .footer-top-row {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: baseline;
+        gap: 8px;
+    }
+    .lang-switch-link {
+        margin-left: 10px;
+    }
+</style>
 </body><link rel="stylesheet" href="/css/bootstrap.css">
 <link rel="stylesheet" href="/css/bootstrap-responsive.css">
 <link rel="stylesheet" href="/css/style.css">

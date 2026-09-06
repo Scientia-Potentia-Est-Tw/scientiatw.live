@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+    <title>Categories - Hong-Sheng Huang&#39;s Blog | hshuang.com</title>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+    <meta content="utf-8" http-equiv="encoding">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="theme-color" content="#000084" />
+    <link rel="icon" href="https://hshuang.com/img/favicon.png">
+    <link rel="canonical" href="https://hshuang.com/en/categories/">
+
+    
+    
+
+    
+
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Categories">
+    
+    <meta property="og:url" content="https://hshuang.com/en/categories/">
+    
+    <meta property="og:site_name" content="Hong-Sheng Huang&#39;s Blog | hshuang.com">
+
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Categories">
+    
+    
+
+    
+    
+    
+</head>
+<body>
+<nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="navbar-inner">
+        <div class="container">
+            <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"></button>
+            <a class="brand" href="/en/">Hong-Sheng Huang&#39;s Blog | hshuang.com</a>
+            <div class="nav-collapse collapse">
+                <ul class="nav">
+                    
+                    
+                    <li>
+                        <a href="#" id="randomPostBtn" data-random-json="/en/posts/index.random.json">
+                            <span>Random Post</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</nav>
+<div id="content" class="container">
+<article class="row-fluid navmargin">
+    <header class="page-header">
+        <h1>Categories</h1>
+    </header>
+    
+    
+</article>
+<ul>
+
+
+</ul>
+
+        </div><footer class="container">
+    <hr class="soften">
+    <p class="footer-top-row">
+        <span class="copyright-text">
+&copy; 
+
+    Hung-Sheng Huang
+
+<span id="thisyear">2026</span>
+
+
+</span>
+        
+        
+        
+        
+        <span class="lang-switcher">
+            
+                
+                
+                
+                    
+                
+                <a href="/categories/" class="lang-switch-link">繁體中文</a>
+            
+        </span>
+        
+    </p>
+    <p class="text-center">
+        
+        
+        
+        
+        
+        <a href="https://hshuang.com/en/index.xml">RSS</a>
+    </p>
+
+    
+    <script>
+(function () {
+  var refs = document.querySelectorAll('.footnote-ref');
+  if (!refs.length) return;
+
+  var tooltip = document.createElement('div');
+  tooltip.className = 'footnote-tooltip';
+  tooltip.style.display = 'none';
+  document.body.appendChild(tooltip);
+
+  function showTooltip(ref) {
+    var href = ref.getAttribute('href');
+    var id = decodeURIComponent(href.slice(1));   
+    var note = document.getElementById(id);        
+    if (!note) return;
+
+    var clone = note.cloneNode(true);
+    var backref = clone.querySelector('.footnote-backref');
+    if (backref) backref.remove();
+    tooltip.innerHTML = clone.innerHTML;
+
+    var rect = ref.getBoundingClientRect();
+    tooltip.style.display = 'block';
+    var top = rect.top + window.scrollY - tooltip.offsetHeight - 8;
+    var left = rect.left + window.scrollX - (tooltip.offsetWidth / 2) + (rect.width / 2);
+    left = Math.max(8, Math.min(left, window.innerWidth - tooltip.offsetWidth - 8));
+
+    tooltip.style.top = top + 'px';
+    tooltip.style.left = left + 'px';
+  }
+
+  function hideTooltip() {
+    tooltip.style.display = 'none';
+  }
+
+  refs.forEach(function (ref) {
+    ref.addEventListener('mouseenter', function () { showTooltip(ref); });
+    ref.addEventListener('mouseleave', hideTooltip);
+    ref.addEventListener('focus', function () { showTooltip(ref); });
+    ref.addEventListener('blur', hideTooltip);
+    ref.addEventListener('click', function (e) {
+      e.preventDefault();
+      if (tooltip.style.display === 'block') {
+        hideTooltip();
+      } else {
+        showTooltip(ref);
+      }
+    });
+  });
+
+  document.addEventListener('click', function (e) {
+    if (!e.target.closest('.footnote-ref')) hideTooltip();
+  });
+})();
+</script>
+    <script>
+(function () {
+  var btn = document.getElementById('randomPostBtn');
+  if (!btn) return;
+
+  btn.addEventListener('click', function (e) {
+    e.preventDefault();
+    var url = btn.getAttribute('data-random-json');
+    if (!url) return;
+
+    fetch(url)
+      .then(function (res) { return res.json(); })
+      .then(function (list) {
+        if (!list || !list.length) return;
+        var pick = list[Math.floor(Math.random() * list.length)];
+        if (pick && pick.url) window.location.href = pick.url;
+      })
+      .catch(function (err) {
+        console.error('Random post: could not load post list.', err);
+      });
+  });
+})();
+</script>
+</footer>
+
+<style>
+    .footer-top-row {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: baseline;
+        gap: 8px;
+    }
+    .lang-switch-link {
+        margin-left: 10px;
+    }
+</style>
+</body><link rel="stylesheet" href="/css/bootstrap.css">
+<link rel="stylesheet" href="/css/bootstrap-responsive.css">
+<link rel="stylesheet" href="/css/style.css">
+
+<script src="/js/jquery.js"></script>
+<script src="/js/bootstrap-386.js"></script>
+<script src="/js/bootstrap-transition.js"></script>
+<script src="/js/bootstrap-alert.js"></script>
+<script src="/js/bootstrap-modal.js"></script>
+<script src="/js/bootstrap-dropdown.js"></script>
+<script src="/js/bootstrap-scrollspy.js"></script>
+<script src="/js/bootstrap-tab.js"></script>
+<script src="/js/bootstrap-tooltip.js"></script>
+<script src="/js/bootstrap-popover.js"></script>
+<script src="/js/bootstrap-button.js"></script>
+<script src="/js/bootstrap-collapse.js"></script>
+<script src="/js/bootstrap-carousel.js"></script>
+<script src="/js/bootstrap-typeahead.js"></script>
+<script src="/js/bootstrap-affix.js"></script>
+<script>
+    _386 = { 
+        fastLoad: false ,
+        onePass: false , 
+        speedFactor: 1 
+    };
+
+    
+    function ThisYear() {
+        document.getElementById('thisyear').innerHTML = new Date().getFullYear();
+    };
+</script>
+</html>

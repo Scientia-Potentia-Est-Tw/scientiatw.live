@@ -63,8 +63,7 @@ author = "黃宏勝"
 - [清華大學開放式課程](https://ocw.nthu.edu.tw/ocw/index.php) - 清大建立的開放式課程平台，人文社會科學類的課程蠻豐富的
 
 ### 🗃 電子書平台
-- [Kobo](https://r10.to/hklN84) - 全球非常活躍的多語言電子書平台，滿足我需要繁體中文書以及英文書的需求，每日都有 99 元優惠
-- [讀墨](https://moo.im/a/1iknoH) - 台灣最大繁體中文電子書平台，常常會有一些閱讀馬拉松活動，也有每日優惠但價格會跟出版社討論所以有時是 99 元但也可能 99 元以上
+- [Kobo](https://r10.to/hklN84) - 市占率非常高的電子書平台，滿足我需要繁體中文書以及英文書的需求，每日都有 99 元優惠。而且可以下載電子書，再用工具把 DRM 去掉儲存在我的電腦上
 
 ## 🎶 音樂相關
 - [YAMAHA P-125a](https://tw.yamaha.com/zh/products/musical_instruments/pianos/p_series/p-125a/index.html) - 我主要練琴用的數位電鋼琴

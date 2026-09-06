@@ -35,7 +35,7 @@
     <div class="navbar-inner">
         <div class="container">
             <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"></button>
-            <a class="brand" href="https://hshuang.com/">黃宏勝的部落格 | hshuang.com</a>
+            <a class="brand" href="/">黃宏勝的部落格 | hshuang.com</a>
             <div class="nav-collapse collapse">
                 <ul class="nav">
                     
@@ -96,6 +96,15 @@
                     
                         
                             <li>
+                                <a href="/giveaway/">
+                                    
+                                    <span>贈物</span>
+                                </a>
+                            </li>
+                        
+                    
+                        
+                            <li>
                                 <a href="/search/">
                                     
                                     <span>搜尋</span>
@@ -103,11 +112,17 @@
                             </li>
                         
                     
+                    <li>
+                        <a href="#" id="randomPostBtn" data-random-json="/posts/index.random.json">
+                            <span>隨機文章</span>
+                        </a>
+                    </li>
                 </ul>
             </div>
         </div>
     </div>
-</nav><div id="content" class="container">
+</nav>
+<div id="content" class="container">
 <article class="row-fluid navmargin">
     <header class="page-header">
         <h1>病識感</h1>
@@ -126,7 +141,8 @@
 
         </div><footer class="container">
     <hr class="soften">
-    <p>
+    <p class="footer-top-row">
+        <span class="copyright-text">
 &copy; 
 
     黃宏勝
@@ -134,7 +150,21 @@
 <span id="thisyear">2026</span>
 
 
-</p>
+</span>
+        
+        
+        
+        
+        <span class="lang-switcher">
+            
+                
+                
+                
+                <a href="/en/" class="lang-switch-link">English</a>
+            
+        </span>
+        
+    </p>
     <p class="text-center">
         
         
@@ -200,7 +230,43 @@
   });
 })();
 </script>
+    <script>
+(function () {
+  var btn = document.getElementById('randomPostBtn');
+  if (!btn) return;
+
+  btn.addEventListener('click', function (e) {
+    e.preventDefault();
+    var url = btn.getAttribute('data-random-json');
+    if (!url) return;
+
+    fetch(url)
+      .then(function (res) { return res.json(); })
+      .then(function (list) {
+        if (!list || !list.length) return;
+        var pick = list[Math.floor(Math.random() * list.length)];
+        if (pick && pick.url) window.location.href = pick.url;
+      })
+      .catch(function (err) {
+        console.error('Random post: could not load post list.', err);
+      });
+  });
+})();
+</script>
 </footer>
+
+<style>
+    .footer-top-row {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: baseline;
+        gap: 8px;
+    }
+    .lang-switch-link {
+        margin-left: 10px;
+    }
+</style>
 </body><link rel="stylesheet" href="/css/bootstrap.css">
 <link rel="stylesheet" href="/css/bootstrap-responsive.css">
 <link rel="stylesheet" href="/css/style.css">

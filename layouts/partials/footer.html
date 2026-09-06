@@ -1,7 +1,26 @@
 <footer class="container">
     <hr class="soften">
-    <p>
-        {{- partial "copyright.html" . -}}
+    <p class="footer-top-row">
+        <span class="copyright-text">
+            {{- partial "copyright.html" . -}}
+        </span>
+        {{/* Language switcher: one link per *other* language, landing on the
+             translated version of the current page when one exists,
+             otherwise that language's home page. */}}
+        {{ $cur := .Language.Lang }}
+        {{ $others := where .Site.Sites "Language.Lang" "ne" $cur }}
+        {{ if $others }}
+        <span class="lang-switcher">
+            {{ range $others }}
+                {{ $siteLang := .Language.Lang }}
+                {{ $target := .Home.RelPermalink }}
+                {{ range $.Translations }}
+                    {{ if eq .Language.Lang $siteLang }}{{ $target = .RelPermalink }}{{ end }}
+                {{ end }}
+                <a href="{{ $target }}" class="lang-switch-link">{{ .Language.LanguageName | default $siteLang }}</a>
+            {{ end }}
+        </span>
+        {{ end }}
     </p>
     <p class="text-center">
         {{ with .Site.Params.facebook }}<a href="{{ . }}">Facebook</a> {{ end }}
@@ -9,7 +28,7 @@
         {{ with .Site.Params.linkedin }}<a href="{{ . }}">Linkedin</a> {{ end }}
         {{ with .Site.Params.github }}<a href="{{ . }}">GitHub</a> {{ end }}
         {{ with .Site.Params.gitlab }}<a href="{{ . }}">GitLab</a>{{ end }}
-        {{ with .Site.Params.rss }}<a href="{{ . }}">RSS</a>{{ end }}
+        {{ with .Site.Home.OutputFormats.Get "rss" }}<a href="{{ .Permalink }}">RSS</a>{{ end }}
     </p>
 
     {{ if .Page.Store.Get "hasMermaid" }}
@@ -73,4 +92,40 @@
   });
 })();
 </script>
+    <script>
+(function () {
+  var btn = document.getElementById('randomPostBtn');
+  if (!btn) return;
+
+  btn.addEventListener('click', function (e) {
+    e.preventDefault();
+    var url = btn.getAttribute('data-random-json');
+    if (!url) return;
+
+    fetch(url)
+      .then(function (res) { return res.json(); })
+      .then(function (list) {
+        if (!list || !list.length) return;
+        var pick = list[Math.floor(Math.random() * list.length)];
+        if (pick && pick.url) window.location.href = pick.url;
+      })
+      .catch(function (err) {
+        console.error('Random post: could not load post list.', err);
+      });
+  });
+})();
+</script>
 </footer>
+
+<style>
+    .footer-top-row {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: baseline;
+        gap: 8px;
+    }
+    .lang-switch-link {
+        margin-left: 10px;
+    }
+</style>

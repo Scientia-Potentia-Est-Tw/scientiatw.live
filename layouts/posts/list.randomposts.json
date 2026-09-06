@@ -1,0 +1,5 @@
+{{- $items := slice -}}
+{{- range .Pages -}}
+    {{- $items = $items | append (dict "url" .RelPermalink "title" .Title) -}}
+{{- end -}}
+{{- $items | jsonify -}}

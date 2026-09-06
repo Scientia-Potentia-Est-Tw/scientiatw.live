@@ -27,3 +27,6 @@ other = "上一篇"
 
 [nextpost]
 other = "下一篇"
+
+[randompost]
+other = "隨機文章"
