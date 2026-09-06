@@ -31,8 +31,8 @@ author = "黃宏勝"
 | ❌ | 取得碩士學位 |  |
 | ✅ | 將 E-mail 收件夾裡沒用的促銷或電子報通通退掉跟刪除 | 把目前經常用的服務信箱通通換到我的商業信箱裡，開始慢慢從 Google Gmail 退出，而其他沒在用的服務也退出訂閱了 |
 | ✅ | 把電腦跟手機裡沒用的 APP 刪掉 | notion 作為資料庫跟看板確實不錯，但功能實在太複雜了，對我工作上來說是個阻礙，所以還是刪了 |
-| ✅ | 參加 IACR RWC 研討會 | [IACR RWC 2026 參與心得](https://secologies.com/zh/iacr-rwc-2026-experience/)  |
-| ✅ | 參加 IACR PQCrypto 研討會 | [PQCrypto 2025 參加心得](https://secologies.com/zh/pqcrypto-2025-conference-experience/) |
+| ✅ | 參加 IACR RWC 研討會 | [IACR RWC 2026 參與心得](https://secologies.com/posts/iacr-rwc-2026-experience/)  |
+| ✅ | 參加 IACR PQCrypto 研討會 | [PQCrypto 2025 參加心得](https://secologies.com/posts/pqcrypto-2025-conference-experience/) |
 
 ## 學習
 | 狀態  | 目標 | 進度    |
