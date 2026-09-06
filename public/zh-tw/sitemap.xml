@@ -31,6 +31,9 @@
                 href="https://hshuang.com/categories/"
                 />
   </url><url>
+    <loc>https://hshuang.com/tags/index/</loc>
+    <lastmod>2026-09-05T15:03:00+08:00</lastmod>
+  </url><url>
     <loc>https://hshuang.com/tags/</loc>
     <lastmod>2026-09-05T15:03:00+08:00</lastmod>
     <xhtml:link
@@ -51,6 +54,9 @@
     <lastmod>2026-09-05T15:03:00+08:00</lastmod>
   </url><url>
     <loc>https://hshuang.com/categories/%E7%94%9F%E6%B4%BB/</loc>
+    <lastmod>2026-09-05T15:03:00+08:00</lastmod>
+  </url><url>
+    <loc>https://hshuang.com/posts/</loc>
     <lastmod>2026-09-05T15:03:00+08:00</lastmod>
   </url><url>
     <loc>https://hshuang.com/posts/september-2026-small-talk-1/</loc>
@@ -526,9 +532,6 @@
   </url><url>
     <loc>https://hshuang.com/tags/%E5%84%AA%E9%85%AA/</loc>
     <lastmod>2025-12-31T13:35:00+08:00</lastmod>
-  </url><url>
-    <loc>https://hshuang.com/posts/</loc>
-    <lastmod>2025-12-26T16:02:00+08:00</lastmod>
   </url><url>
     <loc>https://hshuang.com/tags/cloudflare/</loc>
     <lastmod>2026-01-03T11:22:00+08:00</lastmod>
