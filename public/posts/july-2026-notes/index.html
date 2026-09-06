@@ -115,7 +115,7 @@
                         
                     
                     <li>
-                        <a href="#" id="randomPostBtn" data-random-json="/posts/index.random.json">
+                        <a href="#" class="random-post-btn" data-random-json="/posts/index.random.json">
                             <span>隨機文章</span>
                         </a>
                     </li>
@@ -155,7 +155,12 @@
 <p>根本沒告知我相關的設定，雖說是為了防詐，但好歹也跳出來讓我設定吧，這也是我超級不喜歡工作上使用 Line 的原因，誰知道下一次這間公司又搞什麼花樣導致我漏接重要的訊息。</p>
 
         </div>
-        <h4><a href="https://hshuang.com/">返回首頁</a></h4>
+        <h4 class="post-end-links">
+            <a href="/">返回首頁</a>
+            <a href="#" class="random-post-btn" data-random-json="/posts/index.random.json">
+                隨機文章
+            </a>
+        </h4>
 
         <ul class="pager">
             
@@ -217,6 +222,12 @@
     </div>
     
 </div>
+
+<style>
+    .post-end-links a {
+        margin-right: 20px;
+    }
+</style>
 
 
         </div><footer class="container">
@@ -312,24 +323,26 @@
 </script>
     <script>
 (function () {
-  var btn = document.getElementById('randomPostBtn');
-  if (!btn) return;
+  var btns = document.querySelectorAll('.random-post-btn');
+  if (!btns.length) return;
 
-  btn.addEventListener('click', function (e) {
-    e.preventDefault();
-    var url = btn.getAttribute('data-random-json');
-    if (!url) return;
+  btns.forEach(function (btn) {
+    btn.addEventListener('click', function (e) {
+      e.preventDefault();
+      var url = btn.getAttribute('data-random-json');
+      if (!url) return;
 
-    fetch(url)
-      .then(function (res) { return res.json(); })
-      .then(function (list) {
-        if (!list || !list.length) return;
-        var pick = list[Math.floor(Math.random() * list.length)];
-        if (pick && pick.url) window.location.href = pick.url;
-      })
-      .catch(function (err) {
-        console.error('Random post: could not load post list.', err);
-      });
+      fetch(url)
+        .then(function (res) { return res.json(); })
+        .then(function (list) {
+          if (!list || !list.length) return;
+          var pick = list[Math.floor(Math.random() * list.length)];
+          if (pick && pick.url) window.location.href = pick.url;
+        })
+        .catch(function (err) {
+          console.error('Random post: could not load post list.', err);
+        });
+    });
   });
 })();
 </script>

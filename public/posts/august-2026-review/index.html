@@ -115,7 +115,7 @@
                         
                     
                     <li>
-                        <a href="#" id="randomPostBtn" data-random-json="/posts/index.random.json">
+                        <a href="#" class="random-post-btn" data-random-json="/posts/index.random.json">
                             <span>隨機文章</span>
                         </a>
                     </li>
@@ -161,7 +161,12 @@
 ，網路上⼀堆⽂章寫台灣氣候溼熱一年四季都要開除濕。不過我看了看我的房間格局，小的可憐，我連走動都要挪開雜物才能出去，還要擺⼀台家電折磨⾃⼰？總之先買了⼀塊濕度計，測量了關窗還不到 70% 濕度，開窗才會到 80%；然而最近⽀出有點多，看了看我的錢包，想都不用想夏天我先靠冷氣除濕唄，等雙 11 再來考慮要怎麼⾯對冬天</p>
 
         </div>
-        <h4><a href="https://hshuang.com/">返回首頁</a></h4>
+        <h4 class="post-end-links">
+            <a href="/">返回首頁</a>
+            <a href="#" class="random-post-btn" data-random-json="/posts/index.random.json">
+                隨機文章
+            </a>
+        </h4>
 
         <ul class="pager">
             
@@ -175,6 +180,12 @@
 
     
 </div>
+
+<style>
+    .post-end-links a {
+        margin-right: 20px;
+    }
+</style>
 
 
         </div><footer class="container">
@@ -270,24 +281,26 @@
 </script>
     <script>
 (function () {
-  var btn = document.getElementById('randomPostBtn');
-  if (!btn) return;
+  var btns = document.querySelectorAll('.random-post-btn');
+  if (!btns.length) return;
 
-  btn.addEventListener('click', function (e) {
-    e.preventDefault();
-    var url = btn.getAttribute('data-random-json');
-    if (!url) return;
+  btns.forEach(function (btn) {
+    btn.addEventListener('click', function (e) {
+      e.preventDefault();
+      var url = btn.getAttribute('data-random-json');
+      if (!url) return;
 
-    fetch(url)
-      .then(function (res) { return res.json(); })
-      .then(function (list) {
-        if (!list || !list.length) return;
-        var pick = list[Math.floor(Math.random() * list.length)];
-        if (pick && pick.url) window.location.href = pick.url;
-      })
-      .catch(function (err) {
-        console.error('Random post: could not load post list.', err);
-      });
+      fetch(url)
+        .then(function (res) { return res.json(); })
+        .then(function (list) {
+          if (!list || !list.length) return;
+          var pick = list[Math.floor(Math.random() * list.length)];
+          if (pick && pick.url) window.location.href = pick.url;
+        })
+        .catch(function (err) {
+          console.error('Random post: could not load post list.', err);
+        });
+    });
   });
 })();
 </script>
