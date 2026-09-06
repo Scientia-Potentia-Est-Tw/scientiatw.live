@@ -25,7 +25,7 @@ defaultContentLanguageInSubdir = false
         [languages.zh-tw.params]
             mainpagetitle = "HSHuang.com | 黃宏勝的部落格"
             mainpagesubtitle = "思考、等待、齋戒、忍耐、傾聽"
-            mainpagedesc = ""
+            mainpagedesc = "2026/09/06: 想換到 GrapheneOS 上了"
             copyrightname = "黃宏勝"
             copyrighturl = ""
         [languages.zh-tw.params.copyright]
@@ -81,12 +81,12 @@ defaultContentLanguageInSubdir = false
         # TODO: translate these to taste — placeholders for now.
         [languages.en.params]
             mainpagetitle = "HSHuang.com | Hong-Sheng Huang's Blog"
-            mainpagesubtitle = "Think, Wait, Fast, Endure, Listen"
+            mainpagesubtitle = "Thinking、Waiting、Fasting、Patience、Listening"
             mainpagedesc = ""
             copyrightname = "Hong-Sheng Huang"
             copyrighturl = ""
         [languages.en.params.copyright]
-            name = "Hung-Sheng Huang"
+            name = "Hong-Sheng Huang"
             url = ""
             prefix = ""
             suffix = ""
